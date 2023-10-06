@@ -6,6 +6,6 @@ This page contains open issues tagged with the label *good first issue*. It gath
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
-{% for result in results %}
+{% for result in results -%}
 | {{result.repo}} | {{result.language}} | [{{result.title}}]({{result.url}}) | {{result.comments}} |
 {% endfor %}
