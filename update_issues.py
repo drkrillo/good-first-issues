@@ -27,7 +27,6 @@ usernames = [
     'colinhacks',
     'godotengine',
     'MichaelBarney',
-    'date-fns',
     'denoland',
     'nukeop',
 ]
