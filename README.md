@@ -12,6 +12,7 @@ If you are just starting your journey in contributing to open-source projects, t
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
 | opencv | C++ | [darknet crop layer missing implementation](https://github.com/opencv/opencv/issues/22747) | 10 |
+| godot | C++ | [PointLight2D doesn't respect Nearest texture filter for normal-maps or shadows](https://github.com/godotengine/godot/issues/76266) | 11 |
 | godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 128 |
 | opencv_contrib | C++ | [selectROI pointer almost invisible on certain colours](https://github.com/opencv/opencv_contrib/issues/1719) | 14 |
 | godot | C++ | [Android export error when deleting the default icon.png](https://github.com/godotengine/godot/issues/39218) | 2 |
@@ -28,7 +29,6 @@ If you are just starting your journey in contributing to open-source projects, t
 | godot | C++ | [Font Outline gaps won't close up when Outline size is increased](https://github.com/godotengine/godot/issues/54214) | 7 |
 | godot | C++ | [Particles editor plugin generate emission point from mesh file broken](https://github.com/godotengine/godot/issues/33099) | 7 |
 | opencv_contrib | C++ | [reg: broken python sample](https://github.com/opencv/opencv_contrib/issues/1935) | 8 |
-| godot | C++ | [PointLight2D doesn't respect Nearest texture filter for normal-maps or shadows](https://github.com/godotengine/godot/issues/76266) | 8 |
 | pylibssh | Cython | [[BUG] Flaky `tests/unit/sftp_test.py::test_put`](https://github.com/ansible/pylibssh/issues/351) | 0 |
 | pylibssh | Cython | [Stop building manylinux1 wheels (eventually)](https://github.com/ansible/pylibssh/issues/324) | 2 |
 | emacs-gdscript-mode | Emacs Lisp | [Rewrite gdscript-imenu to provide GDScript-specific tables](https://github.com/godotengine/emacs-gdscript-mode/issues/89) | 0 |
@@ -67,6 +67,7 @@ If you are just starting your journey in contributing to open-source projects, t
 | djangoproject.com | PostScript | [Make right sidebar independent from main content](https://github.com/django/djangoproject.com/issues/1366) | 9 |
 | djangoproject.com | PostScript | [Add Click to copy text for commands present in the official Django website.](https://github.com/django/djangoproject.com/issues/1276) | 9 |
 | awx | Python | [[ui_next] Add All/Any workflow viz indication to Workflow Viz Legend/Key](https://github.com/ansible/awx/issues/9791) | 0 |
+| pandas | Python | [DOC: Move bug fixes in whatsnew for 2.2.0 into the appropriate subsection](https://github.com/pandas-dev/pandas/issues/55436) | 1 |
 | pandas | Python | [DOC: document optional arguments on plot submethods](https://github.com/pandas-dev/pandas/issues/11042) | 1 |
 | pandas-stubs | Python | [Change `to_dict` to use `MutableMapping` instead of `Mapping`](https://github.com/pandas-dev/pandas-stubs/issues/784) | 1 |
 | pandas-stubs | Python | [new `.map` method of `pd.DataFrame` and `mypy`](https://github.com/pandas-dev/pandas-stubs/issues/774) | 1 |
@@ -94,7 +95,6 @@ If you are just starting your journey in contributing to open-source projects, t
 | pandas | Python | [DOC: improve docs for broadcasting behavior](https://github.com/pandas-dev/pandas/issues/18857) | 12 |
 | pandas | Python | [DOC: section on caveats of storing lists inside DataFrame/Series](https://github.com/pandas-dev/pandas/issues/17027) | 12 |
 | pandas | Python | [ERR: Categoricals should not allow non-strings when an object dtype is passed](https://github.com/pandas-dev/pandas/issues/13919) | 12 |
-| pandas | Python | [DOC: Issue triage updates](https://github.com/pandas-dev/pandas/issues/55311) | 13 |
 | pandas | Python | [DOC: 404 Error when trying to switch doc versions from 1.4.4 version page](https://github.com/pandas-dev/pandas/issues/53286) | 13 |
 | pandas | Python | [STYLE replace flake8-rst with something maintained](https://github.com/pandas-dev/pandas/issues/46865) | 13 |
 | pandas | Python | [Indexing on series where index is output from pd.cut ](https://github.com/pandas-dev/pandas/issues/27437) | 13 |
@@ -119,6 +119,7 @@ If you are just starting your journey in contributing to open-source projects, t
 | pandas | Python | [DOC: DataFrame.groupy.agg with a list of tuples](https://github.com/pandas-dev/pandas/issues/18220) | 2 |
 | pandas | Python | [DOC: nice links / examples for setting with copy & aggregation](https://github.com/pandas-dev/pandas/issues/17505) | 2 |
 | pandas-stubs | Python | [`pd.RangeIndex` should accept `range` as the first argument](https://github.com/pandas-dev/pandas-stubs/issues/677) | 2 |
+| ansible-documentation | Python | [Broken link in Contributor path page](https://github.com/ansible/ansible-documentation/issues/537) | 2 |
 | ansible-navigator | Python | [Switch to the use of `pathlib` where possible](https://github.com/ansible/ansible-navigator/issues/697) | 2 |
 | awx | Python | [AWX Credential Create: ssh_key_data fails to detect/sanitize newlines in keys and 500's with no useable output](https://github.com/ansible/awx/issues/14219) | 2 |
 | awx | Python | [Issue label for incompliance with Ansible](https://github.com/ansible/awx/issues/13272) | 2 |
@@ -156,17 +157,16 @@ If you are just starting your journey in contributing to open-source projects, t
 | pandas | Python | [DOC: pivot function](https://github.com/pandas-dev/pandas/issues/16578) | 4 |
 | pandas | Python | [BUG: need to block split when filling na](https://github.com/pandas-dev/pandas/issues/14407) | 4 |
 | pandas | Python | [Misaligned shared axes between timeseries plots of different frequency.](https://github.com/pandas-dev/pandas/issues/11574) | 4 |
-| pandas | Python | [DOC: splitting the IO docs into separate pages](https://github.com/pandas-dev/pandas/issues/10446) | 4 |
 | ansible-documentation | Python | [Update collection requirements links](https://github.com/ansible/ansible-documentation/issues/78) | 4 |
 | awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 4 |
 | awx | Python | [Docker install instructions do not mention how to add awx-logos](https://github.com/ansible/awx/issues/11593) | 4 |
 | awx | Python | [RFE : send tower log to graylog without using logstash](https://github.com/ansible/awx/issues/1309) | 4 |
 | pandas | Python | [Fix capitalization among headings in documentation files](https://github.com/pandas-dev/pandas/issues/32550) | 46 |
 | pandas | Python | [Various methods don't call call __finalize__](https://github.com/pandas-dev/pandas/issues/28283) | 47 |
-| pandas | Python | [BUG: MultiIndex.levels[x] of sliced DataFrame returns values from the non-sliced index](https://github.com/pandas-dev/pandas/issues/55148) | 5 |
 | pandas | Python | [BUG: Creating Index name using `names` names argument, doesn't set index name](https://github.com/pandas-dev/pandas/issues/19082) | 5 |
 | pandas | Python | [cannot get cut() to display desired bins label](https://github.com/pandas-dev/pandas/issues/15357) | 5 |
 | pandas | Python | [DOC: floating point precision on writing/reading to csv](https://github.com/pandas-dev/pandas/issues/13159) | 5 |
+| pandas | Python | [DOC: splitting the IO docs into separate pages](https://github.com/pandas-dev/pandas/issues/10446) | 5 |
 | pandas | Python | [WEB: Better management of releases in the pandas home page](https://github.com/pandas-dev/pandas/issues/50885) | 6 |
 | pandas | Python | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 6 |
 | pandas | Python | [Non-inclusive partial string indexing on DatetimeIndex](https://github.com/pandas-dev/pandas/issues/16571) | 6 |
