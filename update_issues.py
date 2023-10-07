@@ -23,7 +23,13 @@ usernames = [
     'includeos',
     'xbmc',
     'monero-project',
-    ''
+    'StanGirard',
+    'colinhacks',
+    'godotengine',
+    'MichaelBarney',
+    'date-fns',
+    'denoland',
+    'nukeop',
 ]
 
 
