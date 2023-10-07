@@ -22,7 +22,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-      - name: Run Jinja2 script
+      - name: Run Python script
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: python update_issues.py
       - name: Commit and push
         run: |
