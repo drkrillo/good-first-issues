@@ -8,7 +8,7 @@ from jinja2 import Environment, FileSystemLoader
 
 
 load_dotenv()
-access_token = os.environ.get('GITHUB_ACCESS_TOKEN')
+access_token = os.environ.get('ACCESS_TOKEN')
 
 usernames = [
     "pandas-dev",
