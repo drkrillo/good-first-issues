@@ -53,7 +53,7 @@ def main():
         except Exception as e:
             print(e)
 
-        results = sorted(results, key=lambda x: (x['commants'], x['language']))
+        results = sorted(results, key=lambda x: (x['comments'], x['language']))
         env = Environment(loader=FileSystemLoader('templates'))
         template = env.get_template('README.md.j2')
 
