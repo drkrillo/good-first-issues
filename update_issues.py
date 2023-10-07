@@ -19,6 +19,11 @@ usernames = [
     'tensorflow'
     'pytorch',
     'opencv',
+    'CNTK',
+    'includeos',
+    'xbmc',
+    'monero-project',
+    ''
 ]
 
 
