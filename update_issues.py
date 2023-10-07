@@ -64,7 +64,7 @@ def main():
         env = Environment(loader=FileSystemLoader('templates'))
         template = env.get_template('README.md.j2')
 
-        today = str(datetime.datetime.today().strftime('%Y-%m-&d'))
+        today = str(datetime.datetime.today().strftime('%Y-%m-%d'))
 
         rendered_readme = template.render(results=results, today=today)
 
