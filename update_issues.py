@@ -68,7 +68,9 @@ def main():
         env = Environment(loader=FileSystemLoader('templates'))
         template = env.get_template('README.md.j2')
 
-        rendered_readme = template.render(results=results)
+        today = str(datetime.datetime.today())
+
+        rendered_readme = template.render(results=results, today=today)
 
         with open("README.md", "w+") as f:
             f.write(rendered_readme)
