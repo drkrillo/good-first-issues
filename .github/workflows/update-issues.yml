@@ -1,0 +1,32 @@
+# .github/workflows/update-readme.yml
+
+name: "Update Good First Issues README"
+
+on:
+  schedule:
+    - cron: '15 20 * * *'  # runs every 6 hours at 15 minutes past the hour - change as needed
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  update-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v3
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Run Jinja2 script
+        run: python update_issues.py
+      - name: Commit and push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add README.md
+          git commit -m "Update README.md with dynamic content"
+          git push origin main
