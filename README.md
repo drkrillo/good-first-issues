@@ -12,8 +12,8 @@ If you are just starting your journey in contributing to open-source projects, t
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
 | opencv | C++ | [darknet crop layer missing implementation](https://github.com/opencv/opencv/issues/22747) | 10 |
-| opencv_contrib | C++ | [selectROI pointer almost invisible on certain colours](https://github.com/opencv/opencv_contrib/issues/1719) | 14 |
 | opencv | C++ | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 4 |
+| opencv_contrib | C++ | [selectROI pointer almost invisible on certain colours](https://github.com/opencv/opencv_contrib/issues/1719) | 14 |
 | opencv_contrib | C++ | [reg: broken python sample](https://github.com/opencv/opencv_contrib/issues/1935) | 8 |
 | pylibssh | Cython | [[BUG] Flaky `tests/unit/sftp_test.py::test_put`](https://github.com/ansible/pylibssh/issues/351) | 0 |
 | pylibssh | Cython | [Stop building manylinux1 wheels (eventually)](https://github.com/ansible/pylibssh/issues/324) | 2 |
@@ -45,12 +45,12 @@ If you are just starting your journey in contributing to open-source projects, t
 | djangoproject.com | PostScript | [Use noindex meta tag or header, not robots.txt, to block untranslated docs pages](https://github.com/django/djangoproject.com/issues/877) | 7 |
 | djangoproject.com | PostScript | [Make right sidebar independent from main content](https://github.com/django/djangoproject.com/issues/1366) | 9 |
 | djangoproject.com | PostScript | [Add Click to copy text for commands present in the official Django website.](https://github.com/django/djangoproject.com/issues/1276) | 9 |
-| awx | Python | [[ui_next] Add All/Any workflow viz indication to Workflow Viz Legend/Key](https://github.com/ansible/awx/issues/9791) | 0 |
-| pandas | Python | [DOC: document optional arguments on plot submethods](https://github.com/pandas-dev/pandas/issues/11042) | 1 |
-| pandas-stubs | Python | [Change `to_dict` to use `MutableMapping` instead of `Mapping`](https://github.com/pandas-dev/pandas-stubs/issues/784) | 1 |
-| pandas-stubs | Python | [new `.map` method of `pd.DataFrame` and `mypy`](https://github.com/pandas-dev/pandas-stubs/issues/774) | 1 |
 | ansible-builder | Python | [Use COPY not ADD in the builder examples](https://github.com/ansible/ansible-builder/issues/607) | 1 |
+| ansible-documentation | Python | [Update collection requirements links](https://github.com/ansible/ansible-documentation/issues/78) | 4 |
 | ansible-navigator | Python | [Many params missing change after initial = False](https://github.com/ansible/ansible-navigator/issues/423) | 1 |
+| ansible-navigator | Python | [Switch to the use of `pathlib` where possible](https://github.com/ansible/ansible-navigator/issues/697) | 2 |
+| ansible-navigator | Python | [Allow to set ansible-runner artifacts dir ID ](https://github.com/ansible/ansible-navigator/issues/521) | 6 |
+| awx | Python | [[ui_next] Add All/Any workflow viz indication to Workflow Viz Legend/Key](https://github.com/ansible/awx/issues/9791) | 0 |
 | awx | Python | [Scheduled Job prompted extra_vars overwritten by JT extra_vars](https://github.com/ansible/awx/issues/14445) | 1 |
 | awx | Python | [Worker failed to run task awx.main.tasks.system.purge_old_stdout_files](https://github.com/ansible/awx/issues/11903) | 1 |
 | awx | Python | [Inaccurate error handling on Input Group Integer fields (i.e. Org Max Hosts field)](https://github.com/ansible/awx/issues/8556) | 1 |
@@ -58,13 +58,38 @@ If you are just starting your journey in contributing to open-source projects, t
 | awx | Python | [weekly dashboard view does not have sufficient granularity](https://github.com/ansible/awx/issues/3060) | 1 |
 | awx | Python | [RFE: Send real client remote address in TACACS+ authentication packet](https://github.com/ansible/awx/issues/1797) | 1 |
 | awx | Python | [Making Host name clickable for more info in Job output modal.](https://github.com/ansible/awx/issues/791) | 1 |
+| awx | Python | [Add support for syslog for external logging](https://github.com/ansible/awx/issues/1083) | 10 |
+| awx | Python | [AWX Credential Create: ssh_key_data fails to detect/sanitize newlines in keys and 500's with no useable output](https://github.com/ansible/awx/issues/14219) | 2 |
+| awx | Python | [Issue label for incompliance with Ansible](https://github.com/ansible/awx/issues/13272) | 2 |
+| awx | Python | [New credentials type to provide VAULT_ADDR and VAULT_TOKEN env vars](https://github.com/ansible/awx/issues/13117) | 2 |
+| awx | Python | [Add "nodes" to "Relaunch on" when relaunching jobs after failure - users think it relates to failed tasks and not nodes](https://github.com/ansible/awx/issues/12438) | 2 |
+| awx | Python | [Expose the value of "Execution Node" as a variable when running a job from Ansible Tower.](https://github.com/ansible/awx/issues/8122) | 2 |
+| awx | Python | [Jobs canceled before starting should not show a "finished" time](https://github.com/ansible/awx/issues/3988) | 2 |
+| awx | Python | [Make Info Metrics more easy to query](https://github.com/ansible/awx/issues/3781) | 2 |
+| awx | Python | [Improve Slack Notification Error Handling](https://github.com/ansible/awx/issues/1048) | 2 |
+| awx | Python | [Add ability to know which Organization Job is related for](https://github.com/ansible/awx/issues/961) | 2 |
+| awx | Python | [Integrated notifications with Microsoft Teams](https://github.com/ansible/awx/issues/885) | 26 |
+| awx | Python | [Cleanup Job Details. Configure days retention for the particular job entities. ](https://github.com/ansible/awx/issues/14384) | 3 |
+| awx | Python | [Improve user experience of copy pasting FQDNs from jobs](https://github.com/ansible/awx/issues/14354) | 3 |
+| awx | Python | [AWX Collection Credential Delete](https://github.com/ansible/awx/issues/14209) | 3 |
+| awx | Python | [Remove some of the eslint-disable comments](https://github.com/ansible/awx/issues/11707) | 3 |
+| awx | Python | [System Auditors can check list items](https://github.com/ansible/awx/issues/10841) | 3 |
+| awx | Python | [Show more host information in host filter lookup list ](https://github.com/ansible/awx/issues/7853) | 3 |
+| awx | Python | [Inconsistent capitalization across ui-next ](https://github.com/ansible/awx/issues/7037) | 3 |
+| awx | Python | [User auth field not documented in OPTIONS](https://github.com/ansible/awx/issues/2301) | 3 |
+| awx | Python | [Documentation for IAM EC2 inventory](https://github.com/ansible/awx/issues/924) | 3 |
+| awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 4 |
+| awx | Python | [Docker install instructions do not mention how to add awx-logos](https://github.com/ansible/awx/issues/11593) | 4 |
+| awx | Python | [RFE : send tower log to graylog without using logstash](https://github.com/ansible/awx/issues/1309) | 4 |
+| awx | Python | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 7 |
+| galaxy_collection | Python | [repository_sync role should work in same way as ee_repository_sync role](https://github.com/ansible/galaxy_collection/issues/244) | 3 |
+| pandas | Python | [DOC: document optional arguments on plot submethods](https://github.com/pandas-dev/pandas/issues/11042) | 1 |
 | pandas | Python | [BUG: Add ``numeric_only`` to function signature of ``DataFrameGroupBy.cumprod`` and ``DataFrameGroupBy.cumsum`](https://github.com/pandas-dev/pandas/issues/53071) | 10 |
 | pandas | Python | [BUG: _validate_setitem_value fails to raise for PandasArray](https://github.com/pandas-dev/pandas/issues/51044) | 10 |
 | pandas | Python | [BUG: grouping with categorical interval columns](https://github.com/pandas-dev/pandas/issues/34164) | 10 |
 | pandas | Python | [WEB: Multiple "Getting Started" on pandas.io leads to different links](https://github.com/pandas-dev/pandas/issues/32307) | 10 |
 | pandas | Python | [Updating value of a single row of a column using loc or at fails](https://github.com/pandas-dev/pandas/issues/22040) | 10 |
 | pandas | Python | [DOC: use shared_docs for isna/notna & isnull/notnull](https://github.com/pandas-dev/pandas/issues/17096) | 10 |
-| awx | Python | [Add support for syslog for external logging](https://github.com/ansible/awx/issues/1083) | 10 |
 | pandas | Python | [BUG (?): dtype.value_counts() shows categorical multiple times](https://github.com/pandas-dev/pandas/issues/40735) | 11 |
 | pandas | Python | [BUG: Series.value_counts with sort=False returns result sorted on values for Series with string dtype](https://github.com/pandas-dev/pandas/issues/55224) | 12 |
 | pandas | Python | [DOC: Fix docs for various offset constructors](https://github.com/pandas-dev/pandas/issues/52431) | 12 |
@@ -97,36 +122,14 @@ If you are just starting your journey in contributing to open-source projects, t
 | pandas | Python | [DataFrame.__setitem__ performance regression with object dtype](https://github.com/pandas-dev/pandas/issues/19299) | 2 |
 | pandas | Python | [DOC: DataFrame.groupy.agg with a list of tuples](https://github.com/pandas-dev/pandas/issues/18220) | 2 |
 | pandas | Python | [DOC: nice links / examples for setting with copy & aggregation](https://github.com/pandas-dev/pandas/issues/17505) | 2 |
-| pandas-stubs | Python | [`pd.RangeIndex` should accept `range` as the first argument](https://github.com/pandas-dev/pandas-stubs/issues/677) | 2 |
-| ansible-navigator | Python | [Switch to the use of `pathlib` where possible](https://github.com/ansible/ansible-navigator/issues/697) | 2 |
-| awx | Python | [AWX Credential Create: ssh_key_data fails to detect/sanitize newlines in keys and 500's with no useable output](https://github.com/ansible/awx/issues/14219) | 2 |
-| awx | Python | [Issue label for incompliance with Ansible](https://github.com/ansible/awx/issues/13272) | 2 |
-| awx | Python | [New credentials type to provide VAULT_ADDR and VAULT_TOKEN env vars](https://github.com/ansible/awx/issues/13117) | 2 |
-| awx | Python | [Add "nodes" to "Relaunch on" when relaunching jobs after failure - users think it relates to failed tasks and not nodes](https://github.com/ansible/awx/issues/12438) | 2 |
-| awx | Python | [Expose the value of "Execution Node" as a variable when running a job from Ansible Tower.](https://github.com/ansible/awx/issues/8122) | 2 |
-| awx | Python | [Jobs canceled before starting should not show a "finished" time](https://github.com/ansible/awx/issues/3988) | 2 |
-| awx | Python | [Make Info Metrics more easy to query](https://github.com/ansible/awx/issues/3781) | 2 |
-| awx | Python | [Improve Slack Notification Error Handling](https://github.com/ansible/awx/issues/1048) | 2 |
-| awx | Python | [Add ability to know which Organization Job is related for](https://github.com/ansible/awx/issues/961) | 2 |
 | pandas | Python | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 21 |
 | pandas | Python | [CLN: Use dedup_names in all instances where duplicate column names are renamed](https://github.com/pandas-dev/pandas/issues/50371) | 23 |
 | pandas | Python | [TYP: investigate/fix ignored mypy errors](https://github.com/pandas-dev/pandas/issues/37715) | 24 |
-| awx | Python | [Integrated notifications with Microsoft Teams](https://github.com/ansible/awx/issues/885) | 26 |
 | pandas | Python | [BUG: JSON serialization with orient split fails roundtrip with MultiIndex](https://github.com/pandas-dev/pandas/issues/50456) | 27 |
 | pandas | Python | [BUG: pivot_table with margins=True and numeric columns is buggy](https://github.com/pandas-dev/pandas/issues/26568) | 3 |
 | pandas | Python | [DOC: Series.mask() should point to Series.where() and vice versa](https://github.com/pandas-dev/pandas/issues/21825) | 3 |
 | pandas | Python | [Documentation on Performance considerations](https://github.com/pandas-dev/pandas/issues/16310) | 3 |
 | pandas | Python | [append a categorical with different categories to the existing](https://github.com/pandas-dev/pandas/issues/12509) | 3 |
-| awx | Python | [Cleanup Job Details. Configure days retention for the particular job entities. ](https://github.com/ansible/awx/issues/14384) | 3 |
-| awx | Python | [Improve user experience of copy pasting FQDNs from jobs](https://github.com/ansible/awx/issues/14354) | 3 |
-| awx | Python | [AWX Collection Credential Delete](https://github.com/ansible/awx/issues/14209) | 3 |
-| awx | Python | [Remove some of the eslint-disable comments](https://github.com/ansible/awx/issues/11707) | 3 |
-| awx | Python | [System Auditors can check list items](https://github.com/ansible/awx/issues/10841) | 3 |
-| awx | Python | [Show more host information in host filter lookup list ](https://github.com/ansible/awx/issues/7853) | 3 |
-| awx | Python | [Inconsistent capitalization across ui-next ](https://github.com/ansible/awx/issues/7037) | 3 |
-| awx | Python | [User auth field not documented in OPTIONS](https://github.com/ansible/awx/issues/2301) | 3 |
-| awx | Python | [Documentation for IAM EC2 inventory](https://github.com/ansible/awx/issues/924) | 3 |
-| galaxy_collection | Python | [repository_sync role should work in same way as ee_repository_sync role](https://github.com/ansible/galaxy_collection/issues/244) | 3 |
 | pandas | Python | [DOC: Additional items for the cheat sheet](https://github.com/pandas-dev/pandas/issues/40680) | 32 |
 | pandas | Python | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 4 |
 | pandas | Python | [get_group(...) fails for groupby(...) based on a function](https://github.com/pandas-dev/pandas/issues/22257) | 4 |
@@ -134,10 +137,6 @@ If you are just starting your journey in contributing to open-source projects, t
 | pandas | Python | [BUG: need to block split when filling na](https://github.com/pandas-dev/pandas/issues/14407) | 4 |
 | pandas | Python | [Misaligned shared axes between timeseries plots of different frequency.](https://github.com/pandas-dev/pandas/issues/11574) | 4 |
 | pandas | Python | [DOC: splitting the IO docs into separate pages](https://github.com/pandas-dev/pandas/issues/10446) | 4 |
-| ansible-documentation | Python | [Update collection requirements links](https://github.com/ansible/ansible-documentation/issues/78) | 4 |
-| awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 4 |
-| awx | Python | [Docker install instructions do not mention how to add awx-logos](https://github.com/ansible/awx/issues/11593) | 4 |
-| awx | Python | [RFE : send tower log to graylog without using logstash](https://github.com/ansible/awx/issues/1309) | 4 |
 | pandas | Python | [Fix capitalization among headings in documentation files](https://github.com/pandas-dev/pandas/issues/32550) | 46 |
 | pandas | Python | [Various methods don't call call __finalize__](https://github.com/pandas-dev/pandas/issues/28283) | 47 |
 | pandas | Python | [BUG: MultiIndex.levels[x] of sliced DataFrame returns values from the non-sliced index](https://github.com/pandas-dev/pandas/issues/55148) | 5 |
@@ -151,12 +150,10 @@ If you are just starting your journey in contributing to open-source projects, t
 | pandas | Python | [no warning with invalid pd.set_option('display.max_colwidth')](https://github.com/pandas-dev/pandas/issues/16097) | 6 |
 | pandas | Python | [DOC:  min_itemsize for HDFStore append for encoded strings](https://github.com/pandas-dev/pandas/issues/14601) | 6 |
 | pandas | Python | [Give the merge copy parameter better documentation](https://github.com/pandas-dev/pandas/issues/4599) | 6 |
-| ansible-navigator | Python | [Allow to set ansible-runner artifacts dir ID ](https://github.com/ansible/ansible-navigator/issues/521) | 6 |
 | pandas | Python | [BUG: a duplicated index would cause groupby.fillna(method='ffill') a wrong result](https://github.com/pandas-dev/pandas/issues/43412) | 7 |
 | pandas | Python | [BUG: Automatic data alignment fails in the `transform` method of `GroupBy` objects](https://github.com/pandas-dev/pandas/issues/41550) | 7 |
 | pandas | Python | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 7 |
 | pandas | Python | [pandas.cut: the 'include_lowest' argument isn't behaving as documented](https://github.com/pandas-dev/pandas/issues/23164) | 7 |
-| awx | Python | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 7 |
 | pandas | Python | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 8 |
 | pandas | Python | [DOC: Improve the register_index_accessor Documentation](https://github.com/pandas-dev/pandas/issues/49202) | 8 |
 | pandas | Python | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 8 |
@@ -169,6 +166,9 @@ If you are just starting your journey in contributing to open-source projects, t
 | pandas | Python | [DOC: Fix formatting errors in docstrings](https://github.com/pandas-dev/pandas/issues/27977) | 9 |
 | pandas | Python | [Performance issue when replacing a sting column with integer](https://github.com/pandas-dev/pandas/issues/26889) | 9 |
 | pandas | Python | [Scatter plot with colour_by and size_by variables](https://github.com/pandas-dev/pandas/issues/16827) | 9 |
+| pandas-stubs | Python | [Change `to_dict` to use `MutableMapping` instead of `Mapping`](https://github.com/pandas-dev/pandas-stubs/issues/784) | 1 |
+| pandas-stubs | Python | [new `.map` method of `pd.DataFrame` and `mypy`](https://github.com/pandas-dev/pandas-stubs/issues/774) | 1 |
+| pandas-stubs | Python | [`pd.RangeIndex` should accept `range` as the first argument](https://github.com/pandas-dev/pandas-stubs/issues/677) | 2 |
 | vscode-ansible | TypeScript | [Add option to prefix all shell commands the plugin executes](https://github.com/ansible/vscode-ansible/issues/429) | 0 |
 | vscode-ansible | TypeScript | [Option to completely disable autocomplete](https://github.com/ansible/vscode-ansible/issues/837) | 2 |
 | vscode-ansible | TypeScript | [Add params to "Run playbook via ansible-playbook"](https://github.com/ansible/vscode-ansible/issues/363) | 2 |
