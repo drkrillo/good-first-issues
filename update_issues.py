@@ -1,11 +1,14 @@
-from pprint import pprint
-from github import Github, Auth
-from inspect import getmembers
+import os
 import datetime
+from dotenv import load_dotenv
+
+from github import Github, Auth
+
 from jinja2 import Environment, FileSystemLoader
 
 
-access_token = "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"
+load_dotenv()
+access_token = os.environ.get('GITHUB_ACCESS_TOKEN')
 
 usernames = [
     "pandas-dev",
