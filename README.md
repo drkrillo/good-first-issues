@@ -7,7 +7,7 @@ If you are just starting your journey in contributing to open-source projects, t
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-10-08</sub></sub>
+## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-10-09</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -17,9 +17,9 @@ If you are just starting your journey in contributing to open-source projects, t
 | opencv_contrib | C++ | [selectROI pointer almost invisible on certain colours](https://github.com/opencv/opencv_contrib/issues/1719) | 14 |
 | godot | C++ | [Android export error when deleting the default icon.png](https://github.com/godotengine/godot/issues/39218) | 2 |
 | godot | C++ | [hiccup when using preload for msdf and AA enabled fonts](https://github.com/godotengine/godot/issues/58341) | 3 |
-| opencv | C++ | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 4 |
 | godot | C++ | [--convert-3to4 doesn't convert shaders](https://github.com/godotengine/godot/issues/63673) | 4 |
 | godot | C++ | [Image.FORMAT_R8 uses Alpha in GLES2 instead of Red channel, this is not reflected in docs](https://github.com/godotengine/godot/issues/38974) | 4 |
+| opencv | C++ | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 5 |
 | godot | C++ | [macos requires release and debug template paths for custom release exports](https://github.com/godotengine/godot/issues/62873) | 5 |
 | xbmc | C++ | [Make sorting locale-aware on Android](https://github.com/xbmc/xbmc/issues/15125) | 6 |
 | godot | C++ | [Write to `DEPTH` built-in breaks depth testing when assignment is not executed](https://github.com/godotengine/godot/issues/69184) | 6 |
@@ -67,7 +67,6 @@ If you are just starting your journey in contributing to open-source projects, t
 | djangoproject.com | PostScript | [Make right sidebar independent from main content](https://github.com/django/djangoproject.com/issues/1366) | 9 |
 | djangoproject.com | PostScript | [Add Click to copy text for commands present in the official Django website.](https://github.com/django/djangoproject.com/issues/1276) | 9 |
 | awx | Python | [[ui_next] Add All/Any workflow viz indication to Workflow Viz Legend/Key](https://github.com/ansible/awx/issues/9791) | 0 |
-| pandas | Python | [DOC: Move bug fixes in whatsnew for 2.2.0 into the appropriate subsection](https://github.com/pandas-dev/pandas/issues/55436) | 1 |
 | pandas | Python | [DOC: document optional arguments on plot submethods](https://github.com/pandas-dev/pandas/issues/11042) | 1 |
 | pandas-stubs | Python | [Change `to_dict` to use `MutableMapping` instead of `Mapping`](https://github.com/pandas-dev/pandas-stubs/issues/784) | 1 |
 | pandas-stubs | Python | [new `.map` method of `pd.DataFrame` and `mypy`](https://github.com/pandas-dev/pandas-stubs/issues/774) | 1 |
@@ -175,7 +174,6 @@ If you are just starting your journey in contributing to open-source projects, t
 | pandas | Python | [DOC:  min_itemsize for HDFStore append for encoded strings](https://github.com/pandas-dev/pandas/issues/14601) | 6 |
 | pandas | Python | [Give the merge copy parameter better documentation](https://github.com/pandas-dev/pandas/issues/4599) | 6 |
 | ansible-navigator | Python | [Allow to set ansible-runner artifacts dir ID ](https://github.com/ansible/ansible-navigator/issues/521) | 6 |
-| pandas | Python | [BUG: a duplicated index would cause groupby.fillna(method='ffill') a wrong result](https://github.com/pandas-dev/pandas/issues/43412) | 7 |
 | pandas | Python | [BUG: Automatic data alignment fails in the `transform` method of `GroupBy` objects](https://github.com/pandas-dev/pandas/issues/41550) | 7 |
 | pandas | Python | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 7 |
 | pandas | Python | [pandas.cut: the 'include_lowest' argument isn't behaving as documented](https://github.com/pandas-dev/pandas/issues/23164) | 7 |
