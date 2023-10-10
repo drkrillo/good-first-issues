@@ -7,11 +7,11 @@ If you are just starting your journey in contributing to open-source projects, t
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-10-09</sub></sub>
+## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-10-10</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
-| opencv | C++ | [darknet crop layer missing implementation](https://github.com/opencv/opencv/issues/22747) | 10 |
+| opencv | C++ | [darknet crop layer missing implementation](https://github.com/opencv/opencv/issues/22747) | 11 |
 | godot | C++ | [PointLight2D doesn't respect Nearest texture filter for normal-maps or shadows](https://github.com/godotengine/godot/issues/76266) | 11 |
 | godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 128 |
 | opencv_contrib | C++ | [selectROI pointer almost invisible on certain colours](https://github.com/opencv/opencv_contrib/issues/1719) | 14 |
@@ -118,7 +118,6 @@ If you are just starting your journey in contributing to open-source projects, t
 | pandas | Python | [DOC: DataFrame.groupy.agg with a list of tuples](https://github.com/pandas-dev/pandas/issues/18220) | 2 |
 | pandas | Python | [DOC: nice links / examples for setting with copy & aggregation](https://github.com/pandas-dev/pandas/issues/17505) | 2 |
 | pandas-stubs | Python | [`pd.RangeIndex` should accept `range` as the first argument](https://github.com/pandas-dev/pandas-stubs/issues/677) | 2 |
-| ansible-documentation | Python | [Broken link in Contributor path page](https://github.com/ansible/ansible-documentation/issues/537) | 2 |
 | ansible-navigator | Python | [Switch to the use of `pathlib` where possible](https://github.com/ansible/ansible-navigator/issues/697) | 2 |
 | awx | Python | [AWX Credential Create: ssh_key_data fails to detect/sanitize newlines in keys and 500's with no useable output](https://github.com/ansible/awx/issues/14219) | 2 |
 | awx | Python | [Issue label for incompliance with Ansible](https://github.com/ansible/awx/issues/13272) | 2 |
@@ -176,11 +175,11 @@ If you are just starting your journey in contributing to open-source projects, t
 | ansible-navigator | Python | [Allow to set ansible-runner artifacts dir ID ](https://github.com/ansible/ansible-navigator/issues/521) | 6 |
 | pandas | Python | [BUG: Automatic data alignment fails in the `transform` method of `GroupBy` objects](https://github.com/pandas-dev/pandas/issues/41550) | 7 |
 | pandas | Python | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 7 |
-| pandas | Python | [pandas.cut: the 'include_lowest' argument isn't behaving as documented](https://github.com/pandas-dev/pandas/issues/23164) | 7 |
 | awx | Python | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 7 |
 | pandas | Python | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 8 |
 | pandas | Python | [DOC: Improve the register_index_accessor Documentation](https://github.com/pandas-dev/pandas/issues/49202) | 8 |
 | pandas | Python | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 8 |
+| pandas | Python | [pandas.cut: the 'include_lowest' argument isn't behaving as documented](https://github.com/pandas-dev/pandas/issues/23164) | 8 |
 | pandas | Python | [Groupby with function returning a tuple fails if index has a name](https://github.com/pandas-dev/pandas/issues/18696) | 8 |
 | pandas | Python | [inplace kwarg must be of bool type, but other boolean kwargs don't have this restriction](https://github.com/pandas-dev/pandas/issues/16714) | 8 |
 | pandas | Python | [DOC: inconsistent docs-string signatures for shared functions](https://github.com/pandas-dev/pandas/issues/15609) | 8 |
