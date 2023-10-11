@@ -1,8 +1,12 @@
 import os
 import datetime
 from dotenv import load_dotenv
+
+import math
+
 import asyncio, aiohttp
 from jinja2 import Environment, FileSystemLoader
+
 
 load_dotenv()
 access_token = os.environ.get('ACCESS_TOKEN')
@@ -30,6 +34,12 @@ gathered_users = []
 headers = {
     "Authorization": f" Bearer  {access_token}"
 }
+
+
+def define_number_of_pages(number_of_repos, total_repos_per_page=100):
+    numer_pf_pages = (number_of_repos / total_repos_per_page)
+    number_of_pages = math.ceil(number_of_pages)
+    return number_of_pages
 
 def create_list_from_lists(target_list):
     list_of_lists = []
@@ -66,18 +76,27 @@ async def extract_issues(repo, session):
             issues += resp
     return issues
 
-async def extract_repos(user, session):
-    page = 1
-    user_url = f"https://api.github.com/users/{user}/repos?page={page}&per_page=100"
-    repos = []
-    on = True
-
+async def extract_number_of_repos(user, session):
+    user_url = f"https://api.github.com/users/{user}/"
     async with session.get(user_url) as resp:
-        repos = await resp.json()
-        try:
-            repos += [x['url'] for x in repos]
-        except:
-                pass
+        resp = await.resp.json()
+        total_repos = resp['public_repos']
+    return total_repos
+
+async def extract_repos(user, number_of_repos_per_page=100, session):
+    repos = []
+    number_of_repos = await extract_number_of_repos(user, session)
+    number_of_pages = define_number_of_pages(number_of_repos)
+
+    for page in range(1,number_of_pages+1):
+        user_url = f"https://api.github.com/users/{user}/repos?page={page}&per_page={number_of_repos_per_page}"
+
+        async with session.get(user_url) as resp:
+            repos = await resp.json()
+            try:
+                repos += [x['url'] for x in repos]
+            except:
+                    pass
     print(f"Done repos for user {user}")
     return repos
 
