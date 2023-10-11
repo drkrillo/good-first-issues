@@ -78,7 +78,6 @@ async def extract_repos(user, session):
             repos += [x['url'] for x in repos]
         except:
                 pass
-
     print(f"Done repos for user {user}")
     return repos
 
