@@ -68,7 +68,8 @@ async def extract_issues(repo, session):
 
 async def extract_repos(user, session):
     user_url = f"https://api.github.com/users/{user}/repos"
-    repos = [] 
+    repos = []
+    
     async with session.get(user_url) as resp:
         user = await resp.json()
         try:
