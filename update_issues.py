@@ -68,7 +68,7 @@ async def extract_issues(repo, session):
 
 async def extract_repos(user, session):
     page = 1
-    user_url = f"https://api.github.com/users/{user}/repos?page={page}&per_page=1000"
+    user_url = f"https://api.github.com/users/{user}/repos?page={page}&per_page=100"
     repos = []
     on = True
 
