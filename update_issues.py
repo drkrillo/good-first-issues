@@ -83,15 +83,14 @@ async def main():
         
         repos = [extract_repos(user,  session) for user in usernames]
         repos = await  asyncio.gather(*repos)
-        print(repos)
         repos= create_list_from_lists(repos)
-        print(len(repos))
+
         issues = [extract_issues(repo, session) for repo in repos]
         issues = await asyncio.gather(*issues)
         issues = create_list_from_lists(issues)
 
         issues = [extract_issue_data(issue) for issue in issues]
-        
+        print(len(issues))
         issues = sorted(issues, key=lambda x: (x['language'], x['comments']))
         
         env = Environment(loader=FileSystemLoader('templates'))
