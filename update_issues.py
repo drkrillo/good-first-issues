@@ -80,7 +80,7 @@ async def extract_number_of_repos(user, session):
     user_url = f"https://api.github.com/users/{user}/"
     async with session.get(user_url) as resp:
         resp = await resp.json()
-        total_repos = resp['public_repos']
+    total_repos = resp['public_repos']
     return total_repos
 
 async def extract_repos(user, session, number_of_repos_per_page=100):
