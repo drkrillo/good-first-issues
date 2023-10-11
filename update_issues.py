@@ -73,9 +73,10 @@ async def extract_repos(user, session):
     async with session.get(user_url) as resp:
         user = await resp.json()
         try:
-            repos += [x['url'] for x in user]
+            repos += [x for x in user]
         except:
             pass
+    print(repos)
     return repos
 
 async def main():
