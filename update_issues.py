@@ -66,14 +66,13 @@ async def extract_issues(repo, session):
             issues += resp
     return issues
 
-async def extract_repos(user, session):
-    repos = []
+async def extract_repos(user, session)
     user_url = f"https://api.github.com/users/{user}/repos"
             
     async with session.get(user_url) as resp:
         user = await resp.json()
         try:
-            repos += [x['url'] for x in user]
+            repos = [x['url'] for x in user]
         except:
             pass
     return repos
