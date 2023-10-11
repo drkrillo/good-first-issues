@@ -9,6 +9,7 @@ access_token = os.environ.get('ACCESS_TOKEN')
 
 usernames = [
     "pandas-dev",
+    'numpy',
     'django',
     'flask',
     'fastapi',
@@ -71,8 +72,10 @@ async def extract_repos(user, session):
             
     async with session.get(user_url) as resp:
         user = await resp.json()
-        if type(user) == list:
+        try:
             repos += [x['url'] for x in user]
+        except:
+            pass
     return repos
 
 async def main():
