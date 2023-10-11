@@ -67,16 +67,22 @@ async def extract_issues(repo, session):
     return issues
 
 async def extract_repos(user, session):
-    user_url = f"https://api.github.com/users/{user}/repos"
+    page = 1
+    user_url = f"https://api.github.com/users/{user}/repos?page={page}&per_page=1000"
     repos = []
+    on = True
 
-    async with session.get(user_url) as resp:
-        user = await resp.json()
-        try:
-            repos += [x for x in user]
-        except:
-            pass
-    print(repos)
+    while on:
+        async with session.get(user_url) as resp:
+            repos = await resp.json()
+            try:
+                repos += [x['url'] for x in repos]
+            except:
+                pass
+        if len(repos) == 0:
+            on = False
+        page += 1
+
     return repos
 
 async def main():
@@ -85,7 +91,7 @@ async def main():
         repos = [extract_repos(user,  session) for user in usernames]
         repos = await  asyncio.gather(*repos)
         repos= create_list_from_lists(repos)
-        print(repos)
+
         issues = [extract_issues(repo, session) for repo in repos]
         issues = await asyncio.gather(*issues)
         issues = create_list_from_lists(issues) 
