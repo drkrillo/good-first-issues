@@ -37,7 +37,7 @@ headers = {
 
 
 def define_number_of_pages(number_of_repos, total_repos_per_page=100):
-    numer_pf_pages = (number_of_repos / total_repos_per_page)
+    number_pf_pages = (number_of_repos / total_repos_per_page)
     number_of_pages = math.ceil(number_of_pages)
     return number_of_pages
 
