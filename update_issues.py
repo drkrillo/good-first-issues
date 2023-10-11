@@ -88,7 +88,7 @@ async def main():
         repos = [extract_repos(user,  session) for user in usernames]
         repos = await  asyncio.gather(*repos)
         repos= create_list_from_lists(repos)
-
+        print(repos)
         issues = [extract_issues(repo, session) for repo in repos]
         issues = await asyncio.gather(*issues)
         issues = create_list_from_lists(issues) 
