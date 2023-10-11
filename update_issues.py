@@ -83,7 +83,7 @@ async def extract_number_of_repos(user, session):
         total_repos = resp['public_repos']
     return total_repos
 
-async def extract_repos(user, number_of_repos_per_page=100, session):
+async def extract_repos(user, session, number_of_repos_per_page=100):
     repos = []
     number_of_repos = await extract_number_of_repos(user, session)
     number_of_pages = define_number_of_pages(number_of_repos)
