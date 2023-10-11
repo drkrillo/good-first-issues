@@ -87,7 +87,8 @@ async def main():
         issues = create_list_from_lists(issues)
 
         issues = [extract_issue_data(issue) for issue in issues]
-        results = sorted(results, key=lambda x: (x['language'], x['comments']))
+        
+        issues = sorted(issues, key=lambda x: (x['language'], x['comments']))
         
         env = Environment(loader=FileSystemLoader('templates'))
         template = env.get_template('README.md.j2')
