@@ -88,7 +88,7 @@ async def main():
         issues = [extract_issues(repo, session) for repo in repos]
         issues = await asyncio.gather(*issues)
         issues = create_list_from_lists(issues)
-
+        print(len(issues))
         issues = [extract_issue_data(issue) for issue in issues]
         print(len(issues))
         issues = sorted(issues, key=lambda x: (x['language'], x['comments']))
