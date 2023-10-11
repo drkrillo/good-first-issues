@@ -7,18 +7,19 @@ If you are just starting your journey in contributing to open-source projects, t
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-10-&d</sub></sub>
+## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-10-10</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
-| opencv | C++ | [darknet crop layer missing implementation](https://github.com/opencv/opencv/issues/22747) | 10 |
+| opencv | C++ | [darknet crop layer missing implementation](https://github.com/opencv/opencv/issues/22747) | 11 |
+| godot | C++ | [PointLight2D doesn't respect Nearest texture filter for normal-maps or shadows](https://github.com/godotengine/godot/issues/76266) | 11 |
 | godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 128 |
 | opencv_contrib | C++ | [selectROI pointer almost invisible on certain colours](https://github.com/opencv/opencv_contrib/issues/1719) | 14 |
 | godot | C++ | [Android export error when deleting the default icon.png](https://github.com/godotengine/godot/issues/39218) | 2 |
 | godot | C++ | [hiccup when using preload for msdf and AA enabled fonts](https://github.com/godotengine/godot/issues/58341) | 3 |
-| opencv | C++ | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 4 |
 | godot | C++ | [--convert-3to4 doesn't convert shaders](https://github.com/godotengine/godot/issues/63673) | 4 |
 | godot | C++ | [Image.FORMAT_R8 uses Alpha in GLES2 instead of Red channel, this is not reflected in docs](https://github.com/godotengine/godot/issues/38974) | 4 |
+| opencv | C++ | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 5 |
 | godot | C++ | [macos requires release and debug template paths for custom release exports](https://github.com/godotengine/godot/issues/62873) | 5 |
 | xbmc | C++ | [Make sorting locale-aware on Android](https://github.com/xbmc/xbmc/issues/15125) | 6 |
 | godot | C++ | [Write to `DEPTH` built-in breaks depth testing when assignment is not executed](https://github.com/godotengine/godot/issues/69184) | 6 |
@@ -28,7 +29,6 @@ If you are just starting your journey in contributing to open-source projects, t
 | godot | C++ | [Font Outline gaps won't close up when Outline size is increased](https://github.com/godotengine/godot/issues/54214) | 7 |
 | godot | C++ | [Particles editor plugin generate emission point from mesh file broken](https://github.com/godotengine/godot/issues/33099) | 7 |
 | opencv_contrib | C++ | [reg: broken python sample](https://github.com/opencv/opencv_contrib/issues/1935) | 8 |
-| godot | C++ | [PointLight2D doesn't respect Nearest texture filter for normal-maps or shadows](https://github.com/godotengine/godot/issues/76266) | 8 |
 | pylibssh | Cython | [[BUG] Flaky `tests/unit/sftp_test.py::test_put`](https://github.com/ansible/pylibssh/issues/351) | 0 |
 | pylibssh | Cython | [Stop building manylinux1 wheels (eventually)](https://github.com/ansible/pylibssh/issues/324) | 2 |
 | emacs-gdscript-mode | Emacs Lisp | [Rewrite gdscript-imenu to provide GDScript-specific tables](https://github.com/godotengine/emacs-gdscript-mode/issues/89) | 0 |
@@ -94,7 +94,6 @@ If you are just starting your journey in contributing to open-source projects, t
 | pandas | Python | [DOC: improve docs for broadcasting behavior](https://github.com/pandas-dev/pandas/issues/18857) | 12 |
 | pandas | Python | [DOC: section on caveats of storing lists inside DataFrame/Series](https://github.com/pandas-dev/pandas/issues/17027) | 12 |
 | pandas | Python | [ERR: Categoricals should not allow non-strings when an object dtype is passed](https://github.com/pandas-dev/pandas/issues/13919) | 12 |
-| pandas | Python | [DOC: Issue triage updates](https://github.com/pandas-dev/pandas/issues/55311) | 13 |
 | pandas | Python | [DOC: 404 Error when trying to switch doc versions from 1.4.4 version page](https://github.com/pandas-dev/pandas/issues/53286) | 13 |
 | pandas | Python | [STYLE replace flake8-rst with something maintained](https://github.com/pandas-dev/pandas/issues/46865) | 13 |
 | pandas | Python | [Indexing on series where index is output from pd.cut ](https://github.com/pandas-dev/pandas/issues/27437) | 13 |
@@ -156,17 +155,16 @@ If you are just starting your journey in contributing to open-source projects, t
 | pandas | Python | [DOC: pivot function](https://github.com/pandas-dev/pandas/issues/16578) | 4 |
 | pandas | Python | [BUG: need to block split when filling na](https://github.com/pandas-dev/pandas/issues/14407) | 4 |
 | pandas | Python | [Misaligned shared axes between timeseries plots of different frequency.](https://github.com/pandas-dev/pandas/issues/11574) | 4 |
-| pandas | Python | [DOC: splitting the IO docs into separate pages](https://github.com/pandas-dev/pandas/issues/10446) | 4 |
 | ansible-documentation | Python | [Update collection requirements links](https://github.com/ansible/ansible-documentation/issues/78) | 4 |
 | awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 4 |
 | awx | Python | [Docker install instructions do not mention how to add awx-logos](https://github.com/ansible/awx/issues/11593) | 4 |
 | awx | Python | [RFE : send tower log to graylog without using logstash](https://github.com/ansible/awx/issues/1309) | 4 |
 | pandas | Python | [Fix capitalization among headings in documentation files](https://github.com/pandas-dev/pandas/issues/32550) | 46 |
 | pandas | Python | [Various methods don't call call __finalize__](https://github.com/pandas-dev/pandas/issues/28283) | 47 |
-| pandas | Python | [BUG: MultiIndex.levels[x] of sliced DataFrame returns values from the non-sliced index](https://github.com/pandas-dev/pandas/issues/55148) | 5 |
 | pandas | Python | [BUG: Creating Index name using `names` names argument, doesn't set index name](https://github.com/pandas-dev/pandas/issues/19082) | 5 |
 | pandas | Python | [cannot get cut() to display desired bins label](https://github.com/pandas-dev/pandas/issues/15357) | 5 |
 | pandas | Python | [DOC: floating point precision on writing/reading to csv](https://github.com/pandas-dev/pandas/issues/13159) | 5 |
+| pandas | Python | [DOC: splitting the IO docs into separate pages](https://github.com/pandas-dev/pandas/issues/10446) | 5 |
 | pandas | Python | [WEB: Better management of releases in the pandas home page](https://github.com/pandas-dev/pandas/issues/50885) | 6 |
 | pandas | Python | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 6 |
 | pandas | Python | [Non-inclusive partial string indexing on DatetimeIndex](https://github.com/pandas-dev/pandas/issues/16571) | 6 |
@@ -175,14 +173,13 @@ If you are just starting your journey in contributing to open-source projects, t
 | pandas | Python | [DOC:  min_itemsize for HDFStore append for encoded strings](https://github.com/pandas-dev/pandas/issues/14601) | 6 |
 | pandas | Python | [Give the merge copy parameter better documentation](https://github.com/pandas-dev/pandas/issues/4599) | 6 |
 | ansible-navigator | Python | [Allow to set ansible-runner artifacts dir ID ](https://github.com/ansible/ansible-navigator/issues/521) | 6 |
-| pandas | Python | [BUG: a duplicated index would cause groupby.fillna(method='ffill') a wrong result](https://github.com/pandas-dev/pandas/issues/43412) | 7 |
 | pandas | Python | [BUG: Automatic data alignment fails in the `transform` method of `GroupBy` objects](https://github.com/pandas-dev/pandas/issues/41550) | 7 |
 | pandas | Python | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 7 |
-| pandas | Python | [pandas.cut: the 'include_lowest' argument isn't behaving as documented](https://github.com/pandas-dev/pandas/issues/23164) | 7 |
 | awx | Python | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 7 |
 | pandas | Python | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 8 |
 | pandas | Python | [DOC: Improve the register_index_accessor Documentation](https://github.com/pandas-dev/pandas/issues/49202) | 8 |
 | pandas | Python | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 8 |
+| pandas | Python | [pandas.cut: the 'include_lowest' argument isn't behaving as documented](https://github.com/pandas-dev/pandas/issues/23164) | 8 |
 | pandas | Python | [Groupby with function returning a tuple fails if index has a name](https://github.com/pandas-dev/pandas/issues/18696) | 8 |
 | pandas | Python | [inplace kwarg must be of bool type, but other boolean kwargs don't have this restriction](https://github.com/pandas-dev/pandas/issues/16714) | 8 |
 | pandas | Python | [DOC: inconsistent docs-string signatures for shared functions](https://github.com/pandas-dev/pandas/issues/15609) | 8 |
