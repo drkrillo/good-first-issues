@@ -72,16 +72,13 @@ async def extract_repos(user, session):
     repos = []
     on = True
 
-    while on:
-        async with session.get(user_url) as resp:
-            repos = await resp.json()
-            try:
-                repos += [x['url'] for x in repos]
-            except:
+    async with session.get(user_url) as resp:
+        repos = await resp.json()
+        try:
+            repos += [x['url'] for x in repos]
+        except:
                 pass
-        if len(repos) == 0:
-            on = False
-        page += 1
+
     print(f"Done repos for user {user}")
     return repos
 
