@@ -61,7 +61,7 @@ def main():
             print(e)
 
         results = sorted(results, key=lambda x: (x['language'], x['comments']))
-        
+        print(results)
         env = Environment(loader=FileSystemLoader('templates'))
         template = env.get_template('README.md.j2')
 
