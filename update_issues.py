@@ -18,7 +18,7 @@ usernames = [
     'flask',
     'fastapi',
     'ansible',
-    'tensorflow'
+    'tensorflow',
     'pytorch',
     'opencv',
     'includeos',
