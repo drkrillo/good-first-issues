@@ -60,9 +60,9 @@ def extract_issue_data(raw_issue):
     return issue
 
 async def extract_language(repo, session):
-    async with session.get(repo)as resp:
+    async with session.get(repo) as resp:
         repo = await resp.json()
-        language = repo['language']
+    language = repo['language']
     return language
 
 async def extract_issues(repo, session):
@@ -80,7 +80,7 @@ async def extract_number_of_repos(user, session):
     user_url = f"https://api.github.com/users/{user}"
     async with session.get(user_url) as resp:
         resp = await resp.json()
-    print(user, resp)
+
     total_repos = resp['public_repos']
     return total_repos
 
@@ -107,7 +107,7 @@ async def main():
         repos = [extract_repos(user,  session) for user in usernames]
         repos = await  asyncio.gather(*repos)
         repos= create_list_from_lists(repos)
-        print(repos)
+
         issues = [extract_issues(repo, session) for repo in repos]
         issues = await asyncio.gather(*issues)
         issues = create_list_from_lists(issues) 
