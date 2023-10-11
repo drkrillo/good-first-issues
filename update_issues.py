@@ -82,7 +82,7 @@ async def extract_repos(user, session):
         if len(repos) == 0:
             on = False
         page += 1
-
+    print(f"Done repos for user {user}")
     return repos
 
 async def main():
