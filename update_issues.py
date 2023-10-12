@@ -23,6 +23,7 @@ usernames = [
     'tensorflow'
     'pytorch',
     'opencv',
+    'zeromicro',
     'includeos',
     'xbmc',
     'monero-project',
