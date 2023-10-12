@@ -22,8 +22,6 @@ usernames = [
     'opencv',
     'zeromicro',
     'includeos',
-    'cytoscape',
-    'SheetJS',
     'xbmc',
     'monero-project',
     'StanGirard',
