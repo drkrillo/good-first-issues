@@ -16,6 +16,8 @@ access_token = os.environ.get('ACCESS_TOKEN')
 
 usernames = [
     "pandas-dev",
+    'numpy',
+    'scipy',
     'django',
     'flask',
     'fastapi',
@@ -26,6 +28,8 @@ usernames = [
     'zeromicro',
     'includeos',
     'xbmc',
+    'cytoscape',
+    'SheetJS',
     'monero-project',
     'StanGirard',
     'colinhacks',
