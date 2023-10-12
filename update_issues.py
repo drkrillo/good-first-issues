@@ -78,6 +78,7 @@ async def extract_language(repo, session):
     """
     async with session.get(repo)as resp:
         resp = await resp.json()
+        print(resp)
         language = resp['language']
     return language
 
