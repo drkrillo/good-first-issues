@@ -142,8 +142,7 @@ async def main():
 
     2- Updates README.md file.
     """
-    async with aiohttp.ClientSession(headers=headers) as session:
-        
+    async with aiohttp.ClientSession(headers=headers) as session
         print("Gathering repositories...")
         repos = [extract_repos(user,  session) for user in usernames]
         repos = await  asyncio.gather(*repos)
@@ -174,7 +173,8 @@ async def main():
             f.write(rendered_readme)
 
 if __name__ == '__main__':
-    start_time = time.perf_counter() 
+    start_time = time.perf_counter()
+    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     asyncio.run(main())
     end_time = time.perf_counter()
     print(f"Script runtine: {end_time - start_time}")
