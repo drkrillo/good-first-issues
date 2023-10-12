@@ -77,8 +77,8 @@ async def extract_language(repo, session):
     and returns the principal language of the repository.
     """
     async with session.get(repo)as resp:
-        repo = await resp.json()
-        language = repo['language']
+        resp = await resp.json()
+        language = resp['language']
     return language
 
 async def extract_issues(repo, session, labels="good first issue"):
