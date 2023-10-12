@@ -153,7 +153,7 @@ async def main():
         raw_issues = [extract_issues(repo, session) for repo in repos]
         raw_issues = await asyncio.gather(*raw_issues)
         raw_issues = create_list_from_lists(raw_issues)
-        print(f"Issuesgathered: {len(issues)}.")
+        print(f"Issues gathered: {len(raw_issues)}.")
 
         print("Normalizing data...")
         issues = [extract_issue_data(issue) for issue in raw_issues]
