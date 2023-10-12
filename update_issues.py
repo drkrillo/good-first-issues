@@ -22,6 +22,8 @@ usernames = [
     'opencv',
     'zeromicro',
     'includeos',
+    'cytoscape',
+    'SheetJS',
     'xbmc',
     'monero-project',
     'StanGirard',
@@ -76,8 +78,11 @@ async def extract_language(repo, session):
     """
     async with session.get(repo)as resp:
         resp = await resp.json()
-        print(resp)
-        language = resp['language']
+        try:
+            language = resp['language']
+        except Exception as error:
+            print(f"Error ocurred while picking up language: {error}")
+            language = None
     return language
 
 async def extract_issues(repo, session, labels="good first issue"):
@@ -88,12 +93,12 @@ async def extract_issues(repo, session, labels="good first issue"):
     issues = []
     language = await extract_language(repo, session)
     issues_url = repo + f"/issues?labels={labels}"
-
-    async with session.get(issues_url) as resp:
-        resp = await resp.json()
-        if len(resp) > 0:
-            resp = [(language, r) for r in resp]
-            issues += resp
+    if language != None:
+        async with session.get(issues_url) as resp:
+            resp = await resp.json()
+            if len(resp) > 0:
+                resp = [(language, r) for r in resp]
+                issues += resp
     return issues
 
 async def extract_number_of_repos(user, session):
