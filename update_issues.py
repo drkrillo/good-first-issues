@@ -147,23 +147,18 @@ async def main():
         repos = [extract_repos(user,  session) for user in usernames]
         repos = await  asyncio.gather(*repos)
         repos = create_list_from_lists(repos)
-        print("Finished.")
+        print(f"Repos gathered: {len(repos)}.")
 
         print(f"Gathering issues...")
         raw_issues = [extract_issues(repo, session) for repo in repos]
         raw_issues = await asyncio.gather(*raw_issues)
         raw_issues = create_list_from_lists(raw_issues)
-        print("Finished.")
+        print(f"Issuesgathered: {len(issues)}.")
 
         print("Normalizing data...")
         issues = [extract_issue_data(issue) for issue in raw_issues]
         issues = sorted(issues, key=lambda x: (x['language'], x['comments']))
         print("Finished.")
-
-        print("\n\n\n")
-
-        print(f"Total repositories gathered: {len(repos)}")        
-        print(f"Total Issues gathered: {len(issues)}")
         
         env = Environment(loader=FileSystemLoader('templates'))
         template = env.get_template('README.md.j2')
