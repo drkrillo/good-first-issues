@@ -124,7 +124,6 @@ async def main():
 
 if __name__ == '__main__':
     start_time = time.perf_counter() 
-    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     asyncio.run(main())
     end_time = time.perf_counter()
     print(f"Script runtine: {end_time - start_time}")
