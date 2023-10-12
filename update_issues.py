@@ -36,6 +36,8 @@ headers = {
     "Authorization": f" Bearer  {access_token}"
 }
 
+today = str(datetime.datetime.today().strftime('%Y-%m-%d'))
+
 def define_number_of_pages(number_of_repos, total_repos_per_page=100):
     number_of_pages = number_of_repos / total_repos_per_page
     number_of_pages = math.ceil(number_of_pages)
@@ -79,10 +81,11 @@ async def extract_number_of_repos(user, session):
     user_url = f"https://api.github.com/users/{user}"
     async with session.get(user_url) as resp:
         resp = await resp.json()
-    try:
-        num_repos = resp['public_repos']
-    except:
-        num_repos = 100
+        try:
+            num_repos = resp['public_repos']
+        except Exception as error:
+            print(error)
+            num_repos = 100
     return num_repos
 
 async def extract_repos(user, session, repos_per_page=100):
@@ -95,6 +98,7 @@ async def extract_repos(user, session, repos_per_page=100):
 
         async with session.get(user_url) as resp:
             user = await resp.json()
+
             if type(user) == list:
                 repos += [x['url'] for x in user]
         return repos
@@ -102,21 +106,30 @@ async def extract_repos(user, session, repos_per_page=100):
 async def main():
     async with aiohttp.ClientSession(headers=headers) as session:
         
+        print("Gathering repositories...")
         repos = [extract_repos(user,  session) for user in usernames]
         repos = await  asyncio.gather(*repos)
-        repos= create_list_from_lists(repos)
-        
-        issues = [extract_issues(repo, session) for repo in repos]
-        issues = await asyncio.gather(*issues)
-        issues = create_list_from_lists(issues)
+        repos = create_list_from_lists(repos)
+        print("Finished.")
 
-        issues = [extract_issue_data(issue) for issue in issues]
+        print(f"Gathering issues...")
+        raw_issues = [extract_issues(repo, session) for repo in repos]
+        raw_issues = await asyncio.gather(*raw_issues)
+        raw_issues = create_list_from_lists(raw_issues)
+        print("Finished.")
+
+        print("Normalizing data...")
+        issues = [extract_issue_data(issue) for issue in raw_issues]
         issues = sorted(issues, key=lambda x: (x['language'], x['comments']))
-        
+        print("Finished.")
+
+        print("\n\n\n")
+
+        print(f"Total repositories gathered: {len(repos)}")        
         print(f"Total Issues gathered: {len(issues)}")
+        
         env = Environment(loader=FileSystemLoader('templates'))
         template = env.get_template('README.md.j2')
-        today = str(datetime.datetime.today().strftime('%Y-%m-%d'))
         rendered_readme = template.render(results=issues, today=today)
         
         with open("README.md", "w+") as f:
