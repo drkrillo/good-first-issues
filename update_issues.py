@@ -62,7 +62,6 @@ def extract_issue_data(raw_issue: tuple):
     """
     Takes an issue (language, issue dict)
     and returns a depurated dict withissue data.
-
     """
     issue = {}
     issue['repo'] = raw_issue[1]['repository_url'].split('repos/')[1]
