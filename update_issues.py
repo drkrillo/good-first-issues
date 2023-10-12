@@ -1,9 +1,11 @@
 import os
 import datetime
 import time
-from dotenv import load_dotenv
+import platform
 
 import math 
+
+from dotenv import load_dotenv
 
 import asyncio, aiohttp
 from jinja2 import Environment, FileSystemLoader
@@ -11,6 +13,7 @@ from jinja2 import Environment, FileSystemLoader
 
 load_dotenv()
 access_token = os.environ.get('ACCESS_TOKEN')
+
 usernames = [
     "pandas-dev",
     'django',
@@ -32,7 +35,7 @@ usernames = [
 ]
 
 headers = {
-    "Authorization": f" Bearer  {access_token}"
+    "Authorization": f" Bearer {access_token}"
 }
 
 today = str(datetime.datetime.today().strftime('%Y-%m-%d'))
@@ -130,6 +133,7 @@ async def extract_repos(user, session, repos_per_page=100):
         user_url = f"https://api.github.com/users/{user}/repos?page={page}&per_page={repos_per_page}"
 
         async with session.get(user_url) as resp:
+            print(resp.status)
             user = await resp.json()
             if type(user) == list:
                 repos += [x['url'] for x in user]
@@ -169,8 +173,9 @@ async def main():
             f.write(rendered_readme)
 
 if __name__ == '__main__':
-    start_time = time.perf_counter() 
-    asyncio.set_event_loop_policy(asyncio.DefaultEventLoopPolicy())
+    start_time = time.perf_counter()
+    if platform.system()=='Windows':
+        asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     asyncio.run(main())
     end_time = time.perf_counter()
     print(f"Script runtine: {end_time - start_time}")
