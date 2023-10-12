@@ -83,7 +83,6 @@ async def extract_number_of_repos(user, session):
         num_repos = resp['public_repos']
     except:
         num_repos = 100
-    print(num_repos)
     return num_repos
 
 async def extract_repos(user, session, repos_per_page=100):
@@ -125,6 +124,7 @@ async def main():
 
 if __name__ == '__main__':
     start_time = time.perf_counter() 
+    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     asyncio.run(main())
     end_time = time.perf_counter()
-    print(f"Scrpint runtine: {end_time - start_time}")
+    print(f"Script runtine: {end_time - start_time}")
