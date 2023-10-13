@@ -2,6 +2,7 @@ import os
 import datetime
 from dotenv import load_dotenv
 import time
+import random
 
 import math 
 
@@ -149,18 +150,29 @@ async def main():
         repos = [extract_repos(user,  session) for user in usernames]
         repos = await  asyncio.gather(*repos)
         repos = create_list_from_lists(repos)
-        print(repos)
+        print(f"Extracted {len(repos)} public repositories.")
+        print("Ranndom samples:")
+        for random_repo in random.sample(rapos, 5):
+            print(random_repo)
+        print("*******************")
 
         print(f"Gathering issues...")
         raw_issues = [extract_issues(repo, session) for repo in repos]
         raw_issues = await asyncio.gather(*raw_issues)
         raw_issues = create_list_from_lists(raw_issues)
-        print(raw_issues)
+        print(f"Extracted {len(raw_issues)} issues.")
+        print("Ranndom samples: ")
+        for random_issue in random.sample(raw_issues, 5):
+            print(random_issue)
+        print("*******************")
 
         print("Normalizing data...")
         issues = [extract_issue_data(issue) for issue in raw_issues]
         issues = sorted(issues, key=lambda x: (x['language'], x['comments']))
-        print(issues)
+        print(f"Normalized data.")
+        print(f"Random samples:")
+        for random_issue in random.sample(issues, 5):
+            print(random_issue)
 
         print("\n\n\n")
         print(f"Total repositories gathered: {len(repos)}")        
@@ -175,7 +187,7 @@ async def main():
 
 if __name__ == '__main__':
 
-    start_time = time.perf_counter() 
+    start_time = time.perf_counter()
     asyncio.run(main())
     end_time = time.perf_counter()
     print(f"Script runtine: {end_time - start_time}")
