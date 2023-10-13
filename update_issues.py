@@ -1,13 +1,12 @@
 import os
 import datetime
+from dotenv import load_dotenv
 import time
-import platform
 
 import math 
 
-from dotenv import load_dotenv
-
 import asyncio, aiohttp
+
 from jinja2 import Environment, FileSystemLoader
 
 
@@ -25,8 +24,6 @@ usernames = [
     'opencv',
     'zeromicro',
     'includeos',
-    'cytoscape',
-    'SheetJS',
     'xbmc',
     'monero-project',
     'StanGirard',
@@ -35,7 +32,7 @@ usernames = [
 ]
 
 headers = {
-    "Authorization": f" Bearer {access_token}"
+    "Authorization": f" Bearer  {access_token}"
 }
 
 today = str(datetime.datetime.today().strftime('%Y-%m-%d'))
@@ -80,12 +77,8 @@ async def extract_language(repo, session):
     and returns the principal language of the repository.
     """
     async with session.get(repo)as resp:
-        resp = await resp.json()
-        try:
-            language = resp['language']
-        except Exception as error:
-            print(f"Error ocurred while picking up language: {error}")
-            language = None
+        repo = await resp.json()
+        language = repo['language']
     return language
 
 async def extract_issues(repo, session, labels="good first issue"):
@@ -96,12 +89,14 @@ async def extract_issues(repo, session, labels="good first issue"):
     issues = []
     language = await extract_language(repo, session)
     issues_url = repo + f"/issues?labels={labels}"
-    if language != None:
-        async with session.get(issues_url) as resp:
-            resp = await resp.json()
-            if len(resp) > 0:
-                resp = [(language, r) for r in resp]
-                issues += resp
+
+    async with session.get(issues_url) as resp:
+        resp = await resp.json()
+
+        if len(resp) > 0:
+            resp = [(language, r) for r in resp]
+            issues += resp
+
     return issues
 
 async def extract_number_of_repos(user, session):
@@ -113,11 +108,13 @@ async def extract_number_of_repos(user, session):
 
     async with session.get(user_url) as resp:
         resp = await resp.json()
+
         try:
             num_repos = resp['public_repos']
         except Exception as error:
             print(error)
             num_repos = 100
+
     return num_repos
 
 async def extract_repos(user, session, repos_per_page=100):
@@ -128,13 +125,13 @@ async def extract_repos(user, session, repos_per_page=100):
     repos = []
     number_of_repos = await extract_number_of_repos(user, session)
     number_of_pages = divide_and_round_up(number_of_repos)
-
+    
     for page in range(1,number_of_pages+1):
         user_url = f"https://api.github.com/users/{user}/repos?page={page}&per_page={repos_per_page}"
-
+        
         async with session.get(user_url) as resp:
-            print(resp.status)
             user = await resp.json()
+
             if type(user) == list:
                 repos += [x['url'] for x in user]
 
@@ -147,37 +144,38 @@ async def main():
     2- Updates README.md file.
     """
     async with aiohttp.ClientSession(headers=headers) as session:
-
+        
         print("Gathering repositories...")
         repos = [extract_repos(user,  session) for user in usernames]
         repos = await  asyncio.gather(*repos)
         repos = create_list_from_lists(repos)
-        print(f"Gathered {len(repos)}.")
+        print("Finished.")
 
         print(f"Gathering issues...")
         raw_issues = [extract_issues(repo, session) for repo in repos]
         raw_issues = await asyncio.gather(*raw_issues)
         raw_issues = create_list_from_lists(raw_issues)
-        print(f"Gathered {len(raw_issues)}.")
+        print("Finished.")
 
         print("Normalizing data...")
         issues = [extract_issue_data(issue) for issue in raw_issues]
         issues = sorted(issues, key=lambda x: (x['language'], x['comments']))
         print("Finished.")
 
+        print("\n\n\n")
+        print(f"Total repositories gathered: {len(repos)}")        
+        print(f"Total Issues gathered: {len(issues)}")
+        
         env = Environment(loader=FileSystemLoader('templates'))
         template = env.get_template('README.md.j2')
         rendered_readme = template.render(results=issues, today=today)
-
+        
         with open("README.md", "w+") as f:
             f.write(rendered_readme)
 
 if __name__ == '__main__':
-    start_time = time.perf_counter()
-    if platform.system()=='Windows':
-        asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
-    elif platform.system()=='Linux':
-        asyncio.set_event_loop_policy(asyncio.DefaultEventLoopPolicy())
+
+    start_time = time.perf_counter() 
     asyncio.run(main())
     end_time = time.perf_counter()
     print(f"Script runtine: {end_time - start_time}")
