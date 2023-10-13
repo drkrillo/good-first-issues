@@ -176,6 +176,8 @@ if __name__ == '__main__':
     start_time = time.perf_counter()
     if platform.system()=='Windows':
         asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+    elif platform.system()=='Linux':
+        asyncio.set_event_loop_policy(asyncio.DefaultEventLoopPolicy())
     asyncio.run(main())
     end_time = time.perf_counter()
     print(f"Script runtine: {end_time - start_time}")
