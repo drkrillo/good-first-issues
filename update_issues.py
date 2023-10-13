@@ -152,7 +152,7 @@ async def main():
         repos = create_list_from_lists(repos)
         print(f"Extracted {len(repos)} public repositories.")
         print("Ranndom samples:")
-        for random_repo in random.sample(rapos, 5):
+        for random_repo in random.sample(repos, 5):
             print(random_repo)
         print("*******************")
 
