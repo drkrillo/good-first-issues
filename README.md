@@ -12,18 +12,17 @@ If you are wonderingwhere to begin in the  journey contributing to open-source p
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-10-13</sub></sub>
+## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-10-14</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
 | godotengine/godot | C++ | [Android export error when deleting the default icon.png](https://github.com/godotengine/godot/issues/39218) | 2 |
-| opencv/opencv | C++ | [Code snippet alignment](https://github.com/opencv/opencv/issues/24391) | 3 |
-| godotengine/godot | C++ | [Disabling depth prepass in the Project Settings breaks opaque material rendering](https://github.com/godotengine/godot/issues/82860) | 3 |
 | godotengine/godot | C++ | [hiccup when using preload for msdf and AA enabled fonts](https://github.com/godotengine/godot/issues/58341) | 3 |
 | godotengine/godot | C++ | [--convert-3to4 doesn't convert shaders](https://github.com/godotengine/godot/issues/63673) | 4 |
 | godotengine/godot | C++ | [Image.FORMAT_R8 uses Alpha in GLES2 instead of Red channel, this is not reflected in docs](https://github.com/godotengine/godot/issues/38974) | 4 |
 | opencv/opencv | C++ | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 5 |
 | godotengine/godot | C++ | [macos requires release and debug template paths for custom release exports](https://github.com/godotengine/godot/issues/62873) | 5 |
+| godotengine/godot | C++ | [Disabling depth prepass in the Project Settings breaks opaque material rendering](https://github.com/godotengine/godot/issues/82860) | 6 |
 | godotengine/godot | C++ | [Write to `DEPTH` built-in breaks depth testing when assignment is not executed](https://github.com/godotengine/godot/issues/69184) | 6 |
 | godotengine/godot | C++ | [Improve error reporting when rcedit fails to change icon / set PE data](https://github.com/godotengine/godot/issues/27765) | 6 |
 | godotengine/godot | C++ | [Export to Android fails with INSTALL_PARSE_FAILED_NO_CERTIFICATES if debug keystore unspecified](https://github.com/godotengine/godot/issues/27574) | 6 |
@@ -59,16 +58,16 @@ If you are wonderingwhere to begin in the  journey contributing to open-source p
 | django/djangoproject.com | PostScript | [Documentation table of contents is hard to reach on mobile devices](https://github.com/django/djangoproject.com/issues/494) | 3 |
 | django/djangoproject.com | PostScript | [Badges page and badges themselves](https://github.com/django/djangoproject.com/issues/126) | 3 |
 | django/djangoproject.com | PostScript | [Improvements to the Corporate Sponsor Experience](https://github.com/django/djangoproject.com/issues/1171) | 4 |
-| django/djangoproject.com | PostScript | [Improve Documentation by having list of topics fixed on the left and table of contents on the right ](https://github.com/django/djangoproject.com/issues/1129) | 5 |
 | django/djangoproject.com | PostScript | [Docs for old supported versions should indicate that a newer version is available](https://github.com/django/djangoproject.com/issues/1122) | 5 |
 | django/djangoproject.com | PostScript | [Remove non-canonical docs versions from sitemap.xml](https://github.com/django/djangoproject.com/issues/878) | 5 |
 | django/djangoproject.com | PostScript | [fundraising: 'customer.subscription.deleted' webhook event always gets 404 response](https://github.com/django/djangoproject.com/issues/764) | 5 |
+| django/djangoproject.com | PostScript | [Improve Documentation by having list of topics fixed on the left and table of contents on the right ](https://github.com/django/djangoproject.com/issues/1129) | 6 |
 | django/djangoproject.com | PostScript | [Remove dependency on memcached](https://github.com/django/djangoproject.com/issues/1023) | 6 |
 | django/djangoproject.com | PostScript | [Support switching languages on non-docs sites](https://github.com/django/djangoproject.com/issues/883) | 6 |
 | django/djangoproject.com | PostScript | [Use noindex meta tag or header, not robots.txt, to block untranslated docs pages](https://github.com/django/djangoproject.com/issues/877) | 7 |
 | django/djangoproject.com | PostScript | [Make right sidebar independent from main content](https://github.com/django/djangoproject.com/issues/1366) | 9 |
 | django/djangoproject.com | PostScript | [Add Click to copy text for commands present in the official Django website.](https://github.com/django/djangoproject.com/issues/1276) | 9 |
-| django/djangoproject.com | PostScript | [Create CSS for Banner styling. ](https://github.com/django/djangoproject.com/issues/1035) | 12 |
+| django/djangoproject.com | PostScript | [Create CSS for Banner styling. ](https://github.com/django/djangoproject.com/issues/1035) | 14 |
 | django/djangoproject.com | PostScript | [Localize the fundraising app](https://github.com/django/djangoproject.com/issues/377) | 16 |
 | django/djangoproject.com | PostScript | [Add list of Django meetups](https://github.com/django/djangoproject.com/issues/1239) | 29 |
 | ansible/ansible-jupyter-kernel | Python | [Add support for handlers](https://github.com/ansible/ansible-jupyter-kernel/issues/53) | 0 |
