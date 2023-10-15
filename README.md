@@ -12,17 +12,17 @@ If you are wonderingwhere to begin in the  journey contributing to open-source p
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-10-14</sub></sub>
+## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-10-15</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
+| godotengine/godot | C++ | [Compatibility Renderer Soft Shadows at locked at PCF5 at runtime](https://github.com/godotengine/godot/issues/83380) | 1 |
 | godotengine/godot | C++ | [Android export error when deleting the default icon.png](https://github.com/godotengine/godot/issues/39218) | 2 |
 | godotengine/godot | C++ | [hiccup when using preload for msdf and AA enabled fonts](https://github.com/godotengine/godot/issues/58341) | 3 |
 | godotengine/godot | C++ | [--convert-3to4 doesn't convert shaders](https://github.com/godotengine/godot/issues/63673) | 4 |
 | godotengine/godot | C++ | [Image.FORMAT_R8 uses Alpha in GLES2 instead of Red channel, this is not reflected in docs](https://github.com/godotengine/godot/issues/38974) | 4 |
 | opencv/opencv | C++ | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 5 |
 | godotengine/godot | C++ | [macos requires release and debug template paths for custom release exports](https://github.com/godotengine/godot/issues/62873) | 5 |
-| godotengine/godot | C++ | [Disabling depth prepass in the Project Settings breaks opaque material rendering](https://github.com/godotengine/godot/issues/82860) | 6 |
 | godotengine/godot | C++ | [Write to `DEPTH` built-in breaks depth testing when assignment is not executed](https://github.com/godotengine/godot/issues/69184) | 6 |
 | godotengine/godot | C++ | [Improve error reporting when rcedit fails to change icon / set PE data](https://github.com/godotengine/godot/issues/27765) | 6 |
 | godotengine/godot | C++ | [Export to Android fails with INSTALL_PARSE_FAILED_NO_CERTIFICATES if debug keystore unspecified](https://github.com/godotengine/godot/issues/27574) | 6 |
@@ -105,6 +105,7 @@ If you are wonderingwhere to begin in the  journey contributing to open-source p
 | ansible/awx | Python | [Documentation for IAM EC2 inventory](https://github.com/ansible/awx/issues/924) | 3 |
 | xbmc/addon-check | Python | [Correct the mentioned pylint errors to get perfect 10. (missing-docstring)](https://github.com/xbmc/addon-check/issues/179) | 3 |
 | godotengine/godot-blender-exporter | Python | [Blender object with negative scale](https://github.com/godotengine/godot-blender-exporter/issues/24) | 3 |
+| pandas-dev/pandas | Python | [BUG: pandas.read_excel() with dtype=object is broken in pandas 2.1.1](https://github.com/pandas-dev/pandas/issues/55489) | 4 |
 | ansible/ansible-documentation | Python | [Update collection requirements links](https://github.com/ansible/ansible-documentation/issues/78) | 4 |
 | ansible/awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 4 |
 | ansible/awx | Python | [Docker install instructions do not mention how to add awx-logos](https://github.com/ansible/awx/issues/11593) | 4 |
@@ -130,14 +131,13 @@ If you are wonderingwhere to begin in the  journey contributing to open-source p
 | pandas-dev/pandas | Python | [BUG: Series.value_counts with sort=False returns result sorted on values for Series with string dtype](https://github.com/pandas-dev/pandas/issues/55224) | 12 |
 | pandas-dev/pandas | Python | [DOC: Fix docs for various offset constructors](https://github.com/pandas-dev/pandas/issues/52431) | 12 |
 | pandas-dev/pandas | Python | [DOC: Reccomended use of read_csv's date_parser parameter is very slow](https://github.com/pandas-dev/pandas/issues/35296) | 12 |
-| pandas-dev/pandas | Python | [DOC: 404 Error when trying to switch doc versions from 1.4.4 version page](https://github.com/pandas-dev/pandas/issues/53286) | 13 |
 | pandas-dev/pandas | Python | [STYLE replace flake8-rst with something maintained](https://github.com/pandas-dev/pandas/issues/46865) | 13 |
 | pandas-dev/pandas | Python | [ENH: make guess_datetime_format public](https://github.com/pandas-dev/pandas/issues/54727) | 14 |
 | pandas-dev/pandas | Python | [BUG: `DataFrame.to_parquet` doesn't round-trip pyarrow StringDtype](https://github.com/pandas-dev/pandas/issues/42664) | 14 |
 | pandas-dev/pandas | Python | [DOC: add button to edit on GitHub](https://github.com/pandas-dev/pandas/issues/39859) | 14 |
 | pandas-dev/pandas | Python | [DOC: add comparison to spreadsheets](https://github.com/pandas-dev/pandas/issues/38990) | 14 |
+| pandas-dev/pandas | Python | [DOC: 404 Error when trying to switch doc versions from 1.4.4 version page](https://github.com/pandas-dev/pandas/issues/53286) | 18 |
 | pandas-dev/pandas | Python | [BUG: groupby.sum() is inconsistent with df.sum() for large integers](https://github.com/pandas-dev/pandas/issues/34681) | 19 |
-| pandas-dev/pandas | Python | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 21 |
 | pandas-dev/pandas | Python | [CLN: Use dedup_names in all instances where duplicate column names are renamed](https://github.com/pandas-dev/pandas/issues/50371) | 23 |
 | pandas-dev/pandas | Python | [TYP: investigate/fix ignored mypy errors](https://github.com/pandas-dev/pandas/issues/37715) | 24 |
 | pandas-dev/pandas | Python | [BUG: JSON serialization with orient split fails roundtrip with MultiIndex](https://github.com/pandas-dev/pandas/issues/50456) | 27 |
