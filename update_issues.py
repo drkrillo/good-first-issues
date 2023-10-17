@@ -152,21 +152,32 @@ async def main():
         repos = create_list_from_lists(repos)
         print(f"Extracted {len(repos)} public repositories.")
         print("Ranndom samples:")
-        print("-------------------")
+        for random_repo in random.sample(repos, 5):
+            print(random_repo)
+        print("*******************")
 
         print(f"Gathering issues...")
         raw_issues = [extract_issues(repo, session) for repo in repos]
         raw_issues = await asyncio.gather(*raw_issues)
         raw_issues = create_list_from_lists(raw_issues)
         print(f"Extracted {len(raw_issues)} issues.")
-        print("-------------------")
+        print("Ranndom samples: ")
+        for random_issue in random.sample(raw_issues, 5):
+            print(random_issue)
+        print("*******************")
 
         print("Normalizing data...")
         issues = [extract_issue_data(issue) for issue in raw_issues]
         issues = sorted(issues, key=lambda x: (x['language'], x['comments']))
         print(f"Normalized data.")
-        print("-------------------")
+        print(f"Random samples:")
+        for random_issue in random.sample(issues, 5):
+            print(random_issue)
 
+        print("\n\n\n")
+        print(f"Total repositories gathered: {len(repos)}")        
+        print(f"Total Issues gathered: {len(issues)}")
+        
         env = Environment(loader=FileSystemLoader('templates'))
         template = env.get_template('README.md.j2')
         rendered_readme = template.render(results=issues, today=today)
