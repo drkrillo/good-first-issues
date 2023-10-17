@@ -94,7 +94,7 @@ async def extract_issues(repo, session, labels="good first issue"):
     async with session.get(issues_url) as resp:
         resp = await resp.json()
 
-        if len(resp) > 0:
+        if type(resp) == list:
             resp = [(language, r) for r in resp]
             issues += resp
 
