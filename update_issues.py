@@ -65,12 +65,16 @@ def extract_issue_data(raw_issue: tuple):
     and returns a depurated dict withissue data.
     """
     issue = {}
-    issue['repo'] = raw_issue[1]['repository_url'].split('repos/')[1]
-    issue['language'] = raw_issue[0]
-    issue['title'] = raw_issue[1]['title']
-    issue['url'] = raw_issue[1]['html_url']
-    issue['comments'] = raw_issue[1]['comments']
-    return issue
+    try:
+        issue['repo'] = raw_issue[1]['repository_url'].split('repos/')[1]
+        issue['language'] = raw_issue[0]
+        issue['title'] = raw_issue[1]['title']
+        issue['url'] = raw_issue[1]['html_url']
+        issue['comments'] = raw_issue[1]['comments']
+    
+        return issue
+    except Exception as error:
+        print(raw_issue, error)
 
 async def extract_language(repo, session):
     """
