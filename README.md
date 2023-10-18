@@ -12,10 +12,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-10-17</sub></sub>
+## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-10-18</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
+| opencv/opencv | C++ | [Update DNN Optical Flow sample with RAFT model](https://github.com/opencv/opencv/issues/24424) | 0 |
 | opencv/opencv | C++ | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 5 |
 | opencv/opencv_contrib | C++ | [reg: broken python sample](https://github.com/opencv/opencv_contrib/issues/1935) | 8 |
 | opencv/opencv | C++ | [darknet crop layer missing implementation](https://github.com/opencv/opencv/issues/22747) | 11 |
@@ -47,12 +48,12 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | django/djangoproject.com | PostScript | [Create CSS for Banner styling. ](https://github.com/django/djangoproject.com/issues/1035) | 14 |
 | django/djangoproject.com | PostScript | [Localize the fundraising app](https://github.com/django/djangoproject.com/issues/377) | 16 |
 | django/djangoproject.com | PostScript | [Add list of Django meetups](https://github.com/django/djangoproject.com/issues/1239) | 29 |
+| ansible/ansible-documentation | Python | [add Ansible 9 porting guide to index](https://github.com/ansible/ansible-documentation/issues/630) | 0 |
 | ansible/ansible-jupyter-kernel | Python | [Add support for handlers](https://github.com/ansible/ansible-jupyter-kernel/issues/53) | 0 |
 | ansible/ansible-jupyter-kernel | Python | [Add a #library cell type](https://github.com/ansible/ansible-jupyter-kernel/issues/26) | 0 |
 | ansible/awx | Python | [[ui_next] Add All/Any workflow viz indication to Workflow Viz Legend/Key](https://github.com/ansible/awx/issues/9791) | 0 |
 | pandas-dev/pandas-stubs | Python | ["Timestamp" has no attribute "as_unit" [attr-defined]](https://github.com/pandas-dev/pandas-stubs/issues/797) | 1 |
 | pandas-dev/pandas-stubs | Python | [new `.map` method of `pd.DataFrame` and `mypy`](https://github.com/pandas-dev/pandas-stubs/issues/774) | 1 |
-| ansible/ansible-builder | Python | [Use COPY not ADD in the builder examples](https://github.com/ansible/ansible-builder/issues/607) | 1 |
 | ansible/ansible-navigator | Python | [Many params missing change after initial = False](https://github.com/ansible/ansible-navigator/issues/423) | 1 |
 | ansible/awx | Python | [Scheduled Job prompted extra_vars overwritten by JT extra_vars](https://github.com/ansible/awx/issues/14445) | 1 |
 | ansible/awx | Python | [Worker failed to run task awx.main.tasks.system.purge_old_stdout_files](https://github.com/ansible/awx/issues/11903) | 1 |
@@ -72,6 +73,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Make Info Metrics more easy to query](https://github.com/ansible/awx/issues/3781) | 2 |
 | ansible/awx | Python | [Improve Slack Notification Error Handling](https://github.com/ansible/awx/issues/1048) | 2 |
 | ansible/awx | Python | [Add ability to know which Organization Job is related for](https://github.com/ansible/awx/issues/961) | 2 |
+| ansible/ansible-documentation | Python | [Ansible include_task search documentation incorrect](https://github.com/ansible/ansible-documentation/issues/357) | 3 |
 | ansible/awx | Python | [Cleanup Job Details. Configure days retention for the particular job entities. ](https://github.com/ansible/awx/issues/14384) | 3 |
 | ansible/awx | Python | [Improve user experience of copy pasting FQDNs from jobs](https://github.com/ansible/awx/issues/14354) | 3 |
 | ansible/awx | Python | [Remove some of the eslint-disable comments](https://github.com/ansible/awx/issues/11707) | 3 |
@@ -80,9 +82,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Inconsistent capitalization across ui-next ](https://github.com/ansible/awx/issues/7037) | 3 |
 | ansible/awx | Python | [User auth field not documented in OPTIONS](https://github.com/ansible/awx/issues/2301) | 3 |
 | ansible/awx | Python | [Documentation for IAM EC2 inventory](https://github.com/ansible/awx/issues/924) | 3 |
-| xbmc/addon-check | Python | [Correct the mentioned pylint errors to get perfect 10. (missing-docstring)](https://github.com/xbmc/addon-check/issues/179) | 3 |
 | pandas-dev/pandas | Python | [BUG: pandas.read_excel() with dtype=object is broken in pandas 2.1.1](https://github.com/pandas-dev/pandas/issues/55489) | 4 |
-| ansible/ansible-documentation | Python | [Update collection requirements links](https://github.com/ansible/ansible-documentation/issues/78) | 4 |
 | ansible/awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 4 |
 | ansible/awx | Python | [Docker install instructions do not mention how to add awx-logos](https://github.com/ansible/awx/issues/11593) | 4 |
 | ansible/awx | Python | [RFE : send tower log to graylog without using logstash](https://github.com/ansible/awx/issues/1309) | 4 |
@@ -113,7 +113,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [DOC: add button to edit on GitHub](https://github.com/pandas-dev/pandas/issues/39859) | 14 |
 | pandas-dev/pandas | Python | [DOC: add comparison to spreadsheets](https://github.com/pandas-dev/pandas/issues/38990) | 14 |
 | pandas-dev/pandas | Python | [BUG: groupby.sum() is inconsistent with df.sum() for large integers](https://github.com/pandas-dev/pandas/issues/34681) | 19 |
-| pandas-dev/pandas | Python | [DOC: 404 Error when trying to switch doc versions from 1.4.4 version page](https://github.com/pandas-dev/pandas/issues/53286) | 20 |
+| pandas-dev/pandas | Python | [DOC: 404 Error when trying to switch doc versions from 1.4.4 version page](https://github.com/pandas-dev/pandas/issues/53286) | 21 |
 | pandas-dev/pandas | Python | [CLN: Use dedup_names in all instances where duplicate column names are renamed](https://github.com/pandas-dev/pandas/issues/50371) | 23 |
 | pandas-dev/pandas | Python | [TYP: investigate/fix ignored mypy errors](https://github.com/pandas-dev/pandas/issues/37715) | 24 |
 | pandas-dev/pandas | Python | [BUG: JSON serialization with orient split fails roundtrip with MultiIndex](https://github.com/pandas-dev/pandas/issues/50456) | 27 |
