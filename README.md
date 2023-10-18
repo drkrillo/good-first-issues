@@ -16,12 +16,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
-| opencv/opencv | C++ | [Update DNN Optical Flow sample with RAFT model](https://github.com/opencv/opencv/issues/24424) | 0 |
-| opencv/opencv | C++ | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 5 |
-| opencv/opencv_contrib | C++ | [reg: broken python sample](https://github.com/opencv/opencv_contrib/issues/1935) | 8 |
-| opencv/opencv | C++ | [darknet crop layer missing implementation](https://github.com/opencv/opencv/issues/22747) | 11 |
-| opencv/opencv_contrib | C++ | [selectROI pointer almost invisible on certain colours](https://github.com/opencv/opencv_contrib/issues/1719) | 14 |
-| zeromicro/go-zero | Go | [CORS optimization](https://github.com/zeromicro/go-zero/issues/3311) | 3 |
 | ansible/awx-operator | Jinja | [Hardcoded .svc.cluster.local in backup role](https://github.com/ansible/awx-operator/issues/1556) | 2 |
 | ansible/awx-operator | Jinja | [Inflated Total Host Count on Dashboard when Using Constructed Inventory with Existing Inventories](https://github.com/ansible/awx-operator/issues/1459) | 2 |
 | ansible/awx-operator | Jinja | [Extend README with external logging examples](https://github.com/ansible/awx-operator/issues/1086) | 2 |
@@ -29,7 +23,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx-operator | Jinja | [Inability to overwrite namespace when using awx-operator chart](https://github.com/ansible/awx-operator/issues/999) | 2 |
 | ansible/awx-operator | Jinja | [control_plane_ee_image still uses "latest" tag in release](https://github.com/ansible/awx-operator/issues/1484) | 5 |
 | ansible/awx-operator | Jinja | [Password set via UI gets overwritten by initialize_django playbook](https://github.com/ansible/awx-operator/issues/869) | 5 |
-| zeromicro/goctl-swagger | PHP | [support for openapi 3.0 ](https://github.com/zeromicro/goctl-swagger/issues/52) | 0 |
 | django/djangoproject.com | PostScript | [Add explicit note about the browser bar integration via OpenSearch description](https://github.com/django/djangoproject.com/issues/1228) | 2 |
 | django/djangoproject.com | PostScript | ['docker-compose up' not working on Windows](https://github.com/django/djangoproject.com/issues/990) | 2 |
 | django/djangoproject.com | PostScript | [Github login doesn't work for community pages](https://github.com/django/djangoproject.com/issues/835) | 2 |
@@ -48,7 +41,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | django/djangoproject.com | PostScript | [Create CSS for Banner styling. ](https://github.com/django/djangoproject.com/issues/1035) | 14 |
 | django/djangoproject.com | PostScript | [Localize the fundraising app](https://github.com/django/djangoproject.com/issues/377) | 16 |
 | django/djangoproject.com | PostScript | [Add list of Django meetups](https://github.com/django/djangoproject.com/issues/1239) | 29 |
-| ansible/ansible-documentation | Python | [add Ansible 9 porting guide to index](https://github.com/ansible/ansible-documentation/issues/630) | 0 |
 | ansible/ansible-jupyter-kernel | Python | [Add support for handlers](https://github.com/ansible/ansible-jupyter-kernel/issues/53) | 0 |
 | ansible/ansible-jupyter-kernel | Python | [Add a #library cell type](https://github.com/ansible/ansible-jupyter-kernel/issues/26) | 0 |
 | ansible/awx | Python | [[ui_next] Add All/Any workflow viz indication to Workflow Viz Legend/Key](https://github.com/ansible/awx/issues/9791) | 0 |
@@ -82,10 +74,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Inconsistent capitalization across ui-next ](https://github.com/ansible/awx/issues/7037) | 3 |
 | ansible/awx | Python | [User auth field not documented in OPTIONS](https://github.com/ansible/awx/issues/2301) | 3 |
 | ansible/awx | Python | [Documentation for IAM EC2 inventory](https://github.com/ansible/awx/issues/924) | 3 |
-| pandas-dev/pandas | Python | [BUG: pandas.read_excel() with dtype=object is broken in pandas 2.1.1](https://github.com/pandas-dev/pandas/issues/55489) | 4 |
 | ansible/awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 4 |
 | ansible/awx | Python | [Docker install instructions do not mention how to add awx-logos](https://github.com/ansible/awx/issues/11593) | 4 |
 | ansible/awx | Python | [RFE : send tower log to graylog without using logstash](https://github.com/ansible/awx/issues/1309) | 4 |
+| pandas-dev/pandas | Python | [BUG: pandas.read_excel() with dtype=object is broken in pandas 2.1.1](https://github.com/pandas-dev/pandas/issues/55489) | 6 |
 | pandas-dev/pandas | Python | [WEB: Better management of releases in the pandas home page](https://github.com/pandas-dev/pandas/issues/50885) | 6 |
 | pandas-dev/pandas | Python | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 6 |
 | ansible/ansible-navigator | Python | [Allow to set ansible-runner artifacts dir ID ](https://github.com/ansible/ansible-navigator/issues/521) | 6 |
