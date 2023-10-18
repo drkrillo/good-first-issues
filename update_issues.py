@@ -83,8 +83,11 @@ async def extract_language(repo, session):
     """
     async with session.get(repo) as resp:
         repo = await resp.json()
-        language = repo['language']
-    return language
+        try:
+            language = repo['language']
+            return language
+        except Exception as error:
+            print(resp, error)
 
 async def extract_issues(repo, session, labels="good first issue"):
     """
