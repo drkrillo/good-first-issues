@@ -12,34 +12,15 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-10-20</sub></sub>
+## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-10-21</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
-| opencv/opencv | C++ | [Update DNN Optical Flow sample with RAFT model](https://github.com/opencv/opencv/issues/24424) | 0 |
-| godotengine/godot | C++ | [Compatibility Renderer Soft Shadows at locked at PCF5 at runtime](https://github.com/godotengine/godot/issues/83380) | 1 |
-| godotengine/godot | C++ | [Android export error when deleting the default icon.png](https://github.com/godotengine/godot/issues/39218) | 2 |
-| godotengine/godot | C++ | [hiccup when using preload for msdf and AA enabled fonts](https://github.com/godotengine/godot/issues/58341) | 3 |
-| godotengine/godot | C++ | [--convert-3to4 doesn't convert shaders](https://github.com/godotengine/godot/issues/63673) | 4 |
-| godotengine/godot | C++ | [Image.FORMAT_R8 uses Alpha in GLES2 instead of Red channel, this is not reflected in docs](https://github.com/godotengine/godot/issues/38974) | 4 |
+| opencv/opencv | C++ | [Update DNN Optical Flow sample with RAFT model](https://github.com/opencv/opencv/issues/24424) | 1 |
 | opencv/opencv | C++ | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 5 |
-| godotengine/godot | C++ | [macos requires release and debug template paths for custom release exports](https://github.com/godotengine/godot/issues/62873) | 5 |
-| godotengine/godot | C++ | [Editor property selector does not clamp description](https://github.com/godotengine/godot/issues/83495) | 6 |
-| godotengine/godot | C++ | [Write to `DEPTH` built-in breaks depth testing when assignment is not executed](https://github.com/godotengine/godot/issues/69184) | 6 |
-| godotengine/godot | C++ | [Improve error reporting when rcedit fails to change icon / set PE data](https://github.com/godotengine/godot/issues/27765) | 6 |
-| godotengine/godot | C++ | [Export to Android fails with INSTALL_PARSE_FAILED_NO_CERTIFICATES if debug keystore unspecified](https://github.com/godotengine/godot/issues/27574) | 6 |
-| godotengine/godot | C++ | [Reads from VisualServer causing unnecessary sync](https://github.com/godotengine/godot/issues/64094) | 7 |
-| godotengine/godot | C++ | [Font Outline gaps won't close up when Outline size is increased](https://github.com/godotengine/godot/issues/54214) | 7 |
-| godotengine/godot | C++ | [Particles editor plugin generate emission point from mesh file broken](https://github.com/godotengine/godot/issues/33099) | 7 |
 | opencv/opencv_contrib | C++ | [reg: broken python sample](https://github.com/opencv/opencv_contrib/issues/1935) | 8 |
 | opencv/opencv | C++ | [darknet crop layer missing implementation](https://github.com/opencv/opencv/issues/22747) | 11 |
-| godotengine/godot | C++ | [PointLight2D doesn't respect Nearest texture filter for normal-maps or shadows](https://github.com/godotengine/godot/issues/76266) | 11 |
 | opencv/opencv_contrib | C++ | [selectROI pointer almost invisible on certain colours](https://github.com/opencv/opencv_contrib/issues/1719) | 14 |
-| godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 131 |
-| godotengine/emacs-gdscript-mode | Emacs Lisp | [Rewrite gdscript-imenu to provide GDScript-specific tables](https://github.com/godotengine/emacs-gdscript-mode/issues/89) | 0 |
-| godotengine/emacs-gdscript-mode | Emacs Lisp | [Buffer does not revert or update instantly after formatting buffer](https://github.com/godotengine/emacs-gdscript-mode/issues/88) | 3 |
-| godotengine/emacs-gdscript-mode | Emacs Lisp | [Address compile warnings](https://github.com/godotengine/emacs-gdscript-mode/issues/87) | 6 |
-| godotengine/godot-benchmarks | GDScript | [[TRACKER] Benchmarks to create](https://github.com/godotengine/godot-benchmarks/issues/11) | 5 |
 | zeromicro/go-zero | Go | [CORS optimization](https://github.com/zeromicro/go-zero/issues/3311) | 3 |
 | ansible/awx-operator | Jinja | [Hardcoded .svc.cluster.local in backup role](https://github.com/ansible/awx-operator/issues/1556) | 2 |
 | ansible/awx-operator | Jinja | [Inflated Total Host Count on Dashboard when Using Constructed Inventory with Existing Inventories](https://github.com/ansible/awx-operator/issues/1459) | 2 |
@@ -49,16 +30,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx-operator | Jinja | [control_plane_ee_image still uses "latest" tag in release](https://github.com/ansible/awx-operator/issues/1484) | 5 |
 | ansible/awx-operator | Jinja | [Password set via UI gets overwritten by initialize_django playbook](https://github.com/ansible/awx-operator/issues/869) | 5 |
 | zeromicro/goctl-swagger | PHP | [support for openapi 3.0 ](https://github.com/zeromicro/goctl-swagger/issues/52) | 0 |
-| godotengine/godot-asset-library | PHP | [Categories need a description (tooltip?) when hovered/selected](https://github.com/godotengine/godot-asset-library/issues/74) | 1 |
-| godotengine/godot-asset-library | PHP | [keep the content of the submition form when its not validated, or try some ajax realtime pre-validation](https://github.com/godotengine/godot-asset-library/issues/61) | 1 |
-| godotengine/godot-asset-library | PHP | [A way to cancel edit requests](https://github.com/godotengine/godot-asset-library/issues/149) | 3 |
-| godotengine/godot-asset-library | PHP | [Sanitize inputs for Asset data/fields, like URLs](https://github.com/godotengine/godot-asset-library/issues/204) | 5 |
-| godotengine/godot-asset-library | PHP | [Allow download of arbitrary link instead of only Github api](https://github.com/godotengine/godot-asset-library/issues/140) | 9 |
 | django/djangoproject.com | PostScript | [BLOCKER - The "hamburger" menu toggle is impossible to use with a keyboard](https://github.com/django/djangoproject.com/issues/1409) | 0 |
-| django/djangoproject.com | PostScript | [BLOCKER - The page’s second column content is hidden in print stylesheets.](https://github.com/django/djangoproject.com/issues/1410) | 2 |
 | django/djangoproject.com | PostScript | [Add explicit note about the browser bar integration via OpenSearch description](https://github.com/django/djangoproject.com/issues/1228) | 2 |
 | django/djangoproject.com | PostScript | ['docker-compose up' not working on Windows](https://github.com/django/djangoproject.com/issues/990) | 2 |
 | django/djangoproject.com | PostScript | [Github login doesn't work for community pages](https://github.com/django/djangoproject.com/issues/835) | 2 |
+| django/djangoproject.com | PostScript | [BLOCKER - The page’s second column content is hidden in print stylesheets.](https://github.com/django/djangoproject.com/issues/1410) | 3 |
 | django/djangoproject.com | PostScript | [Documentation table of contents is hard to reach on mobile devices](https://github.com/django/djangoproject.com/issues/494) | 3 |
 | django/djangoproject.com | PostScript | [Badges page and badges themselves](https://github.com/django/djangoproject.com/issues/126) | 3 |
 | django/djangoproject.com | PostScript | [Improvements to the Corporate Sponsor Experience](https://github.com/django/djangoproject.com/issues/1171) | 4 |
@@ -109,7 +85,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [User auth field not documented in OPTIONS](https://github.com/ansible/awx/issues/2301) | 3 |
 | ansible/awx | Python | [Documentation for IAM EC2 inventory](https://github.com/ansible/awx/issues/924) | 3 |
 | xbmc/addon-check | Python | [Correct the mentioned pylint errors to get perfect 10. (missing-docstring)](https://github.com/xbmc/addon-check/issues/179) | 3 |
-| godotengine/godot-blender-exporter | Python | [Blender object with negative scale](https://github.com/godotengine/godot-blender-exporter/issues/24) | 3 |
 | ansible/awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 4 |
 | ansible/awx | Python | [Docker install instructions do not mention how to add awx-logos](https://github.com/ansible/awx/issues/11593) | 4 |
 | ansible/awx | Python | [RFE : send tower log to graylog without using logstash](https://github.com/ansible/awx/issues/1309) | 4 |
@@ -146,5 +121,3 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [TYP: investigate/fix ignored mypy errors](https://github.com/pandas-dev/pandas/issues/37715) | 24 |
 | pandas-dev/pandas | Python | [BUG: JSON serialization with orient split fails roundtrip with MultiIndex](https://github.com/pandas-dev/pandas/issues/50456) | 27 |
 | pandas-dev/pandas | Python | [DOC: Additional items for the cheat sheet](https://github.com/pandas-dev/pandas/issues/40680) | 32 |
-| godotengine/godot-docs | reStructuredText | [Transform2D is missing xform and xform_inv methods](https://github.com/godotengine/godot-docs/issues/6785) | 4 |
-| godotengine/godot-docs | reStructuredText | [Multiple viewports: only render some objects in some viewports](https://github.com/godotengine/godot-docs/issues/2179) | 6 |
