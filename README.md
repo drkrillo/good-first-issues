@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-10-21</sub></sub>
+## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-10-22</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -75,6 +75,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Make Info Metrics more easy to query](https://github.com/ansible/awx/issues/3781) | 2 |
 | ansible/awx | Python | [Improve Slack Notification Error Handling](https://github.com/ansible/awx/issues/1048) | 2 |
 | ansible/awx | Python | [Add ability to know which Organization Job is related for](https://github.com/ansible/awx/issues/961) | 2 |
+| pandas-dev/pandas | Python | [DOC: Add docstrings for MultiIndex.levels and MultiIndex.codes](https://github.com/pandas-dev/pandas/issues/55435) | 3 |
 | ansible/ansible-documentation | Python | [Ansible include_task search documentation incorrect](https://github.com/ansible/ansible-documentation/issues/357) | 3 |
 | ansible/awx | Python | [Cleanup Job Details. Configure days retention for the particular job entities. ](https://github.com/ansible/awx/issues/14384) | 3 |
 | ansible/awx | Python | [Improve user experience of copy pasting FQDNs from jobs](https://github.com/ansible/awx/issues/14354) | 3 |
@@ -104,7 +105,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
 | pandas-dev/pandas | Python | [BUG: Add ``numeric_only`` to function signature of ``DataFrameGroupBy.cumprod`` and ``DataFrameGroupBy.cumsum`](https://github.com/pandas-dev/pandas/issues/53071) | 10 |
 | pandas-dev/pandas | Python | [BUG: _validate_setitem_value fails to raise for PandasArray](https://github.com/pandas-dev/pandas/issues/51044) | 10 |
-| pandas-dev/pandas | Python | [BUG: grouping with categorical interval columns](https://github.com/pandas-dev/pandas/issues/34164) | 10 |
 | ansible/awx | Python | [Add support for syslog for external logging](https://github.com/ansible/awx/issues/1083) | 10 |
 | pandas-dev/pandas | Python | [BUG (?): dtype.value_counts() shows categorical multiple times](https://github.com/pandas-dev/pandas/issues/40735) | 11 |
 | pandas-dev/pandas | Python | [BUG: Series.value_counts with sort=False returns result sorted on values for Series with string dtype](https://github.com/pandas-dev/pandas/issues/55224) | 12 |
