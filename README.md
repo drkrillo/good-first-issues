@@ -12,11 +12,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-10-22</sub></sub>
+## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-10-23</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
-| opencv/opencv | C++ | [Update DNN Optical Flow sample with RAFT model](https://github.com/opencv/opencv/issues/24424) | 1 |
+| opencv/opencv | C++ | [Update DNN Optical Flow sample with RAFT model](https://github.com/opencv/opencv/issues/24424) | 2 |
 | opencv/opencv | C++ | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 5 |
 | opencv/opencv_contrib | C++ | [reg: broken python sample](https://github.com/opencv/opencv_contrib/issues/1935) | 8 |
 | opencv/opencv | C++ | [darknet crop layer missing implementation](https://github.com/opencv/opencv/issues/22747) | 11 |
@@ -75,7 +75,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Make Info Metrics more easy to query](https://github.com/ansible/awx/issues/3781) | 2 |
 | ansible/awx | Python | [Improve Slack Notification Error Handling](https://github.com/ansible/awx/issues/1048) | 2 |
 | ansible/awx | Python | [Add ability to know which Organization Job is related for](https://github.com/ansible/awx/issues/961) | 2 |
-| pandas-dev/pandas | Python | [DOC: Add docstrings for MultiIndex.levels and MultiIndex.codes](https://github.com/pandas-dev/pandas/issues/55435) | 3 |
 | ansible/ansible-documentation | Python | [Ansible include_task search documentation incorrect](https://github.com/ansible/ansible-documentation/issues/357) | 3 |
 | ansible/awx | Python | [Cleanup Job Details. Configure days retention for the particular job entities. ](https://github.com/ansible/awx/issues/14384) | 3 |
 | ansible/awx | Python | [Improve user experience of copy pasting FQDNs from jobs](https://github.com/ansible/awx/issues/14354) | 3 |
@@ -85,7 +84,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Inconsistent capitalization across ui-next ](https://github.com/ansible/awx/issues/7037) | 3 |
 | ansible/awx | Python | [User auth field not documented in OPTIONS](https://github.com/ansible/awx/issues/2301) | 3 |
 | ansible/awx | Python | [Documentation for IAM EC2 inventory](https://github.com/ansible/awx/issues/924) | 3 |
-| xbmc/addon-check | Python | [Correct the mentioned pylint errors to get perfect 10. (missing-docstring)](https://github.com/xbmc/addon-check/issues/179) | 3 |
+| pandas-dev/pandas | Python | [DOC: Add docstrings for MultiIndex.levels and MultiIndex.codes](https://github.com/pandas-dev/pandas/issues/55435) | 4 |
 | ansible/awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 4 |
 | ansible/awx | Python | [Docker install instructions do not mention how to add awx-logos](https://github.com/ansible/awx/issues/11593) | 4 |
 | ansible/awx | Python | [RFE : send tower log to graylog without using logstash](https://github.com/ansible/awx/issues/1309) | 4 |
