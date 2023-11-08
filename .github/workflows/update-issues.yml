@@ -4,7 +4,7 @@ name: "Update Good First Issues README"
 
 on:
   schedule:
-    - cron: '15 20 * * *'  # runs every 6 hours at 15 minutes past the hour - change as needed
+    - cron: '15 20 * * *' 
   push:
     branches:
       - 'main'
