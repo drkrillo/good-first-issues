@@ -51,7 +51,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | django/djangoproject.com | PostScript | [Localize the fundraising app](https://github.com/django/djangoproject.com/issues/377) | 16 |
 | django/djangoproject.com | PostScript | [Add list of Django meetups](https://github.com/django/djangoproject.com/issues/1239) | 29 |
 | pandas-dev/pandas-stubs | Python | [Add types for `DataFrame.itertuples()` and `DataFrame.iterrows()`](https://github.com/pandas-dev/pandas-stubs/issues/805) | 0 |
-| ansible/ansible-builder | Python | [[Feature request]: add `execution-environment.yaml` to file lookup during the build](https://github.com/ansible/ansible-builder/issues/619) | 0 |
 | ansible/ansible-jupyter-kernel | Python | [Add support for handlers](https://github.com/ansible/ansible-jupyter-kernel/issues/53) | 0 |
 | ansible/ansible-jupyter-kernel | Python | [Add a #library cell type](https://github.com/ansible/ansible-jupyter-kernel/issues/26) | 0 |
 | ansible/awx | Python | [Non descriptive error when podman is missing](https://github.com/ansible/awx/issues/14341) | 0 |
