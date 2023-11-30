@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-11-29</sub></sub>
+## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-11-30</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -34,27 +34,23 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | django/djangoproject.com | PostScript | [Make right sidebar independent from main content](https://github.com/django/djangoproject.com/issues/1366) | 9 |
 | django/djangoproject.com | PostScript | [Add Click to copy text for commands present in the official Django website.](https://github.com/django/djangoproject.com/issues/1276) | 12 |
 | django/djangoproject.com | PostScript | [Localize the fundraising app](https://github.com/django/djangoproject.com/issues/377) | 16 |
-| pandas-dev/pandas-stubs | Python | [Add types for `DataFrame.itertuples()` and `DataFrame.iterrows()`](https://github.com/pandas-dev/pandas-stubs/issues/805) | 0 |
 | ansible/ansible-jupyter-kernel | Python | [Add support for handlers](https://github.com/ansible/ansible-jupyter-kernel/issues/53) | 0 |
 | ansible/ansible-jupyter-kernel | Python | [Add a #library cell type](https://github.com/ansible/ansible-jupyter-kernel/issues/26) | 0 |
-| ansible/ansible-runner | Python | [Update links to EE getting started guide.](https://github.com/ansible/ansible-runner/issues/1328) | 0 |
 | pandas-dev/pandas-stubs | Python | ["Timestamp" has no attribute "as_unit" [attr-defined]](https://github.com/pandas-dev/pandas-stubs/issues/797) | 1 |
 | ansible/ansible-builder | Python | [Update link to EE getting started guide](https://github.com/ansible/ansible-builder/issues/632) | 1 |
 | ansible/ansible-documentation | Python | [Document removal of ConfigureRemotingForAnsible.ps1](https://github.com/ansible/ansible-documentation/issues/794) | 1 |
 | ansible/ansible-documentation | Python | [Connection plugins: keyword and variable aren't mentioned](https://github.com/ansible/ansible-documentation/issues/793) | 1 |
 | ansible/ansible-documentation | Python | [Listing netconf plugins: incorrect description and command](https://github.com/ansible/ansible-documentation/issues/746) | 1 |
-| ansible/ansible-navigator | Python | [Many params missing change after initial = False](https://github.com/ansible/ansible-navigator/issues/423) | 1 |
+| pandas-dev/pandas-stubs | Python | [Add types for `DataFrame.itertuples()` and `DataFrame.iterrows()`](https://github.com/pandas-dev/pandas-stubs/issues/805) | 2 |
 | pandas-dev/pandas-stubs | Python | [`pd.RangeIndex` should accept `range` as the first argument](https://github.com/pandas-dev/pandas-stubs/issues/677) | 2 |
-| ansible/ansible-documentation | Python | [Contributing to documentation guide links should be updated](https://github.com/ansible/ansible-documentation/issues/853) | 2 |
 | ansible/ansible-documentation | Python | [D&I working group Docs Hackfest for inclusive language](https://github.com/ansible/ansible-documentation/issues/812) | 2 |
-| ansible/ansible-navigator | Python | [Switch to the use of `pathlib` where possible](https://github.com/ansible/ansible-navigator/issues/697) | 2 |
 | pandas-dev/pandas-stubs | Python | [read_excel/index_col: string not accepted](https://github.com/pandas-dev/pandas-stubs/issues/809) | 3 |
 | ansible/ansible-documentation | Python | [Ansible include_task search documentation incorrect](https://github.com/ansible/ansible-documentation/issues/357) | 3 |
 | pandas-dev/pandas | Python | [TST: div/truediv with PyArrow duration types](https://github.com/pandas-dev/pandas/issues/54315) | 4 |
-| ansible/ansible-documentation | Python | [parent group_vars prioritized over child group vars from inventory](https://github.com/ansible/ansible-documentation/issues/700) | 4 |
+| ansible/ansible-documentation | Python | [Contributing to documentation guide links should be updated](https://github.com/ansible/ansible-documentation/issues/853) | 4 |
+| ansible/ansible-documentation | Python | [parent group_vars prioritized over child group vars from inventory](https://github.com/ansible/ansible-documentation/issues/700) | 5 |
 | pandas-dev/pandas | Python | [WEB: Better management of releases in the pandas home page](https://github.com/pandas-dev/pandas/issues/50885) | 6 |
 | pandas-dev/pandas-stubs | Python | [type annotation for Index/MultiIndex.names is incorrect](https://github.com/pandas-dev/pandas-stubs/issues/804) | 6 |
-| ansible/ansible-navigator | Python | [Allow to set ansible-runner artifacts dir ID ](https://github.com/ansible/ansible-navigator/issues/521) | 6 |
 | pandas-dev/pandas | Python | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 7 |
 | pandas-dev/pandas | Python | [BUG: Parquet size grows exponential for categorical data ](https://github.com/pandas-dev/pandas/issues/55776) | 8 |
 | pandas-dev/pandas | Python | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 8 |
