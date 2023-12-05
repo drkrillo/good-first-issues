@@ -12,11 +12,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-12-04</sub></sub>
+## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-12-05</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
-| django/djangoproject.com | PostScript | [Incorrect URL on the Django Software Foundation Prizes page](https://github.com/django/djangoproject.com/issues/1443) | 1 |
 | django/djangoproject.com | PostScript | [Improve 404 page](https://github.com/django/djangoproject.com/issues/1347) | 1 |
 | django/djangoproject.com | PostScript | ['docker-compose up' not working on Windows](https://github.com/django/djangoproject.com/issues/990) | 2 |
 | django/djangoproject.com | PostScript | [Github login doesn't work for community pages](https://github.com/django/djangoproject.com/issues/835) | 2 |
@@ -37,6 +36,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | django/djangoproject.com | PostScript | [Localize the fundraising app](https://github.com/django/djangoproject.com/issues/377) | 16 |
 | ansible/ansible-jupyter-kernel | Python | [Add support for handlers](https://github.com/ansible/ansible-jupyter-kernel/issues/53) | 0 |
 | ansible/ansible-jupyter-kernel | Python | [Add a #library cell type](https://github.com/ansible/ansible-jupyter-kernel/issues/26) | 0 |
+| pandas-dev/pandas | Python | [BUG: `.style.bar` doesn't work with missing pyarrow values](https://github.com/pandas-dev/pandas/issues/56283) | 1 |
 | pandas-dev/pandas-stubs | Python | ["Timestamp" has no attribute "as_unit" [attr-defined]](https://github.com/pandas-dev/pandas-stubs/issues/797) | 1 |
 | ansible/ansible-documentation | Python | [Document removal of ConfigureRemotingForAnsible.ps1](https://github.com/ansible/ansible-documentation/issues/794) | 1 |
 | ansible/ansible-documentation | Python | [Connection plugins: keyword and variable aren't mentioned](https://github.com/ansible/ansible-documentation/issues/793) | 1 |
@@ -80,4 +80,3 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [CLN: Use dedup_names in all instances where duplicate column names are renamed](https://github.com/pandas-dev/pandas/issues/50371) | 23 |
 | pandas-dev/pandas | Python | [BUG: JSON serialization with orient split fails roundtrip with MultiIndex](https://github.com/pandas-dev/pandas/issues/50456) | 27 |
 | pandas-dev/pandas | Python | [DOC: Additional items for the cheat sheet](https://github.com/pandas-dev/pandas/issues/40680) | 32 |
-| pandas-dev/pandas | Python | [Fix capitalization among headings in documentation files](https://github.com/pandas-dev/pandas/issues/32550) | 47 |
