@@ -12,14 +12,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-12-21</sub></sub>
+## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-12-22</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
 | opencv/opencv | C++ | [Update DNN Optical Flow sample with RAFT model](https://github.com/opencv/opencv/issues/24424) | 3 |
 | opencv/opencv | C++ | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 5 |
 | opencv/opencv_contrib | C++ | [reg: broken python sample](https://github.com/opencv/opencv_contrib/issues/1935) | 9 |
-| opencv/opencv | C++ | [darknet crop layer missing implementation](https://github.com/opencv/opencv/issues/22747) | 11 |
 | opencv/opencv_contrib | C++ | [selectROI pointer almost invisible on certain colours](https://github.com/opencv/opencv_contrib/issues/1719) | 14 |
 | zeromicro/go-zero | Go | [CORS optimization](https://github.com/zeromicro/go-zero/issues/3311) | 5 |
 | zeromicro/goctl-swagger | PHP | [support for openapi 3.0 ](https://github.com/zeromicro/goctl-swagger/issues/52) | 0 |
@@ -35,9 +34,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | django/djangoproject.com | PostScript | [Improve Documentation by having list of topics fixed on the left and table of contents on the right ](https://github.com/django/djangoproject.com/issues/1129) | 6 |
 | django/djangoproject.com | PostScript | [Remove dependency on memcached](https://github.com/django/djangoproject.com/issues/1023) | 6 |
 | django/djangoproject.com | PostScript | [Support switching languages on non-docs sites](https://github.com/django/djangoproject.com/issues/883) | 6 |
-| django/djangoproject.com | PostScript | [BLOCKER - The page’s second column content is hidden in print stylesheets.](https://github.com/django/djangoproject.com/issues/1410) | 7 |
 | django/djangoproject.com | PostScript | [Improvements to the Corporate Sponsor Experience](https://github.com/django/djangoproject.com/issues/1171) | 7 |
 | django/djangoproject.com | PostScript | [Use noindex meta tag or header, not robots.txt, to block untranslated docs pages](https://github.com/django/djangoproject.com/issues/877) | 7 |
+| django/djangoproject.com | PostScript | [BLOCKER - The page’s second column content is hidden in print stylesheets.](https://github.com/django/djangoproject.com/issues/1410) | 9 |
 | django/djangoproject.com | PostScript | [Make right sidebar independent from main content](https://github.com/django/djangoproject.com/issues/1366) | 9 |
 | django/djangoproject.com | PostScript | [Add Click to copy text for commands present in the official Django website.](https://github.com/django/djangoproject.com/issues/1276) | 15 |
 | django/djangoproject.com | PostScript | [Localize the fundraising app](https://github.com/django/djangoproject.com/issues/377) | 16 |
@@ -47,6 +46,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Update link to Execution environment getting started guide](https://github.com/ansible/awx/issues/14690) | 0 |
 | ansible/awx | Python | [Non descriptive error when podman is missing](https://github.com/ansible/awx/issues/14341) | 0 |
 | ansible/awx | Python | [[ui_next] Add All/Any workflow viz indication to Workflow Viz Legend/Key](https://github.com/ansible/awx/issues/9791) | 0 |
+| pandas-dev/pandas | Python | [BUG: Docs won't build (S3 bucket does not exist)](https://github.com/pandas-dev/pandas/issues/56592) | 1 |
 | pandas-dev/pandas-stubs | Python | [Level parameter of DataFrame.groupby should allow Sequences](https://github.com/pandas-dev/pandas-stubs/issues/836) | 1 |
 | pandas-dev/pandas-stubs | Python | ["Timestamp" has no attribute "as_unit" [attr-defined]](https://github.com/pandas-dev/pandas-stubs/issues/797) | 1 |
 | ansible/ansible-navigator | Python | [Many params missing change after initial = False](https://github.com/ansible/ansible-navigator/issues/423) | 1 |
@@ -101,7 +101,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [ENH: Add ``numeric_only`` to ``DataFrame.cum*`` methods](https://github.com/pandas-dev/pandas/issues/53072) | 9 |
 | pandas-dev/pandas | Python | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
 | pandas-dev/pandas | Python | [BUG: Add ``numeric_only`` to function signature of ``DataFrameGroupBy.cumprod`` and ``DataFrameGroupBy.cumsum`](https://github.com/pandas-dev/pandas/issues/53071) | 10 |
-| pandas-dev/pandas | Python | [WEB: Multiple "Getting Started" on pandas.io leads to different links](https://github.com/pandas-dev/pandas/issues/32307) | 10 |
 | pandas-dev/pandas | Python | [BUG (?): dtype.value_counts() shows categorical multiple times](https://github.com/pandas-dev/pandas/issues/40735) | 11 |
 | pandas-dev/pandas | Python | [BUG: grouping with categorical interval columns](https://github.com/pandas-dev/pandas/issues/34164) | 11 |
 | pandas-dev/pandas | Python | [BUG: _validate_setitem_value fails to raise for PandasArray](https://github.com/pandas-dev/pandas/issues/51044) | 12 |
@@ -119,3 +118,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [DOC: 404 Error when trying to switch doc versions from 1.4.4 version page](https://github.com/pandas-dev/pandas/issues/53286) | 24 |
 | pandas-dev/pandas | Python | [DOC: Additional items for the cheat sheet](https://github.com/pandas-dev/pandas/issues/40680) | 32 |
 | pandas-dev/pandas | Python | [Fix capitalization among headings in documentation files](https://github.com/pandas-dev/pandas/issues/32550) | 47 |
+| StanGirard/quivr | TypeScript | [[Contribute]:  Want to get your hands dirty ? ](https://github.com/StanGirard/quivr/issues/1787) | 0 |
+| StanGirard/quivr | TypeScript | [[Advent of Code] 🎄🎄 Have fun building OSS](https://github.com/StanGirard/quivr/issues/1786) | 0 |
+| StanGirard/quivr | TypeScript | [[Feature]: Filter on which file to ask the question](https://github.com/StanGirard/quivr/issues/1794) | 1 |
+| StanGirard/quivr | TypeScript | [[Feature]: API Key Management](https://github.com/StanGirard/quivr/issues/1793) | 1 |
+| StanGirard/quivr | TypeScript | [[Feature]:  Terraform AWS, GCP, Azure](https://github.com/StanGirard/quivr/issues/1792) | 1 |
+| StanGirard/quivr | TypeScript | [[Feature]:  Allow users to create and share prompts](https://github.com/StanGirard/quivr/issues/1790) | 1 |
+| StanGirard/quivr | TypeScript | [[Feature]: Explore Brains is nicer](https://github.com/StanGirard/quivr/issues/1788) | 1 |
+| StanGirard/quivr | TypeScript | [[Feature]:  Embed a Quivr chat on a website](https://github.com/StanGirard/quivr/issues/1791) | 3 |
+| StanGirard/quivr | TypeScript | [[Bug]: text not clear in dark mode](https://github.com/StanGirard/quivr/issues/1778) | 3 |
+| StanGirard/quivr | TypeScript | [[Feature]: Crawl entire website](https://github.com/StanGirard/quivr/issues/1789) | 5 |
