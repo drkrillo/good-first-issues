@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-12-27</sub></sub>
+## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-12-28</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -46,7 +46,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Update link to Execution environment getting started guide](https://github.com/ansible/awx/issues/14690) | 0 |
 | ansible/awx | Python | [Non descriptive error when podman is missing](https://github.com/ansible/awx/issues/14341) | 0 |
 | ansible/awx | Python | [[ui_next] Add All/Any workflow viz indication to Workflow Viz Legend/Key](https://github.com/ansible/awx/issues/9791) | 0 |
-| pandas-dev/pandas | Python | [BUG: Series.diff does no arg validation unlike df.diff for `periods`](https://github.com/pandas-dev/pandas/issues/56607) | 1 |
 | pandas-dev/pandas-stubs | Python | ["Timestamp" has no attribute "as_unit" [attr-defined]](https://github.com/pandas-dev/pandas-stubs/issues/797) | 1 |
 | ansible/ansible-navigator | Python | [Many params missing change after initial = False](https://github.com/ansible/ansible-navigator/issues/423) | 1 |
 | ansible/awx | Python | [ visualizer info field ](https://github.com/ansible/awx/issues/14597) | 1 |
@@ -70,6 +69,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Expose the value of "Execution Node" as a variable when running a job from Ansible Tower.](https://github.com/ansible/awx/issues/8122) | 2 |
 | ansible/awx | Python | [Jobs canceled before starting should not show a "finished" time](https://github.com/ansible/awx/issues/3988) | 2 |
 | ansible/awx | Python | [Make Info Metrics more easy to query](https://github.com/ansible/awx/issues/3781) | 2 |
+| pandas-dev/pandas | Python | [BUG: Pyarrow implementation of str.fullmatc matches partial string](https://github.com/pandas-dev/pandas/issues/56652) | 3 |
 | pandas-dev/pandas-stubs | Python | [read_excel/index_col: string not accepted](https://github.com/pandas-dev/pandas-stubs/issues/809) | 3 |
 | ansible/ansible-builder | Python | [Update link to EE getting started guide](https://github.com/ansible/ansible-builder/issues/632) | 3 |
 | ansible/ansible-documentation | Python | [Document removal of ConfigureRemotingForAnsible.ps1](https://github.com/ansible/ansible-documentation/issues/794) | 3 |
@@ -86,6 +86,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 4 |
 | ansible/awx | Python | [Docker install instructions do not mention how to add awx-logos](https://github.com/ansible/awx/issues/11593) | 4 |
 | ansible/ansible-documentation | Python | [parent group_vars prioritized over child group vars from inventory](https://github.com/ansible/ansible-documentation/issues/700) | 5 |
+| pandas-dev/pandas | Python | [BUG: Series.diff does no arg validation unlike df.diff for `periods`](https://github.com/pandas-dev/pandas/issues/56607) | 6 |
 | pandas-dev/pandas-stubs | Python | [type annotation for Index/MultiIndex.names is incorrect](https://github.com/pandas-dev/pandas-stubs/issues/804) | 6 |
 | ansible/ansible-navigator | Python | [Allow to set ansible-runner artifacts dir ID ](https://github.com/ansible/ansible-navigator/issues/521) | 6 |
 | ansible/awx | Python | [AWX Collection Credential Delete](https://github.com/ansible/awx/issues/14209) | 6 |
@@ -113,7 +114,16 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [DOC: add button to edit on GitHub](https://github.com/pandas-dev/pandas/issues/39859) | 14 |
 | pandas-dev/pandas | Python | [DOC: add comparison to spreadsheets](https://github.com/pandas-dev/pandas/issues/38990) | 14 |
 | pandas-dev/pandas | Python | [BUG: groupby.sum() is inconsistent with df.sum() for large integers](https://github.com/pandas-dev/pandas/issues/34681) | 19 |
-| pandas-dev/pandas | Python | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 21 |
 | pandas-dev/pandas | Python | [CLN: Use dedup_names in all instances where duplicate column names are renamed](https://github.com/pandas-dev/pandas/issues/50371) | 23 |
 | pandas-dev/pandas | Python | [DOC: 404 Error when trying to switch doc versions from 1.4.4 version page](https://github.com/pandas-dev/pandas/issues/53286) | 24 |
 | pandas-dev/pandas | Python | [DOC: Additional items for the cheat sheet](https://github.com/pandas-dev/pandas/issues/40680) | 32 |
+| StanGirard/quivr | TypeScript | [[Contribute]:  Want to get your hands dirty ? ](https://github.com/StanGirard/quivr/issues/1787) | 0 |
+| StanGirard/quivr | TypeScript | [[Advent of Code] 🎄🎄 Have fun building OSS](https://github.com/StanGirard/quivr/issues/1786) | 0 |
+| StanGirard/quivr | TypeScript | [[Feature]: API Key Management](https://github.com/StanGirard/quivr/issues/1793) | 1 |
+| StanGirard/quivr | TypeScript | [[Feature]:  Terraform AWS, GCP, Azure](https://github.com/StanGirard/quivr/issues/1792) | 1 |
+| StanGirard/quivr | TypeScript | [[Feature]:  Allow users to create and share prompts](https://github.com/StanGirard/quivr/issues/1790) | 1 |
+| StanGirard/quivr | TypeScript | [[Feature]: Explore Brains is nicer](https://github.com/StanGirard/quivr/issues/1788) | 1 |
+| StanGirard/quivr | TypeScript | [[Feature]: Filter on which file to ask the question](https://github.com/StanGirard/quivr/issues/1794) | 3 |
+| StanGirard/quivr | TypeScript | [[Feature]:  Embed a Quivr chat on a website](https://github.com/StanGirard/quivr/issues/1791) | 3 |
+| StanGirard/quivr | TypeScript | [[Bug]: text not clear in dark mode](https://github.com/StanGirard/quivr/issues/1778) | 3 |
+| StanGirard/quivr | TypeScript | [[Feature]: Crawl entire website](https://github.com/StanGirard/quivr/issues/1789) | 9 |
