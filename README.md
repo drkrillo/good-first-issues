@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-12-28</sub></sub>
+## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-12-29</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -117,13 +117,3 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [CLN: Use dedup_names in all instances where duplicate column names are renamed](https://github.com/pandas-dev/pandas/issues/50371) | 23 |
 | pandas-dev/pandas | Python | [DOC: 404 Error when trying to switch doc versions from 1.4.4 version page](https://github.com/pandas-dev/pandas/issues/53286) | 24 |
 | pandas-dev/pandas | Python | [DOC: Additional items for the cheat sheet](https://github.com/pandas-dev/pandas/issues/40680) | 32 |
-| StanGirard/quivr | TypeScript | [[Contribute]:  Want to get your hands dirty ? ](https://github.com/StanGirard/quivr/issues/1787) | 0 |
-| StanGirard/quivr | TypeScript | [[Advent of Code] 🎄🎄 Have fun building OSS](https://github.com/StanGirard/quivr/issues/1786) | 0 |
-| StanGirard/quivr | TypeScript | [[Feature]: API Key Management](https://github.com/StanGirard/quivr/issues/1793) | 1 |
-| StanGirard/quivr | TypeScript | [[Feature]:  Terraform AWS, GCP, Azure](https://github.com/StanGirard/quivr/issues/1792) | 1 |
-| StanGirard/quivr | TypeScript | [[Feature]:  Allow users to create and share prompts](https://github.com/StanGirard/quivr/issues/1790) | 1 |
-| StanGirard/quivr | TypeScript | [[Feature]: Explore Brains is nicer](https://github.com/StanGirard/quivr/issues/1788) | 1 |
-| StanGirard/quivr | TypeScript | [[Feature]: Filter on which file to ask the question](https://github.com/StanGirard/quivr/issues/1794) | 3 |
-| StanGirard/quivr | TypeScript | [[Feature]:  Embed a Quivr chat on a website](https://github.com/StanGirard/quivr/issues/1791) | 3 |
-| StanGirard/quivr | TypeScript | [[Bug]: text not clear in dark mode](https://github.com/StanGirard/quivr/issues/1778) | 3 |
-| StanGirard/quivr | TypeScript | [[Feature]: Crawl entire website](https://github.com/StanGirard/quivr/issues/1789) | 9 |
