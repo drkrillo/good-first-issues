@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-12-29</sub></sub>
+## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-12-30</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -53,7 +53,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Inaccurate error handling on Input Group Integer fields (i.e. Org Max Hosts field)](https://github.com/ansible/awx/issues/8556) | 1 |
 | ansible/awx | Python | ["Playbook not found for project" error when the playbook exist but is invalid ](https://github.com/ansible/awx/issues/6842) | 1 |
 | ansible/awx | Python | [weekly dashboard view does not have sufficient granularity](https://github.com/ansible/awx/issues/3060) | 1 |
-| pandas-dev/pandas | Python | [BUG: Docs won't build (S3 bucket does not exist)](https://github.com/pandas-dev/pandas/issues/56592) | 2 |
 | pandas-dev/pandas-stubs | Python | [`pd.RangeIndex` should accept `range` as the first argument](https://github.com/pandas-dev/pandas-stubs/issues/677) | 2 |
 | ansible/ansible-documentation | Python | [Connection plugins: keyword and variable aren't mentioned](https://github.com/ansible/ansible-documentation/issues/793) | 2 |
 | ansible/ansible-documentation | Python | [D&I working group Docs Hackfest for inclusive language](https://github.com/ansible/ansible-documentation/issues/812) | 2 |
@@ -69,7 +68,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Expose the value of "Execution Node" as a variable when running a job from Ansible Tower.](https://github.com/ansible/awx/issues/8122) | 2 |
 | ansible/awx | Python | [Jobs canceled before starting should not show a "finished" time](https://github.com/ansible/awx/issues/3988) | 2 |
 | ansible/awx | Python | [Make Info Metrics more easy to query](https://github.com/ansible/awx/issues/3781) | 2 |
-| pandas-dev/pandas | Python | [BUG: Pyarrow implementation of str.fullmatc matches partial string](https://github.com/pandas-dev/pandas/issues/56652) | 3 |
 | pandas-dev/pandas-stubs | Python | [read_excel/index_col: string not accepted](https://github.com/pandas-dev/pandas-stubs/issues/809) | 3 |
 | ansible/ansible-builder | Python | [Update link to EE getting started guide](https://github.com/ansible/ansible-builder/issues/632) | 3 |
 | ansible/ansible-documentation | Python | [Document removal of ConfigureRemotingForAnsible.ps1](https://github.com/ansible/ansible-documentation/issues/794) | 3 |
@@ -81,6 +79,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Show more host information in host filter lookup list ](https://github.com/ansible/awx/issues/7853) | 3 |
 | ansible/awx | Python | [Inconsistent capitalization across ui-next ](https://github.com/ansible/awx/issues/7037) | 3 |
 | xbmc/addon-check | Python | [Correct the mentioned pylint errors to get perfect 10. (missing-docstring)](https://github.com/xbmc/addon-check/issues/179) | 3 |
+| pandas-dev/pandas | Python | [BUG: Pyarrow implementation of str.fullmatc matches partial string](https://github.com/pandas-dev/pandas/issues/56652) | 4 |
+| pandas-dev/pandas | Python | [BUG: Docs won't build (S3 bucket does not exist)](https://github.com/pandas-dev/pandas/issues/56592) | 4 |
 | pandas-dev/pandas | Python | [TST: div/truediv with PyArrow duration types](https://github.com/pandas-dev/pandas/issues/54315) | 4 |
 | ansible/awx | Python | [ adhoc jobs block other jobs from being processed in the queue](https://github.com/ansible/awx/issues/14645) | 4 |
 | ansible/awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 4 |
