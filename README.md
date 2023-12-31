@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-12-30</sub></sub>
+## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2023-12-31</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -86,10 +86,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 4 |
 | ansible/awx | Python | [Docker install instructions do not mention how to add awx-logos](https://github.com/ansible/awx/issues/11593) | 4 |
 | ansible/ansible-documentation | Python | [parent group_vars prioritized over child group vars from inventory](https://github.com/ansible/ansible-documentation/issues/700) | 5 |
-| pandas-dev/pandas | Python | [BUG: Series.diff does no arg validation unlike df.diff for `periods`](https://github.com/pandas-dev/pandas/issues/56607) | 6 |
 | pandas-dev/pandas-stubs | Python | [type annotation for Index/MultiIndex.names is incorrect](https://github.com/pandas-dev/pandas-stubs/issues/804) | 6 |
 | ansible/ansible-navigator | Python | [Allow to set ansible-runner artifacts dir ID ](https://github.com/ansible/ansible-navigator/issues/521) | 6 |
 | ansible/awx | Python | [AWX Collection Credential Delete](https://github.com/ansible/awx/issues/14209) | 6 |
+| pandas-dev/pandas | Python | [BUG: Series.diff does no arg validation unlike df.diff for `periods`](https://github.com/pandas-dev/pandas/issues/56607) | 7 |
 | pandas-dev/pandas | Python | [BUG: df.mask with int df throws ValueError instead of TypeError](https://github.com/pandas-dev/pandas/issues/56330) | 7 |
 | pandas-dev/pandas | Python | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 7 |
 | ansible/awx | Python | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 7 |
@@ -117,3 +117,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [CLN: Use dedup_names in all instances where duplicate column names are renamed](https://github.com/pandas-dev/pandas/issues/50371) | 23 |
 | pandas-dev/pandas | Python | [DOC: 404 Error when trying to switch doc versions from 1.4.4 version page](https://github.com/pandas-dev/pandas/issues/53286) | 24 |
 | pandas-dev/pandas | Python | [DOC: Additional items for the cheat sheet](https://github.com/pandas-dev/pandas/issues/40680) | 32 |
+| StanGirard/quivr | TypeScript | [[Contribute]:  Want to get your hands dirty ? ](https://github.com/StanGirard/quivr/issues/1787) | 0 |
+| StanGirard/quivr | TypeScript | [[Advent of Code] 🎄🎄 Have fun building OSS](https://github.com/StanGirard/quivr/issues/1786) | 0 |
+| StanGirard/quivr | TypeScript | [[Feature]: API Key Management](https://github.com/StanGirard/quivr/issues/1793) | 1 |
+| StanGirard/quivr | TypeScript | [[Feature]:  Terraform AWS, GCP, Azure](https://github.com/StanGirard/quivr/issues/1792) | 1 |
+| StanGirard/quivr | TypeScript | [[Feature]:  Allow users to create and share prompts](https://github.com/StanGirard/quivr/issues/1790) | 1 |
+| StanGirard/quivr | TypeScript | [[Feature]: Explore Brains is nicer](https://github.com/StanGirard/quivr/issues/1788) | 1 |
+| StanGirard/quivr | TypeScript | [[Feature]: Filter on which file to ask the question](https://github.com/StanGirard/quivr/issues/1794) | 3 |
+| StanGirard/quivr | TypeScript | [[Feature]:  Embed a Quivr chat on a website](https://github.com/StanGirard/quivr/issues/1791) | 3 |
+| StanGirard/quivr | TypeScript | [[Bug]: text not clear in dark mode](https://github.com/StanGirard/quivr/issues/1778) | 4 |
+| StanGirard/quivr | TypeScript | [[Feature]: Crawl entire website](https://github.com/StanGirard/quivr/issues/1789) | 9 |
