@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2024-01-04</sub></sub>
+## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2024-01-05</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -44,17 +44,14 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/ansible-jupyter-kernel | Python | [Add a #library cell type](https://github.com/ansible/ansible-jupyter-kernel/issues/26) | 0 |
 | ansible/awx | Python | [Update link to Execution environment getting started guide](https://github.com/ansible/awx/issues/14690) | 0 |
 | ansible/awx | Python | [[ui_next] Add All/Any workflow viz indication to Workflow Viz Legend/Key](https://github.com/ansible/awx/issues/9791) | 0 |
-| pandas-dev/pandas | Python | [ENH: raise TypeError if offsets which are not supported as period frequency pass to asfreq  ](https://github.com/pandas-dev/pandas/issues/56718) | 1 |
 | pandas-dev/pandas-stubs | Python | ["Timestamp" has no attribute "as_unit" [attr-defined]](https://github.com/pandas-dev/pandas-stubs/issues/797) | 1 |
 | ansible/ansible-navigator | Python | [Many params missing change after initial = False](https://github.com/ansible/ansible-navigator/issues/423) | 1 |
 | ansible/awx | Python | [Fix Delinea imports and import test](https://github.com/ansible/awx/issues/14703) | 1 |
 | ansible/awx | Python | [Scheduled Job prompted extra_vars overwritten by JT extra_vars](https://github.com/ansible/awx/issues/14445) | 1 |
-| ansible/awx | Python | [Non descriptive error when podman is missing](https://github.com/ansible/awx/issues/14341) | 1 |
 | ansible/awx | Python | [Inaccurate error handling on Input Group Integer fields (i.e. Org Max Hosts field)](https://github.com/ansible/awx/issues/8556) | 1 |
 | ansible/awx | Python | ["Playbook not found for project" error when the playbook exist but is invalid ](https://github.com/ansible/awx/issues/6842) | 1 |
 | ansible/awx | Python | [weekly dashboard view does not have sufficient granularity](https://github.com/ansible/awx/issues/3060) | 1 |
 | pandas-dev/pandas | Python | [TST: test for Styler.applymap_index](https://github.com/pandas-dev/pandas/issues/56717) | 2 |
-| pandas-dev/pandas | Python | [CLN: Use assert_produces_warning instead of pytest.raises to show FutureWarning](https://github.com/pandas-dev/pandas/issues/56716) | 2 |
 | pandas-dev/pandas-stubs | Python | [`pd.RangeIndex` should accept `range` as the first argument](https://github.com/pandas-dev/pandas-stubs/issues/677) | 2 |
 | ansible/ansible-documentation | Python | [Connection plugins: keyword and variable aren't mentioned](https://github.com/ansible/ansible-documentation/issues/793) | 2 |
 | ansible/ansible-documentation | Python | [D&I working group Docs Hackfest for inclusive language](https://github.com/ansible/ansible-documentation/issues/812) | 2 |
@@ -62,6 +59,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/ansible-runner | Python | [Update links to EE getting started guide.](https://github.com/ansible/ansible-runner/issues/1328) | 2 |
 | ansible/awx | Python | [Link to docs in UI's Help Button needs to go to the AWX docs](https://github.com/ansible/awx/issues/14699) | 2 |
 | ansible/awx | Python | [Issue on awx.awx.export/import awx cli/collection](https://github.com/ansible/awx/issues/14635) | 2 |
+| ansible/awx | Python | [Non descriptive error when podman is missing](https://github.com/ansible/awx/issues/14341) | 2 |
 | ansible/awx | Python | [AWX Credential Create: ssh_key_data fails to detect/sanitize newlines in keys and 500's with no useable output](https://github.com/ansible/awx/issues/14219) | 2 |
 | ansible/awx | Python | [Issue label for incompliance with Ansible](https://github.com/ansible/awx/issues/13272) | 2 |
 | ansible/awx | Python | [New credentials type to provide VAULT_ADDR and VAULT_TOKEN env vars](https://github.com/ansible/awx/issues/13117) | 2 |
@@ -81,6 +79,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Show more host information in host filter lookup list ](https://github.com/ansible/awx/issues/7853) | 3 |
 | ansible/awx | Python | [Inconsistent capitalization across ui-next ](https://github.com/ansible/awx/issues/7037) | 3 |
 | xbmc/addon-check | Python | [Correct the mentioned pylint errors to get perfect 10. (missing-docstring)](https://github.com/xbmc/addon-check/issues/179) | 3 |
+| pandas-dev/pandas | Python | [ENH: raise TypeError if offsets which are not supported as period frequency pass to asfreq  ](https://github.com/pandas-dev/pandas/issues/56718) | 4 |
+| pandas-dev/pandas | Python | [CLN: Use assert_produces_warning instead of pytest.raises to show FutureWarning](https://github.com/pandas-dev/pandas/issues/56716) | 4 |
 | pandas-dev/pandas | Python | [TST: div/truediv with PyArrow duration types](https://github.com/pandas-dev/pandas/issues/54315) | 4 |
 | ansible/awx | Python | [ adhoc jobs block other jobs from being processed in the queue](https://github.com/ansible/awx/issues/14645) | 4 |
 | ansible/awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 4 |
