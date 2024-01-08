@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2024-01-07</sub></sub>
+## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2024-01-08</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -51,6 +51,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | ["Playbook not found for project" error when the playbook exist but is invalid ](https://github.com/ansible/awx/issues/6842) | 1 |
 | ansible/awx | Python | [weekly dashboard view does not have sufficient granularity](https://github.com/ansible/awx/issues/3060) | 1 |
 | pandas-dev/pandas | Python | [TST: test for Styler.applymap_index](https://github.com/pandas-dev/pandas/issues/56717) | 2 |
+| pandas-dev/pandas | Python | [BUG: Interchange protocol implementation does not handle `timestamp[ns][pyarrow]` type correctly](https://github.com/pandas-dev/pandas/issues/56712) | 2 |
 | pandas-dev/pandas-stubs | Python | [`pd.RangeIndex` should accept `range` as the first argument](https://github.com/pandas-dev/pandas-stubs/issues/677) | 2 |
 | ansible/ansible-documentation | Python | [D&I working group Docs Hackfest for inclusive language](https://github.com/ansible/ansible-documentation/issues/812) | 2 |
 | ansible/ansible-navigator | Python | [Switch to the use of `pathlib` where possible](https://github.com/ansible/ansible-navigator/issues/697) | 2 |
@@ -78,12 +79,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Show more host information in host filter lookup list ](https://github.com/ansible/awx/issues/7853) | 3 |
 | ansible/awx | Python | [Inconsistent capitalization across ui-next ](https://github.com/ansible/awx/issues/7037) | 3 |
 | ansible/awx | Python | [User auth field not documented in OPTIONS](https://github.com/ansible/awx/issues/2301) | 3 |
-| xbmc/addon-check | Python | [Correct the mentioned pylint errors to get perfect 10. (missing-docstring)](https://github.com/xbmc/addon-check/issues/179) | 3 |
-| pandas-dev/pandas | Python | [ENH: raise TypeError if offsets which are not supported as period frequency pass to asfreq  ](https://github.com/pandas-dev/pandas/issues/56718) | 4 |
 | pandas-dev/pandas | Python | [TST: div/truediv with PyArrow duration types](https://github.com/pandas-dev/pandas/issues/54315) | 4 |
 | ansible/awx | Python | [ adhoc jobs block other jobs from being processed in the queue](https://github.com/ansible/awx/issues/14645) | 4 |
 | ansible/awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 4 |
 | ansible/awx | Python | [Docker install instructions do not mention how to add awx-logos](https://github.com/ansible/awx/issues/11593) | 4 |
+| pandas-dev/pandas | Python | [ENH: raise TypeError if offsets which are not supported as period frequency pass to asfreq  ](https://github.com/pandas-dev/pandas/issues/56718) | 5 |
 | pandas-dev/pandas | Python | [CLN: Use assert_produces_warning instead of pytest.raises to show FutureWarning](https://github.com/pandas-dev/pandas/issues/56716) | 5 |
 | pandas-dev/pandas-stubs | Python | [type annotation for Index/MultiIndex.names is incorrect](https://github.com/pandas-dev/pandas-stubs/issues/804) | 6 |
 | ansible/ansible-navigator | Python | [Allow to set ansible-runner artifacts dir ID ](https://github.com/ansible/ansible-navigator/issues/521) | 6 |
@@ -111,7 +111,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [BUG: `DataFrame.to_parquet` doesn't round-trip pyarrow StringDtype](https://github.com/pandas-dev/pandas/issues/42664) | 14 |
 | pandas-dev/pandas | Python | [DOC: add button to edit on GitHub](https://github.com/pandas-dev/pandas/issues/39859) | 14 |
 | pandas-dev/pandas | Python | [DOC: add comparison to spreadsheets](https://github.com/pandas-dev/pandas/issues/38990) | 14 |
-| pandas-dev/pandas | Python | [BUG: groupby.sum() is inconsistent with df.sum() for large integers](https://github.com/pandas-dev/pandas/issues/34681) | 19 |
 | pandas-dev/pandas | Python | [CLN: Use dedup_names in all instances where duplicate column names are renamed](https://github.com/pandas-dev/pandas/issues/50371) | 23 |
 | pandas-dev/pandas | Python | [DOC: 404 Error when trying to switch doc versions from 1.4.4 version page](https://github.com/pandas-dev/pandas/issues/53286) | 24 |
 | pandas-dev/pandas | Python | [DOC: Additional items for the cheat sheet](https://github.com/pandas-dev/pandas/issues/40680) | 32 |
