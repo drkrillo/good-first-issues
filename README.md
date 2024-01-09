@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2024-01-08</sub></sub>
+## List of Good First Issues to start Collaborating!:surfer:<sub><sub>Last run: 2024-01-09</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -50,8 +50,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Inaccurate error handling on Input Group Integer fields (i.e. Org Max Hosts field)](https://github.com/ansible/awx/issues/8556) | 1 |
 | ansible/awx | Python | ["Playbook not found for project" error when the playbook exist but is invalid ](https://github.com/ansible/awx/issues/6842) | 1 |
 | ansible/awx | Python | [weekly dashboard view does not have sufficient granularity](https://github.com/ansible/awx/issues/3060) | 1 |
+| pandas-dev/pandas | Python | [BUG: DataFrame.drop_duplicates method fails when a column with a list dtype is present](https://github.com/pandas-dev/pandas/issues/56784) | 2 |
 | pandas-dev/pandas | Python | [TST: test for Styler.applymap_index](https://github.com/pandas-dev/pandas/issues/56717) | 2 |
-| pandas-dev/pandas | Python | [BUG: Interchange protocol implementation does not handle `timestamp[ns][pyarrow]` type correctly](https://github.com/pandas-dev/pandas/issues/56712) | 2 |
 | pandas-dev/pandas-stubs | Python | [`pd.RangeIndex` should accept `range` as the first argument](https://github.com/pandas-dev/pandas-stubs/issues/677) | 2 |
 | ansible/ansible-documentation | Python | [D&I working group Docs Hackfest for inclusive language](https://github.com/ansible/ansible-documentation/issues/812) | 2 |
 | ansible/ansible-navigator | Python | [Switch to the use of `pathlib` where possible](https://github.com/ansible/ansible-navigator/issues/697) | 2 |
@@ -67,6 +67,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Expose the value of "Execution Node" as a variable when running a job from Ansible Tower.](https://github.com/ansible/awx/issues/8122) | 2 |
 | ansible/awx | Python | [Jobs canceled before starting should not show a "finished" time](https://github.com/ansible/awx/issues/3988) | 2 |
 | ansible/awx | Python | [Make Info Metrics more easy to query](https://github.com/ansible/awx/issues/3781) | 2 |
+| pandas-dev/pandas | Python | [BUG: Interchange protocol implementation does not handle `timestamp[ns][pyarrow]` type correctly](https://github.com/pandas-dev/pandas/issues/56712) | 3 |
 | pandas-dev/pandas-stubs | Python | [read_excel/index_col: string not accepted](https://github.com/pandas-dev/pandas-stubs/issues/809) | 3 |
 | ansible/ansible-builder | Python | [Update link to EE getting started guide](https://github.com/ansible/ansible-builder/issues/632) | 3 |
 | ansible/ansible-documentation | Python | [Connection plugins: keyword and variable aren't mentioned](https://github.com/ansible/ansible-documentation/issues/793) | 3 |
@@ -103,7 +104,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [BUG: Docs won't build (S3 bucket does not exist)](https://github.com/pandas-dev/pandas/issues/56592) | 11 |
 | pandas-dev/pandas | Python | [BUG (?): dtype.value_counts() shows categorical multiple times](https://github.com/pandas-dev/pandas/issues/40735) | 11 |
 | pandas-dev/pandas | Python | [BUG: _validate_setitem_value fails to raise for PandasArray](https://github.com/pandas-dev/pandas/issues/51044) | 12 |
-| pandas-dev/pandas | Python | [DOC: Reccomended use of read_csv's date_parser parameter is very slow](https://github.com/pandas-dev/pandas/issues/35296) | 12 |
 | pandas-dev/pandas | Python | [DOC: Add docstrings for MultiIndex.levels and MultiIndex.codes](https://github.com/pandas-dev/pandas/issues/55435) | 13 |
 | pandas-dev/pandas | Python | [BUG: Series.value_counts with sort=False returns result sorted on values for Series with string dtype](https://github.com/pandas-dev/pandas/issues/55224) | 13 |
 | pandas-dev/pandas | Python | [STYLE replace flake8-rst with something maintained](https://github.com/pandas-dev/pandas/issues/46865) | 13 |
