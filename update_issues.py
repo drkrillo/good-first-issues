@@ -13,7 +13,6 @@ from jinja2 import Environment, FileSystemLoader
 
 load_dotenv()
 access_token = os.environ.get('ACCESS_TOKEN')
-
 usernames = [
     "pandas-dev",
     'django',
@@ -54,7 +53,7 @@ def create_list_from_lists(target: list):
     """
     list_of_lists = []
     for element in target:
-        if len(element) > 0:
+        if element != None:
             for e in element:
                 list_of_lists.append(e)
     return list_of_lists
@@ -133,16 +132,14 @@ async def extract_repos(user, session, repos_per_page=100):
     repos = []
     number_of_repos = await extract_number_of_repos(user, session)
     number_of_pages = divide_and_round_up(number_of_repos)
-    
+    print('number of repos: ', number_of_repos)
     for page in range(1,number_of_pages+1):
         user_url = f"https://api.github.com/users/{user}/repos?page={page}&per_page={repos_per_page}"
         
         async with session.get(user_url) as resp:
             user = await resp.json()
-
             if type(user) == list:
                 repos += [x['url'] for x in user]
-
         return repos
     
 async def main():
