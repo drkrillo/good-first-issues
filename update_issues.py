@@ -155,9 +155,6 @@ async def main():
         repos = await  asyncio.gather(*repos)
         repos = create_list_from_lists(repos)
         print(f"Extracted {len(repos)} public repositories.")
-        print("Ranndom samples:")
-        for random_repo in random.sample(repos, 5):
-            print(random_repo)
         print("*******************")
 
         print(f"Gathering issues...")
@@ -165,18 +162,12 @@ async def main():
         raw_issues = await asyncio.gather(*raw_issues)
         raw_issues = create_list_from_lists(raw_issues)
         print(f"Extracted {len(raw_issues)} issues.")
-        print("Ranndom samples: ")
-        for random_issue in random.sample(raw_issues, 5):
-            print(random_issue)
         print("*******************")
 
         print("Normalizing data...")
         issues = [extract_issue_data(issue) for issue in raw_issues]
         issues = sorted(issues, key=lambda x: (x['language'], x['comments']))
         print(f"Normalized data.")
-        print(f"Random samples:")
-        for random_issue in random.sample(issues, 5):
-            print(random_issue)
 
         print("\n\n\n")
         print(f"Total repositories gathered: {len(repos)}")        
