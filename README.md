@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-03-26</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-03-27</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -96,10 +96,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 7 |
 | ansible/awx | Python | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 7 |
 | pandas-dev/pandas | Python | [BUG: Parquet size grows exponential for categorical data ](https://github.com/pandas-dev/pandas/issues/55776) | 8 |
-| pandas-dev/pandas | Python | [BUG: AttributeError: 'DatetimeArray' object has no attribute 'notna' in pandas 2.1.1](https://github.com/pandas-dev/pandas/issues/55431) | 8 |
 | pandas-dev/pandas | Python | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 8 |
 | pandas-dev/pandas | Python | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 8 |
 | ansible/ansible-documentation | Python | [Contradictions in documentation about `paramiko` being the default](https://github.com/ansible/ansible-documentation/issues/1042) | 8 |
+| pandas-dev/pandas | Python | [BUG: AttributeError: 'DatetimeArray' object has no attribute 'notna' in pandas 2.1.1](https://github.com/pandas-dev/pandas/issues/55431) | 9 |
 | pandas-dev/pandas | Python | [TST: div/truediv with PyArrow duration types](https://github.com/pandas-dev/pandas/issues/54315) | 9 |
 | pandas-dev/pandas | Python | [TST: mixed_int_string Index](https://github.com/pandas-dev/pandas/issues/54072) | 9 |
 | pandas-dev/pandas | Python | [ENH: Add ``numeric_only`` to ``DataFrame.cum*`` methods](https://github.com/pandas-dev/pandas/issues/53072) | 9 |
@@ -125,10 +125,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | opencv/cvat | TypeScript | [REST API handles multiline attributes incorrect way](https://github.com/opencv/cvat/issues/6502) | 0 |
 | opencv/cvat | TypeScript | ["Origin checking failed" not fixable by CSRF_TRUSTED_ORIGINS?](https://github.com/opencv/cvat/issues/7382) | 1 |
 | opencv/cvat | TypeScript | [Datumaro 3D export doesn’t consider outside property for tracks, causing issues](https://github.com/opencv/cvat/issues/6141) | 1 |
+| opencv/cvat | TypeScript | [Adding points to existing polyline can not end](https://github.com/opencv/cvat/issues/5823) | 1 |
 | opencv/cvat | TypeScript | [Helm can't install with analytics.enabled false](https://github.com/opencv/cvat/issues/7507) | 2 |
 | opencv/cvat | TypeScript | [Annotation import error with segmentation masks in json based formats (one to many mask instances to fix)](https://github.com/opencv/cvat/issues/7458) | 2 |
 | opencv/cvat | TypeScript | [SAM - Color of segmentation mask while interacting with the model is hardly visibile in grayscale images](https://github.com/opencv/cvat/issues/6111) | 2 |
-| opencv/cvat | TypeScript | [Add OCR Support for Text/Business Card/Number Plate Annotation](https://github.com/opencv/cvat/issues/7628) | 3 |
 | opencv/cvat | TypeScript | [Can't upload "COCO Keypoints 1.0" annotation to dataset](https://github.com/opencv/cvat/issues/7501) | 3 |
 | opencv/cvat | TypeScript | [Changing the order of attributes.](https://github.com/opencv/cvat/issues/7370) | 3 |
 | opencv/cvat | TypeScript | [Cannot read properties of null (reading 'annotations')](https://github.com/opencv/cvat/issues/7363) | 3 |
@@ -136,8 +136,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | opencv/cvat | TypeScript | [Navigation and zooming in tag annotation mode ](https://github.com/opencv/cvat/issues/6526) | 3 |
 | opencv/cvat | TypeScript | [REST API renaming an attribute does not work](https://github.com/opencv/cvat/issues/6503) | 3 |
 | opencv/cvat | TypeScript | ["Switch outside" property does not work with the Datumaro format while tracking instances](https://github.com/opencv/cvat/issues/7571) | 4 |
-| opencv/cvat | TypeScript | [Incorrect display of images extracted from rotated video (no zip chunks)](https://github.com/opencv/cvat/issues/7394) | 4 |
 | opencv/cvat | TypeScript | [Cannot create a task with  👀 character in the uploaded filename](https://github.com/opencv/cvat/issues/6528) | 4 |
+| opencv/cvat | TypeScript | [Add OCR Support for Text/Business Card/Number Plate Annotation](https://github.com/opencv/cvat/issues/7628) | 5 |
 | opencv/cvat | TypeScript | [Issue with "Export task dataset" not applying subset to directory name](https://github.com/opencv/cvat/issues/6451) | 5 |
 | opencv/cvat | TypeScript | [Error when trying to export task dataset  (AssertionError)](https://github.com/opencv/cvat/issues/7097) | 6 |
 | opencv/cvat | TypeScript | [I don't know how to read the documentation, please help.](https://github.com/opencv/cvat/issues/7526) | 7 |
