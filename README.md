@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-03-27</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-03-28</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -87,13 +87,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Docker install instructions do not mention how to add awx-logos](https://github.com/ansible/awx/issues/11593) | 4 |
 | pandas-dev/pandas | Python | [DOC: `DataFrame.any()` and `DataFrame.all()` documentation specifies the wrong return types](https://github.com/pandas-dev/pandas/issues/57088) | 5 |
 | pandas-dev/pandas | Python | [BUG:  `DataFrame.any()` inconsistent with other methods](https://github.com/pandas-dev/pandas/issues/57087) | 5 |
-| pandas-dev/pandas | Python | [BUG: groupby-transform produces NaN for series keys with as_index=False](https://github.com/pandas-dev/pandas/issues/37093) | 6 |
 | pandas-dev/pandas-stubs | Python | [type annotation for Index/MultiIndex.names is incorrect](https://github.com/pandas-dev/pandas-stubs/issues/804) | 6 |
 | ansible/ansible-documentation | Python | [Connection plugins: keyword and variable aren't mentioned](https://github.com/ansible/ansible-documentation/issues/793) | 6 |
 | ansible/ansible-navigator | Python | [Allow to set ansible-runner artifacts dir ID ](https://github.com/ansible/ansible-navigator/issues/521) | 6 |
 | ansible/awx | Python | [AWX Collection Credential Delete](https://github.com/ansible/awx/issues/14209) | 6 |
 | pandas-dev/pandas | Python | [BUG: read_csv inconsistent behavior](https://github.com/pandas-dev/pandas/issues/57792) | 7 |
 | pandas-dev/pandas | Python | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 7 |
+| pandas-dev/pandas | Python | [Extreme performance issue in pandas 1.0.3 when setting a new column with DatetimeIndex](https://github.com/pandas-dev/pandas/issues/34531) | 7 |
 | ansible/awx | Python | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 7 |
 | pandas-dev/pandas | Python | [BUG: Parquet size grows exponential for categorical data ](https://github.com/pandas-dev/pandas/issues/55776) | 8 |
 | pandas-dev/pandas | Python | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 8 |
@@ -120,10 +120,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [CLN: Use dedup_names in all instances where duplicate column names are renamed](https://github.com/pandas-dev/pandas/issues/50371) | 23 |
 | pandas-dev/pandas | Python | [DOC: Additional items for the cheat sheet](https://github.com/pandas-dev/pandas/issues/40680) | 34 |
 | opencv/cvat | TypeScript | [CVAT SDK - better documentation needed](https://github.com/opencv/cvat/issues/7435) | 0 |
-| opencv/cvat | TypeScript | [Related images are not included when exporting 3D datasets](https://github.com/opencv/cvat/issues/7375) | 0 |
 | opencv/cvat | TypeScript | [Vertical polyline shapes are difficult to select and move](https://github.com/opencv/cvat/issues/6841) | 0 |
 | opencv/cvat | TypeScript | [REST API handles multiline attributes incorrect way](https://github.com/opencv/cvat/issues/6502) | 0 |
 | opencv/cvat | TypeScript | ["Origin checking failed" not fixable by CSRF_TRUSTED_ORIGINS?](https://github.com/opencv/cvat/issues/7382) | 1 |
+| opencv/cvat | TypeScript | [Related images are not included when exporting 3D datasets](https://github.com/opencv/cvat/issues/7375) | 1 |
 | opencv/cvat | TypeScript | [Datumaro 3D export doesn’t consider outside property for tracks, causing issues](https://github.com/opencv/cvat/issues/6141) | 1 |
 | opencv/cvat | TypeScript | [Adding points to existing polyline can not end](https://github.com/opencv/cvat/issues/5823) | 1 |
 | opencv/cvat | TypeScript | [Helm can't install with analytics.enabled false](https://github.com/opencv/cvat/issues/7507) | 2 |
@@ -141,10 +141,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | opencv/cvat | TypeScript | [Issue with "Export task dataset" not applying subset to directory name](https://github.com/opencv/cvat/issues/6451) | 5 |
 | opencv/cvat | TypeScript | [Error when trying to export task dataset  (AssertionError)](https://github.com/opencv/cvat/issues/7097) | 6 |
 | opencv/cvat | TypeScript | [I don't know how to read the documentation, please help.](https://github.com/opencv/cvat/issues/7526) | 7 |
-| opencv/cvat | TypeScript | [CVAT corrupts annotations when importing](https://github.com/opencv/cvat/issues/7498) | 7 |
 | opencv/cvat | TypeScript | [Security headers not present in responses](https://github.com/opencv/cvat/issues/7398) | 7 |
 | opencv/cvat | TypeScript | [navigate over unresolved issues](https://github.com/opencv/cvat/issues/7443) | 8 |
-| opencv/cvat | TypeScript | [WiderFace import does not work](https://github.com/opencv/cvat/issues/7258) | 8 |
+| opencv/cvat | TypeScript | [Allow to sort available models in UI](https://github.com/opencv/cvat/issues/5501) | 8 |
+| opencv/cvat | TypeScript | [WiderFace import does not work](https://github.com/opencv/cvat/issues/7258) | 9 |
 | opencv/cvat | TypeScript | [[bug ]Unable to annotate](https://github.com/opencv/cvat/issues/7536) | 11 |
 | opencv/cvat | TypeScript | [Unble to edit Attribute name](https://github.com/opencv/cvat/issues/5978) | 11 |
 | opencv/cvat | TypeScript | [Add `track_id` to CVAT for Images, correct importing tracks from CVAT for Images](https://github.com/opencv/cvat/issues/7239) | 13 |
