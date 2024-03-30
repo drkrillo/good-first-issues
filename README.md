@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-03-29</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-03-30</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -60,60 +60,30 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/ansible-documentation | Python | [Link "see also" sections as recommended in the forum](https://github.com/ansible/ansible-documentation/issues/1200) | 0 |
 | ansible/ansible-jupyter-kernel | Python | [Add support for handlers](https://github.com/ansible/ansible-jupyter-kernel/issues/53) | 0 |
 | ansible/ansible-jupyter-kernel | Python | [Add a #library cell type](https://github.com/ansible/ansible-jupyter-kernel/issues/26) | 0 |
-| ansible/awx | Python | [Empty value in execution_environment should remove selections (ansible.controller.job_template)](https://github.com/ansible/awx/issues/14841) | 0 |
-| ansible/awx | Python | [[ui_next] Add All/Any workflow viz indication to Workflow Viz Legend/Key](https://github.com/ansible/awx/issues/9791) | 0 |
 | ansible/ansible-documentation | Python | [Fix typo in Roadmap_2_7.rst](https://github.com/ansible/ansible-documentation/issues/1199) | 1 |
 | ansible/ansible-navigator | Python | [Many params missing change after initial = False](https://github.com/ansible/ansible-navigator/issues/423) | 1 |
-| ansible/awx | Python | [Scheduled Job prompted extra_vars overwritten by JT extra_vars](https://github.com/ansible/awx/issues/14445) | 1 |
-| ansible/awx | Python | [Inaccurate error handling on Input Group Integer fields (i.e. Org Max Hosts field)](https://github.com/ansible/awx/issues/8556) | 1 |
-| ansible/awx | Python | ["Playbook not found for project" error when the playbook exist but is invalid ](https://github.com/ansible/awx/issues/6842) | 1 |
-| ansible/awx | Python | [weekly dashboard view does not have sufficient granularity](https://github.com/ansible/awx/issues/3060) | 1 |
 | pandas-dev/pandas | Python | [ENH: Expose `to_pandas_kwargs` in `read_parquet` for pyarrow engine](https://github.com/pandas-dev/pandas/issues/49236) | 2 |
 | pandas-dev/pandas-stubs | Python | [`pd.RangeIndex` should accept `range` as the first argument](https://github.com/pandas-dev/pandas-stubs/issues/677) | 2 |
 | ansible/ansible-documentation | Python | [Handlers page it is not very clear in defining "changed" state and how it can be manipulated](https://github.com/ansible/ansible-documentation/issues/1167) | 2 |
 | ansible/ansible-documentation | Python | [Clarify example module group name in the playbook guide](https://github.com/ansible/ansible-documentation/issues/1070) | 2 |
 | ansible/ansible-documentation | Python | [D&I working group Docs Hackfest for inclusive language](https://github.com/ansible/ansible-documentation/issues/812) | 2 |
 | ansible/ansible-navigator | Python | [Switch to the use of `pathlib` where possible](https://github.com/ansible/ansible-navigator/issues/697) | 2 |
-| ansible/awx | Python | [Non descriptive error when podman is missing](https://github.com/ansible/awx/issues/14341) | 2 |
-| ansible/awx | Python | [Issue label for incompliance with Ansible](https://github.com/ansible/awx/issues/13272) | 2 |
-| ansible/awx | Python | [New credentials type to provide VAULT_ADDR and VAULT_TOKEN env vars](https://github.com/ansible/awx/issues/13117) | 2 |
-| ansible/awx | Python | [Add "nodes" to "Relaunch on" when relaunching jobs after failure - users think it relates to failed tasks and not nodes](https://github.com/ansible/awx/issues/12438) | 2 |
-| ansible/awx | Python | [Worker failed to run task awx.main.tasks.system.purge_old_stdout_files](https://github.com/ansible/awx/issues/11903) | 2 |
-| ansible/awx | Python | [Expose the value of "Execution Node" as a variable when running a job from Ansible Tower.](https://github.com/ansible/awx/issues/8122) | 2 |
-| ansible/awx | Python | [Jobs canceled before starting should not show a "finished" time](https://github.com/ansible/awx/issues/3988) | 2 |
-| ansible/awx | Python | [Make Info Metrics more easy to query](https://github.com/ansible/awx/issues/3781) | 2 |
 | pandas-dev/pandas | Python | [DOC: Adding new columns in a DataFrame of Nullable type might be better explained](https://github.com/pandas-dev/pandas/issues/49201) | 3 |
 | pandas-dev/pandas-stubs | Python | [Series apply frozenset raises error, frozenset not in enumerated Callable output types](https://github.com/pandas-dev/pandas-stubs/issues/871) | 3 |
 | pandas-dev/pandas-stubs | Python | [Implement ExtensionArray _accumulate and _reduce](https://github.com/pandas-dev/pandas-stubs/issues/850) | 3 |
 | pandas-dev/pandas-stubs | Python | [read_excel/index_col: string not accepted](https://github.com/pandas-dev/pandas-stubs/issues/809) | 3 |
-| ansible/awx | Python | [Fix Delinea imports and import test](https://github.com/ansible/awx/issues/14703) | 3 |
-| ansible/awx | Python | [ visualizer info field ](https://github.com/ansible/awx/issues/14597) | 3 |
-| ansible/awx | Python | [Cleanup Job Details. Configure days retention for the particular job entities. ](https://github.com/ansible/awx/issues/14384) | 3 |
-| ansible/awx | Python | [Improve user experience of copy pasting FQDNs from jobs](https://github.com/ansible/awx/issues/14354) | 3 |
-| ansible/awx | Python | [AWX Credential Create: ssh_key_data fails to detect/sanitize newlines in keys and 500's with no useable output](https://github.com/ansible/awx/issues/14219) | 3 |
-| ansible/awx | Python | [System Auditors can check list items](https://github.com/ansible/awx/issues/10841) | 3 |
-| ansible/awx | Python | [Show more host information in host filter lookup list ](https://github.com/ansible/awx/issues/7853) | 3 |
-| ansible/awx | Python | [Inconsistent capitalization across ui-next ](https://github.com/ansible/awx/issues/7037) | 3 |
-| ansible/awx | Python | [User auth field not documented in OPTIONS](https://github.com/ansible/awx/issues/2301) | 3 |
 | xbmc/addon-check | Python | [Correct the mentioned pylint errors to get perfect 10. (missing-docstring)](https://github.com/xbmc/addon-check/issues/179) | 3 |
 | godotengine/godot-blender-exporter | Python | [Blender object with negative scale](https://github.com/godotengine/godot-blender-exporter/issues/24) | 3 |
 | pandas-dev/pandas-stubs | Python | [Type checking with `converters=` on `read_excel`](https://github.com/pandas-dev/pandas-stubs/issues/849) | 4 |
 | ansible/ansible-documentation | Python | [Ansible include_task search documentation incorrect](https://github.com/ansible/ansible-documentation/issues/357) | 4 |
-| ansible/awx | Python | [Link to docs in UI's Help Button needs to go to the AWX docs](https://github.com/ansible/awx/issues/14699) | 4 |
-| ansible/awx | Python | [ adhoc jobs block other jobs from being processed in the queue](https://github.com/ansible/awx/issues/14645) | 4 |
-| ansible/awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 4 |
-| ansible/awx | Python | [Remove some of the eslint-disable comments](https://github.com/ansible/awx/issues/11707) | 4 |
-| ansible/awx | Python | [Docker install instructions do not mention how to add awx-logos](https://github.com/ansible/awx/issues/11593) | 4 |
-| pandas-dev/pandas | Python | [DOC: `DataFrame.any()` and `DataFrame.all()` documentation specifies the wrong return types](https://github.com/pandas-dev/pandas/issues/57088) | 5 |
 | pandas-dev/pandas | Python | [BUG:  `DataFrame.any()` inconsistent with other methods](https://github.com/pandas-dev/pandas/issues/57087) | 5 |
+| pandas-dev/pandas | Python | [DOC: `DataFrame.any()` and `DataFrame.all()` documentation specifies the wrong return types](https://github.com/pandas-dev/pandas/issues/57088) | 6 |
 | pandas-dev/pandas-stubs | Python | [type annotation for Index/MultiIndex.names is incorrect](https://github.com/pandas-dev/pandas-stubs/issues/804) | 6 |
 | ansible/ansible-documentation | Python | [Connection plugins: keyword and variable aren't mentioned](https://github.com/ansible/ansible-documentation/issues/793) | 6 |
 | ansible/ansible-navigator | Python | [Allow to set ansible-runner artifacts dir ID ](https://github.com/ansible/ansible-navigator/issues/521) | 6 |
-| ansible/awx | Python | [AWX Collection Credential Delete](https://github.com/ansible/awx/issues/14209) | 6 |
 | pandas-dev/pandas | Python | [BUG: read_csv inconsistent behavior](https://github.com/pandas-dev/pandas/issues/57792) | 7 |
 | pandas-dev/pandas | Python | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 7 |
 | pandas-dev/pandas | Python | [Extreme performance issue in pandas 1.0.3 when setting a new column with DatetimeIndex](https://github.com/pandas-dev/pandas/issues/34531) | 7 |
-| ansible/awx | Python | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 7 |
 | pandas-dev/pandas | Python | [BUG: Parquet size grows exponential for categorical data ](https://github.com/pandas-dev/pandas/issues/55776) | 8 |
 | pandas-dev/pandas | Python | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 8 |
 | pandas-dev/pandas | Python | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 8 |
@@ -153,11 +123,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | opencv/cvat | TypeScript | [SAM - Color of segmentation mask while interacting with the model is hardly visibile in grayscale images](https://github.com/opencv/cvat/issues/6111) | 2 |
 | opencv/cvat | TypeScript | [Can't upload "COCO Keypoints 1.0" annotation to dataset](https://github.com/opencv/cvat/issues/7501) | 3 |
 | opencv/cvat | TypeScript | [Changing the order of attributes.](https://github.com/opencv/cvat/issues/7370) | 3 |
-| opencv/cvat | TypeScript | [Cannot read properties of null (reading 'annotations')](https://github.com/opencv/cvat/issues/7363) | 3 |
 | opencv/cvat | TypeScript | [Edit Polygon with Automatic Bordering](https://github.com/opencv/cvat/issues/7221) | 3 |
 | opencv/cvat | TypeScript | [Navigation and zooming in tag annotation mode ](https://github.com/opencv/cvat/issues/6526) | 3 |
 | opencv/cvat | TypeScript | [REST API renaming an attribute does not work](https://github.com/opencv/cvat/issues/6503) | 3 |
 | opencv/cvat | TypeScript | ["Switch outside" property does not work with the Datumaro format while tracking instances](https://github.com/opencv/cvat/issues/7571) | 4 |
+| opencv/cvat | TypeScript | [Cannot read properties of null (reading 'annotations')](https://github.com/opencv/cvat/issues/7363) | 4 |
 | opencv/cvat | TypeScript | [Cannot create a task with  👀 character in the uploaded filename](https://github.com/opencv/cvat/issues/6528) | 4 |
 | opencv/cvat | TypeScript | [Add OCR Support for Text/Business Card/Number Plate Annotation](https://github.com/opencv/cvat/issues/7628) | 5 |
 | opencv/cvat | TypeScript | [Issue with "Export task dataset" not applying subset to directory name](https://github.com/opencv/cvat/issues/6451) | 5 |
