@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-03-31</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-04-01</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -76,7 +76,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Show more host information in host filter lookup list ](https://github.com/ansible/awx/issues/7853) | 3 |
 | ansible/awx | Python | [Inconsistent capitalization across ui-next ](https://github.com/ansible/awx/issues/7037) | 3 |
 | ansible/awx | Python | [User auth field not documented in OPTIONS](https://github.com/ansible/awx/issues/2301) | 3 |
-| xbmc/addon-check | Python | [Correct the mentioned pylint errors to get perfect 10. (missing-docstring)](https://github.com/xbmc/addon-check/issues/179) | 3 |
 | pandas-dev/pandas-stubs | Python | [Type checking with `converters=` on `read_excel`](https://github.com/pandas-dev/pandas-stubs/issues/849) | 4 |
 | ansible/ansible-documentation | Python | [Ansible include_task search documentation incorrect](https://github.com/ansible/ansible-documentation/issues/357) | 4 |
 | ansible/awx | Python | [Link to docs in UI's Help Button needs to go to the AWX docs](https://github.com/ansible/awx/issues/14699) | 4 |
@@ -85,12 +84,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Remove some of the eslint-disable comments](https://github.com/ansible/awx/issues/11707) | 4 |
 | ansible/awx | Python | [Docker install instructions do not mention how to add awx-logos](https://github.com/ansible/awx/issues/11593) | 4 |
 | pandas-dev/pandas | Python | [BUG:  `DataFrame.any()` inconsistent with other methods](https://github.com/pandas-dev/pandas/issues/57087) | 5 |
-| pandas-dev/pandas | Python | [DOC: `DataFrame.any()` and `DataFrame.all()` documentation specifies the wrong return types](https://github.com/pandas-dev/pandas/issues/57088) | 6 |
 | pandas-dev/pandas-stubs | Python | [type annotation for Index/MultiIndex.names is incorrect](https://github.com/pandas-dev/pandas-stubs/issues/804) | 6 |
 | ansible/ansible-documentation | Python | [Connection plugins: keyword and variable aren't mentioned](https://github.com/ansible/ansible-documentation/issues/793) | 6 |
 | ansible/ansible-navigator | Python | [Allow to set ansible-runner artifacts dir ID ](https://github.com/ansible/ansible-navigator/issues/521) | 6 |
 | ansible/awx | Python | [AWX Collection Credential Delete](https://github.com/ansible/awx/issues/14209) | 6 |
-| pandas-dev/pandas | Python | [BUG: read_csv inconsistent behavior](https://github.com/pandas-dev/pandas/issues/57792) | 7 |
 | pandas-dev/pandas | Python | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 7 |
 | pandas-dev/pandas | Python | [Extreme performance issue in pandas 1.0.3 when setting a new column with DatetimeIndex](https://github.com/pandas-dev/pandas/issues/34531) | 7 |
 | ansible/awx | Python | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 7 |
@@ -116,10 +113,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [DOC: add comparison to spreadsheets](https://github.com/pandas-dev/pandas/issues/38990) | 14 |
 | pandas-dev/pandas | Python | [DOC: Fix docs for various offset constructors](https://github.com/pandas-dev/pandas/issues/52431) | 15 |
 | pandas-dev/pandas | Python | [BUG: groupby.sum() is inconsistent with df.sum() for large integers](https://github.com/pandas-dev/pandas/issues/34681) | 19 |
+| pandas-dev/pandas | Python | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 21 |
 | pandas-dev/pandas | Python | [CLN: Use dedup_names in all instances where duplicate column names are renamed](https://github.com/pandas-dev/pandas/issues/50371) | 23 |
 | pandas-dev/pandas | Python | [DOC: Additional items for the cheat sheet](https://github.com/pandas-dev/pandas/issues/40680) | 34 |
+| pandas-dev/pandas | Python | [Fix capitalization among headings in documentation files](https://github.com/pandas-dev/pandas/issues/32550) | 47 |
 | opencv/cvat | TypeScript | [CVAT SDK - better documentation needed](https://github.com/opencv/cvat/issues/7435) | 0 |
-| opencv/cvat | TypeScript | [Vertical polyline shapes are difficult to select and move](https://github.com/opencv/cvat/issues/6841) | 0 |
 | opencv/cvat | TypeScript | [REST API handles multiline attributes incorrect way](https://github.com/opencv/cvat/issues/6502) | 0 |
 | opencv/cvat | TypeScript | ["Origin checking failed" not fixable by CSRF_TRUSTED_ORIGINS?](https://github.com/opencv/cvat/issues/7382) | 1 |
 | opencv/cvat | TypeScript | [Related images are not included when exporting 3D datasets](https://github.com/opencv/cvat/issues/7375) | 1 |
@@ -127,6 +125,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | opencv/cvat | TypeScript | [Adding points to existing polyline can not end](https://github.com/opencv/cvat/issues/5823) | 1 |
 | opencv/cvat | TypeScript | [Helm can't install with analytics.enabled false](https://github.com/opencv/cvat/issues/7507) | 2 |
 | opencv/cvat | TypeScript | [Annotation import error with segmentation masks in json based formats (one to many mask instances to fix)](https://github.com/opencv/cvat/issues/7458) | 2 |
+| opencv/cvat | TypeScript | [Vertical polyline shapes are difficult to select and move](https://github.com/opencv/cvat/issues/6841) | 2 |
 | opencv/cvat | TypeScript | [SAM - Color of segmentation mask while interacting with the model is hardly visibile in grayscale images](https://github.com/opencv/cvat/issues/6111) | 2 |
 | opencv/cvat | TypeScript | [Can't upload "COCO Keypoints 1.0" annotation to dataset](https://github.com/opencv/cvat/issues/7501) | 3 |
 | opencv/cvat | TypeScript | [Changing the order of attributes.](https://github.com/opencv/cvat/issues/7370) | 3 |
@@ -134,17 +133,17 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | opencv/cvat | TypeScript | [Navigation and zooming in tag annotation mode ](https://github.com/opencv/cvat/issues/6526) | 3 |
 | opencv/cvat | TypeScript | [REST API renaming an attribute does not work](https://github.com/opencv/cvat/issues/6503) | 3 |
 | opencv/cvat | TypeScript | ["Switch outside" property does not work with the Datumaro format while tracking instances](https://github.com/opencv/cvat/issues/7571) | 4 |
-| opencv/cvat | TypeScript | [Cannot read properties of null (reading 'annotations')](https://github.com/opencv/cvat/issues/7363) | 4 |
 | opencv/cvat | TypeScript | [Cannot create a task with  👀 character in the uploaded filename](https://github.com/opencv/cvat/issues/6528) | 4 |
 | opencv/cvat | TypeScript | [Add OCR Support for Text/Business Card/Number Plate Annotation](https://github.com/opencv/cvat/issues/7628) | 5 |
 | opencv/cvat | TypeScript | [Issue with "Export task dataset" not applying subset to directory name](https://github.com/opencv/cvat/issues/6451) | 5 |
 | opencv/cvat | TypeScript | [Search by filename](https://github.com/opencv/cvat/issues/5109) | 5 |
+| opencv/cvat | TypeScript | [Cannot read properties of null (reading 'annotations')](https://github.com/opencv/cvat/issues/7363) | 6 |
 | opencv/cvat | TypeScript | [Error when trying to export task dataset  (AssertionError)](https://github.com/opencv/cvat/issues/7097) | 6 |
 | opencv/cvat | TypeScript | [I don't know how to read the documentation, please help.](https://github.com/opencv/cvat/issues/7526) | 7 |
 | opencv/cvat | TypeScript | [Security headers not present in responses](https://github.com/opencv/cvat/issues/7398) | 7 |
 | opencv/cvat | TypeScript | [navigate over unresolved issues](https://github.com/opencv/cvat/issues/7443) | 8 |
 | opencv/cvat | TypeScript | [Allow to sort available models in UI](https://github.com/opencv/cvat/issues/5501) | 8 |
-| opencv/cvat | TypeScript | [[bug ]Unable to annotate](https://github.com/opencv/cvat/issues/7536) | 11 |
 | opencv/cvat | TypeScript | [Unble to edit Attribute name](https://github.com/opencv/cvat/issues/5978) | 11 |
+| opencv/cvat | TypeScript | [[bug ]Unable to annotate](https://github.com/opencv/cvat/issues/7536) | 13 |
 | opencv/cvat | TypeScript | [Add `track_id` to CVAT for Images, correct importing tracks from CVAT for Images](https://github.com/opencv/cvat/issues/7239) | 13 |
 | opencv/cvat | TypeScript | [[GSoC2024] Filenames with same name but different extensions cause error](https://github.com/opencv/cvat/issues/7523) | 26 |
