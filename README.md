@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-04-02</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-04-03</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -50,7 +50,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [weekly dashboard view does not have sufficient granularity](https://github.com/ansible/awx/issues/3060) | 1 |
 | pandas-dev/pandas | Python | [ENH: Expose `to_pandas_kwargs` in `read_parquet` for pyarrow engine](https://github.com/pandas-dev/pandas/issues/49236) | 2 |
 | pandas-dev/pandas-stubs | Python | [`pd.RangeIndex` should accept `range` as the first argument](https://github.com/pandas-dev/pandas-stubs/issues/677) | 2 |
-| ansible/ansible-documentation | Python | [Handlers page it is not very clear in defining "changed" state and how it can be manipulated](https://github.com/ansible/ansible-documentation/issues/1167) | 2 |
 | ansible/ansible-documentation | Python | [Clarify example module group name in the playbook guide](https://github.com/ansible/ansible-documentation/issues/1070) | 2 |
 | ansible/ansible-documentation | Python | [D&I working group Docs Hackfest for inclusive language](https://github.com/ansible/ansible-documentation/issues/812) | 2 |
 | ansible/ansible-navigator | Python | [Switch to the use of `pathlib` where possible](https://github.com/ansible/ansible-navigator/issues/697) | 2 |
@@ -78,12 +77,14 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [User auth field not documented in OPTIONS](https://github.com/ansible/awx/issues/2301) | 3 |
 | xbmc/addon-check | Python | [Correct the mentioned pylint errors to get perfect 10. (missing-docstring)](https://github.com/xbmc/addon-check/issues/179) | 3 |
 | pandas-dev/pandas-stubs | Python | [Type checking with `converters=` on `read_excel`](https://github.com/pandas-dev/pandas-stubs/issues/849) | 4 |
+| ansible/ansible-documentation | Python | [Handlers page it is not very clear in defining "changed" state and how it can be manipulated](https://github.com/ansible/ansible-documentation/issues/1167) | 4 |
 | ansible/awx | Python | [Link to docs in UI's Help Button needs to go to the AWX docs](https://github.com/ansible/awx/issues/14699) | 4 |
 | ansible/awx | Python | [ adhoc jobs block other jobs from being processed in the queue](https://github.com/ansible/awx/issues/14645) | 4 |
 | ansible/awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 4 |
 | ansible/awx | Python | [Remove some of the eslint-disable comments](https://github.com/ansible/awx/issues/11707) | 4 |
 | ansible/awx | Python | [Docker install instructions do not mention how to add awx-logos](https://github.com/ansible/awx/issues/11593) | 4 |
 | pandas-dev/pandas | Python | [BUG:  `DataFrame.any()` inconsistent with other methods](https://github.com/pandas-dev/pandas/issues/57087) | 5 |
+| pandas-dev/pandas | Python | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 5 |
 | pandas-dev/pandas-stubs | Python | [type annotation for Index/MultiIndex.names is incorrect](https://github.com/pandas-dev/pandas-stubs/issues/804) | 6 |
 | ansible/ansible-documentation | Python | [Ansible include_task search documentation incorrect](https://github.com/ansible/ansible-documentation/issues/357) | 6 |
 | ansible/ansible-navigator | Python | [Allow to set ansible-runner artifacts dir ID ](https://github.com/ansible/ansible-navigator/issues/521) | 6 |
@@ -96,18 +97,17 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 8 |
 | pandas-dev/pandas | Python | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 8 |
 | ansible/ansible-documentation | Python | [Contradictions in documentation about `paramiko` being the default](https://github.com/ansible/ansible-documentation/issues/1042) | 8 |
-| pandas-dev/pandas | Python | [BUG: AttributeError: 'DatetimeArray' object has no attribute 'notna' in pandas 2.1.1](https://github.com/pandas-dev/pandas/issues/55431) | 9 |
 | pandas-dev/pandas | Python | [TST: div/truediv with PyArrow duration types](https://github.com/pandas-dev/pandas/issues/54315) | 9 |
 | pandas-dev/pandas | Python | [TST: mixed_int_string Index](https://github.com/pandas-dev/pandas/issues/54072) | 9 |
 | pandas-dev/pandas | Python | [ENH: Add ``numeric_only`` to ``DataFrame.cum*`` methods](https://github.com/pandas-dev/pandas/issues/53072) | 9 |
 | pandas-dev/pandas | Python | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
+| pandas-dev/pandas | Python | [BUG: AttributeError: 'DatetimeArray' object has no attribute 'notna' in pandas 2.1.1](https://github.com/pandas-dev/pandas/issues/55431) | 10 |
 | pandas-dev/pandas | Python | [BUG: Add ``numeric_only`` to function signature of ``DataFrameGroupBy.cumprod`` and ``DataFrameGroupBy.cumsum`](https://github.com/pandas-dev/pandas/issues/53071) | 10 |
-| pandas-dev/pandas | Python | [DOC: Improve the register_index_accessor Documentation](https://github.com/pandas-dev/pandas/issues/49202) | 10 |
 | pandas-dev/pandas | Python | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 10 |
 | pandas-dev/pandas | Python | [WEB: Multiple "Getting Started" on pandas.io leads to different links](https://github.com/pandas-dev/pandas/issues/32307) | 10 |
 | pandas-dev/pandas | Python | [BUG (?): dtype.value_counts() shows categorical multiple times](https://github.com/pandas-dev/pandas/issues/40735) | 11 |
-| pandas-dev/pandas | Python | [BUG: _validate_setitem_value fails to raise for PandasArray](https://github.com/pandas-dev/pandas/issues/51044) | 12 |
 | pandas-dev/pandas | Python | [DOC: Add docstrings for MultiIndex.levels and MultiIndex.codes](https://github.com/pandas-dev/pandas/issues/55435) | 13 |
+| pandas-dev/pandas | Python | [BUG: _validate_setitem_value fails to raise for PandasArray](https://github.com/pandas-dev/pandas/issues/51044) | 13 |
 | pandas-dev/pandas | Python | [STYLE replace flake8-rst with something maintained](https://github.com/pandas-dev/pandas/issues/46865) | 13 |
 | pandas-dev/pandas | Python | [BUG: `DataFrame.to_parquet` doesn't round-trip pyarrow StringDtype](https://github.com/pandas-dev/pandas/issues/42664) | 14 |
 | pandas-dev/pandas | Python | [DOC: add button to edit on GitHub](https://github.com/pandas-dev/pandas/issues/39859) | 14 |
@@ -118,33 +118,3 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [CLN: Use dedup_names in all instances where duplicate column names are renamed](https://github.com/pandas-dev/pandas/issues/50371) | 23 |
 | pandas-dev/pandas | Python | [DOC: Additional items for the cheat sheet](https://github.com/pandas-dev/pandas/issues/40680) | 34 |
 | pandas-dev/pandas | Python | [Fix capitalization among headings in documentation files](https://github.com/pandas-dev/pandas/issues/32550) | 47 |
-| opencv/cvat | TypeScript | [CVAT SDK - better documentation needed](https://github.com/opencv/cvat/issues/7435) | 0 |
-| opencv/cvat | TypeScript | [REST API handles multiline attributes incorrect way](https://github.com/opencv/cvat/issues/6502) | 0 |
-| opencv/cvat | TypeScript | ["Origin checking failed" not fixable by CSRF_TRUSTED_ORIGINS?](https://github.com/opencv/cvat/issues/7382) | 1 |
-| opencv/cvat | TypeScript | [Related images are not included when exporting 3D datasets](https://github.com/opencv/cvat/issues/7375) | 1 |
-| opencv/cvat | TypeScript | [Datumaro 3D export doesn’t consider outside property for tracks, causing issues](https://github.com/opencv/cvat/issues/6141) | 1 |
-| opencv/cvat | TypeScript | [Adding points to existing polyline can not end](https://github.com/opencv/cvat/issues/5823) | 1 |
-| opencv/cvat | TypeScript | [Helm can't install with analytics.enabled false](https://github.com/opencv/cvat/issues/7507) | 2 |
-| opencv/cvat | TypeScript | [Annotation import error with segmentation masks in json based formats (one to many mask instances to fix)](https://github.com/opencv/cvat/issues/7458) | 2 |
-| opencv/cvat | TypeScript | [Vertical polyline shapes are difficult to select and move](https://github.com/opencv/cvat/issues/6841) | 2 |
-| opencv/cvat | TypeScript | [SAM - Color of segmentation mask while interacting with the model is hardly visibile in grayscale images](https://github.com/opencv/cvat/issues/6111) | 2 |
-| opencv/cvat | TypeScript | [Can't upload "COCO Keypoints 1.0" annotation to dataset](https://github.com/opencv/cvat/issues/7501) | 3 |
-| opencv/cvat | TypeScript | [Changing the order of attributes.](https://github.com/opencv/cvat/issues/7370) | 3 |
-| opencv/cvat | TypeScript | [Edit Polygon with Automatic Bordering](https://github.com/opencv/cvat/issues/7221) | 3 |
-| opencv/cvat | TypeScript | [Navigation and zooming in tag annotation mode ](https://github.com/opencv/cvat/issues/6526) | 3 |
-| opencv/cvat | TypeScript | [REST API renaming an attribute does not work](https://github.com/opencv/cvat/issues/6503) | 3 |
-| opencv/cvat | TypeScript | ["Switch outside" property does not work with the Datumaro format while tracking instances](https://github.com/opencv/cvat/issues/7571) | 4 |
-| opencv/cvat | TypeScript | [Cannot create a task with  👀 character in the uploaded filename](https://github.com/opencv/cvat/issues/6528) | 4 |
-| opencv/cvat | TypeScript | [Add OCR Support for Text/Business Card/Number Plate Annotation](https://github.com/opencv/cvat/issues/7628) | 5 |
-| opencv/cvat | TypeScript | [Issue with "Export task dataset" not applying subset to directory name](https://github.com/opencv/cvat/issues/6451) | 5 |
-| opencv/cvat | TypeScript | [Search by filename](https://github.com/opencv/cvat/issues/5109) | 5 |
-| opencv/cvat | TypeScript | [Cannot read properties of null (reading 'annotations')](https://github.com/opencv/cvat/issues/7363) | 6 |
-| opencv/cvat | TypeScript | [Error when trying to export task dataset  (AssertionError)](https://github.com/opencv/cvat/issues/7097) | 6 |
-| opencv/cvat | TypeScript | [I don't know how to read the documentation, please help.](https://github.com/opencv/cvat/issues/7526) | 7 |
-| opencv/cvat | TypeScript | [Security headers not present in responses](https://github.com/opencv/cvat/issues/7398) | 7 |
-| opencv/cvat | TypeScript | [navigate over unresolved issues](https://github.com/opencv/cvat/issues/7443) | 8 |
-| opencv/cvat | TypeScript | [Allow to sort available models in UI](https://github.com/opencv/cvat/issues/5501) | 8 |
-| opencv/cvat | TypeScript | [Unble to edit Attribute name](https://github.com/opencv/cvat/issues/5978) | 11 |
-| opencv/cvat | TypeScript | [Add `track_id` to CVAT for Images, correct importing tracks from CVAT for Images](https://github.com/opencv/cvat/issues/7239) | 13 |
-| opencv/cvat | TypeScript | [[bug ]Unable to annotate](https://github.com/opencv/cvat/issues/7536) | 14 |
-| opencv/cvat | TypeScript | [[GSoC2024] Filenames with same name but different extensions cause error](https://github.com/opencv/cvat/issues/7523) | 26 |
