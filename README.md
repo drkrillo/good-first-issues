@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-04-03</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-04-04</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -61,7 +61,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Expose the value of "Execution Node" as a variable when running a job from Ansible Tower.](https://github.com/ansible/awx/issues/8122) | 2 |
 | ansible/awx | Python | [Jobs canceled before starting should not show a "finished" time](https://github.com/ansible/awx/issues/3988) | 2 |
 | ansible/awx | Python | [Make Info Metrics more easy to query](https://github.com/ansible/awx/issues/3781) | 2 |
-| pandas-dev/pandas | Python | [DOC: Adding new columns in a DataFrame of Nullable type might be better explained](https://github.com/pandas-dev/pandas/issues/49201) | 3 |
 | pandas-dev/pandas-stubs | Python | [Series apply frozenset raises error, frozenset not in enumerated Callable output types](https://github.com/pandas-dev/pandas-stubs/issues/871) | 3 |
 | pandas-dev/pandas-stubs | Python | [Implement ExtensionArray _accumulate and _reduce](https://github.com/pandas-dev/pandas-stubs/issues/850) | 3 |
 | pandas-dev/pandas-stubs | Python | [read_excel/index_col: string not accepted](https://github.com/pandas-dev/pandas-stubs/issues/809) | 3 |
@@ -76,6 +75,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Inconsistent capitalization across ui-next ](https://github.com/ansible/awx/issues/7037) | 3 |
 | ansible/awx | Python | [User auth field not documented in OPTIONS](https://github.com/ansible/awx/issues/2301) | 3 |
 | xbmc/addon-check | Python | [Correct the mentioned pylint errors to get perfect 10. (missing-docstring)](https://github.com/xbmc/addon-check/issues/179) | 3 |
+| pandas-dev/pandas | Python | [DOC: Adding new columns in a DataFrame of Nullable type might be better explained](https://github.com/pandas-dev/pandas/issues/49201) | 4 |
 | pandas-dev/pandas-stubs | Python | [Type checking with `converters=` on `read_excel`](https://github.com/pandas-dev/pandas-stubs/issues/849) | 4 |
 | ansible/ansible-documentation | Python | [Handlers page it is not very clear in defining "changed" state and how it can be manipulated](https://github.com/ansible/ansible-documentation/issues/1167) | 4 |
 | ansible/awx | Python | [Link to docs in UI's Help Button needs to go to the AWX docs](https://github.com/ansible/awx/issues/14699) | 4 |
