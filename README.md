@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-04-07</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-04-08</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -38,7 +38,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | django/djangoproject.com | PostScript | [Make right sidebar independent from main content](https://github.com/django/djangoproject.com/issues/1366) | 9 |
 | django/djangoproject.com | PostScript | [Add Click to copy text for commands present in the official Django website.](https://github.com/django/djangoproject.com/issues/1276) | 15 |
 | django/djangoproject.com | PostScript | [Localize the fundraising app](https://github.com/django/djangoproject.com/issues/377) | 16 |
-| ansible/ansible-documentation | Python | [Link "see also" sections as recommended in the forum](https://github.com/ansible/ansible-documentation/issues/1200) | 0 |
 | ansible/ansible-jupyter-kernel | Python | [Add support for handlers](https://github.com/ansible/ansible-jupyter-kernel/issues/53) | 0 |
 | ansible/ansible-jupyter-kernel | Python | [Add a #library cell type](https://github.com/ansible/ansible-jupyter-kernel/issues/26) | 0 |
 | ansible/awx | Python | [Empty value in execution_environment should remove selections (ansible.controller.job_template)](https://github.com/ansible/awx/issues/14841) | 0 |
@@ -50,7 +49,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [weekly dashboard view does not have sufficient granularity](https://github.com/ansible/awx/issues/3060) | 1 |
 | pandas-dev/pandas | Python | [ENH: Expose `to_pandas_kwargs` in `read_parquet` for pyarrow engine](https://github.com/pandas-dev/pandas/issues/49236) | 2 |
 | pandas-dev/pandas-stubs | Python | [`pd.RangeIndex` should accept `range` as the first argument](https://github.com/pandas-dev/pandas-stubs/issues/677) | 2 |
-| ansible/ansible-documentation | Python | [Clarify example module group name in the playbook guide](https://github.com/ansible/ansible-documentation/issues/1070) | 2 |
+| ansible/ansible-documentation | Python | [Link "see also" sections as recommended in the forum](https://github.com/ansible/ansible-documentation/issues/1200) | 2 |
 | ansible/ansible-documentation | Python | [D&I working group Docs Hackfest for inclusive language](https://github.com/ansible/ansible-documentation/issues/812) | 2 |
 | ansible/ansible-navigator | Python | [Switch to the use of `pathlib` where possible](https://github.com/ansible/ansible-navigator/issues/697) | 2 |
 | ansible/awx | Python | [Non descriptive error when podman is missing](https://github.com/ansible/awx/issues/14341) | 2 |
@@ -65,6 +64,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas-stubs | Python | [Implement ExtensionArray _accumulate and _reduce](https://github.com/pandas-dev/pandas-stubs/issues/850) | 3 |
 | pandas-dev/pandas-stubs | Python | [read_excel/index_col: string not accepted](https://github.com/pandas-dev/pandas-stubs/issues/809) | 3 |
 | ansible/ansible-documentation | Python | [Fix typo in Roadmap_2_7.rst](https://github.com/ansible/ansible-documentation/issues/1199) | 3 |
+| ansible/ansible-documentation | Python | [Clarify example module group name in the playbook guide](https://github.com/ansible/ansible-documentation/issues/1070) | 3 |
 | ansible/awx | Python | [Fix Delinea imports and import test](https://github.com/ansible/awx/issues/14703) | 3 |
 | ansible/awx | Python | [ visualizer info field ](https://github.com/ansible/awx/issues/14597) | 3 |
 | ansible/awx | Python | [Cleanup Job Details. Configure days retention for the particular job entities. ](https://github.com/ansible/awx/issues/14384) | 3 |
@@ -96,15 +96,15 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [BUG: Parquet size grows exponential for categorical data ](https://github.com/pandas-dev/pandas/issues/55776) | 8 |
 | pandas-dev/pandas | Python | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 8 |
 | pandas-dev/pandas | Python | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 8 |
-| ansible/ansible-documentation | Python | [Contradictions in documentation about `paramiko` being the default](https://github.com/ansible/ansible-documentation/issues/1042) | 8 |
 | pandas-dev/pandas | Python | [TST: div/truediv with PyArrow duration types](https://github.com/pandas-dev/pandas/issues/54315) | 9 |
 | pandas-dev/pandas | Python | [TST: mixed_int_string Index](https://github.com/pandas-dev/pandas/issues/54072) | 9 |
 | pandas-dev/pandas | Python | [ENH: Add ``numeric_only`` to ``DataFrame.cum*`` methods](https://github.com/pandas-dev/pandas/issues/53072) | 9 |
 | pandas-dev/pandas | Python | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
-| pandas-dev/pandas | Python | [BUG: AttributeError: 'DatetimeArray' object has no attribute 'notna' in pandas 2.1.1](https://github.com/pandas-dev/pandas/issues/55431) | 10 |
 | pandas-dev/pandas | Python | [BUG: Add ``numeric_only`` to function signature of ``DataFrameGroupBy.cumprod`` and ``DataFrameGroupBy.cumsum`](https://github.com/pandas-dev/pandas/issues/53071) | 10 |
 | pandas-dev/pandas | Python | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 10 |
 | pandas-dev/pandas | Python | [WEB: Multiple "Getting Started" on pandas.io leads to different links](https://github.com/pandas-dev/pandas/issues/32307) | 10 |
+| ansible/ansible-documentation | Python | [Contradictions in documentation about `paramiko` being the default](https://github.com/ansible/ansible-documentation/issues/1042) | 10 |
+| pandas-dev/pandas | Python | [BUG: AttributeError: 'DatetimeArray' object has no attribute 'notna' in pandas 2.1.1](https://github.com/pandas-dev/pandas/issues/55431) | 11 |
 | pandas-dev/pandas | Python | [BUG (?): dtype.value_counts() shows categorical multiple times](https://github.com/pandas-dev/pandas/issues/40735) | 11 |
 | pandas-dev/pandas | Python | [DOC: Add docstrings for MultiIndex.levels and MultiIndex.codes](https://github.com/pandas-dev/pandas/issues/55435) | 13 |
 | pandas-dev/pandas | Python | [BUG: _validate_setitem_value fails to raise for PandasArray](https://github.com/pandas-dev/pandas/issues/51044) | 13 |
