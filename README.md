@@ -12,34 +12,15 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-04-14</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-04-15</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
-| godotengine/godot | C++ | [Blurry PointLight2D texture in Gl_compatibility backend](https://github.com/godotengine/godot/issues/90360) | 3 |
-| godotengine/godot | C++ | [Image.FORMAT_R8 uses Alpha in GLES2 instead of Red channel, this is not reflected in docs](https://github.com/godotengine/godot/issues/38974) | 4 |
-| godotengine/godot | C++ | [Write to `DEPTH` built-in breaks depth testing when assignment is not executed](https://github.com/godotengine/godot/issues/69184) | 6 |
-| godotengine/godot | C++ | [Improve error reporting when rcedit fails to change icon / set PE data](https://github.com/godotengine/godot/issues/27765) | 7 |
 | opencv/opencv_contrib | C++ | [reg: broken python sample](https://github.com/opencv/opencv_contrib/issues/1935) | 9 |
-| godotengine/godot | C++ | [Reads from VisualServer causing unnecessary sync](https://github.com/godotengine/godot/issues/64094) | 9 |
-| godotengine/godot | C++ | [Theme does not propagate through Node2D nodes](https://github.com/godotengine/godot/issues/88534) | 10 |
 | opencv/opencv | C++ | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 11 |
-| godotengine/godot | C++ | [Can't add a `CompositorEffect` to a `Compositor`](https://github.com/godotengine/godot/issues/89030) | 11 |
 | opencv/opencv_contrib | C++ | [selectROI pointer almost invisible on certain colours](https://github.com/opencv/opencv_contrib/issues/1719) | 14 |
-| godotengine/godot | C++ | [PointLight2D doesn't respect Nearest texture filter for normal-maps or shadows](https://github.com/godotengine/godot/issues/76266) | 14 |
-| godotengine/godot | C++ | [CollisionObject3D doesn't check for `CSG*` objects with  `Use Collision` enabled in their collider warning check.](https://github.com/godotengine/godot/issues/85027) | 15 |
-| godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 164 |
-| godotengine/emacs-gdscript-mode | Emacs Lisp | [Rewrite gdscript-imenu to provide GDScript-specific tables](https://github.com/godotengine/emacs-gdscript-mode/issues/89) | 0 |
-| godotengine/emacs-gdscript-mode | Emacs Lisp | [Buffer does not revert or update instantly after formatting buffer](https://github.com/godotengine/emacs-gdscript-mode/issues/88) | 3 |
-| godotengine/emacs-gdscript-mode | Emacs Lisp | [Address compile warnings](https://github.com/godotengine/emacs-gdscript-mode/issues/87) | 6 |
-| godotengine/godot-benchmarks | GDScript | [[TRACKER] Benchmarks to create](https://github.com/godotengine/godot-benchmarks/issues/11) | 9 |
 | zeromicro/go-zero | Go | [CORS optimization](https://github.com/zeromicro/go-zero/issues/3311) | 5 |
 | zeromicro/goctl-swagger | PHP | [support for openapi 3.0 ](https://github.com/zeromicro/goctl-swagger/issues/52) | 0 |
-| godotengine/godot-asset-library | PHP | [Categories need a description (tooltip?) when hovered/selected](https://github.com/godotengine/godot-asset-library/issues/74) | 1 |
-| godotengine/godot-asset-library | PHP | [keep the content of the submition form when its not validated, or try some ajax realtime pre-validation](https://github.com/godotengine/godot-asset-library/issues/61) | 1 |
-| godotengine/godot-asset-library | PHP | [A way to cancel edit requests](https://github.com/godotengine/godot-asset-library/issues/149) | 3 |
-| godotengine/godot-asset-library | PHP | [Sanitize inputs for Asset data/fields, like URLs](https://github.com/godotengine/godot-asset-library/issues/204) | 5 |
-| godotengine/godot-asset-library | PHP | [Allow download of arbitrary link instead of only Github api](https://github.com/godotengine/godot-asset-library/issues/140) | 9 |
 | django/djangoproject.com | PostScript | ['docker-compose up' not working on Windows](https://github.com/django/djangoproject.com/issues/990) | 2 |
 | django/djangoproject.com | PostScript | [Github login doesn't work for community pages](https://github.com/django/djangoproject.com/issues/835) | 2 |
 | django/djangoproject.com | PostScript | [Improve 404 page](https://github.com/django/djangoproject.com/issues/1347) | 3 |
@@ -61,7 +42,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/ansible-jupyter-kernel | Python | [Add a #library cell type](https://github.com/ansible/ansible-jupyter-kernel/issues/26) | 0 |
 | ansible/awx | Python | [Empty value in execution_environment should remove selections (ansible.controller.job_template)](https://github.com/ansible/awx/issues/14841) | 0 |
 | ansible/awx | Python | [[ui_next] Add All/Any workflow viz indication to Workflow Viz Legend/Key](https://github.com/ansible/awx/issues/9791) | 0 |
-| pandas-dev/pandas | Python | [How do I read and write tabular data?](https://github.com/pandas-dev/pandas/issues/58246) | 1 |
 | ansible/ansible-navigator | Python | [Many params missing change after initial = False](https://github.com/ansible/ansible-navigator/issues/423) | 1 |
 | ansible/awx | Python | [Scheduled Job prompted extra_vars overwritten by JT extra_vars](https://github.com/ansible/awx/issues/14445) | 1 |
 | ansible/awx | Python | [Inaccurate error handling on Input Group Integer fields (i.e. Org Max Hosts field)](https://github.com/ansible/awx/issues/8556) | 1 |
@@ -94,7 +74,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Inconsistent capitalization across ui-next ](https://github.com/ansible/awx/issues/7037) | 3 |
 | ansible/awx | Python | [User auth field not documented in OPTIONS](https://github.com/ansible/awx/issues/2301) | 3 |
 | xbmc/addon-check | Python | [Correct the mentioned pylint errors to get perfect 10. (missing-docstring)](https://github.com/xbmc/addon-check/issues/179) | 3 |
-| godotengine/godot-blender-exporter | Python | [Blender object with negative scale](https://github.com/godotengine/godot-blender-exporter/issues/24) | 3 |
 | pandas-dev/pandas-stubs | Python | [Type checking with `converters=` on `read_excel`](https://github.com/pandas-dev/pandas-stubs/issues/849) | 4 |
 | ansible/ansible-documentation | Python | [Handlers page it is not very clear in defining "changed" state and how it can be manipulated](https://github.com/ansible/ansible-documentation/issues/1167) | 4 |
 | ansible/awx | Python | [Link to docs in UI's Help Button needs to go to the AWX docs](https://github.com/ansible/awx/issues/14699) | 4 |
@@ -114,9 +93,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 7 |
 | pandas-dev/pandas | Python | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 8 |
 | pandas-dev/pandas | Python | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 8 |
-| pandas-dev/pandas | Python | [TST: div/truediv with PyArrow duration types](https://github.com/pandas-dev/pandas/issues/54315) | 9 |
 | pandas-dev/pandas | Python | [TST: mixed_int_string Index](https://github.com/pandas-dev/pandas/issues/54072) | 9 |
 | pandas-dev/pandas | Python | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
+| pandas-dev/pandas | Python | [DOC: Fix formatting errors in docstrings](https://github.com/pandas-dev/pandas/issues/27977) | 9 |
 | pandas-dev/pandas | Python | [BUG: Add ``numeric_only`` to function signature of ``DataFrameGroupBy.cumprod`` and ``DataFrameGroupBy.cumsum`](https://github.com/pandas-dev/pandas/issues/53071) | 10 |
 | pandas-dev/pandas | Python | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 10 |
 | pandas-dev/pandas | Python | [WEB: Multiple "Getting Started" on pandas.io leads to different links](https://github.com/pandas-dev/pandas/issues/32307) | 10 |
@@ -124,26 +103,17 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [BUG: AttributeError: 'DatetimeArray' object has no attribute 'notna' in pandas 2.1.1](https://github.com/pandas-dev/pandas/issues/55431) | 11 |
 | pandas-dev/pandas | Python | [BUG (?): dtype.value_counts() shows categorical multiple times](https://github.com/pandas-dev/pandas/issues/40735) | 11 |
 | pandas-dev/pandas | Python | [BUG: Parquet size grows exponential for categorical data ](https://github.com/pandas-dev/pandas/issues/55776) | 13 |
-| pandas-dev/pandas | Python | [BUG: _validate_setitem_value fails to raise for PandasArray](https://github.com/pandas-dev/pandas/issues/51044) | 13 |
 | pandas-dev/pandas | Python | [STYLE replace flake8-rst with something maintained](https://github.com/pandas-dev/pandas/issues/46865) | 13 |
+| pandas-dev/pandas | Python | [BUG: _validate_setitem_value fails to raise for PandasArray](https://github.com/pandas-dev/pandas/issues/51044) | 14 |
 | pandas-dev/pandas | Python | [BUG: `DataFrame.to_parquet` doesn't round-trip pyarrow StringDtype](https://github.com/pandas-dev/pandas/issues/42664) | 14 |
 | pandas-dev/pandas | Python | [DOC: add button to edit on GitHub](https://github.com/pandas-dev/pandas/issues/39859) | 14 |
 | pandas-dev/pandas | Python | [DOC: add comparison to spreadsheets](https://github.com/pandas-dev/pandas/issues/38990) | 14 |
 | pandas-dev/pandas | Python | [DOC: Fix docs for various offset constructors](https://github.com/pandas-dev/pandas/issues/52431) | 15 |
 | pandas-dev/pandas | Python | [DOC: Add docstrings for MultiIndex.levels and MultiIndex.codes](https://github.com/pandas-dev/pandas/issues/55435) | 16 |
+| pandas-dev/pandas | Python | [Fix PR02 issues in docstrings](https://github.com/pandas-dev/pandas/issues/27976) | 18 |
 | pandas-dev/pandas | Python | [BUG: groupby.sum() is inconsistent with df.sum() for large integers](https://github.com/pandas-dev/pandas/issues/34681) | 19 |
 | pandas-dev/pandas | Python | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 21 |
 | pandas-dev/pandas | Python | [CLN: Use dedup_names in all instances where duplicate column names are renamed](https://github.com/pandas-dev/pandas/issues/50371) | 23 |
 | pandas-dev/pandas | Python | [DOC: Additional items for the cheat sheet](https://github.com/pandas-dev/pandas/issues/40680) | 34 |
 | pandas-dev/pandas | Python | [Fix capitalization among headings in documentation files](https://github.com/pandas-dev/pandas/issues/32550) | 47 |
 | pandas-dev/pandas | Python | [Various methods don't call call __finalize__](https://github.com/pandas-dev/pandas/issues/28283) | 47 |
-| godotengine/discourse-theme | SCSS | [Change default `green` to our own green for the Solved questions](https://github.com/godotengine/discourse-theme/issues/14) | 0 |
-| godotengine/discourse-theme | SCSS | [Make tag and tag count more distinct](https://github.com/godotengine/discourse-theme/issues/11) | 0 |
-| godotengine/discourse-theme | SCSS | [Categories are not rounded on mobile](https://github.com/godotengine/discourse-theme/issues/3) | 0 |
-| godotengine/discourse-theme | SCSS | [Search bar should not cover full width on mobile](https://github.com/godotengine/discourse-theme/issues/2) | 0 |
-| godotengine/discourse-theme | SCSS | [Remove the "Sign Up" button from navbar](https://github.com/godotengine/discourse-theme/issues/15) | 2 |
-| godotengine/godot-docs | reStructuredText | [WorkerThreadPool docs do not specify how Thread count is set](https://github.com/godotengine/godot-docs/issues/8937) | 1 |
-| godotengine/godot-docs | reStructuredText | [Add description of MAX_MESH_SURFACES to Mesh class ](https://github.com/godotengine/godot-docs/issues/8720) | 2 |
-| godotengine/godot-docs | reStructuredText | [Error in Godot 3D documentation](https://github.com/godotengine/godot-docs/issues/8904) | 4 |
-| godotengine/godot-docs | reStructuredText | [Transform2D is missing xform and xform_inv methods](https://github.com/godotengine/godot-docs/issues/6785) | 5 |
-| godotengine/godot-docs | reStructuredText | [Multiple viewports: only render some objects in some viewports](https://github.com/godotengine/godot-docs/issues/2179) | 6 |
