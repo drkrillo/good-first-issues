@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-04-17</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-04-18</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -64,7 +64,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas-stubs | Python | [Implement ExtensionArray _accumulate and _reduce](https://github.com/pandas-dev/pandas-stubs/issues/850) | 3 |
 | pandas-dev/pandas-stubs | Python | [read_excel/index_col: string not accepted](https://github.com/pandas-dev/pandas-stubs/issues/809) | 3 |
 | ansible/ansible-documentation | Python | [Fix typo in Roadmap_2_7.rst](https://github.com/ansible/ansible-documentation/issues/1199) | 3 |
-| ansible/ansible-documentation | Python | [Clarify example module group name in the playbook guide](https://github.com/ansible/ansible-documentation/issues/1070) | 3 |
 | ansible/awx | Python | [Fix Delinea imports and import test](https://github.com/ansible/awx/issues/14703) | 3 |
 | ansible/awx | Python | [ visualizer info field ](https://github.com/ansible/awx/issues/14597) | 3 |
 | ansible/awx | Python | [Cleanup Job Details. Configure days retention for the particular job entities. ](https://github.com/ansible/awx/issues/14384) | 3 |
@@ -74,15 +73,17 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Show more host information in host filter lookup list ](https://github.com/ansible/awx/issues/7853) | 3 |
 | ansible/awx | Python | [Inconsistent capitalization across ui-next ](https://github.com/ansible/awx/issues/7037) | 3 |
 | ansible/awx | Python | [User auth field not documented in OPTIONS](https://github.com/ansible/awx/issues/2301) | 3 |
+| xbmc/addon-check | Python | [Correct the mentioned pylint errors to get perfect 10. (missing-docstring)](https://github.com/xbmc/addon-check/issues/179) | 3 |
 | pandas-dev/pandas-stubs | Python | [Type checking with `converters=` on `read_excel`](https://github.com/pandas-dev/pandas-stubs/issues/849) | 4 |
 | ansible/ansible-documentation | Python | [Handlers page it is not very clear in defining "changed" state and how it can be manipulated](https://github.com/ansible/ansible-documentation/issues/1167) | 4 |
 | ansible/awx | Python | [Link to docs in UI's Help Button needs to go to the AWX docs](https://github.com/ansible/awx/issues/14699) | 4 |
 | ansible/awx | Python | [ adhoc jobs block other jobs from being processed in the queue](https://github.com/ansible/awx/issues/14645) | 4 |
-| ansible/awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 4 |
 | ansible/awx | Python | [Remove some of the eslint-disable comments](https://github.com/ansible/awx/issues/11707) | 4 |
 | ansible/awx | Python | [Docker install instructions do not mention how to add awx-logos](https://github.com/ansible/awx/issues/11593) | 4 |
 | pandas-dev/pandas | Python | [DOC: Adding new columns in a DataFrame of Nullable type might be better explained](https://github.com/pandas-dev/pandas/issues/49201) | 5 |
 | pandas-dev/pandas | Python | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 5 |
+| ansible/ansible-documentation | Python | [Clarify example module group name in the playbook guide](https://github.com/ansible/ansible-documentation/issues/1070) | 5 |
+| ansible/awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 5 |
 | pandas-dev/pandas-stubs | Python | [type annotation for Index/MultiIndex.names is incorrect](https://github.com/pandas-dev/pandas-stubs/issues/804) | 6 |
 | ansible/ansible-documentation | Python | [Ansible include_task search documentation incorrect](https://github.com/ansible/ansible-documentation/issues/357) | 6 |
 | ansible/ansible-navigator | Python | [Allow to set ansible-runner artifacts dir ID ](https://github.com/ansible/ansible-navigator/issues/521) | 6 |
