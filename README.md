@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-04-23</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-04-24</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -109,8 +109,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [DOC: add button to edit on GitHub](https://github.com/pandas-dev/pandas/issues/39859) | 14 |
 | pandas-dev/pandas | Python | [DOC: add comparison to spreadsheets](https://github.com/pandas-dev/pandas/issues/38990) | 14 |
 | pandas-dev/pandas | Python | [DOC: Fix docs for various offset constructors](https://github.com/pandas-dev/pandas/issues/52431) | 15 |
-| pandas-dev/pandas | Python | [DOC: Add docstrings for MultiIndex.levels and MultiIndex.codes](https://github.com/pandas-dev/pandas/issues/55435) | 16 |
 | pandas-dev/pandas | Python | [BUG: _validate_setitem_value fails to raise for PandasArray](https://github.com/pandas-dev/pandas/issues/51044) | 16 |
+| pandas-dev/pandas | Python | [DOC: Add docstrings for MultiIndex.levels and MultiIndex.codes](https://github.com/pandas-dev/pandas/issues/55435) | 18 |
 | pandas-dev/pandas | Python | [BUG: groupby.sum() is inconsistent with df.sum() for large integers](https://github.com/pandas-dev/pandas/issues/34681) | 19 |
 | pandas-dev/pandas | Python | [Fix PR02 issues in docstrings](https://github.com/pandas-dev/pandas/issues/27976) | 19 |
 | pandas-dev/pandas | Python | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 21 |
