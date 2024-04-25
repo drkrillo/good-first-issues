@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-04-24</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-04-25</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -63,7 +63,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Make Info Metrics more easy to query](https://github.com/ansible/awx/issues/3781) | 2 |
 | pandas-dev/pandas-stubs | Python | [Implement ExtensionArray _accumulate and _reduce](https://github.com/pandas-dev/pandas-stubs/issues/850) | 3 |
 | pandas-dev/pandas-stubs | Python | [read_excel/index_col: string not accepted](https://github.com/pandas-dev/pandas-stubs/issues/809) | 3 |
-| ansible/ansible-documentation | Python | [Fix typo in Roadmap_2_7.rst](https://github.com/ansible/ansible-documentation/issues/1199) | 3 |
 | ansible/awx | Python | [Fix Delinea imports and import test](https://github.com/ansible/awx/issues/14703) | 3 |
 | ansible/awx | Python | [ visualizer info field ](https://github.com/ansible/awx/issues/14597) | 3 |
 | ansible/awx | Python | [Cleanup Job Details. Configure days retention for the particular job entities. ](https://github.com/ansible/awx/issues/14384) | 3 |
@@ -82,7 +81,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Docker install instructions do not mention how to add awx-logos](https://github.com/ansible/awx/issues/11593) | 4 |
 | pandas-dev/pandas | Python | [DOC: Adding new columns in a DataFrame of Nullable type might be better explained](https://github.com/pandas-dev/pandas/issues/49201) | 5 |
 | pandas-dev/pandas | Python | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 5 |
-| ansible/ansible-documentation | Python | [Clarify example module group name in the playbook guide](https://github.com/ansible/ansible-documentation/issues/1070) | 5 |
 | ansible/awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 5 |
 | pandas-dev/pandas-stubs | Python | [type annotation for Index/MultiIndex.names is incorrect](https://github.com/pandas-dev/pandas-stubs/issues/804) | 6 |
 | ansible/ansible-documentation | Python | [Ansible include_task search documentation incorrect](https://github.com/ansible/ansible-documentation/issues/357) | 6 |
@@ -100,7 +98,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [BUG: Add ``numeric_only`` to function signature of ``DataFrameGroupBy.cumprod`` and ``DataFrameGroupBy.cumsum`](https://github.com/pandas-dev/pandas/issues/53071) | 10 |
 | pandas-dev/pandas | Python | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 10 |
 | pandas-dev/pandas | Python | [WEB: Multiple "Getting Started" on pandas.io leads to different links](https://github.com/pandas-dev/pandas/issues/32307) | 10 |
-| ansible/ansible-documentation | Python | [Contradictions in documentation about `paramiko` being the default](https://github.com/ansible/ansible-documentation/issues/1042) | 10 |
 | pandas-dev/pandas | Python | [BUG: AttributeError: 'DatetimeArray' object has no attribute 'notna' in pandas 2.1.1](https://github.com/pandas-dev/pandas/issues/55431) | 11 |
 | pandas-dev/pandas | Python | [BUG (?): dtype.value_counts() shows categorical multiple times](https://github.com/pandas-dev/pandas/issues/40735) | 11 |
 | pandas-dev/pandas | Python | [STYLE replace flake8-rst with something maintained](https://github.com/pandas-dev/pandas/issues/46865) | 13 |
