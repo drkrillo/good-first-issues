@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-05-01</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-05-02</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -82,13 +82,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 5 |
 | pandas-dev/pandas-stubs | Python | [Implement ExtensionArray _accumulate and _reduce](https://github.com/pandas-dev/pandas-stubs/issues/850) | 5 |
 | ansible/awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 5 |
+| pandas-dev/pandas | Python | [PERF: shift() of boolean series gives drawdown by an order of magnitude with default filling np.NaN comparing with filling by bool like False](https://github.com/pandas-dev/pandas/issues/58465) | 6 |
 | pandas-dev/pandas-stubs | Python | [type annotation for Index/MultiIndex.names is incorrect](https://github.com/pandas-dev/pandas-stubs/issues/804) | 6 |
 | ansible/ansible-documentation | Python | [Ansible include_task search documentation incorrect](https://github.com/ansible/ansible-documentation/issues/357) | 6 |
 | ansible/ansible-navigator | Python | [Allow to set ansible-runner artifacts dir ID ](https://github.com/ansible/ansible-navigator/issues/521) | 6 |
 | ansible/awx | Python | [AWX Collection Credential Delete](https://github.com/ansible/awx/issues/14209) | 6 |
 | pandas-dev/pandas | Python | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 7 |
 | pandas-dev/pandas | Python | [Extreme performance issue in pandas 1.0.3 when setting a new column with DatetimeIndex](https://github.com/pandas-dev/pandas/issues/34531) | 7 |
-| ansible/ansible-documentation | Python | [Connection plugins: keyword and variable aren't mentioned](https://github.com/ansible/ansible-documentation/issues/793) | 7 |
 | ansible/awx | Python | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 7 |
 | pandas-dev/pandas | Python | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 8 |
 | pandas-dev/pandas | Python | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 8 |
@@ -100,7 +100,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [WEB: Multiple "Getting Started" on pandas.io leads to different links](https://github.com/pandas-dev/pandas/issues/32307) | 10 |
 | pandas-dev/pandas | Python | [BUG (?): dtype.value_counts() shows categorical multiple times](https://github.com/pandas-dev/pandas/issues/40735) | 11 |
 | pandas-dev/pandas | Python | [STYLE replace flake8-rst with something maintained](https://github.com/pandas-dev/pandas/issues/46865) | 13 |
-| pandas-dev/pandas | Python | [Indexing on series where index is output from pd.cut ](https://github.com/pandas-dev/pandas/issues/27437) | 13 |
 | pandas-dev/pandas | Python | [BUG: `DataFrame.to_parquet` doesn't round-trip pyarrow StringDtype](https://github.com/pandas-dev/pandas/issues/42664) | 14 |
 | pandas-dev/pandas | Python | [DOC: add button to edit on GitHub](https://github.com/pandas-dev/pandas/issues/39859) | 14 |
 | pandas-dev/pandas | Python | [DOC: add comparison to spreadsheets](https://github.com/pandas-dev/pandas/issues/38990) | 14 |
