@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-05-10</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-05-11</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -31,7 +31,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | opencv/opencv_contrib | C++ | [selectROI pointer almost invisible on certain colours](https://github.com/opencv/opencv_contrib/issues/1719) | 14 |
 | godotengine/godot | C++ | [PointLight2D doesn't respect Nearest texture filter for normal-maps or shadows](https://github.com/godotengine/godot/issues/76266) | 14 |
 | godotengine/godot | C++ | [CollisionObject3D doesn't check for `CSG*` objects with  `Use Collision` enabled in their collider warning check.](https://github.com/godotengine/godot/issues/85027) | 15 |
-| godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 172 |
+| godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 173 |
 | godotengine/emacs-gdscript-mode | Emacs Lisp | [Rewrite gdscript-imenu to provide GDScript-specific tables](https://github.com/godotengine/emacs-gdscript-mode/issues/89) | 0 |
 | godotengine/emacs-gdscript-mode | Emacs Lisp | [Buffer does not revert or update instantly after formatting buffer](https://github.com/godotengine/emacs-gdscript-mode/issues/88) | 3 |
 | godotengine/emacs-gdscript-mode | Emacs Lisp | [Address compile warnings](https://github.com/godotengine/emacs-gdscript-mode/issues/87) | 6 |
@@ -61,11 +61,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | django/djangoproject.com | PostScript | [Make right sidebar independent from main content](https://github.com/django/djangoproject.com/issues/1366) | 8 |
 | django/djangoproject.com | PostScript | [Add Click to copy text for commands present in the official Django website.](https://github.com/django/djangoproject.com/issues/1276) | 15 |
 | django/djangoproject.com | PostScript | [Localize the fundraising app](https://github.com/django/djangoproject.com/issues/377) | 16 |
-| pandas-dev/pandas | Python | [DEPR: Deprecate method argument of reindex_like ](https://github.com/pandas-dev/pandas/issues/58667) | 0 |
 | ansible/ansible-documentation | Python | [Document how to tag releases](https://github.com/ansible/ansible-documentation/issues/1272) | 0 |
 | ansible/ansible-jupyter-kernel | Python | [Add support for handlers](https://github.com/ansible/ansible-jupyter-kernel/issues/53) | 0 |
 | ansible/ansible-jupyter-kernel | Python | [Add a #library cell type](https://github.com/ansible/ansible-jupyter-kernel/issues/26) | 0 |
 | ansible/awx | Python | [[ui_next] Add All/Any workflow viz indication to Workflow Viz Legend/Key](https://github.com/ansible/awx/issues/9791) | 0 |
+| pandas-dev/pandas | Python | [DEPR: Deprecate method argument of reindex_like ](https://github.com/pandas-dev/pandas/issues/58667) | 1 |
 | ansible/ansible-documentation | Python | [Incorporate 'shared snippets' for the collection docs into the main rst files](https://github.com/ansible/ansible-documentation/issues/1382) | 1 |
 | ansible/ansible-navigator | Python | [Many params missing change after initial = False](https://github.com/ansible/ansible-navigator/issues/423) | 1 |
 | ansible/awx | Python | [Empty value in execution_environment should remove selections (ansible.controller.job_template)](https://github.com/ansible/awx/issues/14841) | 1 |
@@ -120,8 +120,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [DOC: Fix formatting errors in docstrings](https://github.com/pandas-dev/pandas/issues/27977) | 9 |
 | pandas-dev/pandas | Python | [BUG: Add ``numeric_only`` to function signature of ``DataFrameGroupBy.cumprod`` and ``DataFrameGroupBy.cumsum`](https://github.com/pandas-dev/pandas/issues/53071) | 10 |
 | pandas-dev/pandas | Python | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 10 |
-| pandas-dev/pandas | Python | [WEB: Multiple "Getting Started" on pandas.io leads to different links](https://github.com/pandas-dev/pandas/issues/32307) | 10 |
 | pandas-dev/pandas | Python | [BUG (?): dtype.value_counts() shows categorical multiple times](https://github.com/pandas-dev/pandas/issues/40735) | 11 |
+| pandas-dev/pandas | Python | [WEB: Multiple "Getting Started" on pandas.io leads to different links](https://github.com/pandas-dev/pandas/issues/32307) | 11 |
 | pandas-dev/pandas | Python | [STYLE replace flake8-rst with something maintained](https://github.com/pandas-dev/pandas/issues/46865) | 13 |
 | pandas-dev/pandas | Python | [Indexing on series where index is output from pd.cut ](https://github.com/pandas-dev/pandas/issues/27437) | 13 |
 | pandas-dev/pandas | Python | [BUG: `DataFrame.to_parquet` doesn't round-trip pyarrow StringDtype](https://github.com/pandas-dev/pandas/issues/42664) | 14 |
@@ -129,9 +129,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [DOC: add comparison to spreadsheets](https://github.com/pandas-dev/pandas/issues/38990) | 14 |
 | pandas-dev/pandas | Python | [DOC: Fix docs for various offset constructors](https://github.com/pandas-dev/pandas/issues/52431) | 15 |
 | pandas-dev/pandas | Python | [BUG: _validate_setitem_value fails to raise for PandasArray](https://github.com/pandas-dev/pandas/issues/51044) | 16 |
-| pandas-dev/pandas | Python | [DOC: Add docstrings for MultiIndex.levels and MultiIndex.codes](https://github.com/pandas-dev/pandas/issues/55435) | 19 |
 | pandas-dev/pandas | Python | [BUG: groupby.sum() is inconsistent with df.sum() for large integers](https://github.com/pandas-dev/pandas/issues/34681) | 19 |
 | pandas-dev/pandas | Python | [Fix PR02 issues in docstrings](https://github.com/pandas-dev/pandas/issues/27976) | 19 |
+| pandas-dev/pandas | Python | [DOC: Add docstrings for MultiIndex.levels and MultiIndex.codes](https://github.com/pandas-dev/pandas/issues/55435) | 20 |
 | pandas-dev/pandas | Python | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 21 |
 | pandas-dev/pandas | Python | [CLN: Use dedup_names in all instances where duplicate column names are renamed](https://github.com/pandas-dev/pandas/issues/50371) | 23 |
 | pandas-dev/pandas | Python | [DOC: Additional items for the cheat sheet](https://github.com/pandas-dev/pandas/issues/40680) | 34 |
@@ -144,7 +144,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | godotengine/discourse-theme | SCSS | [Remove the "Sign Up" button from navbar](https://github.com/godotengine/discourse-theme/issues/15) | 2 |
 | godotengine/godot-docs | reStructuredText | [Add C# examples for custom BBCode](https://github.com/godotengine/godot-docs/issues/9334) | 0 |
 | godotengine/godot-docs | reStructuredText | [WorkerThreadPool docs do not specify how Thread count is set](https://github.com/godotengine/godot-docs/issues/8937) | 1 |
-| godotengine/godot-docs | reStructuredText | [Error in the C# code on the new documentation of 4.0 Godot](https://github.com/godotengine/godot-docs/issues/9287) | 2 |
 | godotengine/godot-docs | reStructuredText | [Add description of MAX_MESH_SURFACES to Mesh class ](https://github.com/godotengine/godot-docs/issues/8720) | 2 |
 | godotengine/godot-docs | reStructuredText | [Transform2D is missing xform and xform_inv methods](https://github.com/godotengine/godot-docs/issues/6785) | 5 |
 | godotengine/godot-docs | reStructuredText | [Multiple viewports: only render some objects in some viewports](https://github.com/godotengine/godot-docs/issues/2179) | 6 |
