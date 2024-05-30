@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-05-29</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-05-30</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -41,7 +41,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/ansible-jupyter-kernel | Python | [Add support for handlers](https://github.com/ansible/ansible-jupyter-kernel/issues/53) | 0 |
 | ansible/ansible-jupyter-kernel | Python | [Add a #library cell type](https://github.com/ansible/ansible-jupyter-kernel/issues/26) | 0 |
 | ansible/awx | Python | [[ui_next] Add All/Any workflow viz indication to Workflow Viz Legend/Key](https://github.com/ansible/awx/issues/9791) | 0 |
-| pandas-dev/pandas-stubs | Python | [Index.rename() should return Self](https://github.com/pandas-dev/pandas-stubs/issues/935) | 1 |
 | ansible/ansible-documentation | Python | [Incorporate 'shared snippets' for the collection docs into the main rst files](https://github.com/ansible/ansible-documentation/issues/1382) | 1 |
 | ansible/ansible-navigator | Python | [Many params missing change after initial = False](https://github.com/ansible/ansible-navigator/issues/423) | 1 |
 | ansible/awx | Python | [Empty value in execution_environment should remove selections (ansible.controller.job_template)](https://github.com/ansible/awx/issues/14841) | 1 |
@@ -64,6 +63,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Jobs canceled before starting should not show a "finished" time](https://github.com/ansible/awx/issues/3988) | 2 |
 | ansible/awx | Python | [Make Info Metrics more easy to query](https://github.com/ansible/awx/issues/3781) | 2 |
 | pandas-dev/pandas | Python | [DOC: Enhance the docstrings to provide more detailed explanations for the functions and their parameters in Common.py](https://github.com/pandas-dev/pandas/issues/58824) | 3 |
+| pandas-dev/pandas-stubs | Python | [Index.rename() should return Self](https://github.com/pandas-dev/pandas-stubs/issues/935) | 3 |
 | ansible/awx | Python | [Fix Delinea imports and import test](https://github.com/ansible/awx/issues/14703) | 3 |
 | ansible/awx | Python | [Cleanup Job Details. Configure days retention for the particular job entities. ](https://github.com/ansible/awx/issues/14384) | 3 |
 | ansible/awx | Python | [Improve user experience of copy pasting FQDNs from jobs](https://github.com/ansible/awx/issues/14354) | 3 |
@@ -72,7 +72,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Show more host information in host filter lookup list ](https://github.com/ansible/awx/issues/7853) | 3 |
 | ansible/awx | Python | [Inconsistent capitalization across ui-next ](https://github.com/ansible/awx/issues/7037) | 3 |
 | xbmc/addon-check | Python | [Correct the mentioned pylint errors to get perfect 10. (missing-docstring)](https://github.com/xbmc/addon-check/issues/179) | 3 |
-| godotengine/godot-blender-exporter | Python | [Blender object with negative scale](https://github.com/godotengine/godot-blender-exporter/issues/24) | 3 |
 | pandas-dev/pandas-stubs | Python | [Type checking with `converters=` on `read_excel`](https://github.com/pandas-dev/pandas-stubs/issues/849) | 4 |
 | ansible/awx | Python | [Link to docs in UI's Help Button needs to go to the AWX docs](https://github.com/ansible/awx/issues/14699) | 4 |
 | ansible/awx | Python | [ adhoc jobs block other jobs from being processed in the queue](https://github.com/ansible/awx/issues/14645) | 4 |
