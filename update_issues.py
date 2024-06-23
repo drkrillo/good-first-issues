@@ -19,7 +19,7 @@ USERNAMES = [
     'flask',
     'fastapi',
     'ansible',
-    'tensorflow'
+    'tensorflow',
     'pytorch',
     'opencv',
     'zeromicro',
