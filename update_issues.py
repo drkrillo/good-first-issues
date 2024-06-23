@@ -12,14 +12,14 @@ from jinja2 import Environment, FileSystemLoader
 
 
 load_dotenv()
-access_token = os.environ.get('ACCESS_TOKEN')
-usernames = [
+ACCESS_TOKEN = os.environ.get('ACCESS_TOKEN')
+USERNAMES = [
     "pandas-dev",
     'django',
     'flask',
     'fastapi',
     'ansible',
-    'tensorflow'
+    'tensorflow',
     'pytorch',
     'opencv',
     'zeromicro',
@@ -31,8 +31,8 @@ usernames = [
     'godotengine',
 ]
 
-headers = {
-    "Authorization": f" Bearer  {access_token}"
+HEADERS = {
+    "Authorization": f" Bearer  {ACCESS_TOKEN}"
 }
 
 today = str(datetime.datetime.today().strftime('%Y-%m-%d'))
@@ -148,10 +148,10 @@ async def main():
     in the usernames list defined at the beginning of the scrit.
     2- Updates README.md file.
     """
-    async with aiohttp.ClientSession(headers=headers) as session:
+    async with aiohttp.ClientSession(headers=HEADERS) as session:
         
         print("Gathering repositories...")
-        repos = [extract_repos(user,  session) for user in usernames]
+        repos = [extract_repos(user,  session) for user in USERNAMES]
         repos = await  asyncio.gather(*repos)
         repos = create_list_from_lists(repos)
         print(f"Extracted {len(repos)} public repositories.")
