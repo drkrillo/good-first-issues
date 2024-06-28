@@ -12,10 +12,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-06-27</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-06-28</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
+| tensorflow/adanet | Jupyter Notebook | [Allow one to forward features to predictions](https://github.com/tensorflow/adanet/issues/114) | 3 |
 | django/djangoproject.com | PostScript | [Add a test to check that there are no pending migrations](https://github.com/django/djangoproject.com/issues/1562) | 0 |
 | django/djangoproject.com | PostScript | [Use django-contact-form's builtin AkismetContactForm](https://github.com/django/djangoproject.com/issues/1559) | 0 |
 | django/djangoproject.com | PostScript | [Simplify header text in community pages](https://github.com/django/djangoproject.com/issues/1563) | 2 |
@@ -38,15 +39,18 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/ansible-jupyter-kernel | Python | [Add support for handlers](https://github.com/ansible/ansible-jupyter-kernel/issues/53) | 0 |
 | ansible/ansible-jupyter-kernel | Python | [Add a #library cell type](https://github.com/ansible/ansible-jupyter-kernel/issues/26) | 0 |
 | pandas-dev/pandas | Python | [DOC: to_sql docs should mention ADBC](https://github.com/pandas-dev/pandas/issues/59095) | 1 |
+| ansible/ansible-navigator | Python | [Many params missing change after initial = False](https://github.com/ansible/ansible-navigator/issues/423) | 1 |
 | pandas-dev/pandas-stubs | Python | [`pd.RangeIndex` should accept `range` as the first argument](https://github.com/pandas-dev/pandas-stubs/issues/677) | 2 |
 | ansible/ansible-documentation | Python | [Link "see also" sections as recommended in the forum](https://github.com/ansible/ansible-documentation/issues/1200) | 2 |
 | ansible/ansible-documentation | Python | [D&I working group Docs Hackfest for inclusive language](https://github.com/ansible/ansible-documentation/issues/812) | 2 |
+| ansible/ansible-navigator | Python | [Switch to the use of `pathlib` where possible](https://github.com/ansible/ansible-navigator/issues/697) | 2 |
 | pandas-dev/pandas | Python | [ENH: Expose `to_pandas_kwargs` in `read_parquet` for pyarrow engine](https://github.com/pandas-dev/pandas/issues/49236) | 3 |
 | pandas-dev/pandas-stubs | Python | [Index.rename() should return Self](https://github.com/pandas-dev/pandas-stubs/issues/935) | 3 |
 | ansible/ansible-documentation | Python | [Incorporate 'shared snippets' for the collection docs into the main rst files](https://github.com/ansible/ansible-documentation/issues/1382) | 3 |
 | pandas-dev/pandas-stubs | Python | [Type checking with `converters=` on `read_excel`](https://github.com/pandas-dev/pandas-stubs/issues/849) | 4 |
 | pandas-dev/pandas | Python | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 6 |
 | pandas-dev/pandas-stubs | Python | [type annotation for Index/MultiIndex.names is incorrect](https://github.com/pandas-dev/pandas-stubs/issues/804) | 6 |
+| ansible/ansible-navigator | Python | [Allow to set ansible-runner artifacts dir ID ](https://github.com/ansible/ansible-navigator/issues/521) | 6 |
 | pandas-dev/pandas | Python | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 7 |
 | pandas-dev/pandas | Python | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 8 |
 | pandas-dev/pandas | Python | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 8 |
