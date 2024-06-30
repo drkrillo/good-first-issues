@@ -12,32 +12,15 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-06-29</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-06-30</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
-| django/djangoproject.com | PostScript | [Add a test to check that there are no pending migrations](https://github.com/django/djangoproject.com/issues/1562) | 0 |
-| django/djangoproject.com | PostScript | [Use django-contact-form's builtin AkismetContactForm](https://github.com/django/djangoproject.com/issues/1559) | 0 |
-| django/djangoproject.com | PostScript | [Simplify header text in community pages](https://github.com/django/djangoproject.com/issues/1563) | 2 |
-| django/djangoproject.com | PostScript | [Github login doesn't work for community pages](https://github.com/django/djangoproject.com/issues/835) | 2 |
-| django/djangoproject.com | PostScript | [Improve 404 page](https://github.com/django/djangoproject.com/issues/1347) | 3 |
-| django/djangoproject.com | PostScript | [Documentation table of contents is hard to reach on mobile devices](https://github.com/django/djangoproject.com/issues/494) | 3 |
-| django/djangoproject.com | PostScript | [Badges page and badges themselves](https://github.com/django/djangoproject.com/issues/126) | 3 |
-| django/djangoproject.com | PostScript | [Add explicit note about the browser bar integration via OpenSearch description](https://github.com/django/djangoproject.com/issues/1228) | 4 |
-| django/djangoproject.com | PostScript | [Remove non-canonical docs versions from sitemap.xml](https://github.com/django/djangoproject.com/issues/878) | 5 |
-| django/djangoproject.com | PostScript | [fundraising: 'customer.subscription.deleted' webhook event always gets 404 response](https://github.com/django/djangoproject.com/issues/764) | 5 |
-| django/djangoproject.com | PostScript | [Improve Documentation by having list of topics fixed on the left and table of contents on the right ](https://github.com/django/djangoproject.com/issues/1129) | 6 |
-| django/djangoproject.com | PostScript | [Docs for old supported versions should indicate that a newer version is available](https://github.com/django/djangoproject.com/issues/1122) | 6 |
-| django/djangoproject.com | PostScript | [Support switching languages on non-docs sites](https://github.com/django/djangoproject.com/issues/883) | 6 |
-| django/djangoproject.com | PostScript | [Improvements to the Corporate Sponsor Experience](https://github.com/django/djangoproject.com/issues/1171) | 7 |
-| django/djangoproject.com | PostScript | [Use noindex meta tag or header, not robots.txt, to block untranslated docs pages](https://github.com/django/djangoproject.com/issues/877) | 7 |
-| django/djangoproject.com | PostScript | [Make right sidebar independent from main content](https://github.com/django/djangoproject.com/issues/1366) | 8 |
-| django/djangoproject.com | PostScript | [Remove dependency on memcached](https://github.com/django/djangoproject.com/issues/1023) | 8 |
-| django/djangoproject.com | PostScript | [Add Click to copy text for commands present in the official Django website.](https://github.com/django/djangoproject.com/issues/1276) | 16 |
-| django/djangoproject.com | PostScript | [Localize the fundraising app](https://github.com/django/djangoproject.com/issues/377) | 16 |
+| tensorflow/adanet | Jupyter Notebook | [Allow one to forward features to predictions](https://github.com/tensorflow/adanet/issues/114) | 3 |
 | ansible/ansible-jupyter-kernel | Python | [Add support for handlers](https://github.com/ansible/ansible-jupyter-kernel/issues/53) | 0 |
 | ansible/ansible-jupyter-kernel | Python | [Add a #library cell type](https://github.com/ansible/ansible-jupyter-kernel/issues/26) | 0 |
 | ansible/ansible-navigator | Python | [Many params missing change after initial = False](https://github.com/ansible/ansible-navigator/issues/423) | 1 |
+| tensorflow/agents | Python | [Tutorial 1: Train a Deep Q Network with TF-Agents and the use of a driver](https://github.com/tensorflow/agents/issues/554) | 1 |
 | pandas-dev/pandas | Python | [DOC: to_sql docs should mention ADBC](https://github.com/pandas-dev/pandas/issues/59095) | 2 |
 | pandas-dev/pandas-stubs | Python | [`pd.RangeIndex` should accept `range` as the first argument](https://github.com/pandas-dev/pandas-stubs/issues/677) | 2 |
 | ansible/ansible-documentation | Python | [Link "see also" sections as recommended in the forum](https://github.com/ansible/ansible-documentation/issues/1200) | 2 |
@@ -46,6 +29,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [ENH: Expose `to_pandas_kwargs` in `read_parquet` for pyarrow engine](https://github.com/pandas-dev/pandas/issues/49236) | 3 |
 | pandas-dev/pandas-stubs | Python | [Index.rename() should return Self](https://github.com/pandas-dev/pandas-stubs/issues/935) | 3 |
 | ansible/ansible-documentation | Python | [Incorporate 'shared snippets' for the collection docs into the main rst files](https://github.com/ansible/ansible-documentation/issues/1382) | 3 |
+| tensorflow/addons | Python | [Benchmark test for rrelu fails on windows](https://github.com/tensorflow/addons/issues/839) | 3 |
 | pandas-dev/pandas-stubs | Python | [Type checking with `converters=` on `read_excel`](https://github.com/pandas-dev/pandas-stubs/issues/849) | 4 |
 | pandas-dev/pandas | Python | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 6 |
 | pandas-dev/pandas-stubs | Python | [type annotation for Index/MultiIndex.names is incorrect](https://github.com/pandas-dev/pandas-stubs/issues/804) | 6 |
