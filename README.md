@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-07-08</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-07-09</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -39,11 +39,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas-stubs | Python | [Switch `to_timedelta` argument type from `list` to `Sequence`](https://github.com/pandas-dev/pandas-stubs/issues/956) | 1 |
 | pandas-dev/pandas | Python | [DOC: "Accelerated operations" talks about speedup in obsolete versions of Pandas](https://github.com/pandas-dev/pandas/issues/59130) | 2 |
 | pandas-dev/pandas-stubs | Python | [`pd.RangeIndex` should accept `range` as the first argument](https://github.com/pandas-dev/pandas-stubs/issues/677) | 2 |
-| ansible/ansible-documentation | Python | [Link "see also" sections as recommended in the forum](https://github.com/ansible/ansible-documentation/issues/1200) | 2 |
-| ansible/ansible-documentation | Python | [D&I working group Docs Hackfest for inclusive language](https://github.com/ansible/ansible-documentation/issues/812) | 2 |
 | pandas-dev/pandas | Python | [ENH: Expose `to_pandas_kwargs` in `read_parquet` for pyarrow engine](https://github.com/pandas-dev/pandas/issues/49236) | 3 |
 | pandas-dev/pandas-stubs | Python | [Index.rename() should return Self](https://github.com/pandas-dev/pandas-stubs/issues/935) | 3 |
-| ansible/ansible-documentation | Python | [Incorporate 'shared snippets' for the collection docs into the main rst files](https://github.com/ansible/ansible-documentation/issues/1382) | 3 |
 | pandas-dev/pandas-stubs | Python | [Type checking with `converters=` on `read_excel`](https://github.com/pandas-dev/pandas-stubs/issues/849) | 4 |
 | pandas-dev/pandas | Python | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 6 |
 | pandas-dev/pandas-stubs | Python | [type annotation for Index/MultiIndex.names is incorrect](https://github.com/pandas-dev/pandas-stubs/issues/804) | 6 |
