@@ -148,7 +148,6 @@ async def main():
     2- Updates README.md file.
     """
     async with aiohttp.ClientSession(headers=HEADERS) as session:
-        
         print("Gathering repositories...")
         repos = [extract_repos(user,  session) for user in USERNAMES]
         repos = await  asyncio.gather(*repos)
@@ -165,7 +164,8 @@ async def main():
 
         print("Normalizing data...")
         issues = [extract_issue_data(issue) for issue in raw_issues]
-        issues = sorted(issues, key=lambda x: (x['language'], x['comments']))
+        print(issues)
+        issues = sorted(issues, key=lambda x: (x['language'] or '', x['comments'] or 0))
         print(f"Normalized data.")
 
         print("\n\n\n")
