@@ -132,7 +132,6 @@ async def extract_repos(user, session, repos_per_page=100):
     repos = []
     number_of_repos = await extract_number_of_repos(user, session)
     number_of_pages = divide_and_round_up(number_of_repos)
-    print('number of repos: ', number_of_repos)
     for page in range(1,number_of_pages+1):
         user_url = f"https://api.github.com/users/{user}/repos?page={page}&per_page={repos_per_page}"
         
