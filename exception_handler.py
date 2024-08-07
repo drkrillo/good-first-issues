@@ -6,5 +6,5 @@ class APIError(Exception):
     message: The eerror message passed to the exception.
     """
     def __init__(self, status, message):
-        self.custom_message = f"Status: {status}. Message: {message}"
-        super().__init__()
+        custom_message = f"Status: {status}. Message: {message}"
+        super().__init__(custom_message)
