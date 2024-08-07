@@ -184,10 +184,6 @@ async def main():
         issues = sorted(issues, key=lambda x: (x['language'] or '', x['comments'] or 0))
         print(f"Normalized data.")
 
-        print("\n\n\n")
-        print(f"Total repositories gathered: {len(repos)}")        
-        print(f"Total Issues gathered: {len(issues)}")
-        
         env = Environment(loader=FileSystemLoader('templates'))
         template = env.get_template('README.md.j2')
         rendered_readme = template.render(results=issues, today=today)
@@ -195,8 +191,14 @@ async def main():
         with open("README.md", "w+") as f:
             f.write(rendered_readme)
         
+        print("*******************")
+        print(f"Rendered README file.")
+
         print("\n\n\n")
-        print(f"Rendered README file.")        
+        print(f"Total repositories gathered: {len(repos)}")        
+        print(f"Total Issues gathered: {len(issues)}")
+        print("*******************")
+
         
 if __name__ == '__main__':
 
