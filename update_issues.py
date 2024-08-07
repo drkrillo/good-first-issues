@@ -118,7 +118,6 @@ async def extract_number_of_repos(user, session):
 
     async with session.get(user_url) as resp:
         resp_json = await resp.json()
-        print('RESP STATUS', resp.status)
         if resp.status == 200:
             try:
                 num_repos = resp_json['public_repos']
@@ -175,7 +174,6 @@ async def main():
 
         print("Normalizing data...")
         issues = [extract_issue_data(issue) for issue in raw_issues]
-        print(issues)
         issues = sorted(issues, key=lambda x: (x['language'] or '', x['comments'] or 0))
         print(f"Normalized data.")
 
