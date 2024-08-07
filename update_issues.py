@@ -113,8 +113,6 @@ async def extract_issues(repo, session, labels="good first issue"):
         else:
             raise APIError(resp.status, resp_json['message'])
 
-            
-
     return issues
 
 async def extract_number_of_repos(user, session):
