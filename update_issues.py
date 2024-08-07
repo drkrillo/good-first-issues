@@ -87,11 +87,13 @@ async def extract_language(repo, session):
         if resp.status == 200:
             try:
                 language = resp_json['language']
-                return language
             except KeyError as error:
                 raise error
         else:
             raise APIError(resp.status, resp_json['message'])
+        
+        return language
+
 
 async def extract_issues(repo, session, labels="good first issue"):
     """
@@ -113,7 +115,7 @@ async def extract_issues(repo, session, labels="good first issue"):
         else:
             raise APIError(resp.status, resp_json['message'])
 
-    return issues
+        return issues
 
 async def extract_number_of_repos(user, session):
     """
@@ -132,7 +134,7 @@ async def extract_number_of_repos(user, session):
         else:
             raise APIError(resp.status, resp_json['message'])
 
-    return num_repos
+        return num_repos
 
 async def extract_repos(user, session, repos_per_page=100):
     """
