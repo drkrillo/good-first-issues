@@ -83,13 +83,15 @@ async def extract_language(repo, session):
     and returns the principal language of the repository.
     """
     async with session.get(repo) as resp:
-        repo = await resp.json()
-        try:
-            language = repo['language']
-            return language
-        except Exception as error:
-            print('resp ', resp.__dict__)
-            print('error ',  error)
+        resp_json = await resp.json()
+        if resp.status == 200:
+            try:
+                language = resp_json['language']
+                return language
+            except KeyError as error:
+                raise error
+        else:
+            raise APIError(resp.status, resp_json['message'])
 
 async def extract_issues(repo, session, labels="good first issue"):
     """
@@ -101,11 +103,17 @@ async def extract_issues(repo, session, labels="good first issue"):
     issues_url = repo + f"/issues?labels={labels}"
 
     async with session.get(issues_url) as resp:
-        resp = await resp.json()
+        resp_json = await resp.json()
+        if resp.status == 200:
+            try:
+                cleaned_issues = [(language, issue) for issue in resp_json]
+                issues += cleaned_issues
+            except TypeError as error:
+                raise error
+        else:
+            raise APIError(resp.status, resp_json['message'])
 
-        if type(resp) == list:
-            resp = [(language, r) for r in resp]
-            issues += resp
+            
 
     return issues
 
@@ -121,9 +129,8 @@ async def extract_number_of_repos(user, session):
         if resp.status == 200:
             try:
                 num_repos = resp_json['public_repos']
-            except Exception as error:
-                raise Exception(resp.status, resp_json['message'])
-
+            except KeyError as error:
+                raise error
         else:
             raise APIError(resp.status, resp_json['message'])
 
@@ -145,8 +152,8 @@ async def extract_repos(user, session, repos_per_page=100):
             if resp.status == 200:
                 try: 
                     repos += [x['url'] for x in resp_json]
-                except Exception as error:
-                    raise Exception(resp.status, resp_json)
+                except TypeError as error:
+                    raise error
             else:
                 raise APIError(resp.status, resp_json['message'])
             return repos
