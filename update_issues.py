@@ -10,6 +10,7 @@ import asyncio, aiohttp
 
 from jinja2 import Environment, FileSystemLoader
 
+from exception_handler import APIError
 
 load_dotenv()
 ACCESS_TOKEN = os.environ.get('ACCESS_TOKEN')
@@ -73,7 +74,8 @@ def extract_issue_data(raw_issue: tuple):
     
         return issue
     except Exception as error:
-        print(raw_issue, error)
+        print('Raw Issue: ', raw_issue)
+        print('Error: ', error)
 
 async def extract_language(repo, session):
     """
@@ -86,7 +88,8 @@ async def extract_language(repo, session):
             language = repo['language']
             return language
         except Exception as error:
-            print(resp, error)
+            print('resp ', resp.__dict__)
+            print('error ',  error)
 
 async def extract_issues(repo, session, labels="good first issue"):
     """
@@ -114,13 +117,15 @@ async def extract_number_of_repos(user, session):
     user_url = f"https://api.github.com/users/{user}"
 
     async with session.get(user_url) as resp:
-        resp = await resp.json()
+        resp_json = await resp.json()
+        if resp.status == 200:
+            try:
+                num_repos = resp_json['public_repos']
+            except Exception as error:
+                raise Exception(resp.status, resp_json['message'])
 
-        try:
-            num_repos = resp['public_repos']
-        except Exception as error:
-            print(error)
-            num_repos = 100
+        else:
+            raise APIError(resp.status, resp_json['message'])
 
     return num_repos
 
@@ -136,10 +141,15 @@ async def extract_repos(user, session, repos_per_page=100):
         user_url = f"https://api.github.com/users/{user}/repos?page={page}&per_page={repos_per_page}"
         
         async with session.get(user_url) as resp:
-            user = await resp.json()
-            if type(user) == list:
-                repos += [x['url'] for x in user]
-        return repos
+            resp_json = await resp.json()
+            if resp.status == 200:
+                try: 
+                    repos += [x['url'] for x in resp_json]
+                except Exception as error:
+                    raise Exception(resp.status, resp_json)
+            else:
+                raise APIError(resp.status, resp_json['message'])
+            return repos
     
 async def main():
     """
@@ -164,7 +174,6 @@ async def main():
 
         print("Normalizing data...")
         issues = [extract_issue_data(issue) for issue in raw_issues]
-        print(issues)
         issues = sorted(issues, key=lambda x: (x['language'] or '', x['comments'] or 0))
         print(f"Normalized data.")
 
@@ -178,7 +187,10 @@ async def main():
         
         with open("README.md", "w+") as f:
             f.write(rendered_readme)
-
+        
+        print("\n\n\n")
+        print(f"Rendered README file.")        
+        
 if __name__ == '__main__':
 
     start_time = time.perf_counter()
