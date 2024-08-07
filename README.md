@@ -72,6 +72,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | C++ | [Make all useful data structures in Glow easy to dump in a textual form](https://github.com/pytorch/glow/issues/2831) | 2 |
 | pytorch/glow | C++ | [[Importers] Move "run and compare" tests from importer tests to operator tests](https://github.com/pytorch/glow/issues/1909) | 2 |
 | pytorch/glow | C++ | [Need to canonicalize or optimize high-dim concat to concat+transpose](https://github.com/pytorch/glow/issues/1296) | 2 |
+| godotengine/godot | C++ | [PVS-Studio report](https://github.com/godotengine/godot/issues/95246) | 2 |
 | godotengine/godot | C++ | [Godot 4.3-rc2  new function Label.get_character_bounds(character pos) not working as expected](https://github.com/godotengine/godot/issues/95088) | 2 |
 | tensorflow/minigo | C++ | [Support more GTP commands](https://github.com/tensorflow/minigo/issues/46) | 3 |
 | pytorch/glow | C++ | [[habana] Implement backend specific verifications](https://github.com/pytorch/glow/issues/3480) | 3 |
@@ -91,7 +92,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | godotengine/godot | C++ | [Reads from VisualServer causing unnecessary sync](https://github.com/godotengine/godot/issues/64094) | 9 |
 | opencv/opencv | C++ | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 12 |
 | godotengine/godot | C++ | [Can't add a `CompositorEffect` to a `Compositor`](https://github.com/godotengine/godot/issues/89030) | 12 |
-| pytorch/executorch | C++ | [[Mutable Buffer] [Core ML Delegate] Let Core ML Handle Mutable Buffer](https://github.com/pytorch/executorch/issues/4209) | 13 |
+| pytorch/executorch | C++ | [[Mutable Buffer] [Core ML Delegate] Let Core ML Handle Mutable Buffer](https://github.com/pytorch/executorch/issues/4209) | 14 |
 | opencv/opencv_contrib | C++ | [selectROI pointer almost invisible on certain colours](https://github.com/opencv/opencv_contrib/issues/1719) | 14 |
 | godotengine/godot | C++ | [PointLight2D doesn't respect Nearest texture filter for normal-maps or shadows](https://github.com/godotengine/godot/issues/76266) | 14 |
 | godotengine/godot | C++ | [CollisionObject3D doesn't check for `CSG*` objects with  `Use Collision` enabled in their collider warning check.](https://github.com/godotengine/godot/issues/85027) | 15 |
