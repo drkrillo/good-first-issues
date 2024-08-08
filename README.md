@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-08-07</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-08-08</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -85,6 +85,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | godotengine/godot | C++ | [Write to `DEPTH` built-in breaks depth testing when assignment is not executed](https://github.com/godotengine/godot/issues/69184) | 6 |
 | godotengine/godot | C++ | [OpenGL: Environment fog does not affect sky rendering](https://github.com/godotengine/godot/issues/66456) | 7 |
 | godotengine/godot | C++ | [Improve error reporting when rcedit fails to change icon / set PE data](https://github.com/godotengine/godot/issues/27765) | 7 |
+| godotengine/godot | C++ | [Using the RenderingServer to add a texture to the scene, the texture appears at bad position during one frame](https://github.com/godotengine/godot/issues/94988) | 8 |
 | godotengine/godot | C++ | [Description missing from theme properties on type variations](https://github.com/godotengine/godot/issues/94790) | 8 |
 | godotengine/godot | C++ | [Custom icons size in group editor is not standardized ](https://github.com/godotengine/godot/issues/92361) | 8 |
 | pytorch/glow | C++ | [Make the execution of the Glow compiler more deterministic between multiple runs](https://github.com/pytorch/glow/issues/1948) | 9 |
@@ -198,7 +199,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/moonlight | Python | [Export stem directions in MusicXML](https://github.com/tensorflow/moonlight/issues/25) | 0 |
 | tensorflow/moonlight | Python | [Chord duration correction](https://github.com/tensorflow/moonlight/issues/2) | 0 |
 | tensorflow/moonlight | Python | [Export the key signature to MusicXML](https://github.com/tensorflow/moonlight/issues/1) | 0 |
-| pytorch/ao | Python | [[llama] Use horizontal fusion trick from Attention for FeedForward](https://github.com/pytorch/ao/issues/606) | 0 |
+| pytorch/ao | Python | [Replace flash_4 with FlexAttention](https://github.com/pytorch/ao/issues/639) | 0 |
+| pytorch/ao | Python | [Make build from source easier on unsupported hardware](https://github.com/pytorch/ao/issues/632) | 0 |
 | pytorch/ao | Python | [Spin Quant in TorchAO](https://github.com/pytorch/ao/issues/579) | 0 |
 | pytorch/ao | Python | [Llama 3.1 support in torchao/_models](https://github.com/pytorch/ao/issues/578) | 0 |
 | pytorch/ao | Python | [Learned fake quantize for QAT](https://github.com/pytorch/ao/issues/545) | 0 |
@@ -228,9 +230,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/torcharrow | Python | [Making BaseColumn::genericUnaryUDF and the family free functions](https://github.com/pytorch/torcharrow/issues/197) | 0 |
 | pytorch/torcharrow | Python | [Call type inferring in interop.from_pylist](https://github.com/pytorch/torcharrow/issues/80) | 0 |
 | pytorch/torcharrow | Python | [Move `torcharrow/test` to `test`](https://github.com/pytorch/torcharrow/issues/24) | 0 |
+| pytorch/torchtune | Python | [Fix IPOLoss in DPO recipe - IPOLoss uses average logprobs instead of summed](https://github.com/pytorch/torchtune/issues/1291) | 0 |
+| pytorch/torchtune | Python | [Implement CPO (Contrastive Preference Optimization)](https://github.com/pytorch/torchtune/issues/1290) | 0 |
+| pytorch/torchtune | Python | [Change self.compile in recipes](https://github.com/pytorch/torchtune/issues/1289) | 0 |
 | ansible/ansible-builder | Python | [Ansible Galaxy check script error message may be somewhat misleading](https://github.com/ansible/ansible-builder/issues/694) | 1 |
 | ansible/ansible-navigator | Python | [Many params missing change after initial = False](https://github.com/ansible/ansible-navigator/issues/423) | 1 |
 | tensorflow/agents | Python | [Tutorial 1: Train a Deep Q Network with TF-Agents and the use of a driver](https://github.com/tensorflow/agents/issues/554) | 1 |
+| pytorch/ao | Python | [[llama] Use horizontal fusion trick from Attention for FeedForward](https://github.com/pytorch/ao/issues/606) | 1 |
 | pytorch/ao | Python | [GPTQ implementation with tensor subclasses](https://github.com/pytorch/ao/issues/577) | 1 |
 | pytorch/ao | Python | [Refactor smoothquant implementation to use tensor subclasses](https://github.com/pytorch/ao/issues/528) | 1 |
 | pytorch/data | Python | [Modify `IterKeyZipper` to accept any number (2+) of `IterDataPipe`](https://github.com/pytorch/data/issues/334) | 1 |
@@ -246,6 +252,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [torch.export.save doesn't support torch.float8_e4m3fn dtype](https://github.com/pytorch/pytorch/issues/131654) | 1 |
 | pytorch/pytorch | Python | [make it clearer (in docs) one can double decorate with torch.library.impl_* APIs](https://github.com/pytorch/pytorch/issues/120503) | 1 |
 | pytorch/pytorch | Python | [[PT2] [Hardening] Track recompiles alongside graph breaks in our actual/expected comparison CI runs](https://github.com/pytorch/pytorch/issues/113040) | 1 |
+| pytorch/pytorch | Python | [`SymInt` input doesn't get optimized out from `torch.compiled()` graph even if unused](https://github.com/pytorch/pytorch/issues/108446) | 1 |
 | pytorch/text | Python | [torchtext main branch doesn't support pytorch2.0](https://github.com/pytorch/text/issues/2052) | 1 |
 | pytorch/torcharrow | Python | [Default aggregation functions delegates to Arrow Compute ](https://github.com/pytorch/torcharrow/issues/53) | 1 |
 | pytorch/torchchat | Python | [[UX] We are too quiet about errors - in particular missing HF authentication...](https://github.com/pytorch/torchchat/issues/782) | 1 |
@@ -328,13 +335,12 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [```FlopCounterMode``` returns 0 when inference mode is on during forwardpropagation.](https://github.com/pytorch/pytorch/issues/126268) | 8 |
 | pandas-dev/pandas | Python | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 9 |
 | pandas-dev/pandas | Python | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
-| pandas-dev/pandas | Python | [DOC: Fix formatting errors in docstrings](https://github.com/pandas-dev/pandas/issues/27977) | 9 |
 | pandas-dev/pandas | Python | [Performance issue when replacing a sting column with integer](https://github.com/pandas-dev/pandas/issues/26889) | 9 |
 | tensorflow/similarity | Python | [Lifted Structured loss](https://github.com/tensorflow/similarity/issues/102) | 9 |
-| pytorch/pytorch | Python | [Pointer argument (at 1) cannot be accessed from Triton (cpu tensor?)](https://github.com/pytorch/pytorch/issues/121374) | 9 |
 | pytorch/pytorch | Python | [[dynamo] torch._dynamo.exc.Unsupported: comparison SymNodeVariable() <built-in function is_> ListVariable()](https://github.com/pytorch/pytorch/issues/109504) | 9 |
 | pandas-dev/pandas | Python | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 10 |
 | pandas-dev/pandas | Python | [Extreme performance issue in pandas 1.0.3 when setting a new column with DatetimeIndex](https://github.com/pandas-dev/pandas/issues/34531) | 10 |
+| pandas-dev/pandas | Python | [DOC: Fix formatting errors in docstrings](https://github.com/pandas-dev/pandas/issues/27977) | 10 |
 | tensorflow/quantum | Python | [[Performance] Boost tfq.convert_to_tensor speed](https://github.com/tensorflow/quantum/issues/336) | 10 |
 | pytorch/pytorch | Python | [[dynamo] Fake tensor impl for Tensor.add_ not checking for errors](https://github.com/pytorch/pytorch/issues/127049) | 10 |
 | pytorch/pytorch | Python | [Logging when executing fx.Interpreter](https://github.com/pytorch/pytorch/issues/117351) | 10 |
@@ -358,12 +364,12 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 21 |
 | pytorch/ignite | Python | [🥇 Everyone is welcome to contribute 💯 ](https://github.com/pytorch/ignite/issues/2026) | 22 |
 | pandas-dev/pandas | Python | [CLN: Use dedup_names in all instances where duplicate column names are renamed](https://github.com/pandas-dev/pandas/issues/50371) | 23 |
-| pandas-dev/pandas | Python | [DOC: Fix docs for various offset constructors](https://github.com/pandas-dev/pandas/issues/52431) | 24 |
+| pandas-dev/pandas | Python | [DOC: Fix docs for various offset constructors](https://github.com/pandas-dev/pandas/issues/52431) | 25 |
 | pandas-dev/pandas | Python | [DOC: Additional items for the cheat sheet](https://github.com/pandas-dev/pandas/issues/40680) | 36 |
 | fastapi/fastapi | Python | [ApiKey Header documentation](https://github.com/fastapi/fastapi/issues/142) | 39 |
 | pandas-dev/pandas | Python | [Various methods don't call call __finalize__](https://github.com/pandas-dev/pandas/issues/28283) | 47 |
-| pandas-dev/pandas | Python | [Fix capitalization among headings in documentation files](https://github.com/pandas-dev/pandas/issues/32550) | 48 |
 | pytorch/examples | Python | [New examples requested](https://github.com/pytorch/examples/issues/1131) | 48 |
+| pandas-dev/pandas | Python | [Fix capitalization among headings in documentation files](https://github.com/pandas-dev/pandas/issues/32550) | 49 |
 | tensorflow/rust | Rust | [Add Scope::with_kernel_label and with_xla_cluster](https://github.com/tensorflow/rust/issues/288) | 3 |
 | tensorflow/rust | Rust | [Add OpArgDef::default_value and allowed_values](https://github.com/tensorflow/rust/issues/290) | 7 |
 | godotengine/discourse-theme | SCSS | [Change default `green` to our own green for the Solved questions](https://github.com/godotengine/discourse-theme/issues/14) | 0 |
