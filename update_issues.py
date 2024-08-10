@@ -84,14 +84,16 @@ async def extract_language(repo, session):
     """
     async with session.get(repo) as resp:
         resp_json = await resp.json()
-        if resp.status == 200:
-            try:
-                language = resp_json['language']
-                return language
-            except KeyError as error:
-                raise error
-        else:
+        
+        if resp.status != 200:
             raise APIError(resp.status, resp_json['message'])
+    
+        try:
+            language = resp_json['language']
+        except KeyError as error:
+            raise error
+        
+        return language
 
 async def extract_issues(repo, session, labels="good first issue"):
     """
@@ -104,18 +106,17 @@ async def extract_issues(repo, session, labels="good first issue"):
 
     async with session.get(issues_url) as resp:
         resp_json = await resp.json()
-        if resp.status == 200:
-            try:
-                cleaned_issues = [(language, issue) for issue in resp_json]
-                issues += cleaned_issues
-            except TypeError as error:
-                raise error
-        else:
+        
+        if resp.status != 200:
             raise APIError(resp.status, resp_json['message'])
 
-            
+        try:
+            cleaned_issues = [(language, issue) for issue in resp_json]
+            issues += cleaned_issues
+        except TypeError as error:
+            raise error
 
-    return issues
+        return issues
 
 async def extract_number_of_repos(user, session):
     """
@@ -126,15 +127,16 @@ async def extract_number_of_repos(user, session):
 
     async with session.get(user_url) as resp:
         resp_json = await resp.json()
-        if resp.status == 200:
-            try:
-                num_repos = resp_json['public_repos']
-            except KeyError as error:
-                raise error
-        else:
+        
+        if resp.status != 200:
             raise APIError(resp.status, resp_json['message'])
 
-    return num_repos
+        try:
+            num_repos = resp_json['public_repos']
+        except KeyError as error:
+            raise error
+
+        return num_repos
 
 async def extract_repos(user, session, repos_per_page=100):
     """
@@ -149,13 +151,15 @@ async def extract_repos(user, session, repos_per_page=100):
         
         async with session.get(user_url) as resp:
             resp_json = await resp.json()
-            if resp.status == 200:
-                try: 
-                    repos += [x['url'] for x in resp_json]
-                except TypeError as error:
-                    raise error
-            else:
+
+            if resp.status != 200:
                 raise APIError(resp.status, resp_json['message'])
+            ∫
+            try: 
+                repos += [x['url'] for x in resp_json]
+            except TypeError as error:
+                raise error
+
             return repos
     
 async def main():
