@@ -84,13 +84,15 @@ async def extract_language(repo, session):
     """
     async with session.get(repo) as resp:
         resp_json = await resp.json()
+        
+        if resp.status != 200:
+            raise APIError(resp.status, resp_json['message'])
+        
         if resp.status == 200:
             try:
                 language = resp_json['language']
             except KeyError as error:
                 raise error
-        else:
-            raise APIError(resp.status, resp_json['message'])
         
         return language
 
