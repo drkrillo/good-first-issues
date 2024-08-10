@@ -155,13 +155,16 @@ async def extract_repos(user, session, repos_per_page=100):
         
         async with session.get(user_url) as resp:
             resp_json = await resp.json()
+
+            if resp.status != 200:
+                raise APIError(resp.status, resp_json['message'])
+            
             if resp.status == 200:
                 try: 
                     repos += [x['url'] for x in resp_json]
                 except TypeError as error:
                     raise error
-            else:
-                raise APIError(resp.status, resp_json['message'])
+
             return repos
     
 async def main():
