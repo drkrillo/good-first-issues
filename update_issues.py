@@ -108,14 +108,16 @@ async def extract_issues(repo, session, labels="good first issue"):
 
     async with session.get(issues_url) as resp:
         resp_json = await resp.json()
+        
+        if resp.status != 200:
+            raise APIError(resp.status, resp_json['message'])
+        
         if resp.status == 200:
             try:
                 cleaned_issues = [(language, issue) for issue in resp_json]
                 issues += cleaned_issues
             except TypeError as error:
                 raise error
-        else:
-            raise APIError(resp.status, resp_json['message'])
 
         return issues
 
