@@ -87,15 +87,13 @@ async def extract_language(repo, session):
         
         if resp.status != 200:
             raise APIError(resp.status, resp_json['message'])
-        
-        if resp.status == 200:
-            try:
-                language = resp_json['language']
-            except KeyError as error:
-                raise error
+    
+        try:
+            language = resp_json['language']
+        except KeyError as error:
+            raise error
         
         return language
-
 
 async def extract_issues(repo, session, labels="good first issue"):
     """
@@ -111,13 +109,12 @@ async def extract_issues(repo, session, labels="good first issue"):
         
         if resp.status != 200:
             raise APIError(resp.status, resp_json['message'])
-        
-        if resp.status == 200:
-            try:
-                cleaned_issues = [(language, issue) for issue in resp_json]
-                issues += cleaned_issues
-            except TypeError as error:
-                raise error
+
+        try:
+            cleaned_issues = [(language, issue) for issue in resp_json]
+            issues += cleaned_issues
+        except TypeError as error:
+            raise error
 
         return issues
 
@@ -134,11 +131,10 @@ async def extract_number_of_repos(user, session):
         if resp.status != 200:
             raise APIError(resp.status, resp_json['message'])
 
-        if resp.status == 200:
-            try:
-                num_repos = resp_json['public_repos']
-            except KeyError as error:
-                raise error
+        try:
+            num_repos = resp_json['public_repos']
+        except KeyError as error:
+            raise error
 
         return num_repos
 
@@ -158,12 +154,11 @@ async def extract_repos(user, session, repos_per_page=100):
 
             if resp.status != 200:
                 raise APIError(resp.status, resp_json['message'])
-            
-            if resp.status == 200:
-                try: 
-                    repos += [x['url'] for x in resp_json]
-                except TypeError as error:
-                    raise error
+            ∫
+            try: 
+                repos += [x['url'] for x in resp_json]
+            except TypeError as error:
+                raise error
 
             return repos
     
