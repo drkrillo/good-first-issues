@@ -1,6 +1,7 @@
 import os
 from dotenv import load_dotenv
 import random
+import logging
 
 import datetime
 import time
@@ -36,6 +37,15 @@ USERNAMES = [
 HEADERS = {
     "Authorization": f" Bearer  {ACCESS_TOKEN}"
 }
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler("app.log"),
+        logging.StreamHandler()
+    ]
+)
 
 today = str(datetime.datetime.today().strftime('%Y-%m-%d'))
 
@@ -75,8 +85,8 @@ def extract_issue_data(raw_issue: tuple):
     
         return issue
     except Exception as error:
-        print('Raw Issue: ', raw_issue)
-        print('Error: ', error)
+        logging.error(error)
+        raise
 
 async def extract_language(repo, session):
     """
@@ -92,7 +102,8 @@ async def extract_language(repo, session):
         try:
             language = resp_json['language']
         except KeyError as error:
-            raise error
+            logging.error(error)
+            raise
         
         return language
 
@@ -115,7 +126,8 @@ async def extract_issues(repo, session, labels="good first issue"):
             cleaned_issues = [(language, issue) for issue in resp_json]
             issues += cleaned_issues
         except TypeError as error:
-            raise error
+            logging.error(error)
+            raise
 
         return issues
 
@@ -135,7 +147,8 @@ async def extract_number_of_repos(user, session):
         try:
             num_repos = resp_json['public_repos']
         except KeyError as error:
-            raise error
+            logging.error(error)
+            raise
 
         return num_repos
 
@@ -159,7 +172,8 @@ async def extract_repos(user, session, repos_per_page=100):
             try: 
                 repos += [x['url'] for x in resp_json]
             except TypeError as error:
-                raise error
+                logging.error(error)
+                raise
 
             return repos
     
@@ -170,24 +184,22 @@ async def main():
     2- Updates README.md file.
     """
     async with aiohttp.ClientSession(headers=HEADERS) as session:
-        print("Gathering repositories...")
+        logging.info("Gathering repositories...")
         repos = [extract_repos(user,  session) for user in USERNAMES]
         repos = await  asyncio.gather(*repos)
         repos = create_list_from_lists(repos)
-        print(f"Extracted {len(repos)} public repositories.")
-        print("*******************")
+        logging.info(f"Extracted {len(repos)} public repositories.")
 
-        print(f"Gathering issues...")
+        logging.info(f"Gathering issues...")
         raw_issues = [extract_issues(repo, session) for repo in repos]
         raw_issues = await asyncio.gather(*raw_issues)
         raw_issues = create_list_from_lists(raw_issues)
-        print(f"Extracted {len(raw_issues)} issues.")
-        print("*******************")
+        logging.info(f"Extracted {len(raw_issues)} issues.")
 
-        print("Normalizing data...")
+        logging.info("Normalizing data...")
         issues = [extract_issue_data(issue) for issue in raw_issues]
         issues = sorted(issues, key=lambda x: (x['language'] or '', x['comments'] or 0))
-        print(f"Normalized data.")
+        logging.info(f"Normalized data.")
 
         env = Environment(loader=FileSystemLoader('templates'))
         template = env.get_template('README.md.j2')
@@ -196,13 +208,9 @@ async def main():
         with open("README.md", "w+") as f:
             f.write(rendered_readme)
         
-        print("*******************")
-        print(f"Rendered README file.")
-
-        print("\n\n\n")
-        print(f"Total repositories gathered: {len(repos)}")        
-        print(f"Total Issues gathered: {len(issues)}")
-        print("*******************")
+        logging.info(f"Rendered README file.")
+        logging.info(f"Total repositories gathered: {len(repos)}")        
+        logging.info(f"Total Issues gathered: {len(issues)}")
 
         
 if __name__ == '__main__':
@@ -210,4 +218,4 @@ if __name__ == '__main__':
     start_time = time.perf_counter()
     asyncio.run(main())
     end_time = time.perf_counter()
-    print(f"Script runtine: {end_time - start_time}")
+    logging.info(f"Script runtine: {end_time - start_time}")
