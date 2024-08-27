@@ -136,6 +136,7 @@ async def extract_number_of_repos(user, session):
     Takes a username and aiohttp sesion and returns
     thetotal number of open repositories.
     """
+    import ipdb; ipdb.set_trace()
     user_url = f"https://api.github.com/users/{user}"
 
     async with session.get(user_url) as resp:
