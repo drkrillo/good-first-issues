@@ -35,7 +35,7 @@ USERNAMES = [
 ]
 
 HEADERS = {
-    "Authorization": f" Bearer  {ACCESS_TOKEN}"
+    "Authorization": f"Bearer  {ACCESS_TOKEN}"
 }
 
 logging.basicConfig(
@@ -96,8 +96,8 @@ def extract_language(repo, session):
     with session.get(repo) as resp:
         resp_json = resp.json()
         
-        if resp.status != 200:
-            raise APIError(resp.status, resp_json['message'])
+        if resp.status_code != 200:
+            raise APIError(resp.status_code, resp_json['message'])
     
         try:
             language = resp_json['language']
@@ -119,8 +119,8 @@ def extract_issues(repo, session, labels="good first issue"):
     with session.get(issues_url) as resp:
         resp_json = resp.json()
         
-        if resp.status != 200:
-            raise APIError(resp.status, resp_json['message'])
+        if resp.status_code != 200:
+            raise APIError(resp.status_code, resp_json['message'])
 
         try:
             cleaned_issues = [(language, issue) for issue in resp_json]
@@ -136,14 +136,13 @@ def extract_number_of_repos(user, session):
     Takes a username and aiohttp sesion and returns
     thetotal number of open repositories.
     """
-    import ipdb; ipdb.set_trace()
     user_url = f"https://api.github.com/users/{user}"
 
     with session.get(user_url) as resp:
         resp_json = resp.json()
         
-        if resp.status != 200:
-            raise APIError(resp.status, resp_json['message'])
+        if resp.status_code != 200:
+            raise APIError(resp.status_code, resp_json['message'])
 
         try:
             num_repos = resp_json['public_repos']
@@ -167,8 +166,8 @@ def extract_repos(user, session, repos_per_page=100):
         with session.get(user_url) as resp:
             resp_json = resp.json()
 
-            if resp.status != 200:
-                raise APIError(resp.status, resp_json['message'])
+            if resp.status_code != 200:
+                raise APIError(resp.status_code, resp_json['message'])
             
             try: 
                 repos += [x['url'] for x in resp_json]
@@ -178,22 +177,21 @@ def extract_repos(user, session, repos_per_page=100):
 
             return repos
     
-async def main():
+def main():
     """
     1- Gathers all issues associated with all public repos
     in the usernames list defined at the beginning of the scrit.
     2- Updates README.md file.
     """
-    async with requests.Session(headers=HEADERS) as session:
+    with requests.Session() as session:
+        session.headers.update(HEADERS)
         logging.info("Gathering repositories...")
         repos = [extract_repos(user,  session) for user in USERNAMES]
-        repos = await  asyncio.gather(*repos)
         repos = create_list_from_lists(repos)
         logging.info(f"Extracted {len(repos)} public repositories.")
 
         logging.info(f"Gathering issues...")
         raw_issues = [extract_issues(repo, session) for repo in repos]
-        raw_issues = await asyncio.gather(*raw_issues)
         raw_issues = create_list_from_lists(raw_issues)
         logging.info(f"Extracted {len(raw_issues)} issues.")
 
@@ -217,6 +215,6 @@ async def main():
 if __name__ == '__main__':
 
     start_time = time.perf_counter()
-    asyncio.run(main())
+    main()
     end_time = time.perf_counter()
     logging.info(f"Script runtine: {end_time - start_time}")
