@@ -30,18 +30,17 @@ def main():
     with requests.Session() as session:
         session.headers.update(HEADERS)
         logging.info("Gathering repositories...")
-        api_handler = APIHandler()
-        repos = [api_handler.extract_repos(user,  session) for user in USERNAMES]
-        repos = api_handler.create_list_from_lists(repos)
+        repos = [APIHandler().extract_repos(user,  session) for user in USERNAMES]
+        repos = APIHandler().create_list_from_lists(repos)
         logging.info(f"Extracted {len(repos)} public repositories.")
 
         logging.info(f"Gathering issues...")
-        raw_issues = [api_handler.extract_issues(repo, session) for repo in repos]
-        raw_issues = api_handler.reate_list_from_lists(raw_issues)
+        raw_issues = [APIHandler().extract_issues(repo, session) for repo in repos]
+        raw_issues = APIHandler().reate_list_from_lists(raw_issues)
         logging.info(f"Extracted {len(raw_issues)} issues.")
 
         logging.info("Normalizing data...")
-        issues = [api_handler.extract_issue_data(issue) for issue in raw_issues]
+        issues = [APIHandler().extract_issue_data(issue) for issue in raw_issues]
         issues = sorted(issues, key=lambda x: (x['language'] or '', x['comments'] or 0))
         logging.info(f"Normalized data.")
 
