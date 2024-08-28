@@ -48,8 +48,8 @@ logging.basicConfig(
 )
 
 today = str(datetime.datetime.today().strftime('%Y-%m-%d'))
-
-
+ 
+ 
 def divide_and_round_up(num: int,  denom: int=100):
     """
     Takes two numbers and returns the first biggest int.
@@ -88,24 +88,31 @@ def extract_issue_data(raw_issue: tuple):
         logging.error(error)
         raise
 
+def make_request(url, session):
+    try:
+        resp = session.get(url)
+        resp.raise_for_status()
+        return resp.json()
+    except requests.exceptions.HTTPError as error:
+        raise APIError(resp.status_code, resp.text) from error
+    except Exception as error:
+        logging.error(f'Another error occurred: {error}')
+        raise
+
+
 def extract_language(repo, session):
     """
     Takes the repo API endpoint and aiohttp session
     and returns the principal language of the repository.
     """
-    with session.get(repo) as resp:
-        resp_json = resp.json()
+    resp_json = make_request(repo, session)
+    try:
+        language = resp_json['language']
+    except KeyError as error:
+        logging.error(error)
+        raise
         
-        if resp.status_code != 200:
-            raise APIError(resp.status_code, resp_json['message'])
-    
-        try:
-            language = resp_json['language']
-        except KeyError as error:
-            logging.error(error)
-            raise
-        
-        return language
+    return language
 
 def extract_issues(repo, session, labels="good first issue"):
     """
@@ -115,21 +122,16 @@ def extract_issues(repo, session, labels="good first issue"):
     issues = []
     language = extract_language(repo, session)
     issues_url = repo + f"/issues?labels={labels}"
+    
+    resp_json = make_request(issues_url, session)
+    try:
+        cleaned_issues = [(language, issue) for issue in resp_json]
+        issues += cleaned_issues
+    except TypeError as error:
+        logging.error(error)
+        raise
 
-    with session.get(issues_url) as resp:
-        resp_json = resp.json()
-        
-        if resp.status_code != 200:
-            raise APIError(resp.status_code, resp_json['message'])
-
-        try:
-            cleaned_issues = [(language, issue) for issue in resp_json]
-            issues += cleaned_issues
-        except TypeError as error:
-            logging.error(error)
-            raise
-
-        return issues
+    return issues
 
 def extract_number_of_repos(user, session):
     """
@@ -137,20 +139,14 @@ def extract_number_of_repos(user, session):
     thetotal number of open repositories.
     """
     user_url = f"https://api.github.com/users/{user}"
-
-    with session.get(user_url) as resp:
-        resp_json = resp.json()
-        
-        if resp.status_code != 200:
-            raise APIError(resp.status_code, resp_json['message'])
-
-        try:
-            num_repos = resp_json['public_repos']
-        except KeyError as error:
-            logging.error(error)
-            raise
-
-        return num_repos
+    
+    resp_json = make_request(user_url, session)
+    try:
+        num_repos = resp_json['public_repos']
+    except KeyError as error:
+        logging.error(error)
+        raise
+    return num_repos
 
 def extract_repos(user, session, repos_per_page=100):
     """
@@ -162,20 +158,14 @@ def extract_repos(user, session, repos_per_page=100):
     number_of_pages = divide_and_round_up(number_of_repos)
     for page in range(1,number_of_pages+1):
         user_url = f"https://api.github.com/users/{user}/repos?page={page}&per_page={repos_per_page}"
-        
-        with session.get(user_url) as resp:
-            resp_json = resp.json()
+        resp_json = make_request(user_url, session)
+        try: 
+            repos += [x['url'] for x in resp_json]
+        except TypeError as error:
+            logging.error(error)
+            raise
 
-            if resp.status_code != 200:
-                raise APIError(resp.status_code, resp_json['message'])
-            
-            try: 
-                repos += [x['url'] for x in resp_json]
-            except TypeError as error:
-                logging.error(error)
-                raise
-
-            return repos
+    return repos
     
 def main():
     """
