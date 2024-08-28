@@ -36,7 +36,7 @@ def main():
 
         logging.info(f"Gathering issues...")
         raw_issues = [APIHandler().extract_issues(repo, session) for repo in repos]
-        raw_issues = APIHandler().reate_list_from_lists(raw_issues)
+        raw_issues = APIHandler().create_list_from_lists(raw_issues)
         logging.info(f"Extracted {len(raw_issues)} issues.")
 
         logging.info("Normalizing data...")
