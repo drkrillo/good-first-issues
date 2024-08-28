@@ -250,12 +250,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/torchtune | Python | [[Docs] Recipe documentation tracker](https://github.com/pytorch/torchtune/issues/1408) | 0 |
 | pytorch/torchtune | Python | [Add docs for CPUOffloadoptimizer from torchao in memory optimization overview](https://github.com/pytorch/torchtune/issues/1406) | 0 |
 | pytorch/torchtune | Python | [Point to example Message Transforms from SFTDataset documentation](https://github.com/pytorch/torchtune/issues/1331) | 0 |
-| pytorch/torchtune | Python | [Add validation for `model_transform` param in `SFTDataset`](https://github.com/pytorch/torchtune/issues/1326) | 0 |
 | pytorch/torchtune | Python | [add max_seq_len to configs](https://github.com/pytorch/torchtune/issues/1311) | 0 |
 | pytorch/torchtune | Python | [Move `modules/tokenizers` to be a subdir of `modules/transforms`](https://github.com/pytorch/torchtune/issues/1301) | 0 |
 | pytorch/torchtune | Python | [Fix IPOLoss in DPO recipe - IPOLoss uses average logprobs instead of summed](https://github.com/pytorch/torchtune/issues/1291) | 0 |
 | pytorch/torchtune | Python | [Implement CPO (Contrastive Preference Optimization)](https://github.com/pytorch/torchtune/issues/1290) | 0 |
-| pytorch/torchtune | Python | [Change self.compile in recipes](https://github.com/pytorch/torchtune/issues/1289) | 0 |
 | pytorch/torchtune | Python | [Validate all paths before doing any expensive work](https://github.com/pytorch/torchtune/issues/861) | 0 |
 | pandas-dev/pandas-stubs | Python | [limit_area argument is currently missing for the frame.pyi](https://github.com/pandas-dev/pandas-stubs/issues/987) | 1 |
 | ansible/ansible-navigator | Python | [Many params missing change after initial = False](https://github.com/ansible/ansible-navigator/issues/423) | 1 |
@@ -316,7 +314,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [[dynamo + optim] complex, sparse are not on tracing testing path](https://github.com/pytorch/pytorch/issues/112731) | 2 |
 | pytorch/rl | Python | [[Feature Request] TensorSpec is_in methods should check the dtype of val](https://github.com/pytorch/rl/issues/793) | 2 |
 | pytorch/text | Python | [Convert iterator-style raw datasets to map-style raw datasets](https://github.com/pytorch/text/issues/1296) | 2 |
-| pytorch/torchtune | Python | [Add filter_fn to text_completion_dataset](https://github.com/pytorch/torchtune/issues/1396) | 2 |
+| pytorch/torchtune | Python | [Add validation for `model_transform` param in `SFTDataset`](https://github.com/pytorch/torchtune/issues/1326) | 2 |
 | pytorch/torchtune | Python | [[config] have a single output_dir](https://github.com/pytorch/torchtune/issues/1265) | 2 |
 | pandas-dev/pandas-stubs | Python | [Index.rename() should return Self](https://github.com/pandas-dev/pandas-stubs/issues/935) | 3 |
 | ansible/ansible-documentation | Python | [Incorporate 'shared snippets' for the collection docs into the main rst files](https://github.com/ansible/ansible-documentation/issues/1382) | 3 |
@@ -339,6 +337,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [Actor critic example not using discount rate properly](https://github.com/pytorch/examples/issues/744) | 3 |
 | pytorch/examples | Python | ["omit freeze_support"](https://github.com/pytorch/examples/issues/323) | 3 |
 | pytorch/pytorch | Python | [PT2: Split with zero size tensor and 0 results in View operation returned a tensor that is the same as the input base tensor](https://github.com/pytorch/pytorch/issues/133394) | 3 |
+| pytorch/pytorch | Python | [Cannot use constrain_as_size from fake tensor implementations: RuntimeError: tried to get Int out of SymInt](https://github.com/pytorch/pytorch/issues/109861) | 3 |
 | pytorch/torchdistx | Python | [Documentation for AnyPrecisionOptimizer](https://github.com/pytorch/torchdistx/issues/61) | 3 |
 | xbmc/addon-check | Python | [Correct the mentioned pylint errors to get perfect 10. (missing-docstring)](https://github.com/xbmc/addon-check/issues/179) | 3 |
 | godotengine/godot-blender-exporter | Python | [Blender object with negative scale](https://github.com/godotengine/godot-blender-exporter/issues/24) | 3 |
@@ -354,12 +353,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [No matching function call  error in custom_dataset example ](https://github.com/pytorch/examples/issues/680) | 4 |
 | pytorch/examples | Python | [Add Siamese Network example](https://github.com/pytorch/examples/issues/645) | 4 |
 | pytorch/pytorch | Python | [Triton tl.reinterpret is not Dynamo traceable](https://github.com/pytorch/pytorch/issues/133253) | 4 |
-| pytorch/pytorch | Python | [aten::bucketize.Scalar doesn't work in compile mode](https://github.com/pytorch/pytorch/issues/132222) | 4 |
 | pytorch/pytorch | Python | [Dead link in `torch.compile` docs](https://github.com/pytorch/pytorch/issues/119272) | 4 |
 | pytorch/pytorch | Python | [AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible](https://github.com/pytorch/pytorch/issues/119191) | 4 |
 | pytorch/pytorch | Python | [Enable more flake8-pyi ruff checks](https://github.com/pytorch/pytorch/issues/110950) | 4 |
 | pytorch/rl | Python | [[Feature Request] Missing ActionScaling and FlattenAction ](https://github.com/pytorch/rl/issues/1209) | 4 |
-| pytorch/torchtune | Python | [Mighty Nit: Standardize `torch.Tensor` typing](https://github.com/pytorch/torchtune/issues/1420) | 4 |
 | pandas-dev/pandas | Python | [Inconsistent behaviour when assigning to series?](https://github.com/pandas-dev/pandas/issues/25548) | 5 |
 | ansible/awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 5 |
 | tensorflow/graphics | Python | [Not detecting TF Nightly when installing from whl.](https://github.com/tensorflow/graphics/issues/305) | 5 |
@@ -371,6 +368,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [Please implement the batching rule for torch.matrix_exp.](https://github.com/pytorch/pytorch/issues/115992) | 5 |
 | pytorch/pytorch | Python | [refactor TracingContext to take a more limited subset of ViewAndMutationMeta](https://github.com/pytorch/pytorch/issues/114403) | 5 |
 | pytorch/pytorch | Python | [[Tracking] Follow ups for itertools infinite iterators](https://github.com/pytorch/pytorch/issues/112532) | 5 |
+| pytorch/torchtune | Python | [Mighty Nit: Standardize `torch.Tensor` typing](https://github.com/pytorch/torchtune/issues/1420) | 5 |
+| pytorch/torchtune | Python | [Add filter_fn to text_completion_dataset](https://github.com/pytorch/torchtune/issues/1396) | 5 |
 | pytorch/torchtune | Python | [create import protection for torchvision](https://github.com/pytorch/torchtune/issues/1352) | 5 |
 | pandas-dev/pandas | Python | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 6 |
 | pandas-dev/pandas-stubs | Python | [type annotation for Index/MultiIndex.names is incorrect](https://github.com/pandas-dev/pandas-stubs/issues/804) | 6 |
@@ -396,6 +395,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
 | pandas-dev/pandas | Python | [DOC: Fix formatting errors in docstrings](https://github.com/pandas-dev/pandas/issues/27977) | 9 |
 | tensorflow/similarity | Python | [Lifted Structured loss](https://github.com/tensorflow/similarity/issues/102) | 9 |
+| pytorch/pytorch | Python | [[dynamo] torch._dynamo.exc.Unsupported: comparison SymNodeVariable() <built-in function is_> ListVariable()](https://github.com/pytorch/pytorch/issues/109504) | 9 |
 | pandas-dev/pandas | Python | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 10 |
 | tensorflow/quantum | Python | [[Performance] Boost tfq.convert_to_tensor speed](https://github.com/tensorflow/quantum/issues/336) | 10 |
 | pytorch/pytorch | Python | [[dynamo] Fake tensor impl for Tensor.add_ not checking for errors](https://github.com/pytorch/pytorch/issues/127049) | 10 |
@@ -413,7 +413,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [Indexing on series where index is output from pd.cut ](https://github.com/pandas-dev/pandas/issues/27437) | 15 |
 | pandas-dev/pandas | Python | [DOC: Generating docs doesn't work if path has whitespaces](https://github.com/pandas-dev/pandas/issues/22836) | 16 |
 | ansible/ecosystem-documentation | Python | [add documentation for fallible](https://github.com/ansible/ecosystem-documentation/issues/17) | 16 |
-| pytorch/pytorch | Python | [Update test_cuda.py and test_torch.py optim tests to use OptimizerInfo and optim_db](https://github.com/pytorch/pytorch/issues/123451) | 16 |
 | pytorch/pytorch | Python | [Supporting custom attributes with `__torch_function__` tensor subclasses](https://github.com/pytorch/pytorch/issues/117806) | 16 |
 | pandas-dev/pandas | Python | [DOC: fix docstring validation errors for pandas.Series](https://github.com/pandas-dev/pandas/issues/59592) | 18 |
 | pytorch/audio | Python | [Add Stereo to Mono Convertions](https://github.com/pytorch/audio/issues/877) | 18 |
