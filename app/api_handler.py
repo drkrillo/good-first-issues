@@ -1,9 +1,8 @@
 import math 
 import requests
-import logging
 
-from app.exception_handler import APIError
-
+from exception_handler import APIError
+import config
 
 class APIHandler:
     
