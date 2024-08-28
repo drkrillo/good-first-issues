@@ -62,4 +62,4 @@ if __name__ == '__main__':
     start_time = time.perf_counter()
     main()
     end_time = time.perf_counter()
-    logging.info(f"Script runtine: {end_time - start_time}")
+    logging.info(f"Script runtime: {end_time - start_time}")
