@@ -6,17 +6,10 @@ import requests
 
 from jinja2 import Environment, FileSystemLoader
 
-from config import ACCESS_TOKEN, USERNAMES, HEADERS
-from api_handler import APIHandler
+import config
+from app.config import HEADERS, USERNAMES
+from app.api_handler import APIHandler
 
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler("app.log"),
-        logging.StreamHandler()
-    ]
-)
 
 today = str(datetime.datetime.today().strftime('%Y-%m-%d'))
  

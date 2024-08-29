@@ -1,6 +1,7 @@
 import unittest
-from api_handler import APIHandler 
-
+from app.api_handler import APIHandler 
+from unittest.mock import Mock, patch
+import requests
 
 class TestAPIHandler(unittest.TestCase):
 
@@ -29,4 +30,19 @@ class TestAPIHandler(unittest.TestCase):
         self.assertEqual(result['title'], 'Example issue')
         self.assertEqual(result['url'], 'https://github.com/python/cpython/issues/1')
         self.assertEqual(result['comments'], 5)
+    
+    @patch('app.api_handler.requests.Session.get')
+    def test_make_request_success(self, mock_get):
+        mock_response = Mock()
+        mock_response.raise_for_status.return_value = None
+        mock_response.json.return_value = {
+            'mocked_key': 'mocked_value',
+        }
+        mock_get.return_value = mock_response
+        
+        session = requests.Session()
+        url = 'http://www.mock-url.com'
+        result = APIHandler()._make_request(url, session)
+        
+        self.assertEqual(result, {'mocked_key': 'mocked_value'})
 
