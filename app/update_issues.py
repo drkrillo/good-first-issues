@@ -7,8 +7,8 @@ import requests
 from jinja2 import Environment, FileSystemLoader
 
 import config
-from config import HEADERS, USERNAMES
-from api_handler import APIHandler
+from app.config import HEADERS, USERNAMES
+from app.api_handler import APIHandler
 
 
 today = str(datetime.datetime.today().strftime('%Y-%m-%d'))
