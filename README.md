@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-08-29</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-09-01</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -41,7 +41,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | C++ | [Op info test for `ones .. rad2deg`](https://github.com/pytorch/xla/issues/7564) | 0 |
 | pytorch/xla | C++ | [Op info test for `nn.functional.tanhshrink .. nn.functional.upsample_bilinear`](https://github.com/pytorch/xla/issues/7563) | 0 |
 | pytorch/xla | C++ | [Op info test for `nn.functional.smooth_l1_loss .. nn.functional.softsign`](https://github.com/pytorch/xla/issues/7562) | 0 |
-| pytorch/xla | C++ | [Op info test for `expm1 .. fill`](https://github.com/pytorch/xla/issues/7551) | 0 |
 | pytorch/xla | C++ | [Op info test for `bmm .. ceil`](https://github.com/pytorch/xla/issues/7546) | 0 |
 | pytorch/xla | C++ | [Op info test for `zero_ .. expand_as`](https://github.com/pytorch/xla/issues/7543) | 0 |
 | pytorch/xla | C++ | [Op info test for `triangular_solve .. unfold`](https://github.com/pytorch/xla/issues/7541) | 0 |
@@ -59,6 +58,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | C++ | [Op info test for `nn.functional.leaky_relu .. nn.functional.max_pool1d`](https://github.com/pytorch/xla/issues/7523) | 0 |
 | pytorch/xla | C++ | [Op info test for `nn.functional.group_norm .. nn.functional.layer_norm`](https://github.com/pytorch/xla/issues/7522) | 0 |
 | pytorch/xla | C++ | [Op info test for `nn.functional.feature_alpha_dropout .. nn.functional.grid_sample`](https://github.com/pytorch/xla/issues/7521) | 0 |
+| pytorch/xla | C++ | [Op info test for `nn.functional.dropout2d .. nn.functional.embedding`](https://github.com/pytorch/xla/issues/7520) | 0 |
 | pytorch/glow | C++ | [[CPU] Remove the need for Rescale for the CPUMaxSplat](https://github.com/pytorch/glow/issues/4656) | 1 |
 | pytorch/multipy | C++ | [Add Poetry build to multipy](https://github.com/pytorch/multipy/issues/211) | 1 |
 | pytorch/xla | C++ | [Op info test for `special.airy_ai`](https://github.com/pytorch/xla/issues/7926) | 1 |
@@ -246,7 +246,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/torcharrow | Python | [Call type inferring in interop.from_pylist](https://github.com/pytorch/torcharrow/issues/80) | 0 |
 | pytorch/torcharrow | Python | [Move `torcharrow/test` to `test`](https://github.com/pytorch/torcharrow/issues/24) | 0 |
 | pytorch/torchchat | Python | [Slimming down torchchat: Replace replace_attention_with_custom_sdpa_attention() with ET's implementation](https://github.com/pytorch/torchchat/issues/1058) | 0 |
-| pytorch/torchtune | Python | [Remove `TiedEmbeddingTransformerDecoder`](https://github.com/pytorch/torchtune/issues/1454) | 0 |
 | pytorch/torchtune | Python | [[Docs] Recipe documentation tracker](https://github.com/pytorch/torchtune/issues/1408) | 0 |
 | pytorch/torchtune | Python | [Add docs for CPUOffloadoptimizer from torchao in memory optimization overview](https://github.com/pytorch/torchtune/issues/1406) | 0 |
 | pytorch/torchtune | Python | [Point to example Message Transforms from SFTDataset documentation](https://github.com/pytorch/torchtune/issues/1331) | 0 |
@@ -264,7 +263,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/django-ansible-base | Python | [Several unordered querysets](https://github.com/ansible/django-ansible-base/issues/178) | 1 |
 | tensorflow/agents | Python | [Tutorial 1: Train a Deep Q Network with TF-Agents and the use of a driver](https://github.com/tensorflow/agents/issues/554) | 1 |
 | pytorch/ao | Python | [MoE example ](https://github.com/pytorch/ao/issues/729) | 1 |
-| pytorch/ao | Python | [[llama] Use horizontal fusion trick from Attention for FeedForward](https://github.com/pytorch/ao/issues/606) | 1 |
 | pytorch/ao | Python | [GPTQ implementation with tensor subclasses](https://github.com/pytorch/ao/issues/577) | 1 |
 | pytorch/ao | Python | [Refactor smoothquant implementation to use tensor subclasses](https://github.com/pytorch/ao/issues/528) | 1 |
 | pytorch/data | Python | [Modify `IterKeyZipper` to accept any number (2+) of `IterDataPipe`](https://github.com/pytorch/data/issues/334) | 1 |
@@ -329,6 +327,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [User auth field not documented in OPTIONS](https://github.com/ansible/awx/issues/2301) | 3 |
 | tensorflow/addons | Python | [Benchmark test for rrelu fails on windows](https://github.com/tensorflow/addons/issues/839) | 3 |
 | tensorflow/graphics | Python | [Add skew to projective camera](https://github.com/tensorflow/graphics/issues/335) | 3 |
+| pytorch/ao | Python | [[llama] Use horizontal fusion trick from Attention for FeedForward](https://github.com/pytorch/ao/issues/606) | 3 |
 | pytorch/ao | Python | [Add 2:4 sparse marlin kernels to torchao](https://github.com/pytorch/ao/issues/549) | 3 |
 | pytorch/data | Python | [`scan` support](https://github.com/pytorch/data/issues/1110) | 3 |
 | pytorch/examples | Python | [OSError: [Errno 22] Invalid argument:](https://github.com/pytorch/examples/issues/887) | 3 |
@@ -369,7 +368,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [Please implement the batching rule for torch.matrix_exp.](https://github.com/pytorch/pytorch/issues/115992) | 5 |
 | pytorch/pytorch | Python | [refactor TracingContext to take a more limited subset of ViewAndMutationMeta](https://github.com/pytorch/pytorch/issues/114403) | 5 |
 | pytorch/pytorch | Python | [[Tracking] Follow ups for itertools infinite iterators](https://github.com/pytorch/pytorch/issues/112532) | 5 |
-| pytorch/torchtune | Python | [Add filter_fn to text_completion_dataset](https://github.com/pytorch/torchtune/issues/1396) | 5 |
 | pytorch/torchtune | Python | [create import protection for torchvision](https://github.com/pytorch/torchtune/issues/1352) | 5 |
 | pandas-dev/pandas | Python | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 6 |
 | pandas-dev/pandas-stubs | Python | [type annotation for Index/MultiIndex.names is incorrect](https://github.com/pandas-dev/pandas-stubs/issues/804) | 6 |
@@ -383,7 +381,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [[Dynamo] Support tracing through _get_current_dispatch_mode_stack](https://github.com/pytorch/pytorch/issues/125694) | 6 |
 | pytorch/pytorch | Python | [Enable ruff rule PLW1510 codebase wide](https://github.com/pytorch/pytorch/issues/115016) | 6 |
 | pytorch/pytorch | Python | [Export swallows exception](https://github.com/pytorch/pytorch/issues/111075) | 6 |
-| pytorch/torchtune | Python | [Mighty Nit: Standardize `torch.Tensor` typing](https://github.com/pytorch/torchtune/issues/1420) | 6 |
 | pandas-dev/pandas | Python | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 7 |
 | ansible/awx | Python | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 7 |
 | tensorflow/similarity | Python | [Implement SwAV for self-supervised learning](https://github.com/tensorflow/similarity/issues/208) | 7 |
@@ -400,6 +397,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/quantum | Python | [[Performance] Boost tfq.convert_to_tensor speed](https://github.com/tensorflow/quantum/issues/336) | 10 |
 | pytorch/pytorch | Python | [[dynamo] Fake tensor impl for Tensor.add_ not checking for errors](https://github.com/pytorch/pytorch/issues/127049) | 10 |
 | pytorch/pytorch | Python | [Logging when executing fx.Interpreter](https://github.com/pytorch/pytorch/issues/117351) | 10 |
+| pytorch/torchtune | Python | [Mighty Nit: Standardize `torch.Tensor` typing](https://github.com/pytorch/torchtune/issues/1420) | 10 |
 | pandas-dev/pandas | Python | [pandas.cut: the 'include_lowest' argument isn't behaving as documented](https://github.com/pandas-dev/pandas/issues/23164) | 11 |
 | pytorch/data | Python | [Improve the warning message regarding local function not supported by pickle](https://github.com/pytorch/data/issues/947) | 11 |
 | pandas-dev/pandas | Python | [Updating value of a single row of a column using loc or at fails](https://github.com/pandas-dev/pandas/issues/22040) | 12 |
@@ -416,8 +414,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [Supporting custom attributes with `__torch_function__` tensor subclasses](https://github.com/pytorch/pytorch/issues/117806) | 16 |
 | pandas-dev/pandas | Python | [DOC: fix docstring validation errors for pandas.Series](https://github.com/pandas-dev/pandas/issues/59592) | 18 |
 | pytorch/audio | Python | [Add Stereo to Mono Convertions](https://github.com/pytorch/audio/issues/877) | 18 |
-| pandas-dev/pandas | Python | [DOC: fix docstring validation errors for `pandas.Timestamp`](https://github.com/pandas-dev/pandas/issues/59458) | 19 |
 | pandas-dev/pandas | Python | [Fix PR02 issues in docstrings](https://github.com/pandas-dev/pandas/issues/27976) | 19 |
+| pandas-dev/pandas | Python | [DOC: fix docstring validation errors for `pandas.Timestamp`](https://github.com/pandas-dev/pandas/issues/59458) | 21 |
 | pandas-dev/pandas | Python | [BUG: groupby.sum() is inconsistent with df.sum() for large integers](https://github.com/pandas-dev/pandas/issues/34681) | 21 |
 | pandas-dev/pandas | Python | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 21 |
 | pytorch/ignite | Python | [🥇 Everyone is welcome to contribute 💯 ](https://github.com/pytorch/ignite/issues/2026) | 22 |
