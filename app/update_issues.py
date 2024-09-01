@@ -7,8 +7,12 @@ import requests
 from jinja2 import Environment, FileSystemLoader
 
 import config
-from app.config import HEADERS, USERNAMES
-from app.api_handler import APIHandler
+from config import HEADERS, USERNAMES
+from api_handler import (
+    RepoManager,
+    IssueManager,
+    Utils,
+)
 
 
 today = str(datetime.datetime.today().strftime('%Y-%m-%d'))
@@ -23,17 +27,17 @@ def main():
     with requests.Session() as session:
         session.headers.update(HEADERS)
         logging.info("Gathering repositories...")
-        repos = [APIHandler().extract_repos(user,  session) for user in USERNAMES]
-        repos = APIHandler().create_list_from_lists(repos)
+        repos = [RepoManager().extract_repos(user,  session) for user in USERNAMES]
+        repos = Utils().create_list_from_lists(repos)
         logging.info(f"Extracted {len(repos)} public repositories.")
 
         logging.info(f"Gathering issues...")
-        raw_issues = [APIHandler().extract_issues(repo, session) for repo in repos]
-        raw_issues = APIHandler().create_list_from_lists(raw_issues)
+        raw_issues = [IssueManager().extract_issues(repo, session) for repo in repos]
+        raw_issues = Utils().create_list_from_lists(raw_issues)
         logging.info(f"Extracted {len(raw_issues)} issues.")
 
         logging.info("Normalizing data...")
-        issues = [APIHandler().extract_issue_data(issue) for issue in raw_issues]
+        issues = [IssueManager().extract_issue_data(issue) for issue in raw_issues]
         issues = sorted(issues, key=lambda x: (x['language'] or '', x['comments'] or 0))
         logging.info(f"Normalized data.")
 
