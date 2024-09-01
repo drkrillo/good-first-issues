@@ -67,6 +67,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | C++ | [Op info test for `uniform .. var_mean`](https://github.com/pytorch/xla/issues/7542) | 1 |
 | pytorch/xla | C++ | [Op info test for `qr .. randn_like`](https://github.com/pytorch/xla/issues/7530) | 1 |
 | pytorch/xla | C++ | [Op info test for `nn.functional.pixel_shuffle .. nn.functional.scaled_dot_product_attention`](https://github.com/pytorch/xla/issues/7526) | 1 |
+| godotengine/godot | C++ | [Compatibility renderer 3D MSAA not working on MacOS](https://github.com/godotengine/godot/issues/96275) | 1 |
 | pytorch/glow | C++ | [New files added under glow/test/models/ don't get copied to build folder until clean build is performed.](https://github.com/pytorch/glow/issues/4647) | 2 |
 | pytorch/glow | C++ | [Move layout information from nodes constructor' to their Glow types](https://github.com/pytorch/glow/issues/3790) | 2 |
 | pytorch/glow | C++ | [Make all useful data structures in Glow easy to dump in a textual form](https://github.com/pytorch/glow/issues/2831) | 2 |
@@ -186,11 +187,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | godotengine/godot-asset-library | PHP | [A way to cancel edit requests](https://github.com/godotengine/godot-asset-library/issues/149) | 3 |
 | godotengine/godot-asset-library | PHP | [Sanitize inputs for Asset data/fields, like URLs](https://github.com/godotengine/godot-asset-library/issues/204) | 5 |
 | godotengine/godot-asset-library | PHP | [Allow download of arbitrary link instead of only Github api](https://github.com/godotengine/godot-asset-library/issues/140) | 9 |
-| django/djangoproject.com | PostScript | [Github login doesn't work for community pages](https://github.com/django/djangoproject.com/issues/835) | 2 |
-| django/djangoproject.com | PostScript | [Simplify header text in community pages](https://github.com/django/djangoproject.com/issues/1563) | 3 |
 | django/djangoproject.com | PostScript | [Improve 404 page](https://github.com/django/djangoproject.com/issues/1347) | 3 |
+| django/djangoproject.com | PostScript | [Github login doesn't work for community pages](https://github.com/django/djangoproject.com/issues/835) | 3 |
 | django/djangoproject.com | PostScript | [Documentation table of contents is hard to reach on mobile devices](https://github.com/django/djangoproject.com/issues/494) | 3 |
 | django/djangoproject.com | PostScript | [Badges page and badges themselves](https://github.com/django/djangoproject.com/issues/126) | 3 |
+| django/djangoproject.com | PostScript | [Simplify header text in community pages](https://github.com/django/djangoproject.com/issues/1563) | 4 |
 | django/djangoproject.com | PostScript | [Add explicit note about the browser bar integration via OpenSearch description](https://github.com/django/djangoproject.com/issues/1228) | 4 |
 | django/djangoproject.com | PostScript | [Remove non-canonical docs versions from sitemap.xml](https://github.com/django/djangoproject.com/issues/878) | 5 |
 | django/djangoproject.com | PostScript | [fundraising: 'customer.subscription.deleted' webhook event always gets 404 response](https://github.com/django/djangoproject.com/issues/764) | 5 |
@@ -456,5 +457,5 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | godotengine/godot-docs | reStructuredText | [Add AstarGrid2D to 2D Navigation Overview?](https://github.com/godotengine/godot-docs/issues/9668) | 0 |
 | godotengine/godot-docs | reStructuredText | [Add C# examples for custom BBCode](https://github.com/godotengine/godot-docs/issues/9334) | 0 |
 | godotengine/godot-docs | reStructuredText | [WorkerThreadPool docs do not specify how Thread count is set](https://github.com/godotengine/godot-docs/issues/8937) | 1 |
-| godotengine/godot-docs | reStructuredText | [Mention that ShapeCast2D and ShapeCast3D stop scanning at the first instance of collision.](https://github.com/godotengine/godot-docs/issues/9624) | 3 |
+| godotengine/godot-docs | reStructuredText | [Mention that ShapeCast2D and ShapeCast3D stop scanning at the first instance of collision.](https://github.com/godotengine/godot-docs/issues/9624) | 4 |
 | godotengine/godot-docs | reStructuredText | [Multiple viewports: only render some objects in some viewports](https://github.com/godotengine/godot-docs/issues/2179) | 6 |
