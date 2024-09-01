@@ -1,11 +1,102 @@
 import math 
 import requests
 
-from app.exception_handler import APIError
-import app.config
+from exception_handler import APIError
+import config
 
-class APIHandler:
-    
+class RepoManager:
+    @staticmethod
+    def extract_number_of_repos(user, session):
+        """
+        Takes a username and aiohttp sesion and returns
+        thetotal number of open repositories.
+        """
+        user_url = f"https://api.github.com/users/{user}"
+        
+        resp_json = APIClient().make_request(user_url, session)
+        try:
+            num_repos = resp_json['public_repos']
+        except KeyError as error:
+            logging.error(error)
+            raise
+        return num_repos
+
+    @staticmethod
+    def extract_repos(user, session, repos_per_page=100):
+        """
+        Takes a username, aiohttp sesion and number of repos pr page
+        and returns list of lists of repositories. 
+        """
+        repos = []
+        number_of_repos = RepoManager().extract_number_of_repos(user, session)
+        number_of_pages = Utils().divide_and_round_up(number_of_repos)
+        for page in range(1,number_of_pages+1):
+            user_url = f"https://api.github.com/users/{user}/repos?page={page}&per_page={repos_per_page}"
+            resp_json = APIClient().make_request(user_url, session)
+            try: 
+                repos += [x['url'] for x in resp_json]
+            except TypeError as error:
+                logging.error(error)
+                raise
+
+        return repos
+
+class IssueManager:
+    @staticmethod
+    def extract_issue_data(raw_issue: tuple):
+        """
+        Takes an issue (language, issue dict)
+        and returns a depurated dict withissue data.
+        """
+        issue = {}
+        try:
+            issue['repo'] = raw_issue[1]['repository_url'].split('repos/')[1]
+            issue['language'] = raw_issue[0]
+            issue['title'] = raw_issue[1]['title']
+            issue['url'] = raw_issue[1]['html_url']
+            issue['comments'] = raw_issue[1]['comments']
+        
+            return issue
+        except Exception as error:
+            logging.error(error)
+            raise
+
+    @staticmethod
+    def extract_language(repo, session):
+        """
+        Takes the repo API endpoint and aiohttp session
+        and returns the principal language of the repository.
+        """
+        resp_json = APIClient().make_request(repo, session)
+        try:
+            language = resp_json['language']
+        except KeyError as error:
+            logging.error(error)
+            raise
+            
+        return language
+
+    @staticmethod
+    def extract_issues(repo, session, labels="good first issue"):
+        """
+        Takes the repo API endpoing and aiohttp session
+        and returns issues  with defined labels and state.
+        """
+        issues = []
+        language = IssueManager().extract_language(repo, session)
+        issues_url = repo + f"/issues?labels={labels}"
+        
+        resp_json = APIClient().make_request(issues_url, session)
+        try:
+            cleaned_issues = [(language, issue) for issue in resp_json]
+            issues += cleaned_issues
+        except TypeError as error:
+            logging.error(error)
+            raise
+
+        return issues
+
+class Utils:
     @staticmethod
     def divide_and_round_up(num: int,  denom: int=100):
         """
@@ -28,27 +119,9 @@ class APIHandler:
                     list_of_lists.append(e)
         return list_of_lists
     
+class APIClient:
     @staticmethod
-    def extract_issue_data(raw_issue: tuple):
-        """
-        Takes an issue (language, issue dict)
-        and returns a depurated dict withissue data.
-        """
-        issue = {}
-        try:
-            issue['repo'] = raw_issue[1]['repository_url'].split('repos/')[1]
-            issue['language'] = raw_issue[0]
-            issue['title'] = raw_issue[1]['title']
-            issue['url'] = raw_issue[1]['html_url']
-            issue['comments'] = raw_issue[1]['comments']
-        
-            return issue
-        except Exception as error:
-            logging.error(error)
-            raise
-        
-    @staticmethod
-    def _make_request(url, session):
+    def make_request(url, session):
         try:
             resp = session.get(url)
             resp.raise_for_status()
@@ -59,74 +132,3 @@ class APIHandler:
             logging.error(f'Another error occurred: {error}')
             raise
         
-    @staticmethod
-    def extract_language(repo, session):
-        """
-        Takes the repo API endpoint and aiohttp session
-        and returns the principal language of the repository.
-        """
-        resp_json = APIHandler()._make_request(repo, session)
-        try:
-            language = resp_json['language']
-        except KeyError as error:
-            logging.error(error)
-            raise
-            
-        return language
-
-    @staticmethod
-    def extract_issues(repo, session, labels="good first issue"):
-        """
-        Takes the repo API endpoing and aiohttp session
-        and returns issues  with defined labels and state.
-        """
-        issues = []
-        language = APIHandler().extract_language(repo, session)
-        issues_url = repo + f"/issues?labels={labels}"
-        
-        resp_json = APIHandler()._make_request(issues_url, session)
-        try:
-            cleaned_issues = [(language, issue) for issue in resp_json]
-            issues += cleaned_issues
-        except TypeError as error:
-            logging.error(error)
-            raise
-
-        return issues
-    
-    @staticmethod
-    def extract_number_of_repos(user, session):
-        """
-        Takes a username and aiohttp sesion and returns
-        thetotal number of open repositories.
-        """
-        user_url = f"https://api.github.com/users/{user}"
-        
-        resp_json = APIHandler()._make_request(user_url, session)
-        try:
-            num_repos = resp_json['public_repos']
-        except KeyError as error:
-            logging.error(error)
-            raise
-        return num_repos
-
-    @staticmethod
-    def extract_repos(user, session, repos_per_page=100):
-        """
-        Takes a username, aiohttp sesion and number of repos pr page
-        and returns list of lists of repositories. 
-        """
-        repos = []
-        number_of_repos = APIHandler().extract_number_of_repos(user, session)
-        number_of_pages = APIHandler().divide_and_round_up(number_of_repos)
-        for page in range(1,number_of_pages+1):
-            user_url = f"https://api.github.com/users/{user}/repos?page={page}&per_page={repos_per_page}"
-            resp_json = APIHandler()._make_request(user_url, session)
-            try: 
-                repos += [x['url'] for x in resp_json]
-            except TypeError as error:
-                logging.error(error)
-                raise
-
-        return repos
-    
