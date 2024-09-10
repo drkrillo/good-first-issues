@@ -1,5 +1,5 @@
 import logging
-import config
+import app.config
 
 class APIError(Exception):
     """
@@ -9,10 +9,10 @@ class APIError(Exception):
     status: Status code of the API call.
     message: The eerror message passed to the exception.
     """
-    def __init__(self, status, message):
-        self.status = status
+    def __init__(self, status_code, message):
+        self.status_code = status_code
         self.message = message
-        self.custom_message = f"APIError {self.status}: {message}"
+        self.custom_message = f"APIError {status_code}: {message}"
         
         logging.error(self.custom_message)
         
