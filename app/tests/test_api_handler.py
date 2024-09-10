@@ -1,13 +1,13 @@
 import requests
 import pytest
 
-from app.api_handler import (
+from api_handler import (
     APIClient,
     RepoManager,
     IssueManager,
     Utils,
 )
-from app.exception_handler import APIError
+from exception_handler import APIError
 
 
 class TestUtils:
