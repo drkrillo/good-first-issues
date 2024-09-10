@@ -26,6 +26,7 @@ jobs:
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: |
+          PYTHONPATH=$PYTHONPATH:$(pwd)
           cd app
           python update_issues.py
       - name: Commit and push
