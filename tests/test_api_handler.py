@@ -1,5 +1,6 @@
 import requests
 import pytest
+from unittest.mock import patch, MagicMock
 
 from api_handler import (
     APIClient,
@@ -10,6 +11,29 @@ from api_handler import (
 from exception_handler import APIError
 
 
+class TestRepoManager:
+        
+    @patch('api_handler.APIClient')
+    def test_extract_number_of_repos(self, mock_api_client):
+        mock_api_instance = MagicMock()
+        mock_api_client.return_value = mock_api_instance
+        mock_api_instance.make_request.return_value = {'public_repos': 42}
+
+        result = RepoManager().extract_number_of_repos('test_user', mock_api_instance)
+
+        assert result == 42
+
+class TestIssueManager:
+    @patch('api_handler.APIClient')
+    def test_issuemanager_extract_issue_data(self, mock_api_client):
+        mock_api_instance = MagicMock()
+        mock_api_client.return_value = mock_api_instance
+        mock_api_instance.make_request.return_value = {'public_repos': 42}
+
+        result = RepoManager().extract_number_of_repos('test_user', mock_api_instance)
+
+        assert result == 42
+    
 class TestUtils:
 
     def test_utils_divide_and_round_up(self):
