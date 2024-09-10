@@ -1,4 +1,6 @@
 import pytest
+from app.tests.conftest import mock_session
+
 from app.api_handler import (
     APIClient,
     RepoManager,
@@ -20,22 +22,16 @@ class TestUtils:
         assert result == [1, 2, 3, 4, 5, 6, 7, 8]
 
 class TestAPIClient:
-    @patch('app.api_handler.requests.Session.get')
-    def test_apiclient_make_request_success(self, mock_get):
-        mock_response = Mock()
-        mock_response.raise_for_status.return_value = None
-        mock_response.json.return_value = {
-            'mocked_key': 'mocked_value',
-        }
-        mock_get.return_value = mock_response
-        
-        session = requests.Session()
-        url = 'http://www.mock-url.com'
-        result = APIHandler()._make_request(url, session)
-        
-        assert result == {'mocked_key': 'mocked_value'}
-    
-    @patch('app.api_handler.requests.Session.get')
-    def test_apiclient_make_request_error(self, mock_get):
-        pass
+        def test_apiclient_make_request_success(self): 
+            url = "http://testurl.com"
+            mock_response = mock_session.get.return_value
+            mock_response.raise_for_status.return_value = None
+            mock_response.json.return_value = {"message": "success"}
+
+            # Llamar al método a probar
+            result = APIClient.make_request(url, mock_session)
+            
+            # Validar el resultado
+            assert result == {"message": "success"}
+            mock_session.get.assert_called_once_with(url)
 
