@@ -1,5 +1,5 @@
+import requests
 import pytest
-from app.tests.conftest import mock_session
 
 from app.api_handler import (
     APIClient,
@@ -7,8 +7,8 @@ from app.api_handler import (
     IssueManager,
     Utils,
 )
-from unittest.mock import Mock, patch
-import requests
+from app.exception_handler import APIError
+
 
 class TestUtils:
 
@@ -22,7 +22,8 @@ class TestUtils:
         assert result == [1, 2, 3, 4, 5, 6, 7, 8]
 
 class TestAPIClient:
-        def test_apiclient_make_request_success(self): 
+    
+        def test_apiclient_make_request_success(self, mock_session): 
             url = "http://testurl.com"
             mock_response = mock_session.get.return_value
             mock_response.raise_for_status.return_value = None
@@ -34,4 +35,17 @@ class TestAPIClient:
             # Validar el resultado
             assert result == {"message": "success"}
             mock_session.get.assert_called_once_with(url)
+
+        def test_apiclient_make_request_error(self, mock_session): 
+            url = "http://testurl.com"
+            mock_response = mock_session.get.return_value
+            mock_response.status_code = 404
+            mock_response.raise_for_status.side_effect = requests.exceptions.HTTPError
+            mock_response.text = 'Not Found'
+            
+            with pytest.raises(APIError) as excinfo:
+                APIClient.make_request(url, mock_session)
+                            
+            assert excinfo.value.status_code == 404
+            assert excinfo.value.message == 'Not Found'
 
