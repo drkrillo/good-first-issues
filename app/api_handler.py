@@ -1,8 +1,8 @@
 import math 
 import requests
 
-from exception_handler import APIError
-import config
+from app.exception_handler import APIError
+import app.config
 
 class RepoManager:
     @staticmethod
