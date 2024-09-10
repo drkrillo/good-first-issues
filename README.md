@@ -366,7 +366,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/similarity | Python | [Implement multi-siam for segmentation](https://github.com/tensorflow/similarity/issues/179) | 5 |
 | pytorch/ao | Python | [The next tutorials](https://github.com/pytorch/ao/issues/426) | 5 |
 | pytorch/audio | Python | [read mp3 file fail](https://github.com/pytorch/audio/issues/2867) | 5 |
-| pytorch/pytorch | Python | [Setting a wrong type value instead of a correct integer typed value to `in_features` or `out_features` argument of `nn.Linear()` gets indirect error messages](https://github.com/pytorch/pytorch/issues/135463) | 5 |
 | pytorch/pytorch | Python | [Triton tl.reinterpret is not Dynamo traceable](https://github.com/pytorch/pytorch/issues/133253) | 5 |
 | pytorch/pytorch | Python | [[dynamo] Missing support for many trivial builtin functions in operator](https://github.com/pytorch/pytorch/issues/116396) | 5 |
 | pytorch/pytorch | Python | [Please implement the batching rule for torch.matrix_exp.](https://github.com/pytorch/pytorch/issues/115992) | 5 |
@@ -381,6 +380,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ao | Python | [Add AWQ support](https://github.com/pytorch/ao/issues/530) | 6 |
 | pytorch/audio | Python | [Use non-persistent buffers](https://github.com/pytorch/audio/issues/3059) | 6 |
 | pytorch/examples | Python | [DCGAN C++ warning after PyTorch update](https://github.com/pytorch/examples/issues/819) | 6 |
+| pytorch/pytorch | Python | [Setting a wrong type value instead of a correct integer typed value to `in_features` or `out_features` argument of `nn.Linear()` gets indirect error messages](https://github.com/pytorch/pytorch/issues/135463) | 6 |
 | pytorch/pytorch | Python | [[torch.export] Simple model fails to export with dynamic shapes](https://github.com/pytorch/pytorch/issues/129690) | 6 |
 | pytorch/pytorch | Python | [[Dynamo] Support tracing through _get_current_dispatch_mode_stack](https://github.com/pytorch/pytorch/issues/125694) | 6 |
 | pytorch/pytorch | Python | [Enable ruff rule PLW1510 codebase wide](https://github.com/pytorch/pytorch/issues/115016) | 6 |
@@ -421,7 +421,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 21 |
 | pytorch/ignite | Python | [🥇 Everyone is welcome to contribute 💯 ](https://github.com/pytorch/ignite/issues/2026) | 22 |
 | pandas-dev/pandas | Python | [CLN: Use dedup_names in all instances where duplicate column names are renamed](https://github.com/pandas-dev/pandas/issues/50371) | 23 |
-| pandas-dev/pandas | Python | [DOC: fix docstring validation errors for pandas.Series](https://github.com/pandas-dev/pandas/issues/59592) | 25 |
+| pandas-dev/pandas | Python | [DOC: fix docstring validation errors for pandas.Series](https://github.com/pandas-dev/pandas/issues/59592) | 24 |
 | pandas-dev/pandas | Python | [DOC: Fix docs for various offset constructors](https://github.com/pandas-dev/pandas/issues/52431) | 27 |
 | pandas-dev/pandas | Python | [DOC: Additional items for the cheat sheet](https://github.com/pandas-dev/pandas/issues/40680) | 39 |
 | fastapi/fastapi | Python | [ApiKey Header documentation](https://github.com/fastapi/fastapi/issues/142) | 41 |
