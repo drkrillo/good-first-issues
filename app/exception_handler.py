@@ -1,5 +1,5 @@
 import logging
-import config
+import app.config
 
 class APIError(Exception):
     """

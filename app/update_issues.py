@@ -6,9 +6,9 @@ import requests
 
 from jinja2 import Environment, FileSystemLoader
 
-import config
-from config import HEADERS, USERNAMES
-from api_handler import (
+import app.config
+from app.config import HEADERS, USERNAMES
+from app.api_handler import (
     RepoManager,
     IssueManager,
     Utils,

@@ -1,7 +1,7 @@
 import math 
 import requests
 
-from exception_handler import APIError
+from app.exception_handler import APIError
 import config
 
 class RepoManager:
