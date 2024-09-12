@@ -25,9 +25,7 @@ jobs:
       - name: Run Python script
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        run: |
-          cd app
-          python update_issues.py
+        run: python -m app.update_issues
       - name: Commit and push
         run: |
           git config user.name github-actions
