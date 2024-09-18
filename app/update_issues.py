@@ -7,7 +7,11 @@ import requests
 from jinja2 import Environment, FileSystemLoader
 
 import app.core.config
-from app.core.config import HEADERS, USERNAMES
+from app.core.config import (
+    HEADERS,
+    USERNAMES,
+    get_template_path,
+    )
 from app.core.api_handler import (
     RepoManager,
     IssueManager,
@@ -16,8 +20,8 @@ from app.core.api_handler import (
 
 
 today = str(datetime.datetime.today().strftime('%Y-%m-%d'))
- 
- 
+template_path = get_template_path()
+
 def main():
     """
     1- Gathers all issues associated with all public repos
@@ -41,7 +45,7 @@ def main():
         issues = sorted(issues, key=lambda x: (x['language'] or '', x['comments'] or 0))
         logging.info(f"Normalized data.")
 
-        env = Environment(loader=FileSystemLoader('templates'))
+        env = Environment(loader=FileSystemLoader(template_path))
         template = env.get_template('README.md.j2')
         rendered_readme = template.render(results=issues, today=today)
         

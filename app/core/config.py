@@ -35,3 +35,8 @@ USERNAMES = [
 HEADERS = {
     "Authorization": f"Bearer  {ACCESS_TOKEN}"
 }
+
+
+def get_template_path():
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    return os.path.join(base_dir, 'app', 'templates')
