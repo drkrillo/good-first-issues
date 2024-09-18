@@ -36,7 +36,8 @@ HEADERS = {
     "Authorization": f"Bearer  {ACCESS_TOKEN}"
 }
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 
 def get_template_path():
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    return os.path.join(base_dir, 'app', 'templates')
+    return os.path.join(BASE_DIR, 'templates')
