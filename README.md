@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-09-20</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-09-21</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -55,6 +55,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | C++ | [Op info test for `nn.functional.binary_cross_entropy .. nn.functional.conv_transpose2d`](https://github.com/pytorch/xla/issues/7518) | 0 |
 | pytorch/xla | C++ | [Op info test for `nn.functional.avg_pool1d .. nn.functional.bilinear`](https://github.com/pytorch/xla/issues/7517) | 0 |
 | pytorch/xla | C++ | [Op info test for `logspace .. masked.amax`](https://github.com/pytorch/xla/issues/7507) | 0 |
+| pytorch/xla | C++ | [Op info test for `linalg.tensorsolve .. log_normal`](https://github.com/pytorch/xla/issues/7505) | 0 |
 | pytorch/glow | C++ | [[CPU] Remove the need for Rescale for the CPUMaxSplat](https://github.com/pytorch/glow/issues/4656) | 1 |
 | pytorch/multipy | C++ | [Add Poetry build to multipy](https://github.com/pytorch/multipy/issues/211) | 1 |
 | pytorch/xla | C++ | [[hard] Op info test for `special.airy_ai`](https://github.com/pytorch/xla/issues/7926) | 1 |
@@ -65,17 +66,15 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | C++ | [Op info test for `nn.functional.feature_alpha_dropout .. nn.functional.grid_sample`](https://github.com/pytorch/xla/issues/7521) | 1 |
 | pytorch/xla | C++ | [Op info test for `nn.functional.adaptive_avg_pool3d .. nn.functional.alpha_dropout`](https://github.com/pytorch/xla/issues/7516) | 1 |
 | pytorch/xla | C++ | [Op info test for `new_empty .. nn.functional.adaptive_avg_pool2d`](https://github.com/pytorch/xla/issues/7515) | 1 |
-| pytorch/xla | C++ | [Op info test for `min .. nanmedian`](https://github.com/pytorch/xla/issues/7513) | 1 |
-| godotengine/godot | C++ | [BaseButton.button_pressed doesn't work as documented](https://github.com/godotengine/godot/issues/97206) | 1 |
 | pytorch/glow | C++ | [New files added under glow/test/models/ don't get copied to build folder until clean build is performed.](https://github.com/pytorch/glow/issues/4647) | 2 |
 | pytorch/glow | C++ | [Move layout information from nodes constructor' to their Glow types](https://github.com/pytorch/glow/issues/3790) | 2 |
 | pytorch/glow | C++ | [Make all useful data structures in Glow easy to dump in a textual form](https://github.com/pytorch/glow/issues/2831) | 2 |
 | pytorch/glow | C++ | [[Importers] Move "run and compare" tests from importer tests to operator tests](https://github.com/pytorch/glow/issues/1909) | 2 |
 | pytorch/glow | C++ | [Need to canonicalize or optimize high-dim concat to concat+transpose](https://github.com/pytorch/glow/issues/1296) | 2 |
+| pytorch/xla | C++ | [Op info test for `min .. nanmedian`](https://github.com/pytorch/xla/issues/7513) | 2 |
 | tensorflow/minigo | C++ | [Support more GTP commands](https://github.com/tensorflow/minigo/issues/46) | 3 |
 | pytorch/glow | C++ | [[habana] Implement backend specific verifications](https://github.com/pytorch/glow/issues/3480) | 3 |
 | pytorch/glow | C++ | [[GraphOptz] Sink Quantize below Reshape](https://github.com/pytorch/glow/issues/4629) | 4 |
-| pytorch/xla | C++ | [Op info test for `nanquantile .. native_layer_norm`](https://github.com/pytorch/xla/issues/7514) | 4 |
 | godotengine/godot | C++ | [Image.FORMAT_R8 uses Alpha in GLES2 instead of Red channel, this is not reflected in docs](https://github.com/godotengine/godot/issues/38974) | 4 |
 | pytorch/glow | C++ | [Fuse RescaleQuantized in the ChannelwiseQuantizedConv](https://github.com/pytorch/glow/issues/4928) | 5 |
 | pytorch/glow | C++ | [Bring back the sinking RELU below Pool optimization](https://github.com/pytorch/glow/issues/3247) | 5 |
@@ -281,7 +280,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [make it clearer (in docs) one can double decorate with torch.library.impl_* APIs](https://github.com/pytorch/pytorch/issues/120503) | 1 |
 | pytorch/text | Python | [torchtext main branch doesn't support pytorch2.0](https://github.com/pytorch/text/issues/2052) | 1 |
 | pytorch/torcharrow | Python | [Default aggregation functions delegates to Arrow Compute ](https://github.com/pytorch/torcharrow/issues/53) | 1 |
-| pytorch/torchtune | Python | [[Phi3 tokenizer] Ensure ``eos_token`` is not added if ``add_eos=False``](https://github.com/pytorch/torchtune/issues/1481) | 1 |
 | pandas-dev/pandas-stubs | Python | [`pd.RangeIndex` should accept `range` as the first argument](https://github.com/pandas-dev/pandas-stubs/issues/677) | 2 |
 | ansible/ansible-documentation | Python | [Link "see also" sections as recommended in the forum](https://github.com/ansible/ansible-documentation/issues/1200) | 2 |
 | ansible/ansible-documentation | Python | [D&I working group Docs Hackfest for inclusive language](https://github.com/ansible/ansible-documentation/issues/812) | 2 |
@@ -311,6 +309,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [torch.fx.Tracer.record_stack_traces is broken in torch 2.4.0](https://github.com/pytorch/pytorch/issues/130861) | 2 |
 | pytorch/rl | Python | [[Feature Request] TensorSpec is_in methods should check the dtype of val](https://github.com/pytorch/rl/issues/793) | 2 |
 | pytorch/text | Python | [Convert iterator-style raw datasets to map-style raw datasets](https://github.com/pytorch/text/issues/1296) | 2 |
+| pytorch/torchtune | Python | [[Phi3 tokenizer] Ensure ``eos_token`` is not added if ``add_eos=False``](https://github.com/pytorch/torchtune/issues/1481) | 2 |
 | pytorch/torchtune | Python | [[config] have a single output_dir](https://github.com/pytorch/torchtune/issues/1265) | 2 |
 | pandas-dev/pandas-stubs | Python | [Index.rename() should return Self](https://github.com/pandas-dev/pandas-stubs/issues/935) | 3 |
 | ansible/ansible-documentation | Python | [Incorporate 'shared snippets' for the collection docs into the main rst files](https://github.com/ansible/ansible-documentation/issues/1382) | 3 |
@@ -334,7 +333,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [Actor critic example not using discount rate properly](https://github.com/pytorch/examples/issues/744) | 3 |
 | pytorch/examples | Python | ["omit freeze_support"](https://github.com/pytorch/examples/issues/323) | 3 |
 | pytorch/pytorch | Python | [If mark_dynamic fails (Not all values of RelaxedUnspecConstraint are valid) due to specialization, error message should print where specialization came from](https://github.com/pytorch/pytorch/issues/136002) | 3 |
-| pytorch/pytorch | Python | [`torch._dynamo.exc.Unsupported: torch.* op returned non-Tensor bool call_method is_inference`](https://github.com/pytorch/pytorch/issues/135439) | 3 |
 | pytorch/pytorch | Python | [ban native ops from having python reserved kwargs as names](https://github.com/pytorch/pytorch/issues/135127) | 3 |
 | pytorch/pytorch | Python | [RuntimeError: "fill_empty_deterministic_" not implemented for 'ComplexHalf'](https://github.com/pytorch/pytorch/issues/133157) | 3 |
 | pytorch/pytorch | Python | [[export] Schematize nn_module_stack serialization](https://github.com/pytorch/pytorch/issues/131941) | 3 |
@@ -349,7 +347,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Remove some of the eslint-disable comments](https://github.com/ansible/awx/issues/11707) | 4 |
 | ansible/awx | Python | [Docker install instructions do not mention how to add awx-logos](https://github.com/ansible/awx/issues/11593) | 4 |
 | tensorflow/graphics | Python | [Add ScanNet dataset](https://github.com/tensorflow/graphics/issues/307) | 4 |
-| pytorch/ao | Python | [Replace flash_4 with FlexAttention](https://github.com/pytorch/ao/issues/639) | 4 |
 | pytorch/ao | Python | [Quantized Training](https://github.com/pytorch/ao/issues/554) | 4 |
 | pytorch/examples | Python | [Please change dcgan to load truncated images.](https://github.com/pytorch/examples/issues/835) | 4 |
 | pytorch/examples | Python | [No matching function call  error in custom_dataset example ](https://github.com/pytorch/examples/issues/680) | 4 |
@@ -366,7 +363,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ao | Python | [The next tutorials](https://github.com/pytorch/ao/issues/426) | 5 |
 | pytorch/audio | Python | [read mp3 file fail](https://github.com/pytorch/audio/issues/2867) | 5 |
 | pytorch/pytorch | Python | [torch.bmm, torch.topk with out variants set causing recompilations in torch.compile](https://github.com/pytorch/pytorch/issues/135859) | 5 |
-| pytorch/pytorch | Python | [[export] _fft_r2c does not support dynamic shapes](https://github.com/pytorch/pytorch/issues/135087) | 5 |
 | pytorch/pytorch | Python | [[dynamo] Missing support for many trivial builtin functions in operator](https://github.com/pytorch/pytorch/issues/116396) | 5 |
 | pytorch/pytorch | Python | [Please implement the batching rule for torch.matrix_exp.](https://github.com/pytorch/pytorch/issues/115992) | 5 |
 | pytorch/torchtune | Python | [create import protection for torchvision](https://github.com/pytorch/torchtune/issues/1352) | 5 |
@@ -378,6 +374,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ao | Python | [Add AWQ support](https://github.com/pytorch/ao/issues/530) | 6 |
 | pytorch/audio | Python | [Use non-persistent buffers](https://github.com/pytorch/audio/issues/3059) | 6 |
 | pytorch/examples | Python | [DCGAN C++ warning after PyTorch update](https://github.com/pytorch/examples/issues/819) | 6 |
+| pytorch/pytorch | Python | [`torch._dynamo.exc.Unsupported: torch.* op returned non-Tensor bool call_method is_inference`](https://github.com/pytorch/pytorch/issues/135439) | 6 |
+| pytorch/pytorch | Python | [[export] _fft_r2c does not support dynamic shapes](https://github.com/pytorch/pytorch/issues/135087) | 6 |
 | pytorch/pytorch | Python | [[torch.export] Simple model fails to export with dynamic shapes](https://github.com/pytorch/pytorch/issues/129690) | 6 |
 | pytorch/pytorch | Python | [[Dynamo] Support tracing through _get_current_dispatch_mode_stack](https://github.com/pytorch/pytorch/issues/125694) | 6 |
 | pandas-dev/pandas | Python | [BUG: groupby().any() returns True instead of False for groups where timedelta column is all null](https://github.com/pandas-dev/pandas/issues/59712) | 7 |
@@ -387,6 +385,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [Why don't we use MSE as a reconstruction loss for VAE ?](https://github.com/pytorch/examples/issues/399) | 7 |
 | pytorch/pytorch | Python | [Triton tl.reinterpret is not Dynamo traceable](https://github.com/pytorch/pytorch/issues/133253) | 7 |
 | pandas-dev/pandas | Python | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 8 |
+| pytorch/ao | Python | [Replace flash_4 with FlexAttention](https://github.com/pytorch/ao/issues/639) | 8 |
 | pytorch/pytorch | Python | [Very large memory increase when combining bfloat16 autocast with torch.compile](https://github.com/pytorch/pytorch/issues/133637) | 8 |
 | pytorch/pytorch | Python | [Using an empty tensor and `torch.int64` or `torch.bool` for `dtype` of `nanmean()` works while a non-empty tensor doesn't work](https://github.com/pytorch/pytorch/issues/131043) | 8 |
 | pytorch/pytorch | Python | [Dynamo: assert "source" in options and options["source"] is not None for default_generator.set_state call](https://github.com/pytorch/pytorch/issues/118072) | 8 |
