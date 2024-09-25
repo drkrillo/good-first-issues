@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-09-24</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-09-25</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -47,13 +47,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | C++ | [Op info test for `norm .. pca_lowrank`](https://github.com/pytorch/xla/issues/7528) | 0 |
 | pytorch/xla | C++ | [Op info test for `nn.functional.softmin .. nonzero_static`](https://github.com/pytorch/xla/issues/7527) | 0 |
 | pytorch/xla | C++ | [Op info test for `nn.functional.normalize .. nn.functional.pdist`](https://github.com/pytorch/xla/issues/7525) | 0 |
-| pytorch/xla | C++ | [Op info test for `nn.functional.max_pool2d .. nn.functional.max_unpool3d`](https://github.com/pytorch/xla/issues/7524) | 0 |
-| pytorch/xla | C++ | [Op info test for `nn.functional.leaky_relu .. nn.functional.max_pool1d`](https://github.com/pytorch/xla/issues/7523) | 0 |
 | pytorch/xla | C++ | [Op info test for `nn.functional.group_norm .. nn.functional.layer_norm`](https://github.com/pytorch/xla/issues/7522) | 0 |
 | pytorch/xla | C++ | [Op info test for `nn.functional.dropout2d .. nn.functional.embedding`](https://github.com/pytorch/xla/issues/7520) | 0 |
 | pytorch/xla | C++ | [Op info test for `nn.functional.conv_transpose3d .. nn.functional.ctc_loss`](https://github.com/pytorch/xla/issues/7519) | 0 |
 | pytorch/xla | C++ | [Op info test for `nn.functional.binary_cross_entropy .. nn.functional.conv_transpose2d`](https://github.com/pytorch/xla/issues/7518) | 0 |
-| pytorch/xla | C++ | [Op info test for `logspace .. masked.amax`](https://github.com/pytorch/xla/issues/7507) | 0 |
 | pytorch/xla | C++ | [Op info test for `linalg.tensorsolve .. log_normal`](https://github.com/pytorch/xla/issues/7505) | 0 |
 | pytorch/glow | C++ | [[CPU] Remove the need for Rescale for the CPUMaxSplat](https://github.com/pytorch/glow/issues/4656) | 1 |
 | pytorch/multipy | C++ | [Add Poetry build to multipy](https://github.com/pytorch/multipy/issues/211) | 1 |
@@ -62,6 +59,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | C++ | [Op info test for `triangular_solve .. unfold`](https://github.com/pytorch/xla/issues/7541) | 1 |
 | pytorch/xla | C++ | [Op info test for `renorm .. rot90`](https://github.com/pytorch/xla/issues/7531) | 1 |
 | pytorch/xla | C++ | [Op info test for `nn.functional.pixel_shuffle .. nn.functional.scaled_dot_product_attention`](https://github.com/pytorch/xla/issues/7526) | 1 |
+| pytorch/xla | C++ | [Op info test for `nn.functional.leaky_relu .. nn.functional.max_pool1d`](https://github.com/pytorch/xla/issues/7523) | 1 |
 | pytorch/xla | C++ | [Op info test for `nn.functional.feature_alpha_dropout .. nn.functional.grid_sample`](https://github.com/pytorch/xla/issues/7521) | 1 |
 | pytorch/xla | C++ | [Op info test for `nn.functional.avg_pool1d .. nn.functional.bilinear`](https://github.com/pytorch/xla/issues/7517) | 1 |
 | pytorch/xla | C++ | [Op info test for `nn.functional.adaptive_avg_pool3d .. nn.functional.alpha_dropout`](https://github.com/pytorch/xla/issues/7516) | 1 |
@@ -71,9 +69,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | C++ | [Make all useful data structures in Glow easy to dump in a textual form](https://github.com/pytorch/glow/issues/2831) | 2 |
 | pytorch/glow | C++ | [[Importers] Move "run and compare" tests from importer tests to operator tests](https://github.com/pytorch/glow/issues/1909) | 2 |
 | pytorch/glow | C++ | [Need to canonicalize or optimize high-dim concat to concat+transpose](https://github.com/pytorch/glow/issues/1296) | 2 |
+| pytorch/xla | C++ | [Op info test for `nn.functional.max_pool2d .. nn.functional.max_unpool3d`](https://github.com/pytorch/xla/issues/7524) | 2 |
 | pytorch/xla | C++ | [Op info test for `min .. nanmedian`](https://github.com/pytorch/xla/issues/7513) | 2 |
 | tensorflow/minigo | C++ | [Support more GTP commands](https://github.com/tensorflow/minigo/issues/46) | 3 |
 | pytorch/glow | C++ | [[habana] Implement backend specific verifications](https://github.com/pytorch/glow/issues/3480) | 3 |
+| pytorch/xla | C++ | [Op info test for `logspace .. masked.amax`](https://github.com/pytorch/xla/issues/7507) | 3 |
 | pytorch/glow | C++ | [[GraphOptz] Sink Quantize below Reshape](https://github.com/pytorch/glow/issues/4629) | 4 |
 | godotengine/godot | C++ | [Image.FORMAT_R8 uses Alpha in GLES2 instead of Red channel, this is not reflected in docs](https://github.com/godotengine/godot/issues/38974) | 4 |
 | pytorch/glow | C++ | [Fuse RescaleQuantized in the ChannelwiseQuantizedConv](https://github.com/pytorch/glow/issues/4928) | 5 |
@@ -352,7 +352,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [Please change dcgan to load truncated images.](https://github.com/pytorch/examples/issues/835) | 4 |
 | pytorch/examples | Python | [No matching function call  error in custom_dataset example ](https://github.com/pytorch/examples/issues/680) | 4 |
 | pytorch/examples | Python | [Add Siamese Network example](https://github.com/pytorch/examples/issues/645) | 4 |
-| pytorch/pytorch | Python | [dynamo (re)compilation issues: shape (1,1), nn.Parameter, mark_dynamic](https://github.com/pytorch/pytorch/issues/135011) | 4 |
 | pytorch/pytorch | Python | [PT2: Split with zero size tensor and 0 results in View operation returned a tensor that is the same as the input base tensor](https://github.com/pytorch/pytorch/issues/133394) | 4 |
 | pytorch/pytorch | Python | [Dead link in `torch.compile` docs](https://github.com/pytorch/pytorch/issues/119272) | 4 |
 | pytorch/pytorch | Python | [AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible](https://github.com/pytorch/pytorch/issues/119191) | 4 |
@@ -364,6 +363,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ao | Python | [The next tutorials](https://github.com/pytorch/ao/issues/426) | 5 |
 | pytorch/audio | Python | [read mp3 file fail](https://github.com/pytorch/audio/issues/2867) | 5 |
 | pytorch/pytorch | Python | [torch.bmm, torch.topk with out variants set causing recompilations in torch.compile](https://github.com/pytorch/pytorch/issues/135859) | 5 |
+| pytorch/pytorch | Python | [dynamo (re)compilation issues: shape (1,1), nn.Parameter, mark_dynamic](https://github.com/pytorch/pytorch/issues/135011) | 5 |
 | pytorch/torchtune | Python | [create import protection for torchvision](https://github.com/pytorch/torchtune/issues/1352) | 5 |
 | pandas-dev/pandas | Python | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 6 |
 | pandas-dev/pandas-stubs | Python | [type annotation for Index/MultiIndex.names is incorrect](https://github.com/pandas-dev/pandas-stubs/issues/804) | 6 |
@@ -380,13 +380,12 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 7 |
 | tensorflow/similarity | Python | [Implement SwAV for self-supervised learning](https://github.com/tensorflow/similarity/issues/208) | 7 |
 | pytorch/examples | Python | [Why don't we use MSE as a reconstruction loss for VAE ?](https://github.com/pytorch/examples/issues/399) | 7 |
-| pytorch/pytorch | Python | [[ONNX] Support `operator.mod`](https://github.com/pytorch/pytorch/issues/136524) | 7 |
 | pytorch/pytorch | Python | [Triton tl.reinterpret is not Dynamo traceable](https://github.com/pytorch/pytorch/issues/133253) | 7 |
-| pandas-dev/pandas | Python | [BUG: groupby().any() returns True instead of False for groups where timedelta column is all null](https://github.com/pandas-dev/pandas/issues/59712) | 8 |
 | pandas-dev/pandas | Python | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 8 |
 | pytorch/pytorch | Python | [Very large memory increase when combining bfloat16 autocast with torch.compile](https://github.com/pytorch/pytorch/issues/133637) | 8 |
 | pytorch/pytorch | Python | [Using an empty tensor and `torch.int64` or `torch.bool` for `dtype` of `nanmean()` works while a non-empty tensor doesn't work](https://github.com/pytorch/pytorch/issues/131043) | 8 |
 | pytorch/pytorch | Python | [Dynamo: assert "source" in options and options["source"] is not None for default_generator.set_state call](https://github.com/pytorch/pytorch/issues/118072) | 8 |
+| pandas-dev/pandas | Python | [BUG: groupby().any() returns True instead of False for groups where timedelta column is all null](https://github.com/pandas-dev/pandas/issues/59712) | 9 |
 | pandas-dev/pandas | Python | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 9 |
 | pandas-dev/pandas | Python | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
 | pandas-dev/pandas | Python | [DOC: Fix formatting errors in docstrings](https://github.com/pandas-dev/pandas/issues/27977) | 9 |
@@ -407,7 +406,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [DOC: add button to edit on GitHub](https://github.com/pandas-dev/pandas/issues/39859) | 16 |
 | pandas-dev/pandas | Python | [DOC: Generating docs doesn't work if path has whitespaces](https://github.com/pandas-dev/pandas/issues/22836) | 16 |
 | pytorch/pytorch | Python | [Supporting custom attributes with `__torch_function__` tensor subclasses](https://github.com/pytorch/pytorch/issues/117806) | 16 |
-| pandas-dev/pandas | Python | [DOC: fix docstring validation errors for pandas.Timedelta/pandas.TimedeltaIndex](https://github.com/pandas-dev/pandas/issues/59698) | 17 |
+| pandas-dev/pandas | Python | [DOC: fix docstring validation errors for pandas.Timedelta/pandas.TimedeltaIndex](https://github.com/pandas-dev/pandas/issues/59698) | 18 |
 | pytorch/audio | Python | [Add Stereo to Mono Convertions](https://github.com/pytorch/audio/issues/877) | 18 |
 | pandas-dev/pandas | Python | [Fix PR02 issues in docstrings](https://github.com/pandas-dev/pandas/issues/27976) | 19 |
 | ansible/ansible-documentation | Python | [add documentation for fallible](https://github.com/ansible/ansible-documentation/issues/1868) | 19 |
@@ -416,6 +415,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 21 |
 | pytorch/ignite | Python | [🥇 Everyone is welcome to contribute 💯 ](https://github.com/pytorch/ignite/issues/2026) | 22 |
 | pandas-dev/pandas | Python | [CLN: Use dedup_names in all instances where duplicate column names are renamed](https://github.com/pandas-dev/pandas/issues/50371) | 23 |
+| pytorch/pytorch | Python | [[ONNX] Support `operator.mod`](https://github.com/pytorch/pytorch/issues/136524) | 24 |
 | pandas-dev/pandas | Python | [DOC: Fix docs for various offset constructors](https://github.com/pandas-dev/pandas/issues/52431) | 27 |
 | pandas-dev/pandas | Python | [DOC: fix docstring validation errors for pandas.Series](https://github.com/pandas-dev/pandas/issues/59592) | 28 |
 | pandas-dev/pandas | Python | [DOC: Additional items for the cheat sheet](https://github.com/pandas-dev/pandas/issues/40680) | 39 |
