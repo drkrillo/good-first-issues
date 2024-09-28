@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-09-27</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-09-28</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -52,6 +52,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | C++ | [Op info test for `nn.functional.conv_transpose3d .. nn.functional.ctc_loss`](https://github.com/pytorch/xla/issues/7519) | 0 |
 | pytorch/xla | C++ | [Op info test for `nn.functional.binary_cross_entropy .. nn.functional.conv_transpose2d`](https://github.com/pytorch/xla/issues/7518) | 0 |
 | pytorch/xla | C++ | [Op info test for `linalg.tensorsolve .. log_normal`](https://github.com/pytorch/xla/issues/7505) | 0 |
+| pytorch/xla | C++ | [Op info test for `linalg.solve_ex .. linalg.tensorinv`](https://github.com/pytorch/xla/issues/7504) | 0 |
 | pytorch/glow | C++ | [[CPU] Remove the need for Rescale for the CPUMaxSplat](https://github.com/pytorch/glow/issues/4656) | 1 |
 | pytorch/multipy | C++ | [Add Poetry build to multipy](https://github.com/pytorch/multipy/issues/211) | 1 |
 | pytorch/xla | C++ | [[hard] Op info test for `special.airy_ai`](https://github.com/pytorch/xla/issues/7926) | 1 |
@@ -69,7 +70,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | C++ | [Make all useful data structures in Glow easy to dump in a textual form](https://github.com/pytorch/glow/issues/2831) | 2 |
 | pytorch/glow | C++ | [[Importers] Move "run and compare" tests from importer tests to operator tests](https://github.com/pytorch/glow/issues/1909) | 2 |
 | pytorch/glow | C++ | [Need to canonicalize or optimize high-dim concat to concat+transpose](https://github.com/pytorch/glow/issues/1296) | 2 |
-| pytorch/xla | C++ | [[hard] Op info test for `nn.functional.max_pool2d .. nn.functional.max_unpool3d`](https://github.com/pytorch/xla/issues/7524) | 2 |
 | pytorch/xla | C++ | [Op info test for `min .. nanmedian`](https://github.com/pytorch/xla/issues/7513) | 2 |
 | tensorflow/minigo | C++ | [Support more GTP commands](https://github.com/tensorflow/minigo/issues/46) | 3 |
 | pytorch/glow | C++ | [[habana] Implement backend specific verifications](https://github.com/pytorch/glow/issues/3480) | 3 |
@@ -231,7 +231,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/PiPPy | Python | [Support Speech2Text models in HF tests](https://github.com/pytorch/PiPPy/issues/249) | 0 |
 | pytorch/PiPPy | Python | [Support CLIP models in HF tests](https://github.com/pytorch/PiPPy/issues/248) | 0 |
 | pytorch/PiPPy | Python | [Support SWIN models in HF tests](https://github.com/pytorch/PiPPy/issues/243) | 0 |
-| pytorch/pytorch | Python | [Cleanup stale Dynamo feature flags](https://github.com/pytorch/pytorch/issues/136862) | 0 |
 | pytorch/pytorch | Python | [dataclasses.replace not supported by dynamo](https://github.com/pytorch/pytorch/issues/136481) | 0 |
 | pytorch/pytorch | Python | [torch._dynamo.exc.Unsupported: builtin: bool [<class 'torch._dynamo.variables.tensor.SymNodeVariable'>] False](https://github.com/pytorch/pytorch/issues/136075) | 0 |
 | pytorch/pytorch | Python | [Dump bytecode of resumption frames in tlparse](https://github.com/pytorch/pytorch/issues/136038) | 0 |
@@ -276,6 +275,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [Changes needed to run DCGAN 32x32 ](https://github.com/pytorch/examples/issues/486) | 1 |
 | pytorch/examples | Python | [ImageFolder doc should clarify 1. order that images returned in 2. that all classes are concatenated into a single list](https://github.com/pytorch/examples/issues/400) | 1 |
 | pytorch/PiPPy | Python | [Support LayoutLM models in HF tests](https://github.com/pytorch/PiPPy/issues/247) | 1 |
+| pytorch/pytorch | Python | [Cleanup stale Dynamo feature flags](https://github.com/pytorch/pytorch/issues/136862) | 1 |
 | pytorch/pytorch | Python | [make it clearer (in docs) one can double decorate with torch.library.impl_* APIs](https://github.com/pytorch/pytorch/issues/120503) | 1 |
 | pytorch/text | Python | [torchtext main branch doesn't support pytorch2.0](https://github.com/pytorch/text/issues/2052) | 1 |
 | pytorch/torcharrow | Python | [Default aggregation functions delegates to Arrow Compute ](https://github.com/pytorch/torcharrow/issues/53) | 1 |
@@ -301,7 +301,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [VAE reconstruction loss (BCE) ](https://github.com/pytorch/examples/issues/460) | 2 |
 | pytorch/examples | Python | [Imagenet training extremely low gpu utilization](https://github.com/pytorch/examples/issues/387) | 2 |
 | pytorch/PiPPy | Python | [Make RemoteInterpreter use the full implementation of `Interpreter.run`](https://github.com/pytorch/PiPPy/issues/25) | 2 |
-| pytorch/pytorch | Python | [aot compile failed with "TypeError:arg is neither SymInt/int nor torch.Tensor, None" when run with TORCH_COMPILE_DEBUG=1](https://github.com/pytorch/pytorch/issues/135584) | 2 |
 | pytorch/pytorch | Python | [torch.export.save doesn't support torch.float8_e4m3fn dtype](https://github.com/pytorch/pytorch/issues/131654) | 2 |
 | pytorch/pytorch | Python | [Create the pages which explain `torch.nan` and `torch.inf` in the doc](https://github.com/pytorch/pytorch/issues/131040) | 2 |
 | pytorch/pytorch | Python | [torch.fx.Tracer.record_stack_traces is broken in torch 2.4.0](https://github.com/pytorch/pytorch/issues/130861) | 2 |
@@ -332,6 +331,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [Actor critic example not using discount rate properly](https://github.com/pytorch/examples/issues/744) | 3 |
 | pytorch/examples | Python | ["omit freeze_support"](https://github.com/pytorch/examples/issues/323) | 3 |
 | pytorch/pytorch | Python | [If mark_dynamic fails (Not all values of RelaxedUnspecConstraint are valid) due to specialization, error message should print where specialization came from](https://github.com/pytorch/pytorch/issues/136002) | 3 |
+| pytorch/pytorch | Python | [aot compile failed with "TypeError:arg is neither SymInt/int nor torch.Tensor, None" when run with TORCH_COMPILE_DEBUG=1](https://github.com/pytorch/pytorch/issues/135584) | 3 |
 | pytorch/pytorch | Python | [ban native ops from having python reserved kwargs as names](https://github.com/pytorch/pytorch/issues/135127) | 3 |
 | pytorch/pytorch | Python | [RuntimeError: "fill_empty_deterministic_" not implemented for 'ComplexHalf'](https://github.com/pytorch/pytorch/issues/133157) | 3 |
 | pytorch/pytorch | Python | [[export] Schematize nn_module_stack serialization](https://github.com/pytorch/pytorch/issues/131941) | 3 |
@@ -391,8 +391,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/similarity | Python | [Lifted Structured loss](https://github.com/tensorflow/similarity/issues/102) | 9 |
 | pandas-dev/pandas | Python | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 10 |
 | tensorflow/quantum | Python | [[Performance] Boost tfq.convert_to_tensor speed](https://github.com/tensorflow/quantum/issues/336) | 10 |
+| pytorch/ao | Python | [[MPS] torchao low-bit-precision optim does not expose 'backend' argument to torch.compile](https://github.com/pytorch/ao/issues/955) | 10 |
 | pytorch/pytorch | Python | [Logging when executing fx.Interpreter](https://github.com/pytorch/pytorch/issues/117351) | 10 |
-| pytorch/ao | Python | [[MPS] torchao low-bit-precision optim does not expose 'backend' argument to torch.compile](https://github.com/pytorch/ao/issues/955) | 11 |
 | pytorch/data | Python | [Improve the warning message regarding local function not supported by pickle](https://github.com/pytorch/data/issues/947) | 11 |
 | pytorch/pytorch | Python | [```FlopCounterMode``` returns 0 when inference mode is on during forwardpropagation.](https://github.com/pytorch/pytorch/issues/126268) | 11 |
 | pandas-dev/pandas | Python | [pandas.cut: the 'include_lowest' argument isn't behaving as documented](https://github.com/pandas-dev/pandas/issues/23164) | 12 |
