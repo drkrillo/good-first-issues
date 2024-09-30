@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-09-29</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-09-30</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -209,7 +209,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/moonlight | Python | [Chord duration correction](https://github.com/tensorflow/moonlight/issues/2) | 0 |
 | tensorflow/moonlight | Python | [Export the key signature to MusicXML](https://github.com/tensorflow/moonlight/issues/1) | 0 |
 | pytorch/ao | Python | [Self compressing neural networks](https://github.com/pytorch/ao/issues/658) | 0 |
-| pytorch/ao | Python | [Spin Quant in TorchAO](https://github.com/pytorch/ao/issues/579) | 0 |
 | pytorch/ao | Python | [Learned fake quantize for QAT](https://github.com/pytorch/ao/issues/545) | 0 |
 | pytorch/examples | Python | [imagenet benchmark measure elapsed time function issue](https://github.com/pytorch/examples/issues/741) | 0 |
 | pytorch/examples | Python | [Why there is no tanh activation at the end of TransformerNet?](https://github.com/pytorch/examples/issues/570) | 0 |
@@ -292,6 +291,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/graphics | Python | [Tangential camera distortion/undistortion](https://github.com/tensorflow/graphics/issues/334) | 2 |
 | tensorflow/similarity | Python | [Add a ranking example](https://github.com/tensorflow/similarity/issues/199) | 2 |
 | pytorch/ao | Python | [Tensor subclass boilerplate can be consolidated](https://github.com/pytorch/ao/issues/710) | 2 |
+| pytorch/ao | Python | [Spin Quant in TorchAO](https://github.com/pytorch/ao/issues/579) | 2 |
 | pytorch/ao | Python | [[RFC] Intx Tensor Subclasses Quantization](https://github.com/pytorch/ao/issues/439) | 2 |
 | pytorch/examples | Python | [word_language_model with torch.nn.modules.transformer](https://github.com/pytorch/examples/issues/1112) | 2 |
 | pytorch/examples | Python | [Warning: an output with one or more elements was resized since it had shape[xxxx],]](https://github.com/pytorch/examples/issues/937) | 2 |
@@ -300,7 +300,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [VAE reconstruction loss (BCE) ](https://github.com/pytorch/examples/issues/460) | 2 |
 | pytorch/examples | Python | [Imagenet training extremely low gpu utilization](https://github.com/pytorch/examples/issues/387) | 2 |
 | pytorch/PiPPy | Python | [Make RemoteInterpreter use the full implementation of `Interpreter.run`](https://github.com/pytorch/PiPPy/issues/25) | 2 |
-| pytorch/pytorch | Python | [Cleanup stale Dynamo feature flags](https://github.com/pytorch/pytorch/issues/136862) | 2 |
 | pytorch/pytorch | Python | [torch.export.save doesn't support torch.float8_e4m3fn dtype](https://github.com/pytorch/pytorch/issues/131654) | 2 |
 | pytorch/pytorch | Python | [Create the pages which explain `torch.nan` and `torch.inf` in the doc](https://github.com/pytorch/pytorch/issues/131040) | 2 |
 | pytorch/pytorch | Python | [torch.fx.Tracer.record_stack_traces is broken in torch 2.4.0](https://github.com/pytorch/pytorch/issues/130861) | 2 |
@@ -331,7 +330,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [Actor critic example not using discount rate properly](https://github.com/pytorch/examples/issues/744) | 3 |
 | pytorch/examples | Python | ["omit freeze_support"](https://github.com/pytorch/examples/issues/323) | 3 |
 | pytorch/pytorch | Python | [If mark_dynamic fails (Not all values of RelaxedUnspecConstraint are valid) due to specialization, error message should print where specialization came from](https://github.com/pytorch/pytorch/issues/136002) | 3 |
-| pytorch/pytorch | Python | [aot compile failed with "TypeError:arg is neither SymInt/int nor torch.Tensor, None" when run with TORCH_COMPILE_DEBUG=1](https://github.com/pytorch/pytorch/issues/135584) | 3 |
 | pytorch/pytorch | Python | [ban native ops from having python reserved kwargs as names](https://github.com/pytorch/pytorch/issues/135127) | 3 |
 | pytorch/pytorch | Python | [RuntimeError: "fill_empty_deterministic_" not implemented for 'ComplexHalf'](https://github.com/pytorch/pytorch/issues/133157) | 3 |
 | pytorch/pytorch | Python | [[export] Schematize nn_module_stack serialization](https://github.com/pytorch/pytorch/issues/131941) | 3 |
@@ -361,6 +359,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ao | Python | [The next tutorials](https://github.com/pytorch/ao/issues/426) | 5 |
 | pytorch/audio | Python | [read mp3 file fail](https://github.com/pytorch/audio/issues/2867) | 5 |
 | pytorch/pytorch | Python | [torch.bmm, torch.topk with out variants set causing recompilations in torch.compile](https://github.com/pytorch/pytorch/issues/135859) | 5 |
+| pytorch/pytorch | Python | [aot compile failed with "TypeError:arg is neither SymInt/int nor torch.Tensor, None" when run with TORCH_COMPILE_DEBUG=1](https://github.com/pytorch/pytorch/issues/135584) | 5 |
 | pytorch/pytorch | Python | [dynamo (re)compilation issues: shape (1,1), nn.Parameter, mark_dynamic](https://github.com/pytorch/pytorch/issues/135011) | 5 |
 | pytorch/pytorch | Python | [[dynamo] Missing support for many trivial builtin functions in operator](https://github.com/pytorch/pytorch/issues/116396) | 5 |
 | pytorch/torchtune | Python | [create import protection for torchvision](https://github.com/pytorch/torchtune/issues/1352) | 5 |
@@ -379,6 +378,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 7 |
 | tensorflow/similarity | Python | [Implement SwAV for self-supervised learning](https://github.com/tensorflow/similarity/issues/208) | 7 |
 | pytorch/examples | Python | [Why don't we use MSE as a reconstruction loss for VAE ?](https://github.com/pytorch/examples/issues/399) | 7 |
+| pytorch/pytorch | Python | [Cleanup stale Dynamo feature flags](https://github.com/pytorch/pytorch/issues/136862) | 7 |
 | pytorch/pytorch | Python | [Triton tl.reinterpret is not Dynamo traceable](https://github.com/pytorch/pytorch/issues/133253) | 7 |
 | pandas-dev/pandas | Python | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 8 |
 | pytorch/pytorch | Python | [Very large memory increase when combining bfloat16 autocast with torch.compile](https://github.com/pytorch/pytorch/issues/133637) | 8 |
