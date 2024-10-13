@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-10-12</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-10-13</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -304,7 +304,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/PiPPy | Python | [Make RemoteInterpreter use the full implementation of `Interpreter.run`](https://github.com/pytorch/PiPPy/issues/25) | 2 |
 | pytorch/pytorch | Python | [torch.export.save doesn't support torch.float8_e4m3fn dtype](https://github.com/pytorch/pytorch/issues/131654) | 2 |
 | pytorch/pytorch | Python | [torch.fx.Tracer.record_stack_traces is broken in torch 2.4.0](https://github.com/pytorch/pytorch/issues/130861) | 2 |
-| pytorch/pytorch | Python | [Obscure error: Expected a value of type 'List[int]' for argument 'sizes' but instead found type 'immutable_list'](https://github.com/pytorch/pytorch/issues/122129) | 2 |
 | pytorch/rl | Python | [[Feature Request] TensorSpec is_in methods should check the dtype of val](https://github.com/pytorch/rl/issues/793) | 2 |
 | pytorch/text | Python | [Convert iterator-style raw datasets to map-style raw datasets](https://github.com/pytorch/text/issues/1296) | 2 |
 | pytorch/torchtune | Python | [[config] have a single output_dir](https://github.com/pytorch/torchtune/issues/1265) | 2 |
@@ -333,6 +332,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [ban native ops from having python reserved kwargs as names](https://github.com/pytorch/pytorch/issues/135127) | 3 |
 | pytorch/pytorch | Python | [[export] Schematize nn_module_stack serialization](https://github.com/pytorch/pytorch/issues/131941) | 3 |
 | pytorch/pytorch | Python | [Create the pages which explain `torch.nan` and `torch.inf` in the doc](https://github.com/pytorch/pytorch/issues/131040) | 3 |
+| pytorch/pytorch | Python | [Obscure error: Expected a value of type 'List[int]' for argument 'sizes' but instead found type 'immutable_list'](https://github.com/pytorch/pytorch/issues/122129) | 3 |
 | pytorch/torchchat | Python | [[UX] We are too quiet about errors - in particular missing HF authentication...](https://github.com/pytorch/torchchat/issues/782) | 3 |
 | pytorch/torchdistx | Python | [Documentation for AnyPrecisionOptimizer](https://github.com/pytorch/torchdistx/issues/61) | 3 |
 | xbmc/addon-check | Python | [Correct the mentioned pylint errors to get perfect 10. (missing-docstring)](https://github.com/xbmc/addon-check/issues/179) | 3 |
@@ -381,7 +381,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/similarity | Python | [Implement SwAV for self-supervised learning](https://github.com/tensorflow/similarity/issues/208) | 7 |
 | pytorch/examples | Python | [Why don't we use MSE as a reconstruction loss for VAE ?](https://github.com/pytorch/examples/issues/399) | 7 |
 | pytorch/pytorch | Python | [Triton tl.reinterpret is not Dynamo traceable](https://github.com/pytorch/pytorch/issues/133253) | 7 |
-| pytorch/torchtune | Python | [[Clean up] Move evaluation configs under model directories ](https://github.com/pytorch/torchtune/issues/1810) | 7 |
 | pandas-dev/pandas | Python | [ENH:AttributeError: 'SeriesGroupBy' object has no attribute 'kurtosis'](https://github.com/pandas-dev/pandas/issues/40139) | 8 |
 | pandas-dev/pandas | Python | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 8 |
 | pytorch/pytorch | Python | [Very large memory increase when combining bfloat16 autocast with torch.compile](https://github.com/pytorch/pytorch/issues/133637) | 8 |
@@ -391,6 +390,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
 | pandas-dev/pandas | Python | [DOC: Fix formatting errors in docstrings](https://github.com/pandas-dev/pandas/issues/27977) | 9 |
 | tensorflow/similarity | Python | [Lifted Structured loss](https://github.com/tensorflow/similarity/issues/102) | 9 |
+| pytorch/torchtune | Python | [[Clean up] Move evaluation configs under model directories ](https://github.com/pytorch/torchtune/issues/1810) | 9 |
 | pandas-dev/pandas | Python | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 10 |
 | tensorflow/quantum | Python | [[Performance] Boost tfq.convert_to_tensor speed](https://github.com/tensorflow/quantum/issues/336) | 10 |
 | pytorch/ao | Python | [[MPS] torchao low-bit-precision optim does not expose 'backend' argument to torch.compile](https://github.com/pytorch/ao/issues/955) | 10 |
