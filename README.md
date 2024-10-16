@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-10-15</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-10-16</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -242,7 +242,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/torchchat | Python | [convert_hf_checkpoint only relies on model_name to resolve TransformerArgs](https://github.com/pytorch/torchchat/issues/1179) | 0 |
 | pytorch/torchchat | Python | [Slimming down torchchat: Replace replace_attention_with_custom_sdpa_attention() with ET's implementation](https://github.com/pytorch/torchchat/issues/1058) | 0 |
 | pytorch/torchtitan | Python | [redundant checks in `checkpoint.py`](https://github.com/pytorch/torchtitan/issues/617) | 0 |
-| pytorch/torchtitan | Python | [Ability to train based on epoch](https://github.com/pytorch/torchtitan/issues/613) | 0 |
 | pytorch/torchtune | Python | [update mistral configs and docs v0.1 -> 0.3](https://github.com/pytorch/torchtune/issues/1605) | 0 |
 | pytorch/torchtune | Python | [[Docs] Recipe documentation tracker](https://github.com/pytorch/torchtune/issues/1408) | 0 |
 | pytorch/torchtune | Python | [Add docs for CPUOffloadoptimizer from torchao in memory optimization overview](https://github.com/pytorch/torchtune/issues/1406) | 0 |
@@ -280,6 +279,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [make it clearer (in docs) one can double decorate with torch.library.impl_* APIs](https://github.com/pytorch/pytorch/issues/120503) | 1 |
 | pytorch/text | Python | [torchtext main branch doesn't support pytorch2.0](https://github.com/pytorch/text/issues/2052) | 1 |
 | pytorch/torcharrow | Python | [Default aggregation functions delegates to Arrow Compute ](https://github.com/pytorch/torcharrow/issues/53) | 1 |
+| pytorch/torchtitan | Python | [Ability to train based on epoch](https://github.com/pytorch/torchtitan/issues/613) | 1 |
 | pandas-dev/pandas-stubs | Python | [`pd.Timedelta` should also accept `float` values](https://github.com/pandas-dev/pandas-stubs/issues/1015) | 2 |
 | ansible/ansible-documentation | Python | [Link to devel in the various roadmaps](https://github.com/ansible/ansible-documentation/issues/1865) | 2 |
 | ansible/ansible-documentation | Python | [Link "see also" sections as recommended in the forum](https://github.com/ansible/ansible-documentation/issues/1200) | 2 |
