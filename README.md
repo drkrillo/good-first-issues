@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-10-19</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-10-20</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -59,7 +59,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | C++ | [Op info test for `linalg.matrix_norm`](https://github.com/pytorch/xla/issues/7494) | 1 |
 | pytorch/xla | C++ | [Op info test for `linalg.lu_factor_ex`](https://github.com/pytorch/xla/issues/7492) | 1 |
 | pytorch/xla | C++ | [Op info test for `linalg.lu_factor`](https://github.com/pytorch/xla/issues/7491) | 1 |
-| godotengine/godot | C++ | [Godot Editor Crash if base = 0 or 1 [String.num_uint64(number, base, capitalize_hex)]](https://github.com/godotengine/godot/issues/98347) | 1 |
 | pytorch/glow | C++ | [New files added under glow/test/models/ don't get copied to build folder until clean build is performed.](https://github.com/pytorch/glow/issues/4647) | 2 |
 | pytorch/glow | C++ | [Make all useful data structures in Glow easy to dump in a textual form](https://github.com/pytorch/glow/issues/2831) | 2 |
 | pytorch/glow | C++ | [[Importers] Move "run and compare" tests from importer tests to operator tests](https://github.com/pytorch/glow/issues/1909) | 2 |
@@ -210,7 +209,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/moonlight | Python | [Export stem directions in MusicXML](https://github.com/tensorflow/moonlight/issues/25) | 0 |
 | tensorflow/moonlight | Python | [Chord duration correction](https://github.com/tensorflow/moonlight/issues/2) | 0 |
 | tensorflow/moonlight | Python | [Export the key signature to MusicXML](https://github.com/tensorflow/moonlight/issues/1) | 0 |
-| pytorch/ao | Python | [Make float8_dynamic_activation_float8_weight work with `weights_only` load](https://github.com/pytorch/ao/issues/1118) | 0 |
 | pytorch/ao | Python | [[MX | Triton] Create MX matmul op using new `scaled_dot` op in Triton](https://github.com/pytorch/ao/issues/1084) | 0 |
 | pytorch/ao | Python | [Self compressing neural networks](https://github.com/pytorch/ao/issues/658) | 0 |
 | pytorch/ao | Python | [Learned fake quantize for QAT](https://github.com/pytorch/ao/issues/545) | 0 |
@@ -261,6 +259,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | ["Playbook not found for project" error when the playbook exist but is invalid ](https://github.com/ansible/awx/issues/6842) | 1 |
 | ansible/django-ansible-base | Python | [Several unordered querysets](https://github.com/ansible/django-ansible-base/issues/178) | 1 |
 | tensorflow/agents | Python | [Tutorial 1: Train a Deep Q Network with TF-Agents and the use of a driver](https://github.com/tensorflow/agents/issues/554) | 1 |
+| pytorch/ao | Python | [Make float8_dynamic_activation_float8_weight work with `weights_only` load](https://github.com/pytorch/ao/issues/1118) | 1 |
 | pytorch/ao | Python | [Add weight tensor-wise scaling for INT8 quantized and mixed-precision training](https://github.com/pytorch/ao/issues/1010) | 1 |
 | pytorch/ao | Python | [MoE example ](https://github.com/pytorch/ao/issues/729) | 1 |
 | pytorch/ao | Python | [GPTQ implementation with tensor subclasses](https://github.com/pytorch/ao/issues/577) | 1 |
@@ -422,8 +421,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [BUG: groupby.sum() is inconsistent with df.sum() for large integers](https://github.com/pandas-dev/pandas/issues/34681) | 21 |
 | pandas-dev/pandas | Python | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 21 |
 | pytorch/ignite | Python | [🥇 Everyone is welcome to contribute 💯 ](https://github.com/pytorch/ignite/issues/2026) | 22 |
-| pandas-dev/pandas | Python | [DOC: fix docstring validation errors for `pandas.Timestamp`](https://github.com/pandas-dev/pandas/issues/59458) | 23 |
 | pandas-dev/pandas | Python | [CLN: Use dedup_names in all instances where duplicate column names are renamed](https://github.com/pandas-dev/pandas/issues/50371) | 23 |
+| pandas-dev/pandas | Python | [DOC: fix docstring validation errors for `pandas.Timestamp`](https://github.com/pandas-dev/pandas/issues/59458) | 24 |
 | pandas-dev/pandas | Python | [DOC: Fix docs for various offset constructors](https://github.com/pandas-dev/pandas/issues/52431) | 28 |
 | pandas-dev/pandas | Python | [DOC: fix docstring validation errors for pandas.Series](https://github.com/pandas-dev/pandas/issues/59592) | 29 |
 | pandas-dev/pandas | Python | [DOC: Additional items for the cheat sheet](https://github.com/pandas-dev/pandas/issues/40680) | 39 |
