@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-10-25</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-10-26</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -201,6 +201,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | django/djangoproject.com | PostScript | [Make right sidebar independent from main content](https://github.com/django/djangoproject.com/issues/1366) | 8 |
 | django/djangoproject.com | PostScript | [Localize the fundraising app](https://github.com/django/djangoproject.com/issues/377) | 16 |
 | django/djangoproject.com | PostScript | [Add Click to copy text for commands present in the official Django website.](https://github.com/django/djangoproject.com/issues/1276) | 17 |
+| fastapi/sqlmodel | Python | [Update docs include syntax for source examples](https://github.com/fastapi/sqlmodel/issues/1150) | 0 |
 | ansible/ansible-jupyter-kernel | Python | [Add support for handlers](https://github.com/ansible/ansible-jupyter-kernel/issues/53) | 0 |
 | ansible/ansible-jupyter-kernel | Python | [Add a #library cell type](https://github.com/ansible/ansible-jupyter-kernel/issues/26) | 0 |
 | ansible/awx | Python | [[ui_next] Add All/Any workflow viz indication to Workflow Viz Legend/Key](https://github.com/ansible/awx/issues/9791) | 0 |
@@ -252,7 +253,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/torchtune | Python | [Validate all paths before doing any expensive work](https://github.com/pytorch/torchtune/issues/861) | 0 |
 | pandas-dev/pandas-stubs | Python | [limit_area argument is currently missing for the frame.pyi](https://github.com/pandas-dev/pandas-stubs/issues/987) | 1 |
 | ansible/ansible-navigator | Python | [Many params missing change after initial = False](https://github.com/ansible/ansible-navigator/issues/423) | 1 |
-| ansible/awx | Python | [Empty value in execution_environment should remove selections (ansible.controller.job_template)](https://github.com/ansible/awx/issues/14841) | 1 |
 | ansible/awx | Python | [Scheduled Job prompted extra_vars overwritten by JT extra_vars](https://github.com/ansible/awx/issues/14445) | 1 |
 | ansible/awx | Python | [Inaccurate error handling on Input Group Integer fields (i.e. Org Max Hosts field)](https://github.com/ansible/awx/issues/8556) | 1 |
 | ansible/awx | Python | ["Playbook not found for project" error when the playbook exist but is invalid ](https://github.com/ansible/awx/issues/6842) | 1 |
@@ -284,6 +284,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/ansible-documentation | Python | [D&I working group Docs Hackfest for inclusive language](https://github.com/ansible/ansible-documentation/issues/812) | 2 |
 | ansible/ansible-navigator | Python | [Switch to the use of `pathlib` where possible](https://github.com/ansible/ansible-navigator/issues/697) | 2 |
 | ansible/awx | Python | [cancelled vs canceled - standardize spelling in codebase](https://github.com/ansible/awx/issues/15177) | 2 |
+| ansible/awx | Python | [Empty value in execution_environment should remove selections (ansible.controller.job_template)](https://github.com/ansible/awx/issues/14841) | 2 |
 | ansible/awx | Python | [Non descriptive error when podman is missing](https://github.com/ansible/awx/issues/14341) | 2 |
 | ansible/awx | Python | [Issue label for incompliance with Ansible](https://github.com/ansible/awx/issues/13272) | 2 |
 | ansible/awx | Python | [New credentials type to provide VAULT_ADDR and VAULT_TOKEN env vars](https://github.com/ansible/awx/issues/13117) | 2 |
@@ -332,7 +333,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [Actor critic example not using discount rate properly](https://github.com/pytorch/examples/issues/744) | 3 |
 | pytorch/examples | Python | ["omit freeze_support"](https://github.com/pytorch/examples/issues/323) | 3 |
 | pytorch/pytorch | Python | [`_amp_foreach_non_finite_check_and_unscale_` can be torch.compiled inside torch.amp, but not in identical code outside it](https://github.com/pytorch/pytorch/issues/138412) | 3 |
-| pytorch/pytorch | Python | [torch.cond should support omitting arguments to pass in when it is empty](https://github.com/pytorch/pytorch/issues/138150) | 3 |
 | pytorch/pytorch | Python | [If mark_dynamic fails (Not all values of RelaxedUnspecConstraint are valid) due to specialization, error message should print where specialization came from](https://github.com/pytorch/pytorch/issues/136002) | 3 |
 | pytorch/pytorch | Python | [ban native ops from having python reserved kwargs as names](https://github.com/pytorch/pytorch/issues/135127) | 3 |
 | pytorch/pytorch | Python | [[export] Schematize nn_module_stack serialization](https://github.com/pytorch/pytorch/issues/131941) | 3 |
@@ -357,7 +357,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [Dead link in `torch.compile` docs](https://github.com/pytorch/pytorch/issues/119272) | 4 |
 | pytorch/pytorch | Python | [AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible](https://github.com/pytorch/pytorch/issues/119191) | 4 |
 | pytorch/rl | Python | [[Feature Request] Missing ActionScaling and FlattenAction ](https://github.com/pytorch/rl/issues/1209) | 4 |
-| pandas-dev/pandas | Python | [BUG: arithmetic can break equality-hash invariant for Timestamp during DST transition](https://github.com/pandas-dev/pandas/issues/60084) | 5 |
 | pandas-dev/pandas | Python | [BUG: Disabling pandas option display.html.use_mathjax has no effect](https://github.com/pandas-dev/pandas/issues/59884) | 5 |
 | ansible/awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 5 |
 | tensorflow/graphics | Python | [Not detecting TF Nightly when installing from whl.](https://github.com/tensorflow/graphics/issues/305) | 5 |
@@ -392,19 +391,21 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 8 |
 | pytorch/pytorch | Python | [[dynamo] filter graph breaks on infinite iterators and also does not return a filter object](https://github.com/pytorch/pytorch/issues/137380) | 8 |
 | pytorch/pytorch | Python | [Using an empty tensor and `torch.int64` or `torch.bool` for `dtype` of `nanmean()` works while a non-empty tensor doesn't work](https://github.com/pytorch/pytorch/issues/131043) | 8 |
+| pytorch/pytorch | Python | [Dynamo: assert "source" in options and options["source"] is not None for default_generator.set_state call](https://github.com/pytorch/pytorch/issues/118072) | 8 |
 | pandas-dev/pandas | Python | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 9 |
 | pandas-dev/pandas | Python | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
 | pandas-dev/pandas | Python | [DOC: Fix formatting errors in docstrings](https://github.com/pandas-dev/pandas/issues/27977) | 9 |
 | tensorflow/similarity | Python | [Lifted Structured loss](https://github.com/tensorflow/similarity/issues/102) | 9 |
 | pytorch/pytorch | Python | [Very large memory increase when combining bfloat16 autocast with torch.compile](https://github.com/pytorch/pytorch/issues/133637) | 9 |
+| pandas-dev/pandas | Python | [BUG: arithmetic can break equality-hash invariant for Timestamp during DST transition](https://github.com/pandas-dev/pandas/issues/60084) | 10 |
 | pandas-dev/pandas | Python | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 10 |
 | tensorflow/quantum | Python | [[Performance] Boost tfq.convert_to_tensor speed](https://github.com/tensorflow/quantum/issues/336) | 10 |
 | pytorch/ao | Python | [[MPS] torchao low-bit-precision optim does not expose 'backend' argument to torch.compile](https://github.com/pytorch/ao/issues/955) | 10 |
 | pytorch/torchtune | Python | [[Clean up] Move evaluation configs under model directories ](https://github.com/pytorch/torchtune/issues/1810) | 10 |
 | pytorch/data | Python | [Improve the warning message regarding local function not supported by pickle](https://github.com/pytorch/data/issues/947) | 11 |
-| pytorch/pytorch | Python | [Cleanup stale Dynamo feature flags](https://github.com/pytorch/pytorch/issues/136862) | 11 |
 | pytorch/pytorch | Python | [```FlopCounterMode``` returns 0 when inference mode is on during forwardpropagation.](https://github.com/pytorch/pytorch/issues/126268) | 11 |
 | pandas-dev/pandas | Python | [BUG: DataFrame.query() throws error when df has duplicate column names](https://github.com/pandas-dev/pandas/issues/59950) | 12 |
+| pytorch/pytorch | Python | [Cleanup stale Dynamo feature flags](https://github.com/pytorch/pytorch/issues/136862) | 12 |
 | pandas-dev/pandas | Python | [STYLE replace flake8-rst with something maintained](https://github.com/pandas-dev/pandas/issues/46865) | 13 |
 | pandas-dev/pandas | Python | [docs: update `freq` description for `pd.Timedelta.ceil` to match `DatetimeIndex.ceil`'s `freq` description](https://github.com/pandas-dev/pandas/issues/59902) | 14 |
 | pandas-dev/pandas | Python | [BUG: `DataFrame.to_parquet` doesn't round-trip pyarrow StringDtype](https://github.com/pandas-dev/pandas/issues/42664) | 14 |
@@ -416,6 +417,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [DOC: fix docstring validation errors for pandas.Timedelta/pandas.TimedeltaIndex](https://github.com/pandas-dev/pandas/issues/59698) | 19 |
 | pandas-dev/pandas | Python | [Fix PR02 issues in docstrings](https://github.com/pandas-dev/pandas/issues/27976) | 19 |
 | ansible/ansible-documentation | Python | [add documentation for fallible](https://github.com/ansible/ansible-documentation/issues/1868) | 19 |
+| fastapi/fastapi | Python | [Update docs include syntax for source examples](https://github.com/fastapi/fastapi/issues/12554) | 20 |
 | pandas-dev/pandas | Python | [BUG: groupby.sum() is inconsistent with df.sum() for large integers](https://github.com/pandas-dev/pandas/issues/34681) | 21 |
 | pandas-dev/pandas | Python | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 21 |
 | pytorch/ignite | Python | [🥇 Everyone is welcome to contribute 💯 ](https://github.com/pytorch/ignite/issues/2026) | 22 |
