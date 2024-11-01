@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-10-31</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2024-11-01</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -108,7 +108,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/receptor | Go | [append conntype string representation in status output](https://github.com/ansible/receptor/issues/423) | 0 |
 | ansible/receptor | Go | [add work status command to receptorctl](https://github.com/ansible/receptor/issues/374) | 1 |
 | ansible/receptor | Go | [quality of life -- order work list output based on most recent work units](https://github.com/ansible/receptor/issues/425) | 2 |
-| zeromicro/go-zero | Go | [CORS optimization](https://github.com/zeromicro/go-zero/issues/3311) | 9 |
+| zeromicro/go-zero | Go | [CORS optimization](https://github.com/zeromicro/go-zero/issues/3311) | 10 |
 | pytorch/serve | Java | [The captum for bert notebook needs update](https://github.com/pytorch/serve/issues/1317) | 0 |
 | pytorch/serve | Java | [Enable naked DIR test case for windows environment](https://github.com/pytorch/serve/issues/882) | 0 |
 | pytorch/serve | Java | [[Educational] Typing `.py` files iteratively with mypy](https://github.com/pytorch/serve/issues/1512) | 1 |
@@ -210,7 +210,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/moonlight | Python | [Export stem directions in MusicXML](https://github.com/tensorflow/moonlight/issues/25) | 0 |
 | tensorflow/moonlight | Python | [Chord duration correction](https://github.com/tensorflow/moonlight/issues/2) | 0 |
 | tensorflow/moonlight | Python | [Export the key signature to MusicXML](https://github.com/tensorflow/moonlight/issues/1) | 0 |
-| pytorch/ao | Python | [Add codebook (look up table based) quantization flow in torchao](https://github.com/pytorch/ao/issues/1195) | 0 |
 | pytorch/ao | Python | [[low-bit optim] Add COAT optimizer](https://github.com/pytorch/ao/issues/1190) | 0 |
 | pytorch/ao | Python | [[MX | Triton] Create MX matmul op using new `scaled_dot` op in Triton](https://github.com/pytorch/ao/issues/1084) | 0 |
 | pytorch/ao | Python | [Self compressing neural networks](https://github.com/pytorch/ao/issues/658) | 0 |
@@ -235,7 +234,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/PiPPy | Python | [Support Speech2Text models in HF tests](https://github.com/pytorch/PiPPy/issues/249) | 0 |
 | pytorch/PiPPy | Python | [Support CLIP models in HF tests](https://github.com/pytorch/PiPPy/issues/248) | 0 |
 | pytorch/PiPPy | Python | [Support SWIN models in HF tests](https://github.com/pytorch/PiPPy/issues/243) | 0 |
-| pytorch/pytorch | Python | [Env var to shut up "for more info run with TORCHDYNAMO_EXTENDED_DEBUG_CREATE_SYMBOL"](https://github.com/pytorch/pytorch/issues/137159) | 0 |
 | pytorch/pytorch | Python | [dataclasses.replace not supported by dynamo](https://github.com/pytorch/pytorch/issues/136481) | 0 |
 | pytorch/rl | Python | [[Feature Request] Make sure that all losses work with tensorclasses and regular tensors](https://github.com/pytorch/rl/issues/1062) | 0 |
 | pytorch/rl | Python | [[DO NOT CLOSE] Call for contributions](https://github.com/pytorch/rl/issues/509) | 0 |
@@ -258,6 +256,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | ["Playbook not found for project" error when the playbook exist but is invalid ](https://github.com/ansible/awx/issues/6842) | 1 |
 | ansible/django-ansible-base | Python | [Several unordered querysets](https://github.com/ansible/django-ansible-base/issues/178) | 1 |
 | tensorflow/agents | Python | [Tutorial 1: Train a Deep Q Network with TF-Agents and the use of a driver](https://github.com/tensorflow/agents/issues/554) | 1 |
+| pytorch/ao | Python | [Add codebook (look up table based) quantization flow in torchao](https://github.com/pytorch/ao/issues/1195) | 1 |
 | pytorch/ao | Python | [[FLOAT8] Add Hardware Compatibility Check for FP8 Quantization](https://github.com/pytorch/ao/issues/1188) | 1 |
 | pytorch/ao | Python | [Add weight tensor-wise scaling for INT8 quantized and mixed-precision training](https://github.com/pytorch/ao/issues/1010) | 1 |
 | pytorch/ao | Python | [MoE example ](https://github.com/pytorch/ao/issues/729) | 1 |
@@ -345,7 +344,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/torchtune | Python | [Remove PyTorch 2.5.0 checks](https://github.com/pytorch/torchtune/issues/1861) | 3 |
 | xbmc/addon-check | Python | [Correct the mentioned pylint errors to get perfect 10. (missing-docstring)](https://github.com/xbmc/addon-check/issues/179) | 3 |
 | godotengine/godot-blender-exporter | Python | [Blender object with negative scale](https://github.com/godotengine/godot-blender-exporter/issues/24) | 3 |
-| pandas-dev/pandas | Python | [BUG: pd.merge fail with numpy.uintc on Windows](https://github.com/pandas-dev/pandas/issues/58713) | 4 |
 | pandas-dev/pandas | Python | [ENH: Expose `to_pandas_kwargs` in `read_parquet` for pyarrow engine](https://github.com/pandas-dev/pandas/issues/49236) | 4 |
 | pandas-dev/pandas-stubs | Python | [Type checking with `converters=` on `read_excel`](https://github.com/pandas-dev/pandas-stubs/issues/849) | 4 |
 | ansible/awx | Python | [ adhoc jobs block other jobs from being processed in the queue](https://github.com/ansible/awx/issues/14645) | 4 |
@@ -361,7 +359,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [Dead link in `torch.compile` docs](https://github.com/pytorch/pytorch/issues/119272) | 4 |
 | pytorch/pytorch | Python | [AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible](https://github.com/pytorch/pytorch/issues/119191) | 4 |
 | pytorch/rl | Python | [[Feature Request] Missing ActionScaling and FlattenAction ](https://github.com/pytorch/rl/issues/1209) | 4 |
+| pytorch/torchchat | Python | [AOTI Export ignores user --device flag - expected behavior? ](https://github.com/pytorch/torchchat/issues/1278) | 4 |
 | pandas-dev/pandas | Python | [BUG: Disabling pandas option display.html.use_mathjax has no effect](https://github.com/pandas-dev/pandas/issues/59884) | 5 |
+| pandas-dev/pandas | Python | [Inconsistent behaviour when assigning to series?](https://github.com/pandas-dev/pandas/issues/25548) | 5 |
 | ansible/awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 5 |
 | tensorflow/graphics | Python | [Not detecting TF Nightly when installing from whl.](https://github.com/tensorflow/graphics/issues/305) | 5 |
 | tensorflow/similarity | Python | [Implement multi-siam for segmentation](https://github.com/tensorflow/similarity/issues/179) | 5 |
@@ -383,7 +383,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [bmm, topk, cholesky, linalg.norm, max with out variants set causing recompilations in torch.compile](https://github.com/pytorch/pytorch/issues/135859) | 6 |
 | pytorch/pytorch | Python | [[export] _fft_r2c does not support dynamic shapes](https://github.com/pytorch/pytorch/issues/135087) | 6 |
 | pytorch/pytorch | Python | [[Dynamo] Support tracing through _get_current_dispatch_mode_stack](https://github.com/pytorch/pytorch/issues/125694) | 6 |
-| pytorch/torchchat | Python | [RFC: Multimodal Eval Enablement (Looking for Developer to Implement Design)](https://github.com/pytorch/torchchat/issues/1334) | 6 |
 | pandas-dev/pandas | Python | [BUG: pd.read_csv date parsing not working with dtype_backend="pyarrow" and missing values](https://github.com/pandas-dev/pandas/issues/59904) | 7 |
 | pandas-dev/pandas | Python | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 7 |
 | ansible/awx | Python | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 7 |
@@ -392,6 +391,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [dynamic shapes: as_strided() on non-size-like int doesn't infer size-like](https://github.com/pytorch/pytorch/issues/137179) | 7 |
 | pytorch/pytorch | Python | [Triton tl.reinterpret is not Dynamo traceable](https://github.com/pytorch/pytorch/issues/133253) | 7 |
 | pytorch/pytorch | Python | [Obscure error: Expected a value of type 'List[int]' for argument 'sizes' but instead found type 'immutable_list'](https://github.com/pytorch/pytorch/issues/122129) | 7 |
+| pytorch/torchchat | Python | [RFC: Multimodal Eval Enablement (Looking for Developer to Implement Design)](https://github.com/pytorch/torchchat/issues/1334) | 7 |
 | pandas-dev/pandas | Python | [ENH:AttributeError: 'SeriesGroupBy' object has no attribute 'kurtosis'](https://github.com/pandas-dev/pandas/issues/40139) | 8 |
 | pandas-dev/pandas | Python | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 8 |
 | pytorch/pytorch | Python | [[dynamo] filter graph breaks on infinite iterators and also does not return a filter object](https://github.com/pytorch/pytorch/issues/137380) | 8 |
@@ -418,10 +418,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ao | Python | [Replace flash_4 with FlexAttention](https://github.com/pytorch/ao/issues/639) | 15 |
 | pandas-dev/pandas | Python | [DOC: add button to edit on GitHub](https://github.com/pandas-dev/pandas/issues/39859) | 16 |
 | pandas-dev/pandas | Python | [Indexing on series where index is output from pd.cut ](https://github.com/pandas-dev/pandas/issues/27437) | 16 |
+| pytorch/pytorch | Python | [Supporting custom attributes with `__torch_function__` tensor subclasses](https://github.com/pytorch/pytorch/issues/117806) | 16 |
 | pytorch/audio | Python | [Add Stereo to Mono Convertions](https://github.com/pytorch/audio/issues/877) | 18 |
-| pandas-dev/pandas | Python | [DOC: fix docstring validation errors for pandas.Timedelta/pandas.TimedeltaIndex](https://github.com/pandas-dev/pandas/issues/59698) | 19 |
 | pandas-dev/pandas | Python | [Fix PR02 issues in docstrings](https://github.com/pandas-dev/pandas/issues/27976) | 19 |
 | ansible/ansible-documentation | Python | [add documentation for fallible](https://github.com/ansible/ansible-documentation/issues/1868) | 19 |
+| pandas-dev/pandas | Python | [DOC: fix docstring validation errors for pandas.Timedelta/pandas.TimedeltaIndex](https://github.com/pandas-dev/pandas/issues/59698) | 20 |
 | pandas-dev/pandas | Python | [BUG: groupby.sum() is inconsistent with df.sum() for large integers](https://github.com/pandas-dev/pandas/issues/34681) | 21 |
 | pandas-dev/pandas | Python | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 21 |
 | pytorch/ignite | Python | [🥇 Everyone is welcome to contribute 💯 ](https://github.com/pytorch/ignite/issues/2026) | 22 |
