@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-01-27</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-01-28</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -61,6 +61,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | C++ | [Op info test for `kthvalue`](https://github.com/pytorch/xla/issues/7458) | 1 |
 | pytorch/xla | C++ | [Op info test for `index_reduce`](https://github.com/pytorch/xla/issues/7453) | 1 |
 | godotengine/godot | C++ | [Shader compilation error when defining the MASS property to a Particle ShaderMaterial](https://github.com/godotengine/godot/issues/102035) | 1 |
+| pytorch/executorch | C++ | [Reproduce/enable DeepSeek R1 Distill Llama 8B](https://github.com/pytorch/executorch/issues/7981) | 2 |
 | pytorch/glow | C++ | [New files added under glow/test/models/ don't get copied to build folder until clean build is performed.](https://github.com/pytorch/glow/issues/4647) | 2 |
 | pytorch/glow | C++ | [Make all useful data structures in Glow easy to dump in a textual form](https://github.com/pytorch/glow/issues/2831) | 2 |
 | pytorch/glow | C++ | [[Importers] Move "run and compare" tests from importer tests to operator tests](https://github.com/pytorch/glow/issues/1909) | 2 |
@@ -110,7 +111,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/receptor | Go | [append conntype string representation in status output](https://github.com/ansible/receptor/issues/423) | 0 |
 | ansible/receptor | Go | [add work status command to receptorctl](https://github.com/ansible/receptor/issues/374) | 1 |
 | ansible/receptor | Go | [quality of life -- order work list output based on most recent work units](https://github.com/ansible/receptor/issues/425) | 2 |
-| zeromicro/go-zero | Go | [CORS optimization](https://github.com/zeromicro/go-zero/issues/3311) | 10 |
 | pytorch/serve | Java | [The captum for bert notebook needs update](https://github.com/pytorch/serve/issues/1317) | 0 |
 | pytorch/serve | Java | [Enable naked DIR test case for windows environment](https://github.com/pytorch/serve/issues/882) | 0 |
 | pytorch/serve | Java | [[Educational] Typing `.py` files iteratively with mypy](https://github.com/pytorch/serve/issues/1512) | 1 |
@@ -362,7 +362,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible](https://github.com/pytorch/pytorch/issues/119191) | 5 |
 | pytorch/pytorch | Python | [[dynamo] Missing support for many trivial builtin functions in operator](https://github.com/pytorch/pytorch/issues/116396) | 5 |
 | pytorch/torchft | Python | [[CheckpointServer] use streaming transfers](https://github.com/pytorch/torchft/issues/36) | 5 |
-| pandas-dev/pandas | Python | [BUG: `pd.Series.isnumeric()` doesn't work on decimal value strings](https://github.com/pandas-dev/pandas/issues/60750) | 6 |
 | pandas-dev/pandas | Python | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 6 |
 | ansible/ansible-navigator | Python | [Allow to set ansible-runner artifacts dir ID ](https://github.com/ansible/ansible-navigator/issues/521) | 6 |
 | ansible/awx | Python | [AWX Collection Credential Delete](https://github.com/ansible/awx/issues/14209) | 6 |
@@ -381,6 +380,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [bmm, topk, cholesky, linalg.norm, max with out variants set causing recompilations in torch.compile](https://github.com/pytorch/pytorch/issues/135859) | 7 |
 | pytorch/pytorch | Python | [Obscure error: Expected a value of type 'List[int]' for argument 'sizes' but instead found type 'immutable_list'](https://github.com/pytorch/pytorch/issues/122129) | 7 |
 | pytorch/pytorch | Python | [Please implement the batching rule for torch.matrix_exp.](https://github.com/pytorch/pytorch/issues/115992) | 7 |
+| pandas-dev/pandas | Python | [BUG: `pd.Series.isnumeric()` doesn't work on decimal value strings](https://github.com/pandas-dev/pandas/issues/60750) | 8 |
 | pandas-dev/pandas | Python | [BUG: value_counts() returns error/wrong result with PyArrow categorical columns with nulls](https://github.com/pandas-dev/pandas/issues/60563) | 8 |
 | pandas-dev/pandas | Python | [TST: Make test_sql.py parallelizable](https://github.com/pandas-dev/pandas/issues/60378) | 8 |
 | pandas-dev/pandas | Python | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 8 |
