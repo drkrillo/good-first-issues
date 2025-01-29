@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-01-28</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-01-29</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -60,8 +60,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | C++ | [Op info test for `linalg.lu_factor`](https://github.com/pytorch/xla/issues/7491) | 1 |
 | pytorch/xla | C++ | [Op info test for `kthvalue`](https://github.com/pytorch/xla/issues/7458) | 1 |
 | pytorch/xla | C++ | [Op info test for `index_reduce`](https://github.com/pytorch/xla/issues/7453) | 1 |
-| godotengine/godot | C++ | [Shader compilation error when defining the MASS property to a Particle ShaderMaterial](https://github.com/godotengine/godot/issues/102035) | 1 |
-| pytorch/executorch | C++ | [Reproduce/enable DeepSeek R1 Distill Llama 8B](https://github.com/pytorch/executorch/issues/7981) | 2 |
 | pytorch/glow | C++ | [New files added under glow/test/models/ don't get copied to build folder until clean build is performed.](https://github.com/pytorch/glow/issues/4647) | 2 |
 | pytorch/glow | C++ | [Make all useful data structures in Glow easy to dump in a textual form](https://github.com/pytorch/glow/issues/2831) | 2 |
 | pytorch/glow | C++ | [[Importers] Move "run and compare" tests from importer tests to operator tests](https://github.com/pytorch/glow/issues/1909) | 2 |
@@ -71,6 +69,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | C++ | [Op info test for `linalg.matrix_power`](https://github.com/pytorch/xla/issues/7495) | 2 |
 | pytorch/xla | C++ | [Op info test for `linalg.ldl_solve`](https://github.com/pytorch/xla/issues/7488) | 2 |
 | tensorflow/minigo | C++ | [Support more GTP commands](https://github.com/tensorflow/minigo/issues/46) | 3 |
+| pytorch/executorch | C++ | [Reproduce/enable DeepSeek R1 Distill Llama 8B](https://github.com/pytorch/executorch/issues/7981) | 3 |
 | pytorch/glow | C++ | [Move layout information from nodes constructor' to their Glow types](https://github.com/pytorch/glow/issues/3790) | 3 |
 | pytorch/glow | C++ | [[habana] Implement backend specific verifications](https://github.com/pytorch/glow/issues/3480) | 3 |
 | pytorch/xla | C++ | [Op info test for `pinverse .. put`](https://github.com/pytorch/xla/issues/7529) | 3 |
@@ -194,14 +193,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | django/djangoproject.com | PostScript | [Documentation table of contents is hard to reach on mobile devices](https://github.com/django/djangoproject.com/issues/494) | 4 |
 | django/djangoproject.com | PostScript | [Remove non-canonical docs versions from sitemap.xml](https://github.com/django/djangoproject.com/issues/878) | 5 |
 | django/djangoproject.com | PostScript | [fundraising: 'customer.subscription.deleted' webhook event always gets 404 response](https://github.com/django/djangoproject.com/issues/764) | 5 |
-| django/djangoproject.com | PostScript | [Use django-contact-form's builtin AkismetContactForm](https://github.com/django/djangoproject.com/issues/1559) | 6 |
 | django/djangoproject.com | PostScript | [Docs for old supported versions should indicate that a newer version is available](https://github.com/django/djangoproject.com/issues/1122) | 6 |
 | django/djangoproject.com | PostScript | [Support switching languages on non-docs sites](https://github.com/django/djangoproject.com/issues/883) | 6 |
 | django/djangoproject.com | PostScript | [Improve 404 page](https://github.com/django/djangoproject.com/issues/1347) | 7 |
 | django/djangoproject.com | PostScript | [Improvements to the Corporate Sponsor Experience](https://github.com/django/djangoproject.com/issues/1171) | 7 |
 | django/djangoproject.com | PostScript | [Improve Documentation by having list of topics fixed on the left and table of contents on the right ](https://github.com/django/djangoproject.com/issues/1129) | 7 |
 | django/djangoproject.com | PostScript | [Use noindex meta tag or header, not robots.txt, to block untranslated docs pages](https://github.com/django/djangoproject.com/issues/877) | 7 |
-| django/djangoproject.com | PostScript | [Make right sidebar independent from main content](https://github.com/django/djangoproject.com/issues/1366) | 11 |
+| django/djangoproject.com | PostScript | [Make right sidebar independent from main content](https://github.com/django/djangoproject.com/issues/1366) | 12 |
 | django/djangoproject.com | PostScript | [Localize the fundraising app](https://github.com/django/djangoproject.com/issues/377) | 17 |
 | django/djangoproject.com | PostScript | [Add Click to copy text for commands present in the official Django website.](https://github.com/django/djangoproject.com/issues/1276) | 19 |
 | ansible/ansible-dev-tools | Python | [Ensure tests are passing with devspaces container](https://github.com/ansible/ansible-dev-tools/issues/467) | 0 |
@@ -266,7 +264,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [Changes needed to run DCGAN 32x32 ](https://github.com/pytorch/examples/issues/486) | 1 |
 | pytorch/examples | Python | [ImageFolder doc should clarify 1. order that images returned in 2. that all classes are concatenated into a single list](https://github.com/pytorch/examples/issues/400) | 1 |
 | pytorch/PiPPy | Python | [Support LayoutLM models in HF tests](https://github.com/pytorch/PiPPy/issues/247) | 1 |
-| pytorch/pytorch | Python | [assert size/strides for fallback kernel](https://github.com/pytorch/pytorch/issues/144717) | 1 |
 | pytorch/text | Python | [torchtext main branch doesn't support pytorch2.0](https://github.com/pytorch/text/issues/2052) | 1 |
 | pytorch/torcharrow | Python | [Default aggregation functions delegates to Arrow Compute ](https://github.com/pytorch/torcharrow/issues/53) | 1 |
 | pytorch/torchft | Python | [Use bucketized model averaging for LocalSGD](https://github.com/pytorch/torchft/issues/66) | 1 |
@@ -296,6 +293,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [VAE reconstruction loss (BCE) ](https://github.com/pytorch/examples/issues/460) | 2 |
 | pytorch/examples | Python | [Imagenet training extremely low gpu utilization](https://github.com/pytorch/examples/issues/387) | 2 |
 | pytorch/PiPPy | Python | [Make RemoteInterpreter use the full implementation of `Interpreter.run`](https://github.com/pytorch/PiPPy/issues/25) | 2 |
+| pytorch/pytorch | Python | [assert size/strides for fallback kernel](https://github.com/pytorch/pytorch/issues/144717) | 2 |
 | pytorch/pytorch | Python | [torch.fx.Tracer.record_stack_traces is broken in torch 2.4.0](https://github.com/pytorch/pytorch/issues/130861) | 2 |
 | pytorch/rl | Python | [[Feature Request] TensorSpec is_in methods should check the dtype of val](https://github.com/pytorch/rl/issues/793) | 2 |
 | pytorch/text | Python | [Convert iterator-style raw datasets to map-style raw datasets](https://github.com/pytorch/text/issues/1296) | 2 |
@@ -406,11 +404,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/quantum | Python | [[Performance] Boost tfq.convert_to_tensor speed](https://github.com/tensorflow/quantum/issues/336) | 11 |
 | pytorch/ao | Python | [Named Symbol not found (torchchat #1298)](https://github.com/pytorch/ao/issues/1110) | 11 |
 | pytorch/data | Python | [Improve the warning message regarding local function not supported by pickle](https://github.com/pytorch/data/issues/947) | 11 |
-| fastapi/fastapi | Python | [Will FastAPI support QUERY http method? "app.query"](https://github.com/fastapi/fastapi/issues/12965) | 12 |
 | pandas-dev/pandas | Python | [STYLE replace flake8-rst with something maintained](https://github.com/pandas-dev/pandas/issues/46865) | 13 |
-| pytorch/torchchat | Python | [Multimodal Eval Enablement (Looking for Developer to Implement Design)](https://github.com/pytorch/torchchat/issues/1334) | 13 |
+| fastapi/fastapi | Python | [Will FastAPI support QUERY http method? "app.query"](https://github.com/fastapi/fastapi/issues/12965) | 13 |
 | pandas-dev/pandas | Python | [BUG: `DataFrame.to_parquet` doesn't round-trip pyarrow StringDtype](https://github.com/pandas-dev/pandas/issues/42664) | 14 |
 | pandas-dev/pandas | Python | [WEB: Multiple "Getting Started" on pandas.io leads to different links](https://github.com/pandas-dev/pandas/issues/32307) | 14 |
+| pytorch/torchchat | Python | [Multimodal Eval Enablement (Looking for Developer to Implement Design)](https://github.com/pytorch/torchchat/issues/1334) | 14 |
 | pytorch/ao | Python | [Replace flash_4 with FlexAttention](https://github.com/pytorch/ao/issues/639) | 15 |
 | pandas-dev/pandas | Python | [DOC: add button to edit on GitHub](https://github.com/pandas-dev/pandas/issues/39859) | 16 |
 | pytorch/pytorch | Python | [Supporting custom attributes with `__torch_function__` tensor subclasses](https://github.com/pytorch/pytorch/issues/117806) | 16 |
@@ -465,7 +463,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | godotengine/godot-docs | reStructuredText | [Document that C# `string`s are UTF16 while Godot `String`s are UTF32](https://github.com/godotengine/godot-docs/issues/7682) | 0 |
 | godotengine/godot-docs | reStructuredText | [Curve2D.get_closest_point() incorrectly documented](https://github.com/godotengine/godot-docs/issues/5894) | 0 |
 | godotengine/godot-docs | reStructuredText | [Physics2DDirectSpaceState does not specify local or global coordinates](https://github.com/godotengine/godot-docs/issues/3299) | 0 |
-| godotengine/godot-docs | reStructuredText | [Add clarification about what CharacterBody is used for](https://github.com/godotengine/godot-docs/issues/10458) | 1 |
 | godotengine/godot-docs | reStructuredText | [Animated gif has visual artifacts](https://github.com/godotengine/godot-docs/issues/10425) | 1 |
 | godotengine/godot-docs | reStructuredText | [Viewport "use_hdr_2d" documentation point unclear](https://github.com/godotengine/godot-docs/issues/10044) | 1 |
 | godotengine/godot-docs | reStructuredText | [MultiMesh resource buffer description](https://github.com/godotengine/godot-docs/issues/9891) | 1 |
@@ -476,6 +473,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | godotengine/godot-docs | reStructuredText | [Inconsistent code example between PhysicsShapeQueryParameters3D and PhysicsServer3D](https://github.com/godotengine/godot-docs/issues/8305) | 1 |
 | godotengine/godot-docs | reStructuredText | [Rewording/amendment for Camera2D.align () function.](https://github.com/godotengine/godot-docs/issues/7307) | 1 |
 | godotengine/godot-docs | reStructuredText | [AudioServer Documentation does not specify units of time](https://github.com/godotengine/godot-docs/issues/7009) | 1 |
+| godotengine/godot-docs | reStructuredText | [Add clarification about what CharacterBody is used for](https://github.com/godotengine/godot-docs/issues/10458) | 2 |
 | godotengine/godot-docs | reStructuredText | [Document `@export_tool_button` and `[ExportToolButton]`](https://github.com/godotengine/godot-docs/issues/10303) | 2 |
 | godotengine/godot-docs | reStructuredText | [Document local vs global for RigidBody methods](https://github.com/godotengine/godot-docs/issues/2954) | 2 |
 | godotengine/godot-docs | reStructuredText | [WorkerThreadPool docs do not specify how Thread count is set](https://github.com/godotengine/godot-docs/issues/8937) | 3 |
