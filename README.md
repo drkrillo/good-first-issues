@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-02-01</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-02-02</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -92,7 +92,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | opencv/opencv | C++ | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 18 |
 | godotengine/godot | C++ | [LightOccluder2D polygons cause editor slowdowns](https://github.com/godotengine/godot/issues/52703) | 18 |
 | godotengine/godot | C++ | [Using the RenderingServer to add a texture to the scene, the texture appears at bad position during one frame](https://github.com/godotengine/godot/issues/94988) | 22 |
-| pytorch/executorch | C++ | [Reproduce/enable DeepSeek R1 Distill Llama 8B](https://github.com/pytorch/executorch/issues/7981) | 25 |
+| pytorch/executorch | C++ | [Reproduce/enable DeepSeek R1 Distill Llama 8B](https://github.com/pytorch/executorch/issues/7981) | 26 |
 | godotengine/godot | C++ | [PointLight2D doesn't respect Nearest texture filter for normal-maps or shadows](https://github.com/godotengine/godot/issues/76266) | 26 |
 | godotengine/godot | C++ | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 28 |
 | tensorflow/tensorflow | C++ | [Feature Request: GPUOptions for Go binding](https://github.com/tensorflow/tensorflow/issues/22926) | 105 |
@@ -395,11 +395,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/similarity | Python | [Lifted Structured loss](https://github.com/tensorflow/similarity/issues/102) | 9 |
 | pytorch/pytorch | Python | [Use expecttest in test_compiled_optimizers.py](https://github.com/pytorch/pytorch/issues/141262) | 9 |
 | pytorch/pytorch | Python | [Very large memory increase when combining bfloat16 autocast with torch.compile](https://github.com/pytorch/pytorch/issues/133637) | 9 |
-| pandas-dev/pandas | Python | [BUG: `pd.Series.isnumeric()` doesn't work on decimal value strings](https://github.com/pandas-dev/pandas/issues/60750) | 10 |
 | pandas-dev/pandas | Python | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 10 |
 | pytorch/ao | Python | [[MPS] torchao low-bit-precision optim does not expose 'backend' argument to torch.compile](https://github.com/pytorch/ao/issues/955) | 10 |
 | pytorch/pytorch | Python | [Improve typing of args and kwargs with ParamSpec](https://github.com/pytorch/pytorch/issues/142306) | 10 |
 | pytorch/pytorch | Python | [Logging when executing fx.Interpreter](https://github.com/pytorch/pytorch/issues/117351) | 10 |
+| pandas-dev/pandas | Python | [BUG: `pd.Series.isnumeric()` doesn't work on decimal value strings](https://github.com/pandas-dev/pandas/issues/60750) | 11 |
 | pandas-dev/pandas | Python | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 11 |
 | pandas-dev/pandas-stubs | Python | [type annotation for Index/MultiIndex.names is incorrect](https://github.com/pandas-dev/pandas-stubs/issues/804) | 11 |
 | tensorflow/quantum | Python | [[Performance] Boost tfq.convert_to_tensor speed](https://github.com/tensorflow/quantum/issues/336) | 11 |
