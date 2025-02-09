@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-02-08</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-02-09</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -112,6 +112,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/receptor | Go | [append conntype string representation in status output](https://github.com/ansible/receptor/issues/423) | 0 |
 | ansible/receptor | Go | [add work status command to receptorctl](https://github.com/ansible/receptor/issues/374) | 1 |
 | ansible/receptor | Go | [quality of life -- order work list output based on most recent work units](https://github.com/ansible/receptor/issues/425) | 2 |
+| zeromicro/go-zero | Go | [extends ts gen cmd args: url(base url) and body(custom http request body).](https://github.com/zeromicro/go-zero/pull/4630) | 2 |
 | pytorch/serve | Java | [The captum for bert notebook needs update](https://github.com/pytorch/serve/issues/1317) | 0 |
 | pytorch/serve | Java | [Enable naked DIR test case for windows environment](https://github.com/pytorch/serve/issues/882) | 0 |
 | pytorch/serve | Java | [[Educational] Typing `.py` files iteratively with mypy](https://github.com/pytorch/serve/issues/1512) | 1 |
@@ -304,7 +305,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/text | Python | [Convert iterator-style raw datasets to map-style raw datasets](https://github.com/pytorch/text/issues/1296) | 2 |
 | pytorch/torchchat | Python | [convert_hf_checkpoint only relies on model_name to resolve TransformerArgs](https://github.com/pytorch/torchchat/issues/1179) | 2 |
 | pytorch/torchchat | Python | [Slimming down torchchat: Replace replace_attention_with_custom_sdpa_attention() with ET's implementation](https://github.com/pytorch/torchchat/issues/1058) | 2 |
-| pytorch/torchtune | Python | [Add a `disable_dropout` utility fn](https://github.com/pytorch/torchtune/issues/2353) | 2 |
 | pytorch/torchtune | Python | [[RFC] Additional chat loss masking strategies](https://github.com/pytorch/torchtune/issues/2261) | 2 |
 | pytorch/torchtune | Python | [implement activation offloading and opt_in_bwd in knowledge_distillation recipes](https://github.com/pytorch/torchtune/issues/1959) | 2 |
 | pytorch/torchtune | Python | [Move `modules/tokenizers` to be a subdir of `modules/transforms`](https://github.com/pytorch/torchtune/issues/1301) | 2 |
@@ -337,6 +337,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [Expand Tag Set: views & reductions](https://github.com/pytorch/pytorch/issues/129020) | 3 |
 | pytorch/torchchat | Python | [[UX] We are too quiet about errors - in particular missing HF authentication...](https://github.com/pytorch/torchchat/issues/782) | 3 |
 | pytorch/torchdistx | Python | [Documentation for AnyPrecisionOptimizer](https://github.com/pytorch/torchdistx/issues/61) | 3 |
+| pytorch/torchtune | Python | [Add a `disable_dropout` utility fn](https://github.com/pytorch/torchtune/issues/2353) | 3 |
 | xbmc/addon-check | Python | [Correct the mentioned pylint errors to get perfect 10. (missing-docstring)](https://github.com/xbmc/addon-check/issues/179) | 3 |
 | godotengine/godot-blender-exporter | Python | [Blender object with negative scale](https://github.com/godotengine/godot-blender-exporter/issues/24) | 3 |
 | pandas-dev/pandas-stubs | Python | [Type checking with `converters=` on `read_excel`](https://github.com/pandas-dev/pandas-stubs/issues/849) | 4 |
@@ -419,9 +420,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [Supporting custom attributes with `__torch_function__` tensor subclasses](https://github.com/pytorch/pytorch/issues/117806) | 16 |
 | pytorch/torchtune | Python | [[Clean up] Move evaluation configs under model directories ](https://github.com/pytorch/torchtune/issues/1810) | 16 |
 | pandas-dev/pandas | Python | [TST: mixed_int_string Index](https://github.com/pandas-dev/pandas/issues/54072) | 17 |
-| pytorch/torchchat | Python | [Multimodal Eval Enablement (Looking for Developer to Implement Design)](https://github.com/pytorch/torchchat/issues/1334) | 17 |
 | pytorch/ao | Python | [Add codebook (look up table based) quantization flow in torchao](https://github.com/pytorch/ao/issues/1195) | 18 |
 | pytorch/audio | Python | [Add Stereo to Mono Convertions](https://github.com/pytorch/audio/issues/877) | 18 |
+| pytorch/torchchat | Python | [Multimodal Eval Enablement (Looking for Developer to Implement Design)](https://github.com/pytorch/torchchat/issues/1334) | 18 |
 | pandas-dev/pandas | Python | [Fix PR02 issues in docstrings](https://github.com/pandas-dev/pandas/issues/27976) | 19 |
 | ansible/ansible-documentation | Python | [add documentation for fallible](https://github.com/ansible/ansible-documentation/issues/1868) | 19 |
 | pandas-dev/pandas | Python | [BUG: groupby.sum() is inconsistent with df.sum() for large integers](https://github.com/pandas-dev/pandas/issues/34681) | 21 |
