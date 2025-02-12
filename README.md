@@ -12,7 +12,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-02-11</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-02-12</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -210,6 +210,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/ansible-jupyter-kernel | Python | [Add support for handlers](https://github.com/ansible/ansible-jupyter-kernel/issues/53) | 0 |
 | ansible/ansible-jupyter-kernel | Python | [Add a #library cell type](https://github.com/ansible/ansible-jupyter-kernel/issues/26) | 0 |
 | ansible/awx | Python | [[ui_next] Add All/Any workflow viz indication to Workflow Viz Legend/Key](https://github.com/ansible/awx/issues/9791) | 0 |
+| ansible/dispatcher | Python | [Do some minor linting of test files](https://github.com/ansible/dispatcher/issues/73) | 0 |
 | ansible/dispatcher | Python | [Change the signal used for task canceling](https://github.com/ansible/dispatcher/issues/67) | 0 |
 | ansible/dispatcher | Python | [Tests hang if postgres isn't running (quality-of-life improvement)](https://github.com/ansible/dispatcher/issues/56) | 0 |
 | ansible/django-ansible-base | Python | [`ansible_base.lib.utils.models.diff` takes unused `sanitize_encrypted` param and has outdated return docstring](https://github.com/ansible/django-ansible-base/issues/688) | 0 |
@@ -357,7 +358,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [If mark_dynamic fails (Not all values of RelaxedUnspecConstraint are valid) due to specialization, error message should print where specialization came from](https://github.com/pytorch/pytorch/issues/136002) | 4 |
 | pytorch/pytorch | Python | [Dead link in `torch.compile` docs](https://github.com/pytorch/pytorch/issues/119272) | 4 |
 | pytorch/rl | Python | [[Feature Request] Missing ActionScaling and FlattenAction ](https://github.com/pytorch/rl/issues/1209) | 4 |
-| pytorch/torchtune | Python | [Add a `disable_dropout` utility fn](https://github.com/pytorch/torchtune/issues/2353) | 4 |
 | pandas-dev/pandas | Python | [ENH: Passing a single value to `.describe(percentiles = [0.25])` returns 25th- and 50th-percentile](https://github.com/pandas-dev/pandas/issues/60550) | 5 |
 | ansible/awx | Python | [ adhoc jobs block other jobs from being processed in the queue](https://github.com/ansible/awx/issues/14645) | 5 |
 | ansible/awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 5 |
@@ -430,7 +430,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/torchchat | Python | [Multimodal Eval Enablement (Looking for Developer to Implement Design)](https://github.com/pytorch/torchchat/issues/1334) | 19 |
 | pandas-dev/pandas | Python | [BUG: groupby.sum() is inconsistent with df.sum() for large integers](https://github.com/pandas-dev/pandas/issues/34681) | 21 |
 | pandas-dev/pandas | Python | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 21 |
-| pytorch/ignite | Python | [🥇 Everyone is welcome to contribute 💯 ](https://github.com/pytorch/ignite/issues/2026) | 22 |
+| pytorch/ignite | Python | [🥇 Everyone is welcome to contribute 💯 ](https://github.com/pytorch/ignite/issues/2026) | 24 |
 | pandas-dev/pandas | Python | [DOC: fix docstring validation errors for pandas.Timedelta/pandas.TimedeltaIndex](https://github.com/pandas-dev/pandas/issues/59698) | 25 |
 | pandas-dev/pandas | Python | [DOC: fix docstring validation errors for `pandas.Timestamp`](https://github.com/pandas-dev/pandas/issues/59458) | 25 |
 | pandas-dev/pandas | Python | [CLN: Use dedup_names in all instances where duplicate column names are renamed](https://github.com/pandas-dev/pandas/issues/50371) | 26 |
@@ -467,6 +467,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/vscode-ansible | TypeScript | [Option to completely disable autocomplete](https://github.com/ansible/vscode-ansible/issues/837) | 3 |
 | pytorch/test-infra | TypeScript | [A better HUD menu for PyTorch repos family](https://github.com/pytorch/test-infra/issues/5226) | 4 |
 | tensorflow/profiler | TypeScript | [Tensorboard profiler not working well with data from gcs bucket?](https://github.com/tensorflow/profiler/issues/372) | 5 |
+| godotengine/godot-docs | reStructuredText | [Specify that `get_contact_local_normal` is in global space](https://github.com/godotengine/godot-docs/issues/10678) | 0 |
 | godotengine/godot-docs | reStructuredText | [Incorrect note on Reflection probes page](https://github.com/godotengine/godot-docs/issues/10493) | 0 |
 | godotengine/godot-docs | reStructuredText | [Add C# examples for custom BBCode](https://github.com/godotengine/godot-docs/issues/9334) | 0 |
 | godotengine/godot-docs | reStructuredText | [Document that C# `string`s are UTF16 while Godot `String`s are UTF32](https://github.com/godotengine/godot-docs/issues/7682) | 0 |
