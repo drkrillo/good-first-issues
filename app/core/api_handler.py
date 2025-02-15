@@ -1,8 +1,10 @@
 import math 
 import requests
+from jinja2 import Environment, FileSystemLoader
 
 from app.core.custom_exceptions import APIError
 import app.core.config
+
 
 class RepoManager:
     @staticmethod
@@ -40,6 +42,7 @@ class RepoManager:
                 raise
 
         return repos
+
 
 class IssueManager:
     @staticmethod
@@ -96,6 +99,38 @@ class IssueManager:
 
         return issues
 
+
+class TemplateManager:
+
+    @staticmethod
+    def format_response(issues: list) -> list:
+        """
+        Takes a list of dict issues, and returns it based on language.
+        """
+        unique_languages = set([issue['language'] for issue in issues])
+        results = []	
+        for language in unique_languages:
+            results = [issue for issue in issues if issue['language'] == language]
+            results.append({'language': language, 'issues': results})
+
+        return results
+    
+    @staticmethod
+    def render_template(results, template_path, today):
+        """
+        Takes a jinja2 environment, template, results and today date
+        and returns the rendered template.
+        """
+        env = Environment(loader=FileSystemLoader(template_path))
+        
+        template = env.get_template('README.md.j2')
+        rendered_readme = template.render(results=results, today=today)
+        
+        with open("README.md", "w+") as f:
+            f.write(rendered_readme)
+        
+        return rendered_readme
+    
 class Utils:
     @staticmethod
     def divide_and_round_up(num: int,  denom: int=100):

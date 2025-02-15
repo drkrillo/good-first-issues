@@ -7,6 +7,7 @@ import requests
 from jinja2 import Environment, FileSystemLoader
 
 import app.core.config
+
 from app.core.config import (
     HEADERS,
     USERNAMES,
@@ -15,6 +16,7 @@ from app.core.config import (
 from app.core.api_handler import (
     RepoManager,
     IssueManager,
+    TemplateManager,
     Utils,
 )
 
@@ -44,14 +46,14 @@ def main():
         issues = [IssueManager().extract_issue_data(issue) for issue in raw_issues]
         issues = sorted(issues, key=lambda x: (x['language'] or '', x['comments'] or 0))
         logging.info(f"Normalized data.")
+    
+        formatted_response = TemplateManager.format_response(issues)
+        TemplateManager.render_template(
+            results=formatted_response,
+            template_path=template_path,
+            today=today = str(datetime.datetime.today().strftime('%Y-%m-%d'))
+        )
 
-        env = Environment(loader=FileSystemLoader(template_path))
-        template = env.get_template('README.md.j2')
-        rendered_readme = template.render(results=issues, today=today)
-        
-        with open("README.md", "w+") as f:
-            f.write(rendered_readme)
-        
         logging.info(f"Rendered README file.")
         logging.info(f"Total repositories gathered: {len(repos)}")        
         logging.info(f"Total Issues gathered: {len(issues)}")
