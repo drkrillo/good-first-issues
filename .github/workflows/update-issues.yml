@@ -25,6 +25,7 @@ jobs:
       - name: Run Python script
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          USERNAMES: ${{ secrets.USERNAMES }}
         run: python -m app.update_issues
       - name: Commit and push
         run: |
