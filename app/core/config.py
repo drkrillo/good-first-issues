@@ -14,23 +14,8 @@ logging.basicConfig(
 
 load_dotenv()
 ACCESS_TOKEN = os.environ.get('ACCESS_TOKEN')
-USERNAMES = [
-    "pandas-dev",
-    'django',
-    'flask',
-    'fastapi',
-    'ansible',
-    'tensorflow',
-    'pytorch',
-    'opencv',
-    'zeromicro',
-    'includeos',
-    'xbmc',
-    'monero-project',
-    'StanGirard',
-    'colinhacks',
-    'godotengine',
-]
+USERNAMES = os.environ.get('USERNAMES').split(',')
+USERNAMES = [user.strip() for user in USERNAMES if user.strip()]
 
 HEADERS = {
     "Authorization": f"Bearer  {ACCESS_TOKEN}"
