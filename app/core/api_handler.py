@@ -108,10 +108,10 @@ class TemplateManager:
         Takes a list of dict issues, and returns it based on language.
         """
         unique_languages = set([issue['language'] for issue in issues])
-        results = []	
+        formatted_results = []	
         for language in unique_languages:
             results = [issue for issue in issues if issue['language'] == language]
-            results.append({'language': language, 'issues': results})
+            formatted_results.append({'language': language, 'issues': results})
 
         return results
     
