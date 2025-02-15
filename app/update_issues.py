@@ -51,7 +51,7 @@ def main():
         TemplateManager.render_template(
             results=formatted_response,
             template_path=template_path,
-            today=today = str(datetime.datetime.today().strftime('%Y-%m-%d'))
+            today=today,
         )
 
         logging.info(f"Rendered README file.")
