@@ -18,129 +18,21 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-02-15</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-02-16</sub></sub>
 
-### reStructuredText
-
-| Repo | Title | Comments |
-| --- | --- | --- |
-
-
-### reStructuredText
+### GDScript
 
 | Repo | Title | Comments |
 | --- | --- | --- |
 
 
-### reStructuredText
+### GDScript
 
 | Repo | Title | Comments |
 | --- | --- | --- |
 
 
-### reStructuredText
-
-| Repo | Title | Comments |
-| --- | --- | --- |
-
-
-### reStructuredText
-
-| Repo | Title | Comments |
-| --- | --- | --- |
-
-
-### reStructuredText
-
-| Repo | Title | Comments |
-| --- | --- | --- |
-
-
-### reStructuredText
-
-| Repo | Title | Comments |
-| --- | --- | --- |
-
-
-### reStructuredText
-
-| Repo | Title | Comments |
-| --- | --- | --- |
-
-
-### reStructuredText
-
-| Repo | Title | Comments |
-| --- | --- | --- |
-
-
-### reStructuredText
-
-| Repo | Title | Comments |
-| --- | --- | --- |
-
-
-### reStructuredText
-
-| Repo | Title | Comments |
-| --- | --- | --- |
-
-
-### reStructuredText
-
-| Repo | Title | Comments |
-| --- | --- | --- |
-
-
-### reStructuredText
-
-| Repo | Title | Comments |
-| --- | --- | --- |
-
-
-### reStructuredText
-
-| Repo | Title | Comments |
-| --- | --- | --- |
-
-
-### reStructuredText
-
-| Repo | Title | Comments |
-| --- | --- | --- |
-
-
-### reStructuredText
-
-| Repo | Title | Comments |
-| --- | --- | --- |
-
-
-### reStructuredText
-
-| Repo | Title | Comments |
-| --- | --- | --- |
-
-
-### reStructuredText
-
-| Repo | Title | Comments |
-| --- | --- | --- |
-
-
-### reStructuredText
-
-| Repo | Title | Comments |
-| --- | --- | --- |
-
-
-### reStructuredText
-
-| Repo | Title | Comments |
-| --- | --- | --- |
-
-
-### reStructuredText
+### GDScript
 
 | Repo | Title | Comments |
 | --- | --- | --- |
