@@ -116,8 +116,8 @@ class TemplateManager:
             sorted_results = sorted(results, key=lambda x: x['comments'])
             formatted_results.append({'language': language, 'issues': sorted_results})
 
-        sorted_formatted_rresults = sorted(formatted_results, key=lambda x: x['language'])
-        return sorted_formatted_rresults
+        sorted_formatted_results = sorted(formatted_results, key=lambda x: x['language'] or "Unknown")
+        return sorted_formatted_results
     
     @staticmethod
     def render_template(results, template_path, today):
