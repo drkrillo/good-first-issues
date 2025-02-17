@@ -5,6 +5,8 @@ from jinja2 import Environment, FileSystemLoader
 from app.core.custom_exceptions import APIError
 import app.core.config
 
+import logging
+
 
 class RepoManager:
     @staticmethod
@@ -111,9 +113,11 @@ class TemplateManager:
         formatted_results = []	
         for language in unique_languages:
             results = [issue for issue in issues if issue['language'] == language]
-            formatted_results.append({'language': language, 'issues': results})
+            sorted_results = sorted(results, key=lambda x: x['comments'])
+            formatted_results.append({'language': language, 'issues': sorted_results})
 
-        return results
+        sorted_formatted_rresults = sorted(formatted_results, key=lambda x: x['language'])
+        return sorted_formatted_rresults
     
     @staticmethod
     def render_template(results, template_path, today):
