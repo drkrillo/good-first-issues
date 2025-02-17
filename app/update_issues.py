@@ -44,7 +44,6 @@ def main():
 
         logging.info("Normalizing data...")
         issues = [IssueManager().extract_issue_data(issue) for issue in raw_issues]
-        issues = sorted(issues, key=lambda x: (x['language'] or '', x['comments'] or 0))
         logging.info(f"Normalized data.")
     
         formatted_response = TemplateManager.format_response(issues)
