@@ -521,8 +521,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [Using an empty tensor and `torch.int64` or `torch.bool` for `dtype` of `nanmean()` works while a non-empty tensor doesn't work](https://github.com/pytorch/pytorch/issues/131043) | 8 |
 | huggingface/huggingface_hub | [Allow dry_run for snapshot_download](https://github.com/huggingface/huggingface_hub/issues/1023) | 9 |
 | huggingface/transformers | [MultiTask Classification and label_names on Trainer](https://github.com/huggingface/transformers/issues/33193) | 9 |
-| pandas-dev/pandas | [BUG: CustomBusinessDay not respecting calendar](https://github.com/pandas-dev/pandas/issues/60647) | 9 |
-| pandas-dev/pandas | [BUG: `.convert_dtypes(dtype_backend="pyarrow")` strips timezone from tz-aware pyarrow timestamp Series](https://github.com/pandas-dev/pandas/issues/60237) | 9 |
 | pandas-dev/pandas | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
 | pandas-dev/pandas | [BUG: `len(df.groupby(..., dropna=False))` raises ValueError: Categorical categories cannot be null](https://github.com/pandas-dev/pandas/issues/35202) | 9 |
 | pandas-dev/pandas | [DOC: Fix formatting errors in docstrings](https://github.com/pandas-dev/pandas/issues/27977) | 9 |
@@ -534,7 +532,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/diffusers | [flux img2img controlnet channels error](https://github.com/huggingface/diffusers/issues/9979) | 10 |
 | huggingface/peft | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 10 |
 | huggingface/transformers | [Tapas tokenization Different from Tensorflow Code](https://github.com/huggingface/transformers/issues/13244) | 10 |
+| pandas-dev/pandas | [BUG: CustomBusinessDay not respecting calendar](https://github.com/pandas-dev/pandas/issues/60647) | 10 |
 | pandas-dev/pandas | [BUG: value_counts() returns error/wrong result with PyArrow categorical columns with nulls](https://github.com/pandas-dev/pandas/issues/60563) | 10 |
+| pandas-dev/pandas | [BUG: `.convert_dtypes(dtype_backend="pyarrow")` strips timezone from tz-aware pyarrow timestamp Series](https://github.com/pandas-dev/pandas/issues/60237) | 10 |
 | pandas-dev/pandas | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 10 |
 | pytorch/ao | [[MPS] torchao low-bit-precision optim does not expose 'backend' argument to torch.compile](https://github.com/pytorch/ao/issues/955) | 10 |
 | pytorch/pytorch | [Improve typing of args and kwargs with ParamSpec](https://github.com/pytorch/pytorch/issues/142306) | 10 |
@@ -563,7 +563,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | [TST: mixed_int_string Index](https://github.com/pandas-dev/pandas/issues/54072) | 17 |
 | pytorch/ao | [Replace flash_4 with FlexAttention](https://github.com/pytorch/ao/issues/639) | 17 |
 | huggingface/transformers | [Update no_trainer scripts to include gradient accumulation](https://github.com/huggingface/transformers/issues/18436) | 18 |
-| pandas-dev/pandas | [BUG: `pd.Series.isnumeric()` doesn't work on decimal value strings](https://github.com/pandas-dev/pandas/issues/60750) | 18 |
 | pytorch/ao | [Add codebook (look up table based) quantization flow in torchao](https://github.com/pytorch/ao/issues/1195) | 18 |
 | pytorch/audio | [Add Stereo to Mono Convertions](https://github.com/pytorch/audio/issues/877) | 18 |
 | huggingface/diffusers | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 19 |
@@ -573,6 +572,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/transformers | [how to use EncoderDecoderModel to do en-de translation?](https://github.com/huggingface/transformers/issues/8944) | 19 |
 | pandas-dev/pandas | [Fix PR02 issues in docstrings](https://github.com/pandas-dev/pandas/issues/27976) | 19 |
 | ansible/ansible-documentation | [add documentation for fallible](https://github.com/ansible/ansible-documentation/issues/1868) | 19 |
+| pandas-dev/pandas | [BUG: `pd.Series.isnumeric()` doesn't work on decimal value strings](https://github.com/pandas-dev/pandas/issues/60750) | 20 |
 | pytorch/torchchat | [Multimodal Eval Enablement (Looking for Developer to Implement Design)](https://github.com/pytorch/torchchat/issues/1334) | 20 |
 | pandas-dev/pandas | [BUG: groupby.sum() is inconsistent with df.sum() for large integers](https://github.com/pandas-dev/pandas/issues/34681) | 21 |
 | pandas-dev/pandas | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 21 |
