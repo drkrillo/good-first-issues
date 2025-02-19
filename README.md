@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-02-18</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-02-19</sub></sub>
 
 ### Batchfile
 
@@ -104,7 +104,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | [Use explicit std::string conversions instead of implicit llvm::StringRef->std::string conversions to prepare Glow for builds using LLVM >=11](https://github.com/pytorch/glow/issues/5068) | 18 |
 | opencv/opencv | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 18 |
 | godotengine/godot | [LightOccluder2D polygons cause editor slowdowns](https://github.com/godotengine/godot/issues/52703) | 18 |
-| godotengine/godot | [Using the RenderingServer to add a texture to the scene, the texture appears at bad position during one frame](https://github.com/godotengine/godot/issues/94988) | 23 |
+| godotengine/godot | [Using the RenderingServer to add a texture to the scene, the texture appears at bad position during one frame](https://github.com/godotengine/godot/issues/94988) | 24 |
 | godotengine/godot | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 28 |
 | godotengine/godot | [PointLight2D doesn't respect Nearest texture filter for normal-maps or shadows](https://github.com/godotengine/godot/issues/76266) | 28 |
 | pytorch/executorch | [Reproduce/enable DeepSeek R1 Distill Llama 8B](https://github.com/pytorch/executorch/issues/7981) | 29 |
@@ -174,7 +174,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/transformers.js | [[Feature request] Return offset mapping using tokenizer](https://github.com/huggingface/transformers.js/issues/425) | 2 |
 | pytorch/ci-hud | [Restore "Show service jobs" checkbox to GitHubStatusDisplay.js ](https://github.com/pytorch/ci-hud/issues/110) | 2 |
 | huggingface/transformers.js | [[Doc request] Add an example guide of how to use it in Svelte (and deploy to HF Spaces)](https://github.com/huggingface/transformers.js/issues/171) | 7 |
-| huggingface/transformers.js | [[Feature request] Logging Level and Progress Bar for Model Downloads](https://github.com/huggingface/transformers.js/issues/117) | 8 |
+| huggingface/transformers.js | [[Feature request] Logging Level and Progress Bar for Model Downloads](https://github.com/huggingface/transformers.js/issues/117) | 9 |
 
 ### Jinja
 
@@ -291,7 +291,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/nanotron | [Avoid nested `InheritFromOtherOptimizer`](https://github.com/huggingface/nanotron/issues/267) | 0 |
 | huggingface/nanotron | [Add Debug utility to be able to preview first samples used for training](https://github.com/huggingface/nanotron/issues/184) | 0 |
 | huggingface/nanotron | [[Feature] Use CUDA event for measuring elasped time](https://github.com/huggingface/nanotron/issues/88) | 0 |
-| huggingface/nanotron | [[Feature] Asyncronous Serialization](https://github.com/huggingface/nanotron/issues/87) | 0 |
 | huggingface/nanotron | [[Feature] Refactor `ParallelContext.world_rank_matrix`](https://github.com/huggingface/nanotron/issues/77) | 0 |
 | ansible/ansible-dev-tools | [Ensure tests are passing with devspaces container](https://github.com/ansible/ansible-dev-tools/issues/467) | 0 |
 | ansible/ansible-jupyter-kernel | [Add support for handlers](https://github.com/ansible/ansible-jupyter-kernel/issues/53) | 0 |
@@ -346,6 +345,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/nanotron | [[Bug] Missing `_is_using_mup` when resume checkpoint](https://github.com/huggingface/nanotron/issues/198) | 1 |
 | huggingface/nanotron | [We don't save checkpoint after training ends](https://github.com/huggingface/nanotron/issues/163) | 1 |
 | huggingface/nanotron | [FEAT: Support 1.58-bit LLMs training](https://github.com/huggingface/nanotron/issues/114) | 1 |
+| huggingface/nanotron | [[Feature] Asyncronous Serialization](https://github.com/huggingface/nanotron/issues/87) | 1 |
 | huggingface/nanotron | [[Feature Request] Add simple communications benchmarks to the repo](https://github.com/huggingface/nanotron/issues/43) | 1 |
 | pandas-dev/pandas-stubs | [Series.keys() should return an Index and not a list](https://github.com/pandas-dev/pandas-stubs/issues/1101) | 1 |
 | ansible/ansible-lint | [Linter should consider the same paths that `ansible.builtin.import_tasks` uses to import relative paths](https://github.com/ansible/ansible-lint/issues/4474) | 1 |
@@ -482,7 +482,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ao | [[low-bit optim] Add COAT optimizer](https://github.com/pytorch/ao/issues/1190) | 5 |
 | pytorch/ao | [The next tutorials](https://github.com/pytorch/ao/issues/426) | 5 |
 | pytorch/audio | [read mp3 file fail](https://github.com/pytorch/audio/issues/2867) | 5 |
-| pytorch/pytorch | [Enforce FIPS compliance on Pytorch on python 3.9+](https://github.com/pytorch/pytorch/issues/147236) | 5 |
 | pytorch/pytorch | [dynamo (re)compilation issues: shape (1,1), nn.Parameter, mark_dynamic](https://github.com/pytorch/pytorch/issues/135011) | 5 |
 | pytorch/pytorch | [AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible](https://github.com/pytorch/pytorch/issues/119191) | 5 |
 | pytorch/pytorch | [[dynamo] Missing support for many trivial builtin functions in operator](https://github.com/pytorch/pytorch/issues/116396) | 5 |
@@ -504,6 +503,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 7 |
 | tensorflow/similarity | [Implement SwAV for self-supervised learning](https://github.com/tensorflow/similarity/issues/208) | 7 |
 | pytorch/examples | [Why don't we use MSE as a reconstruction loss for VAE ?](https://github.com/pytorch/examples/issues/399) | 7 |
+| pytorch/pytorch | [Enforce FIPS compliance on Pytorch on python 3.9+](https://github.com/pytorch/pytorch/issues/147236) | 7 |
 | pytorch/pytorch | [`_amp_foreach_non_finite_check_and_unscale_` can be torch.compiled inside torch.amp, but not in identical code outside it](https://github.com/pytorch/pytorch/issues/138412) | 7 |
 | pytorch/pytorch | [bmm, topk, cholesky, linalg.norm, max with out variants set causing recompilations in torch.compile](https://github.com/pytorch/pytorch/issues/135859) | 7 |
 | pytorch/pytorch | [Obscure error: Expected a value of type 'List[int]' for argument 'sizes' but instead found type 'immutable_list'](https://github.com/pytorch/pytorch/issues/122129) | 7 |
@@ -513,6 +513,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/diffusers | [Make `FlaxLMSDiscreteScheduler` jittable](https://github.com/huggingface/diffusers/issues/2180) | 8 |
 | pandas-dev/pandas | [TST: Make test_sql.py parallelizable](https://github.com/pandas-dev/pandas/issues/60378) | 8 |
 | pandas-dev/pandas | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 8 |
+| pandas-dev/pandas | [Inconsistent behaviour when assigning to series?](https://github.com/pandas-dev/pandas/issues/25548) | 8 |
 | ansible/awx | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 8 |
 | pytorch/pytorch | [Dump bytecode of resumption frames in tlparse](https://github.com/pytorch/pytorch/issues/136038) | 8 |
 | pytorch/pytorch | [Triton tl.reinterpret is not Dynamo traceable](https://github.com/pytorch/pytorch/issues/133253) | 8 |
@@ -520,7 +521,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/huggingface_hub | [Allow dry_run for snapshot_download](https://github.com/huggingface/huggingface_hub/issues/1023) | 9 |
 | huggingface/transformers | [MultiTask Classification and label_names on Trainer](https://github.com/huggingface/transformers/issues/33193) | 9 |
 | pandas-dev/pandas | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
-| pandas-dev/pandas | [BUG: `len(df.groupby(..., dropna=False))` raises ValueError: Categorical categories cannot be null](https://github.com/pandas-dev/pandas/issues/35202) | 9 |
 | pandas-dev/pandas | [DOC: Fix formatting errors in docstrings](https://github.com/pandas-dev/pandas/issues/27977) | 9 |
 | tensorflow/similarity | [Lifted Structured loss](https://github.com/tensorflow/similarity/issues/102) | 9 |
 | pytorch/pytorch | [broken `torch.compile` with `"meta"` device tensors](https://github.com/pytorch/pytorch/issues/144607) | 9 |
@@ -531,9 +531,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/peft | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 10 |
 | huggingface/transformers | [Tapas tokenization Different from Tensorflow Code](https://github.com/huggingface/transformers/issues/13244) | 10 |
 | pandas-dev/pandas | [BUG: CustomBusinessDay not respecting calendar](https://github.com/pandas-dev/pandas/issues/60647) | 10 |
-| pandas-dev/pandas | [BUG: value_counts() returns error/wrong result with PyArrow categorical columns with nulls](https://github.com/pandas-dev/pandas/issues/60563) | 10 |
-| pandas-dev/pandas | [BUG: `.convert_dtypes(dtype_backend="pyarrow")` strips timezone from tz-aware pyarrow timestamp Series](https://github.com/pandas-dev/pandas/issues/60237) | 10 |
 | pandas-dev/pandas | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 10 |
+| pandas-dev/pandas | [BUG: `len(df.groupby(..., dropna=False))` raises ValueError: Categorical categories cannot be null](https://github.com/pandas-dev/pandas/issues/35202) | 10 |
 | pytorch/ao | [[MPS] torchao low-bit-precision optim does not expose 'backend' argument to torch.compile](https://github.com/pytorch/ao/issues/955) | 10 |
 | pytorch/pytorch | [Improve typing of args and kwargs with ParamSpec](https://github.com/pytorch/pytorch/issues/142306) | 10 |
 | pytorch/pytorch | [Logging when executing fx.Interpreter](https://github.com/pytorch/pytorch/issues/117351) | 10 |
@@ -556,6 +555,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/diffusers | [refactors pipelines inheriting from `StableDiffusionPipeline`](https://github.com/huggingface/diffusers/issues/6984) | 16 |
 | huggingface/transformers | [Follow ups to DocumentQuestionAnswering Pipeline](https://github.com/huggingface/transformers/issues/18926) | 16 |
 | pandas-dev/pandas | [DOC: add button to edit on GitHub](https://github.com/pandas-dev/pandas/issues/39859) | 16 |
+| pandas-dev/pandas | [Indexing on series where index is output from pd.cut ](https://github.com/pandas-dev/pandas/issues/27437) | 16 |
 | pytorch/pytorch | [Supporting custom attributes with `__torch_function__` tensor subclasses](https://github.com/pytorch/pytorch/issues/117806) | 16 |
 | pytorch/torchtune | [[Clean up] Move evaluation configs under model directories ](https://github.com/pytorch/torchtune/issues/1810) | 16 |
 | pandas-dev/pandas | [TST: mixed_int_string Index](https://github.com/pandas-dev/pandas/issues/54072) | 17 |
@@ -573,8 +573,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | [BUG: `pd.Series.isnumeric()` doesn't work on decimal value strings](https://github.com/pandas-dev/pandas/issues/60750) | 20 |
 | pandas-dev/pandas | [BUG: groupby.sum() is inconsistent with df.sum() for large integers](https://github.com/pandas-dev/pandas/issues/34681) | 21 |
 | pandas-dev/pandas | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 21 |
-| pytorch/torchchat | [Multimodal Eval Enablement (Looking for Developer to Implement Design)](https://github.com/pytorch/torchchat/issues/1334) | 21 |
 | pandas-dev/pandas | [BUG: Series constructor from dictionary drops key (index) levels when not all keys have same number of entries](https://github.com/pandas-dev/pandas/issues/60695) | 23 |
+| pytorch/torchchat | [Multimodal Eval Enablement (Looking for Developer to Implement Design)](https://github.com/pytorch/torchchat/issues/1334) | 23 |
 | huggingface/transformers | [Export LayoutLMv2 to onnx ](https://github.com/huggingface/transformers/issues/14368) | 24 |
 | pytorch/ignite | [🥇 Everyone is welcome to contribute 💯 ](https://github.com/pytorch/ignite/issues/2026) | 24 |
 | huggingface/optimum | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 25 |
