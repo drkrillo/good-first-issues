@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-02-20</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-02-21</sub></sub>
 
 ### Batchfile
 
@@ -56,6 +56,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | [Make all useful data structures in Glow easy to dump in a textual form](https://github.com/pytorch/glow/issues/2831) | 2 |
 | pytorch/glow | [[Importers] Move "run and compare" tests from importer tests to operator tests](https://github.com/pytorch/glow/issues/1909) | 2 |
 | pytorch/glow | [Need to canonicalize or optimize high-dim concat to concat+transpose](https://github.com/pytorch/glow/issues/1296) | 2 |
+| godotengine/godot | [get_gravity() not working anymore in godot 4.4](https://github.com/godotengine/godot/issues/103115) | 2 |
+| godotengine/godot | [`_OnTreeItemSelected()` signal receiver method using C# doesn't allow adding of items](https://github.com/godotengine/godot/issues/103101) | 2 |
 | tensorflow/minigo | [Support more GTP commands](https://github.com/tensorflow/minigo/issues/46) | 3 |
 | pytorch/glow | [Move layout information from nodes constructor' to their Glow types](https://github.com/pytorch/glow/issues/3790) | 3 |
 | pytorch/glow | [[habana] Implement backend specific verifications](https://github.com/pytorch/glow/issues/3480) | 3 |
@@ -67,9 +69,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | [Use gtest-parallel](https://github.com/pytorch/glow/issues/2412) | 5 |
 | pytorch/glow | [Glow should provide its own implementation of a random number generator to ensure deterministic testing and avoid platform-dependent differences](https://github.com/pytorch/glow/issues/1556) | 6 |
 | xbmc/xbmc | [Make sorting locale-aware on Android](https://github.com/xbmc/xbmc/issues/15125) | 7 |
-| godotengine/godot | [OS.get_stdin_type() returns 0 (invalid) on Windows [v4.4]](https://github.com/godotengine/godot/issues/103086) | 7 |
 | pytorch/glow | [Make the execution of the Glow compiler more deterministic between multiple runs](https://github.com/pytorch/glow/issues/1948) | 9 |
 | opencv/opencv_contrib | [reg: broken python sample](https://github.com/opencv/opencv_contrib/issues/1935) | 9 |
+| godotengine/godot | [OS.get_stdin_type() returns 0 (invalid) on Windows [v4.4]](https://github.com/godotengine/godot/issues/103086) | 9 |
 | godotengine/godot | [Improve error reporting when rcedit fails to change icon / set PE data](https://github.com/godotengine/godot/issues/27765) | 9 |
 | opencv/opencv_contrib | [selectROI pointer almost invisible on certain colours](https://github.com/opencv/opencv_contrib/issues/1719) | 14 |
 | pytorch/glow | [[ONNXModelLoader] Support for LogSoftmax operator is missing](https://github.com/pytorch/glow/issues/4399) | 16 |
@@ -264,7 +266,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/nanotron | [[Feature] Use CUDA event for measuring elasped time](https://github.com/huggingface/nanotron/issues/88) | 0 |
 | huggingface/nanotron | [[Feature] Refactor `ParallelContext.world_rank_matrix`](https://github.com/huggingface/nanotron/issues/77) | 0 |
 | huggingface/peft | [Bug: Using 2 LoRA configs with `target_modules='all-linear'` leads to nested LoRA layers](https://github.com/huggingface/peft/issues/2390) | 0 |
-| fastapi/fastapi | [Dependency Models created from Form input data are loosing metadata(field set) and are enforcing validation on default values.](https://github.com/fastapi/fastapi/issues/13399) | 0 |
 | ansible/ansible-dev-tools | [Ensure tests are passing with devspaces container](https://github.com/ansible/ansible-dev-tools/issues/467) | 0 |
 | ansible/ansible-jupyter-kernel | [Add support for handlers](https://github.com/ansible/ansible-jupyter-kernel/issues/53) | 0 |
 | ansible/ansible-jupyter-kernel | [Add a #library cell type](https://github.com/ansible/ansible-jupyter-kernel/issues/26) | 0 |
@@ -299,6 +300,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/PiPPy | [Support Speech2Text models in HF tests](https://github.com/pytorch/PiPPy/issues/249) | 0 |
 | pytorch/PiPPy | [Support CLIP models in HF tests](https://github.com/pytorch/PiPPy/issues/248) | 0 |
 | pytorch/PiPPy | [Support SWIN models in HF tests](https://github.com/pytorch/PiPPy/issues/243) | 0 |
+| pytorch/pytorch | [Enforce full FIPS compliance with hashlib - ruff rule S324 on python 3.9+](https://github.com/pytorch/pytorch/issues/147627) | 0 |
 | pytorch/pytorch | [dataclasses.replace not supported by dynamo](https://github.com/pytorch/pytorch/issues/136481) | 0 |
 | pytorch/rl | [[DO NOT CLOSE] Call for contributions](https://github.com/pytorch/rl/issues/509) | 0 |
 | pytorch/tensordict | [[Feature Request] Deprecate `_run_checks` in favour of `TensorDict._checked`](https://github.com/pytorch/tensordict/issues/182) | 0 |
@@ -326,12 +328,12 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/diffusers | [Script to merge Flux diffuser into 1 safetensor file ](https://github.com/huggingface/diffusers/issues/10137) | 1 |
 | huggingface/diffusers | [Do we have any script covert from hf format to orginal format?](https://github.com/huggingface/diffusers/issues/10076) | 1 |
 | huggingface/huggingface_hub | [Use `endpoint.wait()` when updating an endpoint](https://github.com/huggingface/huggingface_hub/issues/2767) | 1 |
-| huggingface/nanotron | [Avoid nested `InheritFromOtherOptimizer`](https://github.com/huggingface/nanotron/issues/267) | 1 |
 | huggingface/nanotron | [[Bug] Missing `_is_using_mup` when resume checkpoint](https://github.com/huggingface/nanotron/issues/198) | 1 |
 | huggingface/nanotron | [We don't save checkpoint after training ends](https://github.com/huggingface/nanotron/issues/163) | 1 |
 | huggingface/nanotron | [FEAT: Support 1.58-bit LLMs training](https://github.com/huggingface/nanotron/issues/114) | 1 |
 | huggingface/nanotron | [[Feature Request] Add simple communications benchmarks to the repo](https://github.com/huggingface/nanotron/issues/43) | 1 |
 | pandas-dev/pandas-stubs | [Series.keys() should return an Index and not a list](https://github.com/pandas-dev/pandas-stubs/issues/1101) | 1 |
+| fastapi/fastapi | [Dependency Models created from Form input data are loosing metadata(field set) and are enforcing validation on default values.](https://github.com/fastapi/fastapi/issues/13399) | 1 |
 | ansible/ansible-lint | [Linter should consider the same paths that `ansible.builtin.import_tasks` uses to import relative paths](https://github.com/ansible/ansible-lint/issues/4474) | 1 |
 | ansible/ansible-navigator | [Many params missing change after initial = False](https://github.com/ansible/ansible-navigator/issues/423) | 1 |
 | ansible/awx | [Scheduled Job prompted extra_vars overwritten by JT extra_vars](https://github.com/ansible/awx/issues/14445) | 1 |
@@ -370,10 +372,12 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | [[hard] Op info test for `histogramdd`](https://github.com/pytorch/xla/issues/7445) | 1 |
 | pytorch/xla | [[hard] Op info test for `histogram`](https://github.com/pytorch/xla/issues/7444) | 1 |
 | huggingface/dataset-viewer | [use the `ROW_IDX_COLUMN` constant name instead of copying the value everywhere](https://github.com/huggingface/dataset-viewer/issues/2798) | 2 |
+| huggingface/nanotron | [Avoid nested `InheritFromOtherOptimizer`](https://github.com/huggingface/nanotron/issues/267) | 2 |
 | huggingface/nanotron | [[Feature] Asyncronous Serialization](https://github.com/huggingface/nanotron/issues/87) | 2 |
 | huggingface/nanotron | [[Feature Request] Support Data Streaming for faster training of large models](https://github.com/huggingface/nanotron/issues/45) | 2 |
 | huggingface/optimum | [Add all available ONNX models to ORTConfigManager](https://github.com/huggingface/optimum/issues/351) | 2 |
 | huggingface/transformers | [[Performance] Tracking open Issues and PRs (pytorch transformers)](https://github.com/huggingface/transformers/issues/12126) | 2 |
+| pandas-dev/pandas-stubs | [pandas `Styler` has no `.columns` attr defined](https://github.com/pandas-dev/pandas-stubs/issues/1102) | 2 |
 | ansible/ansible-documentation | ["The when clause is a raw Jinja2 expression without double curly braces (see group_by_module)"](https://github.com/ansible/ansible-documentation/issues/2077) | 2 |
 | ansible/ansible-documentation | [Link to devel in the various roadmaps](https://github.com/ansible/ansible-documentation/issues/1865) | 2 |
 | ansible/ansible-documentation | [Link "see also" sections as recommended in the forum](https://github.com/ansible/ansible-documentation/issues/1200) | 2 |
@@ -502,7 +506,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [torch.nn.InstanceNorm2d throws "mixed dtype" error with track_running_stats set to True](https://github.com/pytorch/pytorch/issues/139140) | 6 |
 | pytorch/pytorch | [Docs are little bit outdated for torch logs](https://github.com/pytorch/pytorch/issues/137285) | 6 |
 | pytorch/pytorch | [[Dynamo] Support tracing through _get_current_dispatch_mode_stack](https://github.com/pytorch/pytorch/issues/125694) | 6 |
-| pytorch/pytorch | [Enable ruff rule PLW1510 codebase wide](https://github.com/pytorch/pytorch/issues/115016) | 6 |
 | huggingface/datasets | [Identical keywords in build_kwargs and config_kwargs lead to TypeError in load_dataset_builder()](https://github.com/huggingface/datasets/issues/4910) | 7 |
 | huggingface/datasets | [WMT21 & WMT22](https://github.com/huggingface/datasets/issues/4709) | 7 |
 | huggingface/huggingface_hub | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 7 |
@@ -552,6 +555,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/diffusers | [[Pipeline] AnimateDiff + SparseControl + ControlNet](https://github.com/huggingface/diffusers/issues/9329) | 13 |
 | huggingface/transformers | [Object Detection Pipeline only outputs first element when batching](https://github.com/huggingface/transformers/issues/31356) | 13 |
 | pandas-dev/pandas | [STYLE replace flake8-rst with something maintained](https://github.com/pandas-dev/pandas/issues/46865) | 13 |
+| pandas-dev/pandas | [pandas.cut: the 'include_lowest' argument isn't behaving as documented](https://github.com/pandas-dev/pandas/issues/23164) | 13 |
 | huggingface/datasets | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 14 |
 | pandas-dev/pandas | [BUG: `DataFrame.to_parquet` doesn't round-trip pyarrow StringDtype](https://github.com/pandas-dev/pandas/issues/42664) | 14 |
 | pandas-dev/pandas | [WEB: Multiple "Getting Started" on pandas.io leads to different links](https://github.com/pandas-dev/pandas/issues/32307) | 14 |
@@ -575,12 +579,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/transformers | [how to use EncoderDecoderModel to do en-de translation?](https://github.com/huggingface/transformers/issues/8944) | 19 |
 | pandas-dev/pandas | [Fix PR02 issues in docstrings](https://github.com/pandas-dev/pandas/issues/27976) | 19 |
 | ansible/ansible-documentation | [add documentation for fallible](https://github.com/ansible/ansible-documentation/issues/1868) | 19 |
-| pandas-dev/pandas | [BUG: `pd.Series.isnumeric()` doesn't work on decimal value strings](https://github.com/pandas-dev/pandas/issues/60750) | 20 |
 | pandas-dev/pandas | [BUG: groupby.sum() is inconsistent with df.sum() for large integers](https://github.com/pandas-dev/pandas/issues/34681) | 21 |
 | pandas-dev/pandas | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 21 |
-| pandas-dev/pandas | [BUG: Series constructor from dictionary drops key (index) levels when not all keys have same number of entries](https://github.com/pandas-dev/pandas/issues/60695) | 23 |
 | pytorch/torchchat | [Multimodal Eval Enablement (Looking for Developer to Implement Design)](https://github.com/pytorch/torchchat/issues/1334) | 23 |
 | huggingface/transformers | [Export LayoutLMv2 to onnx ](https://github.com/huggingface/transformers/issues/14368) | 24 |
+| pandas-dev/pandas | [BUG: Series constructor from dictionary drops key (index) levels when not all keys have same number of entries](https://github.com/pandas-dev/pandas/issues/60695) | 24 |
 | pytorch/ignite | [🥇 Everyone is welcome to contribute 💯 ](https://github.com/pytorch/ignite/issues/2026) | 24 |
 | huggingface/optimum | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 25 |
 | huggingface/transformers | [Add support for BLIP and GIT in image-to-text and VQA pipelines](https://github.com/huggingface/transformers/issues/21110) | 25 |
