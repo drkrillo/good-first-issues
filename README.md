@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-02-22</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-02-23</sub></sub>
 
 ### Batchfile
 
@@ -379,7 +379,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/nanotron | [[Feature Request] Support Data Streaming for faster training of large models](https://github.com/huggingface/nanotron/issues/45) | 2 |
 | huggingface/optimum | [Add all available ONNX models to ORTConfigManager](https://github.com/huggingface/optimum/issues/351) | 2 |
 | huggingface/transformers | [[Performance] Tracking open Issues and PRs (pytorch transformers)](https://github.com/huggingface/transformers/issues/12126) | 2 |
-| pandas-dev/pandas-stubs | [pandas `Styler` has no `.columns` attr defined](https://github.com/pandas-dev/pandas-stubs/issues/1102) | 2 |
 | ansible/ansible-documentation | ["The when clause is a raw Jinja2 expression without double curly braces (see group_by_module)"](https://github.com/ansible/ansible-documentation/issues/2077) | 2 |
 | ansible/ansible-documentation | [Link to devel in the various roadmaps](https://github.com/ansible/ansible-documentation/issues/1865) | 2 |
 | ansible/ansible-documentation | [Link "see also" sections as recommended in the forum](https://github.com/ansible/ansible-documentation/issues/1200) | 2 |
@@ -462,6 +461,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/lighteval | [Append revision to filepath in `--output_dir`?](https://github.com/huggingface/lighteval/issues/56) | 4 |
 | huggingface/transformers | [OWL-VIT Vision Foundation Model deployment in the edge cases - Need SDPA support for OWL-ViT Model optimization for Edge Deployment](https://github.com/huggingface/transformers/issues/28103) | 4 |
 | huggingface/transformers | [GeneratorExp aren't supported by torch.jit.script when I try to export a previously trained model  'google/vit-base-patch16-224-in21k'.](https://github.com/huggingface/transformers/issues/15354) | 4 |
+| pandas-dev/pandas-stubs | [pandas `Styler` has no `.columns` attr defined](https://github.com/pandas-dev/pandas-stubs/issues/1102) | 4 |
 | pandas-dev/pandas-stubs | [Type checking with `converters=` on `read_excel`](https://github.com/pandas-dev/pandas-stubs/issues/849) | 4 |
 | ansible/awx | [ visualizer info field ](https://github.com/ansible/awx/issues/14597) | 4 |
 | ansible/awx | [Remove some of the eslint-disable comments](https://github.com/ansible/awx/issues/11707) | 4 |
@@ -517,7 +517,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [`_amp_foreach_non_finite_check_and_unscale_` can be torch.compiled inside torch.amp, but not in identical code outside it](https://github.com/pytorch/pytorch/issues/138412) | 7 |
 | pytorch/pytorch | [bmm, topk, cholesky, linalg.norm, max with out variants set causing recompilations in torch.compile](https://github.com/pytorch/pytorch/issues/135859) | 7 |
 | pytorch/pytorch | [Obscure error: Expected a value of type 'List[int]' for argument 'sizes' but instead found type 'immutable_list'](https://github.com/pytorch/pytorch/issues/122129) | 7 |
-| pytorch/pytorch | [Please implement the batching rule for torch.matrix_exp.](https://github.com/pytorch/pytorch/issues/115992) | 7 |
 | huggingface/diffusers | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 8 |
 | huggingface/diffusers | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 8 |
 | huggingface/diffusers | [Make `FlaxLMSDiscreteScheduler` jittable](https://github.com/huggingface/diffusers/issues/2180) | 8 |
@@ -557,6 +556,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/diffusers | [[Pipeline] AnimateDiff + SparseControl + ControlNet](https://github.com/huggingface/diffusers/issues/9329) | 13 |
 | huggingface/transformers | [Object Detection Pipeline only outputs first element when batching](https://github.com/huggingface/transformers/issues/31356) | 13 |
 | pandas-dev/pandas | [STYLE replace flake8-rst with something maintained](https://github.com/pandas-dev/pandas/issues/46865) | 13 |
+| pytorch/pytorch | [Update triton_heuristics.py](https://github.com/pytorch/pytorch/pull/147690) | 13 |
 | huggingface/datasets | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 14 |
 | pandas-dev/pandas | [BUG: `DataFrame.to_parquet` doesn't round-trip pyarrow StringDtype](https://github.com/pandas-dev/pandas/issues/42664) | 14 |
 | pandas-dev/pandas | [WEB: Multiple "Getting Started" on pandas.io leads to different links](https://github.com/pandas-dev/pandas/issues/32307) | 14 |
@@ -583,15 +583,15 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/ansible-documentation | [add documentation for fallible](https://github.com/ansible/ansible-documentation/issues/1868) | 19 |
 | pandas-dev/pandas | [BUG: groupby.sum() is inconsistent with df.sum() for large integers](https://github.com/pandas-dev/pandas/issues/34681) | 21 |
 | pandas-dev/pandas | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 21 |
-| pandas-dev/pandas | [BUG: Series constructor from dictionary drops key (index) levels when not all keys have same number of entries](https://github.com/pandas-dev/pandas/issues/60695) | 23 |
-| pytorch/torchchat | [Multimodal Eval Enablement (Looking for Developer to Implement Design)](https://github.com/pytorch/torchchat/issues/1334) | 23 |
 | huggingface/transformers | [Export LayoutLMv2 to onnx ](https://github.com/huggingface/transformers/issues/14368) | 24 |
 | pytorch/ignite | [🥇 Everyone is welcome to contribute 💯 ](https://github.com/pytorch/ignite/issues/2026) | 24 |
+| pytorch/torchchat | [Multimodal Eval Enablement (Looking for Developer to Implement Design)](https://github.com/pytorch/torchchat/issues/1334) | 24 |
 | huggingface/optimum | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 25 |
 | huggingface/transformers | [Add support for BLIP and GIT in image-to-text and VQA pipelines](https://github.com/huggingface/transformers/issues/21110) | 25 |
 | huggingface/transformers | [Getting time offsets of beginning and end of each word in Wav2Vec2](https://github.com/huggingface/transformers/issues/11307) | 25 |
 | pandas-dev/pandas | [DOC: fix docstring validation errors for pandas.Timedelta/pandas.TimedeltaIndex](https://github.com/pandas-dev/pandas/issues/59698) | 25 |
 | pandas-dev/pandas | [DOC: fix docstring validation errors for `pandas.Timestamp`](https://github.com/pandas-dev/pandas/issues/59458) | 25 |
+| pandas-dev/pandas | [BUG: Series constructor from dictionary drops key (index) levels when not all keys have same number of entries](https://github.com/pandas-dev/pandas/issues/60695) | 26 |
 | pandas-dev/pandas | [CLN: Use dedup_names in all instances where duplicate column names are renamed](https://github.com/pandas-dev/pandas/issues/50371) | 26 |
 | huggingface/diffusers | [[Community Pipelines]](https://github.com/huggingface/diffusers/issues/841) | 27 |
 | pandas-dev/pandas | [DOC: Fix docs for various offset constructors](https://github.com/pandas-dev/pandas/issues/52431) | 29 |
