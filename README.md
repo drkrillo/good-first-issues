@@ -479,7 +479,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/nanotron | [[Unit Test] Add unit tests for DistributedTrainer](https://github.com/huggingface/nanotron/issues/90) | 5 |
 | huggingface/optimum-benchmark | [Evaluators for specific tasks](https://github.com/huggingface/optimum-benchmark/issues/34) | 5 |
 | huggingface/transformers | [oom when using adafactor optimizer in deepspeed](https://github.com/huggingface/transformers/issues/33290) | 5 |
-| pandas-dev/pandas | [ENH: Passing a single value to `.describe(percentiles = [0.25])` returns 25th- and 50th-percentile](https://github.com/pandas-dev/pandas/issues/60550) | 5 |
 | ansible/awx | [ adhoc jobs block other jobs from being processed in the queue](https://github.com/ansible/awx/issues/14645) | 5 |
 | ansible/awx | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 5 |
 | tensorflow/graphics | [Not detecting TF Nightly when installing from whl.](https://github.com/tensorflow/graphics/issues/305) | 5 |
@@ -493,6 +492,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [[dynamo] Missing support for many trivial builtin functions in operator](https://github.com/pytorch/pytorch/issues/116396) | 5 |
 | pytorch/torchft | [[CheckpointServer] use streaming transfers](https://github.com/pytorch/torchft/issues/36) | 5 |
 | huggingface/transformers | [Add TableTransformerImageProcessor](https://github.com/huggingface/transformers/issues/30718) | 6 |
+| pandas-dev/pandas | [ENH: Passing a single value to `.describe(percentiles = [0.25])` returns 25th- and 50th-percentile](https://github.com/pandas-dev/pandas/issues/60550) | 6 |
 | pandas-dev/pandas | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 6 |
 | pandas-dev/pandas-stubs | [pandas `Styler` has no `.columns` attr defined](https://github.com/pandas-dev/pandas-stubs/issues/1102) | 6 |
 | ansible/ansible-navigator | [Allow to set ansible-runner artifacts dir ID ](https://github.com/ansible/ansible-navigator/issues/521) | 6 |
