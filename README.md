@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-03-01</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-03-02</sub></sub>
 
 ### Batchfile
 
@@ -50,6 +50,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [Optimized linear op doesn't support bias](https://github.com/pytorch/executorch/issues/8234) | 1 |
 | pytorch/glow | [[CPU] Remove the need for Rescale for the CPUMaxSplat](https://github.com/pytorch/glow/issues/4656) | 1 |
 | pytorch/multipy | [Add Poetry build to multipy](https://github.com/pytorch/multipy/issues/211) | 1 |
+| godotengine/godot | [Betsy GPU compression usage in the editor causes an error on exit](https://github.com/godotengine/godot/issues/103443) | 1 |
 | pytorch/glow | [New files added under glow/test/models/ don't get copied to build folder until clean build is performed.](https://github.com/pytorch/glow/issues/4647) | 2 |
 | pytorch/glow | [Make all useful data structures in Glow easy to dump in a textual form](https://github.com/pytorch/glow/issues/2831) | 2 |
 | pytorch/glow | [[Importers] Move "run and compare" tests from importer tests to operator tests](https://github.com/pytorch/glow/issues/1909) | 2 |
@@ -328,7 +329,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/nanotron | [We don't save checkpoint after training ends](https://github.com/huggingface/nanotron/issues/163) | 1 |
 | huggingface/nanotron | [FEAT: Support 1.58-bit LLMs training](https://github.com/huggingface/nanotron/issues/114) | 1 |
 | huggingface/nanotron | [[Feature Request] Add simple communications benchmarks to the repo](https://github.com/huggingface/nanotron/issues/43) | 1 |
-| fastapi/fastapi | [Dependency Models created from Form input data are loosing metadata(field set) and are enforcing validation on default values.](https://github.com/fastapi/fastapi/issues/13399) | 1 |
 | ansible/ansible-lint | [Linter should consider the same paths that `ansible.builtin.import_tasks` uses to import relative paths](https://github.com/ansible/ansible-lint/issues/4474) | 1 |
 | ansible/ansible-navigator | [Many params missing change after initial = False](https://github.com/ansible/ansible-navigator/issues/423) | 1 |
 | ansible/awx | [Add option to force the user to reset its password at first login](https://github.com/ansible/awx/issues/15766) | 1 |
@@ -376,6 +376,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/nanotron | [[Feature Request] Support Data Streaming for faster training of large models](https://github.com/huggingface/nanotron/issues/45) | 2 |
 | huggingface/optimum | [Add all available ONNX models to ORTConfigManager](https://github.com/huggingface/optimum/issues/351) | 2 |
 | huggingface/transformers | [[Performance] Tracking open Issues and PRs (pytorch transformers)](https://github.com/huggingface/transformers/issues/12126) | 2 |
+| fastapi/fastapi | [Dependency Models created from Form input data are loosing metadata(field set) and are enforcing validation on default values.](https://github.com/fastapi/fastapi/issues/13399) | 2 |
 | ansible/ansible-documentation | ["The when clause is a raw Jinja2 expression without double curly braces (see group_by_module)"](https://github.com/ansible/ansible-documentation/issues/2077) | 2 |
 | ansible/ansible-documentation | [Link to devel in the various roadmaps](https://github.com/ansible/ansible-documentation/issues/1865) | 2 |
 | ansible/ansible-documentation | [Link "see also" sections as recommended in the forum](https://github.com/ansible/ansible-documentation/issues/1200) | 2 |
@@ -485,7 +486,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ao | [[low-bit optim] Add COAT optimizer](https://github.com/pytorch/ao/issues/1190) | 5 |
 | pytorch/ao | [The next tutorials](https://github.com/pytorch/ao/issues/426) | 5 |
 | pytorch/audio | [read mp3 file fail](https://github.com/pytorch/audio/issues/2867) | 5 |
-| pytorch/pytorch | [[inductor] `torch.slice_scatter` throws `AssertionError` when meeting internal `float32`](https://github.com/pytorch/pytorch/issues/147842) | 5 |
 | pytorch/pytorch | [torch._dynamo.exc.Unsupported: builtin: bool [<class 'torch._dynamo.variables.tensor.SymNodeVariable'>] False](https://github.com/pytorch/pytorch/issues/136075) | 5 |
 | pytorch/pytorch | [dynamo (re)compilation issues: shape (1,1), nn.Parameter, mark_dynamic](https://github.com/pytorch/pytorch/issues/135011) | 5 |
 | pytorch/pytorch | [AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible](https://github.com/pytorch/pytorch/issues/119191) | 5 |
@@ -509,6 +509,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 7 |
 | tensorflow/similarity | [Implement SwAV for self-supervised learning](https://github.com/tensorflow/similarity/issues/208) | 7 |
 | pytorch/examples | [Why don't we use MSE as a reconstruction loss for VAE ?](https://github.com/pytorch/examples/issues/399) | 7 |
+| pytorch/pytorch | [[inductor] `torch.slice_scatter` throws `AssertionError` when meeting internal `float32`](https://github.com/pytorch/pytorch/issues/147842) | 7 |
 | pytorch/pytorch | [`_amp_foreach_non_finite_check_and_unscale_` can be torch.compiled inside torch.amp, but not in identical code outside it](https://github.com/pytorch/pytorch/issues/138412) | 7 |
 | pytorch/pytorch | [bmm, topk, cholesky, linalg.norm, max with out variants set causing recompilations in torch.compile](https://github.com/pytorch/pytorch/issues/135859) | 7 |
 | pytorch/pytorch | [[Dynamo] Support tracing through _get_current_dispatch_mode_stack](https://github.com/pytorch/pytorch/issues/125694) | 7 |
