@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-03-03</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-03-04</sub></sub>
 
 ### Batchfile
 
@@ -50,7 +50,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [Optimized linear op doesn't support bias](https://github.com/pytorch/executorch/issues/8234) | 1 |
 | pytorch/glow | [[CPU] Remove the need for Rescale for the CPUMaxSplat](https://github.com/pytorch/glow/issues/4656) | 1 |
 | pytorch/multipy | [Add Poetry build to multipy](https://github.com/pytorch/multipy/issues/211) | 1 |
-| godotengine/godot | [[Debug] NavigationLink3D debug rendering does not listen to parent's visibility propagation](https://github.com/godotengine/godot/issues/103500) | 1 |
 | pytorch/glow | [New files added under glow/test/models/ don't get copied to build folder until clean build is performed.](https://github.com/pytorch/glow/issues/4647) | 2 |
 | pytorch/glow | [Make all useful data structures in Glow easy to dump in a textual form](https://github.com/pytorch/glow/issues/2831) | 2 |
 | pytorch/glow | [[Importers] Move "run and compare" tests from importer tests to operator tests](https://github.com/pytorch/glow/issues/1909) | 2 |
@@ -65,10 +64,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | [Fuse RescaleQuantized in the ChannelwiseQuantizedConv](https://github.com/pytorch/glow/issues/4928) | 5 |
 | pytorch/glow | [Bring back the sinking RELU below Pool optimization](https://github.com/pytorch/glow/issues/3247) | 5 |
 | pytorch/glow | [Use gtest-parallel](https://github.com/pytorch/glow/issues/2412) | 5 |
-| godotengine/godot | [Betsy GPU compression usage in the editor causes an error on exit](https://github.com/godotengine/godot/issues/103443) | 5 |
-| godotengine/godot | [AnimationPlayerEditor inserts markers and keys at the mouse cursor position, not at the timeline cursor](https://github.com/godotengine/godot/issues/103272) | 5 |
 | pytorch/glow | [Glow should provide its own implementation of a random number generator to ensure deterministic testing and avoid platform-dependent differences](https://github.com/pytorch/glow/issues/1556) | 6 |
+| godotengine/godot | [ERROR: The InputMap action "spatial_editor/viewport_pan_modifier_1" doesn't exist](https://github.com/godotengine/godot/issues/103539) | 6 |
 | xbmc/xbmc | [Make sorting locale-aware on Android](https://github.com/xbmc/xbmc/issues/15125) | 7 |
+| godotengine/godot | [AnimationPlayerEditor inserts markers and keys at the mouse cursor position, not at the timeline cursor](https://github.com/godotengine/godot/issues/103272) | 8 |
 | pytorch/glow | [Make the execution of the Glow compiler more deterministic between multiple runs](https://github.com/pytorch/glow/issues/1948) | 9 |
 | opencv/opencv_contrib | [reg: broken python sample](https://github.com/opencv/opencv_contrib/issues/1935) | 9 |
 | godotengine/godot | [OS.get_stdin_type() returns 0 (invalid) on Windows [v4.4]](https://github.com/godotengine/godot/issues/103086) | 9 |
@@ -121,7 +120,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/receptor | [append conntype string representation in status output](https://github.com/ansible/receptor/issues/423) | 0 |
 | ansible/receptor | [add work status command to receptorctl](https://github.com/ansible/receptor/issues/374) | 1 |
 | ansible/receptor | [quality of life -- order work list output based on most recent work units](https://github.com/ansible/receptor/issues/425) | 2 |
-| zeromicro/go-zero | [extends ts gen cmd args: url(base url) and body(custom http request body).](https://github.com/zeromicro/go-zero/pull/4630) | 4 |
 
 ### Java
 
@@ -266,7 +264,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/nanotron | [Add Debug utility to be able to preview first samples used for training](https://github.com/huggingface/nanotron/issues/184) | 0 |
 | huggingface/nanotron | [[Feature] Use CUDA event for measuring elasped time](https://github.com/huggingface/nanotron/issues/88) | 0 |
 | huggingface/nanotron | [[Feature] Refactor `ParallelContext.world_rank_matrix`](https://github.com/huggingface/nanotron/issues/77) | 0 |
-| huggingface/peft | [Bug: Using 2 LoRA configs with `target_modules='all-linear'` leads to nested LoRA layers](https://github.com/huggingface/peft/issues/2390) | 0 |
 | ansible/ansible-dev-tools | [Ensure tests are passing with devspaces container](https://github.com/ansible/ansible-dev-tools/issues/467) | 0 |
 | ansible/ansible-jupyter-kernel | [Add support for handlers](https://github.com/ansible/ansible-jupyter-kernel/issues/53) | 0 |
 | ansible/ansible-jupyter-kernel | [Add a #library cell type](https://github.com/ansible/ansible-jupyter-kernel/issues/26) | 0 |
