@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-03-04</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-03-05</sub></sub>
 
 ### Batchfile
 
@@ -50,6 +50,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [Optimized linear op doesn't support bias](https://github.com/pytorch/executorch/issues/8234) | 1 |
 | pytorch/glow | [[CPU] Remove the need for Rescale for the CPUMaxSplat](https://github.com/pytorch/glow/issues/4656) | 1 |
 | pytorch/multipy | [Add Poetry build to multipy](https://github.com/pytorch/multipy/issues/211) | 1 |
+| godotengine/godot | [NavigationRegion2D visible even though not enabled in Debug](https://github.com/godotengine/godot/issues/103620) | 1 |
 | pytorch/glow | [New files added under glow/test/models/ don't get copied to build folder until clean build is performed.](https://github.com/pytorch/glow/issues/4647) | 2 |
 | pytorch/glow | [Make all useful data structures in Glow easy to dump in a textual form](https://github.com/pytorch/glow/issues/2831) | 2 |
 | pytorch/glow | [[Importers] Move "run and compare" tests from importer tests to operator tests](https://github.com/pytorch/glow/issues/1909) | 2 |
@@ -170,7 +171,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | Repo | Title | Comments |
 | --- | --- | --- |
 
-| huggingface/agents-course | [Improve diagrams in unit 2.1](https://github.com/huggingface/agents-course/issues/233) | 0 |
 | tensorflow/probability | [providing sample weights to glm.fit() and glm.fit.sparse()](https://github.com/tensorflow/probability/issues/252) | 0 |
 | tensorflow/probability | [Sigmoid belief network example/tutorial](https://github.com/tensorflow/probability/issues/70) | 0 |
 | tensorflow/probability | [Logistic factorial analysis example/tutorial](https://github.com/tensorflow/probability/issues/68) | 0 |
@@ -179,6 +179,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/swift-models | [Verify BERT variants](https://github.com/tensorflow/swift-models/issues/433) | 0 |
 | pytorch/botorch | [[Feature Request] Allow negative indices to fixed_features in optimizers](https://github.com/pytorch/botorch/issues/2605) | 0 |
 | pytorch/opacus | [Update grad sample algorithm for Convolution](https://github.com/pytorch/opacus/issues/145) | 0 |
+| huggingface/agents-course | [Improve diagrams in unit 2.1](https://github.com/huggingface/agents-course/issues/233) | 1 |
 | tensorflow/probability | [Feature Request: Add crps method to tfp.distributions](https://github.com/tensorflow/probability/issues/1340) | 1 |
 | tensorflow/probability | [Keyword argument overload (?) in tfb.real_nvp_default_template](https://github.com/tensorflow/probability/issues/350) | 1 |
 | tensorflow/probability | [Item response theory model example/tutorial](https://github.com/tensorflow/probability/issues/69) | 1 |
@@ -268,9 +269,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/ansible-jupyter-kernel | [Add support for handlers](https://github.com/ansible/ansible-jupyter-kernel/issues/53) | 0 |
 | ansible/ansible-jupyter-kernel | [Add a #library cell type](https://github.com/ansible/ansible-jupyter-kernel/issues/26) | 0 |
 | ansible/awx | [[ui_next] Add All/Any workflow viz indication to Workflow Viz Legend/Key](https://github.com/ansible/awx/issues/9791) | 0 |
-| ansible/dispatcher | [Enforce UUID format, add "origin" information in message data](https://github.com/ansible/dispatcher/issues/96) | 0 |
-| ansible/dispatcher | [Do some minor linting of test files](https://github.com/ansible/dispatcher/issues/73) | 0 |
-| ansible/dispatcher | [Change the signal used for task canceling](https://github.com/ansible/dispatcher/issues/67) | 0 |
+| ansible/dispatcherd | [Enforce UUID format, add "origin" information in message data](https://github.com/ansible/dispatcherd/issues/96) | 0 |
+| ansible/dispatcherd | [Do some minor linting of test files](https://github.com/ansible/dispatcherd/issues/73) | 0 |
+| ansible/dispatcherd | [Change the signal used for task canceling](https://github.com/ansible/dispatcherd/issues/67) | 0 |
 | ansible/django-ansible-base | [`ansible_base.lib.utils.models.diff` takes unused `sanitize_encrypted` param and has outdated return docstring](https://github.com/ansible/django-ansible-base/issues/688) | 0 |
 | tensorflow/moonlight | [Follow the MusicXML schema](https://github.com/tensorflow/moonlight/issues/65) | 0 |
 | tensorflow/moonlight | [Export stem directions in MusicXML](https://github.com/tensorflow/moonlight/issues/25) | 0 |
@@ -308,6 +309,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/torchft | [add option to skip initial sync in Manager](https://github.com/pytorch/torchft/issues/117) | 0 |
 | pytorch/torchtune | [[Docs] Recipe documentation tracker](https://github.com/pytorch/torchtune/issues/1408) | 0 |
 | pytorch/torchtune | [Validate all paths before doing any expensive work](https://github.com/pytorch/torchtune/issues/861) | 0 |
+| pytorch/xla | [xb.Op.scalar maps unsigned int to torch signed int](https://github.com/pytorch/xla/issues/8798) | 0 |
 | pytorch/xla | [Confusion between xla_model.xla_device() and runtime.xla_device()](https://github.com/pytorch/xla/issues/7831) | 0 |
 | pytorch/xla | [Op info test for `bmm .. ceil`](https://github.com/pytorch/xla/issues/7546) | 0 |
 | pytorch/xla | [Op info test for `rsub .. searchsorted`](https://github.com/pytorch/xla/issues/7532) | 0 |
@@ -334,8 +336,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | [Scheduled Job prompted extra_vars overwritten by JT extra_vars](https://github.com/ansible/awx/issues/14445) | 1 |
 | ansible/awx | [Inaccurate error handling on Input Group Integer fields (i.e. Org Max Hosts field)](https://github.com/ansible/awx/issues/8556) | 1 |
 | ansible/awx | ["Playbook not found for project" error when the playbook exist but is invalid ](https://github.com/ansible/awx/issues/6842) | 1 |
-| ansible/dispatcher | [Detect and remove workers whose process is not alive](https://github.com/ansible/dispatcher/issues/97) | 1 |
-| ansible/dispatcher | [Tests hang if postgres isn't running (quality-of-life improvement)](https://github.com/ansible/dispatcher/issues/56) | 1 |
+| ansible/dispatcherd | [Detect and remove workers whose process is not alive](https://github.com/ansible/dispatcherd/issues/97) | 1 |
+| ansible/dispatcherd | [Tests hang if postgres isn't running (quality-of-life improvement)](https://github.com/ansible/dispatcherd/issues/56) | 1 |
 | ansible/django-ansible-base | [Several unordered querysets](https://github.com/ansible/django-ansible-base/issues/178) | 1 |
 | tensorflow/agents | [Tutorial 1: Train a Deep Q Network with TF-Agents and the use of a driver](https://github.com/tensorflow/agents/issues/554) | 1 |
 | pytorch/ao | [[QAT] Low-bit FSDP all-gather for QAT](https://github.com/pytorch/ao/issues/1224) | 1 |
@@ -355,7 +357,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | [ImageFolder doc should clarify 1. order that images returned in 2. that all classes are concatenated into a single list](https://github.com/pytorch/examples/issues/400) | 1 |
 | pytorch/ignite | [Improve metrics tests](https://github.com/pytorch/ignite/issues/3335) | 1 |
 | pytorch/PiPPy | [Support LayoutLM models in HF tests](https://github.com/pytorch/PiPPy/issues/247) | 1 |
-| pytorch/pytorch | [dataclasses.replace not supported by dynamo](https://github.com/pytorch/pytorch/issues/136481) | 1 |
 | pytorch/text | [torchtext main branch doesn't support pytorch2.0](https://github.com/pytorch/text/issues/2052) | 1 |
 | pytorch/torcharrow | [Default aggregation functions delegates to Arrow Compute ](https://github.com/pytorch/torcharrow/issues/53) | 1 |
 | pytorch/torchtitan | [Ability to train based on epoch](https://github.com/pytorch/torchtitan/issues/613) | 1 |
@@ -368,7 +369,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | [Op info test for `linalg.lu_factor`](https://github.com/pytorch/xla/issues/7491) | 1 |
 | pytorch/xla | [Op info test for `kthvalue`](https://github.com/pytorch/xla/issues/7458) | 1 |
 | pytorch/xla | [Op info test for `index_reduce`](https://github.com/pytorch/xla/issues/7453) | 1 |
-| pytorch/xla | [[hard] Op info test for `histogramdd`](https://github.com/pytorch/xla/issues/7445) | 1 |
 | huggingface/dataset-viewer | [use the `ROW_IDX_COLUMN` constant name instead of copying the value everywhere](https://github.com/huggingface/dataset-viewer/issues/2798) | 2 |
 | huggingface/nanotron | [Avoid nested `InheritFromOtherOptimizer`](https://github.com/huggingface/nanotron/issues/267) | 2 |
 | huggingface/nanotron | [[Feature] Asyncronous Serialization](https://github.com/huggingface/nanotron/issues/87) | 2 |
@@ -376,7 +376,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/optimum | [Add all available ONNX models to ORTConfigManager](https://github.com/huggingface/optimum/issues/351) | 2 |
 | huggingface/transformers | [[Performance] Tracking open Issues and PRs (pytorch transformers)](https://github.com/huggingface/transformers/issues/12126) | 2 |
 | fastapi/fastapi | [Dependency Models created from Form input data are loosing metadata(field set) and are enforcing validation on default values.](https://github.com/fastapi/fastapi/issues/13399) | 2 |
-| ansible/ansible-documentation | ["The when clause is a raw Jinja2 expression without double curly braces (see group_by_module)"](https://github.com/ansible/ansible-documentation/issues/2077) | 2 |
 | ansible/ansible-documentation | [Link to devel in the various roadmaps](https://github.com/ansible/ansible-documentation/issues/1865) | 2 |
 | ansible/ansible-documentation | [Link "see also" sections as recommended in the forum](https://github.com/ansible/ansible-documentation/issues/1200) | 2 |
 | ansible/ansible-documentation | [D&I working group Docs Hackfest for inclusive language](https://github.com/ansible/ansible-documentation/issues/812) | 2 |
@@ -389,7 +388,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | [Jobs canceled before starting should not show a "finished" time](https://github.com/ansible/awx/issues/3988) | 2 |
 | ansible/awx | [Make Info Metrics more easy to query](https://github.com/ansible/awx/issues/3781) | 2 |
 | ansible/awx | [weekly dashboard view does not have sufficient granularity](https://github.com/ansible/awx/issues/3060) | 2 |
-| ansible/dispatcher | [Add correct type hinting to @task decorated objects](https://github.com/ansible/dispatcher/issues/83) | 2 |
+| ansible/dispatcherd | [Add correct type hinting to @task decorated objects](https://github.com/ansible/dispatcherd/issues/83) | 2 |
 | tensorflow/graphics | [Tangential camera distortion/undistortion](https://github.com/tensorflow/graphics/issues/334) | 2 |
 | pytorch/ao | [Support for GrokAdamW](https://github.com/pytorch/ao/issues/1032) | 2 |
 | pytorch/ao | [Tensor subclass boilerplate can be consolidated](https://github.com/pytorch/ao/issues/710) | 2 |
@@ -418,6 +417,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/optimum-habana | [Add support for max_length in run_generation](https://github.com/huggingface/optimum-habana/issues/472) | 3 |
 | huggingface/transfer-learning-conv-ai | [RuntimeError: shape '[-1, 2, 34]' is invalid for input of size 61710](https://github.com/huggingface/transfer-learning-conv-ai/issues/12) | 3 |
 | pandas-dev/pandas-stubs | [Addition of a Series[int] with a complex returns Series[unknown]](https://github.com/pandas-dev/pandas-stubs/issues/1098) | 3 |
+| ansible/ansible-documentation | ["The when clause is a raw Jinja2 expression without double curly braces (see group_by_module)"](https://github.com/ansible/ansible-documentation/issues/2077) | 3 |
 | ansible/ansible-documentation | [Incorporate 'shared snippets' for the collection docs into the main rst files](https://github.com/ansible/ansible-documentation/issues/1382) | 3 |
 | ansible/awx | [Fix Delinea imports and import test](https://github.com/ansible/awx/issues/14703) | 3 |
 | ansible/awx | [Cleanup Job Details. Configure days retention for the particular job entities. ](https://github.com/ansible/awx/issues/14384) | 3 |
@@ -513,7 +513,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [bmm, topk, cholesky, linalg.norm, max with out variants set causing recompilations in torch.compile](https://github.com/pytorch/pytorch/issues/135859) | 7 |
 | pytorch/pytorch | [[Dynamo] Support tracing through _get_current_dispatch_mode_stack](https://github.com/pytorch/pytorch/issues/125694) | 7 |
 | pytorch/pytorch | [Obscure error: Expected a value of type 'List[int]' for argument 'sizes' but instead found type 'immutable_list'](https://github.com/pytorch/pytorch/issues/122129) | 7 |
-| pytorch/xla | [Introduce a `mark_sharding` that also shards the backward](https://github.com/pytorch/xla/issues/8678) | 7 |
+| pytorch/pytorch | [Please implement the batching rule for torch.matrix_exp.](https://github.com/pytorch/pytorch/issues/115992) | 7 |
 | huggingface/diffusers | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 8 |
 | huggingface/diffusers | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 8 |
 | huggingface/diffusers | [Make `FlaxLMSDiscreteScheduler` jittable](https://github.com/huggingface/diffusers/issues/2180) | 8 |
@@ -530,6 +530,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/similarity | [Lifted Structured loss](https://github.com/tensorflow/similarity/issues/102) | 9 |
 | pytorch/pytorch | [broken `torch.compile` with `"meta"` device tensors](https://github.com/pytorch/pytorch/issues/144607) | 9 |
 | pytorch/pytorch | [Use expecttest in test_compiled_optimizers.py](https://github.com/pytorch/pytorch/issues/141262) | 9 |
+| pytorch/xla | [Introduce a `mark_sharding` that also shards the backward](https://github.com/pytorch/xla/issues/8678) | 9 |
 | huggingface/datasets | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 10 |
 | huggingface/diffusers | [flux img2img controlnet channels error](https://github.com/huggingface/diffusers/issues/9979) | 10 |
 | huggingface/transformers | [Tapas tokenization Different from Tensorflow Code](https://github.com/huggingface/transformers/issues/13244) | 10 |
@@ -659,9 +660,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/chat-ui | [Chrome app icon on macOS](https://github.com/huggingface/chat-ui/issues/1439) | 1 |
 | huggingface/chat-ui | [Add support for non streaming TGI endpoints](https://github.com/huggingface/chat-ui/issues/339) | 1 |
 | pytorch/probot | [deprecation of `number` for octokit](https://github.com/pytorch/probot/issues/62) | 1 |
-| huggingface/chat-ui | [Pasting images works for vision models but not for image-to-text tools](https://github.com/huggingface/chat-ui/issues/1727) | 2 |
 | huggingface/huggingface.js | [Maximize button not working properly on Hosted inference API block](https://github.com/huggingface/huggingface.js/issues/335) | 2 |
 | huggingface/Mongoku | [Auto-link ObjectIds to their referenced elements in the same DB](https://github.com/huggingface/Mongoku/issues/86) | 2 |
+| huggingface/chat-ui | [Pasting images works for vision models but not for image-to-text tools](https://github.com/huggingface/chat-ui/issues/1727) | 3 |
 | huggingface/chat-ui | [Load past conversations using the most recent leaf to determine the visible conversation tree.](https://github.com/huggingface/chat-ui/issues/1208) | 3 |
 | huggingface/chat-ui | [System prompt not taken into account when web browsing.](https://github.com/huggingface/chat-ui/issues/1159) | 3 |
 | ansible/vscode-ansible | [Option to completely disable autocomplete](https://github.com/ansible/vscode-ansible/issues/837) | 3 |
