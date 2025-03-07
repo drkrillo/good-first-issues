@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-03-06</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-03-07</sub></sub>
 
 ### Batchfile
 
@@ -48,10 +48,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | [ConvBench should use libjit_convolution_D8KKC8](https://github.com/pytorch/glow/issues/1886) | 0 |
 | pytorch/multipy | [Create a Contributing.md](https://github.com/pytorch/multipy/issues/252) | 0 |
 | godotengine/godot | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 0 |
-| pytorch/executorch | [Optimized linear op doesn't support bias](https://github.com/pytorch/executorch/issues/8234) | 1 |
 | pytorch/glow | [[CPU] Remove the need for Rescale for the CPUMaxSplat](https://github.com/pytorch/glow/issues/4656) | 1 |
 | pytorch/multipy | [Add Poetry build to multipy](https://github.com/pytorch/multipy/issues/211) | 1 |
 | godotengine/godot | [NavigationRegion2D visible even though not enabled in Debug](https://github.com/godotengine/godot/issues/103620) | 1 |
+| pytorch/executorch | [Optimized linear op doesn't support bias](https://github.com/pytorch/executorch/issues/8234) | 2 |
 | pytorch/glow | [New files added under glow/test/models/ don't get copied to build folder until clean build is performed.](https://github.com/pytorch/glow/issues/4647) | 2 |
 | pytorch/glow | [Make all useful data structures in Glow easy to dump in a textual form](https://github.com/pytorch/glow/issues/2831) | 2 |
 | pytorch/glow | [[Importers] Move "run and compare" tests from importer tests to operator tests](https://github.com/pytorch/glow/issues/1909) | 2 |
@@ -74,12 +74,12 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | opencv/opencv_contrib | [reg: broken python sample](https://github.com/opencv/opencv_contrib/issues/1935) | 9 |
 | godotengine/godot | [OS.get_stdin_type() returns 0 (invalid) on Windows [v4.4]](https://github.com/godotengine/godot/issues/103086) | 9 |
 | godotengine/godot | [Improve error reporting when rcedit fails to change icon / set PE data](https://github.com/godotengine/godot/issues/27765) | 9 |
-| godotengine/godot | [Validate `Custom User Dir Name`, disallow absolute `user://` and `res://` paths](https://github.com/godotengine/godot/issues/103367) | 13 |
 | opencv/opencv_contrib | [selectROI pointer almost invisible on certain colours](https://github.com/opencv/opencv_contrib/issues/1719) | 14 |
+| godotengine/godot | [Validate `Custom User Dir Name`, disallow absolute `user://` and `res://` paths](https://github.com/godotengine/godot/issues/103367) | 15 |
 | pytorch/glow | [[ONNXModelLoader] Support for LogSoftmax operator is missing](https://github.com/pytorch/glow/issues/4399) | 16 |
 | pytorch/glow | [Use explicit std::string conversions instead of implicit llvm::StringRef->std::string conversions to prepare Glow for builds using LLVM >=11](https://github.com/pytorch/glow/issues/5068) | 18 |
 | godotengine/godot | [LightOccluder2D polygons cause editor slowdowns](https://github.com/godotengine/godot/issues/52703) | 18 |
-| opencv/opencv | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 19 |
+| opencv/opencv | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 20 |
 | godotengine/godot | [Using the RenderingServer to add a texture to the scene, the texture appears at bad position during one frame](https://github.com/godotengine/godot/issues/94988) | 24 |
 | godotengine/godot | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 28 |
 | godotengine/godot | [PointLight2D doesn't respect Nearest texture filter for normal-maps or shadows](https://github.com/godotengine/godot/issues/76266) | 28 |
@@ -358,6 +358,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/PiPPy | [Support LayoutLM models in HF tests](https://github.com/pytorch/PiPPy/issues/247) | 1 |
 | pytorch/text | [torchtext main branch doesn't support pytorch2.0](https://github.com/pytorch/text/issues/2052) | 1 |
 | pytorch/torcharrow | [Default aggregation functions delegates to Arrow Compute ](https://github.com/pytorch/torcharrow/issues/53) | 1 |
+| pytorch/torchchat | [Update ExecuTorch install requirements to new APIs](https://github.com/pytorch/torchchat/issues/1482) | 1 |
 | pytorch/torchtitan | [Ability to train based on epoch](https://github.com/pytorch/torchtitan/issues/613) | 1 |
 | pytorch/torchtune | [Make ocrvqa default in the_cauldron_dataset](https://github.com/pytorch/torchtune/issues/1703) | 1 |
 | pytorch/xla | [[hard] Op info test for `special.airy_ai`](https://github.com/pytorch/xla/issues/7926) | 1 |
@@ -449,7 +450,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | xbmc/addon-check | [Correct the mentioned pylint errors to get perfect 10. (missing-docstring)](https://github.com/xbmc/addon-check/issues/179) | 3 |
 | godotengine/godot-blender-exporter | [Blender object with negative scale](https://github.com/godotengine/godot-blender-exporter/issues/24) | 3 |
 | huggingface/accelerate | [Barebones dataloader to allow for any type of iterable dataloader-like object to be used. Should just handle device placement](https://github.com/huggingface/accelerate/issues/2975) | 4 |
-| huggingface/huggingface_hub | [Support wildcards in `huggingface-cli upload`](https://github.com/huggingface/huggingface_hub/issues/2862) | 4 |
 | huggingface/lighteval | [[EVAL]: Add more African Benchmarks](https://github.com/huggingface/lighteval/issues/373) | 4 |
 | huggingface/lighteval | [Append revision to filepath in `--output_dir`?](https://github.com/huggingface/lighteval/issues/56) | 4 |
 | huggingface/transformers | [OWL-VIT Vision Foundation Model deployment in the edge cases - Need SDPA support for OWL-ViT Model optimization for Edge Deployment](https://github.com/huggingface/transformers/issues/28103) | 4 |
@@ -483,7 +483,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ao | [[low-bit optim] Add COAT optimizer](https://github.com/pytorch/ao/issues/1190) | 5 |
 | pytorch/ao | [The next tutorials](https://github.com/pytorch/ao/issues/426) | 5 |
 | pytorch/audio | [read mp3 file fail](https://github.com/pytorch/audio/issues/2867) | 5 |
-| pytorch/pytorch | [[BUG][PyTorch 2.0 Export][quant]:get_source_partitions() may return different matches with same input graph](https://github.com/pytorch/pytorch/issues/147170) | 5 |
 | pytorch/pytorch | [torch._dynamo.exc.Unsupported: builtin: bool [<class 'torch._dynamo.variables.tensor.SymNodeVariable'>] False](https://github.com/pytorch/pytorch/issues/136075) | 5 |
 | pytorch/pytorch | [dynamo (re)compilation issues: shape (1,1), nn.Parameter, mark_dynamic](https://github.com/pytorch/pytorch/issues/135011) | 5 |
 | pytorch/pytorch | [AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible](https://github.com/pytorch/pytorch/issues/119191) | 5 |
@@ -504,10 +503,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/transformers | [Custom 4D tensor caused shape mismatch error](https://github.com/huggingface/transformers/issues/35290) | 7 |
 | pandas-dev/pandas | [ENH: Passing a single value to `.describe(percentiles = [0.25])` returns 25th- and 50th-percentile](https://github.com/pandas-dev/pandas/issues/60550) | 7 |
 | pandas-dev/pandas | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 7 |
-| fastapi/fastapi | [Dependency Models created from Form input data are loosing metadata(field set) and are enforcing validation on default values.](https://github.com/fastapi/fastapi/issues/13399) | 7 |
 | tensorflow/similarity | [Implement SwAV for self-supervised learning](https://github.com/tensorflow/similarity/issues/208) | 7 |
 | pytorch/examples | [Why don't we use MSE as a reconstruction loss for VAE ?](https://github.com/pytorch/examples/issues/399) | 7 |
-| pytorch/pytorch | [[inductor] `torch.slice_scatter` throws `AssertionError` when meeting internal `float32`](https://github.com/pytorch/pytorch/issues/147842) | 7 |
+| pytorch/pytorch | [[BUG][PyTorch 2.0 Export][quant]:get_source_partitions() may return different matches with same input graph](https://github.com/pytorch/pytorch/issues/147170) | 7 |
 | pytorch/pytorch | [`_amp_foreach_non_finite_check_and_unscale_` can be torch.compiled inside torch.amp, but not in identical code outside it](https://github.com/pytorch/pytorch/issues/138412) | 7 |
 | pytorch/pytorch | [bmm, topk, cholesky, linalg.norm, max with out variants set causing recompilations in torch.compile](https://github.com/pytorch/pytorch/issues/135859) | 7 |
 | pytorch/pytorch | [[Dynamo] Support tracing through _get_current_dispatch_mode_stack](https://github.com/pytorch/pytorch/issues/125694) | 7 |
@@ -526,7 +524,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/transformers | [MultiTask Classification and label_names on Trainer](https://github.com/huggingface/transformers/issues/33193) | 9 |
 | pandas-dev/pandas | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
 | pandas-dev/pandas | [DOC: Fix formatting errors in docstrings](https://github.com/pandas-dev/pandas/issues/27977) | 9 |
+| fastapi/fastapi | [Dependency Models created from Form input data are loosing metadata(field set) and are enforcing validation on default values.](https://github.com/fastapi/fastapi/issues/13399) | 9 |
 | tensorflow/similarity | [Lifted Structured loss](https://github.com/tensorflow/similarity/issues/102) | 9 |
+| pytorch/pytorch | [[inductor] `torch.slice_scatter` throws `AssertionError` when meeting internal `float32`](https://github.com/pytorch/pytorch/issues/147842) | 9 |
 | pytorch/pytorch | [broken `torch.compile` with `"meta"` device tensors](https://github.com/pytorch/pytorch/issues/144607) | 9 |
 | pytorch/pytorch | [Use expecttest in test_compiled_optimizers.py](https://github.com/pytorch/pytorch/issues/141262) | 9 |
 | huggingface/datasets | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 10 |
@@ -543,7 +543,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/quantum | [[Performance] Boost tfq.convert_to_tensor speed](https://github.com/tensorflow/quantum/issues/336) | 11 |
 | pytorch/ao | [Named Symbol not found (torchchat #1298)](https://github.com/pytorch/ao/issues/1110) | 11 |
 | pytorch/data | [Improve the warning message regarding local function not supported by pickle](https://github.com/pytorch/data/issues/947) | 11 |
-| pytorch/xla | [Introduce a `mark_sharding` that also shards the backward](https://github.com/pytorch/xla/issues/8678) | 11 |
 | huggingface/peft | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 12 |
 | huggingface/transformers | [IsADirectoryError when training with tqdm enabled for trainer](https://github.com/huggingface/transformers/issues/34766) | 12 |
 | huggingface/transformers | [Verify interpolation of image processors](https://github.com/huggingface/transformers/issues/28180) | 12 |
@@ -554,10 +553,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | [STYLE replace flake8-rst with something maintained](https://github.com/pandas-dev/pandas/issues/46865) | 13 |
 | pandas-dev/pandas | [ENH/API: allow different values for labels/index in DF.reindex __OR__ raise error](https://github.com/pandas-dev/pandas/issues/21685) | 13 |
 | pytorch/pytorch | [Update triton_heuristics.py](https://github.com/pytorch/pytorch/pull/147690) | 13 |
+| pytorch/xla | [Introduce a `mark_sharding` that also shards the backward](https://github.com/pytorch/xla/issues/8678) | 13 |
 | huggingface/datasets | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 14 |
 | pandas-dev/pandas | [BUG: `DataFrame.to_parquet` doesn't round-trip pyarrow StringDtype](https://github.com/pandas-dev/pandas/issues/42664) | 14 |
-| pandas-dev/pandas | [WEB: Multiple "Getting Started" on pandas.io leads to different links](https://github.com/pandas-dev/pandas/issues/32307) | 14 |
 | huggingface/datasets | [FolderBase Dataset automatically resolves under current directory when data_dir is not specified](https://github.com/huggingface/datasets/issues/6152) | 15 |
+| pandas-dev/pandas | [WEB: Multiple "Getting Started" on pandas.io leads to different links](https://github.com/pandas-dev/pandas/issues/32307) | 15 |
 | huggingface/diffusers | [refactors pipelines inheriting from `StableDiffusionPipeline`](https://github.com/huggingface/diffusers/issues/6984) | 16 |
 | huggingface/transformers | [Follow ups to DocumentQuestionAnswering Pipeline](https://github.com/huggingface/transformers/issues/18926) | 16 |
 | pandas-dev/pandas | [DOC: add button to edit on GitHub](https://github.com/pandas-dev/pandas/issues/39859) | 16 |
@@ -661,7 +661,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/probot | [deprecation of `number` for octokit](https://github.com/pytorch/probot/issues/62) | 1 |
 | huggingface/huggingface.js | [Maximize button not working properly on Hosted inference API block](https://github.com/huggingface/huggingface.js/issues/335) | 2 |
 | huggingface/Mongoku | [Auto-link ObjectIds to their referenced elements in the same DB](https://github.com/huggingface/Mongoku/issues/86) | 2 |
-| huggingface/chat-ui | [Pasting images works for vision models but not for image-to-text tools](https://github.com/huggingface/chat-ui/issues/1727) | 3 |
 | huggingface/chat-ui | [Load past conversations using the most recent leaf to determine the visible conversation tree.](https://github.com/huggingface/chat-ui/issues/1208) | 3 |
 | huggingface/chat-ui | [System prompt not taken into account when web browsing.](https://github.com/huggingface/chat-ui/issues/1159) | 3 |
 | ansible/vscode-ansible | [Option to completely disable autocomplete](https://github.com/ansible/vscode-ansible/issues/837) | 3 |
@@ -670,6 +669,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/chat-ui | [Support text-generation-webui](https://github.com/huggingface/chat-ui/issues/316) | 5 |
 | huggingface/huggingface.js | [Add threshold parameter for object detection widget](https://github.com/huggingface/huggingface.js/issues/322) | 5 |
 | tensorflow/profiler | [Tensorboard profiler not working well with data from gcs bucket?](https://github.com/tensorflow/profiler/issues/372) | 5 |
+| huggingface/chat-ui | [Pasting images works for vision models but not for image-to-text tools](https://github.com/huggingface/chat-ui/issues/1727) | 6 |
 | huggingface/chat-ui | [Have embedded prompts configurable in private secrets](https://github.com/huggingface/chat-ui/issues/346) | 7 |
 | huggingface/huggingface.js | [Tracking integration for Video Classification](https://github.com/huggingface/huggingface.js/issues/332) | 8 |
 | huggingface/huggingface.js | [Integration with the /api/collections endpoint? ](https://github.com/huggingface/huggingface.js/issues/271) | 9 |
