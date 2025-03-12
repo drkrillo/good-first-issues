@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-03-11</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-03-12</sub></sub>
 
 ### Batchfile
 
@@ -37,6 +37,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | Repo | Title | Comments |
 | --- | --- | --- |
 
+| pytorch/executorch | [Missing FileDataSink test in etdump_flatcc tests](https://github.com/pytorch/executorch/issues/9165) | 0 |
 | pytorch/executorch | [XNNExecutor::prepare_args should check for null runtime](https://github.com/pytorch/executorch/issues/9131) | 0 |
 | pytorch/executorch | [View op asserts should use non-fatal input checks](https://github.com/pytorch/executorch/issues/9130) | 0 |
 | pytorch/executorch | [Lifting constants to an external file should not move __lifted_constant_*](https://github.com/pytorch/executorch/issues/8809) | 0 |
@@ -189,7 +190,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/probability | [Bayesian neural network tutorial](https://github.com/tensorflow/probability/issues/66) | 1 |
 | tensorflow/swift-models | [Add logging callbacks for training statistics ](https://github.com/tensorflow/swift-models/issues/663) | 1 |
 | pytorch/botorch | [[Bug] [relatively easy fix] `gen_one_shot_kg_initial_conditions` should error when provided inter-point constraints](https://github.com/pytorch/botorch/issues/1851) | 1 |
-| huggingface/agents-course | [Improve diagrams in unit 2.1](https://github.com/huggingface/agents-course/issues/233) | 2 |
 | tensorflow/probability | [Support for SeparableConv1DFlipout](https://github.com/tensorflow/probability/issues/745) | 2 |
 | tensorflow/probability | [NotImplementedError: mean is not implemented: Categorical](https://github.com/tensorflow/probability/issues/685) | 2 |
 | tensorflow/probability | [Always-on dropout layer](https://github.com/tensorflow/probability/issues/420) | 2 |
@@ -202,6 +202,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/swift-models | [Object detection examples](https://github.com/tensorflow/swift-models/issues/149) | 2 |
 | pytorch/functorch | [Add vmap support for PyTorch operators](https://github.com/pytorch/functorch/issues/1088) | 2 |
 | pytorch/opacus | [Double-charging privacy in DC-GAN example](https://github.com/pytorch/opacus/issues/418) | 2 |
+| huggingface/agents-course | [Improve diagrams in unit 2.1](https://github.com/huggingface/agents-course/issues/233) | 3 |
 | tensorflow/adanet | [Allow one to forward features to predictions](https://github.com/tensorflow/adanet/issues/114) | 3 |
 | tensorflow/probability | [Feature Request: Alternative Horseshoe Parameterization as tfp distribution](https://github.com/tensorflow/probability/issues/1465) | 3 |
 | tensorflow/probability | [Please add example on NUTS sampling from posterior for Bayesian Logistic Regression](https://github.com/tensorflow/probability/issues/588) | 3 |
@@ -343,7 +344,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | [Scheduled Job prompted extra_vars overwritten by JT extra_vars](https://github.com/ansible/awx/issues/14445) | 1 |
 | ansible/awx | [Inaccurate error handling on Input Group Integer fields (i.e. Org Max Hosts field)](https://github.com/ansible/awx/issues/8556) | 1 |
 | ansible/awx | ["Playbook not found for project" error when the playbook exist but is invalid ](https://github.com/ansible/awx/issues/6842) | 1 |
-| ansible/dispatcherd | [Detect and remove workers whose process is not alive](https://github.com/ansible/dispatcherd/issues/97) | 1 |
 | ansible/django-ansible-base | [Several unordered querysets](https://github.com/ansible/django-ansible-base/issues/178) | 1 |
 | tensorflow/agents | [Tutorial 1: Train a Deep Q Network with TF-Agents and the use of a driver](https://github.com/tensorflow/agents/issues/554) | 1 |
 | pytorch/ao | [[QAT] Low-bit FSDP all-gather for QAT](https://github.com/pytorch/ao/issues/1224) | 1 |
@@ -507,26 +507,26 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/datasets | [WMT21 & WMT22](https://github.com/huggingface/datasets/issues/4709) | 7 |
 | huggingface/huggingface_hub | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 7 |
 | huggingface/transformers | [Custom 4D tensor caused shape mismatch error](https://github.com/huggingface/transformers/issues/35290) | 7 |
-| pandas-dev/pandas | [ENH: Passing a single value to `.describe(percentiles = [0.25])` returns 25th- and 50th-percentile](https://github.com/pandas-dev/pandas/issues/60550) | 7 |
 | pandas-dev/pandas | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 7 |
 | tensorflow/similarity | [Implement SwAV for self-supervised learning](https://github.com/tensorflow/similarity/issues/208) | 7 |
 | pytorch/examples | [Why don't we use MSE as a reconstruction loss for VAE ?](https://github.com/pytorch/examples/issues/399) | 7 |
 | pytorch/pytorch | [[BUG][PyTorch 2.0 Export][quant]:get_source_partitions() may return different matches with same input graph](https://github.com/pytorch/pytorch/issues/147170) | 7 |
-| pytorch/pytorch | [Device check missing in torch.linalg.solve_triangular leading to hard crash](https://github.com/pytorch/pytorch/issues/142048) | 7 |
 | pytorch/pytorch | [`_amp_foreach_non_finite_check_and_unscale_` can be torch.compiled inside torch.amp, but not in identical code outside it](https://github.com/pytorch/pytorch/issues/138412) | 7 |
 | pytorch/pytorch | [bmm, topk, cholesky, linalg.norm, max with out variants set causing recompilations in torch.compile](https://github.com/pytorch/pytorch/issues/135859) | 7 |
 | pytorch/pytorch | [[Dynamo] Support tracing through _get_current_dispatch_mode_stack](https://github.com/pytorch/pytorch/issues/125694) | 7 |
 | pytorch/pytorch | [Obscure error: Expected a value of type 'List[int]' for argument 'sizes' but instead found type 'immutable_list'](https://github.com/pytorch/pytorch/issues/122129) | 7 |
-| pytorch/pytorch | [Please implement the batching rule for torch.matrix_exp.](https://github.com/pytorch/pytorch/issues/115992) | 7 |
 | huggingface/diffusers | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 8 |
 | huggingface/diffusers | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 8 |
 | huggingface/diffusers | [Make `FlaxLMSDiscreteScheduler` jittable](https://github.com/huggingface/diffusers/issues/2180) | 8 |
+| pandas-dev/pandas | [ENH: Passing a single value to `.describe(percentiles = [0.25])` returns 25th- and 50th-percentile](https://github.com/pandas-dev/pandas/issues/60550) | 8 |
 | pandas-dev/pandas | [TST: Make test_sql.py parallelizable](https://github.com/pandas-dev/pandas/issues/60378) | 8 |
 | pandas-dev/pandas | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 8 |
 | ansible/awx | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 8 |
+| pytorch/pytorch | [Device check missing in torch.linalg.solve_triangular leading to hard crash](https://github.com/pytorch/pytorch/issues/142048) | 8 |
 | pytorch/pytorch | [Dump bytecode of resumption frames in tlparse](https://github.com/pytorch/pytorch/issues/136038) | 8 |
 | pytorch/pytorch | [Triton tl.reinterpret is not Dynamo traceable](https://github.com/pytorch/pytorch/issues/133253) | 8 |
 | pytorch/pytorch | [Using an empty tensor and `torch.int64` or `torch.bool` for `dtype` of `nanmean()` works while a non-empty tensor doesn't work](https://github.com/pytorch/pytorch/issues/131043) | 8 |
+| pytorch/pytorch | [Please implement the batching rule for torch.matrix_exp.](https://github.com/pytorch/pytorch/issues/115992) | 8 |
 | huggingface/huggingface_hub | [Allow dry_run for snapshot_download](https://github.com/huggingface/huggingface_hub/issues/1023) | 9 |
 | huggingface/transformers | [MultiTask Classification and label_names on Trainer](https://github.com/huggingface/transformers/issues/33193) | 9 |
 | pandas-dev/pandas | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
@@ -561,9 +561,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [Update triton_heuristics.py](https://github.com/pytorch/pytorch/pull/147690) | 13 |
 | huggingface/datasets | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 14 |
 | huggingface/peft | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 14 |
-| pandas-dev/pandas | [BUG: `DataFrame.to_parquet` doesn't round-trip pyarrow StringDtype](https://github.com/pandas-dev/pandas/issues/42664) | 14 |
 | pytorch/xla | [Introduce a `mark_sharding` that also shards the backward](https://github.com/pytorch/xla/issues/8678) | 14 |
 | huggingface/datasets | [FolderBase Dataset automatically resolves under current directory when data_dir is not specified](https://github.com/huggingface/datasets/issues/6152) | 15 |
+| pandas-dev/pandas | [BUG: `DataFrame.to_parquet` doesn't round-trip pyarrow StringDtype](https://github.com/pandas-dev/pandas/issues/42664) | 15 |
 | pandas-dev/pandas | [WEB: Multiple "Getting Started" on pandas.io leads to different links](https://github.com/pandas-dev/pandas/issues/32307) | 15 |
 | huggingface/diffusers | [refactors pipelines inheriting from `StableDiffusionPipeline`](https://github.com/huggingface/diffusers/issues/6984) | 16 |
 | huggingface/transformers | [Follow ups to DocumentQuestionAnswering Pipeline](https://github.com/huggingface/transformers/issues/18926) | 16 |
@@ -592,14 +592,14 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/optimum | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 25 |
 | huggingface/transformers | [Add support for BLIP and GIT in image-to-text and VQA pipelines](https://github.com/huggingface/transformers/issues/21110) | 25 |
 | huggingface/transformers | [Getting time offsets of beginning and end of each word in Wav2Vec2](https://github.com/huggingface/transformers/issues/11307) | 25 |
-| pandas-dev/pandas | [DOC: fix docstring validation errors for `pandas.Timestamp`](https://github.com/pandas-dev/pandas/issues/59458) | 26 |
 | pandas-dev/pandas | [CLN: Use dedup_names in all instances where duplicate column names are renamed](https://github.com/pandas-dev/pandas/issues/50371) | 26 |
 | pytorch/ignite | [🥇 Everyone is welcome to contribute 💯 ](https://github.com/pytorch/ignite/issues/2026) | 26 |
 | pytorch/torchchat | [Multimodal Eval Enablement (Looking for Developer to Implement Design)](https://github.com/pytorch/torchchat/issues/1334) | 26 |
 | huggingface/diffusers | [[Community Pipelines]](https://github.com/huggingface/diffusers/issues/841) | 27 |
+| pandas-dev/pandas | [DOC: fix docstring validation errors for `pandas.Timestamp`](https://github.com/pandas-dev/pandas/issues/59458) | 27 |
 | pandas-dev/pandas | [DOC: Fix docs for various offset constructors](https://github.com/pandas-dev/pandas/issues/52431) | 29 |
-| pandas-dev/pandas | [DOC: fix docstring validation errors for pandas.Timedelta/pandas.TimedeltaIndex](https://github.com/pandas-dev/pandas/issues/59698) | 30 |
 | huggingface/transformers | [Trying to add support for GPT2 as decoder in EncoderDecoder model](https://github.com/huggingface/transformers/issues/4483) | 31 |
+| pandas-dev/pandas | [DOC: fix docstring validation errors for pandas.Timedelta/pandas.TimedeltaIndex](https://github.com/pandas-dev/pandas/issues/59698) | 31 |
 | pandas-dev/pandas | [DOC: Additional items for the cheat sheet](https://github.com/pandas-dev/pandas/issues/40680) | 39 |
 | huggingface/transformers | [Community contribution: enable dynamic resolution input for more vision models.](https://github.com/huggingface/transformers/issues/30579) | 40 |
 | pandas-dev/pandas | [Various methods don't call call __finalize__](https://github.com/pandas-dev/pandas/issues/28283) | 48 |
@@ -662,12 +662,12 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/vscode-ansible | [Add option to prefix all shell commands the plugin executes](https://github.com/ansible/vscode-ansible/issues/429) | 0 |
 | tensorflow/tfjs-tsne | [Implement tensorToDataTexture in the GPU](https://github.com/tensorflow/tfjs-tsne/issues/10) | 0 |
 | pytorch/test-infra | [Better highlight scheme for force merges](https://github.com/pytorch/test-infra/issues/5229) | 0 |
-| huggingface/chat-ui | [Disabling Reasoning Summary as an Env Option](https://github.com/huggingface/chat-ui/issues/1720) | 1 |
 | huggingface/chat-ui | [Chrome app icon on macOS](https://github.com/huggingface/chat-ui/issues/1439) | 1 |
 | huggingface/chat-ui | [Add support for non streaming TGI endpoints](https://github.com/huggingface/chat-ui/issues/339) | 1 |
 | pytorch/probot | [deprecation of `number` for octokit](https://github.com/pytorch/probot/issues/62) | 1 |
 | huggingface/huggingface.js | [Maximize button not working properly on Hosted inference API block](https://github.com/huggingface/huggingface.js/issues/335) | 2 |
 | huggingface/Mongoku | [Auto-link ObjectIds to their referenced elements in the same DB](https://github.com/huggingface/Mongoku/issues/86) | 2 |
+| huggingface/chat-ui | [Disabling Reasoning Summary as an Env Option](https://github.com/huggingface/chat-ui/issues/1720) | 3 |
 | huggingface/chat-ui | [Load past conversations using the most recent leaf to determine the visible conversation tree.](https://github.com/huggingface/chat-ui/issues/1208) | 3 |
 | huggingface/chat-ui | [System prompt not taken into account when web browsing.](https://github.com/huggingface/chat-ui/issues/1159) | 3 |
 | ansible/vscode-ansible | [Option to completely disable autocomplete](https://github.com/ansible/vscode-ansible/issues/837) | 3 |
@@ -676,7 +676,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/chat-ui | [Support text-generation-webui](https://github.com/huggingface/chat-ui/issues/316) | 5 |
 | huggingface/huggingface.js | [Add threshold parameter for object detection widget](https://github.com/huggingface/huggingface.js/issues/322) | 5 |
 | tensorflow/profiler | [Tensorboard profiler not working well with data from gcs bucket?](https://github.com/tensorflow/profiler/issues/372) | 5 |
-| huggingface/chat-ui | [Pasting images works for vision models but not for image-to-text tools](https://github.com/huggingface/chat-ui/issues/1727) | 6 |
 | huggingface/chat-ui | [Have embedded prompts configurable in private secrets](https://github.com/huggingface/chat-ui/issues/346) | 7 |
 | huggingface/huggingface.js | [Tracking integration for Video Classification](https://github.com/huggingface/huggingface.js/issues/332) | 8 |
 | huggingface/huggingface.js | [Integration with the /api/collections endpoint? ](https://github.com/huggingface/huggingface.js/issues/271) | 9 |
