@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-03-12</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-03-13</sub></sub>
 
 ### Batchfile
 
@@ -37,7 +37,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | Repo | Title | Comments |
 | --- | --- | --- |
 
-| pytorch/executorch | [Missing FileDataSink test in etdump_flatcc tests](https://github.com/pytorch/executorch/issues/9165) | 0 |
 | pytorch/executorch | [XNNExecutor::prepare_args should check for null runtime](https://github.com/pytorch/executorch/issues/9131) | 0 |
 | pytorch/executorch | [View op asserts should use non-fatal input checks](https://github.com/pytorch/executorch/issues/9130) | 0 |
 | pytorch/executorch | [Lifting constants to an external file should not move __lifted_constant_*](https://github.com/pytorch/executorch/issues/8809) | 0 |
@@ -53,6 +52,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | [ConvBench should use the layers of ResNet](https://github.com/pytorch/glow/issues/1887) | 0 |
 | pytorch/glow | [ConvBench should use libjit_convolution_D8KKC8](https://github.com/pytorch/glow/issues/1886) | 0 |
 | pytorch/multipy | [Create a Contributing.md](https://github.com/pytorch/multipy/issues/252) | 0 |
+| pytorch/executorch | [Missing FileDataSink test in etdump_flatcc tests](https://github.com/pytorch/executorch/issues/9165) | 1 |
 | pytorch/glow | [[CPU] Remove the need for Rescale for the CPUMaxSplat](https://github.com/pytorch/glow/issues/4656) | 1 |
 | pytorch/multipy | [Add Poetry build to multipy](https://github.com/pytorch/multipy/issues/211) | 1 |
 | godotengine/godot | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 1 |
@@ -97,7 +97,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | --- | --- | --- |
 
 | ansible/pylibssh | [scp.put documentation has swapped local and remote file params](https://github.com/ansible/pylibssh/issues/646) | 1 |
-| ansible/pylibssh | [Stop building manylinux1 wheels (eventually)](https://github.com/ansible/pylibssh/issues/324) | 2 |
 | ansible/pylibssh | [[BUG] Flaky `tests/unit/sftp_test.py::test_put`](https://github.com/ansible/pylibssh/issues/351) | 3 |
 
 ### Emacs Lisp
@@ -317,7 +316,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/torchtune | [Add add_end_token to the Gemma Tokenizer](https://github.com/pytorch/torchtune/issues/2478) | 0 |
 | pytorch/torchtune | [[Docs] Recipe documentation tracker](https://github.com/pytorch/torchtune/issues/1408) | 0 |
 | pytorch/torchtune | [Validate all paths before doing any expensive work](https://github.com/pytorch/torchtune/issues/861) | 0 |
-| pytorch/xla | [xb.Op.scalar maps unsigned int to torch signed int](https://github.com/pytorch/xla/issues/8798) | 0 |
 | pytorch/xla | [Confusion between xla_model.xla_device() and runtime.xla_device()](https://github.com/pytorch/xla/issues/7831) | 0 |
 | pytorch/xla | [Op info test for `bmm .. ceil`](https://github.com/pytorch/xla/issues/7546) | 0 |
 | pytorch/xla | [Op info test for `rsub .. searchsorted`](https://github.com/pytorch/xla/issues/7532) | 0 |
@@ -338,6 +336,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/nanotron | [We don't save checkpoint after training ends](https://github.com/huggingface/nanotron/issues/163) | 1 |
 | huggingface/nanotron | [FEAT: Support 1.58-bit LLMs training](https://github.com/huggingface/nanotron/issues/114) | 1 |
 | huggingface/nanotron | [[Feature Request] Add simple communications benchmarks to the repo](https://github.com/huggingface/nanotron/issues/43) | 1 |
+| pandas-dev/pandas-stubs | [SqlAlchemy update to 2.0.39 breaks read_sql](https://github.com/pandas-dev/pandas-stubs/issues/1166) | 1 |
 | ansible/ansible-lint | [Linter should consider the same paths that `ansible.builtin.import_tasks` uses to import relative paths](https://github.com/ansible/ansible-lint/issues/4474) | 1 |
 | ansible/ansible-navigator | [Many params missing change after initial = False](https://github.com/ansible/ansible-navigator/issues/423) | 1 |
 | ansible/awx | [Add option to force the user to reset its password at first login](https://github.com/ansible/awx/issues/15766) | 1 |
@@ -368,6 +367,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/torchcodec | [Use `TORCH_CHECK` instead of `throw`](https://github.com/pytorch/torchcodec/issues/537) | 1 |
 | pytorch/torchtitan | [Ability to train based on epoch](https://github.com/pytorch/torchtitan/issues/613) | 1 |
 | pytorch/torchtune | [Make ocrvqa default in the_cauldron_dataset](https://github.com/pytorch/torchtune/issues/1703) | 1 |
+| pytorch/xla | [xb.Op.scalar maps unsigned int to torch signed int](https://github.com/pytorch/xla/issues/8798) | 1 |
 | pytorch/xla | [[hard] Op info test for `special.airy_ai`](https://github.com/pytorch/xla/issues/7926) | 1 |
 | pytorch/xla | [Op info test for `triangular_solve .. unfold`](https://github.com/pytorch/xla/issues/7541) | 1 |
 | pytorch/xla | [Op info test for `nn.functional.pixel_shuffle .. nn.functional.scaled_dot_product_attention`](https://github.com/pytorch/xla/issues/7526) | 1 |
@@ -482,6 +482,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/nanotron | [[Unit Test] Add unit tests for DistributedTrainer](https://github.com/huggingface/nanotron/issues/90) | 5 |
 | huggingface/optimum-benchmark | [Evaluators for specific tasks](https://github.com/huggingface/optimum-benchmark/issues/34) | 5 |
 | huggingface/transformers | [oom when using adafactor optimizer in deepspeed](https://github.com/huggingface/transformers/issues/33290) | 5 |
+| huggingface/transformers | [Add argument to set number of eval steps in Trainer](https://github.com/huggingface/transformers/issues/31561) | 5 |
 | ansible/awx | [ adhoc jobs block other jobs from being processed in the queue](https://github.com/ansible/awx/issues/14645) | 5 |
 | ansible/awx | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 5 |
 | tensorflow/graphics | [Not detecting TF Nightly when installing from whl.](https://github.com/tensorflow/graphics/issues/305) | 5 |
@@ -494,6 +495,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible](https://github.com/pytorch/pytorch/issues/119191) | 5 |
 | pytorch/pytorch | [[dynamo] Missing support for many trivial builtin functions in operator](https://github.com/pytorch/pytorch/issues/116396) | 5 |
 | pytorch/torchft | [[CheckpointServer] use streaming transfers](https://github.com/pytorch/torchft/issues/36) | 5 |
+| huggingface/transformers | [FSDP Torch XLA vs. FSDPv2 (SMPD) Torch XLA checkpoint saving bug](https://github.com/huggingface/transformers/issues/36004) | 6 |
 | huggingface/transformers | [Add TableTransformerImageProcessor](https://github.com/huggingface/transformers/issues/30718) | 6 |
 | pandas-dev/pandas | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 6 |
 | ansible/ansible-navigator | [Allow to set ansible-runner artifacts dir ID ](https://github.com/ansible/ansible-navigator/issues/521) | 6 |
@@ -518,7 +520,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/diffusers | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 8 |
 | huggingface/diffusers | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 8 |
 | huggingface/diffusers | [Make `FlaxLMSDiscreteScheduler` jittable](https://github.com/huggingface/diffusers/issues/2180) | 8 |
-| pandas-dev/pandas | [ENH: Passing a single value to `.describe(percentiles = [0.25])` returns 25th- and 50th-percentile](https://github.com/pandas-dev/pandas/issues/60550) | 8 |
 | pandas-dev/pandas | [TST: Make test_sql.py parallelizable](https://github.com/pandas-dev/pandas/issues/60378) | 8 |
 | pandas-dev/pandas | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 8 |
 | ansible/awx | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 8 |
@@ -529,6 +530,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [Please implement the batching rule for torch.matrix_exp.](https://github.com/pytorch/pytorch/issues/115992) | 8 |
 | huggingface/huggingface_hub | [Allow dry_run for snapshot_download](https://github.com/huggingface/huggingface_hub/issues/1023) | 9 |
 | huggingface/transformers | [MultiTask Classification and label_names on Trainer](https://github.com/huggingface/transformers/issues/33193) | 9 |
+| pandas-dev/pandas | [ENH: Passing a single value to `.describe(percentiles = [0.25])` returns 25th- and 50th-percentile](https://github.com/pandas-dev/pandas/issues/60550) | 9 |
 | pandas-dev/pandas | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
 | pandas-dev/pandas | [DOC: Fix formatting errors in docstrings](https://github.com/pandas-dev/pandas/issues/27977) | 9 |
 | fastapi/fastapi | [Dependency Models created from Form input data are loosing metadata(field set) and are enforcing validation on default values.](https://github.com/fastapi/fastapi/issues/13399) | 9 |
@@ -556,13 +558,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | [issue when shifting with Timedelta in a groupby](https://github.com/pandas-dev/pandas/issues/20492) | 12 |
 | huggingface/diffusers | [[Pipeline] AnimateDiff + SparseControl + ControlNet](https://github.com/huggingface/diffusers/issues/9329) | 13 |
 | huggingface/transformers | [Object Detection Pipeline only outputs first element when batching](https://github.com/huggingface/transformers/issues/31356) | 13 |
-| pandas-dev/pandas | [STYLE replace flake8-rst with something maintained](https://github.com/pandas-dev/pandas/issues/46865) | 13 |
 | pandas-dev/pandas | [ENH/API: allow different values for labels/index in DF.reindex __OR__ raise error](https://github.com/pandas-dev/pandas/issues/21685) | 13 |
 | pytorch/pytorch | [Update triton_heuristics.py](https://github.com/pytorch/pytorch/pull/147690) | 13 |
 | huggingface/datasets | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 14 |
 | huggingface/peft | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 14 |
 | pytorch/xla | [Introduce a `mark_sharding` that also shards the backward](https://github.com/pytorch/xla/issues/8678) | 14 |
 | huggingface/datasets | [FolderBase Dataset automatically resolves under current directory when data_dir is not specified](https://github.com/huggingface/datasets/issues/6152) | 15 |
+| pandas-dev/pandas | [STYLE replace flake8-rst with something maintained](https://github.com/pandas-dev/pandas/issues/46865) | 15 |
 | pandas-dev/pandas | [BUG: `DataFrame.to_parquet` doesn't round-trip pyarrow StringDtype](https://github.com/pandas-dev/pandas/issues/42664) | 15 |
 | pandas-dev/pandas | [WEB: Multiple "Getting Started" on pandas.io leads to different links](https://github.com/pandas-dev/pandas/issues/32307) | 15 |
 | huggingface/diffusers | [refactors pipelines inheriting from `StableDiffusionPipeline`](https://github.com/huggingface/diffusers/issues/6984) | 16 |
