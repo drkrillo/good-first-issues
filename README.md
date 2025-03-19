@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-03-18</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-03-19</sub></sub>
 
 ### Batchfile
 
@@ -37,6 +37,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | Repo | Title | Comments |
 | --- | --- | --- |
 
+| pytorch/executorch | [Remove EXECUTORCH_BUILD_HOST_TARGETS](https://github.com/pytorch/executorch/issues/9404) | 0 |
 | pytorch/executorch | [Lifting constants to an external file should not move __lifted_constant_*](https://github.com/pytorch/executorch/issues/8809) | 0 |
 | pytorch/executorch | [Python apis for loading and saving .ptd from dictionaries](https://github.com/pytorch/executorch/issues/8542) | 0 |
 | pytorch/executorch | [insert_write_back_for_buffers_pass should inject copy_ nodes at the earliest possible spot.](https://github.com/pytorch/executorch/issues/7345) | 0 |
@@ -53,7 +54,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | [[CPU] Remove the need for Rescale for the CPUMaxSplat](https://github.com/pytorch/glow/issues/4656) | 1 |
 | pytorch/multipy | [Add Poetry build to multipy](https://github.com/pytorch/multipy/issues/211) | 1 |
 | pytorch/executorch | [Add SmolLM](https://github.com/pytorch/executorch/issues/9324) | 2 |
-| pytorch/executorch | [Remove the ability to bring your own flatc](https://github.com/pytorch/executorch/issues/9145) | 2 |
 | pytorch/glow | [New files added under glow/test/models/ don't get copied to build folder until clean build is performed.](https://github.com/pytorch/glow/issues/4647) | 2 |
 | pytorch/glow | [Make all useful data structures in Glow easy to dump in a textual form](https://github.com/pytorch/glow/issues/2831) | 2 |
 | pytorch/glow | [[Importers] Move "run and compare" tests from importer tests to operator tests](https://github.com/pytorch/glow/issues/1909) | 2 |
@@ -64,9 +64,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | [Move layout information from nodes constructor' to their Glow types](https://github.com/pytorch/glow/issues/3790) | 3 |
 | pytorch/glow | [[habana] Implement backend specific verifications](https://github.com/pytorch/glow/issues/3480) | 3 |
 | godotengine/godot | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 3 |
-| pytorch/executorch | [Missing FileDataSink test in etdump_flatcc tests](https://github.com/pytorch/executorch/issues/9165) | 4 |
 | pytorch/executorch | [_load_for_executorch pybinding cannot load model for training](https://github.com/pytorch/executorch/issues/4908) | 4 |
 | pytorch/glow | [[GraphOptz] Sink Quantize below Reshape](https://github.com/pytorch/glow/issues/4629) | 4 |
+| opencv/opencv | [Possible typo in Bayer Patterns documentation](https://github.com/opencv/opencv/issues/27092) | 4 |
 | godotengine/godot | [Image.FORMAT_R8 uses Alpha in GLES2 instead of Red channel, this is not reflected in docs](https://github.com/godotengine/godot/issues/38974) | 4 |
 | pytorch/glow | [Fuse RescaleQuantized in the ChannelwiseQuantizedConv](https://github.com/pytorch/glow/issues/4928) | 5 |
 | pytorch/glow | [Bring back the sinking RELU below Pool optimization](https://github.com/pytorch/glow/issues/3247) | 5 |
@@ -279,8 +279,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/moonlight | [Export stem directions in MusicXML](https://github.com/tensorflow/moonlight/issues/25) | 0 |
 | tensorflow/moonlight | [Chord duration correction](https://github.com/tensorflow/moonlight/issues/2) | 0 |
 | tensorflow/moonlight | [Export the key signature to MusicXML](https://github.com/tensorflow/moonlight/issues/1) | 0 |
+| pytorch/ao | [Accelerate activation sparsity with activation compression](https://github.com/pytorch/ao/issues/1920) | 0 |
 | pytorch/ao | [Unittests Migration Progress](https://github.com/pytorch/ao/issues/1621) | 0 |
 | pytorch/ao | [Learned fake quantize for QAT](https://github.com/pytorch/ao/issues/545) | 0 |
+| pytorch/ao | [Remove docstring duplications](https://github.com/pytorch/ao/issues/407) | 0 |
 | pytorch/examples | [imagenet benchmark measure elapsed time function issue](https://github.com/pytorch/examples/issues/741) | 0 |
 | pytorch/examples | [Why there is no tanh activation at the end of TransformerNet?](https://github.com/pytorch/examples/issues/570) | 0 |
 | pytorch/examples | [Distributed doesn't work with env:// init_method](https://github.com/pytorch/examples/issues/458) | 0 |
@@ -333,6 +335,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/nanotron | [We don't save checkpoint after training ends](https://github.com/huggingface/nanotron/issues/163) | 1 |
 | huggingface/nanotron | [FEAT: Support 1.58-bit LLMs training](https://github.com/huggingface/nanotron/issues/114) | 1 |
 | huggingface/nanotron | [[Feature Request] Add simple communications benchmarks to the repo](https://github.com/huggingface/nanotron/issues/43) | 1 |
+| pandas-dev/pandas | [DOC: `read_excel` `nrows` parameter reads extra rows when tables are adjacent (no blank row)](https://github.com/pandas-dev/pandas/issues/61123) | 1 |
 | ansible/ansible-lint | [Linter should consider the same paths that `ansible.builtin.import_tasks` uses to import relative paths](https://github.com/ansible/ansible-lint/issues/4474) | 1 |
 | ansible/ansible-navigator | [Many params missing change after initial = False](https://github.com/ansible/ansible-navigator/issues/423) | 1 |
 | ansible/awx | [Scheduled Job prompted extra_vars overwritten by JT extra_vars](https://github.com/ansible/awx/issues/14445) | 1 |
@@ -345,7 +348,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ao | [Add weight tensor-wise scaling for INT8 quantized and mixed-precision training](https://github.com/pytorch/ao/issues/1010) | 1 |
 | pytorch/ao | [MoE example ](https://github.com/pytorch/ao/issues/729) | 1 |
 | pytorch/ao | [Self compressing neural networks](https://github.com/pytorch/ao/issues/658) | 1 |
-| pytorch/ao | [GPTQ implementation with tensor subclasses](https://github.com/pytorch/ao/issues/577) | 1 |
 | pytorch/data | [Modify `IterKeyZipper` to accept any number (2+) of `IterDataPipe`](https://github.com/pytorch/data/issues/334) | 1 |
 | pytorch/examples | [Update all examples to latest versions of pytorch](https://github.com/pytorch/examples/issues/976) | 1 |
 | pytorch/examples | [Video classification example](https://github.com/pytorch/examples/issues/895) | 1 |
@@ -355,9 +357,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | [A question about weight initialization of embedding layer.](https://github.com/pytorch/examples/issues/595) | 1 |
 | pytorch/examples | [Changes needed to run DCGAN 32x32 ](https://github.com/pytorch/examples/issues/486) | 1 |
 | pytorch/examples | [ImageFolder doc should clarify 1. order that images returned in 2. that all classes are concatenated into a single list](https://github.com/pytorch/examples/issues/400) | 1 |
-| pytorch/ignite | [Improve metrics tests](https://github.com/pytorch/ignite/issues/3335) | 1 |
 | pytorch/PiPPy | [Support LayoutLM models in HF tests](https://github.com/pytorch/PiPPy/issues/247) | 1 |
-| pytorch/pytorch | [[Inductor] Inference failed with the compiled model with aminmax operator](https://github.com/pytorch/pytorch/issues/148808) | 1 |
 | pytorch/text | [torchtext main branch doesn't support pytorch2.0](https://github.com/pytorch/text/issues/2052) | 1 |
 | pytorch/torcharrow | [Default aggregation functions delegates to Arrow Compute ](https://github.com/pytorch/torcharrow/issues/53) | 1 |
 | pytorch/torchcodec | [Use `TORCH_CHECK` instead of `throw`](https://github.com/pytorch/torchcodec/issues/537) | 1 |
@@ -436,6 +436,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/graphics | [Add skew to projective camera](https://github.com/tensorflow/graphics/issues/335) | 3 |
 | tensorflow/model-card-toolkit | [Prefer single quote strings model-card-toolkit](https://github.com/tensorflow/model-card-toolkit/issues/279) | 3 |
 | tensorflow/similarity | [Add a ranking example](https://github.com/tensorflow/similarity/issues/199) | 3 |
+| pytorch/ao | [[sparse] Add GPTQ support for sparse-marlin](https://github.com/pytorch/ao/issues/1134) | 3 |
 | pytorch/ao | [Tensor Parallelism Support for AffineQuantizedTensor](https://github.com/pytorch/ao/issues/988) | 3 |
 | pytorch/ao | [[llama] Use horizontal fusion trick from Attention for FeedForward](https://github.com/pytorch/ao/issues/606) | 3 |
 | pytorch/data | [`scan` support](https://github.com/pytorch/data/issues/1110) | 3 |
@@ -467,6 +468,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | [Please change dcgan to load truncated images.](https://github.com/pytorch/examples/issues/835) | 4 |
 | pytorch/examples | [No matching function call  error in custom_dataset example ](https://github.com/pytorch/examples/issues/680) | 4 |
 | pytorch/examples | [Add Siamese Network example](https://github.com/pytorch/examples/issues/645) | 4 |
+| pytorch/pytorch | [[Inductor] Inference failed with the compiled model with aminmax operator](https://github.com/pytorch/pytorch/issues/148808) | 4 |
 | pytorch/pytorch | [Improve error message for wrong number of arguments in CachingAutotuner](https://github.com/pytorch/pytorch/issues/146018) | 4 |
 | pytorch/pytorch | [If mark_dynamic fails (Not all values of RelaxedUnspecConstraint are valid) due to specialization, error message should print where specialization came from](https://github.com/pytorch/pytorch/issues/136002) | 4 |
 | pytorch/pytorch | [Dead link in `torch.compile` docs](https://github.com/pytorch/pytorch/issues/119272) | 4 |
@@ -540,12 +542,12 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/diffusers | [flux img2img controlnet channels error](https://github.com/huggingface/diffusers/issues/9979) | 10 |
 | huggingface/transformers | [MultiTask Classification and label_names on Trainer](https://github.com/huggingface/transformers/issues/33193) | 10 |
 | huggingface/transformers | [Tapas tokenization Different from Tensorflow Code](https://github.com/huggingface/transformers/issues/13244) | 10 |
-| pandas-dev/pandas | [BUG: CustomBusinessDay not respecting calendar](https://github.com/pandas-dev/pandas/issues/60647) | 10 |
 | pandas-dev/pandas | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 10 |
 | pytorch/ao | [[MPS] torchao low-bit-precision optim does not expose 'backend' argument to torch.compile](https://github.com/pytorch/ao/issues/955) | 10 |
 | pytorch/pytorch | [Improve typing of args and kwargs with ParamSpec](https://github.com/pytorch/pytorch/issues/142306) | 10 |
 | pytorch/pytorch | [Logging when executing fx.Interpreter](https://github.com/pytorch/pytorch/issues/117351) | 10 |
 | huggingface/transformers | [[trainer] figuring out why eval with `--fp16_full_eval` is 25% slower](https://github.com/huggingface/transformers/issues/10816) | 11 |
+| pandas-dev/pandas | [BUG: CustomBusinessDay not respecting calendar](https://github.com/pandas-dev/pandas/issues/60647) | 11 |
 | pandas-dev/pandas | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 11 |
 | pandas-dev/pandas-stubs | [type annotation for Index/MultiIndex.names is incorrect](https://github.com/pandas-dev/pandas-stubs/issues/804) | 11 |
 | tensorflow/quantum | [[Performance] Boost tfq.convert_to_tensor speed](https://github.com/tensorflow/quantum/issues/336) | 11 |
@@ -563,7 +565,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/peft | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 14 |
 | huggingface/datasets | [FolderBase Dataset automatically resolves under current directory when data_dir is not specified](https://github.com/huggingface/datasets/issues/6152) | 15 |
 | pandas-dev/pandas | [BUG: `DataFrame.to_parquet` doesn't round-trip pyarrow StringDtype](https://github.com/pandas-dev/pandas/issues/42664) | 15 |
-| pandas-dev/pandas | [DOC: improve docs for broadcasting behavior](https://github.com/pandas-dev/pandas/issues/18857) | 15 |
 | huggingface/diffusers | [refactors pipelines inheriting from `StableDiffusionPipeline`](https://github.com/huggingface/diffusers/issues/6984) | 16 |
 | huggingface/transformers | [Follow ups to DocumentQuestionAnswering Pipeline](https://github.com/huggingface/transformers/issues/18926) | 16 |
 | pandas-dev/pandas | [DOC: add button to edit on GitHub](https://github.com/pandas-dev/pandas/issues/39859) | 16 |
@@ -664,12 +665,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/chat-ui | [Chrome app icon on macOS](https://github.com/huggingface/chat-ui/issues/1439) | 1 |
 | huggingface/chat-ui | [Add support for non streaming TGI endpoints](https://github.com/huggingface/chat-ui/issues/339) | 1 |
 | pytorch/probot | [deprecation of `number` for octokit](https://github.com/pytorch/probot/issues/62) | 1 |
+| huggingface/chat-ui | [Add option for users to customize search engines in settings page](https://github.com/huggingface/chat-ui/issues/1756) | 2 |
 | huggingface/huggingface.js | [Maximize button not working properly on Hosted inference API block](https://github.com/huggingface/huggingface.js/issues/335) | 2 |
 | huggingface/Mongoku | [Auto-link ObjectIds to their referenced elements in the same DB](https://github.com/huggingface/Mongoku/issues/86) | 2 |
-| huggingface/chat-ui | [Disabling Reasoning Summary as an Env Option](https://github.com/huggingface/chat-ui/issues/1720) | 3 |
 | huggingface/chat-ui | [Load past conversations using the most recent leaf to determine the visible conversation tree.](https://github.com/huggingface/chat-ui/issues/1208) | 3 |
 | huggingface/chat-ui | [System prompt not taken into account when web browsing.](https://github.com/huggingface/chat-ui/issues/1159) | 3 |
 | ansible/vscode-ansible | [Option to completely disable autocomplete](https://github.com/ansible/vscode-ansible/issues/837) | 3 |
+| huggingface/chat-ui | [Disabling Reasoning Summary as an Env Option](https://github.com/huggingface/chat-ui/issues/1720) | 4 |
 | huggingface/chat-ui | [Explore the possibility for chat-ui to use OpenAI assistants API structure.](https://github.com/huggingface/chat-ui/issues/838) | 4 |
 | pytorch/test-infra | [A better HUD menu for PyTorch repos family](https://github.com/pytorch/test-infra/issues/5226) | 4 |
 | huggingface/chat-ui | [Support text-generation-webui](https://github.com/huggingface/chat-ui/issues/316) | 5 |
