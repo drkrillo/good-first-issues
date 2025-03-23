@@ -22,21 +22,15 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 ### Batchfile
 
-<table>
-    <thead>
-        <tr><th>Repo</th><th>Title</th><th>Comments</th></tr>
-    </thead>
-    <tbody>
-        <tr><td>Repo</td><td>Title</td><td>Comments</td></tr>
-        <tr><td>pytorch/csprng</td><td>[Clone torchvision .circleci/regenerate.py framework to automate config.yml generation](https://github.com/pytorch/csprng/issues/97)</td><td>0</td></tr>
-        <tr><td>pytorch/csprng</td><td>[Add clang-format to CircleCI config](https://github.com/pytorch/csprng/issues/41)</td><td>0</td></tr>
-        <tr><td>pytorch/csprng</td><td>[Setup CMake build](https://github.com/pytorch/csprng/issues/38)</td><td>0</td></tr>
-        <tr><td>pytorch/csprng</td><td>[Improve test_geometric](https://github.com/pytorch/csprng/issues/7)</td><td>0</td></tr>
-        <tr><td>pytorch/csprng</td><td>[Delete OffsetCalculator.cuh and THCIntegerDivider.cuh and replace them with PyTorch headers](https://github.com/pytorch/csprng/issues/39)</td><td>1</td></tr>
-        <tr><td>pytorch/csprng</td><td>[ZeroDivisionError: float division by zero in test_cpu_parallel](https://github.com/pytorch/csprng/issues/88)</td><td>3</td></tr>
+| Repo | Title | Comments |
+| --- | --- | --- |
+| pytorch/csprng | [Clone torchvision .circleci/regenerate.py framework to automate config.yml generation](https://github.com/pytorch/csprng/issues/97) | 0 |
+| pytorch/csprng | [Add clang-format to CircleCI config](https://github.com/pytorch/csprng/issues/41) | 0 |
+| pytorch/csprng | [Setup CMake build](https://github.com/pytorch/csprng/issues/38) | 0 |
+| pytorch/csprng | [Improve test_geometric](https://github.com/pytorch/csprng/issues/7) | 0 |
+| pytorch/csprng | [Delete OffsetCalculator.cuh and THCIntegerDivider.cuh and replace them with PyTorch headers](https://github.com/pytorch/csprng/issues/39) | 1 |
+| pytorch/csprng | [ZeroDivisionError: float division by zero in test_cpu_parallel](https://github.com/pytorch/csprng/issues/88) | 3 |
 
-    </tbody>
-</table>
 ### C++
 
 | Repo | Title | Comments |
