@@ -22,21 +22,25 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 ### Batchfile
 
-| Repo | Title | Comments |
-| --- | --- | --- |
+<table>
+    <thead>
+        <tr><th>Repo</th><th>Title</th><th>Comments</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>Repo</td><td>Title</td><td>Comments</td></tr>
+        <tr><td>pytorch/csprng</td><td>[Clone torchvision .circleci/regenerate.py framework to automate config.yml generation](https://github.com/pytorch/csprng/issues/97)</td><td>0</td></tr>
+        <tr><td>pytorch/csprng</td><td>[Add clang-format to CircleCI config](https://github.com/pytorch/csprng/issues/41)</td><td>0</td></tr>
+        <tr><td>pytorch/csprng</td><td>[Setup CMake build](https://github.com/pytorch/csprng/issues/38)</td><td>0</td></tr>
+        <tr><td>pytorch/csprng</td><td>[Improve test_geometric](https://github.com/pytorch/csprng/issues/7)</td><td>0</td></tr>
+        <tr><td>pytorch/csprng</td><td>[Delete OffsetCalculator.cuh and THCIntegerDivider.cuh and replace them with PyTorch headers](https://github.com/pytorch/csprng/issues/39)</td><td>1</td></tr>
+        <tr><td>pytorch/csprng</td><td>[ZeroDivisionError: float division by zero in test_cpu_parallel](https://github.com/pytorch/csprng/issues/88)</td><td>3</td></tr>
 
-| pytorch/csprng | [Clone torchvision .circleci/regenerate.py framework to automate config.yml generation](https://github.com/pytorch/csprng/issues/97) | 0 |
-| pytorch/csprng | [Add clang-format to CircleCI config](https://github.com/pytorch/csprng/issues/41) | 0 |
-| pytorch/csprng | [Setup CMake build](https://github.com/pytorch/csprng/issues/38) | 0 |
-| pytorch/csprng | [Improve test_geometric](https://github.com/pytorch/csprng/issues/7) | 0 |
-| pytorch/csprng | [Delete OffsetCalculator.cuh and THCIntegerDivider.cuh and replace them with PyTorch headers](https://github.com/pytorch/csprng/issues/39) | 1 |
-| pytorch/csprng | [ZeroDivisionError: float division by zero in test_cpu_parallel](https://github.com/pytorch/csprng/issues/88) | 3 |
-
+    </tbody>
+</table>
 ### C++
 
 | Repo | Title | Comments |
 | --- | --- | --- |
-
 | pytorch/executorch | [Python apis for loading and saving .ptd from dictionaries](https://github.com/pytorch/executorch/issues/8542) | 0 |
 | pytorch/executorch | [insert_write_back_for_buffers_pass should inject copy_ nodes at the earliest possible spot.](https://github.com/pytorch/executorch/issues/7345) | 0 |
 | pytorch/glow | [[TensorLayout] Add a way to specify canonical layout propagation to NodeGen](https://github.com/pytorch/glow/issues/3834) | 0 |
@@ -93,14 +97,12 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | Repo | Title | Comments |
 | --- | --- | --- |
-
 | ansible/pylibssh | [[BUG] Flaky `tests/unit/sftp_test.py::test_put`](https://github.com/ansible/pylibssh/issues/351) | 3 |
 
 ### Emacs Lisp
 
 | Repo | Title | Comments |
 | --- | --- | --- |
-
 | godotengine/emacs-gdscript-mode | [Rewrite gdscript-imenu to provide GDScript-specific tables](https://github.com/godotengine/emacs-gdscript-mode/issues/89) | 0 |
 | godotengine/emacs-gdscript-mode | [Buffer does not revert or update instantly after formatting buffer](https://github.com/godotengine/emacs-gdscript-mode/issues/88) | 3 |
 | godotengine/emacs-gdscript-mode | [Address compile warnings](https://github.com/godotengine/emacs-gdscript-mode/issues/87) | 6 |
@@ -109,7 +111,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | Repo | Title | Comments |
 | --- | --- | --- |
-
 | godotengine/godot-demo-projects | [Update plugins demo to use custom Resources](https://github.com/godotengine/godot-demo-projects/issues/1061) | 0 |
 | godotengine/godot-benchmarks | [[Call to Action] Benchmarks for the benchmark server](https://github.com/godotengine/godot-benchmarks/issues/36) | 5 |
 | godotengine/godot-benchmarks | [[TRACKER] Benchmarks to create](https://github.com/godotengine/godot-benchmarks/issues/11) | 11 |
@@ -118,7 +119,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | Repo | Title | Comments |
 | --- | --- | --- |
-
 | ansible/receptor | [append conntype string representation in status output](https://github.com/ansible/receptor/issues/423) | 0 |
 | ansible/receptor | [add work status command to receptorctl](https://github.com/ansible/receptor/issues/374) | 1 |
 | ansible/receptor | [quality of life -- order work list output based on most recent work units](https://github.com/ansible/receptor/issues/425) | 2 |
@@ -127,7 +127,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | Repo | Title | Comments |
 | --- | --- | --- |
-
 | pytorch/serve | [The captum for bert notebook needs update](https://github.com/pytorch/serve/issues/1317) | 0 |
 | pytorch/serve | [Enable naked DIR test case for windows environment](https://github.com/pytorch/serve/issues/882) | 0 |
 | pytorch/serve | [[Educational] Typing `.py` files iteratively with mypy](https://github.com/pytorch/serve/issues/1512) | 1 |
@@ -144,7 +143,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | Repo | Title | Comments |
 | --- | --- | --- |
-
 | huggingface/transformers.js | [Is 'aggregation_strategy' parameter available for token classification pipeline?](https://github.com/huggingface/transformers.js/issues/633) | 2 |
 | huggingface/transformers.js | [[Feature request] Return offset mapping using tokenizer](https://github.com/huggingface/transformers.js/issues/425) | 2 |
 | pytorch/ci-hud | [Restore "Show service jobs" checkbox to GitHubStatusDisplay.js ](https://github.com/pytorch/ci-hud/issues/110) | 2 |
@@ -155,7 +153,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | Repo | Title | Comments |
 | --- | --- | --- |
-
 | ansible/galaxy_collection | [Replace order of roles](https://github.com/ansible/galaxy_collection/issues/396) | 0 |
 | ansible/galaxy_collection | [infra.ah_configuration.publish leaves clone dirs behind](https://github.com/ansible/galaxy_collection/issues/377) | 0 |
 | ansible/awx-operator | [Add multi-arch build target](https://github.com/ansible/awx-operator/issues/1680) | 1 |
@@ -171,7 +168,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | Repo | Title | Comments |
 | --- | --- | --- |
-
 | tensorflow/probability | [providing sample weights to glm.fit() and glm.fit.sparse()](https://github.com/tensorflow/probability/issues/252) | 0 |
 | tensorflow/probability | [Sigmoid belief network example/tutorial](https://github.com/tensorflow/probability/issues/70) | 0 |
 | tensorflow/probability | [Logistic factorial analysis example/tutorial](https://github.com/tensorflow/probability/issues/68) | 0 |
@@ -229,7 +225,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | Repo | Title | Comments |
 | --- | --- | --- |
-
 | zeromicro/goctl-swagger | [support for openapi 3.0 ](https://github.com/zeromicro/goctl-swagger/issues/52) | 0 |
 | godotengine/godot-asset-library | [Categories need a description (tooltip?) when hovered/selected](https://github.com/godotengine/godot-asset-library/issues/74) | 1 |
 | godotengine/godot-asset-library | [keep the content of the submition form when its not validated, or try some ajax realtime pre-validation](https://github.com/godotengine/godot-asset-library/issues/61) | 1 |
@@ -240,7 +235,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | Repo | Title | Comments |
 | --- | --- | --- |
-
 | django/djangoproject.com | [Github login doesn't work for community pages](https://github.com/django/djangoproject.com/issues/835) | 3 |
 | django/djangoproject.com | [Badges page and badges themselves](https://github.com/django/djangoproject.com/issues/126) | 3 |
 | django/djangoproject.com | [Documentation table of contents is hard to reach on mobile devices](https://github.com/django/djangoproject.com/issues/494) | 4 |
@@ -260,7 +254,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | Repo | Title | Comments |
 | --- | --- | --- |
-
 | huggingface/dataset-viewer | [Use `revision_exists` (hfh)](https://github.com/huggingface/dataset-viewer/issues/2562) | 0 |
 | huggingface/dataset-viewer | [Cache/Queue metrics should not be negative](https://github.com/huggingface/dataset-viewer/issues/2495) | 0 |
 | huggingface/nanotron | [Add Debug utility to be able to preview first samples used for training](https://github.com/huggingface/nanotron/issues/184) | 0 |
@@ -610,7 +603,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | Repo | Title | Comments |
 | --- | --- | --- |
-
 | huggingface/ratchet | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 |
 | tensorflow/rust | [Add Scope::with_kernel_label and with_xla_cluster](https://github.com/tensorflow/rust/issues/288) | 3 |
 | tensorflow/rust | [Add OpArgDef::default_value and allowed_values](https://github.com/tensorflow/rust/issues/290) | 7 |
@@ -619,7 +611,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | Repo | Title | Comments |
 | --- | --- | --- |
-
 | godotengine/discourse-theme | [Change default `green` to our own green for the Solved questions](https://github.com/godotengine/discourse-theme/issues/14) | 0 |
 | godotengine/discourse-theme | [Make tag and tag count more distinct](https://github.com/godotengine/discourse-theme/issues/11) | 0 |
 | godotengine/discourse-theme | [Categories are not rounded on mobile](https://github.com/godotengine/discourse-theme/issues/3) | 0 |
