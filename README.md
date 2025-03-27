@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-03-26</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-03-27</sub></sub>
 
 ### Batchfile
 
@@ -382,7 +382,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/nanotron | [[Feature] Asyncronous Serialization](https://github.com/huggingface/nanotron/issues/87) | 2 |
 | huggingface/nanotron | [[Feature Request] Support Data Streaming for faster training of large models](https://github.com/huggingface/nanotron/issues/45) | 2 |
 | huggingface/optimum | [Add all available ONNX models to ORTConfigManager](https://github.com/huggingface/optimum/issues/351) | 2 |
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 2 |
 | huggingface/transformers | [[Performance] Tracking open Issues and PRs (pytorch transformers)](https://github.com/huggingface/transformers/issues/12126) | 2 |
 | ansible/ansible-documentation | [Link to devel in the various roadmaps](https://github.com/ansible/ansible-documentation/issues/1865) | 2 |
 | ansible/ansible-documentation | [Link "see also" sections as recommended in the forum](https://github.com/ansible/ansible-documentation/issues/1200) | 2 |
@@ -484,7 +483,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/huggingface_hub | [Implement a `FlaxModelHubMixin`](https://github.com/huggingface/huggingface_hub/issues/1709) | 5 |
 | huggingface/nanotron | [[Unit Test] Add unit tests for DistributedTrainer](https://github.com/huggingface/nanotron/issues/90) | 5 |
 | huggingface/optimum-benchmark | [Evaluators for specific tasks](https://github.com/huggingface/optimum-benchmark/issues/34) | 5 |
-| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 5 |
 | pandas-dev/pandas-stubs | [Addition of a Series[int] with a complex returns Series[unknown]](https://github.com/pandas-dev/pandas-stubs/issues/1098) | 5 |
 | ansible/awx | [ adhoc jobs block other jobs from being processed in the queue](https://github.com/ansible/awx/issues/14645) | 5 |
 | ansible/awx | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 5 |
@@ -526,6 +524,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/diffusers | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 8 |
 | huggingface/diffusers | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 8 |
 | huggingface/diffusers | [Make `FlaxLMSDiscreteScheduler` jittable](https://github.com/huggingface/diffusers/issues/2180) | 8 |
+| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 8 |
 | huggingface/transformers | [Custom 4D tensor caused shape mismatch error](https://github.com/huggingface/transformers/issues/35290) | 8 |
 | huggingface/transformers | [Add argument to set number of eval steps in Trainer](https://github.com/huggingface/transformers/issues/31561) | 8 |
 | pandas-dev/pandas | [TST: Make test_sql.py parallelizable](https://github.com/pandas-dev/pandas/issues/60378) | 8 |
@@ -553,6 +552,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | [DOC: use shared_docs for isna/notna & isnull/notnull](https://github.com/pandas-dev/pandas/issues/17096) | 10 |
 | pytorch/ao | [[MPS] torchao low-bit-precision optim does not expose 'backend' argument to torch.compile](https://github.com/pytorch/ao/issues/955) | 10 |
 | pytorch/pytorch | [Improve typing of args and kwargs with ParamSpec](https://github.com/pytorch/pytorch/issues/142306) | 10 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 11 |
 | huggingface/transformers | [[trainer] figuring out why eval with `--fp16_full_eval` is 25% slower](https://github.com/huggingface/transformers/issues/10816) | 11 |
 | pandas-dev/pandas | [BUG: CustomBusinessDay not respecting calendar](https://github.com/pandas-dev/pandas/issues/60647) | 11 |
 | pandas-dev/pandas | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 11 |
@@ -568,9 +568,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/transformers | [Object Detection Pipeline only outputs first element when batching](https://github.com/huggingface/transformers/issues/31356) | 13 |
 | pandas-dev/pandas | [ENH/API: allow different values for labels/index in DF.reindex __OR__ raise error](https://github.com/pandas-dev/pandas/issues/21685) | 13 |
 | pytorch/pytorch | [Update triton_heuristics.py](https://github.com/pytorch/pytorch/pull/147690) | 13 |
-| huggingface/peft | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 14 |
 | huggingface/datasets | [FolderBase Dataset automatically resolves under current directory when data_dir is not specified](https://github.com/huggingface/datasets/issues/6152) | 15 |
 | huggingface/datasets | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 15 |
+| huggingface/peft | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 15 |
 | pandas-dev/pandas | [BUG: `DataFrame.to_parquet` doesn't round-trip pyarrow StringDtype](https://github.com/pandas-dev/pandas/issues/42664) | 15 |
 | pandas-dev/pandas | [DOC: improve docs for broadcasting behavior](https://github.com/pandas-dev/pandas/issues/18857) | 15 |
 | huggingface/diffusers | [refactors pipelines inheriting from `StableDiffusionPipeline`](https://github.com/huggingface/diffusers/issues/6984) | 16 |
@@ -709,7 +709,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | godotengine/godot-docs | [Document that C# `string`s are UTF16 while Godot `String`s are UTF32](https://github.com/godotengine/godot-docs/issues/7682) | 0 |
 | godotengine/godot-docs | [Curve2D.get_closest_point() incorrectly documented](https://github.com/godotengine/godot-docs/issues/5894) | 0 |
 | godotengine/godot-docs | [Physics2DDirectSpaceState does not specify local or global coordinates](https://github.com/godotengine/godot-docs/issues/3299) | 0 |
-| godotengine/godot-docs | [Typo in UPDServer docs](https://github.com/godotengine/godot-docs/issues/10801) | 1 |
 | godotengine/godot-docs | [Incorrect note on Reflection probes page](https://github.com/godotengine/godot-docs/issues/10493) | 1 |
 | godotengine/godot-docs | [Animated gif has visual artifacts](https://github.com/godotengine/godot-docs/issues/10425) | 1 |
 | godotengine/godot-docs | [Viewport "use_hdr_2d" documentation point unclear](https://github.com/godotengine/godot-docs/issues/10044) | 1 |
@@ -721,6 +720,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | godotengine/godot-docs | [Inconsistent code example between PhysicsShapeQueryParameters3D and PhysicsServer3D](https://github.com/godotengine/godot-docs/issues/8305) | 1 |
 | godotengine/godot-docs | [Rewording/amendment for Camera2D.align () function.](https://github.com/godotengine/godot-docs/issues/7307) | 1 |
 | godotengine/godot-docs | [AudioServer Documentation does not specify units of time](https://github.com/godotengine/godot-docs/issues/7009) | 1 |
+| godotengine/godot-docs | [Typo in UPDServer docs](https://github.com/godotengine/godot-docs/issues/10801) | 2 |
 | godotengine/godot-docs | [Add clarification about what CharacterBody is used for](https://github.com/godotengine/godot-docs/issues/10458) | 2 |
 | godotengine/godot-docs | [PhysicsDirectSpaceState2D.get_rest_info claims not to use query motion but it does](https://github.com/godotengine/godot-docs/issues/10609) | 3 |
 | godotengine/godot-docs | [WorkerThreadPool docs do not specify how Thread count is set](https://github.com/godotengine/godot-docs/issues/8937) | 3 |
