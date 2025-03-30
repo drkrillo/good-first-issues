@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-03-29</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-03-30</sub></sub>
 
 ### Batchfile
 
@@ -50,10 +50,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | [ConvBench should use the layers of ResNet](https://github.com/pytorch/glow/issues/1887) | 0 |
 | pytorch/glow | [ConvBench should use libjit_convolution_D8KKC8](https://github.com/pytorch/glow/issues/1886) | 0 |
 | pytorch/multipy | [Create a Contributing.md](https://github.com/pytorch/multipy/issues/252) | 0 |
-| pytorch/executorch | [Missing try-before-set tests for datasink in etdumpgen tests](https://github.com/pytorch/executorch/issues/9551) | 1 |
 | pytorch/executorch | [ExecuTorch Scalar to() supports fewer types than c10::Scalar, breaking source compatibility](https://github.com/pytorch/executorch/issues/9500) | 1 |
 | pytorch/glow | [[CPU] Remove the need for Rescale for the CPUMaxSplat](https://github.com/pytorch/glow/issues/4656) | 1 |
 | pytorch/multipy | [Add Poetry build to multipy](https://github.com/pytorch/multipy/issues/211) | 1 |
+| pytorch/executorch | [Missing try-before-set tests for datasink in etdumpgen tests](https://github.com/pytorch/executorch/issues/9551) | 2 |
 | pytorch/executorch | [Remove EXECUTORCH_BUILD_HOST_TARGETS](https://github.com/pytorch/executorch/issues/9404) | 2 |
 | pytorch/glow | [New files added under glow/test/models/ don't get copied to build folder until clean build is performed.](https://github.com/pytorch/glow/issues/4647) | 2 |
 | pytorch/glow | [Make all useful data structures in Glow easy to dump in a textual form](https://github.com/pytorch/glow/issues/2831) | 2 |
@@ -64,7 +64,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [Optimized linear op doesn't support bias](https://github.com/pytorch/executorch/issues/8234) | 3 |
 | pytorch/glow | [Move layout information from nodes constructor' to their Glow types](https://github.com/pytorch/glow/issues/3790) | 3 |
 | pytorch/glow | [[habana] Implement backend specific verifications](https://github.com/pytorch/glow/issues/3480) | 3 |
-| pytorch/executorch | [log_intermediate_output_delegate cannot handle error as expected](https://github.com/pytorch/executorch/issues/9549) | 4 |
 | pytorch/executorch | [_load_for_executorch pybinding cannot load model for training](https://github.com/pytorch/executorch/issues/4908) | 4 |
 | pytorch/glow | [[GraphOptz] Sink Quantize below Reshape](https://github.com/pytorch/glow/issues/4629) | 4 |
 | godotengine/godot | [Image.FORMAT_R8 uses Alpha in GLES2 instead of Red channel, this is not reflected in docs](https://github.com/godotengine/godot/issues/38974) | 4 |
@@ -72,9 +71,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | [Fuse RescaleQuantized in the ChannelwiseQuantizedConv](https://github.com/pytorch/glow/issues/4928) | 5 |
 | pytorch/glow | [Bring back the sinking RELU below Pool optimization](https://github.com/pytorch/glow/issues/3247) | 5 |
 | pytorch/glow | [Use gtest-parallel](https://github.com/pytorch/glow/issues/2412) | 5 |
+| pytorch/executorch | [log_intermediate_output_delegate cannot handle error as expected](https://github.com/pytorch/executorch/issues/9549) | 6 |
 | pytorch/glow | [Glow should provide its own implementation of a random number generator to ensure deterministic testing and avoid platform-dependent differences](https://github.com/pytorch/glow/issues/1556) | 6 |
 | xbmc/xbmc | [Make sorting locale-aware on Android](https://github.com/xbmc/xbmc/issues/15125) | 7 |
-| godotengine/godot | [Creating a Plugin with a / in the name creates a nested directory and breaks the plugin](https://github.com/godotengine/godot/issues/104732) | 7 |
 | godotengine/godot | [ERROR: The InputMap action "spatial_editor/viewport_pan_modifier_1" doesn't exist](https://github.com/godotengine/godot/issues/103539) | 8 |
 | godotengine/godot | [AnimationPlayerEditor inserts markers and keys at the mouse cursor position, not at the timeline cursor](https://github.com/godotengine/godot/issues/103272) | 8 |
 | pytorch/glow | [Make the execution of the Glow compiler more deterministic between multiple runs](https://github.com/pytorch/glow/issues/1948) | 9 |
@@ -560,7 +559,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | [Updating value of a single row of a column using loc or at fails](https://github.com/pandas-dev/pandas/issues/22040) | 12 |
 | pandas-dev/pandas | [issue when shifting with Timedelta in a groupby](https://github.com/pandas-dev/pandas/issues/20492) | 12 |
 | huggingface/diffusers | [[Pipeline] AnimateDiff + SparseControl + ControlNet](https://github.com/huggingface/diffusers/issues/9329) | 13 |
-| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 13 |
 | huggingface/transformers | [IsADirectoryError when training with tqdm enabled for trainer](https://github.com/huggingface/transformers/issues/34766) | 13 |
 | huggingface/transformers | [Object Detection Pipeline only outputs first element when batching](https://github.com/huggingface/transformers/issues/31356) | 13 |
 | pandas-dev/pandas | [ENH/API: allow different values for labels/index in DF.reindex __OR__ raise error](https://github.com/pandas-dev/pandas/issues/21685) | 13 |
@@ -571,6 +569,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | [BUG: `DataFrame.to_parquet` doesn't round-trip pyarrow StringDtype](https://github.com/pandas-dev/pandas/issues/42664) | 15 |
 | pandas-dev/pandas | [DOC: improve docs for broadcasting behavior](https://github.com/pandas-dev/pandas/issues/18857) | 15 |
 | huggingface/diffusers | [refactors pipelines inheriting from `StableDiffusionPipeline`](https://github.com/huggingface/diffusers/issues/6984) | 16 |
+| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 16 |
 | huggingface/transformers | [Follow ups to DocumentQuestionAnswering Pipeline](https://github.com/huggingface/transformers/issues/18926) | 16 |
 | pandas-dev/pandas | [DOC: add button to edit on GitHub](https://github.com/pandas-dev/pandas/issues/39859) | 16 |
 | pandas-dev/pandas | [Indexing on series where index is output from pd.cut ](https://github.com/pandas-dev/pandas/issues/27437) | 16 |
