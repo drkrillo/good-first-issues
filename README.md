@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-04-03</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-04-04</sub></sub>
 
 ### Batchfile
 
@@ -50,12 +50,14 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/multipy | [Create a Contributing.md](https://github.com/pytorch/multipy/issues/252) | 0 |
 | pytorch/executorch | [Recursive initialization of repos](https://github.com/pytorch/executorch/issues/9783) | 1 |
 | pytorch/executorch | [ExecuTorch Scalar to() supports fewer types than c10::Scalar, breaking source compatibility](https://github.com/pytorch/executorch/issues/9500) | 1 |
+| pytorch/executorch | [Support Dynamically Quantized Convolutions](https://github.com/pytorch/executorch/issues/9021) | 1 |
 | pytorch/executorch | [Python apis for loading and saving .ptd from dictionaries](https://github.com/pytorch/executorch/issues/8542) | 1 |
 | pytorch/executorch | [insert_write_back_for_buffers_pass should inject copy_ nodes at the earliest possible spot.](https://github.com/pytorch/executorch/issues/7345) | 1 |
 | pytorch/glow | [[CPU] Remove the need for Rescale for the CPUMaxSplat](https://github.com/pytorch/glow/issues/4656) | 1 |
 | pytorch/multipy | [Add Poetry build to multipy](https://github.com/pytorch/multipy/issues/211) | 1 |
 | pytorch/executorch | [[Request Impl] Apply Segment Serialization in Bundled Program](https://github.com/pytorch/executorch/issues/9771) | 2 |
 | pytorch/executorch | [Remove EXECUTORCH_BUILD_HOST_TARGETS](https://github.com/pytorch/executorch/issues/9404) | 2 |
+| pytorch/executorch | [Don't Serialize Scales/ZP in Flatbuffer](https://github.com/pytorch/executorch/issues/9029) | 2 |
 | pytorch/glow | [New files added under glow/test/models/ don't get copied to build folder until clean build is performed.](https://github.com/pytorch/glow/issues/4647) | 2 |
 | pytorch/glow | [Make all useful data structures in Glow easy to dump in a textual form](https://github.com/pytorch/glow/issues/2831) | 2 |
 | pytorch/glow | [[Importers] Move "run and compare" tests from importer tests to operator tests](https://github.com/pytorch/glow/issues/1909) | 2 |
@@ -65,14 +67,14 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [Optimized linear op doesn't support bias](https://github.com/pytorch/executorch/issues/8234) | 3 |
 | pytorch/glow | [Move layout information from nodes constructor' to their Glow types](https://github.com/pytorch/glow/issues/3790) | 3 |
 | pytorch/glow | [[habana] Implement backend specific verifications](https://github.com/pytorch/glow/issues/3480) | 3 |
-| pytorch/executorch | [[Request impl] Devtool end-to-end tests](https://github.com/pytorch/executorch/issues/9778) | 4 |
-| pytorch/executorch | [Return "platform not supported" when using PyTorch on intel-based Macbooks](https://github.com/pytorch/executorch/issues/9772) | 4 |
 | pytorch/glow | [[GraphOptz] Sink Quantize below Reshape](https://github.com/pytorch/glow/issues/4629) | 4 |
 | godotengine/godot | [Image.FORMAT_R8 uses Alpha in GLES2 instead of Red channel, this is not reflected in docs](https://github.com/godotengine/godot/issues/38974) | 4 |
+| pytorch/executorch | [Return "platform not supported" when using PyTorch on intel-based Macbooks](https://github.com/pytorch/executorch/issues/9772) | 5 |
 | pytorch/executorch | [Refactor binary op partitioner configs under binary op config class](https://github.com/pytorch/executorch/issues/9024) | 5 |
 | pytorch/glow | [Fuse RescaleQuantized in the ChannelwiseQuantizedConv](https://github.com/pytorch/glow/issues/4928) | 5 |
 | pytorch/glow | [Bring back the sinking RELU below Pool optimization](https://github.com/pytorch/glow/issues/3247) | 5 |
 | pytorch/glow | [Use gtest-parallel](https://github.com/pytorch/glow/issues/2412) | 5 |
+| pytorch/executorch | [[Request impl] Devtool end-to-end tests](https://github.com/pytorch/executorch/issues/9778) | 6 |
 | pytorch/executorch | [_load_for_executorch pybinding cannot load model for training](https://github.com/pytorch/executorch/issues/4908) | 6 |
 | pytorch/glow | [Glow should provide its own implementation of a random number generator to ensure deterministic testing and avoid platform-dependent differences](https://github.com/pytorch/glow/issues/1556) | 6 |
 | xbmc/xbmc | [Make sorting locale-aware on Android](https://github.com/xbmc/xbmc/issues/15125) | 7 |
@@ -84,8 +86,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | [[ONNXModelLoader] Support for LogSoftmax operator is missing](https://github.com/pytorch/glow/issues/4399) | 16 |
 | pytorch/glow | [Use explicit std::string conversions instead of implicit llvm::StringRef->std::string conversions to prepare Glow for builds using LLVM >=11](https://github.com/pytorch/glow/issues/5068) | 18 |
 | godotengine/godot | [LightOccluder2D polygons cause editor slowdowns](https://github.com/godotengine/godot/issues/52703) | 18 |
-| opencv/opencv | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 24 |
 | godotengine/godot | [Using the RenderingServer to add a texture to the scene, the texture appears at bad position during one frame](https://github.com/godotengine/godot/issues/94988) | 24 |
+| opencv/opencv | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 25 |
 | godotengine/godot | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 28 |
 | godotengine/godot | [PointLight2D doesn't respect Nearest texture filter for normal-maps or shadows](https://github.com/godotengine/godot/issues/76266) | 28 |
 | tensorflow/tensorflow | [Feature Request: GPUOptions for Go binding](https://github.com/tensorflow/tensorflow/issues/22926) | 107 |
@@ -279,7 +281,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/moonlight | [Export stem directions in MusicXML](https://github.com/tensorflow/moonlight/issues/25) | 0 |
 | tensorflow/moonlight | [Chord duration correction](https://github.com/tensorflow/moonlight/issues/2) | 0 |
 | tensorflow/moonlight | [Export the key signature to MusicXML](https://github.com/tensorflow/moonlight/issues/1) | 0 |
-| pytorch/ao | [Accelerate activation sparsity with activation compression](https://github.com/pytorch/ao/issues/1920) | 0 |
 | pytorch/ao | [Unittests Migration Progress](https://github.com/pytorch/ao/issues/1621) | 0 |
 | pytorch/ao | [Learned fake quantize for QAT](https://github.com/pytorch/ao/issues/545) | 0 |
 | pytorch/ao | [Remove docstring duplications](https://github.com/pytorch/ao/issues/407) | 0 |
@@ -346,6 +347,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | ["Playbook not found for project" error when the playbook exist but is invalid ](https://github.com/ansible/awx/issues/6842) | 1 |
 | ansible/django-ansible-base | [Several unordered querysets](https://github.com/ansible/django-ansible-base/issues/178) | 1 |
 | tensorflow/agents | [Tutorial 1: Train a Deep Q Network with TF-Agents and the use of a driver](https://github.com/tensorflow/agents/issues/554) | 1 |
+| pytorch/ao | [Accelerate activation sparsity with activation compression](https://github.com/pytorch/ao/issues/1920) | 1 |
 | pytorch/ao | [[QAT] Low-bit FSDP all-gather for QAT](https://github.com/pytorch/ao/issues/1224) | 1 |
 | pytorch/ao | [[MX | Triton] Create MX matmul op using new `scaled_dot` op in Triton](https://github.com/pytorch/ao/issues/1084) | 1 |
 | pytorch/ao | [Add weight tensor-wise scaling for INT8 quantized and mixed-precision training](https://github.com/pytorch/ao/issues/1010) | 1 |
@@ -489,7 +491,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ao | [[low-bit optim] Add COAT optimizer](https://github.com/pytorch/ao/issues/1190) | 5 |
 | pytorch/ao | [The next tutorials](https://github.com/pytorch/ao/issues/426) | 5 |
 | pytorch/audio | [read mp3 file fail](https://github.com/pytorch/audio/issues/2867) | 5 |
-| pytorch/pytorch | [[Inductor] Inference failed with the compiled model with aminmax operator](https://github.com/pytorch/pytorch/issues/148808) | 5 |
 | pytorch/pytorch | [torch._dynamo.exc.Unsupported: builtin: bool [<class 'torch._dynamo.variables.tensor.SymNodeVariable'>] False](https://github.com/pytorch/pytorch/issues/136075) | 5 |
 | pytorch/pytorch | [AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible](https://github.com/pytorch/pytorch/issues/119191) | 5 |
 | pytorch/pytorch | [[dynamo] Missing support for many trivial builtin functions in operator](https://github.com/pytorch/pytorch/issues/116396) | 5 |
@@ -503,10 +504,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/similarity | [Create a colab for single shot to demonstrate how augmenters works](https://github.com/tensorflow/similarity/issues/74) | 6 |
 | pytorch/examples | [DCGAN C++ warning after PyTorch update](https://github.com/pytorch/examples/issues/819) | 6 |
 | pytorch/ignite | [Improve metrics tests](https://github.com/pytorch/ignite/issues/3335) | 6 |
+| pytorch/pytorch | [[Inductor] Inference failed with the compiled model with aminmax operator](https://github.com/pytorch/pytorch/issues/148808) | 6 |
 | pytorch/pytorch | [torch.nn.InstanceNorm2d throws "mixed dtype" error with track_running_stats set to True](https://github.com/pytorch/pytorch/issues/139140) | 6 |
 | pytorch/pytorch | [Docs are little bit outdated for torch logs](https://github.com/pytorch/pytorch/issues/137285) | 6 |
 | pytorch/pytorch | [dynamo (re)compilation issues: shape (1,1), nn.Parameter, mark_dynamic](https://github.com/pytorch/pytorch/issues/135011) | 6 |
-| pytorch/torchchat | [Simplify TokenizerArgs __post_init__: Unnecessarily verbose](https://github.com/pytorch/torchchat/issues/1518) | 6 |
 | huggingface/datasets | [Identical keywords in build_kwargs and config_kwargs lead to TypeError in load_dataset_builder()](https://github.com/huggingface/datasets/issues/4910) | 7 |
 | huggingface/datasets | [WMT21 & WMT22](https://github.com/huggingface/datasets/issues/4709) | 7 |
 | huggingface/huggingface_hub | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 7 |
@@ -531,7 +532,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [Dump bytecode of resumption frames in tlparse](https://github.com/pytorch/pytorch/issues/136038) | 8 |
 | pytorch/pytorch | [Torch Inductor Windows Path Escape Characters](https://github.com/pytorch/pytorch/issues/135954) | 8 |
 | pytorch/pytorch | [Using an empty tensor and `torch.int64` or `torch.bool` for `dtype` of `nanmean()` works while a non-empty tensor doesn't work](https://github.com/pytorch/pytorch/issues/131043) | 8 |
-| huggingface/diffusers | [Use of requests call without `timeout` parameter](https://github.com/huggingface/diffusers/issues/7730) | 9 |
+| pytorch/torchchat | [Simplify TokenizerArgs __post_init__: Unnecessarily verbose](https://github.com/pytorch/torchchat/issues/1518) | 8 |
 | huggingface/huggingface_hub | [Allow dry_run for snapshot_download](https://github.com/huggingface/huggingface_hub/issues/1023) | 9 |
 | pandas-dev/pandas | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
 | pandas-dev/pandas | [DOC: Fix formatting errors in docstrings](https://github.com/pandas-dev/pandas/issues/27977) | 9 |
@@ -545,6 +546,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/transformers | [MultiTask Classification and label_names on Trainer](https://github.com/huggingface/transformers/issues/33193) | 10 |
 | huggingface/transformers | [Tapas tokenization Different from Tensorflow Code](https://github.com/huggingface/transformers/issues/13244) | 10 |
 | pandas-dev/pandas | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 10 |
+| pandas-dev/pandas | [DOC: use shared_docs for isna/notna & isnull/notnull](https://github.com/pandas-dev/pandas/issues/17096) | 10 |
 | pytorch/ao | [[MPS] torchao low-bit-precision optim does not expose 'backend' argument to torch.compile](https://github.com/pytorch/ao/issues/955) | 10 |
 | pytorch/pytorch | [Improve typing of args and kwargs with ParamSpec](https://github.com/pytorch/pytorch/issues/142306) | 10 |
 | pytorch/pytorch | [Logging when executing fx.Interpreter](https://github.com/pytorch/pytorch/issues/117351) | 10 |
@@ -566,7 +568,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/datasets | [FolderBase Dataset automatically resolves under current directory when data_dir is not specified](https://github.com/huggingface/datasets/issues/6152) | 15 |
 | huggingface/datasets | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 15 |
 | huggingface/peft | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 15 |
-| pandas-dev/pandas | [BUG: `DataFrame.to_parquet` doesn't round-trip pyarrow StringDtype](https://github.com/pandas-dev/pandas/issues/42664) | 15 |
 | pandas-dev/pandas | [DOC: improve docs for broadcasting behavior](https://github.com/pandas-dev/pandas/issues/18857) | 15 |
 | huggingface/diffusers | [refactors pipelines inheriting from `StableDiffusionPipeline`](https://github.com/huggingface/diffusers/issues/6984) | 16 |
 | huggingface/transformers | [Follow ups to DocumentQuestionAnswering Pipeline](https://github.com/huggingface/transformers/issues/18926) | 16 |
@@ -603,7 +604,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | [DOC: Fix docs for various offset constructors](https://github.com/pandas-dev/pandas/issues/52431) | 29 |
 | huggingface/transformers | [Trying to add support for GPT2 as decoder in EncoderDecoder model](https://github.com/huggingface/transformers/issues/4483) | 31 |
 | huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 32 |
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 33 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 38 |
 | pandas-dev/pandas | [DOC: Additional items for the cheat sheet](https://github.com/pandas-dev/pandas/issues/40680) | 39 |
 | huggingface/transformers | [Community contribution: enable dynamic resolution input for more vision models.](https://github.com/huggingface/transformers/issues/30579) | 40 |
 | pandas-dev/pandas | [Various methods don't call call __finalize__](https://github.com/pandas-dev/pandas/issues/28283) | 48 |
