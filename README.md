@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-04-05</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-04-06</sub></sub>
 
 ### Batchfile
 
@@ -57,13 +57,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [[Request Impl] Apply Segment Serialization in Bundled Program](https://github.com/pytorch/executorch/issues/9771) | 2 |
 | pytorch/executorch | [Remove EXECUTORCH_BUILD_HOST_TARGETS](https://github.com/pytorch/executorch/issues/9404) | 2 |
 | pytorch/executorch | [Don't Serialize Scales/ZP in Flatbuffer](https://github.com/pytorch/executorch/issues/9029) | 2 |
-| pytorch/executorch | [Support Dynamically Quantized Convolutions](https://github.com/pytorch/executorch/issues/9021) | 2 |
 | pytorch/glow | [New files added under glow/test/models/ don't get copied to build folder until clean build is performed.](https://github.com/pytorch/glow/issues/4647) | 2 |
 | pytorch/glow | [Make all useful data structures in Glow easy to dump in a textual form](https://github.com/pytorch/glow/issues/2831) | 2 |
 | pytorch/glow | [[Importers] Move "run and compare" tests from importer tests to operator tests](https://github.com/pytorch/glow/issues/1909) | 2 |
 | pytorch/glow | [Need to canonicalize or optimize high-dim concat to concat+transpose](https://github.com/pytorch/glow/issues/1296) | 2 |
 | godotengine/godot | [`_OnTreeItemSelected()` signal receiver method using C# doesn't allow adding of items](https://github.com/godotengine/godot/issues/103101) | 2 |
 | tensorflow/minigo | [Support more GTP commands](https://github.com/tensorflow/minigo/issues/46) | 3 |
+| pytorch/executorch | [Support Dynamically Quantized Convolutions](https://github.com/pytorch/executorch/issues/9021) | 3 |
 | pytorch/executorch | [Optimized linear op doesn't support bias](https://github.com/pytorch/executorch/issues/8234) | 3 |
 | pytorch/glow | [Move layout information from nodes constructor' to their Glow types](https://github.com/pytorch/glow/issues/3790) | 3 |
 | pytorch/glow | [[habana] Implement backend specific verifications](https://github.com/pytorch/glow/issues/3480) | 3 |
@@ -76,11 +76,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | [Use gtest-parallel](https://github.com/pytorch/glow/issues/2412) | 5 |
 | pytorch/executorch | [_load_for_executorch pybinding cannot load model for training](https://github.com/pytorch/executorch/issues/4908) | 6 |
 | pytorch/glow | [Glow should provide its own implementation of a random number generator to ensure deterministic testing and avoid platform-dependent differences](https://github.com/pytorch/glow/issues/1556) | 6 |
-| pytorch/executorch | [[Request impl] Devtool end-to-end tests](https://github.com/pytorch/executorch/issues/9778) | 7 |
 | xbmc/xbmc | [Make sorting locale-aware on Android](https://github.com/xbmc/xbmc/issues/15125) | 7 |
-| godotengine/godot | [AnimationPlayerEditor inserts markers and keys at the mouse cursor position, not at the timeline cursor](https://github.com/godotengine/godot/issues/103272) | 8 |
+| pytorch/executorch | [[Request impl] Devtool end-to-end tests](https://github.com/pytorch/executorch/issues/9778) | 8 |
 | pytorch/glow | [Make the execution of the Glow compiler more deterministic between multiple runs](https://github.com/pytorch/glow/issues/1948) | 9 |
 | opencv/opencv_contrib | [reg: broken python sample](https://github.com/opencv/opencv_contrib/issues/1935) | 9 |
+| godotengine/godot | [AnimationPlayerEditor inserts markers and keys at the mouse cursor position, not at the timeline cursor](https://github.com/godotengine/godot/issues/103272) | 9 |
 | godotengine/godot | [Improve error reporting when rcedit fails to change icon / set PE data](https://github.com/godotengine/godot/issues/27765) | 9 |
 | opencv/opencv_contrib | [selectROI pointer almost invisible on certain colours](https://github.com/opencv/opencv_contrib/issues/1719) | 14 |
 | pytorch/glow | [[ONNXModelLoader] Support for LogSoftmax operator is missing](https://github.com/pytorch/glow/issues/4399) | 16 |
@@ -362,7 +362,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | [A question about weight initialization of embedding layer.](https://github.com/pytorch/examples/issues/595) | 1 |
 | pytorch/examples | [Changes needed to run DCGAN 32x32 ](https://github.com/pytorch/examples/issues/486) | 1 |
 | pytorch/examples | [ImageFolder doc should clarify 1. order that images returned in 2. that all classes are concatenated into a single list](https://github.com/pytorch/examples/issues/400) | 1 |
-| pytorch/ignite | [Add output_transform type check in Metric class](https://github.com/pytorch/ignite/issues/3352) | 1 |
 | pytorch/ignite | [Try to replace conda/setup-python with astral-uv if faster](https://github.com/pytorch/ignite/issues/3350) | 1 |
 | pytorch/PiPPy | [Support LayoutLM models in HF tests](https://github.com/pytorch/PiPPy/issues/247) | 1 |
 | pytorch/text | [torchtext main branch doesn't support pytorch2.0](https://github.com/pytorch/text/issues/2052) | 1 |
@@ -599,14 +598,14 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/transformers | [Getting time offsets of beginning and end of each word in Wav2Vec2](https://github.com/huggingface/transformers/issues/11307) | 25 |
 | pandas-dev/pandas | [CLN: Use dedup_names in all instances where duplicate column names are renamed](https://github.com/pandas-dev/pandas/issues/50371) | 26 |
 | huggingface/diffusers | [[Community Pipelines]](https://github.com/huggingface/diffusers/issues/841) | 27 |
-| pandas-dev/pandas | [DOC: fix docstring validation errors for `pandas.Timestamp`](https://github.com/pandas-dev/pandas/issues/59458) | 28 |
 | pytorch/ignite | [🥇 Everyone is welcome to contribute 💯 ](https://github.com/pytorch/ignite/issues/2026) | 28 |
+| pandas-dev/pandas | [DOC: fix docstring validation errors for `pandas.Timestamp`](https://github.com/pandas-dev/pandas/issues/59458) | 29 |
 | pandas-dev/pandas | [DOC: Fix docs for various offset constructors](https://github.com/pandas-dev/pandas/issues/52431) | 29 |
 | huggingface/transformers | [Trying to add support for GPT2 as decoder in EncoderDecoder model](https://github.com/huggingface/transformers/issues/4483) | 31 |
 | huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 33 |
 | pandas-dev/pandas | [DOC: Additional items for the cheat sheet](https://github.com/pandas-dev/pandas/issues/40680) | 39 |
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 40 |
 | huggingface/transformers | [Community contribution: enable dynamic resolution input for more vision models.](https://github.com/huggingface/transformers/issues/30579) | 40 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 41 |
 | pandas-dev/pandas | [Various methods don't call call __finalize__](https://github.com/pandas-dev/pandas/issues/28283) | 48 |
 | pytorch/examples | [New examples requested](https://github.com/pytorch/examples/issues/1131) | 48 |
 | fastapi/fastapi | [ApiKey Header documentation](https://github.com/fastapi/fastapi/issues/142) | 57 |
