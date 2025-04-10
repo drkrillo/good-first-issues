@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-04-09</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-04-10</sub></sub>
 
 ### Batchfile
 
@@ -55,7 +55,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [Python apis for loading and saving .ptd from dictionaries](https://github.com/pytorch/executorch/issues/8542) | 1 |
 | pytorch/glow | [[CPU] Remove the need for Rescale for the CPUMaxSplat](https://github.com/pytorch/glow/issues/4656) | 1 |
 | pytorch/multipy | [Add Poetry build to multipy](https://github.com/pytorch/multipy/issues/211) | 1 |
-| pytorch/executorch | [ExecuTorch Scalar to() supports fewer types than c10::Scalar, breaking source compatibility](https://github.com/pytorch/executorch/issues/9500) | 2 |
 | pytorch/executorch | [Remove EXECUTORCH_BUILD_HOST_TARGETS](https://github.com/pytorch/executorch/issues/9404) | 2 |
 | pytorch/executorch | [Don't Serialize Scales/ZP in Flatbuffer](https://github.com/pytorch/executorch/issues/9029) | 2 |
 | pytorch/executorch | [insert_write_back_for_buffers_pass should inject copy_ nodes at the earliest possible spot.](https://github.com/pytorch/executorch/issues/7345) | 2 |
@@ -63,12 +62,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | [Make all useful data structures in Glow easy to dump in a textual form](https://github.com/pytorch/glow/issues/2831) | 2 |
 | pytorch/glow | [[Importers] Move "run and compare" tests from importer tests to operator tests](https://github.com/pytorch/glow/issues/1909) | 2 |
 | pytorch/glow | [Need to canonicalize or optimize high-dim concat to concat+transpose](https://github.com/pytorch/glow/issues/1296) | 2 |
-| godotengine/godot | [`_OnTreeItemSelected()` signal receiver method using C# doesn't allow adding of items](https://github.com/godotengine/godot/issues/103101) | 2 |
 | tensorflow/minigo | [Support more GTP commands](https://github.com/tensorflow/minigo/issues/46) | 3 |
+| pytorch/executorch | [ExecuTorch Scalar to() supports fewer types than c10::Scalar, breaking source compatibility](https://github.com/pytorch/executorch/issues/9500) | 3 |
 | pytorch/executorch | [Support Dynamically Quantized Convolutions](https://github.com/pytorch/executorch/issues/9021) | 3 |
 | pytorch/executorch | [Optimized linear op doesn't support bias](https://github.com/pytorch/executorch/issues/8234) | 3 |
 | pytorch/glow | [Move layout information from nodes constructor' to their Glow types](https://github.com/pytorch/glow/issues/3790) | 3 |
 | pytorch/glow | [[habana] Implement backend specific verifications](https://github.com/pytorch/glow/issues/3480) | 3 |
+| godotengine/godot | [`_OnTreeItemSelected()` signal receiver method using C# doesn't allow adding of items](https://github.com/godotengine/godot/issues/103101) | 3 |
 | pytorch/glow | [[GraphOptz] Sink Quantize below Reshape](https://github.com/pytorch/glow/issues/4629) | 4 |
 | godotengine/godot | [Image.FORMAT_R8 uses Alpha in GLES2 instead of Red channel, this is not reflected in docs](https://github.com/godotengine/godot/issues/38974) | 4 |
 | pytorch/executorch | [Return "platform not supported" when using PyTorch on intel-based Macbooks](https://github.com/pytorch/executorch/issues/9772) | 5 |
@@ -84,7 +84,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | opencv/opencv_contrib | [reg: broken python sample](https://github.com/opencv/opencv_contrib/issues/1935) | 9 |
 | godotengine/godot | [AnimationPlayerEditor inserts markers and keys at the mouse cursor position, not at the timeline cursor](https://github.com/godotengine/godot/issues/103272) | 9 |
 | godotengine/godot | [Improve error reporting when rcedit fails to change icon / set PE data](https://github.com/godotengine/godot/issues/27765) | 9 |
-| pytorch/executorch | [[Request impl] Devtool end-to-end tests](https://github.com/pytorch/executorch/issues/9778) | 11 |
+| pytorch/executorch | [[Request impl] Devtool end-to-end tests](https://github.com/pytorch/executorch/issues/9778) | 14 |
 | opencv/opencv_contrib | [selectROI pointer almost invisible on certain colours](https://github.com/opencv/opencv_contrib/issues/1719) | 14 |
 | pytorch/glow | [[ONNXModelLoader] Support for LogSoftmax operator is missing](https://github.com/pytorch/glow/issues/4399) | 16 |
 | pytorch/glow | [Use explicit std::string conversions instead of implicit llvm::StringRef->std::string conversions to prepare Glow for builds using LLVM >=11](https://github.com/pytorch/glow/issues/5068) | 18 |
@@ -129,6 +129,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/receptor | [append conntype string representation in status output](https://github.com/ansible/receptor/issues/423) | 0 |
 | ansible/receptor | [add work status command to receptorctl](https://github.com/ansible/receptor/issues/374) | 1 |
 | ansible/receptor | [quality of life -- order work list output based on most recent work units](https://github.com/ansible/receptor/issues/425) | 2 |
+
+### HTML
+
+| Repo | Title | Comments |
+| --- | --- | --- |
+
+| monero-project/monero-site | [fragment linking to specific sections](https://github.com/monero-project/monero-site/issues/2435) | 1 |
 
 ### Java
 
@@ -457,7 +464,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/torchdistx | [Documentation for AnyPrecisionOptimizer](https://github.com/pytorch/torchdistx/issues/61) | 3 |
 | pytorch/torchtune | [Add add_end_token to Mistral tokenizer](https://github.com/pytorch/torchtune/issues/2479) | 3 |
 | pytorch/torchtune | [implement activation offloading and opt_in_bwd in knowledge_distillation recipes](https://github.com/pytorch/torchtune/issues/1959) | 3 |
-| pytorch/xla | [[scan] Avoid re-tracing the combine function on every call](https://github.com/pytorch/xla/issues/8632) | 3 |
 | pytorch/xla | [Op info test for `nn.functional.leaky_relu .. nn.functional.max_pool1d`](https://github.com/pytorch/xla/issues/7523) | 3 |
 | xbmc/addon-check | [Correct the mentioned pylint errors to get perfect 10. (missing-docstring)](https://github.com/xbmc/addon-check/issues/179) | 3 |
 | godotengine/godot-blender-exporter | [Blender object with negative scale](https://github.com/godotengine/godot-blender-exporter/issues/24) | 3 |
@@ -498,6 +504,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [torch._dynamo.exc.Unsupported: builtin: bool [<class 'torch._dynamo.variables.tensor.SymNodeVariable'>] False](https://github.com/pytorch/pytorch/issues/136075) | 5 |
 | pytorch/pytorch | [AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible](https://github.com/pytorch/pytorch/issues/119191) | 5 |
 | pytorch/torchft | [[CheckpointServer] use streaming transfers](https://github.com/pytorch/torchft/issues/36) | 5 |
+| pytorch/xla | [[scan] Avoid re-tracing the combine function on every call](https://github.com/pytorch/xla/issues/8632) | 5 |
 | huggingface/transformers | [FSDP Torch XLA vs. FSDPv2 (SMPD) Torch XLA checkpoint saving bug](https://github.com/huggingface/transformers/issues/36004) | 6 |
 | huggingface/transformers | [oom when using adafactor optimizer in deepspeed](https://github.com/huggingface/transformers/issues/33290) | 6 |
 | pandas-dev/pandas | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 6 |
@@ -605,10 +612,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ignite | [🥇 Everyone is welcome to contribute 💯 ](https://github.com/pytorch/ignite/issues/2026) | 28 |
 | pandas-dev/pandas | [DOC: Fix docs for various offset constructors](https://github.com/pandas-dev/pandas/issues/52431) | 29 |
 | huggingface/transformers | [Trying to add support for GPT2 as decoder in EncoderDecoder model](https://github.com/huggingface/transformers/issues/4483) | 31 |
-| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 35 |
+| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 38 |
 | pandas-dev/pandas | [DOC: Additional items for the cheat sheet](https://github.com/pandas-dev/pandas/issues/40680) | 39 |
 | huggingface/transformers | [Community contribution: enable dynamic resolution input for more vision models.](https://github.com/huggingface/transformers/issues/30579) | 40 |
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 43 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 44 |
 | pandas-dev/pandas | [Various methods don't call call __finalize__](https://github.com/pandas-dev/pandas/issues/28283) | 48 |
 | pytorch/examples | [New examples requested](https://github.com/pytorch/examples/issues/1131) | 48 |
 | fastapi/fastapi | [ApiKey Header documentation](https://github.com/fastapi/fastapi/issues/142) | 57 |
