@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-04-10</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-04-11</sub></sub>
 
 ### Batchfile
 
@@ -94,7 +94,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | godotengine/godot | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 28 |
 | godotengine/godot | [PointLight2D doesn't respect Nearest texture filter for normal-maps or shadows](https://github.com/godotengine/godot/issues/76266) | 28 |
 | tensorflow/tensorflow | [Feature Request: GPUOptions for Go binding](https://github.com/tensorflow/tensorflow/issues/22926) | 107 |
-| godotengine/godot | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 223 |
+| godotengine/godot | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 224 |
 
 ### Cython
 
@@ -212,7 +212,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/swift-models | [Object detection examples](https://github.com/tensorflow/swift-models/issues/149) | 2 |
 | pytorch/functorch | [Add vmap support for PyTorch operators](https://github.com/pytorch/functorch/issues/1088) | 2 |
 | pytorch/opacus | [Double-charging privacy in DC-GAN example](https://github.com/pytorch/opacus/issues/418) | 2 |
-| huggingface/agents-course | [Improve diagrams in unit 2.1](https://github.com/huggingface/agents-course/issues/233) | 3 |
 | tensorflow/adanet | [Allow one to forward features to predictions](https://github.com/tensorflow/adanet/issues/114) | 3 |
 | tensorflow/probability | [Feature Request: Alternative Horseshoe Parameterization as tfp distribution](https://github.com/tensorflow/probability/issues/1465) | 3 |
 | tensorflow/probability | [Please add example on NUTS sampling from posterior for Bayesian Logistic Regression](https://github.com/tensorflow/probability/issues/588) | 3 |
@@ -220,6 +219,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/probability | [CholeskyWishart distribution](https://github.com/tensorflow/probability/issues/527) | 3 |
 | tensorflow/probability | [improve text and visuals in Bayesian Gaussian mixture model tutorial](https://github.com/tensorflow/probability/issues/74) | 3 |
 | tensorflow/swift | [Installation verification tool](https://github.com/tensorflow/swift/issues/479) | 3 |
+| huggingface/agents-course | [Improve diagrams in unit 2.1](https://github.com/huggingface/agents-course/issues/233) | 4 |
 | tensorflow/probability | [A question about target_log_prob_fn](https://github.com/tensorflow/probability/issues/611) | 4 |
 | tensorflow/probability | [Provide a resimulation Metropolis TransitionKernel](https://github.com/tensorflow/probability/issues/218) | 4 |
 | tensorflow/swift-models | [Translation example](https://github.com/tensorflow/swift-models/issues/148) | 4 |
@@ -504,7 +504,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [torch._dynamo.exc.Unsupported: builtin: bool [<class 'torch._dynamo.variables.tensor.SymNodeVariable'>] False](https://github.com/pytorch/pytorch/issues/136075) | 5 |
 | pytorch/pytorch | [AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible](https://github.com/pytorch/pytorch/issues/119191) | 5 |
 | pytorch/torchft | [[CheckpointServer] use streaming transfers](https://github.com/pytorch/torchft/issues/36) | 5 |
-| pytorch/xla | [[scan] Avoid re-tracing the combine function on every call](https://github.com/pytorch/xla/issues/8632) | 5 |
 | huggingface/transformers | [FSDP Torch XLA vs. FSDPv2 (SMPD) Torch XLA checkpoint saving bug](https://github.com/huggingface/transformers/issues/36004) | 6 |
 | huggingface/transformers | [oom when using adafactor optimizer in deepspeed](https://github.com/huggingface/transformers/issues/33290) | 6 |
 | pandas-dev/pandas | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 6 |
@@ -517,6 +516,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [torch.nn.InstanceNorm2d throws "mixed dtype" error with track_running_stats set to True](https://github.com/pytorch/pytorch/issues/139140) | 6 |
 | pytorch/pytorch | [Docs are little bit outdated for torch logs](https://github.com/pytorch/pytorch/issues/137285) | 6 |
 | pytorch/pytorch | [dynamo (re)compilation issues: shape (1,1), nn.Parameter, mark_dynamic](https://github.com/pytorch/pytorch/issues/135011) | 6 |
+| pytorch/xla | [[scan] Avoid re-tracing the combine function on every call](https://github.com/pytorch/xla/issues/8632) | 6 |
 | huggingface/datasets | [Identical keywords in build_kwargs and config_kwargs lead to TypeError in load_dataset_builder()](https://github.com/huggingface/datasets/issues/4910) | 7 |
 | huggingface/datasets | [WMT21 & WMT22](https://github.com/huggingface/datasets/issues/4709) | 7 |
 | huggingface/huggingface_hub | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 7 |
@@ -584,12 +584,12 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | [DOC: add button to edit on GitHub](https://github.com/pandas-dev/pandas/issues/39859) | 16 |
 | pandas-dev/pandas | [Indexing on series where index is output from pd.cut ](https://github.com/pandas-dev/pandas/issues/27437) | 16 |
 | fastapi/fastapi | [Will FastAPI support QUERY http method? "app.query"](https://github.com/fastapi/fastapi/issues/12965) | 16 |
-| pytorch/pytorch | [Supporting custom attributes with `__torch_function__` tensor subclasses](https://github.com/pytorch/pytorch/issues/117806) | 16 |
 | pytorch/torchtune | [[Clean up] Move evaluation configs under model directories ](https://github.com/pytorch/torchtune/issues/1810) | 16 |
 | huggingface/datasets | [FolderBase Dataset automatically resolves under current directory when data_dir is not specified](https://github.com/huggingface/datasets/issues/6152) | 17 |
 | pandas-dev/pandas | [WEB: Multiple "Getting Started" on pandas.io leads to different links](https://github.com/pandas-dev/pandas/issues/32307) | 17 |
 | pandas-dev/pandas | [DOC: Generating docs doesn't work if path has whitespaces](https://github.com/pandas-dev/pandas/issues/22836) | 17 |
 | pytorch/ao | [Replace flash_4 with FlexAttention](https://github.com/pytorch/ao/issues/639) | 17 |
+| pytorch/pytorch | [Supporting custom attributes with `__torch_function__` tensor subclasses](https://github.com/pytorch/pytorch/issues/117806) | 17 |
 | huggingface/transformers | [Update no_trainer scripts to include gradient accumulation](https://github.com/huggingface/transformers/issues/18436) | 18 |
 | pytorch/ao | [Add codebook (look up table based) quantization flow in torchao](https://github.com/pytorch/ao/issues/1195) | 18 |
 | pytorch/audio | [Add Stereo to Mono Convertions](https://github.com/pytorch/audio/issues/877) | 18 |
@@ -612,10 +612,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ignite | [🥇 Everyone is welcome to contribute 💯 ](https://github.com/pytorch/ignite/issues/2026) | 28 |
 | pandas-dev/pandas | [DOC: Fix docs for various offset constructors](https://github.com/pandas-dev/pandas/issues/52431) | 29 |
 | huggingface/transformers | [Trying to add support for GPT2 as decoder in EncoderDecoder model](https://github.com/huggingface/transformers/issues/4483) | 31 |
-| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 38 |
+| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 39 |
 | pandas-dev/pandas | [DOC: Additional items for the cheat sheet](https://github.com/pandas-dev/pandas/issues/40680) | 39 |
 | huggingface/transformers | [Community contribution: enable dynamic resolution input for more vision models.](https://github.com/huggingface/transformers/issues/30579) | 40 |
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 44 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 45 |
 | pandas-dev/pandas | [Various methods don't call call __finalize__](https://github.com/pandas-dev/pandas/issues/28283) | 48 |
 | pytorch/examples | [New examples requested](https://github.com/pytorch/examples/issues/1131) | 48 |
 | fastapi/fastapi | [ApiKey Header documentation](https://github.com/fastapi/fastapi/issues/142) | 57 |
