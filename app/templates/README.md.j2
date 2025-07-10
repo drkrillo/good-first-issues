@@ -24,7 +24,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 ### {{ result.language }}
 | Repo | Title | Comments |
 |------|-------|----------|
-{% for issue in result.issues -%}
+{% for issue in result.issues %}
 | {{ issue.repo }} | [{{ issue.title }}]({{ issue.url }}) | {{ issue.comments }} |
-{%- endfor %}
+{% endfor %}
+
 {% endfor %}
