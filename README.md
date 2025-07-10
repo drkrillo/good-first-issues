@@ -687,8 +687,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/dataset-viewer | [Use "Sign-In with HF" instead of token in admin-UI](https://github.com/huggingface/dataset-viewer/issues/2373) | 2 |
 
-| huggingface/dataset-viewer | [Use `CONSTANT_LIST.copy` in list config fieds](https://github.com/huggingface/dataset-viewer/issues/1522) | 2 |
-
 | huggingface/lighteval | [Call for contributions: Translate lighteval's doc into Chinese](https://github.com/huggingface/lighteval/issues/716) | 2 |
 
 | huggingface/nanotron | [Avoid nested `InheritFromOtherOptimizer`](https://github.com/huggingface/nanotron/issues/267) | 2 |
@@ -787,6 +785,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/dataset-viewer | [Cache/Queue metrics should not be negative](https://github.com/huggingface/dataset-viewer/issues/2495) | 3 |
 
+| huggingface/dataset-viewer | [Use `CONSTANT_LIST.copy` in list config fieds](https://github.com/huggingface/dataset-viewer/issues/1522) | 3 |
+
 | huggingface/huggingface_hub | [Add options to the "delete-cache" command](https://github.com/huggingface/huggingface_hub/issues/1065) | 3 |
 
 | huggingface/optimum-habana | [Add support for max_length in run_generation](https://github.com/huggingface/optimum-habana/issues/472) | 3 |
@@ -842,8 +842,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | [Actor critic example not using discount rate properly](https://github.com/pytorch/examples/issues/744) | 3 |
 
 | pytorch/examples | ["omit freeze_support"](https://github.com/pytorch/examples/issues/323) | 3 |
-
-| pytorch/executorch | [Rename `executorch` cmake target to `prim_ops_lib`](https://github.com/pytorch/executorch/issues/11761) | 3 |
 
 | pytorch/executorch | [torch.split fails in to_edge](https://github.com/pytorch/executorch/issues/11723) | 3 |
 
@@ -913,6 +911,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/examples | [Add Siamese Network example](https://github.com/pytorch/examples/issues/645) | 4 |
 
+| pytorch/executorch | [Rename `executorch` cmake target to `prim_ops_lib`](https://github.com/pytorch/executorch/issues/11761) | 4 |
+
 | pytorch/pytorch | [aten.grid_sampler_3d.default is missing a c-shim implementation, using proxy executor as fallback](https://github.com/pytorch/pytorch/issues/147625) | 4 |
 
 | pytorch/pytorch | [If mark_dynamic fails (Not all values of RelaxedUnspecConstraint are valid) due to specialization, error message should print where specialization came from](https://github.com/pytorch/pytorch/issues/136002) | 4 |
@@ -928,8 +928,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | [Op info test for `nn.functional.avg_pool1d .. nn.functional.bilinear`](https://github.com/pytorch/xla/issues/7517) | 4 |
 
 | pytorch/xla | [Op info test for `linalg.lu_solve`](https://github.com/pytorch/xla/issues/7493) | 4 |
-
-| huggingface/accelerate | [a bug in remove_hook_from_module](https://github.com/huggingface/accelerate/issues/3672) | 5 |
 
 | huggingface/huggingface_hub | [Implement a `FlaxModelHubMixin`](https://github.com/huggingface/huggingface_hub/issues/1709) | 5 |
 
@@ -1199,7 +1197,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [[Community Event] Doc Tests Sprint](https://github.com/huggingface/transformers/issues/16292) | 104 |
 
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 134 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 136 |
 
 
 
