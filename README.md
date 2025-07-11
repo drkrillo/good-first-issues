@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-07-10</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-07-11</sub></sub>
 
 
 ### Batchfile
@@ -481,13 +481,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/examples | [Example code (mnist) does not work under torch.utils.bottleneck](https://github.com/pytorch/examples/issues/391) | 0 |
 
-| pytorch/executorch | [Consolidation of Selective Build APIs for OSS](https://github.com/pytorch/executorch/issues/11921) | 0 |
-
 | pytorch/executorch | [Support getting the delegated payload](https://github.com/pytorch/executorch/issues/11651) | 0 |
-
-| pytorch/executorch | [install_executorch.sh --clean should remove buck-out/](https://github.com/pytorch/executorch/issues/11564) | 0 |
-
-| pytorch/executorch | [Pass Dependencies when Proposing Partitions](https://github.com/pytorch/executorch/issues/11447) | 0 |
 
 | pytorch/executorch | [[Android] Rename JNI cpp file](https://github.com/pytorch/executorch/issues/10890) | 0 |
 
@@ -625,6 +619,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/examples | [Doc comment on `accuracy` method in imagenet example, incorrect?](https://github.com/pytorch/examples/issues/312) | 1 |
 
+| pytorch/executorch | [Consolidation of Selective Build APIs for OSS](https://github.com/pytorch/executorch/issues/11921) | 1 |
+
 | pytorch/executorch | [Support dim order in Java Tensor](https://github.com/pytorch/executorch/issues/11593) | 1 |
 
 | pytorch/executorch | [Add dynamism tests for xnnpack model tests](https://github.com/pytorch/executorch/issues/11585) | 1 |
@@ -633,7 +629,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | [Add pybindings for program.h/cpp and method.h/cpp](https://github.com/pytorch/executorch/issues/11567) | 1 |
 
+| pytorch/executorch | [install_executorch.sh --clean should remove buck-out/](https://github.com/pytorch/executorch/issues/11564) | 1 |
+
 | pytorch/executorch | [Implement load_into for the shared_ptr data loader](https://github.com/pytorch/executorch/issues/11562) | 1 |
+
+| pytorch/executorch | [Pass Dependencies when Proposing Partitions](https://github.com/pytorch/executorch/issues/11447) | 1 |
 
 | pytorch/executorch | [Remove the outdated warning in building from source documentation](https://github.com/pytorch/executorch/issues/11229) | 1 |
 
@@ -644,6 +644,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [Add timestamps for pte generation in CI](https://github.com/pytorch/executorch/issues/10761) | 1 |
 
 | pytorch/executorch | [Format CMakeLists.txt](https://github.com/pytorch/executorch/issues/10736) | 1 |
+
+| pytorch/executorch | [[Android] Use generic JNI instead of fbjni](https://github.com/pytorch/executorch/issues/10444) | 1 |
 
 | pytorch/PiPPy | [Support LayoutLM models in HF tests](https://github.com/pytorch/PiPPy/issues/247) | 1 |
 
@@ -745,8 +747,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/examples | [Imagenet training extremely low gpu utilization](https://github.com/pytorch/examples/issues/387) | 2 |
 
-| pytorch/executorch | [sym_max support in ExecuTorch](https://github.com/pytorch/executorch/issues/11988) | 2 |
-
 | pytorch/executorch | [Support Standalone Batch Norm](https://github.com/pytorch/executorch/issues/11586) | 2 |
 
 | pytorch/executorch | [Update Partitioner Dtype Logic](https://github.com/pytorch/executorch/issues/11581) | 2 |
@@ -845,8 +845,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | [torch.split fails in to_edge](https://github.com/pytorch/executorch/issues/11723) | 3 |
 
-| pytorch/executorch | [Support Linear Fused Batchnorm](https://github.com/pytorch/executorch/issues/11587) | 3 |
-
 | pytorch/executorch | [Import and extend c10/util/safe_numerics.h](https://github.com/pytorch/executorch/issues/11370) | 3 |
 
 | pytorch/executorch | [Get rid of fixed number cmake --build -j in sh and docs](https://github.com/pytorch/executorch/issues/10887) | 3 |
@@ -910,8 +908,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | [No matching function call  error in custom_dataset example ](https://github.com/pytorch/examples/issues/680) | 4 |
 
 | pytorch/examples | [Add Siamese Network example](https://github.com/pytorch/examples/issues/645) | 4 |
-
-| pytorch/executorch | [Rename `executorch` cmake target to `prim_ops_lib`](https://github.com/pytorch/executorch/issues/11761) | 4 |
 
 | pytorch/pytorch | [aten.grid_sampler_3d.default is missing a c-shim implementation, using proxy executor as fallback](https://github.com/pytorch/pytorch/issues/147625) | 4 |
 
@@ -981,7 +977,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/examples | [DCGAN C++ warning after PyTorch update](https://github.com/pytorch/examples/issues/819) | 6 |
 
+| pytorch/executorch | [Rename `executorch` cmake target to `prim_ops_lib`](https://github.com/pytorch/executorch/issues/11761) | 6 |
+
 | pytorch/executorch | [Manual kernel registration to include library names in API](https://github.com/pytorch/executorch/issues/11221) | 6 |
+
+| pytorch/executorch | [[Android] Add a Runtime.java](https://github.com/pytorch/executorch/issues/10439) | 6 |
 
 | pytorch/pytorch | [dynamo (re)compilation issues: shape (1,1), nn.Parameter, mark_dynamic](https://github.com/pytorch/pytorch/issues/135011) | 6 |
 
@@ -1095,8 +1095,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [Verify interpolation of image processors](https://github.com/huggingface/transformers/issues/28180) | 12 |
 
-| pandas-dev/pandas | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 12 |
-
 | pandas-dev/pandas | [DOC: section on caveats of storing lists inside DataFrame/Series](https://github.com/pandas-dev/pandas/issues/17027) | 12 |
 
 | pandas-dev/pandas | [inplace kwarg must be of bool type, but other boolean kwargs don't have this restriction](https://github.com/pandas-dev/pandas/issues/16714) | 12 |
@@ -1107,11 +1105,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [Object Detection Pipeline only outputs first element when batching](https://github.com/huggingface/transformers/issues/31356) | 13 |
 
+| pandas-dev/pandas | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 13 |
+
 | pandas-dev/pandas | [ENH/API: allow different values for labels/index in DF.reindex __OR__ raise error](https://github.com/pandas-dev/pandas/issues/21685) | 13 |
 
 | pandas-dev/pandas | [BUG: CustomBusinessDay not respecting calendar](https://github.com/pandas-dev/pandas/issues/60647) | 14 |
-
-| pandas-dev/pandas | [Updating value of a single row of a column using loc or at fails](https://github.com/pandas-dev/pandas/issues/22040) | 14 |
 
 | pandas-dev/pandas | [issue when shifting with Timedelta in a groupby](https://github.com/pandas-dev/pandas/issues/20492) | 14 |
 
@@ -1120,6 +1118,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/datasets | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 15 |
 
 | huggingface/transformers | [`ConditionalDetrImageProcessor` still accepts the deprecated parameter `max_size`](https://github.com/huggingface/transformers/issues/37939) | 15 |
+
+| pandas-dev/pandas | [Updating value of a single row of a column using loc or at fails](https://github.com/pandas-dev/pandas/issues/22040) | 15 |
 
 | huggingface/diffusers | [refactors pipelines inheriting from `StableDiffusionPipeline`](https://github.com/huggingface/diffusers/issues/6984) | 16 |
 
@@ -1165,8 +1165,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/peft | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 21 |
 
-| huggingface/transformers | [how to use EncoderDecoderModel to do en-de translation?](https://github.com/huggingface/transformers/issues/8944) | 21 |
-
 | pandas-dev/pandas | [BUG: groupby.sum() is inconsistent with df.sum() for large integers](https://github.com/pandas-dev/pandas/issues/34681) | 21 |
 
 | pandas-dev/pandas | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 21 |
@@ -1197,7 +1195,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [[Community Event] Doc Tests Sprint](https://github.com/huggingface/transformers/issues/16292) | 104 |
 
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 136 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 139 |
 
 
 
