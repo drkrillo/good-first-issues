@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-07-14</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-07-15</sub></sub>
 
 
 ### Batchfile
@@ -111,7 +111,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | opencv/opencv | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 29 |
 
-| godotengine/godot | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 29 |
+| godotengine/godot | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 30 |
 
 | godotengine/godot | [PointLight2D doesn't respect Nearest texture filter for normal-maps or shadows](https://github.com/godotengine/godot/issues/76266) | 30 |
 
@@ -335,9 +335,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | tensorflow/probability | [Any plans to update the examples to TensorFlow 2?](https://github.com/tensorflow/probability/issues/607) | 8 |
 
-| huggingface/huggingface-gemma-recipes | [📣 Call for contributions!](https://github.com/huggingface/huggingface-gemma-recipes/issues/4) | 9 |
-
 | tensorflow/probability | [Sample different weights for examples within a  batch](https://github.com/tensorflow/probability/issues/153) | 9 |
+
+| huggingface/huggingface-gemma-recipes | [📣 Call for contributions!](https://github.com/huggingface/huggingface-gemma-recipes/issues/4) | 10 |
 
 | tensorflow/probability | [[Feature Request] tensorflow_probability.distributions.GeneralizedGamma](https://github.com/tensorflow/probability/issues/1081) | 11 |
 
@@ -558,8 +558,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | [Op info test for `linalg.cholesky_ex`](https://github.com/pytorch/xla/issues/7463) | 0 |
 
 | pytorch/xla | [Op info test for `linalg.cholesky`](https://github.com/pytorch/xla/issues/7462) | 0 |
-
-| huggingface/accelerate | [Tracking with `WANDB_MODE="offline"` will not pass through the config dict](https://github.com/huggingface/accelerate/issues/3607) | 1 |
 
 | huggingface/dataset-viewer | [Use `revision_exists` (hfh)](https://github.com/huggingface/dataset-viewer/issues/2562) | 1 |
 
@@ -788,6 +786,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/optimum-habana | [Add support for max_length in run_generation](https://github.com/huggingface/optimum-habana/issues/472) | 3 |
 
 | huggingface/transfer-learning-conv-ai | [RuntimeError: shape '[-1, 2, 34]' is invalid for input of size 61710](https://github.com/huggingface/transfer-learning-conv-ai/issues/12) | 3 |
+
+| huggingface/transformers | [RuntimeError when loading llmcompressor W8A8 quantized model: int8 dtype in weight initialization](https://github.com/huggingface/transformers/issues/39366) | 3 |
 
 | huggingface/transformers | [Unknown Model (mobilenetv5_300m_enc) when loading Gemma 3n](https://github.com/huggingface/transformers/issues/39208) | 3 |
 
@@ -1027,8 +1027,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [Add argument to set number of eval steps in Trainer](https://github.com/huggingface/transformers/issues/31561) | 8 |
 
-| pandas-dev/pandas | [BUG: Creating Index name using `names` names argument, doesn't set index name](https://github.com/pandas-dev/pandas/issues/19082) | 8 |
-
 | ansible/awx | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 8 |
 
 | pytorch/pytorch | [Update `torch/nn/modules/conv.py` to use Literal for support padding modes](https://github.com/pytorch/pytorch/issues/152280) | 8 |
@@ -1046,6 +1044,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
 
 | pandas-dev/pandas | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 9 |
+
+| pandas-dev/pandas | [BUG: Creating Index name using `names` names argument, doesn't set index name](https://github.com/pandas-dev/pandas/issues/19082) | 9 |
 
 | tensorflow/similarity | [Lifted Structured loss](https://github.com/tensorflow/similarity/issues/102) | 9 |
 
@@ -1077,8 +1077,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [[trainer] figuring out why eval with `--fp16_full_eval` is 25% slower](https://github.com/huggingface/transformers/issues/10816) | 11 |
 
-| pandas-dev/pandas | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 11 |
-
 | pandas-dev/pandas-stubs | [type annotation for Index/MultiIndex.names is incorrect](https://github.com/pandas-dev/pandas-stubs/issues/804) | 11 |
 
 | tensorflow/quantum | [[Performance] Boost tfq.convert_to_tensor speed](https://github.com/tensorflow/quantum/issues/336) | 11 |
@@ -1094,6 +1092,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [Device check missing in torch.linalg.solve_triangular leading to hard crash](https://github.com/pytorch/pytorch/issues/142048) | 11 |
 
 | huggingface/transformers | [Verify interpolation of image processors](https://github.com/huggingface/transformers/issues/28180) | 12 |
+
+| pandas-dev/pandas | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 12 |
 
 | pandas-dev/pandas | [DOC: section on caveats of storing lists inside DataFrame/Series](https://github.com/pandas-dev/pandas/issues/17027) | 12 |
 
@@ -1118,8 +1118,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/transformers | [`ConditionalDetrImageProcessor` still accepts the deprecated parameter `max_size`](https://github.com/huggingface/transformers/issues/37939) | 15 |
 
 | pandas-dev/pandas | [BUG: CustomBusinessDay not respecting calendar](https://github.com/pandas-dev/pandas/issues/60647) | 15 |
-
-| huggingface/diffusers | [refactors pipelines inheriting from `StableDiffusionPipeline`](https://github.com/huggingface/diffusers/issues/6984) | 16 |
 
 | huggingface/transformers | [FSDP Torch XLA vs. FSDPv2 (SMPD) Torch XLA checkpoint saving bug](https://github.com/huggingface/transformers/issues/36004) | 16 |
 
@@ -1195,7 +1193,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [[Community Event] Doc Tests Sprint](https://github.com/huggingface/transformers/issues/16292) | 104 |
 
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 140 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 143 |
 
 
 
