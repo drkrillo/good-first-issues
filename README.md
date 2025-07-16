@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-07-15</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-07-16</sub></sub>
 
 
 ### Batchfile
@@ -83,13 +83,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/glow | [[GraphOptz] Sink Quantize below Reshape](https://github.com/pytorch/glow/issues/4629) | 4 |
 
-| godotengine/godot | [`_OnTreeItemSelected()` signal receiver method using C# doesn't allow adding of items](https://github.com/godotengine/godot/issues/103101) | 4 |
-
 | pytorch/glow | [Fuse RescaleQuantized in the ChannelwiseQuantizedConv](https://github.com/pytorch/glow/issues/4928) | 5 |
 
 | pytorch/glow | [Bring back the sinking RELU below Pool optimization](https://github.com/pytorch/glow/issues/3247) | 5 |
 
 | pytorch/glow | [Use gtest-parallel](https://github.com/pytorch/glow/issues/2412) | 5 |
+
+| godotengine/godot | [`_OnTreeItemSelected()` signal receiver method using C# doesn't allow adding of items](https://github.com/godotengine/godot/issues/103101) | 5 |
 
 | pytorch/glow | [Glow should provide its own implementation of a random number generator to ensure deterministic testing and avoid platform-dependent differences](https://github.com/pytorch/glow/issues/1556) | 6 |
 
@@ -631,8 +631,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | [Implement load_into for the shared_ptr data loader](https://github.com/pytorch/executorch/issues/11562) | 1 |
 
-| pytorch/executorch | [Pass Dependencies when Proposing Partitions](https://github.com/pytorch/executorch/issues/11447) | 1 |
-
 | pytorch/executorch | [Remove the outdated warning in building from source documentation](https://github.com/pytorch/executorch/issues/11229) | 1 |
 
 | pytorch/executorch | [Test exported models in Python](https://github.com/pytorch/executorch/issues/11225) | 1 |
@@ -678,8 +676,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | [Op info test for `index_reduce`](https://github.com/pytorch/xla/issues/7453) | 1 |
 
 | pytorch/xla | [[hard] Op info test for `histogramdd`](https://github.com/pytorch/xla/issues/7445) | 1 |
-
-| huggingface/accelerate | [NCCL timeout when try to save](https://github.com/huggingface/accelerate/issues/3512) | 2 |
 
 | huggingface/dataset-viewer | [use the `ROW_IDX_COLUMN` constant name instead of copying the value everywhere](https://github.com/huggingface/dataset-viewer/issues/2798) | 2 |
 
@@ -750,6 +746,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [Add torchao kernels to xcframework](https://github.com/pytorch/executorch/issues/10694) | 2 |
 
 | pytorch/executorch | [Need a feature to get etdump while running LLAMA model on qnn with qnn_llama_runner](https://github.com/pytorch/executorch/issues/10580) | 2 |
+
+| pytorch/executorch | [[Request impl] Gracefully error out in ETDump](https://github.com/pytorch/executorch/issues/9971) | 2 |
 
 | pytorch/PiPPy | [Make RemoteInterpreter use the full implementation of `Interpreter.run`](https://github.com/pytorch/PiPPy/issues/25) | 2 |
 
@@ -905,8 +903,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/examples | [Add Siamese Network example](https://github.com/pytorch/examples/issues/645) | 4 |
 
-| pytorch/pytorch | [[AOTI] Unit test for testing load_state_dict and](https://github.com/pytorch/pytorch/issues/157474) | 4 |
-
 | pytorch/pytorch | [aten.grid_sampler_3d.default is missing a c-shim implementation, using proxy executor as fallback](https://github.com/pytorch/pytorch/issues/147625) | 4 |
 
 | pytorch/pytorch | [If mark_dynamic fails (Not all values of RelaxedUnspecConstraint are valid) due to specialization, error message should print where specialization came from](https://github.com/pytorch/pytorch/issues/136002) | 4 |
@@ -955,6 +951,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/pytorch | [Improve error message for wrong number of arguments in CachingAutotuner](https://github.com/pytorch/pytorch/issues/146018) | 5 |
 
+| pytorch/pytorch | [AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible](https://github.com/pytorch/pytorch/issues/119191) | 5 |
+
 | pytorch/torchft | [Use bucketized model averaging for LocalSGD](https://github.com/pytorch/torchft/issues/66) | 5 |
 
 | pytorch/torchft | [[CheckpointServer] use streaming transfers](https://github.com/pytorch/torchft/issues/36) | 5 |
@@ -980,6 +978,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [Manual kernel registration to include library names in API](https://github.com/pytorch/executorch/issues/11221) | 6 |
 
 | pytorch/executorch | [[Android] Add a Runtime.java](https://github.com/pytorch/executorch/issues/10439) | 6 |
+
+| pytorch/pytorch | [torch.nn.InstanceNorm2d throws "mixed dtype" error with track_running_stats set to True](https://github.com/pytorch/pytorch/issues/139140) | 6 |
 
 | pytorch/pytorch | [dynamo (re)compilation issues: shape (1,1), nn.Parameter, mark_dynamic](https://github.com/pytorch/pytorch/issues/135011) | 6 |
 
@@ -1012,8 +1012,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [[Inductor] Inference failed with the compiled model with aminmax operator](https://github.com/pytorch/pytorch/issues/148808) | 7 |
 
 | pytorch/pytorch | [[BUG][PyTorch 2.0 Export][quant]:get_source_partitions() may return different matches with same input graph](https://github.com/pytorch/pytorch/issues/147170) | 7 |
-
-| pytorch/pytorch | [torch.nn.InstanceNorm2d throws "mixed dtype" error with track_running_stats set to True](https://github.com/pytorch/pytorch/issues/139140) | 7 |
 
 | pytorch/pytorch | [Docs are little bit outdated for torch logs](https://github.com/pytorch/pytorch/issues/137285) | 7 |
 
@@ -1193,7 +1191,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [[Community Event] Doc Tests Sprint](https://github.com/huggingface/transformers/issues/16292) | 104 |
 
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 143 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 144 |
 
 
 
