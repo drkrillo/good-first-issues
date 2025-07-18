@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-07-17</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-07-18</sub></sub>
 
 
 ### Batchfile
@@ -80,6 +80,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | [Move layout information from nodes constructor' to their Glow types](https://github.com/pytorch/glow/issues/3790) | 3 |
 
 | pytorch/glow | [[habana] Implement backend specific verifications](https://github.com/pytorch/glow/issues/3480) | 3 |
+
+| godotengine/godot | [VisibleOnScreenEnabler3D editor gizmo behaves differently from other 3D nodes](https://github.com/godotengine/godot/issues/102884) | 3 |
 
 | pytorch/glow | [[GraphOptz] Sink Quantize below Reshape](https://github.com/pytorch/glow/issues/4629) | 4 |
 
@@ -617,6 +619,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/examples | [Doc comment on `accuracy` method in imagenet example, incorrect?](https://github.com/pytorch/examples/issues/312) | 1 |
 
+| pytorch/executorch | [Add dim order variant clone operator](https://github.com/pytorch/executorch/issues/12645) | 1 |
+
 | pytorch/executorch | [Consolidation of Selective Build APIs for OSS](https://github.com/pytorch/executorch/issues/11921) | 1 |
 
 | pytorch/executorch | [Support dim order in Java Tensor](https://github.com/pytorch/executorch/issues/11593) | 1 |
@@ -746,8 +750,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [Add torchao kernels to xcframework](https://github.com/pytorch/executorch/issues/10694) | 2 |
 
 | pytorch/executorch | [Need a feature to get etdump while running LLAMA model on qnn with qnn_llama_runner](https://github.com/pytorch/executorch/issues/10580) | 2 |
-
-| pytorch/executorch | [[Request impl] Gracefully error out in ETDump](https://github.com/pytorch/executorch/issues/9971) | 2 |
 
 | pytorch/PiPPy | [Make RemoteInterpreter use the full implementation of `Interpreter.run`](https://github.com/pytorch/PiPPy/issues/25) | 2 |
 
@@ -1354,8 +1356,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | godotengine/godot-docs | [make_canvas_position_local](https://github.com/godotengine/godot-docs/issues/8313) | 1 |
 
 | godotengine/godot-docs | [Inconsistent code example between PhysicsShapeQueryParameters3D and PhysicsServer3D](https://github.com/godotengine/godot-docs/issues/8305) | 1 |
-
-| godotengine/godot-docs | [Document that C# `string`s are UTF16 while Godot `String`s are UTF32](https://github.com/godotengine/godot-docs/issues/7682) | 1 |
 
 | godotengine/godot-docs | [Rewording/amendment for Camera2D.align () function.](https://github.com/godotengine/godot-docs/issues/7307) | 1 |
 
