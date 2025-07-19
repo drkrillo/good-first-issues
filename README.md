@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-07-18</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-07-19</sub></sub>
 
 
 ### Batchfile
@@ -101,7 +101,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | godotengine/godot | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 9 |
 
-| godotengine/godot | [Improve error reporting when rcedit fails to change icon / set PE data](https://github.com/godotengine/godot/issues/27765) | 9 |
+| godotengine/godot | [Improve error reporting when rcedit fails to change icon / set PE data](https://github.com/godotengine/godot/issues/27765) | 10 |
 
 | opencv/opencv_contrib | [selectROI pointer almost invisible on certain colours](https://github.com/opencv/opencv_contrib/issues/1719) | 14 |
 
@@ -639,8 +639,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | [Test exported models in Python](https://github.com/pytorch/executorch/issues/11225) | 1 |
 
-| pytorch/executorch | [Re-inplace slice_copy with slice](https://github.com/pytorch/executorch/issues/10917) | 1 |
-
 | pytorch/executorch | [Add timestamps for pte generation in CI](https://github.com/pytorch/executorch/issues/10761) | 1 |
 
 | pytorch/executorch | [Format CMakeLists.txt](https://github.com/pytorch/executorch/issues/10736) | 1 |
@@ -747,9 +745,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | [Update Partitioner Dtype Logic](https://github.com/pytorch/executorch/issues/11581) | 2 |
 
+| pytorch/executorch | [Re-inplace slice_copy with slice](https://github.com/pytorch/executorch/issues/10917) | 2 |
+
 | pytorch/executorch | [Add torchao kernels to xcframework](https://github.com/pytorch/executorch/issues/10694) | 2 |
 
 | pytorch/executorch | [Need a feature to get etdump while running LLAMA model on qnn with qnn_llama_runner](https://github.com/pytorch/executorch/issues/10580) | 2 |
+
+| pytorch/executorch | [[Request impl] Gracefully error out in ETDump](https://github.com/pytorch/executorch/issues/9971) | 2 |
 
 | pytorch/PiPPy | [Make RemoteInterpreter use the full implementation of `Interpreter.run`](https://github.com/pytorch/PiPPy/issues/25) | 2 |
 
@@ -786,10 +788,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/optimum-habana | [Add support for max_length in run_generation](https://github.com/huggingface/optimum-habana/issues/472) | 3 |
 
 | huggingface/transfer-learning-conv-ai | [RuntimeError: shape '[-1, 2, 34]' is invalid for input of size 61710](https://github.com/huggingface/transfer-learning-conv-ai/issues/12) | 3 |
-
-| huggingface/transformers | [RuntimeError when loading llmcompressor W8A8 quantized model: int8 dtype in weight initialization](https://github.com/huggingface/transformers/issues/39366) | 3 |
-
-| huggingface/transformers | [Unknown Model (mobilenetv5_300m_enc) when loading Gemma 3n](https://github.com/huggingface/transformers/issues/39208) | 3 |
 
 | ansible/ansible-documentation | [Incorporate 'shared snippets' for the collection docs into the main rst files](https://github.com/ansible/ansible-documentation/issues/1382) | 3 |
 
@@ -841,8 +839,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | [torch.split fails in to_edge](https://github.com/pytorch/executorch/issues/11723) | 3 |
 
-| pytorch/executorch | [Import and extend c10/util/safe_numerics.h](https://github.com/pytorch/executorch/issues/11370) | 3 |
-
 | pytorch/executorch | [Get rid of fixed number cmake --build -j in sh and docs](https://github.com/pytorch/executorch/issues/10887) | 3 |
 
 | pytorch/executorch | [Consolidate executor_runners](https://github.com/pytorch/executorch/issues/10819) | 3 |
@@ -880,6 +876,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/lighteval | [[EVAL]: Add more African Benchmarks](https://github.com/huggingface/lighteval/issues/373) | 4 |
 
 | huggingface/lighteval | [Append revision to filepath in `--output_dir`?](https://github.com/huggingface/lighteval/issues/56) | 4 |
+
+| huggingface/transformers | [RuntimeError when loading llmcompressor W8A8 quantized model: int8 dtype in weight initialization](https://github.com/huggingface/transformers/issues/39366) | 4 |
+
+| huggingface/transformers | [Unknown Model (mobilenetv5_300m_enc) when loading Gemma 3n](https://github.com/huggingface/transformers/issues/39208) | 4 |
 
 | huggingface/transformers | [OWL-VIT Vision Foundation Model deployment in the edge cases - Need SDPA support for OWL-ViT Model optimization for Edge Deployment](https://github.com/huggingface/transformers/issues/28103) | 4 |
 
@@ -1191,7 +1191,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [[Community Event] Doc Tests Sprint](https://github.com/huggingface/transformers/issues/16292) | 104 |
 
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 146 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 147 |
 
 
 
