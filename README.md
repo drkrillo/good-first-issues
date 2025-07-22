@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-07-21</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-07-22</sub></sub>
 
 
 ### Batchfile
@@ -66,6 +66,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | [[CPU] Remove the need for Rescale for the CPUMaxSplat](https://github.com/pytorch/glow/issues/4656) | 1 |
 
 | pytorch/multipy | [Add Poetry build to multipy](https://github.com/pytorch/multipy/issues/211) | 1 |
+
+| godotengine/godot | [Animation Tree panel: zooming on Animation Blend Tree nodes show blurry text](https://github.com/godotengine/godot/issues/91814) | 1 |
 
 | pytorch/glow | [New files added under glow/test/models/ don't get copied to build folder until clean build is performed.](https://github.com/pytorch/glow/issues/4647) | 2 |
 
@@ -441,8 +443,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/nanotron | [[Feature] Refactor `ParallelContext.world_rank_matrix`](https://github.com/huggingface/nanotron/issues/77) | 0 |
 
-| huggingface/transformers | [ValueError: You cannot specify both decoder_input_ids and decoder_inputs_embeds at the same time](https://github.com/huggingface/transformers/issues/39542) | 0 |
-
 | ansible/ansible-dev-tools | [Ensure tests are passing with devspaces container](https://github.com/ansible/ansible-dev-tools/issues/467) | 0 |
 
 | ansible/ansible-jupyter-kernel | [Add support for handlers](https://github.com/ansible/ansible-jupyter-kernel/issues/53) | 0 |
@@ -494,6 +494,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [[CMake] Potentially duplicated srcs in llama_runner build](https://github.com/pytorch/executorch/issues/10686) | 0 |
 
 | pytorch/executorch | [[Android] Add method metadata report API in Module.java](https://github.com/pytorch/executorch/issues/10453) | 0 |
+
+| pytorch/ignite | [Fix FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.](https://github.com/pytorch/ignite/issues/3435) | 0 |
 
 | pytorch/PiPPy | [Support Segformer models in HF tests](https://github.com/pytorch/PiPPy/issues/592) | 0 |
 
@@ -879,8 +881,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lighteval | [Append revision to filepath in `--output_dir`?](https://github.com/huggingface/lighteval/issues/56) | 4 |
 
-| huggingface/transformers | [text-generation extremely slow with large `bad_words_ids` list](https://github.com/huggingface/transformers/issues/39512) | 4 |
-
 | huggingface/transformers | [RuntimeError when loading llmcompressor W8A8 quantized model: int8 dtype in weight initialization](https://github.com/huggingface/transformers/issues/39366) | 4 |
 
 | huggingface/transformers | [OWL-VIT Vision Foundation Model deployment in the edge cases - Need SDPA support for OWL-ViT Model optimization for Edge Deployment](https://github.com/huggingface/transformers/issues/28103) | 4 |
@@ -933,7 +933,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/optimum-benchmark | [Evaluators for specific tasks](https://github.com/huggingface/optimum-benchmark/issues/34) | 5 |
 
-| huggingface/transformers | [Unknown Model (mobilenetv5_300m_enc) when loading Gemma 3n](https://github.com/huggingface/transformers/issues/39208) | 5 |
+| huggingface/transformers | [text-generation extremely slow with large `bad_words_ids` list](https://github.com/huggingface/transformers/issues/39512) | 5 |
 
 | huggingface/transformers | [Trainer.training_step incorrectly normalizes mean token loss when n_gpu > 1](https://github.com/huggingface/transformers/issues/37474) | 5 |
 
@@ -965,6 +965,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lighteval | [[FT] Improve Documentation and Examples](https://github.com/huggingface/lighteval/issues/682) | 6 |
 
+| huggingface/transformers | [ValueError: You cannot specify both decoder_input_ids and decoder_inputs_embeds at the same time](https://github.com/huggingface/transformers/issues/39542) | 6 |
+
+| huggingface/transformers | [Unknown Model (mobilenetv5_300m_enc) when loading Gemma 3n](https://github.com/huggingface/transformers/issues/39208) | 6 |
+
 | pandas-dev/pandas | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 6 |
 
 | pandas-dev/pandas | [DOC: pivot function](https://github.com/pandas-dev/pandas/issues/16578) | 6 |
@@ -994,8 +998,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/huggingface_hub | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 7 |
 
 | huggingface/transformers | [oom when using adafactor optimizer in deepspeed](https://github.com/huggingface/transformers/issues/33290) | 7 |
-
-| pandas-dev/pandas | [BUG: assert_frame_equal(check_dtype=False) fails when comparing two DFs containing pd.NA that only differ in dtype (object vs Int32)](https://github.com/pandas-dev/pandas/issues/61473) | 7 |
 
 | pandas-dev/pandas | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 7 |
 
@@ -1027,11 +1029,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [Add argument to set number of eval steps in Trainer](https://github.com/huggingface/transformers/issues/31561) | 8 |
 
+| pandas-dev/pandas | [BUG: assert_frame_equal(check_dtype=False) fails when comparing two DFs containing pd.NA that only differ in dtype (object vs Int32)](https://github.com/pandas-dev/pandas/issues/61473) | 8 |
+
 | ansible/awx | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 8 |
 
 | pytorch/pytorch | [Remove redundant type aliases of _device for torch.Device](https://github.com/pytorch/pytorch/issues/152952) | 8 |
-
-| pytorch/pytorch | [Update `torch/nn/modules/conv.py` to use Literal for support padding modes](https://github.com/pytorch/pytorch/issues/152280) | 8 |
 
 | pytorch/pytorch | [Using an empty tensor and `torch.int64` or `torch.bool` for `dtype` of `nanmean()` works while a non-empty tensor doesn't work](https://github.com/pytorch/pytorch/issues/131043) | 8 |
 
@@ -1048,6 +1050,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | [BUG: Creating Index name using `names` names argument, doesn't set index name](https://github.com/pandas-dev/pandas/issues/19082) | 9 |
 
 | tensorflow/similarity | [Lifted Structured loss](https://github.com/tensorflow/similarity/issues/102) | 9 |
+
+| pytorch/pytorch | [Update `torch/nn/modules/conv.py` to use Literal for support padding modes](https://github.com/pytorch/pytorch/issues/152280) | 9 |
 
 | pytorch/pytorch | [[inductor] `torch.slice_scatter` throws `AssertionError` when meeting internal `float32`](https://github.com/pytorch/pytorch/issues/147842) | 9 |
 
@@ -1191,11 +1195,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | fastapi/fastapi | [ApiKey Header documentation](https://github.com/fastapi/fastapi/issues/142) | 57 |
 
-| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 59 |
+| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 60 |
 
 | huggingface/transformers | [[Community Event] Doc Tests Sprint](https://github.com/huggingface/transformers/issues/16292) | 104 |
 
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 147 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 149 |
 
 
 
