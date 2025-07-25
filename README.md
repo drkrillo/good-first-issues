@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-07-24</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-07-25</sub></sub>
 
 
 ### Batchfile
@@ -623,7 +623,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/examples | [Doc comment on `accuracy` method in imagenet example, incorrect?](https://github.com/pytorch/examples/issues/312) | 1 |
 
-| pytorch/executorch | [Add dim order variant clone operator](https://github.com/pytorch/executorch/issues/12645) | 1 |
+| pytorch/executorch | [Add pybindings for text LLM runner](https://github.com/pytorch/executorch/issues/12790) | 1 |
 
 | pytorch/executorch | [Consolidation of Selective Build APIs for OSS](https://github.com/pytorch/executorch/issues/11921) | 1 |
 
@@ -637,6 +637,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | [Implement load_into for the shared_ptr data loader](https://github.com/pytorch/executorch/issues/11562) | 1 |
 
+| pytorch/executorch | [Remove the outdated warning in building from source documentation](https://github.com/pytorch/executorch/issues/11229) | 1 |
+
 | pytorch/executorch | [Test exported models in Python](https://github.com/pytorch/executorch/issues/11225) | 1 |
 
 | pytorch/executorch | [Add timestamps for pte generation in CI](https://github.com/pytorch/executorch/issues/10761) | 1 |
@@ -646,8 +648,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [[Android] Use generic JNI instead of fbjni](https://github.com/pytorch/executorch/issues/10444) | 1 |
 
 | pytorch/PiPPy | [Support LayoutLM models in HF tests](https://github.com/pytorch/PiPPy/issues/247) | 1 |
-
-| pytorch/pytorch | [Enable foreach_map to assert if kernel is not fully fused](https://github.com/pytorch/pytorch/issues/158968) | 1 |
 
 | pytorch/text | [torchtext main branch doesn't support pytorch2.0](https://github.com/pytorch/text/issues/2052) | 1 |
 
@@ -755,11 +755,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | [Need a feature to get etdump while running LLAMA model on qnn with qnn_llama_runner](https://github.com/pytorch/executorch/issues/10580) | 2 |
 
-| pytorch/executorch | [[Request impl] Gracefully error out in ETDump](https://github.com/pytorch/executorch/issues/9971) | 2 |
-
-| pytorch/ignite | [Fix FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.](https://github.com/pytorch/ignite/issues/3435) | 2 |
-
 | pytorch/PiPPy | [Make RemoteInterpreter use the full implementation of `Interpreter.run`](https://github.com/pytorch/PiPPy/issues/25) | 2 |
+
+| pytorch/pytorch | [Enable foreach_map to assert if kernel is not fully fused](https://github.com/pytorch/pytorch/issues/158968) | 2 |
 
 | pytorch/rl | [[Feature Request] Make sure that all losses work with tensorclasses and regular tensors](https://github.com/pytorch/rl/issues/1062) | 2 |
 
@@ -935,8 +933,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/optimum-benchmark | [Evaluators for specific tasks](https://github.com/huggingface/optimum-benchmark/issues/34) | 5 |
 
-| huggingface/transformers | [text-generation extremely slow with large `bad_words_ids` list](https://github.com/huggingface/transformers/issues/39512) | 5 |
-
 | huggingface/transformers | [Trainer.training_step incorrectly normalizes mean token loss when n_gpu > 1](https://github.com/huggingface/transformers/issues/37474) | 5 |
 
 | ansible/awx | [ adhoc jobs block other jobs from being processed in the queue](https://github.com/ansible/awx/issues/14645) | 5 |
@@ -954,6 +950,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ao | [The next tutorials](https://github.com/pytorch/ao/issues/426) | 5 |
 
 | pytorch/audio | [read mp3 file fail](https://github.com/pytorch/audio/issues/2867) | 5 |
+
+| pytorch/executorch | [Add dim order variant clone operator](https://github.com/pytorch/executorch/issues/12645) | 5 |
+
+| pytorch/ignite | [Fix FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.](https://github.com/pytorch/ignite/issues/3435) | 5 |
 
 | pytorch/pytorch | [Improve error message for wrong number of arguments in CachingAutotuner](https://github.com/pytorch/pytorch/issues/146018) | 5 |
 
@@ -983,6 +983,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/examples | [DCGAN C++ warning after PyTorch update](https://github.com/pytorch/examples/issues/819) | 6 |
 
+| pytorch/executorch | [Manual kernel registration to include library names in API](https://github.com/pytorch/executorch/issues/11221) | 6 |
+
 | pytorch/executorch | [[Android] Add a Runtime.java](https://github.com/pytorch/executorch/issues/10439) | 6 |
 
 | pytorch/pytorch | [torch.nn.InstanceNorm2d throws "mixed dtype" error with track_running_stats set to True](https://github.com/pytorch/pytorch/issues/139140) | 6 |
@@ -1007,7 +1009,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/examples | [Why don't we use MSE as a reconstruction loss for VAE ?](https://github.com/pytorch/examples/issues/399) | 7 |
 
-| pytorch/executorch | [[Request Impl] Apply Segment Serialization in Bundled Program](https://github.com/pytorch/executorch/issues/9771) | 7 |
+| pytorch/executorch | [Rename `executorch` cmake target to `prim_ops_lib`](https://github.com/pytorch/executorch/issues/11761) | 7 |
 
 | pytorch/pytorch | [[Feature request] `torch.export` .save/.load could support `safetensors` and/or `weights_only=True`](https://github.com/pytorch/pytorch/issues/153410) | 7 |
 
@@ -1027,11 +1029,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [Add argument to set number of eval steps in Trainer](https://github.com/huggingface/transformers/issues/31561) | 8 |
 
-| pandas-dev/pandas | [BUG: assert_frame_equal(check_dtype=False) fails when comparing two DFs containing pd.NA that only differ in dtype (object vs Int32)](https://github.com/pandas-dev/pandas/issues/61473) | 8 |
-
 | ansible/awx | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 8 |
-
-| pytorch/pytorch | [Remove redundant type aliases of _device for torch.Device](https://github.com/pytorch/pytorch/issues/152952) | 8 |
 
 | pytorch/pytorch | [Using an empty tensor and `torch.int64` or `torch.bool` for `dtype` of `nanmean()` works while a non-empty tensor doesn't work](https://github.com/pytorch/pytorch/issues/131043) | 8 |
 
@@ -1049,6 +1047,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | tensorflow/similarity | [Lifted Structured loss](https://github.com/tensorflow/similarity/issues/102) | 9 |
 
+| pytorch/pytorch | [Remove redundant type aliases of _device for torch.Device](https://github.com/pytorch/pytorch/issues/152952) | 9 |
+
 | pytorch/pytorch | [Update `torch/nn/modules/conv.py` to use Literal for support padding modes](https://github.com/pytorch/pytorch/issues/152280) | 9 |
 
 | pytorch/pytorch | [[inductor] `torch.slice_scatter` throws `AssertionError` when meeting internal `float32`](https://github.com/pytorch/pytorch/issues/147842) | 9 |
@@ -1059,15 +1059,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [Tapas tokenization Different from Tensorflow Code](https://github.com/huggingface/transformers/issues/13244) | 10 |
 
-| pandas-dev/pandas | [ENH: Add Polars engine to read_csv](https://github.com/pandas-dev/pandas/issues/61813) | 10 |
+| pandas-dev/pandas | [BUG: assert_frame_equal(check_dtype=False) fails when comparing two DFs containing pd.NA that only differ in dtype (object vs Int32)](https://github.com/pandas-dev/pandas/issues/61473) | 10 |
 
 | pandas-dev/pandas | [DOC: Fix formatting errors in docstrings](https://github.com/pandas-dev/pandas/issues/27977) | 10 |
 
-| pandas-dev/pandas | [DOC: use shared_docs for isna/notna & isnull/notnull](https://github.com/pandas-dev/pandas/issues/17096) | 10 |
-
 | pytorch/ao | [[MPS] torchao low-bit-precision optim does not expose 'backend' argument to torch.compile](https://github.com/pytorch/ao/issues/955) | 10 |
-
-| pytorch/executorch | [Check tensor's dim order ambiguity in IR verifier](https://github.com/pytorch/executorch/issues/9942) | 10 |
 
 | pytorch/pytorch | [Dump bytecode of resumption frames in tlparse](https://github.com/pytorch/pytorch/issues/136038) | 10 |
 
@@ -1082,6 +1078,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/transformers | [MultiTask Classification and label_names on Trainer](https://github.com/huggingface/transformers/issues/33193) | 11 |
 
 | huggingface/transformers | [[trainer] figuring out why eval with `--fp16_full_eval` is 25% slower](https://github.com/huggingface/transformers/issues/10816) | 11 |
+
+| pandas-dev/pandas | [ENH: Add Polars engine to read_csv](https://github.com/pandas-dev/pandas/issues/61813) | 11 |
+
+| pandas-dev/pandas | [DOC: use shared_docs for isna/notna & isnull/notnull](https://github.com/pandas-dev/pandas/issues/17096) | 11 |
 
 | pandas-dev/pandas-stubs | [type annotation for Index/MultiIndex.names is incorrect](https://github.com/pandas-dev/pandas-stubs/issues/804) | 11 |
 
@@ -1155,8 +1155,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/audio | [Add Stereo to Mono Convertions](https://github.com/pytorch/audio/issues/877) | 18 |
 
-| pytorch/executorch | [[Request impl] Devtool end-to-end tests](https://github.com/pytorch/executorch/issues/9778) | 18 |
-
 | pytorch/torchtune | [[Clean up] Move evaluation configs under model directories ](https://github.com/pytorch/torchtune/issues/1810) | 18 |
 
 | huggingface/transformers | [Accelerate x Trainer issue tracker:](https://github.com/huggingface/transformers/issues/33345) | 19 |
@@ -1197,11 +1195,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | fastapi/fastapi | [ApiKey Header documentation](https://github.com/fastapi/fastapi/issues/142) | 57 |
 
-| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 60 |
+| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 62 |
 
 | huggingface/transformers | [[Community Event] Doc Tests Sprint](https://github.com/huggingface/transformers/issues/16292) | 104 |
 
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 149 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 151 |
 
 
 
