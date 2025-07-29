@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-07-28</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-07-29</sub></sub>
 
 
 ### Batchfile
@@ -85,8 +85,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/glow | [[GraphOptz] Sink Quantize below Reshape](https://github.com/pytorch/glow/issues/4629) | 4 |
 
-| godotengine/godot | [Custom icon conversion for light themes not working](https://github.com/godotengine/godot/issues/108770) | 4 |
-
 | godotengine/godot | [VisibleOnScreenEnabler3D editor gizmo behaves differently from other 3D nodes](https://github.com/godotengine/godot/issues/102884) | 4 |
 
 | pytorch/glow | [Fuse RescaleQuantized in the ChannelwiseQuantizedConv](https://github.com/pytorch/glow/issues/4928) | 5 |
@@ -95,9 +93,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/glow | [Use gtest-parallel](https://github.com/pytorch/glow/issues/2412) | 5 |
 
+| godotengine/godot | [Clip children clips CollisionShape2D visualization.](https://github.com/godotengine/godot/issues/108800) | 5 |
+
 | godotengine/godot | [`_OnTreeItemSelected()` signal receiver method using C# doesn't allow adding of items](https://github.com/godotengine/godot/issues/103101) | 5 |
 
 | pytorch/glow | [Glow should provide its own implementation of a random number generator to ensure deterministic testing and avoid platform-dependent differences](https://github.com/pytorch/glow/issues/1556) | 6 |
+
+| godotengine/godot | [Custom icon conversion for light themes not working](https://github.com/godotengine/godot/issues/108770) | 6 |
 
 | pytorch/glow | [Make the execution of the Glow compiler more deterministic between multiple runs](https://github.com/pytorch/glow/issues/1948) | 9 |
 
@@ -384,6 +386,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 ### PostScript
 | Repo | Title | Comments |
 |------|-------|----------|
+
+| django/djangoproject.com | [https://dashboard.djangoproject.com/foundation/corporate-membership/ > RETURNS 404](https://github.com/django/djangoproject.com/issues/2139) | 3 |
 
 | django/djangoproject.com | [Github login doesn't work for community pages](https://github.com/django/djangoproject.com/issues/835) | 3 |
 
@@ -853,8 +857,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/pytorch | [[export] Schematize nn_module_stack serialization](https://github.com/pytorch/pytorch/issues/131941) | 3 |
 
-| pytorch/pytorch | [torch.fx.Tracer.record_stack_traces is broken in torch 2.4.0](https://github.com/pytorch/pytorch/issues/130861) | 3 |
-
 | pytorch/torchchat | [Improve Tokenizer New Type Onboarding](https://github.com/pytorch/torchchat/issues/1536) | 3 |
 
 | pytorch/torchchat | [[UX] We are too quiet about errors - in particular missing HF authentication...](https://github.com/pytorch/torchchat/issues/782) | 3 |
@@ -872,6 +874,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | xbmc/addon-check | [Correct the mentioned pylint errors to get perfect 10. (missing-docstring)](https://github.com/xbmc/addon-check/issues/179) | 3 |
 
 | godotengine/godot-blender-exporter | [Blender object with negative scale](https://github.com/godotengine/godot-blender-exporter/issues/24) | 3 |
+
+| huggingface/accelerate | [[Docs] Update low-precision training docs for MS-AMP](https://github.com/huggingface/accelerate/issues/3639) | 4 |
 
 | huggingface/accelerate | [RuntimeError: Tensor on device meta is not on the expected device cuda:0!](https://github.com/huggingface/accelerate/issues/3542) | 4 |
 
@@ -910,6 +914,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [aten.grid_sampler_3d.default is missing a c-shim implementation, using proxy executor as fallback](https://github.com/pytorch/pytorch/issues/147625) | 4 |
 
 | pytorch/pytorch | [If mark_dynamic fails (Not all values of RelaxedUnspecConstraint are valid) due to specialization, error message should print where specialization came from](https://github.com/pytorch/pytorch/issues/136002) | 4 |
+
+| pytorch/pytorch | [torch.fx.Tracer.record_stack_traces is broken in torch 2.4.0](https://github.com/pytorch/pytorch/issues/130861) | 4 |
 
 | pytorch/rl | [[Feature Request] Missing ActionScaling and FlattenAction ](https://github.com/pytorch/rl/issues/1209) | 4 |
 
@@ -979,8 +985,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/examples | [DCGAN C++ warning after PyTorch update](https://github.com/pytorch/examples/issues/819) | 6 |
 
-| pytorch/executorch | [Add dim order variant clone operator](https://github.com/pytorch/executorch/issues/12645) | 6 |
-
 | pytorch/executorch | [Manual kernel registration to include library names in API](https://github.com/pytorch/executorch/issues/11221) | 6 |
 
 | pytorch/executorch | [[Android] Add a Runtime.java](https://github.com/pytorch/executorch/issues/10439) | 6 |
@@ -1003,13 +1007,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 7 |
 
-| pandas-dev/pandas-stubs | [Addition of a Series[int] with a complex returns Series[unknown]](https://github.com/pandas-dev/pandas-stubs/issues/1098) | 7 |
-
 | tensorflow/similarity | [Implement SwAV for self-supervised learning](https://github.com/tensorflow/similarity/issues/208) | 7 |
 
 | pytorch/audio | [Use non-persistent buffers](https://github.com/pytorch/audio/issues/3059) | 7 |
 
 | pytorch/examples | [Why don't we use MSE as a reconstruction loss for VAE ?](https://github.com/pytorch/examples/issues/399) | 7 |
+
+| pytorch/executorch | [Add dim order variant clone operator](https://github.com/pytorch/executorch/issues/12645) | 7 |
 
 | pytorch/executorch | [Rename `executorch` cmake target to `prim_ops_lib`](https://github.com/pytorch/executorch/issues/11761) | 7 |
 
@@ -1043,8 +1047,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
 
-| pandas-dev/pandas | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 9 |
-
 | pandas-dev/pandas | [BUG: Creating Index name using `names` names argument, doesn't set index name](https://github.com/pandas-dev/pandas/issues/19082) | 9 |
 
 | tensorflow/similarity | [Lifted Structured loss](https://github.com/tensorflow/similarity/issues/102) | 9 |
@@ -1058,6 +1060,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/lighteval | [[EVAL] Add TUMLU benchmark](https://github.com/huggingface/lighteval/issues/577) | 10 |
 
 | huggingface/transformers | [Tapas tokenization Different from Tensorflow Code](https://github.com/huggingface/transformers/issues/13244) | 10 |
+
+| pandas-dev/pandas | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 10 |
 
 | pandas-dev/pandas | [DOC: Fix formatting errors in docstrings](https://github.com/pandas-dev/pandas/issues/27977) | 10 |
 
@@ -1195,11 +1199,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | fastapi/fastapi | [ApiKey Header documentation](https://github.com/fastapi/fastapi/issues/142) | 57 |
 
-| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 66 |
+| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 67 |
 
 | huggingface/transformers | [[Community Event] Doc Tests Sprint](https://github.com/huggingface/transformers/issues/16292) | 104 |
 
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 152 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 155 |
 
 
 
