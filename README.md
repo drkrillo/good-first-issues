@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-07-29</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-07-30</sub></sub>
 
 
 ### Batchfile
@@ -93,13 +93,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/glow | [Use gtest-parallel](https://github.com/pytorch/glow/issues/2412) | 5 |
 
-| godotengine/godot | [Clip children clips CollisionShape2D visualization.](https://github.com/godotengine/godot/issues/108800) | 5 |
-
 | godotengine/godot | [`_OnTreeItemSelected()` signal receiver method using C# doesn't allow adding of items](https://github.com/godotengine/godot/issues/103101) | 5 |
 
 | pytorch/glow | [Glow should provide its own implementation of a random number generator to ensure deterministic testing and avoid platform-dependent differences](https://github.com/pytorch/glow/issues/1556) | 6 |
 
-| godotengine/godot | [Custom icon conversion for light themes not working](https://github.com/godotengine/godot/issues/108770) | 6 |
+| godotengine/godot | [Custom icon conversion for light themes not working](https://github.com/godotengine/godot/issues/108770) | 7 |
+
+| godotengine/godot | [Clip children clips CollisionShape2D visualization.](https://github.com/godotengine/godot/issues/108800) | 8 |
 
 | pytorch/glow | [Make the execution of the Glow compiler more deterministic between multiple runs](https://github.com/pytorch/glow/issues/1948) | 9 |
 
@@ -853,6 +853,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/ignite | [Try to replace conda/setup-python with astral-uv if faster](https://github.com/pytorch/ignite/issues/3350) | 3 |
 
+| pytorch/pytorch | [HAS_CUDA in the inductor tests is really HAS_CUDA_AND_TRITON](https://github.com/pytorch/pytorch/issues/159399) | 3 |
+
 | pytorch/pytorch | [Remove tensor variable default method fallthrough](https://github.com/pytorch/pytorch/issues/140591) | 3 |
 
 | pytorch/pytorch | [[export] Schematize nn_module_stack serialization](https://github.com/pytorch/pytorch/issues/131941) | 3 |
@@ -956,8 +958,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/audio | [read mp3 file fail](https://github.com/pytorch/audio/issues/2867) | 5 |
 
 | pytorch/pytorch | [Improve error message for wrong number of arguments in CachingAutotuner](https://github.com/pytorch/pytorch/issues/146018) | 5 |
-
-| pytorch/pytorch | [AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible](https://github.com/pytorch/pytorch/issues/119191) | 5 |
 
 | pytorch/torchft | [Use bucketized model averaging for LocalSGD](https://github.com/pytorch/torchft/issues/66) | 5 |
 
@@ -1131,8 +1131,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [Follow ups to DocumentQuestionAnswering Pipeline](https://github.com/huggingface/transformers/issues/18926) | 16 |
 
-| pandas-dev/pandas | [BUG: CustomBusinessDay not respecting calendar](https://github.com/pandas-dev/pandas/issues/60647) | 16 |
-
 | pandas-dev/pandas | [Indexing on series where index is output from pd.cut ](https://github.com/pandas-dev/pandas/issues/27437) | 16 |
 
 | pandas-dev/pandas | [Updating value of a single row of a column using loc or at fails](https://github.com/pandas-dev/pandas/issues/22040) | 16 |
@@ -1150,6 +1148,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [Update triton_heuristics.py](https://github.com/pytorch/pytorch/pull/147690) | 17 |
 
 | huggingface/transformers | [Update no_trainer scripts to include gradient accumulation](https://github.com/huggingface/transformers/issues/18436) | 18 |
+
+| pandas-dev/pandas | [BUG: CustomBusinessDay not respecting calendar](https://github.com/pandas-dev/pandas/issues/60647) | 18 |
 
 | pandas-dev/pandas | [DOC: add button to edit on GitHub](https://github.com/pandas-dev/pandas/issues/39859) | 18 |
 
