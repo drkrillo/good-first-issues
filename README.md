@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-07-31</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-01</sub></sub>
 
 
 ### Batchfile
@@ -66,6 +66,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | [[CPU] Remove the need for Rescale for the CPUMaxSplat](https://github.com/pytorch/glow/issues/4656) | 1 |
 
 | pytorch/multipy | [Add Poetry build to multipy](https://github.com/pytorch/multipy/issues/211) | 1 |
+
+| godotengine/godot | [AStarGrid2D DiagonalMode enum has incorrect name in the editor](https://github.com/godotengine/godot/issues/109204) | 1 |
 
 | godotengine/godot | [Animation Tree panel: zooming on Animation Blend Tree nodes show blurry text](https://github.com/godotengine/godot/issues/91814) | 1 |
 
@@ -386,8 +388,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 |------|-------|----------|
 
 | django/djangoproject.com | [Github login doesn't work for community pages](https://github.com/django/djangoproject.com/issues/835) | 3 |
-
-| django/djangoproject.com | [Badges page and badges themselves](https://github.com/django/djangoproject.com/issues/126) | 3 |
 
 | django/djangoproject.com | [Documentation table of contents is hard to reach on mobile devices](https://github.com/django/djangoproject.com/issues/494) | 4 |
 
@@ -909,8 +909,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/examples | [Add Siamese Network example](https://github.com/pytorch/examples/issues/645) | 4 |
 
-| pytorch/pytorch | [HAS_CUDA in the inductor tests is really HAS_CUDA_AND_TRITON](https://github.com/pytorch/pytorch/issues/159399) | 4 |
-
 | pytorch/pytorch | [aten.grid_sampler_3d.default is missing a c-shim implementation, using proxy executor as fallback](https://github.com/pytorch/pytorch/issues/147625) | 4 |
 
 | pytorch/pytorch | [If mark_dynamic fails (Not all values of RelaxedUnspecConstraint are valid) due to specialization, error message should print where specialization came from](https://github.com/pytorch/pytorch/issues/136002) | 4 |
@@ -955,7 +953,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/audio | [read mp3 file fail](https://github.com/pytorch/audio/issues/2867) | 5 |
 
+| pytorch/pytorch | [HAS_CUDA in the inductor tests is really HAS_CUDA_AND_TRITON](https://github.com/pytorch/pytorch/issues/159399) | 5 |
+
 | pytorch/pytorch | [Improve error message for wrong number of arguments in CachingAutotuner](https://github.com/pytorch/pytorch/issues/146018) | 5 |
+
+| pytorch/pytorch | [AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible](https://github.com/pytorch/pytorch/issues/119191) | 5 |
 
 | pytorch/torchft | [Use bucketized model averaging for LocalSGD](https://github.com/pytorch/torchft/issues/66) | 5 |
 
@@ -1021,8 +1023,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/pytorch | [[BUG][PyTorch 2.0 Export][quant]:get_source_partitions() may return different matches with same input graph](https://github.com/pytorch/pytorch/issues/147170) | 7 |
 
-| pytorch/pytorch | [Docs are little bit outdated for torch logs](https://github.com/pytorch/pytorch/issues/137285) | 7 |
-
 | pytorch/pytorch | [reduce torch.compile default logs](https://github.com/pytorch/pytorch/issues/135521) | 7 |
 
 | huggingface/diffusers | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 8 |
@@ -1032,6 +1032,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/transformers | [Add argument to set number of eval steps in Trainer](https://github.com/huggingface/transformers/issues/31561) | 8 |
 
 | ansible/awx | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 8 |
+
+| pytorch/pytorch | [Docs are little bit outdated for torch logs](https://github.com/pytorch/pytorch/issues/137285) | 8 |
 
 | pytorch/pytorch | [Using an empty tensor and `torch.int64` or `torch.bool` for `dtype` of `nanmean()` works while a non-empty tensor doesn't work](https://github.com/pytorch/pytorch/issues/131043) | 8 |
 
@@ -1081,8 +1083,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | [ENH: Add Polars engine to read_csv](https://github.com/pandas-dev/pandas/issues/61813) | 11 |
 
-| pandas-dev/pandas | [BUG: assert_frame_equal(check_dtype=False) fails when comparing two DFs containing pd.NA that only differ in dtype (object vs Int32)](https://github.com/pandas-dev/pandas/issues/61473) | 11 |
-
 | pandas-dev/pandas | [DOC: use shared_docs for isna/notna & isnull/notnull](https://github.com/pandas-dev/pandas/issues/17096) | 11 |
 
 | pandas-dev/pandas-stubs | [type annotation for Index/MultiIndex.names is incorrect](https://github.com/pandas-dev/pandas-stubs/issues/804) | 11 |
@@ -1108,6 +1108,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/transformers | [IsADirectoryError when training with tqdm enabled for trainer](https://github.com/huggingface/transformers/issues/34766) | 13 |
 
 | huggingface/transformers | [Object Detection Pipeline only outputs first element when batching](https://github.com/huggingface/transformers/issues/31356) | 13 |
+
+| pandas-dev/pandas | [BUG: assert_frame_equal(check_dtype=False) fails when comparing two DFs containing pd.NA that only differ in dtype (object vs Int32)](https://github.com/pandas-dev/pandas/issues/61473) | 13 |
 
 | pandas-dev/pandas | [ENH/API: allow different values for labels/index in DF.reindex __OR__ raise error](https://github.com/pandas-dev/pandas/issues/21685) | 13 |
 
@@ -1142,8 +1144,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | [DOC: Generating docs doesn't work if path has whitespaces](https://github.com/pandas-dev/pandas/issues/22836) | 17 |
 
 | pytorch/ao | [Replace flash_4 with FlexAttention](https://github.com/pytorch/ao/issues/639) | 17 |
-
-| pytorch/pytorch | [Update triton_heuristics.py](https://github.com/pytorch/pytorch/pull/147690) | 17 |
 
 | huggingface/transformers | [Update no_trainer scripts to include gradient accumulation](https://github.com/huggingface/transformers/issues/18436) | 18 |
 
