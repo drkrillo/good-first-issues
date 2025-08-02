@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-01</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-02</sub></sub>
 
 
 ### Batchfile
@@ -66,8 +66,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | [[CPU] Remove the need for Rescale for the CPUMaxSplat](https://github.com/pytorch/glow/issues/4656) | 1 |
 
 | pytorch/multipy | [Add Poetry build to multipy](https://github.com/pytorch/multipy/issues/211) | 1 |
-
-| godotengine/godot | [AStarGrid2D DiagonalMode enum has incorrect name in the editor](https://github.com/godotengine/godot/issues/109204) | 1 |
 
 | godotengine/godot | [Animation Tree panel: zooming on Animation Blend Tree nodes show blurry text](https://github.com/godotengine/godot/issues/91814) | 1 |
 
@@ -117,7 +115,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | godotengine/godot | [Using the RenderingServer to add a texture to the scene, the texture appears at bad position during one frame](https://github.com/godotengine/godot/issues/94988) | 24 |
 
-| opencv/opencv | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 29 |
+| opencv/opencv | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 30 |
 
 | godotengine/godot | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 30 |
 
@@ -1197,7 +1195,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | fastapi/fastapi | [ApiKey Header documentation](https://github.com/fastapi/fastapi/issues/142) | 57 |
 
-| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 67 |
+| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 68 |
 
 | huggingface/transformers | [[Community Event] Doc Tests Sprint](https://github.com/huggingface/transformers/issues/16292) | 104 |
 
