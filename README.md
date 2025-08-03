@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-02</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-03</sub></sub>
 
 
 ### Batchfile
@@ -176,6 +176,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 |------|-------|----------|
 
 | monero-project/monero-site | [fragment linking to specific sections](https://github.com/monero-project/monero-site/issues/2435) | 1 |
+
+| django/birthday20 | [Vendor third-party assets (leaflet)](https://github.com/django/birthday20/issues/70) | 3 |
 
 
 
@@ -951,8 +953,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/audio | [read mp3 file fail](https://github.com/pytorch/audio/issues/2867) | 5 |
 
-| pytorch/pytorch | [HAS_CUDA in the inductor tests is really HAS_CUDA_AND_TRITON](https://github.com/pytorch/pytorch/issues/159399) | 5 |
-
 | pytorch/pytorch | [Improve error message for wrong number of arguments in CachingAutotuner](https://github.com/pytorch/pytorch/issues/146018) | 5 |
 
 | pytorch/pytorch | [AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible](https://github.com/pytorch/pytorch/issues/119191) | 5 |
@@ -988,6 +988,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [[Android] Add a Runtime.java](https://github.com/pytorch/executorch/issues/10439) | 6 |
 
 | pytorch/ignite | [Fix FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.](https://github.com/pytorch/ignite/issues/3435) | 6 |
+
+| pytorch/pytorch | [HAS_CUDA in the inductor tests is really HAS_CUDA_AND_TRITON](https://github.com/pytorch/pytorch/issues/159399) | 6 |
 
 | pytorch/pytorch | [torch.nn.InstanceNorm2d throws "mixed dtype" error with track_running_stats set to True](https://github.com/pytorch/pytorch/issues/139140) | 6 |
 
