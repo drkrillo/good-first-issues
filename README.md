@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-04</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-05</sub></sub>
 
 
 ### Batchfile
@@ -84,8 +84,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | [[habana] Implement backend specific verifications](https://github.com/pytorch/glow/issues/3480) | 3 |
 
 | pytorch/glow | [[GraphOptz] Sink Quantize below Reshape](https://github.com/pytorch/glow/issues/4629) | 4 |
-
-| godotengine/godot | [VisibleOnScreenEnabler3D editor gizmo behaves differently from other 3D nodes](https://github.com/godotengine/godot/issues/102884) | 4 |
 
 | pytorch/glow | [Fuse RescaleQuantized in the ChannelwiseQuantizedConv](https://github.com/pytorch/glow/issues/4928) | 5 |
 
@@ -473,8 +471,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/ao | [Add _apply_fn_to_data in AOBaseClass](https://github.com/pytorch/ao/issues/2349) | 0 |
 
-| pytorch/ao | [Learned fake quantize for QAT](https://github.com/pytorch/ao/issues/545) | 0 |
-
 | pytorch/ao | [Remove docstring duplications](https://github.com/pytorch/ao/issues/407) | 0 |
 
 | pytorch/examples | [imagenet benchmark measure elapsed time function issue](https://github.com/pytorch/examples/issues/741) | 0 |
@@ -627,8 +623,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | [Add pybindings for text LLM runner](https://github.com/pytorch/executorch/issues/12790) | 1 |
 
-| pytorch/executorch | [Consolidation of Selective Build APIs for OSS](https://github.com/pytorch/executorch/issues/11921) | 1 |
-
 | pytorch/executorch | [Support dim order in Java Tensor](https://github.com/pytorch/executorch/issues/11593) | 1 |
 
 | pytorch/executorch | [Add dynamism tests for xnnpack model tests](https://github.com/pytorch/executorch/issues/11585) | 1 |
@@ -758,6 +752,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [Add torchao kernels to xcframework](https://github.com/pytorch/executorch/issues/10694) | 2 |
 
 | pytorch/executorch | [Need a feature to get etdump while running LLAMA model on qnn with qnn_llama_runner](https://github.com/pytorch/executorch/issues/10580) | 2 |
+
+| pytorch/executorch | [[Request impl] Gracefully error out in ETDump](https://github.com/pytorch/executorch/issues/9971) | 2 |
 
 | pytorch/PiPPy | [Make RemoteInterpreter use the full implementation of `Interpreter.run`](https://github.com/pytorch/PiPPy/issues/25) | 2 |
 
@@ -953,7 +949,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/audio | [read mp3 file fail](https://github.com/pytorch/audio/issues/2867) | 5 |
 
-| pytorch/pytorch | [Enable foreach_map to assert if kernel is not fully fused](https://github.com/pytorch/pytorch/issues/158968) | 5 |
+| pytorch/pytorch | [foreach_map enhancements](https://github.com/pytorch/pytorch/issues/158968) | 5 |
 
 | pytorch/pytorch | [Improve error message for wrong number of arguments in CachingAutotuner](https://github.com/pytorch/pytorch/issues/146018) | 5 |
 
@@ -988,8 +984,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [[Android] Add a Runtime.java](https://github.com/pytorch/executorch/issues/10439) | 6 |
 
 | pytorch/ignite | [Fix FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.](https://github.com/pytorch/ignite/issues/3435) | 6 |
-
-| pytorch/pytorch | [HAS_CUDA in the inductor tests is really HAS_CUDA_AND_TRITON](https://github.com/pytorch/pytorch/issues/159399) | 6 |
 
 | pytorch/pytorch | [torch.nn.InstanceNorm2d throws "mixed dtype" error with track_running_stats set to True](https://github.com/pytorch/pytorch/issues/139140) | 6 |
 
@@ -1032,6 +1026,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/transformers | [Add argument to set number of eval steps in Trainer](https://github.com/huggingface/transformers/issues/31561) | 8 |
 
 | ansible/awx | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 8 |
+
+| pytorch/pytorch | [HAS_CUDA in the inductor tests is really HAS_CUDA_AND_TRITON](https://github.com/pytorch/pytorch/issues/159399) | 8 |
 
 | pytorch/pytorch | [Docs are little bit outdated for torch logs](https://github.com/pytorch/pytorch/issues/137285) | 8 |
 
@@ -1083,8 +1079,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | [ENH: Add Polars engine to read_csv](https://github.com/pandas-dev/pandas/issues/61813) | 11 |
 
-| pandas-dev/pandas | [DOC: use shared_docs for isna/notna & isnull/notnull](https://github.com/pandas-dev/pandas/issues/17096) | 11 |
-
 | pandas-dev/pandas-stubs | [type annotation for Index/MultiIndex.names is incorrect](https://github.com/pandas-dev/pandas-stubs/issues/804) | 11 |
 
 | tensorflow/quantum | [[Performance] Boost tfq.convert_to_tensor speed](https://github.com/tensorflow/quantum/issues/336) | 11 |
@@ -1100,6 +1094,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [Device check missing in torch.linalg.solve_triangular leading to hard crash](https://github.com/pytorch/pytorch/issues/142048) | 11 |
 
 | huggingface/transformers | [Verify interpolation of image processors](https://github.com/huggingface/transformers/issues/28180) | 12 |
+
+| pandas-dev/pandas | [DOC: use shared_docs for isna/notna & isnull/notnull](https://github.com/pandas-dev/pandas/issues/17096) | 12 |
 
 | pandas-dev/pandas | [inplace kwarg must be of bool type, but other boolean kwargs don't have this restriction](https://github.com/pandas-dev/pandas/issues/16714) | 12 |
 
@@ -1201,7 +1197,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [[Community Event] Doc Tests Sprint](https://github.com/huggingface/transformers/issues/16292) | 104 |
 
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 155 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 157 |
 
 
 
