@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-06</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-07</sub></sub>
 
 
 ### Batchfile
@@ -94,8 +94,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | godotengine/godot | [`_OnTreeItemSelected()` signal receiver method using C# doesn't allow adding of items](https://github.com/godotengine/godot/issues/103101) | 5 |
 
 | pytorch/glow | [Glow should provide its own implementation of a random number generator to ensure deterministic testing and avoid platform-dependent differences](https://github.com/pytorch/glow/issues/1556) | 6 |
-
-| godotengine/godot | [Clip children clips CollisionShape2D visualization.](https://github.com/godotengine/godot/issues/108800) | 8 |
 
 | pytorch/glow | [Make the execution of the Glow compiler more deterministic between multiple runs](https://github.com/pytorch/glow/issues/1948) | 9 |
 
@@ -466,6 +464,12 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/moonlight | [Chord duration correction](https://github.com/tensorflow/moonlight/issues/2) | 0 |
 
 | tensorflow/moonlight | [Export the key signature to MusicXML](https://github.com/tensorflow/moonlight/issues/1) | 0 |
+
+| pytorch/ao | [[fp8 blockwise training] try using torch._scaled_mm instead of Triton kernels for fp8 gemms](https://github.com/pytorch/ao/issues/2713) | 0 |
+
+| pytorch/ao | [Fix ao's weird linear registration system.](https://github.com/pytorch/ao/issues/2712) | 0 |
+
+| pytorch/ao | [[not user facing] Split `implements` and `implements_torch_function`](https://github.com/pytorch/ao/issues/2707) | 0 |
 
 | pytorch/ao | [TorchAO ROCM tests are taking a long time](https://github.com/pytorch/ao/issues/2367) | 0 |
 
@@ -845,6 +849,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/ignite | [Try to replace conda/setup-python with astral-uv if faster](https://github.com/pytorch/ignite/issues/3350) | 3 |
 
+| pytorch/pytorch | [get_ema_multi_avg_fn() equation is a little confused](https://github.com/pytorch/pytorch/issues/155551) | 3 |
+
 | pytorch/pytorch | [Remove tensor variable default method fallthrough](https://github.com/pytorch/pytorch/issues/140591) | 3 |
 
 | pytorch/pytorch | [[export] Schematize nn_module_stack serialization](https://github.com/pytorch/pytorch/issues/131941) | 3 |
@@ -1031,8 +1037,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/pytorch | [[Dynamo] Support tracing through _get_current_dispatch_mode_stack](https://github.com/pytorch/pytorch/issues/125694) | 8 |
 
-| pytorch/pytorch | [Dead link in `torch.compile` docs](https://github.com/pytorch/pytorch/issues/119272) | 8 |
-
 | huggingface/diffusers | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 9 |
 
 | huggingface/huggingface_hub | [Allow dry_run for snapshot_download](https://github.com/huggingface/huggingface_hub/issues/1023) | 9 |
@@ -1096,8 +1100,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | [DOC: use shared_docs for isna/notna & isnull/notnull](https://github.com/pandas-dev/pandas/issues/17096) | 12 |
 
 | pandas-dev/pandas | [inplace kwarg must be of bool type, but other boolean kwargs don't have this restriction](https://github.com/pandas-dev/pandas/issues/16714) | 12 |
-
-| pandas-dev/pandas-stubs | [type annotation for Index/MultiIndex.names is incorrect](https://github.com/pandas-dev/pandas-stubs/issues/804) | 12 |
 
 | huggingface/diffusers | [[Pipeline] AnimateDiff + SparseControl + ControlNet](https://github.com/huggingface/diffusers/issues/9329) | 13 |
 
@@ -1167,9 +1169,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/peft | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 21 |
 
-| pandas-dev/pandas | [BUG: groupby.sum() is inconsistent with df.sum() for large integers](https://github.com/pandas-dev/pandas/issues/34681) | 21 |
-
 | pandas-dev/pandas | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 21 |
+
+| pandas-dev/pandas | [BUG: groupby.sum() is inconsistent with df.sum() for large integers](https://github.com/pandas-dev/pandas/issues/34681) | 22 |
 
 | huggingface/transformers | [Export LayoutLMv2 to onnx ](https://github.com/huggingface/transformers/issues/14368) | 24 |
 
@@ -1197,7 +1199,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [[Community Event] Doc Tests Sprint](https://github.com/huggingface/transformers/issues/16292) | 104 |
 
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 157 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 158 |
 
 
 
