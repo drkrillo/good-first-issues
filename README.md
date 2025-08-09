@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-08</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-09</sub></sub>
 
 
 ### Batchfile
@@ -465,6 +465,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | tensorflow/moonlight | [Export the key signature to MusicXML](https://github.com/tensorflow/moonlight/issues/1) | 0 |
 
+| pytorch/ao | [`torch_version_at_least` semantics are incorrect](https://github.com/pytorch/ao/issues/2722) | 0 |
+
 | pytorch/ao | [[fp8 blockwise training] try using torch._scaled_mm instead of Triton kernels for fp8 gemms](https://github.com/pytorch/ao/issues/2713) | 0 |
 
 | pytorch/ao | [[not user facing] Split `implements` and `implements_torch_function`](https://github.com/pytorch/ao/issues/2707) | 0 |
@@ -643,8 +645,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | [Test exported models in Python](https://github.com/pytorch/executorch/issues/11225) | 1 |
 
-| pytorch/executorch | [Re-inplace slice_copy with slice](https://github.com/pytorch/executorch/issues/10917) | 1 |
-
 | pytorch/executorch | [Add timestamps for pte generation in CI](https://github.com/pytorch/executorch/issues/10761) | 1 |
 
 | pytorch/executorch | [Format CMakeLists.txt](https://github.com/pytorch/executorch/issues/10736) | 1 |
@@ -754,6 +754,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [Support Standalone Batch Norm](https://github.com/pytorch/executorch/issues/11586) | 2 |
 
 | pytorch/executorch | [Update Partitioner Dtype Logic](https://github.com/pytorch/executorch/issues/11581) | 2 |
+
+| pytorch/executorch | [Re-inplace slice_copy with slice](https://github.com/pytorch/executorch/issues/10917) | 2 |
 
 | pytorch/executorch | [Add torchao kernels to xcframework](https://github.com/pytorch/executorch/issues/10694) | 2 |
 
@@ -1025,8 +1027,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/diffusers | [Make `FlaxLMSDiscreteScheduler` jittable](https://github.com/huggingface/diffusers/issues/2180) | 8 |
 
-| huggingface/transformers | [ValueError: You cannot specify both decoder_input_ids and decoder_inputs_embeds at the same time](https://github.com/huggingface/transformers/issues/39542) | 8 |
-
 | huggingface/transformers | [Add argument to set number of eval steps in Trainer](https://github.com/huggingface/transformers/issues/31561) | 8 |
 
 | ansible/awx | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 8 |
@@ -1040,6 +1040,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/diffusers | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 9 |
 
 | huggingface/huggingface_hub | [Allow dry_run for snapshot_download](https://github.com/huggingface/huggingface_hub/issues/1023) | 9 |
+
+| huggingface/transformers | [ValueError: You cannot specify both decoder_input_ids and decoder_inputs_embeds at the same time](https://github.com/huggingface/transformers/issues/39542) | 9 |
 
 | pandas-dev/pandas | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
 
@@ -1199,7 +1201,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [[Community Event] Doc Tests Sprint](https://github.com/huggingface/transformers/issues/16292) | 104 |
 
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 160 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 161 |
 
 
 
