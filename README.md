@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-10</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-11</sub></sub>
 
 
 ### Batchfile
@@ -67,8 +67,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/multipy | [Add Poetry build to multipy](https://github.com/pytorch/multipy/issues/211) | 1 |
 
-| godotengine/godot | [`String.json_escape` does not escape ASCII control codes](https://github.com/godotengine/godot/issues/109482) | 1 |
-
 | godotengine/godot | [Animation Tree panel: zooming on Animation Blend Tree nodes show blurry text](https://github.com/godotengine/godot/issues/91814) | 1 |
 
 | pytorch/glow | [New files added under glow/test/models/ don't get copied to build folder until clean build is performed.](https://github.com/pytorch/glow/issues/4647) | 2 |
@@ -102,8 +100,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | opencv/opencv_contrib | [reg: broken python sample](https://github.com/opencv/opencv_contrib/issues/1935) | 9 |
 
 | godotengine/godot | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 9 |
-
-| godotengine/godot | [[3.x] Improve error reporting when rcedit fails to change icon / set PE data](https://github.com/godotengine/godot/issues/27765) | 11 |
 
 | opencv/opencv_contrib | [selectROI pointer almost invisible on certain colours](https://github.com/opencv/opencv_contrib/issues/1719) | 14 |
 
@@ -401,13 +397,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | django/djangoproject.com | [Support switching languages on non-docs sites](https://github.com/django/djangoproject.com/issues/883) | 6 |
 
-| django/djangoproject.com | [https://dashboard.djangoproject.com/foundation/corporate-membership/ > RETURNS 404](https://github.com/django/djangoproject.com/issues/2139) | 7 |
-
 | django/djangoproject.com | [Improvements to the Corporate Sponsor Experience](https://github.com/django/djangoproject.com/issues/1171) | 7 |
 
 | django/djangoproject.com | [Improve Documentation by having list of topics fixed on the left and table of contents on the right ](https://github.com/django/djangoproject.com/issues/1129) | 7 |
 
 | django/djangoproject.com | [Use noindex meta tag or header, not robots.txt, to block untranslated docs pages](https://github.com/django/djangoproject.com/issues/877) | 7 |
+
+| django/djangoproject.com | [https://dashboard.djangoproject.com/foundation/corporate-membership/ > RETURNS 404](https://github.com/django/djangoproject.com/issues/2139) | 8 |
 
 | django/djangoproject.com | [Make right sidebar independent from main content](https://github.com/django/djangoproject.com/issues/1366) | 12 |
 
@@ -763,6 +759,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | [Need a feature to get etdump while running LLAMA model on qnn with qnn_llama_runner](https://github.com/pytorch/executorch/issues/10580) | 2 |
 
+| pytorch/executorch | [[Request impl] Gracefully error out in ETDump](https://github.com/pytorch/executorch/issues/9971) | 2 |
+
 | pytorch/PiPPy | [Make RemoteInterpreter use the full implementation of `Interpreter.run`](https://github.com/pytorch/PiPPy/issues/25) | 2 |
 
 | pytorch/rl | [[Feature Request] Make sure that all losses work with tensorclasses and regular tensors](https://github.com/pytorch/rl/issues/1062) | 2 |
@@ -995,8 +993,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/ignite | [Fix FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.](https://github.com/pytorch/ignite/issues/3435) | 6 |
 
-| pytorch/pytorch | [torch.nn.InstanceNorm2d throws "mixed dtype" error with track_running_stats set to True](https://github.com/pytorch/pytorch/issues/139140) | 6 |
-
 | pytorch/pytorch | [dynamo (re)compilation issues: shape (1,1), nn.Parameter, mark_dynamic](https://github.com/pytorch/pytorch/issues/135011) | 6 |
 
 | huggingface/datasets | [Identical keywords in build_kwargs and config_kwargs lead to TypeError in load_dataset_builder()](https://github.com/huggingface/datasets/issues/4910) | 7 |
@@ -1015,8 +1011,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/examples | [Why don't we use MSE as a reconstruction loss for VAE ?](https://github.com/pytorch/examples/issues/399) | 7 |
 
-| pytorch/executorch | [Add dim order variant clone operator](https://github.com/pytorch/executorch/issues/12645) | 7 |
-
 | pytorch/executorch | [Rename `executorch` cmake target to `prim_ops_lib`](https://github.com/pytorch/executorch/issues/11761) | 7 |
 
 | pytorch/pytorch | [[Feature request] `torch.export` .save/.load could support `safetensors` and/or `weights_only=True`](https://github.com/pytorch/pytorch/issues/153410) | 7 |
@@ -1024,6 +1018,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [[Inductor] Inference failed with the compiled model with aminmax operator](https://github.com/pytorch/pytorch/issues/148808) | 7 |
 
 | pytorch/pytorch | [[BUG][PyTorch 2.0 Export][quant]:get_source_partitions() may return different matches with same input graph](https://github.com/pytorch/pytorch/issues/147170) | 7 |
+
+| pytorch/pytorch | [torch.nn.InstanceNorm2d throws "mixed dtype" error with track_running_stats set to True](https://github.com/pytorch/pytorch/issues/139140) | 7 |
 
 | pytorch/pytorch | [reduce torch.compile default logs](https://github.com/pytorch/pytorch/issues/135521) | 7 |
 
@@ -1111,11 +1107,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [Object Detection Pipeline only outputs first element when batching](https://github.com/huggingface/transformers/issues/31356) | 13 |
 
-| pandas-dev/pandas | [BUG: assert_frame_equal(check_dtype=False) fails when comparing two DFs containing pd.NA that only differ in dtype (object vs Int32)](https://github.com/pandas-dev/pandas/issues/61473) | 13 |
-
 | pandas-dev/pandas | [ENH/API: allow different values for labels/index in DF.reindex __OR__ raise error](https://github.com/pandas-dev/pandas/issues/21685) | 13 |
 
 | pandas-dev/pandas | [DOC: section on caveats of storing lists inside DataFrame/Series](https://github.com/pandas-dev/pandas/issues/17027) | 13 |
+
+| pandas-dev/pandas | [BUG: assert_frame_equal(check_dtype=False) fails when comparing two DFs containing pd.NA that only differ in dtype (object vs Int32)](https://github.com/pandas-dev/pandas/issues/61473) | 14 |
 
 | pandas-dev/pandas | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 14 |
 
@@ -1203,7 +1199,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [[Community Event] Doc Tests Sprint](https://github.com/huggingface/transformers/issues/16292) | 104 |
 
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 162 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 163 |
 
 
 
