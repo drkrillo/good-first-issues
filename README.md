@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-11</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-12</sub></sub>
 
 
 ### Batchfile
@@ -581,6 +581,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/nanotron | [[Feature Request] Add simple communications benchmarks to the repo](https://github.com/huggingface/nanotron/issues/43) | 1 |
 
+| pandas-dev/pandas | [BUG: In main, TimedeltaIndex.shift() requires freq in the index, but it may not be available because it was computed](https://github.com/pandas-dev/pandas/issues/62094) | 1 |
+
 | ansible/ansible-lint | [Linter should consider the same paths that `ansible.builtin.import_tasks` uses to import relative paths](https://github.com/ansible/ansible-lint/issues/4474) | 1 |
 
 | ansible/ansible-navigator | [Many params missing change after initial = False](https://github.com/ansible/ansible-navigator/issues/423) | 1 |
@@ -594,8 +596,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/agents | [Tutorial 1: Train a Deep Q Network with TF-Agents and the use of a driver](https://github.com/tensorflow/agents/issues/554) | 1 |
 
 | pytorch/ao | [Fix ao's weird linear registration system.](https://github.com/pytorch/ao/issues/2712) | 1 |
-
-| pytorch/ao | [[not user facing] Split `implements` and `implements_torch_function`](https://github.com/pytorch/ao/issues/2707) | 1 |
 
 | pytorch/ao | [Refactor torchao and tests to use model architectures from torchao.testing.model_architectures](https://github.com/pytorch/ao/issues/2078) | 1 |
 
@@ -626,8 +626,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | [Doc comment on `accuracy` method in imagenet example, incorrect?](https://github.com/pytorch/examples/issues/312) | 1 |
 
 | pytorch/executorch | [Add pybindings for text LLM runner](https://github.com/pytorch/executorch/issues/12790) | 1 |
-
-| pytorch/executorch | [Consolidation of Selective Build APIs for OSS](https://github.com/pytorch/executorch/issues/11921) | 1 |
 
 | pytorch/executorch | [Support dim order in Java Tensor](https://github.com/pytorch/executorch/issues/11593) | 1 |
 
@@ -725,6 +723,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | tensorflow/graphics | [Tangential camera distortion/undistortion](https://github.com/tensorflow/graphics/issues/334) | 2 |
 
+| pytorch/ao | [[not user facing] Split `implements` and `implements_torch_function`](https://github.com/pytorch/ao/issues/2707) | 2 |
+
 | pytorch/ao | [Unittests Migration Progress](https://github.com/pytorch/ao/issues/1621) | 2 |
 
 | pytorch/ao | [[QAT] Low-bit FSDP all-gather for QAT](https://github.com/pytorch/ao/issues/1224) | 2 |
@@ -749,6 +749,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/examples | [Imagenet training extremely low gpu utilization](https://github.com/pytorch/examples/issues/387) | 2 |
 
+| pytorch/executorch | [Consolidation of Selective Build APIs for OSS](https://github.com/pytorch/executorch/issues/11921) | 2 |
+
 | pytorch/executorch | [Support Standalone Batch Norm](https://github.com/pytorch/executorch/issues/11586) | 2 |
 
 | pytorch/executorch | [Update Partitioner Dtype Logic](https://github.com/pytorch/executorch/issues/11581) | 2 |
@@ -758,8 +760,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [Add torchao kernels to xcframework](https://github.com/pytorch/executorch/issues/10694) | 2 |
 
 | pytorch/executorch | [Need a feature to get etdump while running LLAMA model on qnn with qnn_llama_runner](https://github.com/pytorch/executorch/issues/10580) | 2 |
-
-| pytorch/executorch | [[Request impl] Gracefully error out in ETDump](https://github.com/pytorch/executorch/issues/9971) | 2 |
 
 | pytorch/PiPPy | [Make RemoteInterpreter use the full implementation of `Interpreter.run`](https://github.com/pytorch/PiPPy/issues/25) | 2 |
 
@@ -973,10 +973,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 6 |
 
-| pandas-dev/pandas | [DOC: pivot function](https://github.com/pandas-dev/pandas/issues/16578) | 6 |
-
-| pandas-dev/pandas | [Non-inclusive partial string indexing on DatetimeIndex](https://github.com/pandas-dev/pandas/issues/16571) | 6 |
-
 | ansible/ansible-navigator | [Allow to set ansible-runner artifacts dir ID ](https://github.com/ansible/ansible-navigator/issues/521) | 6 |
 
 | ansible/awx | [AWX Collection Credential Delete](https://github.com/ansible/awx/issues/14209) | 6 |
@@ -1003,13 +999,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [oom when using adafactor optimizer in deepspeed](https://github.com/huggingface/transformers/issues/33290) | 7 |
 
-| pandas-dev/pandas | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 7 |
-
 | tensorflow/similarity | [Implement SwAV for self-supervised learning](https://github.com/tensorflow/similarity/issues/208) | 7 |
 
 | pytorch/audio | [Use non-persistent buffers](https://github.com/pytorch/audio/issues/3059) | 7 |
 
 | pytorch/examples | [Why don't we use MSE as a reconstruction loss for VAE ?](https://github.com/pytorch/examples/issues/399) | 7 |
+
+| pytorch/executorch | [Add dim order variant clone operator](https://github.com/pytorch/executorch/issues/12645) | 7 |
 
 | pytorch/executorch | [Rename `executorch` cmake target to `prim_ops_lib`](https://github.com/pytorch/executorch/issues/11761) | 7 |
 
@@ -1026,6 +1022,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/diffusers | [Make `FlaxLMSDiscreteScheduler` jittable](https://github.com/huggingface/diffusers/issues/2180) | 8 |
 
 | huggingface/transformers | [Add argument to set number of eval steps in Trainer](https://github.com/huggingface/transformers/issues/31561) | 8 |
+
+| pandas-dev/pandas | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 8 |
 
 | ansible/awx | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 8 |
 
@@ -1058,6 +1056,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/transformers | [Tapas tokenization Different from Tensorflow Code](https://github.com/huggingface/transformers/issues/13244) | 10 |
 
 | pandas-dev/pandas | [DOC: Fix formatting errors in docstrings](https://github.com/pandas-dev/pandas/issues/27977) | 10 |
+
+| pandas-dev/pandas | [[Feature Request] Add `replace` method to `Index` objects](https://github.com/pandas-dev/pandas/issues/19495) | 10 |
 
 | pytorch/ao | [[MPS] torchao low-bit-precision optim does not expose 'backend' argument to torch.compile](https://github.com/pytorch/ao/issues/955) | 10 |
 
@@ -1115,15 +1115,15 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 14 |
 
-| pandas-dev/pandas | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 14 |
-
-| pandas-dev/pandas | [issue when shifting with Timedelta in a groupby](https://github.com/pandas-dev/pandas/issues/20492) | 14 |
-
 | pytorch/pytorch | [Make tlparse able to show a summary of distinct graph breaks](https://github.com/pytorch/pytorch/issues/153669) | 14 |
 
 | huggingface/datasets | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 15 |
 
 | huggingface/transformers | [`ConditionalDetrImageProcessor` still accepts the deprecated parameter `max_size`](https://github.com/huggingface/transformers/issues/37939) | 15 |
+
+| pandas-dev/pandas | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 15 |
+
+| pandas-dev/pandas | [issue when shifting with Timedelta in a groupby](https://github.com/pandas-dev/pandas/issues/20492) | 15 |
 
 | huggingface/transformers | [FSDP Torch XLA vs. FSDPv2 (SMPD) Torch XLA checkpoint saving bug](https://github.com/huggingface/transformers/issues/36004) | 16 |
 
@@ -1195,7 +1195,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | fastapi/fastapi | [ApiKey Header documentation](https://github.com/fastapi/fastapi/issues/142) | 57 |
 
-| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 68 |
+| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 69 |
 
 | huggingface/transformers | [[Community Event] Doc Tests Sprint](https://github.com/huggingface/transformers/issues/16292) | 104 |
 
