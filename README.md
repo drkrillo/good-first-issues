@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-12</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-13</sub></sub>
 
 
 ### Batchfile
@@ -61,9 +61,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/glow | [ConvBench should use libjit_convolution_D8KKC8](https://github.com/pytorch/glow/issues/1886) | 0 |
 
-| pytorch/multipy | [Create a Contributing.md](https://github.com/pytorch/multipy/issues/252) | 0 |
-
 | pytorch/glow | [[CPU] Remove the need for Rescale for the CPUMaxSplat](https://github.com/pytorch/glow/issues/4656) | 1 |
+
+| pytorch/multipy | [Create a Contributing.md](https://github.com/pytorch/multipy/issues/252) | 1 |
 
 | pytorch/multipy | [Add Poetry build to multipy](https://github.com/pytorch/multipy/issues/211) | 1 |
 
@@ -421,6 +421,32 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | Repo | Title | Comments |
 |------|-------|----------|
 
+| huggingface/lerobot | [Ensure the model module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1732) | 0 |
+
+| huggingface/lerobot | [Ensure the transport module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1731) | 0 |
+
+| huggingface/lerobot | [Ensure the configuration module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1730) | 0 |
+
+| huggingface/lerobot | [Ensure the optimization module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1729) | 0 |
+
+| huggingface/lerobot | [Ensure the environments module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1728) | 0 |
+
+| huggingface/lerobot | [Ensure the utilities module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1727) | 0 |
+
+| huggingface/lerobot | [Ensure the teleoperators module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1726) | 0 |
+
+| huggingface/lerobot | [Ensure the processing module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1725) | 0 |
+
+| huggingface/lerobot | [Ensure the cameras module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1724) | 0 |
+
+| huggingface/lerobot | [Ensure the motors module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1723) | 0 |
+
+| huggingface/lerobot | [Ensure the datasets module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1722) | 0 |
+
+| huggingface/lerobot | [Ensure the robots module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1721) | 0 |
+
+| huggingface/lerobot | [Ensure the policy module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1720) | 0 |
+
 | huggingface/lighteval | [[FT] showing count in Markdown summary table](https://github.com/huggingface/lighteval/issues/804) | 0 |
 
 | huggingface/lighteval | [[FT]  Add tests for nanotron](https://github.com/huggingface/lighteval/issues/765) | 0 |
@@ -594,8 +620,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/django-ansible-base | [Several unordered querysets](https://github.com/ansible/django-ansible-base/issues/178) | 1 |
 
 | tensorflow/agents | [Tutorial 1: Train a Deep Q Network with TF-Agents and the use of a driver](https://github.com/tensorflow/agents/issues/554) | 1 |
-
-| pytorch/ao | [Fix ao's weird linear registration system.](https://github.com/pytorch/ao/issues/2712) | 1 |
 
 | pytorch/ao | [Refactor torchao and tests to use model architectures from torchao.testing.model_architectures](https://github.com/pytorch/ao/issues/2078) | 1 |
 
