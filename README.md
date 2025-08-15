@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-14</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-15</sub></sub>
 
 
 ### Batchfile
@@ -517,8 +517,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | [[Android] Rename JNI cpp file](https://github.com/pytorch/executorch/issues/10890) | 0 |
 
-| pytorch/executorch | [[Android] instrumentation test use models from storage, not bundled with apk](https://github.com/pytorch/executorch/issues/10696) | 0 |
-
 | pytorch/executorch | [[CMake] Potentially duplicated srcs in llama_runner build](https://github.com/pytorch/executorch/issues/10686) | 0 |
 
 | pytorch/executorch | [[Android] Add method metadata report API in Module.java](https://github.com/pytorch/executorch/issues/10453) | 0 |
@@ -668,6 +666,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [Add timestamps for pte generation in CI](https://github.com/pytorch/executorch/issues/10761) | 1 |
 
 | pytorch/executorch | [Format CMakeLists.txt](https://github.com/pytorch/executorch/issues/10736) | 1 |
+
+| pytorch/executorch | [[Android] instrumentation test use models from storage, not bundled with apk](https://github.com/pytorch/executorch/issues/10696) | 1 |
 
 | pytorch/executorch | [[Android] Use generic JNI instead of fbjni](https://github.com/pytorch/executorch/issues/10444) | 1 |
 
@@ -899,8 +899,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | godotengine/godot-blender-exporter | [Blender object with negative scale](https://github.com/godotengine/godot-blender-exporter/issues/24) | 3 |
 
-| huggingface/accelerate | [[Docs] Update low-precision training docs for MS-AMP](https://github.com/huggingface/accelerate/issues/3639) | 4 |
-
 | huggingface/accelerate | [RuntimeError: Tensor on device meta is not on the expected device cuda:0!](https://github.com/huggingface/accelerate/issues/3542) | 4 |
 
 | huggingface/accelerate | [Barebones dataloader to allow for any type of iterable dataloader-like object to be used. Should just handle device placement](https://github.com/huggingface/accelerate/issues/2975) | 4 |
@@ -955,6 +953,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/xla | [Op info test for `linalg.lu_solve`](https://github.com/pytorch/xla/issues/7493) | 4 |
 
+| huggingface/accelerate | [[Docs] Update low-precision training docs for MS-AMP](https://github.com/huggingface/accelerate/issues/3639) | 5 |
+
 | huggingface/huggingface_hub | [Implement a `FlaxModelHubMixin`](https://github.com/huggingface/huggingface_hub/issues/1709) | 5 |
 
 | huggingface/lighteval | [[BUG] custom model docs don't run: missing imports](https://github.com/huggingface/lighteval/issues/760) | 5 |
@@ -981,8 +981,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/audio | [read mp3 file fail](https://github.com/pytorch/audio/issues/2867) | 5 |
 
-| pytorch/pytorch | [foreach_map enhancements](https://github.com/pytorch/pytorch/issues/158968) | 5 |
-
 | pytorch/pytorch | [Improve error message for wrong number of arguments in CachingAutotuner](https://github.com/pytorch/pytorch/issues/146018) | 5 |
 
 | pytorch/torchft | [Use bucketized model averaging for LocalSGD](https://github.com/pytorch/torchft/issues/66) | 5 |
@@ -994,8 +992,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/lighteval | [[FT] Improve Documentation and Examples](https://github.com/huggingface/lighteval/issues/682) | 6 |
 
 | huggingface/transformers | [Unknown Model (mobilenetv5_300m_enc) when loading Gemma 3n](https://github.com/huggingface/transformers/issues/39208) | 6 |
-
-| pandas-dev/pandas | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 6 |
 
 | ansible/ansible-navigator | [Allow to set ansible-runner artifacts dir ID ](https://github.com/ansible/ansible-navigator/issues/521) | 6 |
 
@@ -1013,6 +1009,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/ignite | [Fix FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.](https://github.com/pytorch/ignite/issues/3435) | 6 |
 
+| pytorch/pytorch | [foreach_map enhancements](https://github.com/pytorch/pytorch/issues/158968) | 6 |
+
 | pytorch/pytorch | [dynamo (re)compilation issues: shape (1,1), nn.Parameter, mark_dynamic](https://github.com/pytorch/pytorch/issues/135011) | 6 |
 
 | huggingface/datasets | [Identical keywords in build_kwargs and config_kwargs lead to TypeError in load_dataset_builder()](https://github.com/huggingface/datasets/issues/4910) | 7 |
@@ -1022,6 +1020,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/huggingface_hub | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 7 |
 
 | huggingface/transformers | [oom when using adafactor optimizer in deepspeed](https://github.com/huggingface/transformers/issues/33290) | 7 |
+
+| pandas-dev/pandas | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 7 |
 
 | tensorflow/similarity | [Implement SwAV for self-supervised learning](https://github.com/tensorflow/similarity/issues/208) | 7 |
 
@@ -1143,8 +1143,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [`ConditionalDetrImageProcessor` still accepts the deprecated parameter `max_size`](https://github.com/huggingface/transformers/issues/37939) | 15 |
 
-| pandas-dev/pandas | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 15 |
-
 | pandas-dev/pandas | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 15 |
 
 | pandas-dev/pandas | [issue when shifting with Timedelta in a groupby](https://github.com/pandas-dev/pandas/issues/20492) | 15 |
@@ -1159,11 +1157,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | [DOC: improve docs for broadcasting behavior](https://github.com/pandas-dev/pandas/issues/18857) | 16 |
 
-| fastapi/fastapi | [Dependency Models created from Form input data are loosing metadata(field set) and are enforcing validation on default values.](https://github.com/fastapi/fastapi/issues/13399) | 16 |
-
 | fastapi/fastapi | [Will FastAPI support QUERY http method? "app.query"](https://github.com/fastapi/fastapi/issues/12965) | 16 |
 
+| pandas-dev/pandas | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 17 |
+
 | pandas-dev/pandas | [DOC: Generating docs doesn't work if path has whitespaces](https://github.com/pandas-dev/pandas/issues/22836) | 17 |
+
+| fastapi/fastapi | [Dependency Models created from Form input data are loosing metadata(field set) and are enforcing validation on default values.](https://github.com/fastapi/fastapi/issues/13399) | 17 |
 
 | pytorch/ao | [Replace flash_4 with FlexAttention](https://github.com/pytorch/ao/issues/639) | 17 |
 
@@ -1219,7 +1219,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | fastapi/fastapi | [ApiKey Header documentation](https://github.com/fastapi/fastapi/issues/142) | 57 |
 
-| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 70 |
+| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 71 |
 
 | huggingface/transformers | [[Community Event] Doc Tests Sprint](https://github.com/huggingface/transformers/issues/16292) | 104 |
 
