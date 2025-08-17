@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-16</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-17</sub></sub>
 
 
 ### Batchfile
@@ -915,6 +915,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [GeneratorExp aren't supported by torch.jit.script when I try to export a previously trained model  'google/vit-base-patch16-224-in21k'.](https://github.com/huggingface/transformers/issues/15354) | 4 |
 
+| pandas-dev/pandas | [DOC: Incorrect Source Link](https://github.com/pandas-dev/pandas/issues/58350) | 4 |
+
 | pandas-dev/pandas-stubs | [Type checking with `converters=` on `read_excel`](https://github.com/pandas-dev/pandas-stubs/issues/849) | 4 |
 
 | ansible/ansible-documentation | [Link to devel in the various roadmaps](https://github.com/ansible/ansible-documentation/issues/1865) | 4 |
@@ -969,6 +971,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | [BUG: DataFrame.rank does not return EA types when original type was an EADtype](https://github.com/pandas-dev/pandas/issues/52829) | 5 |
 
+| pandas-dev/pandas | [API/BUG: freq retention in value_counts](https://github.com/pandas-dev/pandas/issues/33830) | 5 |
+
 | ansible/awx | [ adhoc jobs block other jobs from being processed in the queue](https://github.com/ansible/awx/issues/14645) | 5 |
 
 | ansible/awx | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 5 |
@@ -994,6 +998,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/lighteval | [[FT] Improve Documentation and Examples](https://github.com/huggingface/lighteval/issues/682) | 6 |
 
 | huggingface/transformers | [Unknown Model (mobilenetv5_300m_enc) when loading Gemma 3n](https://github.com/huggingface/transformers/issues/39208) | 6 |
+
+| pandas-dev/pandas | [BUG: itemsize wrong for date32[day][pyarrow] dtype?](https://github.com/pandas-dev/pandas/issues/57948) | 6 |
 
 | ansible/ansible-navigator | [Allow to set ansible-runner artifacts dir ID ](https://github.com/ansible/ansible-navigator/issues/521) | 6 |
 
@@ -1065,9 +1071,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [ValueError: You cannot specify both decoder_input_ids and decoder_inputs_embeds at the same time](https://github.com/huggingface/transformers/issues/39542) | 9 |
 
-| pandas-dev/pandas | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
+| pandas-dev/pandas | [ENH:  Rename internal `DataFrame._append()` ](https://github.com/pandas-dev/pandas/issues/57936) | 9 |
 
-| pandas-dev/pandas | [BUG: Creating Index name using `names` names argument, doesn't set index name](https://github.com/pandas-dev/pandas/issues/19082) | 9 |
+| pandas-dev/pandas | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
 
 | tensorflow/similarity | [Lifted Structured loss](https://github.com/tensorflow/similarity/issues/102) | 9 |
 
@@ -1099,8 +1105,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/datasets | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 11 |
 
-| huggingface/transformers | [MultiTask Classification and label_names on Trainer](https://github.com/huggingface/transformers/issues/33193) | 11 |
-
 | huggingface/transformers | [[trainer] figuring out why eval with `--fp16_full_eval` is 25% slower](https://github.com/huggingface/transformers/issues/10816) | 11 |
 
 | pandas-dev/pandas | [ENH: Add Polars engine to read_csv](https://github.com/pandas-dev/pandas/issues/61813) | 11 |
@@ -1119,9 +1123,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/pytorch | [Obscure error: Expected a value of type 'List[int]' for argument 'sizes' but instead found type 'immutable_list'](https://github.com/pytorch/pytorch/issues/122129) | 11 |
 
-| huggingface/transformers | [Verify interpolation of image processors](https://github.com/huggingface/transformers/issues/28180) | 12 |
+| huggingface/transformers | [MultiTask Classification and label_names on Trainer](https://github.com/huggingface/transformers/issues/33193) | 12 |
 
-| pandas-dev/pandas | [DOC: use shared_docs for isna/notna & isnull/notnull](https://github.com/pandas-dev/pandas/issues/17096) | 12 |
+| huggingface/transformers | [Verify interpolation of image processors](https://github.com/huggingface/transformers/issues/28180) | 12 |
 
 | pytorch/pytorch | [`torch.export.export()` fails on GPU with LSTM model: "Cannot access data pointer of Tensor"](https://github.com/pytorch/pytorch/issues/155309) | 12 |
 
@@ -1132,8 +1136,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/transformers | [Object Detection Pipeline only outputs first element when batching](https://github.com/huggingface/transformers/issues/31356) | 13 |
 
 | pandas-dev/pandas | [ENH/API: allow different values for labels/index in DF.reindex __OR__ raise error](https://github.com/pandas-dev/pandas/issues/21685) | 13 |
-
-| pandas-dev/pandas | [DOC: section on caveats of storing lists inside DataFrame/Series](https://github.com/pandas-dev/pandas/issues/17027) | 13 |
 
 | pandas-dev/pandas | [BUG: assert_frame_equal(check_dtype=False) fails when comparing two DFs containing pd.NA that only differ in dtype (object vs Int32)](https://github.com/pandas-dev/pandas/issues/61473) | 14 |
 
@@ -1154,8 +1156,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | [Indexing on series where index is output from pd.cut ](https://github.com/pandas-dev/pandas/issues/27437) | 16 |
 
 | pandas-dev/pandas | [Updating value of a single row of a column using loc or at fails](https://github.com/pandas-dev/pandas/issues/22040) | 16 |
-
-| pandas-dev/pandas | [DOC: improve docs for broadcasting behavior](https://github.com/pandas-dev/pandas/issues/18857) | 16 |
 
 | fastapi/fastapi | [Will FastAPI support QUERY http method? "app.query"](https://github.com/fastapi/fastapi/issues/12965) | 16 |
 
@@ -1219,11 +1219,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | fastapi/fastapi | [ApiKey Header documentation](https://github.com/fastapi/fastapi/issues/142) | 57 |
 
-| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 71 |
+| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 72 |
 
 | huggingface/transformers | [[Community Event] Doc Tests Sprint](https://github.com/huggingface/transformers/issues/16292) | 104 |
 
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 164 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 165 |
 
 
 
