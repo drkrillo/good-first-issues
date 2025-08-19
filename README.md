@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-17</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-19</sub></sub>
 
 
 ### Batchfile
@@ -445,8 +445,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lerobot | [Ensure the robots module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1721) | 0 |
 
-| huggingface/lerobot | [Ensure the policy module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1720) | 0 |
-
 | huggingface/lighteval | [[FT] showing count in Markdown summary table](https://github.com/huggingface/lighteval/issues/804) | 0 |
 
 | huggingface/lighteval | [[FT]  Add tests for nanotron](https://github.com/huggingface/lighteval/issues/765) | 0 |
@@ -653,8 +651,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | [Add test to ensure scalar_type.fbs remains in sync across the executorch repo](https://github.com/pytorch/executorch/issues/11572) | 1 |
 
-| pytorch/executorch | [Add pybindings for program.h/cpp and method.h/cpp](https://github.com/pytorch/executorch/issues/11567) | 1 |
-
 | pytorch/executorch | [Implement load_into for the shared_ptr data loader](https://github.com/pytorch/executorch/issues/11562) | 1 |
 
 | pytorch/executorch | [Remove the outdated warning in building from source documentation](https://github.com/pytorch/executorch/issues/11229) | 1 |
@@ -709,6 +705,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/dataset-viewer | [Use "Sign-In with HF" instead of token in admin-UI](https://github.com/huggingface/dataset-viewer/issues/2373) | 2 |
 
+| huggingface/lerobot | [Ensure the policy module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1720) | 2 |
+
 | huggingface/lighteval | [Call for contributions: Translate lighteval's doc into Chinese](https://github.com/huggingface/lighteval/issues/716) | 2 |
 
 | huggingface/nanotron | [Avoid nested `InheritFromOtherOptimizer`](https://github.com/huggingface/nanotron/issues/267) | 2 |
@@ -720,8 +718,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/optimum | [Add all available ONNX models to ORTConfigManager](https://github.com/huggingface/optimum/issues/351) | 2 |
 
 | huggingface/transformers | [[Performance] Tracking open Issues and PRs (pytorch transformers)](https://github.com/huggingface/transformers/issues/12126) | 2 |
-
-| pandas-dev/pandas | [BUG: In main, TimedeltaIndex.shift() requires freq in the index, but it may not be available because it was computed](https://github.com/pandas-dev/pandas/issues/62094) | 2 |
 
 | ansible/ansible-documentation | [Link "see also" sections as recommended in the forum](https://github.com/ansible/ansible-documentation/issues/1200) | 2 |
 
@@ -777,13 +773,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | [Support Standalone Batch Norm](https://github.com/pytorch/executorch/issues/11586) | 2 |
 
-| pytorch/executorch | [Update Partitioner Dtype Logic](https://github.com/pytorch/executorch/issues/11581) | 2 |
-
 | pytorch/executorch | [Re-inplace slice_copy with slice](https://github.com/pytorch/executorch/issues/10917) | 2 |
 
 | pytorch/executorch | [Add torchao kernels to xcframework](https://github.com/pytorch/executorch/issues/10694) | 2 |
 
 | pytorch/executorch | [Need a feature to get etdump while running LLAMA model on qnn with qnn_llama_runner](https://github.com/pytorch/executorch/issues/10580) | 2 |
+
+| pytorch/executorch | [[Request impl] Gracefully error out in ETDump](https://github.com/pytorch/executorch/issues/9971) | 2 |
 
 | pytorch/PiPPy | [Make RemoteInterpreter use the full implementation of `Interpreter.run`](https://github.com/pytorch/PiPPy/issues/25) | 2 |
 
@@ -909,13 +905,15 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lighteval | [Append revision to filepath in `--output_dir`?](https://github.com/huggingface/lighteval/issues/56) | 4 |
 
-| huggingface/transformers | [RuntimeError when loading llmcompressor W8A8 quantized model: int8 dtype in weight initialization](https://github.com/huggingface/transformers/issues/39366) | 4 |
-
 | huggingface/transformers | [OWL-VIT Vision Foundation Model deployment in the edge cases - Need SDPA support for OWL-ViT Model optimization for Edge Deployment](https://github.com/huggingface/transformers/issues/28103) | 4 |
 
 | huggingface/transformers | [GeneratorExp aren't supported by torch.jit.script when I try to export a previously trained model  'google/vit-base-patch16-224-in21k'.](https://github.com/huggingface/transformers/issues/15354) | 4 |
 
+| pandas-dev/pandas | [BUG: In main, TimedeltaIndex.shift() requires freq in the index, but it may not be available because it was computed](https://github.com/pandas-dev/pandas/issues/62094) | 4 |
+
 | pandas-dev/pandas | [DOC: Incorrect Source Link](https://github.com/pandas-dev/pandas/issues/58350) | 4 |
+
+| pandas-dev/pandas | [`pd.groupby` seems to mutate my `pd.Grouper` in-place](https://github.com/pandas-dev/pandas/issues/26564) | 4 |
 
 | pandas-dev/pandas-stubs | [Type checking with `converters=` on `read_excel`](https://github.com/pandas-dev/pandas-stubs/issues/849) | 4 |
 
@@ -967,6 +965,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/optimum-benchmark | [Evaluators for specific tasks](https://github.com/huggingface/optimum-benchmark/issues/34) | 5 |
 
+| huggingface/transformers | [RuntimeError when loading llmcompressor W8A8 quantized model: int8 dtype in weight initialization](https://github.com/huggingface/transformers/issues/39366) | 5 |
+
 | huggingface/transformers | [Trainer.training_step incorrectly normalizes mean token loss when n_gpu > 1](https://github.com/huggingface/transformers/issues/37474) | 5 |
 
 | pandas-dev/pandas | [BUG: DataFrame.rank does not return EA types when original type was an EADtype](https://github.com/pandas-dev/pandas/issues/52829) | 5 |
@@ -996,8 +996,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/lighteval | [[EVAL] Adding PHARE](https://github.com/huggingface/lighteval/issues/696) | 6 |
 
 | huggingface/lighteval | [[FT] Improve Documentation and Examples](https://github.com/huggingface/lighteval/issues/682) | 6 |
-
-| huggingface/transformers | [Unknown Model (mobilenetv5_300m_enc) when loading Gemma 3n](https://github.com/huggingface/transformers/issues/39208) | 6 |
 
 | pandas-dev/pandas | [BUG: itemsize wrong for date32[day][pyarrow] dtype?](https://github.com/pandas-dev/pandas/issues/57948) | 6 |
 
@@ -1071,8 +1069,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [ValueError: You cannot specify both decoder_input_ids and decoder_inputs_embeds at the same time](https://github.com/huggingface/transformers/issues/39542) | 9 |
 
-| pandas-dev/pandas | [ENH:  Rename internal `DataFrame._append()` ](https://github.com/pandas-dev/pandas/issues/57936) | 9 |
-
 | pandas-dev/pandas | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
 
 | tensorflow/similarity | [Lifted Structured loss](https://github.com/tensorflow/similarity/issues/102) | 9 |
@@ -1087,13 +1083,15 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [Tapas tokenization Different from Tensorflow Code](https://github.com/huggingface/transformers/issues/13244) | 10 |
 
+| pandas-dev/pandas | [ENH:  Rename internal `DataFrame._append()` ](https://github.com/pandas-dev/pandas/issues/57936) | 10 |
+
 | pandas-dev/pandas | [DOC: Fix formatting errors in docstrings](https://github.com/pandas-dev/pandas/issues/27977) | 10 |
 
 | pandas-dev/pandas | [[Feature Request] Add `replace` method to `Index` objects](https://github.com/pandas-dev/pandas/issues/19495) | 10 |
 
 | pytorch/ao | [[MPS] torchao low-bit-precision optim does not expose 'backend' argument to torch.compile](https://github.com/pytorch/ao/issues/955) | 10 |
 
-| pytorch/pytorch | [Remove redundant type aliases of _device for torch.Device](https://github.com/pytorch/pytorch/issues/152952) | 10 |
+| pytorch/executorch | [Check tensor's dim order ambiguity in IR verifier](https://github.com/pytorch/executorch/issues/9942) | 10 |
 
 | pytorch/pytorch | [Dump bytecode of resumption frames in tlparse](https://github.com/pytorch/pytorch/issues/136038) | 10 |
 
@@ -1104,6 +1102,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [Expand Tag Set: views & reductions](https://github.com/pytorch/pytorch/issues/129020) | 10 |
 
 | huggingface/datasets | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 11 |
+
+| huggingface/transformers | [Unknown Model (mobilenetv5_300m_enc) when loading Gemma 3n](https://github.com/huggingface/transformers/issues/39208) | 11 |
 
 | huggingface/transformers | [[trainer] figuring out why eval with `--fp16_full_eval` is 25% slower](https://github.com/huggingface/transformers/issues/10816) | 11 |
 
@@ -1117,13 +1117,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/data | [Improve the warning message regarding local function not supported by pickle](https://github.com/pytorch/data/issues/947) | 11 |
 
+| pytorch/pytorch | [Remove redundant type aliases of _device for torch.Device](https://github.com/pytorch/pytorch/issues/152952) | 11 |
+
 | pytorch/pytorch | [Improve typing of args and kwargs with ParamSpec](https://github.com/pytorch/pytorch/issues/142306) | 11 |
 
 | pytorch/pytorch | [Device check missing in torch.linalg.solve_triangular leading to hard crash](https://github.com/pytorch/pytorch/issues/142048) | 11 |
 
 | pytorch/pytorch | [Obscure error: Expected a value of type 'List[int]' for argument 'sizes' but instead found type 'immutable_list'](https://github.com/pytorch/pytorch/issues/122129) | 11 |
-
-| huggingface/transformers | [MultiTask Classification and label_names on Trainer](https://github.com/huggingface/transformers/issues/33193) | 12 |
 
 | huggingface/transformers | [Verify interpolation of image processors](https://github.com/huggingface/transformers/issues/28180) | 12 |
 
@@ -1153,13 +1153,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [Follow ups to DocumentQuestionAnswering Pipeline](https://github.com/huggingface/transformers/issues/18926) | 16 |
 
+| pandas-dev/pandas | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 16 |
+
 | pandas-dev/pandas | [Indexing on series where index is output from pd.cut ](https://github.com/pandas-dev/pandas/issues/27437) | 16 |
 
 | pandas-dev/pandas | [Updating value of a single row of a column using loc or at fails](https://github.com/pandas-dev/pandas/issues/22040) | 16 |
 
 | fastapi/fastapi | [Will FastAPI support QUERY http method? "app.query"](https://github.com/fastapi/fastapi/issues/12965) | 16 |
-
-| pandas-dev/pandas | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 17 |
 
 | pandas-dev/pandas | [DOC: Generating docs doesn't work if path has whitespaces](https://github.com/pandas-dev/pandas/issues/22836) | 17 |
 
@@ -1189,8 +1189,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/diffusers | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 20 |
 
-| pandas-dev/pandas | [Raise ValueError for read_json and orient='table' With Numeric Column Names](https://github.com/pandas-dev/pandas/issues/19129) | 20 |
-
 | huggingface/peft | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 21 |
 
 | pandas-dev/pandas | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 21 |
@@ -1219,11 +1217,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | fastapi/fastapi | [ApiKey Header documentation](https://github.com/fastapi/fastapi/issues/142) | 57 |
 
-| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 72 |
+| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 73 |
 
 | huggingface/transformers | [[Community Event] Doc Tests Sprint](https://github.com/huggingface/transformers/issues/16292) | 104 |
 
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 165 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 170 |
 
 
 
