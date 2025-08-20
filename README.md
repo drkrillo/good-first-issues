@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-19</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-20</sub></sub>
 
 
 ### Batchfile
@@ -465,6 +465,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/nanotron | [[Feature] Refactor `ParallelContext.world_rank_matrix`](https://github.com/huggingface/nanotron/issues/77) | 0 |
 
+| huggingface/transformers | [Is there a plan to add DINOv3 into AutoBackbone?](https://github.com/huggingface/transformers/issues/40323) | 0 |
+
 | ansible/ansible-dev-tools | [Ensure tests are passing with devspaces container](https://github.com/ansible/ansible-dev-tools/issues/467) | 0 |
 
 | ansible/ansible-jupyter-kernel | [Add support for handlers](https://github.com/ansible/ansible-jupyter-kernel/issues/53) | 0 |
@@ -705,8 +707,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/dataset-viewer | [Use "Sign-In with HF" instead of token in admin-UI](https://github.com/huggingface/dataset-viewer/issues/2373) | 2 |
 
-| huggingface/lerobot | [Ensure the policy module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1720) | 2 |
-
 | huggingface/lighteval | [Call for contributions: Translate lighteval's doc into Chinese](https://github.com/huggingface/lighteval/issues/716) | 2 |
 
 | huggingface/nanotron | [Avoid nested `InheritFromOtherOptimizer`](https://github.com/huggingface/nanotron/issues/267) | 2 |
@@ -811,6 +811,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/huggingface_hub | [Add options to the "delete-cache" command](https://github.com/huggingface/huggingface_hub/issues/1065) | 3 |
 
+| huggingface/lerobot | [Ensure the policy module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1720) | 3 |
+
 | huggingface/optimum-habana | [Add support for max_length in run_generation](https://github.com/huggingface/optimum-habana/issues/472) | 3 |
 
 | huggingface/transfer-learning-conv-ai | [RuntimeError: shape '[-1, 2, 34]' is invalid for input of size 61710](https://github.com/huggingface/transfer-learning-conv-ai/issues/12) | 3 |
@@ -911,9 +913,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | [BUG: In main, TimedeltaIndex.shift() requires freq in the index, but it may not be available because it was computed](https://github.com/pandas-dev/pandas/issues/62094) | 4 |
 
-| pandas-dev/pandas | [DOC: Incorrect Source Link](https://github.com/pandas-dev/pandas/issues/58350) | 4 |
-
 | pandas-dev/pandas | [`pd.groupby` seems to mutate my `pd.Grouper` in-place](https://github.com/pandas-dev/pandas/issues/26564) | 4 |
+
+| pandas-dev/pandas-stubs | [`DataFrame.from_records()` needs better annotations](https://github.com/pandas-dev/pandas-stubs/issues/1334) | 4 |
 
 | pandas-dev/pandas-stubs | [Type checking with `converters=` on `read_excel`](https://github.com/pandas-dev/pandas-stubs/issues/849) | 4 |
 
@@ -924,6 +926,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | [Remove some of the eslint-disable comments](https://github.com/ansible/awx/issues/11707) | 4 |
 
 | ansible/awx | [Docker install instructions do not mention how to add awx-logos](https://github.com/ansible/awx/issues/11593) | 4 |
+
+| ansible/django-ansible-base | [Remove model imports in any utils/ modules](https://github.com/ansible/django-ansible-base/issues/443) | 4 |
 
 | tensorflow/graphics | [Add ScanNet dataset](https://github.com/tensorflow/graphics/issues/307) | 4 |
 
@@ -968,6 +972,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/transformers | [RuntimeError when loading llmcompressor W8A8 quantized model: int8 dtype in weight initialization](https://github.com/huggingface/transformers/issues/39366) | 5 |
 
 | huggingface/transformers | [Trainer.training_step incorrectly normalizes mean token loss when n_gpu > 1](https://github.com/huggingface/transformers/issues/37474) | 5 |
+
+| pandas-dev/pandas | [DOC: Incorrect Source Link](https://github.com/pandas-dev/pandas/issues/58350) | 5 |
 
 | pandas-dev/pandas | [BUG: DataFrame.rank does not return EA types when original type was an EADtype](https://github.com/pandas-dev/pandas/issues/52829) | 5 |
 
@@ -1221,7 +1227,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [[Community Event] Doc Tests Sprint](https://github.com/huggingface/transformers/issues/16292) | 104 |
 
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 170 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 172 |
 
 
 
@@ -1337,9 +1343,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/chat-ui | [Support text-generation-webui](https://github.com/huggingface/chat-ui/issues/316) | 5 |
 
-| huggingface/huggingface.js | [Add threshold parameter for object detection widget](https://github.com/huggingface/huggingface.js/issues/322) | 5 |
-
 | pytorch/test-infra | [Mergebot merged a PR even though a review had been re-requested](https://github.com/pytorch/test-infra/issues/5543) | 5 |
+
+| huggingface/huggingface.js | [Add threshold parameter for object detection widget](https://github.com/huggingface/huggingface.js/issues/322) | 6 |
 
 | huggingface/chat-ui | [Have embedded prompts configurable in private secrets](https://github.com/huggingface/chat-ui/issues/346) | 7 |
 
