@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-21</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-22</sub></sub>
 
 
 ### Batchfile
@@ -489,8 +489,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | tensorflow/moonlight | [Export the key signature to MusicXML](https://github.com/tensorflow/moonlight/issues/1) | 0 |
 
-| pytorch/ao | [`torch_version_at_least` semantics are incorrect](https://github.com/pytorch/ao/issues/2722) | 0 |
-
 | pytorch/ao | [[fp8 blockwise training] try using torch._scaled_mm instead of Triton kernels for fp8 gemms](https://github.com/pytorch/ao/issues/2713) | 0 |
 
 | pytorch/ao | [TorchAO ROCM tests are taking a long time](https://github.com/pytorch/ao/issues/2367) | 0 |
@@ -667,6 +665,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | [[Android] Use generic JNI instead of fbjni](https://github.com/pytorch/executorch/issues/10444) | 1 |
 
+| pytorch/helion | [triton.runtime.errors.OutOfResources: out of resource: shared memory](https://github.com/pytorch/helion/issues/470) | 1 |
+
+| pytorch/helion | [Limit block sizes in autotuning because of triton max numel range](https://github.com/pytorch/helion/issues/456) | 1 |
+
 | pytorch/PiPPy | [Support LayoutLM models in HF tests](https://github.com/pytorch/PiPPy/issues/247) | 1 |
 
 | pytorch/pytorch | [[inductor] nan_asserts doesn't work for FP8, "RuntimeError: "isinf" not implemented for 'Float8_e4m3fn'"](https://github.com/pytorch/pytorch/issues/149002) | 1 |
@@ -781,6 +783,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | [[Request impl] Gracefully error out in ETDump](https://github.com/pytorch/executorch/issues/9971) | 2 |
 
+| pytorch/helion | [HELION_INTERPRET=1 silently hides HELION_PRINT_OUTPUT_CODE=1](https://github.com/pytorch/helion/issues/447) | 2 |
+
 | pytorch/PiPPy | [Make RemoteInterpreter use the full implementation of `Interpreter.run`](https://github.com/pytorch/PiPPy/issues/25) | 2 |
 
 | pytorch/rl | [[Feature Request] Make sure that all losses work with tensorclasses and regular tensors](https://github.com/pytorch/rl/issues/1062) | 2 |
@@ -871,6 +875,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | [Consolidate executor_runners](https://github.com/pytorch/executorch/issues/10819) | 3 |
 
+| pytorch/helion | [HELION_INTERPRET=1 only prints once for fixed block_size](https://github.com/pytorch/helion/issues/466) | 3 |
+
 | pytorch/ignite | [Try to replace conda/setup-python with astral-uv if faster](https://github.com/pytorch/ignite/issues/3350) | 3 |
 
 | pytorch/pytorch | [get_ema_multi_avg_fn() equation is a little confused](https://github.com/pytorch/pytorch/issues/155551) | 3 |
@@ -906,8 +912,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/lighteval | [[EVAL]: Add more African Benchmarks](https://github.com/huggingface/lighteval/issues/373) | 4 |
 
 | huggingface/lighteval | [Append revision to filepath in `--output_dir`?](https://github.com/huggingface/lighteval/issues/56) | 4 |
-
-| huggingface/transformers | [Please remove the redundant dependency jieba: rjieba does the same and has better performance](https://github.com/huggingface/transformers/issues/40239) | 4 |
 
 | huggingface/transformers | [OWL-VIT Vision Foundation Model deployment in the edge cases - Need SDPA support for OWL-ViT Model optimization for Edge Deployment](https://github.com/huggingface/transformers/issues/28103) | 4 |
 
@@ -970,6 +974,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/nanotron | [[Unit Test] Add unit tests for DistributedTrainer](https://github.com/huggingface/nanotron/issues/90) | 5 |
 
 | huggingface/optimum-benchmark | [Evaluators for specific tasks](https://github.com/huggingface/optimum-benchmark/issues/34) | 5 |
+
+| huggingface/transformers | [Please remove the redundant dependency jieba: rjieba does the same and has better performance](https://github.com/huggingface/transformers/issues/40239) | 5 |
 
 | huggingface/transformers | [RuntimeError when loading llmcompressor W8A8 quantized model: int8 dtype in weight initialization](https://github.com/huggingface/transformers/issues/39366) | 5 |
 
@@ -1131,8 +1137,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [Verify interpolation of image processors](https://github.com/huggingface/transformers/issues/28180) | 12 |
 
-| pandas-dev/pandas | [ENH:  Rename internal `DataFrame._append()` ](https://github.com/pandas-dev/pandas/issues/57936) | 12 |
-
 | pytorch/pytorch | [`torch.export.export()` fails on GPU with LSTM model: "Cannot access data pointer of Tensor"](https://github.com/pytorch/pytorch/issues/155309) | 12 |
 
 | huggingface/diffusers | [[Pipeline] AnimateDiff + SparseControl + ControlNet](https://github.com/huggingface/diffusers/issues/9329) | 13 |
@@ -1169,8 +1173,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | [DOC: Generating docs doesn't work if path has whitespaces](https://github.com/pandas-dev/pandas/issues/22836) | 17 |
 
-| fastapi/fastapi | [Dependency Models created from Form input data are loosing metadata(field set) and are enforcing validation on default values.](https://github.com/fastapi/fastapi/issues/13399) | 17 |
-
 | pytorch/ao | [Replace flash_4 with FlexAttention](https://github.com/pytorch/ao/issues/639) | 17 |
 
 | huggingface/transformers | [Update no_trainer scripts to include gradient accumulation](https://github.com/huggingface/transformers/issues/18436) | 18 |
@@ -1180,6 +1182,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | [DOC: add button to edit on GitHub](https://github.com/pandas-dev/pandas/issues/39859) | 18 |
 
 | pandas-dev/pandas | [WEB: Multiple "Getting Started" on pandas.io leads to different links](https://github.com/pandas-dev/pandas/issues/32307) | 18 |
+
+| fastapi/fastapi | [Dependency Models created from Form input data are loosing metadata(field set) and are enforcing validation on default values.](https://github.com/fastapi/fastapi/issues/13399) | 18 |
 
 | pytorch/ao | [Add codebook (look up table based) quantization flow in torchao](https://github.com/pytorch/ao/issues/1195) | 18 |
 
@@ -1194,6 +1198,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | [Fix PR02 issues in docstrings](https://github.com/pandas-dev/pandas/issues/27976) | 19 |
 
 | huggingface/diffusers | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 20 |
+
+| pandas-dev/pandas | [Raise ValueError for read_json and orient='table' With Numeric Column Names](https://github.com/pandas-dev/pandas/issues/19129) | 20 |
 
 | huggingface/peft | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 21 |
 
@@ -1344,8 +1350,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/chat-ui | [Support text-generation-webui](https://github.com/huggingface/chat-ui/issues/316) | 5 |
 
 | pytorch/test-infra | [Mergebot merged a PR even though a review had been re-requested](https://github.com/pytorch/test-infra/issues/5543) | 5 |
-
-| huggingface/huggingface.js | [Add threshold parameter for object detection widget](https://github.com/huggingface/huggingface.js/issues/322) | 6 |
 
 | huggingface/chat-ui | [Have embedded prompts configurable in private secrets](https://github.com/huggingface/chat-ui/issues/346) | 7 |
 
