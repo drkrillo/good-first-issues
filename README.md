@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-23</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-24</sub></sub>
 
 
 ### Batchfile
@@ -745,8 +745,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | tensorflow/graphics | [Tangential camera distortion/undistortion](https://github.com/tensorflow/graphics/issues/334) | 2 |
 
-| pytorch/ao | [[not user facing] Split `implements` and `implements_torch_function`](https://github.com/pytorch/ao/issues/2707) | 2 |
-
 | pytorch/ao | [Unittests Migration Progress](https://github.com/pytorch/ao/issues/1621) | 2 |
 
 | pytorch/ao | [[QAT] Low-bit FSDP all-gather for QAT](https://github.com/pytorch/ao/issues/1224) | 2 |
@@ -853,6 +851,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | tensorflow/similarity | [Add a ranking example](https://github.com/tensorflow/similarity/issues/199) | 3 |
 
+| pytorch/ao | [[not user facing] Split `implements` and `implements_torch_function`](https://github.com/pytorch/ao/issues/2707) | 3 |
+
 | pytorch/ao | [[sparse] Add GPTQ support for sparse-marlin](https://github.com/pytorch/ao/issues/1134) | 3 |
 
 | pytorch/ao | [Tensor Parallelism Support for AffineQuantizedTensor](https://github.com/pytorch/ao/issues/988) | 3 |
@@ -908,8 +908,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/accelerate | [Barebones dataloader to allow for any type of iterable dataloader-like object to be used. Should just handle device placement](https://github.com/huggingface/accelerate/issues/2975) | 4 |
 
 | huggingface/dataset-viewer | [Cache/Queue metrics should not be negative](https://github.com/huggingface/dataset-viewer/issues/2495) | 4 |
-
-| huggingface/diffusers | [[Contribution welcome] adding a fast test for Qwen-Image Controlnet Pipeline](https://github.com/huggingface/diffusers/issues/12222) | 4 |
 
 | huggingface/lighteval | [[EVAL]: Add more African Benchmarks](https://github.com/huggingface/lighteval/issues/373) | 4 |
 
@@ -967,6 +965,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/accelerate | [[Docs] Update low-precision training docs for MS-AMP](https://github.com/huggingface/accelerate/issues/3639) | 5 |
 
+| huggingface/diffusers | [[Contribution welcome] adding a fast test for Qwen-Image Controlnet Pipeline](https://github.com/huggingface/diffusers/issues/12222) | 5 |
+
 | huggingface/huggingface_hub | [Implement a `FlaxModelHubMixin`](https://github.com/huggingface/huggingface_hub/issues/1709) | 5 |
 
 | huggingface/lighteval | [[BUG] custom model docs don't run: missing imports](https://github.com/huggingface/lighteval/issues/760) | 5 |
@@ -982,8 +982,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/transformers | [RuntimeError when loading llmcompressor W8A8 quantized model: int8 dtype in weight initialization](https://github.com/huggingface/transformers/issues/39366) | 5 |
 
 | huggingface/transformers | [Trainer.training_step incorrectly normalizes mean token loss when n_gpu > 1](https://github.com/huggingface/transformers/issues/37474) | 5 |
-
-| pandas-dev/pandas | [DOC: Incorrect Source Link](https://github.com/pandas-dev/pandas/issues/58350) | 5 |
 
 | pandas-dev/pandas | [API/BUG: freq retention in value_counts](https://github.com/pandas-dev/pandas/issues/33830) | 5 |
 
@@ -1041,9 +1039,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [oom when using adafactor optimizer in deepspeed](https://github.com/huggingface/transformers/issues/33290) | 7 |
 
-| pandas-dev/pandas | [BUG: itemsize wrong for date32[day][pyarrow] dtype?](https://github.com/pandas-dev/pandas/issues/57948) | 7 |
+| pandas-dev/pandas | [DOC: Incorrect Source Link](https://github.com/pandas-dev/pandas/issues/58350) | 7 |
 
-| pandas-dev/pandas | [BUG: DataFrame.rank does not return EA types when original type was an EADtype](https://github.com/pandas-dev/pandas/issues/52829) | 7 |
+| pandas-dev/pandas | [BUG: itemsize wrong for date32[day][pyarrow] dtype?](https://github.com/pandas-dev/pandas/issues/57948) | 7 |
 
 | pandas-dev/pandas | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 7 |
 
@@ -1068,6 +1066,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/diffusers | [Make `FlaxLMSDiscreteScheduler` jittable](https://github.com/huggingface/diffusers/issues/2180) | 8 |
 
 | huggingface/transformers | [Add argument to set number of eval steps in Trainer](https://github.com/huggingface/transformers/issues/31561) | 8 |
+
+| pandas-dev/pandas | [BUG: DataFrame.rank does not return EA types when original type was an EADtype](https://github.com/pandas-dev/pandas/issues/52829) | 8 |
 
 | pandas-dev/pandas | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 8 |
 
@@ -1235,7 +1235,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [[Community Event] Doc Tests Sprint](https://github.com/huggingface/transformers/issues/16292) | 104 |
 
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 172 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 173 |
 
 
 
