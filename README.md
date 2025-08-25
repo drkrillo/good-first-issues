@@ -1,4 +1,4 @@
-# Good First Issues :palm_tree:
+# Goood First Issues :palm_tree:
 
 This page contains open issues tagged with the label *good first issue*. It gathers issues from some famous libraries(at least for me).
 Let me knowif there are others you would like to see here :pizza:
@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-24</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-25</sub></sub>
 
 
 ### Batchfile
