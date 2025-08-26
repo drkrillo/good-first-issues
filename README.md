@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-25</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-26</sub></sub>
 
 
 ### Batchfile
@@ -671,6 +671,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/PiPPy | [Support LayoutLM models in HF tests](https://github.com/pytorch/PiPPy/issues/247) | 1 |
 
+| pytorch/pytorch | [torch.export fails for expand_copy when implicit=True](https://github.com/pytorch/pytorch/issues/161080) | 1 |
+
 | pytorch/pytorch | [[inductor] nan_asserts doesn't work for FP8, "RuntimeError: "isinf" not implemented for 'Float8_e4m3fn'"](https://github.com/pytorch/pytorch/issues/149002) | 1 |
 
 | pytorch/text | [torchtext main branch doesn't support pytorch2.0](https://github.com/pytorch/text/issues/2052) | 1 |
@@ -995,8 +997,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/pytorch | [Improve error message for wrong number of arguments in CachingAutotuner](https://github.com/pytorch/pytorch/issues/146018) | 5 |
 
-| pytorch/pytorch | [AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible](https://github.com/pytorch/pytorch/issues/119191) | 5 |
-
 | pytorch/torchft | [Use bucketized model averaging for LocalSGD](https://github.com/pytorch/torchft/issues/66) | 5 |
 
 | pytorch/torchft | [[CheckpointServer] use streaming transfers](https://github.com/pytorch/torchft/issues/36) | 5 |
@@ -1037,8 +1037,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | [BUG: itemsize wrong for date32[day][pyarrow] dtype?](https://github.com/pandas-dev/pandas/issues/57948) | 7 |
 
-| pandas-dev/pandas | [API/BUG: freq retention in value_counts](https://github.com/pandas-dev/pandas/issues/33830) | 7 |
-
 | pandas-dev/pandas | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 7 |
 
 | tensorflow/similarity | [Implement SwAV for self-supervised learning](https://github.com/tensorflow/similarity/issues/208) | 7 |
@@ -1066,6 +1064,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | [BUG: DataFrame.rank does not return EA types when original type was an EADtype](https://github.com/pandas-dev/pandas/issues/52829) | 8 |
 
 | pandas-dev/pandas | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 8 |
+
+| pandas-dev/pandas | [API/BUG: freq retention in value_counts](https://github.com/pandas-dev/pandas/issues/33830) | 8 |
 
 | ansible/awx | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 8 |
 
@@ -1193,8 +1193,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | [Fix PR02 issues in docstrings](https://github.com/pandas-dev/pandas/issues/27976) | 19 |
 
-| fastapi/fastapi | [Dependency Models created from Form input data are loosing metadata(field set) and are enforcing validation on default values.](https://github.com/fastapi/fastapi/issues/13399) | 19 |
-
 | huggingface/diffusers | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 20 |
 
 | pandas-dev/pandas | [Raise ValueError for read_json and orient='table' With Numeric Column Names](https://github.com/pandas-dev/pandas/issues/19129) | 20 |
@@ -1204,6 +1202,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 21 |
 
 | pandas-dev/pandas | [BUG: groupby.sum() is inconsistent with df.sum() for large integers](https://github.com/pandas-dev/pandas/issues/34681) | 22 |
+
+| fastapi/fastapi | [Dependency Models created from Form input data are loosing metadata(field set) and are enforcing validation on default values.](https://github.com/fastapi/fastapi/issues/13399) | 22 |
 
 | huggingface/transformers | [Export LayoutLMv2 to onnx ](https://github.com/huggingface/transformers/issues/14368) | 24 |
 
@@ -1223,11 +1223,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [Community contribution: enable dynamic resolution input for more vision models.](https://github.com/huggingface/transformers/issues/30579) | 40 |
 
-| pandas-dev/pandas | [Various methods don't call call __finalize__](https://github.com/pandas-dev/pandas/issues/28283) | 48 |
+| pandas-dev/pandas | [Various methods don't call call __finalize__](https://github.com/pandas-dev/pandas/issues/28283) | 49 |
 
 | fastapi/fastapi | [ApiKey Header documentation](https://github.com/fastapi/fastapi/issues/142) | 57 |
 
-| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 73 |
+| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 71 |
 
 | huggingface/transformers | [[Community Event] Doc Tests Sprint](https://github.com/huggingface/transformers/issues/16292) | 104 |
 
