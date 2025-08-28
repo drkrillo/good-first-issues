@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-27</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-28</sub></sub>
 
 
 ### Batchfile
@@ -61,8 +61,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/glow | [ConvBench should use libjit_convolution_D8KKC8](https://github.com/pytorch/glow/issues/1886) | 0 |
 
-| godotengine/godot | [Back gesture fails after dismissing the keyboard In Android Editor](https://github.com/godotengine/godot/issues/109806) | 0 |
-
 | pytorch/glow | [[CPU] Remove the need for Rescale for the CPUMaxSplat](https://github.com/pytorch/glow/issues/4656) | 1 |
 
 | pytorch/multipy | [Create a Contributing.md](https://github.com/pytorch/multipy/issues/252) | 1 |
@@ -78,6 +76,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | [[Importers] Move "run and compare" tests from importer tests to operator tests](https://github.com/pytorch/glow/issues/1909) | 2 |
 
 | pytorch/glow | [Need to canonicalize or optimize high-dim concat to concat+transpose](https://github.com/pytorch/glow/issues/1296) | 2 |
+
+| godotengine/godot | [Back gesture fails after dismissing the keyboard In Android Editor](https://github.com/godotengine/godot/issues/109806) | 2 |
 
 | tensorflow/minigo | [Support more GTP commands](https://github.com/tensorflow/minigo/issues/46) | 3 |
 
@@ -787,8 +787,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/PiPPy | [Make RemoteInterpreter use the full implementation of `Interpreter.run`](https://github.com/pytorch/PiPPy/issues/25) | 2 |
 
-| pytorch/pytorch | [torch.export fails for expand_copy when implicit=True](https://github.com/pytorch/pytorch/issues/161080) | 2 |
-
 | pytorch/rl | [[Feature Request] Make sure that all losses work with tensorclasses and regular tensors](https://github.com/pytorch/rl/issues/1062) | 2 |
 
 | pytorch/rl | [[Feature Request] TensorSpec is_in methods should check the dtype of val](https://github.com/pytorch/rl/issues/793) | 2 |
@@ -882,6 +880,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/helion | [HELION_INTERPRET=1 only prints once for fixed block_size](https://github.com/pytorch/helion/issues/466) | 3 |
 
 | pytorch/ignite | [Try to replace conda/setup-python with astral-uv if faster](https://github.com/pytorch/ignite/issues/3350) | 3 |
+
+| pytorch/pytorch | [torch.export fails for expand_copy when implicit=True](https://github.com/pytorch/pytorch/issues/161080) | 3 |
 
 | pytorch/pytorch | [get_ema_multi_avg_fn() equation is a little confused](https://github.com/pytorch/pytorch/issues/155551) | 3 |
 
@@ -1073,8 +1073,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/pytorch | [[Dynamo] Support tracing through _get_current_dispatch_mode_stack](https://github.com/pytorch/pytorch/issues/125694) | 8 |
 
-| huggingface/diffusers | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 9 |
-
 | huggingface/diffusers | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 9 |
 
 | huggingface/huggingface_hub | [Allow dry_run for snapshot_download](https://github.com/huggingface/huggingface_hub/issues/1023) | 9 |
@@ -1090,6 +1088,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [Using an empty tensor and `torch.int64` or `torch.bool` for `dtype` of `nanmean()` works while a non-empty tensor doesn't work](https://github.com/pytorch/pytorch/issues/131043) | 9 |
 
 | pytorch/pytorch | [Dead link in `torch.compile` docs](https://github.com/pytorch/pytorch/issues/119272) | 9 |
+
+| huggingface/diffusers | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 10 |
 
 | huggingface/lighteval | [[EVAL] Add TUMLU benchmark](https://github.com/huggingface/lighteval/issues/577) | 10 |
 
@@ -1205,9 +1205,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | [BUG: groupby.sum() is inconsistent with df.sum() for large integers](https://github.com/pandas-dev/pandas/issues/34681) | 22 |
 
-| fastapi/fastapi | [Dependency Models created from Form input data are loosing metadata(field set) and are enforcing validation on default values.](https://github.com/fastapi/fastapi/issues/13399) | 23 |
-
 | huggingface/transformers | [Export LayoutLMv2 to onnx ](https://github.com/huggingface/transformers/issues/14368) | 24 |
+
+| fastapi/fastapi | [Dependency Models created from Form input data are loosing metadata(field set) and are enforcing validation on default values.](https://github.com/fastapi/fastapi/issues/13399) | 24 |
 
 | huggingface/transformers | [Add support for BLIP and GIT in image-to-text and VQA pipelines](https://github.com/huggingface/transformers/issues/21110) | 25 |
 
