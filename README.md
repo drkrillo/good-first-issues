@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-30</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-31</sub></sub>
 
 
 ### Batchfile
@@ -76,8 +76,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | [[Importers] Move "run and compare" tests from importer tests to operator tests](https://github.com/pytorch/glow/issues/1909) | 2 |
 
 | pytorch/glow | [Need to canonicalize or optimize high-dim concat to concat+transpose](https://github.com/pytorch/glow/issues/1296) | 2 |
-
-| godotengine/godot | [Back gesture fails after dismissing the keyboard In Android Editor](https://github.com/godotengine/godot/issues/109806) | 2 |
 
 | tensorflow/minigo | [Support more GTP commands](https://github.com/tensorflow/minigo/issues/46) | 3 |
 
@@ -605,8 +603,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/nanotron | [[Feature Request] Add simple communications benchmarks to the repo](https://github.com/huggingface/nanotron/issues/43) | 1 |
 
-| pandas-dev/pandas | [BUG: loc fails with tz_aware DateTimeIndex ](https://github.com/pandas-dev/pandas/issues/54409) | 1 |
-
 | ansible/ansible-lint | [Linter should consider the same paths that `ansible.builtin.import_tasks` uses to import relative paths](https://github.com/ansible/ansible-lint/issues/4474) | 1 |
 
 | ansible/ansible-navigator | [Many params missing change after initial = False](https://github.com/ansible/ansible-navigator/issues/423) | 1 |
@@ -727,7 +723,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [[Performance] Tracking open Issues and PRs (pytorch transformers)](https://github.com/huggingface/transformers/issues/12126) | 2 |
 
-| pandas-dev/pandas | [BUG: Insert then delete column into MultiIndex with timestamps leads to RecursionError](https://github.com/pandas-dev/pandas/issues/56853) | 2 |
+| pandas-dev/pandas | [BUG: loc fails with tz_aware DateTimeIndex ](https://github.com/pandas-dev/pandas/issues/54409) | 2 |
 
 | ansible/ansible-documentation | [Link "see also" sections as recommended in the forum](https://github.com/ansible/ansible-documentation/issues/1200) | 2 |
 
@@ -824,6 +820,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/optimum-habana | [Add support for max_length in run_generation](https://github.com/huggingface/optimum-habana/issues/472) | 3 |
 
 | huggingface/transfer-learning-conv-ai | [RuntimeError: shape '[-1, 2, 34]' is invalid for input of size 61710](https://github.com/huggingface/transfer-learning-conv-ai/issues/12) | 3 |
+
+| pandas-dev/pandas | [BUG: Insert then delete column into MultiIndex with timestamps leads to RecursionError](https://github.com/pandas-dev/pandas/issues/56853) | 3 |
 
 | ansible/ansible-documentation | [Incorporate 'shared snippets' for the collection docs into the main rst files](https://github.com/ansible/ansible-documentation/issues/1382) | 3 |
 
@@ -925,8 +923,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [GeneratorExp aren't supported by torch.jit.script when I try to export a previously trained model  'google/vit-base-patch16-224-in21k'.](https://github.com/huggingface/transformers/issues/15354) | 4 |
 
-| pandas-dev/pandas | [ENH: Change ExtensionOpsMixin behaviour to not add new operator method if one is already defined on the ExtensionArray class](https://github.com/pandas-dev/pandas/issues/50767) | 4 |
-
 | pandas-dev/pandas | [`pd.groupby` seems to mutate my `pd.Grouper` in-place](https://github.com/pandas-dev/pandas/issues/26564) | 4 |
 
 | pandas-dev/pandas-stubs | [Type checking with `converters=` on `read_excel`](https://github.com/pandas-dev/pandas-stubs/issues/849) | 4 |
@@ -984,6 +980,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/transformers | [RuntimeError when loading llmcompressor W8A8 quantized model: int8 dtype in weight initialization](https://github.com/huggingface/transformers/issues/39366) | 5 |
 
 | huggingface/transformers | [Trainer.training_step incorrectly normalizes mean token loss when n_gpu > 1](https://github.com/huggingface/transformers/issues/37474) | 5 |
+
+| pandas-dev/pandas | [ENH: Change ExtensionOpsMixin behaviour to not add new operator method if one is already defined on the ExtensionArray class](https://github.com/pandas-dev/pandas/issues/50767) | 5 |
 
 | ansible/awx | [ adhoc jobs block other jobs from being processed in the queue](https://github.com/ansible/awx/issues/14645) | 5 |
 
@@ -1145,8 +1143,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [Object Detection Pipeline only outputs first element when batching](https://github.com/huggingface/transformers/issues/31356) | 13 |
 
-| pandas-dev/pandas | [BUG: In main, TimedeltaIndex.shift() requires freq in the index, but it may not be available because it was computed](https://github.com/pandas-dev/pandas/issues/62094) | 13 |
-
 | pandas-dev/pandas | [ENH/API: allow different values for labels/index in DF.reindex __OR__ raise error](https://github.com/pandas-dev/pandas/issues/21685) | 13 |
 
 | pandas-dev/pandas | [BUG: assert_frame_equal(check_dtype=False) fails when comparing two DFs containing pd.NA that only differ in dtype (object vs Int32)](https://github.com/pandas-dev/pandas/issues/61473) | 14 |
@@ -1156,6 +1152,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/datasets | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 15 |
 
 | huggingface/transformers | [`ConditionalDetrImageProcessor` still accepts the deprecated parameter `max_size`](https://github.com/huggingface/transformers/issues/37939) | 15 |
+
+| pandas-dev/pandas | [BUG: In main, TimedeltaIndex.shift() requires freq in the index, but it may not be available because it was computed](https://github.com/pandas-dev/pandas/issues/62094) | 15 |
 
 | pandas-dev/pandas | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 15 |
 
@@ -1233,7 +1231,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [[Community Event] Doc Tests Sprint](https://github.com/huggingface/transformers/issues/16292) | 104 |
 
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 176 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 179 |
 
 
 
@@ -1389,8 +1387,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | godotengine/godot-docs | [Parallax2D property descriptions do not specify units](https://github.com/godotengine/godot-docs/issues/9715) | 1 |
 
-| godotengine/godot-docs | [Improve ArrayMesh examples by adding a rectangle example](https://github.com/godotengine/godot-docs/issues/9620) | 1 |
-
 | godotengine/godot-docs | [Specify the coordinate system for the 'force' parameter in Rigidbody apply_force methods](https://github.com/godotengine/godot-docs/issues/9066) | 1 |
 
 | godotengine/godot-docs | [make_canvas_position_local](https://github.com/godotengine/godot-docs/issues/8313) | 1 |
@@ -1402,6 +1398,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | godotengine/godot-docs | [AudioServer Documentation does not specify units of time](https://github.com/godotengine/godot-docs/issues/7009) | 1 |
 
 | godotengine/godot-docs | [Add clarification about what CharacterBody is used for](https://github.com/godotengine/godot-docs/issues/10458) | 2 |
+
+| godotengine/godot-docs | [Improve ArrayMesh examples by adding a rectangle example](https://github.com/godotengine/godot-docs/issues/9620) | 2 |
 
 | godotengine/godot-docs | [PhysicsDirectSpaceState2D.get_rest_info claims not to use query motion but it does](https://github.com/godotengine/godot-docs/issues/10609) | 4 |
 
