@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-08-31</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-09-01</sub></sub>
 
 
 ### Batchfile
@@ -1085,8 +1085,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/pytorch | [[inductor] `torch.slice_scatter` throws `AssertionError` when meeting internal `float32`](https://github.com/pytorch/pytorch/issues/147842) | 9 |
 
-| pytorch/pytorch | [Docs are little bit outdated for torch logs](https://github.com/pytorch/pytorch/issues/137285) | 9 |
-
 | pytorch/pytorch | [Using an empty tensor and `torch.int64` or `torch.bool` for `dtype` of `nanmean()` works while a non-empty tensor doesn't work](https://github.com/pytorch/pytorch/issues/131043) | 9 |
 
 | pytorch/pytorch | [Dead link in `torch.compile` docs](https://github.com/pytorch/pytorch/issues/119272) | 9 |
@@ -1103,6 +1101,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | [Check tensor's dim order ambiguity in IR verifier](https://github.com/pytorch/executorch/issues/9942) | 10 |
 
+| pytorch/pytorch | [Docs are little bit outdated for torch logs](https://github.com/pytorch/pytorch/issues/137285) | 10 |
+
 | pytorch/pytorch | [Dump bytecode of resumption frames in tlparse](https://github.com/pytorch/pytorch/issues/136038) | 10 |
 
 | pytorch/pytorch | [Torch Inductor Windows Path Escape Characters](https://github.com/pytorch/pytorch/issues/135954) | 10 |
@@ -1114,8 +1114,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/datasets | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 11 |
 
 | huggingface/transformers | [[trainer] figuring out why eval with `--fp16_full_eval` is 25% slower](https://github.com/huggingface/transformers/issues/10816) | 11 |
-
-| pandas-dev/pandas | [ENH: Add Polars engine to read_csv](https://github.com/pandas-dev/pandas/issues/61813) | 11 |
 
 | pandas-dev/pandas | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 11 |
 
@@ -1146,6 +1144,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | [ENH/API: allow different values for labels/index in DF.reindex __OR__ raise error](https://github.com/pandas-dev/pandas/issues/21685) | 13 |
 
 | pandas-dev/pandas | [BUG: assert_frame_equal(check_dtype=False) fails when comparing two DFs containing pd.NA that only differ in dtype (object vs Int32)](https://github.com/pandas-dev/pandas/issues/61473) | 14 |
+
+| pandas-dev/pandas | [issue when shifting with Timedelta in a groupby](https://github.com/pandas-dev/pandas/issues/20492) | 14 |
 
 | pytorch/pytorch | [Make tlparse able to show a summary of distinct graph breaks](https://github.com/pytorch/pytorch/issues/153669) | 14 |
 
@@ -1205,8 +1205,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [Export LayoutLMv2 to onnx ](https://github.com/huggingface/transformers/issues/14368) | 24 |
 
-| fastapi/fastapi | [Dependency Models created from Form input data are loosing metadata(field set) and are enforcing validation on default values.](https://github.com/fastapi/fastapi/issues/13399) | 24 |
-
 | huggingface/transformers | [Add support for BLIP and GIT in image-to-text and VQA pipelines](https://github.com/huggingface/transformers/issues/21110) | 25 |
 
 | huggingface/optimum | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 26 |
@@ -1225,13 +1223,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | [Various methods don't call call __finalize__](https://github.com/pandas-dev/pandas/issues/28283) | 54 |
 
-| fastapi/fastapi | [ApiKey Header documentation](https://github.com/fastapi/fastapi/issues/142) | 57 |
-
-| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 72 |
+| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 73 |
 
 | huggingface/transformers | [[Community Event] Doc Tests Sprint](https://github.com/huggingface/transformers/issues/16292) | 104 |
 
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 179 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 181 |
 
 
 
