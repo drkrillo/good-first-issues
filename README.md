@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-09-02</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-09-03</sub></sub>
 
 
 ### Batchfile
@@ -725,8 +725,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [[Performance] Tracking open Issues and PRs (pytorch transformers)](https://github.com/huggingface/transformers/issues/12126) | 2 |
 
-| pandas-dev/pandas | [BUG: loc fails with tz_aware DateTimeIndex ](https://github.com/pandas-dev/pandas/issues/54409) | 2 |
-
 | ansible/ansible-documentation | [Link "see also" sections as recommended in the forum](https://github.com/ansible/ansible-documentation/issues/1200) | 2 |
 
 | ansible/ansible-navigator | [Switch to the use of `pathlib` where possible](https://github.com/ansible/ansible-navigator/issues/697) | 2 |
@@ -917,6 +915,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lighteval | [Append revision to filepath in `--output_dir`?](https://github.com/huggingface/lighteval/issues/56) | 4 |
 
+| huggingface/transformers | [Safetensors files for long-t5-tglobal models fail to load correctly](https://github.com/huggingface/transformers/issues/40635) | 4 |
+
 | huggingface/transformers | [OWL-VIT Vision Foundation Model deployment in the edge cases - Need SDPA support for OWL-ViT Model optimization for Edge Deployment](https://github.com/huggingface/transformers/issues/28103) | 4 |
 
 | huggingface/transformers | [GeneratorExp aren't supported by torch.jit.script when I try to export a previously trained model  'google/vit-base-patch16-224-in21k'.](https://github.com/huggingface/transformers/issues/15354) | 4 |
@@ -979,6 +979,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [Trainer.training_step incorrectly normalizes mean token loss when n_gpu > 1](https://github.com/huggingface/transformers/issues/37474) | 5 |
 
+| pandas-dev/pandas | [BUG: loc fails with tz_aware DateTimeIndex ](https://github.com/pandas-dev/pandas/issues/54409) | 5 |
+
 | pandas-dev/pandas | [ENH: Change ExtensionOpsMixin behaviour to not add new operator method if one is already defined on the ExtensionArray class](https://github.com/pandas-dev/pandas/issues/50767) | 5 |
 
 | ansible/awx | [ adhoc jobs block other jobs from being processed in the queue](https://github.com/ansible/awx/issues/14645) | 5 |
@@ -995,8 +997,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/audio | [read mp3 file fail](https://github.com/pytorch/audio/issues/2867) | 5 |
 
-| pytorch/pytorch | [torch.export fails for expand_copy when implicit=True](https://github.com/pytorch/pytorch/issues/161080) | 5 |
-
 | pytorch/pytorch | [Improve error message for wrong number of arguments in CachingAutotuner](https://github.com/pytorch/pytorch/issues/146018) | 5 |
 
 | pytorch/pytorch | [AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible](https://github.com/pytorch/pytorch/issues/119191) | 5 |
@@ -1008,8 +1008,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/lighteval | [[EVAL] Adding PHARE](https://github.com/huggingface/lighteval/issues/696) | 6 |
 
 | huggingface/lighteval | [[FT] Improve Documentation and Examples](https://github.com/huggingface/lighteval/issues/682) | 6 |
-
-| pandas-dev/pandas | [BUG: Insert then delete column into MultiIndex with timestamps leads to RecursionError](https://github.com/pandas-dev/pandas/issues/56853) | 6 |
 
 | ansible/ansible-documentation | [Misleading statement about "defaults" and "vars" sub-folders of roles](https://github.com/ansible/ansible-documentation/issues/2994) | 6 |
 
@@ -1029,6 +1027,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/ignite | [Fix FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.](https://github.com/pytorch/ignite/issues/3435) | 6 |
 
+| pytorch/pytorch | [torch.export fails for expand_copy when implicit=True](https://github.com/pytorch/pytorch/issues/161080) | 6 |
+
 | pytorch/pytorch | [foreach_map enhancements](https://github.com/pytorch/pytorch/issues/158968) | 6 |
 
 | pytorch/pytorch | [dynamo (re)compilation issues: shape (1,1), nn.Parameter, mark_dynamic](https://github.com/pytorch/pytorch/issues/135011) | 6 |
@@ -1042,6 +1042,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/transformers | [oom when using adafactor optimizer in deepspeed](https://github.com/huggingface/transformers/issues/33290) | 7 |
 
 | pandas-dev/pandas | [BUG: itemsize wrong for date32[day][pyarrow] dtype?](https://github.com/pandas-dev/pandas/issues/57948) | 7 |
+
+| pandas-dev/pandas | [BUG: Insert then delete column into MultiIndex with timestamps leads to RecursionError](https://github.com/pandas-dev/pandas/issues/56853) | 7 |
 
 | pandas-dev/pandas | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 7 |
 
@@ -1171,15 +1173,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | [Updating value of a single row of a column using loc or at fails](https://github.com/pandas-dev/pandas/issues/22040) | 16 |
 
-| fastapi/fastapi | [Will FastAPI support QUERY http method? "app.query"](https://github.com/fastapi/fastapi/issues/12965) | 16 |
-
 | pandas-dev/pandas | [DOC: Generating docs doesn't work if path has whitespaces](https://github.com/pandas-dev/pandas/issues/22836) | 17 |
+
+| fastapi/fastapi | [Will FastAPI support QUERY http method? "app.query"](https://github.com/fastapi/fastapi/issues/12965) | 17 |
 
 | pytorch/ao | [Replace flash_4 with FlexAttention](https://github.com/pytorch/ao/issues/639) | 17 |
 
 | huggingface/transformers | [Update no_trainer scripts to include gradient accumulation](https://github.com/huggingface/transformers/issues/18436) | 18 |
-
-| pandas-dev/pandas | [BUG: CustomBusinessDay not respecting calendar](https://github.com/pandas-dev/pandas/issues/60647) | 18 |
 
 | pandas-dev/pandas | [DOC: add button to edit on GitHub](https://github.com/pandas-dev/pandas/issues/39859) | 18 |
 
@@ -1196,6 +1196,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | [Fix PR02 issues in docstrings](https://github.com/pandas-dev/pandas/issues/27976) | 19 |
 
 | huggingface/diffusers | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 20 |
+
+| pandas-dev/pandas | [BUG: CustomBusinessDay not respecting calendar](https://github.com/pandas-dev/pandas/issues/60647) | 20 |
 
 | pandas-dev/pandas | [WEB: Multiple "Getting Started" on pandas.io leads to different links](https://github.com/pandas-dev/pandas/issues/32307) | 20 |
 
