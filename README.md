@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-09-03</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-09-04</sub></sub>
 
 
 ### Batchfile
@@ -118,14 +118,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/tensorflow | [Feature Request: GPUOptions for Go binding](https://github.com/tensorflow/tensorflow/issues/22926) | 109 |
 
 | godotengine/godot | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 227 |
-
-
-
-### Cython
-| Repo | Title | Comments |
-|------|-------|----------|
-
-| ansible/pylibssh | [[BUG] Flaky `tests/unit/sftp_test.py::test_put`](https://github.com/ansible/pylibssh/issues/351) | 5 |
 
 
 
@@ -389,13 +381,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | django/djangoproject.com | [Add link to new minutes repo](https://github.com/django/djangoproject.com/issues/2079) | 5 |
 
-| django/djangoproject.com | [Remove non-canonical docs versions from sitemap.xml](https://github.com/django/djangoproject.com/issues/878) | 5 |
-
 | django/djangoproject.com | [fundraising: 'customer.subscription.deleted' webhook event always gets 404 response](https://github.com/django/djangoproject.com/issues/764) | 5 |
 
 | django/djangoproject.com | [Docs for old supported versions should indicate that a newer version is available](https://github.com/django/djangoproject.com/issues/1122) | 6 |
 
 | django/djangoproject.com | [Support switching languages on non-docs sites](https://github.com/django/djangoproject.com/issues/883) | 6 |
+
+| django/djangoproject.com | [Remove non-canonical docs versions from sitemap.xml](https://github.com/django/djangoproject.com/issues/878) | 6 |
 
 | django/djangoproject.com | [Improvements to the Corporate Sponsor Experience](https://github.com/django/djangoproject.com/issues/1171) | 7 |
 
@@ -881,8 +873,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/ignite | [Try to replace conda/setup-python with astral-uv if faster](https://github.com/pytorch/ignite/issues/3350) | 3 |
 
-| pytorch/pytorch | [get_ema_multi_avg_fn() equation is a little confused](https://github.com/pytorch/pytorch/issues/155551) | 3 |
-
 | pytorch/pytorch | [Remove tensor variable default method fallthrough](https://github.com/pytorch/pytorch/issues/140591) | 3 |
 
 | pytorch/pytorch | [[export] Schematize nn_module_stack serialization](https://github.com/pytorch/pytorch/issues/131941) | 3 |
@@ -915,8 +905,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lighteval | [Append revision to filepath in `--output_dir`?](https://github.com/huggingface/lighteval/issues/56) | 4 |
 
-| huggingface/transformers | [Safetensors files for long-t5-tglobal models fail to load correctly](https://github.com/huggingface/transformers/issues/40635) | 4 |
-
 | huggingface/transformers | [OWL-VIT Vision Foundation Model deployment in the edge cases - Need SDPA support for OWL-ViT Model optimization for Edge Deployment](https://github.com/huggingface/transformers/issues/28103) | 4 |
 
 | huggingface/transformers | [GeneratorExp aren't supported by torch.jit.script when I try to export a previously trained model  'google/vit-base-patch16-224-in21k'.](https://github.com/huggingface/transformers/issues/15354) | 4 |
@@ -944,6 +932,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | [No matching function call  error in custom_dataset example ](https://github.com/pytorch/examples/issues/680) | 4 |
 
 | pytorch/examples | [Add Siamese Network example](https://github.com/pytorch/examples/issues/645) | 4 |
+
+| pytorch/pytorch | [get_ema_multi_avg_fn() equation is a little confused](https://github.com/pytorch/pytorch/issues/155551) | 4 |
 
 | pytorch/pytorch | [aten.grid_sampler_3d.default is missing a c-shim implementation, using proxy executor as fallback](https://github.com/pytorch/pytorch/issues/147625) | 4 |
 
@@ -974,6 +964,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/nanotron | [[Unit Test] Add unit tests for DistributedTrainer](https://github.com/huggingface/nanotron/issues/90) | 5 |
 
 | huggingface/optimum-benchmark | [Evaluators for specific tasks](https://github.com/huggingface/optimum-benchmark/issues/34) | 5 |
+
+| huggingface/transformers | [Safetensors files for long-t5-tglobal models fail to load correctly](https://github.com/huggingface/transformers/issues/40635) | 5 |
 
 | huggingface/transformers | [RuntimeError when loading llmcompressor W8A8 quantized model: int8 dtype in weight initialization](https://github.com/huggingface/transformers/issues/39366) | 5 |
 
@@ -1027,8 +1019,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/ignite | [Fix FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.](https://github.com/pytorch/ignite/issues/3435) | 6 |
 
-| pytorch/pytorch | [torch.export fails for expand_copy when implicit=True](https://github.com/pytorch/pytorch/issues/161080) | 6 |
-
 | pytorch/pytorch | [foreach_map enhancements](https://github.com/pytorch/pytorch/issues/158968) | 6 |
 
 | pytorch/pytorch | [dynamo (re)compilation issues: shape (1,1), nn.Parameter, mark_dynamic](https://github.com/pytorch/pytorch/issues/135011) | 6 |
@@ -1052,8 +1042,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/audio | [Use non-persistent buffers](https://github.com/pytorch/audio/issues/3059) | 7 |
 
 | pytorch/examples | [Why don't we use MSE as a reconstruction loss for VAE ?](https://github.com/pytorch/examples/issues/399) | 7 |
-
-| pytorch/executorch | [Add dim order variant clone operator](https://github.com/pytorch/executorch/issues/12645) | 7 |
 
 | pytorch/executorch | [Rename `executorch` cmake target to `prim_ops_lib`](https://github.com/pytorch/executorch/issues/11761) | 7 |
 
@@ -1179,6 +1167,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/ao | [Replace flash_4 with FlexAttention](https://github.com/pytorch/ao/issues/639) | 17 |
 
+| pytorch/pytorch | [Supporting custom attributes with `__torch_function__` tensor subclasses](https://github.com/pytorch/pytorch/issues/117806) | 17 |
+
 | huggingface/transformers | [Update no_trainer scripts to include gradient accumulation](https://github.com/huggingface/transformers/issues/18436) | 18 |
 
 | pandas-dev/pandas | [DOC: add button to edit on GitHub](https://github.com/pandas-dev/pandas/issues/39859) | 18 |
@@ -1186,6 +1176,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ao | [Add codebook (look up table based) quantization flow in torchao](https://github.com/pytorch/ao/issues/1195) | 18 |
 
 | pytorch/audio | [Add Stereo to Mono Convertions](https://github.com/pytorch/audio/issues/877) | 18 |
+
+| pytorch/executorch | [[Request impl] Devtool end-to-end tests](https://github.com/pytorch/executorch/issues/9778) | 18 |
 
 | pytorch/torchtune | [[Clean up] Move evaluation configs under model directories ](https://github.com/pytorch/torchtune/issues/1810) | 18 |
 
