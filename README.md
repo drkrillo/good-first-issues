@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-09-06</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-09-07</sub></sub>
 
 
 ### Batchfile
@@ -435,8 +435,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lighteval | [[FT] showing count in Markdown summary table](https://github.com/huggingface/lighteval/issues/804) | 0 |
 
-| huggingface/lighteval | [[FT]  Add tests for nanotron](https://github.com/huggingface/lighteval/issues/765) | 0 |
-
 | huggingface/lighteval | [[FT] add `py.typed` so `lighteval` can work with type checkers](https://github.com/huggingface/lighteval/issues/749) | 0 |
 
 | huggingface/lighteval | [[FT] Manage script and language in the Language enum](https://github.com/huggingface/lighteval/issues/745) | 0 |
@@ -578,6 +576,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/diffusers | [Do we have any script covert from hf format to orginal format?](https://github.com/huggingface/diffusers/issues/10076) | 1 |
 
 | huggingface/lerobot | [Ensure the model module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1732) | 1 |
+
+| huggingface/lighteval | [[FT]  Add tests for nanotron](https://github.com/huggingface/lighteval/issues/765) | 1 |
 
 | huggingface/lighteval | [[BUG] Misleading metric type of LightevalTaskConfig](https://github.com/huggingface/lighteval/issues/710) | 1 |
 
@@ -963,8 +963,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [RuntimeError when loading llmcompressor W8A8 quantized model: int8 dtype in weight initialization](https://github.com/huggingface/transformers/issues/39366) | 5 |
 
-| huggingface/transformers | [Trainer.training_step incorrectly normalizes mean token loss when n_gpu > 1](https://github.com/huggingface/transformers/issues/37474) | 5 |
-
 | pandas-dev/pandas | [BUG: loc fails with tz_aware DateTimeIndex ](https://github.com/pandas-dev/pandas/issues/54409) | 5 |
 
 | pandas-dev/pandas | [ENH: Change ExtensionOpsMixin behaviour to not add new operator method if one is already defined on the ExtensionArray class](https://github.com/pandas-dev/pandas/issues/50767) | 5 |
@@ -998,6 +996,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/lighteval | [[FT] Improve Documentation and Examples](https://github.com/huggingface/lighteval/issues/682) | 6 |
 
 | huggingface/transformers | [Safetensors files for long-t5-tglobal models fail to load correctly](https://github.com/huggingface/transformers/issues/40635) | 6 |
+
+| huggingface/transformers | [Trainer.training_step incorrectly normalizes mean token loss when n_gpu > 1](https://github.com/huggingface/transformers/issues/37474) | 6 |
 
 | pandas-dev/pandas | [BUG: concat_{categorical, compat} leads to erroneous result on non-ns datetime-EA ](https://github.com/pandas-dev/pandas/issues/33331) | 6 |
 
@@ -1123,17 +1123,15 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/data | [Improve the warning message regarding local function not supported by pickle](https://github.com/pytorch/data/issues/947) | 11 |
 
-| pytorch/pytorch | [Improve typing of args and kwargs with ParamSpec](https://github.com/pytorch/pytorch/issues/142306) | 11 |
-
 | pytorch/pytorch | [Device check missing in torch.linalg.solve_triangular leading to hard crash](https://github.com/pytorch/pytorch/issues/142048) | 11 |
 
 | huggingface/transformers | [Verify interpolation of image processors](https://github.com/huggingface/transformers/issues/28180) | 12 |
 
-| pandas-dev/pandas | [BUG: Interpolate over time does not work with Int64 or Float64](https://github.com/pandas-dev/pandas/issues/40252) | 12 |
-
 | pytorch/pytorch | [`torch.export.export()` fails on GPU with LSTM model: "Cannot access data pointer of Tensor"](https://github.com/pytorch/pytorch/issues/155309) | 12 |
 
 | pytorch/pytorch | [Obscure error: Expected a value of type 'List[int]' for argument 'sizes' but instead found type 'immutable_list'](https://github.com/pytorch/pytorch/issues/122129) | 12 |
+
+| pytorch/pytorch | [Logging when executing fx.Interpreter](https://github.com/pytorch/pytorch/issues/117351) | 12 |
 
 | huggingface/diffusers | [[Pipeline] AnimateDiff + SparseControl + ControlNet](https://github.com/huggingface/diffusers/issues/9329) | 13 |
 
@@ -1161,9 +1159,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | [DOC: Simplify pandas theme footer](https://github.com/pandas-dev/pandas/issues/51536) | 16 |
 
-| pandas-dev/pandas | [Indexing on series where index is output from pd.cut ](https://github.com/pandas-dev/pandas/issues/27437) | 16 |
+| pandas-dev/pandas | [BUG: Interpolate over time does not work with Int64 or Float64](https://github.com/pandas-dev/pandas/issues/40252) | 16 |
 
-| pandas-dev/pandas | [Updating value of a single row of a column using loc or at fails](https://github.com/pandas-dev/pandas/issues/22040) | 16 |
+| pandas-dev/pandas | [Indexing on series where index is output from pd.cut ](https://github.com/pandas-dev/pandas/issues/27437) | 16 |
 
 | fastapi/fastapi | [Will FastAPI support QUERY http method? "app.query"](https://github.com/fastapi/fastapi/issues/12965) | 17 |
 
@@ -1184,6 +1182,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/transformers | [Accelerate x Trainer issue tracker:](https://github.com/huggingface/transformers/issues/33345) | 19 |
 
 | huggingface/transformers | [Improve EncoderDecoderModel docs](https://github.com/huggingface/transformers/issues/16135) | 19 |
+
+| pandas-dev/pandas | [Updating value of a single row of a column using loc or at fails](https://github.com/pandas-dev/pandas/issues/22040) | 19 |
 
 | huggingface/diffusers | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 20 |
 
@@ -1221,7 +1221,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [[Community Event] Doc Tests Sprint](https://github.com/huggingface/transformers/issues/16292) | 104 |
 
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 182 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 184 |
 
 
 
