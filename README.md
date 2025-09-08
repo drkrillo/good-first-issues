@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-09-07</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-09-08</sub></sub>
 
 
 ### Batchfile
@@ -605,8 +605,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | tensorflow/quantum | [Documentation Format](https://github.com/tensorflow/quantum/issues/238) | 1 |
 
-| pytorch/ao | [Deprecate and remove subclass.py, dynamic_quant.py, and weight_only.py](https://github.com/pytorch/ao/issues/2745) | 1 |
-
 | pytorch/ao | [Refactor torchao and tests to use model architectures from torchao.testing.model_architectures](https://github.com/pytorch/ao/issues/2078) | 1 |
 
 | pytorch/ao | [Add weight tensor-wise scaling for INT8 quantized and mixed-precision training](https://github.com/pytorch/ao/issues/1010) | 1 |
@@ -739,6 +737,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | tensorflow/graphics | [Tangential camera distortion/undistortion](https://github.com/tensorflow/graphics/issues/334) | 2 |
 
+| pytorch/ao | [Deprecate and remove subclass.py, dynamic_quant.py, and weight_only.py](https://github.com/pytorch/ao/issues/2745) | 2 |
+
 | pytorch/ao | [Unittests Migration Progress](https://github.com/pytorch/ao/issues/1621) | 2 |
 
 | pytorch/ao | [[QAT] Low-bit FSDP all-gather for QAT](https://github.com/pytorch/ao/issues/1224) | 2 |
@@ -811,6 +811,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transfer-learning-conv-ai | [RuntimeError: shape '[-1, 2, 34]' is invalid for input of size 61710](https://github.com/huggingface/transfer-learning-conv-ai/issues/12) | 3 |
 
+| pandas-dev/pandas | [BUG: `DataFrame.mean(axis=1)` fails but `Series.mean` works incase of pandas Nullable integer dtype](https://github.com/pandas-dev/pandas/issues/36585) | 3 |
+
 | ansible/ansible-documentation | [Incorporate 'shared snippets' for the collection docs into the main rst files](https://github.com/ansible/ansible-documentation/issues/1382) | 3 |
 
 | ansible/awx | [Add option to force the user to reset its password at first login](https://github.com/ansible/awx/issues/15766) | 3 |
@@ -866,8 +868,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [Get rid of fixed number cmake --build -j in sh and docs](https://github.com/pytorch/executorch/issues/10887) | 3 |
 
 | pytorch/executorch | [Consolidate executor_runners](https://github.com/pytorch/executorch/issues/10819) | 3 |
-
-| pytorch/helion | [HELION_INTERPRET=1 only prints once for fixed block_size](https://github.com/pytorch/helion/issues/466) | 3 |
 
 | pytorch/ignite | [Try to replace conda/setup-python with astral-uv if faster](https://github.com/pytorch/ignite/issues/3350) | 3 |
 
@@ -989,15 +989,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/torchft | [[CheckpointServer] use streaming transfers](https://github.com/pytorch/torchft/issues/36) | 5 |
 
-| huggingface/huggingface_hub | [Implement a `FlaxModelHubMixin`](https://github.com/huggingface/huggingface_hub/issues/1709) | 6 |
-
 | huggingface/lighteval | [[EVAL] Adding PHARE](https://github.com/huggingface/lighteval/issues/696) | 6 |
 
 | huggingface/lighteval | [[FT] Improve Documentation and Examples](https://github.com/huggingface/lighteval/issues/682) | 6 |
 
 | huggingface/transformers | [Safetensors files for long-t5-tglobal models fail to load correctly](https://github.com/huggingface/transformers/issues/40635) | 6 |
-
-| huggingface/transformers | [Trainer.training_step incorrectly normalizes mean token loss when n_gpu > 1](https://github.com/huggingface/transformers/issues/37474) | 6 |
 
 | pandas-dev/pandas | [BUG: concat_{categorical, compat} leads to erroneous result on non-ns datetime-EA ](https://github.com/pandas-dev/pandas/issues/33331) | 6 |
 
@@ -1054,6 +1050,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [reduce torch.compile default logs](https://github.com/pytorch/pytorch/issues/135521) | 7 |
 
 | huggingface/diffusers | [Make `FlaxLMSDiscreteScheduler` jittable](https://github.com/huggingface/diffusers/issues/2180) | 8 |
+
+| huggingface/transformers | [Trainer.training_step incorrectly normalizes mean token loss when n_gpu > 1](https://github.com/huggingface/transformers/issues/37474) | 8 |
 
 | huggingface/transformers | [Add argument to set number of eval steps in Trainer](https://github.com/huggingface/transformers/issues/31561) | 8 |
 
@@ -1190,8 +1188,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | [BUG: CustomBusinessDay not respecting calendar](https://github.com/pandas-dev/pandas/issues/60647) | 20 |
 
 | pandas-dev/pandas | [WEB: Multiple "Getting Started" on pandas.io leads to different links](https://github.com/pandas-dev/pandas/issues/32307) | 20 |
-
-| pandas-dev/pandas | [Raise ValueError for read_json and orient='table' With Numeric Column Names](https://github.com/pandas-dev/pandas/issues/19129) | 20 |
 
 | huggingface/peft | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 21 |
 
