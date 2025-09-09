@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-09-08</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-09-09</sub></sub>
 
 
 ### Batchfile
@@ -118,6 +118,14 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/tensorflow | [Feature Request: GPUOptions for Go binding](https://github.com/tensorflow/tensorflow/issues/22926) | 109 |
 
 | godotengine/godot | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 227 |
+
+
+
+### Cython
+| Repo | Title | Comments |
+|------|-------|----------|
+
+| ansible/pylibssh | [[TODO] Ensure release builds don't include debug symbols](https://github.com/ansible/pylibssh/issues/767) | 0 |
 
 
 
@@ -530,6 +538,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/PiPPy | [Support CLIP models in HF tests](https://github.com/pytorch/PiPPy/issues/248) | 0 |
 
 | pytorch/PiPPy | [Support SWIN models in HF tests](https://github.com/pytorch/PiPPy/issues/243) | 0 |
+
+| pytorch/pytorch | [test/distributed/_tools/test_sac_ilp.py::TestSACILP::test_sac_ilp_case1 is seemingly not run in CI](https://github.com/pytorch/pytorch/issues/162453) | 0 |
 
 | pytorch/rl | [[DO NOT CLOSE] Call for contributions](https://github.com/pytorch/rl/issues/509) | 0 |
 
@@ -989,8 +999,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/torchft | [[CheckpointServer] use streaming transfers](https://github.com/pytorch/torchft/issues/36) | 5 |
 
-| huggingface/lighteval | [[EVAL] Adding PHARE](https://github.com/huggingface/lighteval/issues/696) | 6 |
-
 | huggingface/lighteval | [[FT] Improve Documentation and Examples](https://github.com/huggingface/lighteval/issues/682) | 6 |
 
 | huggingface/transformers | [Safetensors files for long-t5-tglobal models fail to load correctly](https://github.com/huggingface/transformers/issues/40635) | 6 |
@@ -1025,6 +1033,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [oom when using adafactor optimizer in deepspeed](https://github.com/huggingface/transformers/issues/33290) | 7 |
 
+| pandas-dev/pandas | [BUG: AssertionError: Did not expect new dtype float64 to equal self.dtype float64. Please report a bug](https://github.com/pandas-dev/pandas/issues/56329) | 7 |
+
 | pandas-dev/pandas | [ERR: ``numeric_only`` in reduction operations should disallow passing non-bools](https://github.com/pandas-dev/pandas/issues/53098) | 7 |
 
 | pandas-dev/pandas | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 7 |
@@ -1034,8 +1044,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/audio | [Use non-persistent buffers](https://github.com/pytorch/audio/issues/3059) | 7 |
 
 | pytorch/examples | [Why don't we use MSE as a reconstruction loss for VAE ?](https://github.com/pytorch/examples/issues/399) | 7 |
-
-| pytorch/executorch | [Add dim order variant clone operator](https://github.com/pytorch/executorch/issues/12645) | 7 |
 
 | pytorch/executorch | [Rename `executorch` cmake target to `prim_ops_lib`](https://github.com/pytorch/executorch/issues/11761) | 7 |
 
@@ -1050,6 +1058,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [reduce torch.compile default logs](https://github.com/pytorch/pytorch/issues/135521) | 7 |
 
 | huggingface/diffusers | [Make `FlaxLMSDiscreteScheduler` jittable](https://github.com/huggingface/diffusers/issues/2180) | 8 |
+
+| huggingface/lighteval | [[EVAL] Adding PHARE](https://github.com/huggingface/lighteval/issues/696) | 8 |
 
 | huggingface/transformers | [Trainer.training_step incorrectly normalizes mean token loss when n_gpu > 1](https://github.com/huggingface/transformers/issues/37474) | 8 |
 
@@ -1091,8 +1101,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [Tapas tokenization Different from Tensorflow Code](https://github.com/huggingface/transformers/issues/13244) | 10 |
 
-| pandas-dev/pandas | [[Feature Request] Add `replace` method to `Index` objects](https://github.com/pandas-dev/pandas/issues/19495) | 10 |
-
 | pytorch/ao | [[MPS] torchao low-bit-precision optim does not expose 'backend' argument to torch.compile](https://github.com/pytorch/ao/issues/955) | 10 |
 
 | pytorch/executorch | [Check tensor's dim order ambiguity in IR verifier](https://github.com/pytorch/executorch/issues/9942) | 10 |
@@ -1129,8 +1137,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/pytorch | [Obscure error: Expected a value of type 'List[int]' for argument 'sizes' but instead found type 'immutable_list'](https://github.com/pytorch/pytorch/issues/122129) | 12 |
 
-| pytorch/pytorch | [Logging when executing fx.Interpreter](https://github.com/pytorch/pytorch/issues/117351) | 12 |
-
 | huggingface/diffusers | [[Pipeline] AnimateDiff + SparseControl + ControlNet](https://github.com/huggingface/diffusers/issues/9329) | 13 |
 
 | huggingface/transformers | [Unknown Model (mobilenetv5_300m_enc) when loading Gemma 3n](https://github.com/huggingface/transformers/issues/39208) | 13 |
@@ -1161,8 +1167,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | [Indexing on series where index is output from pd.cut ](https://github.com/pandas-dev/pandas/issues/27437) | 16 |
 
-| fastapi/fastapi | [Will FastAPI support QUERY http method? "app.query"](https://github.com/fastapi/fastapi/issues/12965) | 17 |
-
 | pytorch/ao | [Replace flash_4 with FlexAttention](https://github.com/pytorch/ao/issues/639) | 17 |
 
 | pytorch/pytorch | [Supporting custom attributes with `__torch_function__` tensor subclasses](https://github.com/pytorch/pytorch/issues/117806) | 17 |
@@ -1175,6 +1179,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/audio | [Add Stereo to Mono Convertions](https://github.com/pytorch/audio/issues/877) | 18 |
 
+| pytorch/executorch | [[Request impl] Devtool end-to-end tests](https://github.com/pytorch/executorch/issues/9778) | 18 |
+
 | pytorch/torchtune | [[Clean up] Move evaluation configs under model directories ](https://github.com/pytorch/torchtune/issues/1810) | 18 |
 
 | huggingface/transformers | [Accelerate x Trainer issue tracker:](https://github.com/huggingface/transformers/issues/33345) | 19 |
@@ -1182,6 +1188,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/transformers | [Improve EncoderDecoderModel docs](https://github.com/huggingface/transformers/issues/16135) | 19 |
 
 | pandas-dev/pandas | [Updating value of a single row of a column using loc or at fails](https://github.com/pandas-dev/pandas/issues/22040) | 19 |
+
+| fastapi/fastapi | [Will FastAPI support QUERY http method? "app.query"](https://github.com/fastapi/fastapi/issues/12965) | 19 |
 
 | huggingface/diffusers | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 20 |
 
@@ -1213,11 +1221,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [Community contribution: enable dynamic resolution input for more vision models.](https://github.com/huggingface/transformers/issues/30579) | 40 |
 
-| huggingface/transformers | [[Contributions Welcome] Add Fast Image Processors](https://github.com/huggingface/transformers/issues/36978) | 73 |
-
 | huggingface/transformers | [[Community Event] Doc Tests Sprint](https://github.com/huggingface/transformers/issues/16292) | 104 |
 
-| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 184 |
+| huggingface/transformers | [[Community contributions] Model cards](https://github.com/huggingface/transformers/issues/36979) | 186 |
 
 
 
