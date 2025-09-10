@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-09-09</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-09-10</sub></sub>
 
 
 ### Batchfile
@@ -113,7 +113,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | godotengine/godot | [PointLight2D doesn't respect Nearest texture filter for normal-maps or shadows](https://github.com/godotengine/godot/issues/76266) | 30 |
 
-| opencv/opencv | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 31 |
+| opencv/opencv | [HDR tutorial result is different from the code running.](https://github.com/opencv/opencv/issues/22219) | 32 |
 
 | tensorflow/tensorflow | [Feature Request: GPUOptions for Go binding](https://github.com/tensorflow/tensorflow/issues/22926) | 109 |
 
@@ -539,8 +539,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/PiPPy | [Support SWIN models in HF tests](https://github.com/pytorch/PiPPy/issues/243) | 0 |
 
-| pytorch/pytorch | [test/distributed/_tools/test_sac_ilp.py::TestSACILP::test_sac_ilp_case1 is seemingly not run in CI](https://github.com/pytorch/pytorch/issues/162453) | 0 |
-
 | pytorch/rl | [[DO NOT CLOSE] Call for contributions](https://github.com/pytorch/rl/issues/509) | 0 |
 
 | pytorch/tensordict | [[Feature Request] Deprecate `_run_checks` in favour of `TensorDict._checked`](https://github.com/pytorch/tensordict/issues/182) | 0 |
@@ -670,6 +668,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/helion | [Limit block sizes in autotuning because of triton max numel range](https://github.com/pytorch/helion/issues/456) | 1 |
 
 | pytorch/PiPPy | [Support LayoutLM models in HF tests](https://github.com/pytorch/PiPPy/issues/247) | 1 |
+
+| pytorch/pytorch | [test/distributed/_tools/test_sac_ilp.py::TestSACILP::test_sac_ilp_case1 is seemingly not run in CI](https://github.com/pytorch/pytorch/issues/162453) | 1 |
 
 | pytorch/pytorch | [[inductor] nan_asserts doesn't work for FP8, "RuntimeError: "isinf" not implemented for 'Float8_e4m3fn'"](https://github.com/pytorch/pytorch/issues/149002) | 1 |
 
@@ -911,8 +911,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lighteval | [[EVAL]: Add more African Benchmarks](https://github.com/huggingface/lighteval/issues/373) | 4 |
 
-| huggingface/lighteval | [Append revision to filepath in `--output_dir`?](https://github.com/huggingface/lighteval/issues/56) | 4 |
-
 | huggingface/transformers | [OWL-VIT Vision Foundation Model deployment in the edge cases - Need SDPA support for OWL-ViT Model optimization for Edge Deployment](https://github.com/huggingface/transformers/issues/28103) | 4 |
 
 | huggingface/transformers | [GeneratorExp aren't supported by torch.jit.script when I try to export a previously trained model  'google/vit-base-patch16-224-in21k'.](https://github.com/huggingface/transformers/issues/15354) | 4 |
@@ -941,11 +939,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/examples | [Add Siamese Network example](https://github.com/pytorch/examples/issues/645) | 4 |
 
-| pytorch/pytorch | [get_ema_multi_avg_fn() equation is a little confused](https://github.com/pytorch/pytorch/issues/155551) | 4 |
-
 | pytorch/pytorch | [aten.grid_sampler_3d.default is missing a c-shim implementation, using proxy executor as fallback](https://github.com/pytorch/pytorch/issues/147625) | 4 |
-
-| pytorch/pytorch | [If mark_dynamic fails (Not all values of RelaxedUnspecConstraint are valid) due to specialization, error message should print where specialization came from](https://github.com/pytorch/pytorch/issues/136002) | 4 |
 
 | pytorch/pytorch | [torch.fx.Tracer.record_stack_traces is broken in torch 2.4.0](https://github.com/pytorch/pytorch/issues/130861) | 4 |
 
@@ -965,6 +959,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lighteval | [[BUG] custom model docs don't run: missing imports](https://github.com/huggingface/lighteval/issues/760) | 5 |
 
+| huggingface/lighteval | [Append revision to filepath in `--output_dir`?](https://github.com/huggingface/lighteval/issues/56) | 5 |
+
 | huggingface/nanotron | [[Bug] Missing `_is_using_mup` when resume checkpoint](https://github.com/huggingface/nanotron/issues/198) | 5 |
 
 | huggingface/nanotron | [[Unit Test] Add unit tests for DistributedTrainer](https://github.com/huggingface/nanotron/issues/90) | 5 |
@@ -973,7 +969,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [RuntimeError when loading llmcompressor W8A8 quantized model: int8 dtype in weight initialization](https://github.com/huggingface/transformers/issues/39366) | 5 |
 
-| pandas-dev/pandas | [BUG: loc fails with tz_aware DateTimeIndex ](https://github.com/pandas-dev/pandas/issues/54409) | 5 |
+| pandas-dev/pandas | [BUG: `Series.clip` does not work with scalar numpy arrays.](https://github.com/pandas-dev/pandas/issues/59053) | 5 |
 
 | pandas-dev/pandas | [ENH: Change ExtensionOpsMixin behaviour to not add new operator method if one is already defined on the ExtensionArray class](https://github.com/pandas-dev/pandas/issues/50767) | 5 |
 
@@ -991,7 +987,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/audio | [read mp3 file fail](https://github.com/pytorch/audio/issues/2867) | 5 |
 
+| pytorch/pytorch | [get_ema_multi_avg_fn() equation is a little confused](https://github.com/pytorch/pytorch/issues/155551) | 5 |
+
 | pytorch/pytorch | [Improve error message for wrong number of arguments in CachingAutotuner](https://github.com/pytorch/pytorch/issues/146018) | 5 |
+
+| pytorch/pytorch | [If mark_dynamic fails (Not all values of RelaxedUnspecConstraint are valid) due to specialization, error message should print where specialization came from](https://github.com/pytorch/pytorch/issues/136002) | 5 |
 
 | pytorch/pytorch | [AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible](https://github.com/pytorch/pytorch/issues/119191) | 5 |
 
@@ -1033,7 +1033,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [oom when using adafactor optimizer in deepspeed](https://github.com/huggingface/transformers/issues/33290) | 7 |
 
-| pandas-dev/pandas | [BUG: AssertionError: Did not expect new dtype float64 to equal self.dtype float64. Please report a bug](https://github.com/pandas-dev/pandas/issues/56329) | 7 |
+| pandas-dev/pandas | [DOC: NaT - "alias of NaT"; NA - "alias of <NA>"](https://github.com/pandas-dev/pandas/issues/62185) | 7 |
 
 | pandas-dev/pandas | [ERR: ``numeric_only`` in reduction operations should disallow passing non-bools](https://github.com/pandas-dev/pandas/issues/53098) | 7 |
 
@@ -1061,13 +1061,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lighteval | [[EVAL] Adding PHARE](https://github.com/huggingface/lighteval/issues/696) | 8 |
 
-| huggingface/transformers | [Trainer.training_step incorrectly normalizes mean token loss when n_gpu > 1](https://github.com/huggingface/transformers/issues/37474) | 8 |
-
 | huggingface/transformers | [Add argument to set number of eval steps in Trainer](https://github.com/huggingface/transformers/issues/31561) | 8 |
 
 | pandas-dev/pandas | [DOC: Enforce Numpy Docstring Validation (Parent Issue)](https://github.com/pandas-dev/pandas/issues/58063) | 8 |
 
 | pandas-dev/pandas | [BUG: itemsize wrong for date32[day][pyarrow] dtype?](https://github.com/pandas-dev/pandas/issues/57948) | 8 |
+
+| pandas-dev/pandas | [BUG: AssertionError: Did not expect new dtype float64 to equal self.dtype float64. Please report a bug](https://github.com/pandas-dev/pandas/issues/56329) | 8 |
 
 | pandas-dev/pandas | [BUG: DataFrame.rank does not return EA types when original type was an EADtype](https://github.com/pandas-dev/pandas/issues/52829) | 8 |
 
@@ -1084,6 +1084,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/diffusers | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 9 |
 
 | huggingface/huggingface_hub | [Allow dry_run for snapshot_download](https://github.com/huggingface/huggingface_hub/issues/1023) | 9 |
+
+| huggingface/transformers | [Trainer.training_step incorrectly normalizes mean token loss when n_gpu > 1](https://github.com/huggingface/transformers/issues/37474) | 9 |
 
 | pandas-dev/pandas | [DOC: Incorrect Source Link](https://github.com/pandas-dev/pandas/issues/58350) | 9 |
 
@@ -1137,13 +1139,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/pytorch | [Obscure error: Expected a value of type 'List[int]' for argument 'sizes' but instead found type 'immutable_list'](https://github.com/pytorch/pytorch/issues/122129) | 12 |
 
-| huggingface/diffusers | [[Pipeline] AnimateDiff + SparseControl + ControlNet](https://github.com/huggingface/diffusers/issues/9329) | 13 |
-
 | huggingface/transformers | [Unknown Model (mobilenetv5_300m_enc) when loading Gemma 3n](https://github.com/huggingface/transformers/issues/39208) | 13 |
 
 | huggingface/transformers | [IsADirectoryError when training with tqdm enabled for trainer](https://github.com/huggingface/transformers/issues/34766) | 13 |
 
 | huggingface/transformers | [Object Detection Pipeline only outputs first element when batching](https://github.com/huggingface/transformers/issues/31356) | 13 |
+
+| huggingface/diffusers | [[Pipeline] AnimateDiff + SparseControl + ControlNet](https://github.com/huggingface/diffusers/issues/9329) | 14 |
 
 | pandas-dev/pandas | [BUG: assert_frame_equal(check_dtype=False) fails when comparing two DFs containing pd.NA that only differ in dtype (object vs Int32)](https://github.com/pandas-dev/pandas/issues/61473) | 14 |
 
@@ -1152,8 +1154,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/datasets | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 15 |
 
 | huggingface/transformers | [`ConditionalDetrImageProcessor` still accepts the deprecated parameter `max_size`](https://github.com/huggingface/transformers/issues/37939) | 15 |
-
-| pandas-dev/pandas | [BUG: In main, TimedeltaIndex.shift() requires freq in the index, but it may not be available because it was computed](https://github.com/pandas-dev/pandas/issues/62094) | 15 |
 
 | pandas-dev/pandas | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 15 |
 
@@ -1276,8 +1276,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/swift-apis | [Recursive Neural Networks (structured data/trees)](https://github.com/tensorflow/swift-apis/issues/68) | 3 |
 
 | huggingface/chat-macOS | [Add custom LLM API ](https://github.com/huggingface/chat-macOS/issues/18) | 5 |
-
-| huggingface/swift-transformers | [Tokenizers: additional Normalizers, PreTokenizers, PostProcessors](https://github.com/huggingface/swift-transformers/issues/4) | 5 |
 
 | tensorflow/swift-apis | [Implement Recurrent Layers](https://github.com/tensorflow/swift-apis/issues/52) | 5 |
 
