@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-09-10</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2025-09-11</sub></sub>
 
 
 ### Batchfile
@@ -99,7 +99,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | opencv/opencv_contrib | [reg: broken python sample](https://github.com/opencv/opencv_contrib/issues/1935) | 9 |
 
-| godotengine/godot | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 9 |
+| godotengine/godot | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 10 |
 
 | opencv/opencv_contrib | [selectROI pointer almost invisible on certain colours](https://github.com/opencv/opencv_contrib/issues/1719) | 14 |
 
@@ -387,9 +387,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | django/djangoproject.com | [Add link to 'Stable' doc version in the Warning Alert on top](https://github.com/django/djangoproject.com/issues/2094) | 5 |
 
-| django/djangoproject.com | [Add link to new minutes repo](https://github.com/django/djangoproject.com/issues/2079) | 5 |
-
 | django/djangoproject.com | [fundraising: 'customer.subscription.deleted' webhook event always gets 404 response](https://github.com/django/djangoproject.com/issues/764) | 5 |
+
+| django/djangoproject.com | [Add link to new minutes repo](https://github.com/django/djangoproject.com/issues/2079) | 6 |
 
 | django/djangoproject.com | [Docs for old supported versions should indicate that a newer version is available](https://github.com/django/djangoproject.com/issues/1122) | 6 |
 
@@ -452,8 +452,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/lighteval | [[FT]  Add tests for `VLLMModel` base methods](https://github.com/huggingface/lighteval/issues/724) | 0 |
 
 | huggingface/lighteval | [[FT] Build in a way to specify specific IDs/Lines in Dataset to use as few-shot examples in the same split](https://github.com/huggingface/lighteval/issues/634) | 0 |
-
-| huggingface/lighteval | [[FT] LiteLLM concurrency parameters hard-coded](https://github.com/huggingface/lighteval/issues/567) | 0 |
 
 | huggingface/nanotron | [[Feature] Use CUDA event for measuring elasped time](https://github.com/huggingface/nanotron/issues/88) | 0 |
 
@@ -591,6 +589,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lighteval | [[EVAL] Big-Bench Extra Hard (BBEH)](https://github.com/huggingface/lighteval/issues/600) | 1 |
 
+| huggingface/lighteval | [[FT] LiteLLM concurrency parameters hard-coded](https://github.com/huggingface/lighteval/issues/567) | 1 |
+
 | huggingface/nanotron | [Add Debug utility to be able to preview first samples used for training](https://github.com/huggingface/nanotron/issues/184) | 1 |
 
 | huggingface/nanotron | [We don't save checkpoint after training ends](https://github.com/huggingface/nanotron/issues/163) | 1 |
@@ -641,8 +641,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/examples | [Doc comment on `accuracy` method in imagenet example, incorrect?](https://github.com/pytorch/examples/issues/312) | 1 |
 
-| pytorch/executorch | [[Arm] Size-test: Run the binary on CI](https://github.com/pytorch/executorch/issues/12812) | 1 |
-
 | pytorch/executorch | [Add pybindings for text LLM runner](https://github.com/pytorch/executorch/issues/12790) | 1 |
 
 | pytorch/executorch | [Support dim order in Java Tensor](https://github.com/pytorch/executorch/issues/11593) | 1 |
@@ -668,8 +666,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/helion | [Limit block sizes in autotuning because of triton max numel range](https://github.com/pytorch/helion/issues/456) | 1 |
 
 | pytorch/PiPPy | [Support LayoutLM models in HF tests](https://github.com/pytorch/PiPPy/issues/247) | 1 |
-
-| pytorch/pytorch | [test/distributed/_tools/test_sac_ilp.py::TestSACILP::test_sac_ilp_case1 is seemingly not run in CI](https://github.com/pytorch/pytorch/issues/162453) | 1 |
 
 | pytorch/pytorch | [[inductor] nan_asserts doesn't work for FP8, "RuntimeError: "isinf" not implemented for 'Float8_e4m3fn'"](https://github.com/pytorch/pytorch/issues/149002) | 1 |
 
@@ -712,8 +708,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/lerobot | [Ensure the robots module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1721) | 2 |
 
 | huggingface/lighteval | [Call for contributions: Translate lighteval's doc into Chinese](https://github.com/huggingface/lighteval/issues/716) | 2 |
-
-| huggingface/nanotron | [Avoid nested `InheritFromOtherOptimizer`](https://github.com/huggingface/nanotron/issues/267) | 2 |
 
 | huggingface/nanotron | [[Feature] Asyncronous Serialization](https://github.com/huggingface/nanotron/issues/87) | 2 |
 
@@ -773,6 +767,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/examples | [Imagenet training extremely low gpu utilization](https://github.com/pytorch/examples/issues/387) | 2 |
 
+| pytorch/executorch | [[Arm] Size-test: Run the binary on CI](https://github.com/pytorch/executorch/issues/12812) | 2 |
+
 | pytorch/executorch | [Consolidation of Selective Build APIs for OSS](https://github.com/pytorch/executorch/issues/11921) | 2 |
 
 | pytorch/executorch | [Support Standalone Batch Norm](https://github.com/pytorch/executorch/issues/11586) | 2 |
@@ -786,6 +782,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [[Request impl] Gracefully error out in ETDump](https://github.com/pytorch/executorch/issues/9971) | 2 |
 
 | pytorch/PiPPy | [Make RemoteInterpreter use the full implementation of `Interpreter.run`](https://github.com/pytorch/PiPPy/issues/25) | 2 |
+
+| pytorch/pytorch | [test/distributed/_tools/test_sac_ilp.py::TestSACILP::test_sac_ilp_case1 is seemingly not run in CI](https://github.com/pytorch/pytorch/issues/162453) | 2 |
 
 | pytorch/rl | [[Feature Request] Make sure that all losses work with tensorclasses and regular tensors](https://github.com/pytorch/rl/issues/1062) | 2 |
 
@@ -821,7 +819,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transfer-learning-conv-ai | [RuntimeError: shape '[-1, 2, 34]' is invalid for input of size 61710](https://github.com/huggingface/transfer-learning-conv-ai/issues/12) | 3 |
 
-| pandas-dev/pandas | [BUG: `DataFrame.mean(axis=1)` fails but `Series.mean` works incase of pandas Nullable integer dtype](https://github.com/pandas-dev/pandas/issues/36585) | 3 |
+| huggingface/transformers | [`train_tokens_per_second` is wrong after continuing from checkpoint](https://github.com/huggingface/transformers/issues/40560) | 3 |
+
+| pandas-dev/pandas | [DOC: Clarify parentheses vs. brackets](https://github.com/pandas-dev/pandas/issues/62314) | 3 |
 
 | ansible/ansible-documentation | [Incorporate 'shared snippets' for the collection docs into the main rst files](https://github.com/ansible/ansible-documentation/issues/1382) | 3 |
 
@@ -911,9 +911,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lighteval | [[EVAL]: Add more African Benchmarks](https://github.com/huggingface/lighteval/issues/373) | 4 |
 
+| huggingface/nanotron | [Avoid nested `InheritFromOtherOptimizer`](https://github.com/huggingface/nanotron/issues/267) | 4 |
+
 | huggingface/transformers | [OWL-VIT Vision Foundation Model deployment in the edge cases - Need SDPA support for OWL-ViT Model optimization for Edge Deployment](https://github.com/huggingface/transformers/issues/28103) | 4 |
 
 | huggingface/transformers | [GeneratorExp aren't supported by torch.jit.script when I try to export a previously trained model  'google/vit-base-patch16-224-in21k'.](https://github.com/huggingface/transformers/issues/15354) | 4 |
+
+| pandas-dev/pandas | [BUG: `DataFrame.mean(axis=1)` fails but `Series.mean` works incase of pandas Nullable integer dtype](https://github.com/pandas-dev/pandas/issues/36585) | 4 |
 
 | pandas-dev/pandas | [`pd.groupby` seems to mutate my `pd.Grouper` in-place](https://github.com/pandas-dev/pandas/issues/26564) | 4 |
 
@@ -1033,8 +1037,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [oom when using adafactor optimizer in deepspeed](https://github.com/huggingface/transformers/issues/33290) | 7 |
 
-| pandas-dev/pandas | [DOC: NaT - "alias of NaT"; NA - "alias of <NA>"](https://github.com/pandas-dev/pandas/issues/62185) | 7 |
-
 | pandas-dev/pandas | [ERR: ``numeric_only`` in reduction operations should disallow passing non-bools](https://github.com/pandas-dev/pandas/issues/53098) | 7 |
 
 | pandas-dev/pandas | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 7 |
@@ -1046,8 +1048,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | [Why don't we use MSE as a reconstruction loss for VAE ?](https://github.com/pytorch/examples/issues/399) | 7 |
 
 | pytorch/executorch | [Rename `executorch` cmake target to `prim_ops_lib`](https://github.com/pytorch/executorch/issues/11761) | 7 |
-
-| pytorch/pytorch | [foreach_map enhancements](https://github.com/pytorch/pytorch/issues/158968) | 7 |
 
 | pytorch/pytorch | [[Feature request] `torch.export` .save/.load could support `safetensors` and/or `weights_only=True`](https://github.com/pytorch/pytorch/issues/153410) | 7 |
 
@@ -1063,6 +1063,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | [Add argument to set number of eval steps in Trainer](https://github.com/huggingface/transformers/issues/31561) | 8 |
 
+| pandas-dev/pandas | [DOC: NaT - "alias of NaT"; NA - "alias of <NA>"](https://github.com/pandas-dev/pandas/issues/62185) | 8 |
+
 | pandas-dev/pandas | [DOC: Enforce Numpy Docstring Validation (Parent Issue)](https://github.com/pandas-dev/pandas/issues/58063) | 8 |
 
 | pandas-dev/pandas | [BUG: itemsize wrong for date32[day][pyarrow] dtype?](https://github.com/pandas-dev/pandas/issues/57948) | 8 |
@@ -1076,6 +1078,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | [API/BUG: freq retention in value_counts](https://github.com/pandas-dev/pandas/issues/33830) | 8 |
 
 | ansible/awx | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 8 |
+
+| pytorch/pytorch | [foreach_map enhancements](https://github.com/pytorch/pytorch/issues/158968) | 8 |
 
 | pytorch/pytorch | [[Inductor] Inference failed with the compiled model with aminmax operator](https://github.com/pytorch/pytorch/issues/148808) | 8 |
 
@@ -1186,8 +1190,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/transformers | [Accelerate x Trainer issue tracker:](https://github.com/huggingface/transformers/issues/33345) | 19 |
 
 | huggingface/transformers | [Improve EncoderDecoderModel docs](https://github.com/huggingface/transformers/issues/16135) | 19 |
-
-| pandas-dev/pandas | [Updating value of a single row of a column using loc or at fails](https://github.com/pandas-dev/pandas/issues/22040) | 19 |
 
 | fastapi/fastapi | [Will FastAPI support QUERY http method? "app.query"](https://github.com/fastapi/fastapi/issues/12965) | 19 |
 
