@@ -1395,4 +1395,4 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | godotengine/godot-docs | [WorkerThreadPool docs do not specify how Thread count is set](https://github.com/godotengine/godot-docs/issues/8937) | 4 |
 
-
+Amélioration de la documentation.
