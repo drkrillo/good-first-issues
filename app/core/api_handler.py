@@ -130,9 +130,6 @@ class TemplateManager:
     """
     @staticmethod
     def format_response(issues: list) -> list:
-        """
-        Takes a list of dict issues, and returns it based on language.
-        """
         unique_languages = set([issue['language'] for issue in issues])
         formatted_results = []	
         for language in unique_languages:
