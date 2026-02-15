@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-14</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-15</sub></sub>
 
 
 
@@ -117,8 +117,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/xla | Op info test for `kthvalue` | 3 |
 
-| godotengine/godot | The visible places of animation scale mark are cut in the editor. | 3 |
-
 | pytorch/glow | [GraphOptz] Sink Quantize below Reshape | 4 |
 
 | pytorch/xla | Op info test for `pinverse .. put` | 4 |
@@ -126,6 +124,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | Op info test for `nn.functional.avg_pool1d .. nn.functional.bilinear` | 4 |
 
 | pytorch/xla | Op info test for `linalg.lu_solve` | 4 |
+
+| godotengine/godot | The visible places of animation scale mark are cut in the editor. | 4 |
 
 | godotengine/godot | Unhelpful error message when interpolating on a NaN transform | 4 |
 
@@ -997,8 +997,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/diffusers | Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline` | 9 |
 
-| huggingface/transformers | Call to contributions: refactor output tracing in transformers | 9 |
-
 | huggingface/transformers | oom when using adafactor optimizer in deepspeed | 9 |
 
 | pandas-dev/pandas | ERR: ``numeric_only`` in reduction operations should disallow passing non-bools | 9 |
@@ -1102,6 +1100,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/datasets | Return the name of the currently loaded file in the load_dataset function. | 18 |
 
 | huggingface/lerobot | Make policies compatible with torch.compile | 18 |
+
+| huggingface/transformers | Call to contributions: refactor output tracing in transformers | 18 |
 
 | pytorch/ao | Add codebook (look up table based) quantization flow in torchao | 18 |
 
