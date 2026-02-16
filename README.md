@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-15</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-16</sub></sub>
 
 
 
@@ -105,8 +105,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/xla | Op info test for `linalg.ldl_solve` | 2 |
 
-| godotengine/godot | The last saved time is not really correct | 2 |
-
 | tensorflow/minigo | Support more GTP commands | 3 |
 
 | pytorch/glow | Move layout information from nodes constructor' to their Glow types | 3 |
@@ -124,8 +122,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | Op info test for `nn.functional.avg_pool1d .. nn.functional.bilinear` | 4 |
 
 | pytorch/xla | Op info test for `linalg.lu_solve` | 4 |
-
-| godotengine/godot | The visible places of animation scale mark are cut in the editor. | 4 |
 
 | godotengine/godot | Unhelpful error message when interpolating on a NaN transform | 4 |
 
@@ -302,6 +298,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | Repo | Title | Comments |
 | --- | --- | --- |
+
+| huggingface/optimum-intel | Fix conversion of ltx_video models in bf16 format | 0 |
 
 | tensorflow/probability | providing sample weights to glm.fit() and glm.fit.sparse() | 0 |
 
@@ -797,8 +795,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | ExecuTorch Scalar to() supports fewer types than c10::Scalar, breaking source compatibility | 3 |
 
-| pytorch/pytorch | Use typing_extensions.TypeAliasType for better reexport of `__module__` | 3 |
-
 | pytorch/pytorch | [auto functionalize][partitioner] ones_like is not getting recomputed | 3 |
 
 | pytorch/torchchat | Improve Tokenizer New Type Onboarding | 3 |
@@ -818,8 +814,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/dataset-viewer | Cache/Queue metrics should not be negative | 4 |
 
 | huggingface/lighteval | [EVAL]: Add more African Benchmarks | 4 |
-
-| huggingface/transformers | Isolated reproduction of https://github.com/huggingface/transformers/issues/38071 | 4 |
 
 | huggingface/transformers | OWL-VIT Vision Foundation Model deployment in the edge cases - Need SDPA support for OWL-ViT Model optimization for Edge Deployment | 4 |
 
@@ -851,6 +845,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | Re-inplace slice_copy with slice | 4 |
 
+| pytorch/pytorch | Use typing_extensions.TypeAliasType for better reexport of `__module__` | 4 |
+
 | pytorch/pytorch | [dynamo, BE] get rid of IncorrectUsage exception | 4 |
 
 | pytorch/pytorch | [inductor] nan_asserts doesn't work for FP8, "RuntimeError: "isinf" not implemented for 'Float8_e4m3fn'" | 4 |
@@ -872,6 +868,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/optimum-benchmark | Evaluators for specific tasks | 5 |
 
 | huggingface/sentence-transformers | Update example scripts relying on `model.fit` to use `SentenceTransformerTrainer` instead | 5 |
+
+| huggingface/transformers | Isolated reproduction of https://github.com/huggingface/transformers/issues/38071 | 5 |
 
 | pandas-dev/pandas | BUG: Multiindex Categorical type lost after div operation | 5 |
 
@@ -1101,8 +1099,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lerobot | Make policies compatible with torch.compile | 18 |
 
-| huggingface/transformers | Call to contributions: refactor output tracing in transformers | 18 |
-
 | pytorch/ao | Add codebook (look up table based) quantization flow in torchao | 18 |
 
 | pytorch/audio | Add Stereo to Mono Convertions | 18 |
@@ -1136,6 +1132,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/transformers | Trying to add support for GPT2 as decoder in EncoderDecoder model | 31 |
 
 | pytorch/ignite | 🥇 Everyone is welcome to contribute 💯  | 36 |
+
+| huggingface/transformers | Call to contributions: refactor output tracing in transformers | 42 |
 
 | huggingface/peft | Comparison of Different Fine-Tuning Techniques for Conversational AI | 44 |
 
