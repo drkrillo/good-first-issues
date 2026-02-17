@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-16</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-17</sub></sub>
 
 
 
@@ -299,8 +299,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | Repo | Title | Comments |
 | --- | --- | --- |
 
-| huggingface/optimum-intel | Fix conversion of ltx_video models in bf16 format | 0 |
-
 | tensorflow/probability | providing sample weights to glm.fit() and glm.fit.sparse() | 0 |
 
 | tensorflow/probability | Sigmoid belief network example/tutorial | 0 |
@@ -322,6 +320,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/probability | Bayesian neural network tutorial | 1 |
 
 | tensorflow/swift-models | Add logging callbacks for training statistics  | 1 |
+
+| huggingface/optimum-intel | Fix conversion of ltx_video models in bf16 format | 2 |
 
 | tensorflow/probability | Support for SeparableConv1DFlipout | 2 |
 
@@ -725,8 +725,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lerobot | How can I change the task name of already recorded episodes? | 3 |
 
-| huggingface/lerobot | Ensure the policy module passes MyPy type checks | 3 |
-
 | huggingface/lighteval | [FT]  Add tests for nanotron | 3 |
 
 | huggingface/lighteval | [EVAL] Big-Bench Extra Hard (BBEH) | 3 |
@@ -813,6 +811,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/dataset-viewer | Cache/Queue metrics should not be negative | 4 |
 
+| huggingface/lerobot | Ensure the policy module passes MyPy type checks | 4 |
+
 | huggingface/lighteval | [EVAL]: Add more African Benchmarks | 4 |
 
 | huggingface/transformers | OWL-VIT Vision Foundation Model deployment in the edge cases - Need SDPA support for OWL-ViT Model optimization for Edge Deployment | 4 |
@@ -869,8 +869,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/sentence-transformers | Update example scripts relying on `model.fit` to use `SentenceTransformerTrainer` instead | 5 |
 
-| huggingface/transformers | Isolated reproduction of https://github.com/huggingface/transformers/issues/38071 | 5 |
-
 | pandas-dev/pandas | BUG: Multiindex Categorical type lost after div operation | 5 |
 
 | pandas-dev/pandas | BUG: Timedelta resolution is different depending on how the argument is passed | 5 |
@@ -880,8 +878,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | DataFrame.update silently does nothing when indices are of differing type | 5 |
 
 | django/djangoproject.com | Redirect from /about to /foundation | 5 |
-
-| django/djangoproject.com | Add link to 'Stable' doc version in the Warning Alert on top | 5 |
 
 | django/djangoproject.com | fundraising: 'customer.subscription.deleted' webhook event always gets 404 response | 5 |
 
@@ -911,8 +907,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/rl | [Feature Request] Missing ActionScaling and FlattenAction  | 5 |
 
-| huggingface/accelerate | [Docs] Update low-precision training docs for MS-AMP | 6 |
-
 | huggingface/lerobot | Distributed v2.1 -> v3.0 conversion | 6 |
 
 | huggingface/lighteval | [FT] Improve Documentation and Examples | 6 |
@@ -926,6 +920,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | BUG: groupby.var() does not return arrow types with arrow backed series as input.  | 6 |
 
 | pandas-dev/pandas | Groupby Agg not working if different partials with same name on the same column | 6 |
+
+| django/djangoproject.com | Add link to 'Stable' doc version in the Warning Alert on top | 6 |
 
 | django/djangoproject.com | Add link to new minutes repo | 6 |
 
@@ -944,6 +940,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | Manual kernel registration to include library names in API | 6 |
 
 | pytorch/pytorch | AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible | 6 |
+
+| huggingface/accelerate | [Docs] Update low-precision training docs for MS-AMP | 7 |
 
 | huggingface/datasets | WMT21 & WMT22 | 7 |
 
@@ -1133,9 +1131,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/ignite | 🥇 Everyone is welcome to contribute 💯  | 36 |
 
-| huggingface/transformers | Call to contributions: refactor output tracing in transformers | 42 |
-
 | huggingface/peft | Comparison of Different Fine-Tuning Techniques for Conversational AI | 44 |
+
+| huggingface/transformers | Call to contributions: refactor output tracing in transformers | 74 |
 
 
 
