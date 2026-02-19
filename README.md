@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-17</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-19</sub></sub>
 
 
 
@@ -122,8 +122,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | Op info test for `nn.functional.avg_pool1d .. nn.functional.bilinear` | 4 |
 
 | pytorch/xla | Op info test for `linalg.lu_solve` | 4 |
-
-| godotengine/godot | Unhelpful error message when interpolating on a NaN transform | 4 |
 
 | pytorch/glow | Fuse RescaleQuantized in the ChannelwiseQuantizedConv | 5 |
 
@@ -847,8 +845,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/pytorch | Use typing_extensions.TypeAliasType for better reexport of `__module__` | 4 |
 
-| pytorch/pytorch | [dynamo, BE] get rid of IncorrectUsage exception | 4 |
-
 | pytorch/pytorch | [inductor] nan_asserts doesn't work for FP8, "RuntimeError: "isinf" not implemented for 'Float8_e4m3fn'" | 4 |
 
 | pytorch/pytorch | Remove tensor variable default method fallthrough | 4 |
@@ -899,7 +895,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/audio | read mp3 file fail | 5 |
 
-| pytorch/ignite | Replace typing hints with new version | 5 |
+| pytorch/pytorch | [dynamo, BE] get rid of IncorrectUsage exception | 5 |
 
 | pytorch/pytorch | Report WHY a symbol was created dynamically in symbolic_shapes logs | 5 |
 
@@ -1027,6 +1023,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | Check tensor's dim order ambiguity in IR verifier | 10 |
 
+| pytorch/ignite | Replace typing hints with new version | 10 |
+
 | pytorch/pytorch | [dynamo] [dynamic] `torch.combinations` throws RuntimeError when `(backend=aot_eager, dynamic=True)` | 10 |
 
 | pytorch/pytorch | Expand Tag Set: views & reductions | 10 |
@@ -1132,8 +1130,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ignite | 🥇 Everyone is welcome to contribute 💯  | 36 |
 
 | huggingface/peft | Comparison of Different Fine-Tuning Techniques for Conversational AI | 44 |
-
-| huggingface/transformers | Call to contributions: refactor output tracing in transformers | 74 |
 
 
 
@@ -1291,13 +1287,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | godotengine/godot-docs | Curve2D.get_closest_point() incorrectly documented | 1 |
 
-| godotengine/godot-docs | Control: small typo in enum MouseBehaviorRecursive | 2 |
-
 | godotengine/godot-docs | Add clarification about what CharacterBody is used for | 2 |
 
 | godotengine/godot-docs | Viewport "use_hdr_2d" documentation point unclear | 2 |
 
 | godotengine/godot-docs | Physics2DDirectSpaceState does not specify local or global coordinates | 2 |
+
+| godotengine/godot-docs | Control: small typo in enum MouseBehaviorRecursive | 3 |
 
 | godotengine/godot-docs | PhysicsDirectSpaceState2D.get_rest_info claims not to use query motion but it does | 4 |
 
