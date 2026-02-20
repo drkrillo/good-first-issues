@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-19</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-20</sub></sub>
 
 
 
@@ -66,6 +66,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | Op info test for `linalg.cholesky_ex` | 0 |
 
 | pytorch/xla | Op info test for `linalg.cholesky` | 0 |
+
+| godotengine/godot | Duplicate shortctut names are not handled correctly when clearing filter | 0 |
 
 | pytorch/glow | [CPU] Remove the need for Rescale for the CPUMaxSplat | 1 |
 
@@ -131,9 +133,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/glow | Glow should provide its own implementation of a random number generator to ensure deterministic testing and avoid platform-dependent differences | 6 |
 
-| godotengine/godot | Editor Shortcuts are not used for Freelook movement when overriding the in-game camera | 7 |
-
 | pytorch/glow | Make the execution of the Glow compiler more deterministic between multiple runs | 9 |
+
+| godotengine/godot | Editor Shortcuts are not used for Freelook movement when overriding the in-game camera | 9 |
 
 | opencv/opencv_contrib | reg: broken python sample | 13 |
 
@@ -258,8 +260,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ci-hud | Restore "Show service jobs" checkbox to GitHubStatusDisplay.js  | 2 |
 
 | huggingface/transformers.js | [Doc request] Add an example guide of how to use it in Svelte (and deploy to HF Spaces) | 7 |
-
-| huggingface/transformers.js | [Feature request] Logging Level and Progress Bar for Model Downloads | 9 |
 
 
 
@@ -695,8 +695,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | Consolidation of Selective Build APIs for OSS | 2 |
 
-| pytorch/executorch | Remove the outdated warning in building from source documentation | 2 |
-
 | pytorch/executorch | [Android] Rename JNI cpp file | 2 |
 
 | pytorch/executorch | Add torchao kernels to xcframework | 2 |
@@ -813,7 +811,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lighteval | [EVAL]: Add more African Benchmarks | 4 |
 
-| huggingface/transformers | OWL-VIT Vision Foundation Model deployment in the edge cases - Need SDPA support for OWL-ViT Model optimization for Edge Deployment | 4 |
+| huggingface/transformers | Syntax error in Transformer section 3 (Transformers, what can they do?) notebook | 4 |
 
 | huggingface/transformers | GeneratorExp aren't supported by torch.jit.script when I try to export a previously trained model  'google/vit-base-patch16-224-in21k'. | 4 |
 
@@ -865,8 +863,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/sentence-transformers | Update example scripts relying on `model.fit` to use `SentenceTransformerTrainer` instead | 5 |
 
-| pandas-dev/pandas | BUG: Multiindex Categorical type lost after div operation | 5 |
-
 | pandas-dev/pandas | BUG: Timedelta resolution is different depending on how the argument is passed | 5 |
 
 | pandas-dev/pandas | .add gives incorrect result with MI Dataframe with mix of object and datetimes on index. | 5 |
@@ -914,6 +910,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | BUG: Conversion from datetime64[ns] to datetime does not effect .info() and probably not the DataFrame itself | 6 |
 
 | pandas-dev/pandas | BUG: groupby.var() does not return arrow types with arrow backed series as input.  | 6 |
+
+| pandas-dev/pandas | BUG: Multiindex Categorical type lost after div operation | 6 |
 
 | pandas-dev/pandas | Groupby Agg not working if different partials with same name on the same column | 6 |
 
@@ -965,8 +963,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | [Request Impl] Apply Segment Serialization in Bundled Program | 7 |
 
-| pytorch/pytorch | reduce torch.compile default logs | 7 |
-
 | huggingface/diffusers | Make `FlaxLMSDiscreteScheduler` jittable | 8 |
 
 | huggingface/lighteval | [EVAL] Adding PHARE | 8 |
@@ -1004,6 +1000,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | django/djangoproject.com | Remove non-canonical docs versions from sitemap.xml | 9 |
 
 | tensorflow/similarity | Lifted Structured loss | 9 |
+
+| pytorch/executorch | Refactor binary op partitioner configs under binary op config class | 9 |
 
 | pytorch/pytorch | aten.grid_sampler_3d.default is missing a c-shim implementation, using proxy executor as fallback | 9 |
 
@@ -1054,6 +1052,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | torch.compile regression 2.9.1: Triton kernel name '_Runner__kernel_name_0' is not defined | 12 |
 
 | pytorch/pytorch | Dump bytecode of resumption frames in tlparse | 12 |
+
+| pytorch/pytorch | Logging when executing fx.Interpreter | 12 |
 
 | pandas-dev/pandas | DOC: Reindexing behaviour of dataframe column-assignment missing | 13 |
 
@@ -1292,8 +1292,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | godotengine/godot-docs | Viewport "use_hdr_2d" documentation point unclear | 2 |
 
 | godotengine/godot-docs | Physics2DDirectSpaceState does not specify local or global coordinates | 2 |
-
-| godotengine/godot-docs | Control: small typo in enum MouseBehaviorRecursive | 3 |
 
 | godotengine/godot-docs | PhysicsDirectSpaceState2D.get_rest_info claims not to use query motion but it does | 4 |
 
