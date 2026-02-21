@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-20</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-21</sub></sub>
 
 
 
@@ -66,8 +66,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | Op info test for `linalg.cholesky_ex` | 0 |
 
 | pytorch/xla | Op info test for `linalg.cholesky` | 0 |
-
-| godotengine/godot | Duplicate shortctut names are not handled correctly when clearing filter | 0 |
 
 | pytorch/glow | [CPU] Remove the need for Rescale for the CPUMaxSplat | 1 |
 
@@ -134,8 +132,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | Glow should provide its own implementation of a random number generator to ensure deterministic testing and avoid platform-dependent differences | 6 |
 
 | pytorch/glow | Make the execution of the Glow compiler more deterministic between multiple runs | 9 |
-
-| godotengine/godot | Editor Shortcuts are not used for Freelook movement when overriding the in-game camera | 9 |
 
 | opencv/opencv_contrib | reg: broken python sample | 13 |
 
@@ -599,8 +595,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/examples | Doc comment on `accuracy` method in imagenet example, incorrect? | 1 |
 
-| pytorch/executorch | Add pybindings for text LLM runner | 1 |
-
 | pytorch/executorch | Support dim order in Java Tensor | 1 |
 
 | pytorch/executorch | Add dynamism tests for xnnpack model tests | 1 |
@@ -616,6 +610,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [Android] Use generic JNI instead of fbjni | 1 |
 
 | pytorch/PiPPy | Support LayoutLM models in HF tests | 1 |
+
+| pytorch/pytorch | torch.compile does not support Python try/except | 1 |
 
 | pytorch/pytorch | [BE] Deduplicate auto_functionalized and triton_kernel_wrapper_functional | 1 |
 
@@ -963,6 +959,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | [Request Impl] Apply Segment Serialization in Bundled Program | 7 |
 
+| pytorch/executorch | Fail to allocate temp memory by exporting torch.topk | 7 |
+
 | huggingface/diffusers | Make `FlaxLMSDiscreteScheduler` jittable | 8 |
 
 | huggingface/lighteval | [EVAL] Adding PHARE | 8 |
@@ -1050,8 +1048,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ao | Update documents addressing AQT workflow | 12 |
 
 | pytorch/pytorch | torch.compile regression 2.9.1: Triton kernel name '_Runner__kernel_name_0' is not defined | 12 |
-
-| pytorch/pytorch | Dump bytecode of resumption frames in tlparse | 12 |
 
 | pytorch/pytorch | Logging when executing fx.Interpreter | 12 |
 
