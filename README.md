@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-21</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-22</sub></sub>
 
 
 
@@ -807,8 +807,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lighteval | [EVAL]: Add more African Benchmarks | 4 |
 
-| huggingface/transformers | Syntax error in Transformer section 3 (Transformers, what can they do?) notebook | 4 |
-
 | huggingface/transformers | GeneratorExp aren't supported by torch.jit.script when I try to export a previously trained model  'google/vit-base-patch16-224-in21k'. | 4 |
 
 | django/djangoproject.com | Github login doesn't work for community pages | 4 |
@@ -858,6 +856,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/optimum-benchmark | Evaluators for specific tasks | 5 |
 
 | huggingface/sentence-transformers | Update example scripts relying on `model.fit` to use `SentenceTransformerTrainer` instead | 5 |
+
+| huggingface/transformers | Syntax error in Transformer section 3 (Transformers, what can they do?) notebook | 5 |
 
 | pandas-dev/pandas | BUG: Timedelta resolution is different depending on how the argument is passed | 5 |
 
@@ -931,8 +931,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/pytorch | AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible | 6 |
 
-| huggingface/accelerate | [Docs] Update low-precision training docs for MS-AMP | 7 |
-
 | huggingface/datasets | WMT21 & WMT22 | 7 |
 
 | huggingface/lerobot | Select the VLM backbone for SmolVLA | 7 |
@@ -960,6 +958,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [Request Impl] Apply Segment Serialization in Bundled Program | 7 |
 
 | pytorch/executorch | Fail to allocate temp memory by exporting torch.topk | 7 |
+
+| huggingface/accelerate | [Docs] Update low-precision training docs for MS-AMP | 8 |
 
 | huggingface/diffusers | Make `FlaxLMSDiscreteScheduler` jittable | 8 |
 
@@ -1123,7 +1123,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | Trying to add support for GPT2 as decoder in EncoderDecoder model | 31 |
 
-| pytorch/ignite | 🥇 Everyone is welcome to contribute 💯  | 36 |
+| pytorch/ignite | 🥇 Everyone is welcome to contribute 💯  | 37 |
 
 | huggingface/peft | Comparison of Different Fine-Tuning Techniques for Conversational AI | 44 |
 
