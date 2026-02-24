@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-23</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-24</sub></sub>
 
 
 
@@ -147,7 +147,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | godotengine/godot | PointLight2D doesn't respect Nearest texture filter for normal-maps or shadows | 34 |
 
-| godotengine/godot | [TRACKER] Unit tests to add or improve | 237 |
+| godotengine/godot | [TRACKER] Unit tests to add or improve | 239 |
 
 
 
@@ -315,6 +315,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | tensorflow/swift-models | Add logging callbacks for training statistics  | 1 |
 
+| huggingface/optimum-intel | Fix conversion of ltx_video models in bf16 format | 2 |
+
 | tensorflow/probability | Support for SeparableConv1DFlipout | 2 |
 
 | tensorflow/probability | NotImplementedError: mean is not implemented: Categorical | 2 |
@@ -375,6 +377,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | tensorflow/probability | Sample different weights for examples within a  batch | 9 |
 
+| huggingface/huggingface-gemma-recipes | 📣 Call for contributions! | 11 |
+
 | tensorflow/probability | [Feature Request] tensorflow_probability.distributions.GeneralizedGamma | 11 |
 
 | tensorflow/probability | Feature Request: Efficient Poisson Binomial PMF/CDF in tfp | 13 |
@@ -382,6 +386,18 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/probability | [Feature Request] Zero-Inflated Poisson and Negative Binomial distributions | 13 |
 
 | tensorflow/swift-models | UNet Example | 15 |
+
+| huggingface/huggingface-llama-recipes | Call for contributions | 20 |
+
+
+
+
+### MDX
+
+| Repo | Title | Comments |
+| --- | --- | --- |
+
+| huggingface/agents-course | Improve diagrams in unit 2.1 | 4 |
 
 
 
@@ -408,6 +424,18 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | Repo | Title | Comments |
 | --- | --- | --- |
+
+| huggingface/lerobot | Question regarding downsampling and resizing dataset | 0 |
+
+| huggingface/lighteval | [FT] showing count in Markdown summary table | 0 |
+
+| huggingface/lighteval | [FT] Manage script and language in the Language enum | 0 |
+
+| huggingface/lighteval | [BUG]  Optimize tokenization | 0 |
+
+| huggingface/lighteval | [FT]  Add tests for `VLLMModel` base methods | 0 |
+
+| huggingface/lighteval | [FT] Build in a way to specify specific IDs/Lines in Dataset to use as few-shot examples in the same split | 0 |
 
 | huggingface/nanotron | [Feature] Use CUDA event for measuring elasped time | 0 |
 
@@ -499,6 +527,28 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/torcharrow | Move `torcharrow/test` to `test` | 0 |
 
+| huggingface/accelerate | Deadlock when running multi tasks | 1 |
+
+| huggingface/dataset-viewer | Use `revision_exists` (hfh) | 1 |
+
+| huggingface/diffusers | Do we have any script covert from hf format to orginal format? | 1 |
+
+| huggingface/lerobot | SO-101 leader precision | 1 |
+
+| huggingface/lerobot | Ensure the utilities module passes MyPy type checks | 1 |
+
+| huggingface/lerobot | Ensure the teleoperators module passes MyPy type checks | 1 |
+
+| huggingface/lerobot | Ensure the processing module passes MyPy type checks | 1 |
+
+| huggingface/lerobot | Ensure the cameras module passes MyPy type checks | 1 |
+
+| huggingface/lerobot | Ensure the datasets module passes MyPy type checks | 1 |
+
+| huggingface/lighteval | [EVAL] Add kyrgyzLLM benchmark | 1 |
+
+| huggingface/lighteval | [FT] LiteLLM concurrency parameters hard-coded | 1 |
+
 | huggingface/nanotron | Add Debug utility to be able to preview first samples used for training | 1 |
 
 | huggingface/nanotron | We don't save checkpoint after training ends | 1 |
@@ -561,8 +611,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/PiPPy | Support LayoutLM models in HF tests | 1 |
 
-| pytorch/pytorch | torch.compile does not support Python try/except | 1 |
-
 | pytorch/pytorch | [BE] Deduplicate auto_functionalized and triton_kernel_wrapper_functional | 1 |
 
 | pytorch/text | torchtext main branch doesn't support pytorch2.0 | 1 |
@@ -572,6 +620,16 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/torchchat | GeneratorArgs.is_torchtune_model is a misnomer | 1 |
 
 | pytorch/torchtitan | Ability to train based on epoch | 1 |
+
+| huggingface/dataset-viewer | use the `ROW_IDX_COLUMN` constant name instead of copying the value everywhere | 2 |
+
+| huggingface/dataset-viewer | Use "Sign-In with HF" instead of token in admin-UI | 2 |
+
+| huggingface/lerobot | Finetune smolvla with vision encoder | 2 |
+
+| huggingface/lerobot | Ensure the robots module passes MyPy type checks | 2 |
+
+| huggingface/lighteval | Call for contributions: Translate lighteval's doc into Chinese | 2 |
 
 | huggingface/nanotron | [Feature] Asyncronous Serialization | 2 |
 
@@ -641,6 +699,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/PiPPy | Make RemoteInterpreter use the full implementation of `Interpreter.run` | 2 |
 
+| pytorch/pytorch | torch.compile does not support Python try/except | 2 |
+
 | pytorch/rl | [Feature Request] Make sure that all losses work with tensorclasses and regular tensors | 2 |
 
 | pytorch/rl | [Feature Request] TensorSpec is_in methods should check the dtype of val | 2 |
@@ -650,6 +710,22 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/torchchat | torchtune as an optional dependency: Lazy Import | 2 |
 
 | pytorch/torchchat | Slimming down torchchat: Replace replace_attention_with_custom_sdpa_attention() with ET's implementation | 2 |
+
+| huggingface/accelerate | [Community Contributions] examples on distributed inference using 🤗 Accelerate | 3 |
+
+| huggingface/dataset-viewer | Use `CONSTANT_LIST.copy` in list config fieds | 3 |
+
+| huggingface/lerobot | How can I change the task name of already recorded episodes? | 3 |
+
+| huggingface/lighteval | [FT]  Add tests for nanotron | 3 |
+
+| huggingface/lighteval | [EVAL] Big-Bench Extra Hard (BBEH) | 3 |
+
+| huggingface/optimum | Add all available ONNX models to ORTConfigManager | 3 |
+
+| huggingface/optimum-habana | Add support for max_length in run_generation | 3 |
+
+| huggingface/transfer-learning-conv-ai | RuntimeError: shape '[-1, 2, 34]' is invalid for input of size 61710 | 3 |
 
 | ansible/ansible-documentation | Incorporate 'shared snippets' for the collection docs into the main rst files | 3 |
 
@@ -721,6 +797,16 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | godotengine/godot-blender-exporter | Blender object with negative scale | 3 |
 
+| huggingface/accelerate | RuntimeError: Tensor on device meta is not on the expected device cuda:0! | 4 |
+
+| huggingface/accelerate | Barebones dataloader to allow for any type of iterable dataloader-like object to be used. Should just handle device placement | 4 |
+
+| huggingface/dataset-viewer | Cache/Queue metrics should not be negative | 4 |
+
+| huggingface/lerobot | Ensure the policy module passes MyPy type checks | 4 |
+
+| huggingface/lighteval | [EVAL]: Add more African Benchmarks | 4 |
+
 | huggingface/transformers | GeneratorExp aren't supported by torch.jit.script when I try to export a previously trained model  'google/vit-base-patch16-224-in21k'. | 4 |
 
 | django/djangoproject.com | Github login doesn't work for community pages | 4 |
@@ -757,11 +843,17 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/pytorch | [export] Schematize nn_module_stack serialization | 4 |
 
+| huggingface/lighteval | [BUG] custom model docs don't run: missing imports | 5 |
+
+| huggingface/lighteval | Append revision to filepath in `--output_dir`? | 5 |
+
 | huggingface/nanotron | Avoid nested `InheritFromOtherOptimizer` | 5 |
 
 | huggingface/nanotron | [Bug] Missing `_is_using_mup` when resume checkpoint | 5 |
 
 | huggingface/nanotron | [Unit Test] Add unit tests for DistributedTrainer | 5 |
+
+| huggingface/optimum-benchmark | Evaluators for specific tasks | 5 |
 
 | huggingface/sentence-transformers | Update example scripts relying on `model.fit` to use `SentenceTransformerTrainer` instead | 5 |
 
@@ -801,6 +893,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/rl | [Feature Request] Missing ActionScaling and FlattenAction  | 5 |
 
+| huggingface/lerobot | Distributed v2.1 -> v3.0 conversion | 6 |
+
+| huggingface/lighteval | [FT] Improve Documentation and Examples | 6 |
+
 | pandas-dev/pandas | BUG: Conversion from datetime64[ns] to datetime does not effect .info() and probably not the DataFrame itself | 6 |
 
 | pandas-dev/pandas | BUG: groupby.var() does not return arrow types with arrow backed series as input.  | 6 |
@@ -829,7 +925,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/pytorch | AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible | 6 |
 
-| pandas-dev/pandas | BUG: Strange behavior when accessing datetime.date index with np.datetime64 | 7 |
+| huggingface/lerobot | Select the VLM backbone for SmolVLA | 7 |
+
+| huggingface/lighteval | [EVAL] Long Horizon Execution | 7 |
 
 | pandas-dev/pandas | BUG: enlarging a DataFrame by adding an extra column with a tz-aware datetime results in object dtype | 7 |
 
@@ -855,7 +953,15 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | Fail to allocate temp memory by exporting torch.topk | 7 |
 
-| huggingface/transformers | Syntax error in Transformer section 3 (Transformers, what can they do?) notebook | 8 |
+| huggingface/accelerate | [Docs] Update low-precision training docs for MS-AMP | 8 |
+
+| huggingface/datasets | WMT21 & WMT22 | 8 |
+
+| huggingface/diffusers | Make `FlaxLMSDiscreteScheduler` jittable | 8 |
+
+| huggingface/lighteval | [EVAL] Adding PHARE | 8 |
+
+| pandas-dev/pandas | BUG: Strange behavior when accessing datetime.date index with np.datetime64 | 8 |
 
 | pandas-dev/pandas | ENH: Change ExtensionOpsMixin behaviour to not add new operator method if one is already defined on the ExtensionArray class | 8 |
 
@@ -872,6 +978,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Improve error message for wrong number of arguments in CachingAutotuner | 8 |
 
 | pytorch/pytorch | [Dynamo] Support tracing through _get_current_dispatch_mode_stack | 8 |
+
+| huggingface/diffusers | Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline` | 9 |
 
 | huggingface/transformers | oom when using adafactor optimizer in deepspeed | 9 |
 
@@ -895,6 +1003,12 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/pytorch | Using an empty tensor and `torch.int64` or `torch.bool` for `dtype` of `nanmean()` works while a non-empty tensor doesn't work | 9 |
 
+| huggingface/datasets | Identical keywords in build_kwargs and config_kwargs lead to TypeError in load_dataset_builder() | 10 |
+
+| huggingface/diffusers | [Flux ControlNet] Add support for de-distilled models with CFG | 10 |
+
+| huggingface/lighteval | [EVAL] Add TUMLU benchmark | 10 |
+
 | pandas-dev/pandas | ERR: ``numeric_only`` in reduction operations should disallow passing non-bools | 10 |
 
 | pandas-dev/pandas | ENH: Better error message when interpolating dtype integer with method="linear" | 10 |
@@ -914,8 +1028,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ao | Named Symbol not found (torchchat #1298) | 11 |
 
 | pytorch/ao | [MPS] torchao low-bit-precision optim does not expose 'backend' argument to torch.compile | 11 |
-
-| pytorch/ignite | Replace typing hints with new version | 11 |
 
 | pytorch/pytorch | foreach_map enhancements | 11 |
 
@@ -941,6 +1053,12 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/pytorch | [Feature request] `torch.export` .save/.load could support `safetensors` and/or `weights_only=True` | 13 |
 
+| huggingface/datasets | Consider using "Sequence" instead of "List" | 14 |
+
+| huggingface/diffusers | [Pipeline] AnimateDiff + SparseControl + ControlNet | 14 |
+
+| huggingface/huggingface_hub | [Community event] Translate documentation to your own langage | 14 |
+
 | pandas-dev/pandas | [Feature Request] Add `replace` method to `Index` objects | 14 |
 
 | django/djangoproject.com | Improve 404 page | 14 |
@@ -952,6 +1070,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas-stubs | `pd.concat` with `GeoDataFrame`s | 15 |
 
 | huggingface/transformers | Follow ups to DocumentQuestionAnswering Pipeline | 16 |
+
+| pytorch/ignite | Replace typing hints with new version | 16 |
 
 | pytorch/pytorch | Device check missing in torch.linalg.solve_triangular leading to hard crash | 16 |
 
@@ -965,6 +1085,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/pytorch | Supporting custom attributes with `__torch_function__` tensor subclasses | 17 |
 
+| huggingface/datasets | Return the name of the currently loaded file in the load_dataset function. | 18 |
+
+| huggingface/lerobot | Make policies compatible with torch.compile | 18 |
+
 | pytorch/ao | Add codebook (look up table based) quantization flow in torchao | 18 |
 
 | pytorch/audio | Add Stereo to Mono Convertions | 18 |
@@ -975,7 +1099,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | Updating value of a single row of a column using loc or at fails | 20 |
 
-| django/djangoproject.com | Add Click to copy text for commands present in the official Django website. | 20 |
+| huggingface/diffusers | Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines | 22 |
 
 | pandas-dev/pandas | BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix | 22 |
 
@@ -986,6 +1110,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/transformers | Add support for BLIP and GIT in image-to-text and VQA pipelines | 25 |
 
 | pandas-dev/pandas | WEB: Multiple "Getting Started" on pandas.io leads to different links | 25 |
+
+| huggingface/optimum | Community contribution - `BetterTransformer` integration for more models! | 26 |
 
 | huggingface/transformers | Getting time offsets of beginning and end of each word in Wav2Vec2 | 26 |
 
@@ -1004,6 +1130,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | Repo | Title | Comments |
 | --- | --- | --- |
+
+| huggingface/ratchet | Reduce dependencies! 🗡️ | 0 |
 
 | tensorflow/rust | Add Scope::with_kernel_label and with_xla_cluster | 3 |
 
@@ -1045,7 +1173,15 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/sam2-studio | Model download selector | 1 |
 
+| huggingface/chat-macOS | [Feature Request] System Prompt Support | 2 |
+
+| huggingface/chat-macOS | Asking "what time is it?" will always return the local time of Paris, regardless of your location (⌘R+) | 2 |
+
+| huggingface/swift-transformers | Option to use `~/.cache/huggingface/hub` for downloaded models | 3 |
+
 | tensorflow/swift-apis | Recursive Neural Networks (structured data/trees) | 3 |
+
+| huggingface/chat-macOS | Add custom LLM API  | 5 |
 
 | tensorflow/swift-apis | Implement Recurrent Layers | 5 |
 
@@ -1061,6 +1197,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | tensorflow/swift-apis | Add preconditions | 10 |
 
+| huggingface/swift-transformers | Support for embedding models (BGE, GTE etc) | 12 |
+
 | tensorflow/swift-apis | Add more optimizers and losses | 16 |
 
 | huggingface/sam2-studio | Video support estimated release date? | 26 |
@@ -1073,6 +1211,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | Repo | Title | Comments |
 | --- | --- | --- |
 
+| huggingface/huggingface.js | local apps: add pi | 0 |
+
 | ansible/vscode-ansible | Add option to prefix all shell commands the plugin executes | 0 |
 
 | tensorflow/tfjs-tsne | Implement tensorToDataTexture in the GPU | 0 |
@@ -1081,11 +1221,25 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/probot | deprecation of `number` for octokit | 1 |
 
+| huggingface/huggingface.js | Maximize button not working properly on Hosted inference API block | 2 |
+
+| huggingface/chat-ui | Add option for users to customize search engines in settings page | 3 |
+
+| huggingface/chat-ui | Chrome app icon on macOS | 3 |
+
+| huggingface/chat-ui | Load past conversations using the most recent leaf to determine the visible conversation tree. | 3 |
+
+| huggingface/chat-ui | System prompt not taken into account when web browsing. | 3 |
+
 | ansible/vscode-ansible | Option to completely disable autocomplete | 3 |
 
 | pytorch/test-infra | A better HUD menu for PyTorch repos family | 4 |
 
+| huggingface/chat-ui | Disabling Reasoning Summary as an Env Option | 5 |
+
 | pytorch/test-infra | Mergebot merged a PR even though a review had been re-requested | 5 |
+
+| huggingface/huggingface.js | Tracking integration for Video Classification | 8 |
 
 
 
@@ -1120,8 +1274,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | godotengine/godot-docs | make_canvas_position_local | 1 |
 
 | godotengine/godot-docs | Inconsistent code example between PhysicsShapeQueryParameters3D and PhysicsServer3D | 1 |
-
-| godotengine/godot-docs | AudioServer Documentation does not specify units of time | 1 |
 
 | godotengine/godot-docs | Curve2D.get_closest_point() incorrectly documented | 1 |
 
