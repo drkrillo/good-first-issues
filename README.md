@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-24</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-25</sub></sub>
 
 
 
@@ -483,8 +483,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/examples | Example code (mnist) does not work under torch.utils.bottleneck | 0 |
 
-| pytorch/executorch | Support getting the delegated payload | 0 |
-
 | pytorch/executorch | [CMake] Potentially duplicated srcs in llama_runner build | 0 |
 
 | pytorch/executorch | Add Android model E2E test | 0 |
@@ -538,12 +536,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/lerobot | Ensure the utilities module passes MyPy type checks | 1 |
 
 | huggingface/lerobot | Ensure the teleoperators module passes MyPy type checks | 1 |
-
-| huggingface/lerobot | Ensure the processing module passes MyPy type checks | 1 |
-
-| huggingface/lerobot | Ensure the cameras module passes MyPy type checks | 1 |
-
-| huggingface/lerobot | Ensure the datasets module passes MyPy type checks | 1 |
 
 | huggingface/lighteval | [EVAL] Add kyrgyzLLM benchmark | 1 |
 
@@ -610,6 +602,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [Android] Use generic JNI instead of fbjni | 1 |
 
 | pytorch/PiPPy | Support LayoutLM models in HF tests | 1 |
+
+| pytorch/pytorch | [ONNX][Dynamo] TypeError: torchvision_roi_align() takes from 3 to 6 positional arguments but 7 were given in torch 2.12 nightly | 1 |
 
 | pytorch/pytorch | [BE] Deduplicate auto_functionalized and triton_kernel_wrapper_functional | 1 |
 
@@ -698,8 +692,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [Request impl] Gracefully error out in ETDump | 2 |
 
 | pytorch/PiPPy | Make RemoteInterpreter use the full implementation of `Interpreter.run` | 2 |
-
-| pytorch/pytorch | torch.compile does not support Python try/except | 2 |
 
 | pytorch/rl | [Feature Request] Make sure that all losses work with tensorclasses and regular tensors | 2 |
 
@@ -797,8 +789,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | godotengine/godot-blender-exporter | Blender object with negative scale | 3 |
 
-| huggingface/accelerate | RuntimeError: Tensor on device meta is not on the expected device cuda:0! | 4 |
-
 | huggingface/accelerate | Barebones dataloader to allow for any type of iterable dataloader-like object to be used. Should just handle device placement | 4 |
 
 | huggingface/dataset-viewer | Cache/Queue metrics should not be negative | 4 |
@@ -835,6 +825,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | Re-inplace slice_copy with slice | 4 |
 
+| pytorch/pytorch | torch.compile does not support Python try/except | 4 |
+
 | pytorch/pytorch | Use typing_extensions.TypeAliasType for better reexport of `__module__` | 4 |
 
 | pytorch/pytorch | [inductor] nan_asserts doesn't work for FP8, "RuntimeError: "isinf" not implemented for 'Float8_e4m3fn'" | 4 |
@@ -842,6 +834,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Remove tensor variable default method fallthrough | 4 |
 
 | pytorch/pytorch | [export] Schematize nn_module_stack serialization | 4 |
+
+| huggingface/accelerate | RuntimeError: Tensor on device meta is not on the expected device cuda:0! | 5 |
 
 | huggingface/lighteval | [BUG] custom model docs don't run: missing imports | 5 |
 
@@ -885,7 +879,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/audio | read mp3 file fail | 5 |
 
-| pytorch/pytorch | [dynamo, BE] get rid of IncorrectUsage exception | 5 |
+| pytorch/executorch | Python apis for loading and saving .ptd from dictionaries | 5 |
 
 | pytorch/pytorch | Report WHY a symbol was created dynamically in symbolic_shapes logs | 5 |
 
@@ -955,8 +949,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/accelerate | [Docs] Update low-precision training docs for MS-AMP | 8 |
 
-| huggingface/datasets | WMT21 & WMT22 | 8 |
-
 | huggingface/diffusers | Make `FlaxLMSDiscreteScheduler` jittable | 8 |
 
 | huggingface/lighteval | [EVAL] Adding PHARE | 8 |
@@ -978,6 +970,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Improve error message for wrong number of arguments in CachingAutotuner | 8 |
 
 | pytorch/pytorch | [Dynamo] Support tracing through _get_current_dispatch_mode_stack | 8 |
+
+| huggingface/datasets | WMT21 & WMT22 | 9 |
 
 | huggingface/diffusers | Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline` | 9 |
 
@@ -1071,8 +1065,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/transformers | Follow ups to DocumentQuestionAnswering Pipeline | 16 |
 
-| pytorch/ignite | Replace typing hints with new version | 16 |
-
 | pytorch/pytorch | Device check missing in torch.linalg.solve_triangular leading to hard crash | 16 |
 
 | pandas-dev/pandas | Indexing on series where index is output from pd.cut  | 17 |
@@ -1080,6 +1072,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | django/djangoproject.com | Localize the fundraising app | 17 |
 
 | pytorch/ao | Replace flash_4 with FlexAttention | 17 |
+
+| pytorch/ignite | Replace typing hints with new version | 17 |
 
 | pytorch/pytorch | Obscure error: Expected a value of type 'List[int]' for argument 'sizes' but instead found type 'immutable_list' | 17 |
 
