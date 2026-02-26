@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-25</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-26</sub></sub>
 
 
 
@@ -533,8 +533,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lerobot | SO-101 leader precision | 1 |
 
-| huggingface/lerobot | Ensure the utilities module passes MyPy type checks | 1 |
-
 | huggingface/lerobot | Ensure the teleoperators module passes MyPy type checks | 1 |
 
 | huggingface/lighteval | [EVAL] Add kyrgyzLLM benchmark | 1 |
@@ -587,8 +585,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/examples | Doc comment on `accuracy` method in imagenet example, incorrect? | 1 |
 
-| pytorch/executorch | Support dim order in Java Tensor | 1 |
-
 | pytorch/executorch | Add dynamism tests for xnnpack model tests | 1 |
 
 | pytorch/executorch | Implement load_into for the shared_ptr data loader | 1 |
@@ -597,13 +593,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | Format CMakeLists.txt | 1 |
 
-| pytorch/executorch | [Android] instrumentation test use models from storage, not bundled with apk | 1 |
-
 | pytorch/executorch | [Android] Use generic JNI instead of fbjni | 1 |
 
 | pytorch/PiPPy | Support LayoutLM models in HF tests | 1 |
-
-| pytorch/pytorch | [ONNX][Dynamo] TypeError: torchvision_roi_align() takes from 3 to 6 positional arguments but 7 were given in torch 2.12 nightly | 1 |
 
 | pytorch/pytorch | [BE] Deduplicate auto_functionalized and triton_kernel_wrapper_functional | 1 |
 
@@ -620,6 +612,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/dataset-viewer | Use "Sign-In with HF" instead of token in admin-UI | 2 |
 
 | huggingface/lerobot | Finetune smolvla with vision encoder | 2 |
+
+| huggingface/lerobot | Ensure the utilities module passes MyPy type checks | 2 |
 
 | huggingface/lerobot | Ensure the robots module passes MyPy type checks | 2 |
 
@@ -683,7 +677,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | Consolidation of Selective Build APIs for OSS | 2 |
 
-| pytorch/executorch | [Android] Rename JNI cpp file | 2 |
+| pytorch/executorch | Support dim order in Java Tensor | 2 |
+
+| pytorch/executorch | [Android] instrumentation test use models from storage, not bundled with apk | 2 |
 
 | pytorch/executorch | Add torchao kernels to xcframework | 2 |
 
@@ -692,6 +688,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [Request impl] Gracefully error out in ETDump | 2 |
 
 | pytorch/PiPPy | Make RemoteInterpreter use the full implementation of `Interpreter.run` | 2 |
+
+| pytorch/pytorch | [ONNX][Dynamo] TypeError: torchvision_roi_align() takes from 3 to 6 positional arguments but 7 were given in torch 2.12 nightly | 2 |
 
 | pytorch/rl | [Feature Request] Make sure that all losses work with tensorclasses and regular tensors | 2 |
 
@@ -770,6 +768,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | torch.split fails in to_edge | 3 |
 
 | pytorch/executorch | Support Standalone Batch Norm | 3 |
+
+| pytorch/executorch | [Android] Rename JNI cpp file | 3 |
 
 | pytorch/executorch | Get rid of fixed number cmake --build -j in sh and docs | 3 |
 
@@ -971,8 +971,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/pytorch | [Dynamo] Support tracing through _get_current_dispatch_mode_stack | 8 |
 
-| huggingface/datasets | WMT21 & WMT22 | 9 |
-
 | huggingface/diffusers | Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline` | 9 |
 
 | huggingface/transformers | oom when using adafactor optimizer in deepspeed | 9 |
@@ -998,6 +996,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Using an empty tensor and `torch.int64` or `torch.bool` for `dtype` of `nanmean()` works while a non-empty tensor doesn't work | 9 |
 
 | huggingface/datasets | Identical keywords in build_kwargs and config_kwargs lead to TypeError in load_dataset_builder() | 10 |
+
+| huggingface/datasets | WMT21 & WMT22 | 10 |
 
 | huggingface/diffusers | [Flux ControlNet] Add support for de-distilled models with CFG | 10 |
 
@@ -1073,8 +1073,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/ao | Replace flash_4 with FlexAttention | 17 |
 
-| pytorch/ignite | Replace typing hints with new version | 17 |
-
 | pytorch/pytorch | Obscure error: Expected a value of type 'List[int]' for argument 'sizes' but instead found type 'immutable_list' | 17 |
 
 | pytorch/pytorch | Supporting custom attributes with `__torch_function__` tensor subclasses | 17 |
@@ -1088,6 +1086,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/audio | Add Stereo to Mono Convertions | 18 |
 
 | pytorch/executorch | [Request impl] Devtool end-to-end tests | 18 |
+
+| pytorch/ignite | Replace typing hints with new version | 19 |
 
 | pandas-dev/pandas | BUG: Interpolate over time does not work with Int64 or Float64 | 20 |
 
@@ -1106,8 +1106,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | WEB: Multiple "Getting Started" on pandas.io leads to different links | 25 |
 
 | huggingface/optimum | Community contribution - `BetterTransformer` integration for more models! | 26 |
-
-| huggingface/transformers | Getting time offsets of beginning and end of each word in Wav2Vec2 | 26 |
 
 | pandas-dev/pandas | CLN: Use dedup_names in all instances where duplicate column names are renamed | 29 |
 
