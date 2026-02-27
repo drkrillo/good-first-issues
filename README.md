@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-26</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-27</sub></sub>
 
 
 
@@ -525,6 +525,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/torcharrow | Move `torcharrow/test` to `test` | 0 |
 
+| godotengine/godot-contributing-docs | Link to configuring IDEs in Contributing docs | 0 |
+
+| godotengine/godot-contributing-docs | Incorrect example about tooltips in Editor style guide | 0 |
+
 | huggingface/accelerate | Deadlock when running multi tasks | 1 |
 
 | huggingface/dataset-viewer | Use `revision_exists` (hfh) | 1 |
@@ -895,8 +899,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | BUG: groupby.var() does not return arrow types with arrow backed series as input.  | 6 |
 
-| pandas-dev/pandas | BUG: Multiindex Categorical type lost after div operation | 6 |
-
 | pandas-dev/pandas | Groupby Agg not working if different partials with same name on the same column | 6 |
 
 | django/djangoproject.com | Add link to 'Stable' doc version in the Warning Alert on top | 6 |
@@ -924,6 +926,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/lighteval | [EVAL] Long Horizon Execution | 7 |
 
 | pandas-dev/pandas | BUG: enlarging a DataFrame by adding an extra column with a tz-aware datetime results in object dtype | 7 |
+
+| pandas-dev/pandas | BUG: Multiindex Categorical type lost after div operation | 7 |
 
 | pandas-dev/pandas | Possible bug in df.update | 7 |
 
@@ -1037,13 +1041,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/ao | Update documents addressing AQT workflow | 12 |
 
-| pytorch/pytorch | torch.compile regression 2.9.1: Triton kernel name '_Runner__kernel_name_0' is not defined | 12 |
-
 | pytorch/pytorch | Logging when executing fx.Interpreter | 12 |
 
 | pandas-dev/pandas | DOC: Reindexing behaviour of dataframe column-assignment missing | 13 |
 
 | django/djangoproject.com | New content: Accessibility statement | 13 |
+
+| pytorch/pytorch | torch.compile regression 2.9.1: Triton kernel name '_Runner__kernel_name_0' is not defined | 13 |
 
 | pytorch/pytorch | [Feature request] `torch.export` .save/.load could support `safetensors` and/or `weights_only=True` | 13 |
 
@@ -1063,9 +1067,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas-stubs | `pd.concat` with `GeoDataFrame`s | 15 |
 
-| huggingface/transformers | Follow ups to DocumentQuestionAnswering Pipeline | 16 |
-
 | pytorch/pytorch | Device check missing in torch.linalg.solve_triangular leading to hard crash | 16 |
+
+| huggingface/transformers | Follow ups to DocumentQuestionAnswering Pipeline | 17 |
 
 | pandas-dev/pandas | Indexing on series where index is output from pd.cut  | 17 |
 
