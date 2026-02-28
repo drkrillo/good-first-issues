@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-27</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-28</sub></sub>
 
 
 
@@ -683,8 +683,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | Support dim order in Java Tensor | 2 |
 
-| pytorch/executorch | [Android] instrumentation test use models from storage, not bundled with apk | 2 |
-
 | pytorch/executorch | Add torchao kernels to xcframework | 2 |
 
 | pytorch/executorch | Need a feature to get etdump while running LLAMA model on qnn with qnn_llama_runner | 2 |
@@ -780,6 +778,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | Consolidate executor_runners | 3 |
 
 | pytorch/executorch | ExecuTorch Scalar to() supports fewer types than c10::Scalar, breaking source compatibility | 3 |
+
+| pytorch/executorch | Optimized linear op doesn't support bias | 3 |
 
 | pytorch/pytorch | [auto functionalize][partitioner] ones_like is not getting recomputed | 3 |
 
@@ -1113,7 +1113,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | CLN: Use dedup_names in all instances where duplicate column names are renamed | 29 |
 
-| huggingface/transformers | Trying to add support for GPT2 as decoder in EncoderDecoder model | 31 |
+| huggingface/transformers | Trying to add support for GPT2 as decoder in EncoderDecoder model | 32 |
 
 | pytorch/ignite | 🥇 Everyone is welcome to contribute 💯  | 37 |
 
