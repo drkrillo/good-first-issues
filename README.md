@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-02-28</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-01</sub></sub>
 
 
 
@@ -1069,8 +1069,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/pytorch | Device check missing in torch.linalg.solve_triangular leading to hard crash | 16 |
 
-| huggingface/transformers | Follow ups to DocumentQuestionAnswering Pipeline | 17 |
-
 | pandas-dev/pandas | Indexing on series where index is output from pd.cut  | 17 |
 
 | django/djangoproject.com | Localize the fundraising app | 17 |
@@ -1085,13 +1083,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lerobot | Make policies compatible with torch.compile | 18 |
 
+| huggingface/transformers | Follow ups to DocumentQuestionAnswering Pipeline | 18 |
+
 | pytorch/ao | Add codebook (look up table based) quantization flow in torchao | 18 |
 
 | pytorch/audio | Add Stereo to Mono Convertions | 18 |
 
 | pytorch/executorch | [Request impl] Devtool end-to-end tests | 18 |
-
-| pytorch/ignite | Replace typing hints with new version | 19 |
 
 | pandas-dev/pandas | BUG: Interpolate over time does not work with Int64 or Float64 | 20 |
 
