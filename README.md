@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-01</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-03</sub></sub>
 
 
 
@@ -367,9 +367,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | tensorflow/probability | Stochastic block model example/tutorial | 5 |
 
-| tensorflow/probability | BFGS user should be able to pass parameters to the line search | 6 |
-
 | tensorflow/probability | Tutorial on Variational Inference | 6 |
+
+| tensorflow/probability | BFGS user should be able to pass parameters to the line search | 7 |
 
 | tensorflow/swift-models | Speech to text example | 7 |
 
@@ -627,8 +627,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/nanotron | [Feature Request] Support Data Streaming for faster training of large models | 2 |
 
-| huggingface/transformers | [Performance] Tracking open Issues and PRs (pytorch transformers) | 2 |
-
 | ansible/ansible-navigator | Switch to the use of `pathlib` where possible | 2 |
 
 | ansible/awx | Empty value in execution_environment should remove selections (ansible.controller.job_template) | 2 |
@@ -797,8 +795,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/dataset-viewer | Cache/Queue metrics should not be negative | 4 |
 
-| huggingface/lerobot | Ensure the policy module passes MyPy type checks | 4 |
-
 | huggingface/lighteval | [EVAL]: Add more African Benchmarks | 4 |
 
 | huggingface/transformers | GeneratorExp aren't supported by torch.jit.script when I try to export a previously trained model  'google/vit-base-patch16-224-in21k'. | 4 |
@@ -829,8 +825,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | Re-inplace slice_copy with slice | 4 |
 
-| pytorch/pytorch | torch.compile does not support Python try/except | 4 |
-
 | pytorch/pytorch | Use typing_extensions.TypeAliasType for better reexport of `__module__` | 4 |
 
 | pytorch/pytorch | [inductor] nan_asserts doesn't work for FP8, "RuntimeError: "isinf" not implemented for 'Float8_e4m3fn'" | 4 |
@@ -838,8 +832,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Remove tensor variable default method fallthrough | 4 |
 
 | pytorch/pytorch | [export] Schematize nn_module_stack serialization | 4 |
-
-| huggingface/accelerate | RuntimeError: Tensor on device meta is not on the expected device cuda:0! | 5 |
 
 | huggingface/lighteval | [BUG] custom model docs don't run: missing imports | 5 |
 
@@ -888,6 +880,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Report WHY a symbol was created dynamically in symbolic_shapes logs | 5 |
 
 | pytorch/pytorch | torch.fx.Tracer.record_stack_traces is broken in torch 2.4.0 | 5 |
+
+| pytorch/pytorch | [dynamo] Missing support for many trivial builtin functions in operator | 5 |
 
 | pytorch/rl | [Feature Request] Missing ActionScaling and FlattenAction  | 5 |
 
@@ -951,8 +945,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | Fail to allocate temp memory by exporting torch.topk | 7 |
 
-| huggingface/accelerate | [Docs] Update low-precision training docs for MS-AMP | 8 |
-
 | huggingface/diffusers | Make `FlaxLMSDiscreteScheduler` jittable | 8 |
 
 | huggingface/lighteval | [EVAL] Adding PHARE | 8 |
@@ -976,8 +968,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [Dynamo] Support tracing through _get_current_dispatch_mode_stack | 8 |
 
 | huggingface/diffusers | Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline` | 9 |
-
-| huggingface/transformers | oom when using adafactor optimizer in deepspeed | 9 |
 
 | pandas-dev/pandas | BUG: DataFrame.rank does not return EA types when original type was an EADtype | 9 |
 
@@ -1018,8 +1008,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [dynamo] [dynamic] `torch.combinations` throws RuntimeError when `(backend=aot_eager, dynamic=True)` | 10 |
 
 | pytorch/pytorch | Expand Tag Set: views & reductions | 10 |
-
-| huggingface/transformers | [trainer] figuring out why eval with `--fp16_full_eval` is 25% slower | 11 |
 
 | tensorflow/quantum | [Performance] Boost tfq.convert_to_tensor speed | 11 |
 
@@ -1083,8 +1071,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lerobot | Make policies compatible with torch.compile | 18 |
 
-| huggingface/transformers | Follow ups to DocumentQuestionAnswering Pipeline | 18 |
-
 | pytorch/ao | Add codebook (look up table based) quantization flow in torchao | 18 |
 
 | pytorch/audio | Add Stereo to Mono Convertions | 18 |
@@ -1103,15 +1089,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | DOC: Single Document For Code Guidelines | 24 |
 
-| huggingface/transformers | Add support for BLIP and GIT in image-to-text and VQA pipelines | 25 |
-
 | pandas-dev/pandas | WEB: Multiple "Getting Started" on pandas.io leads to different links | 25 |
 
 | huggingface/optimum | Community contribution - `BetterTransformer` integration for more models! | 26 |
 
 | pandas-dev/pandas | CLN: Use dedup_names in all instances where duplicate column names are renamed | 29 |
-
-| huggingface/transformers | Trying to add support for GPT2 as decoder in EncoderDecoder model | 32 |
 
 | pytorch/ignite | 🥇 Everyone is welcome to contribute 💯  | 37 |
 
@@ -1190,8 +1172,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/swift-apis | Swifty API discovery via '@available' on raw APIs. | 8 |
 
 | tensorflow/swift-apis | Add preconditions | 10 |
-
-| huggingface/swift-transformers | Support for embedding models (BGE, GTE etc) | 12 |
 
 | tensorflow/swift-apis | Add more optimizers and losses | 16 |
 
