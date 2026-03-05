@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-04</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-05</sub></sub>
 
 
 
@@ -147,7 +147,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | godotengine/godot | PointLight2D doesn't respect Nearest texture filter for normal-maps or shadows | 34 |
 
-| godotengine/godot | [TRACKER] Unit tests to add or improve | 239 |
+| godotengine/godot | [TRACKER] Unit tests to add or improve | 240 |
 
 
 
@@ -443,8 +443,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/optimum-executorch | Add benchmarking numbers for more models | 0 |
 
-| ansible/ansible-dev-tools | Ensure tests are passing with devspaces container | 0 |
-
 | ansible/ansible-jupyter-kernel | Add support for handlers | 0 |
 
 | ansible/ansible-jupyter-kernel | Add a #library cell type | 0 |
@@ -689,8 +687,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/PiPPy | Make RemoteInterpreter use the full implementation of `Interpreter.run` | 2 |
 
-| pytorch/pytorch | [ONNX][Dynamo] TypeError: torchvision_roi_align() takes from 3 to 6 positional arguments but 7 were given in torch 2.12 nightly | 2 |
-
 | pytorch/rl | [Feature Request] Make sure that all losses work with tensorclasses and regular tensors | 2 |
 
 | pytorch/rl | [Feature Request] TensorSpec is_in methods should check the dtype of val | 2 |
@@ -825,6 +821,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | Re-inplace slice_copy with slice | 4 |
 
+| pytorch/pytorch | [ONNX][Dynamo] TypeError: torchvision_roi_align() takes from 3 to 6 positional arguments but 7 were given in torch 2.12 nightly | 4 |
+
 | pytorch/pytorch | Use typing_extensions.TypeAliasType for better reexport of `__module__` | 4 |
 
 | pytorch/pytorch | [inductor] nan_asserts doesn't work for FP8, "RuntimeError: "isinf" not implemented for 'Float8_e4m3fn'" | 4 |
@@ -925,8 +923,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | Possible bug in df.update | 7 |
 
-| django/djangoproject.com | Improvements to the Corporate Sponsor Experience | 7 |
-
 | django/djangoproject.com | Improve Documentation by having list of topics fixed on the left and table of contents on the right  | 7 |
 
 | django/djangoproject.com | Docs for old supported versions should indicate that a newer version is available | 7 |
@@ -952,6 +948,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | BUG: Strange behavior when accessing datetime.date index with np.datetime64 | 8 |
 
 | pandas-dev/pandas | ENH: Change ExtensionOpsMixin behaviour to not add new operator method if one is already defined on the ExtensionArray class | 8 |
+
+| django/djangoproject.com | Improvements to the Corporate Sponsor Experience | 8 |
 
 | django/djangoproject.com | Use noindex meta tag or header, not robots.txt, to block untranslated docs pages | 8 |
 
