@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-05</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-06</sub></sub>
 
 
 
@@ -278,8 +278,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx-operator | Inflated Total Host Count on Dashboard when Using Constructed Inventory with Existing Inventories | 2 |
 
 | ansible/awx-operator | Extend README with external logging examples | 2 |
-
-| ansible/receptor-collection | Support for Debian 12 | 2 |
 
 | ansible/awx-operator | Inability to overwrite namespace when using awx-operator chart | 3 |
 
@@ -617,8 +615,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lerobot | Ensure the utilities module passes MyPy type checks | 2 |
 
-| huggingface/lerobot | Ensure the robots module passes MyPy type checks | 2 |
-
 | huggingface/lighteval | Call for contributions: Translate lighteval's doc into Chinese | 2 |
 
 | huggingface/nanotron | [Feature] Asyncronous Serialization | 2 |
@@ -702,6 +698,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/dataset-viewer | Use `CONSTANT_LIST.copy` in list config fieds | 3 |
 
 | huggingface/lerobot | How can I change the task name of already recorded episodes? | 3 |
+
+| huggingface/lerobot | Ensure the robots module passes MyPy type checks | 3 |
 
 | huggingface/lighteval | [FT]  Add tests for nanotron | 3 |
 
