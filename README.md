@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-06</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-07</sub></sub>
 
 
 
@@ -791,8 +791,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lighteval | [EVAL]: Add more African Benchmarks | 4 |
 
-| huggingface/transformers | GeneratorExp aren't supported by torch.jit.script when I try to export a previously trained model  'google/vit-base-patch16-224-in21k'. | 4 |
-
 | django/djangoproject.com | Github login doesn't work for community pages | 4 |
 
 | django/djangoproject.com | Documentation table of contents is hard to reach on mobile devices | 4 |
@@ -843,6 +841,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/sentence-transformers | Update example scripts relying on `model.fit` to use `SentenceTransformerTrainer` instead | 5 |
 
+| huggingface/transformers | GeneratorExp aren't supported by torch.jit.script when I try to export a previously trained model  'google/vit-base-patch16-224-in21k'. | 5 |
+
 | pandas-dev/pandas | BUG: Timedelta resolution is different depending on how the argument is passed | 5 |
 
 | pandas-dev/pandas | .add gives incorrect result with MI Dataframe with mix of object and datetimes on index. | 5 |
@@ -886,8 +886,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/lighteval | [FT] Improve Documentation and Examples | 6 |
 
 | pandas-dev/pandas | BUG: Conversion from datetime64[ns] to datetime does not effect .info() and probably not the DataFrame itself | 6 |
-
-| pandas-dev/pandas | BUG: groupby.var() does not return arrow types with arrow backed series as input.  | 6 |
 
 | pandas-dev/pandas | Groupby Agg not working if different partials with same name on the same column | 6 |
 
@@ -1055,6 +1053,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | Indexing on series where index is output from pd.cut  | 17 |
 
+| pandas-dev/pandas | DOC: improve docs for broadcasting behavior | 17 |
+
 | django/djangoproject.com | Localize the fundraising app | 17 |
 
 | pytorch/ao | Replace flash_4 with FlexAttention | 17 |
@@ -1073,9 +1073,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | [Request impl] Devtool end-to-end tests | 18 |
 
-| pandas-dev/pandas | BUG: Interpolate over time does not work with Int64 or Float64 | 20 |
-
 | pandas-dev/pandas | Updating value of a single row of a column using loc or at fails | 20 |
+
+| pandas-dev/pandas | Raise ValueError for read_json and orient='table' With Numeric Column Names | 20 |
 
 | huggingface/diffusers | Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines | 22 |
 
@@ -1091,7 +1091,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | CLN: Use dedup_names in all instances where duplicate column names are renamed | 29 |
 
-| pytorch/ignite | 🥇 Everyone is welcome to contribute 💯  | 37 |
+| pytorch/ignite | 🥇 Everyone is welcome to contribute 💯  | 38 |
 
 | huggingface/peft | Comparison of Different Fine-Tuning Techniques for Conversational AI | 44 |
 
