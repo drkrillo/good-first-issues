@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-07</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-08</sub></sub>
 
 
 
@@ -66,6 +66,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | Op info test for `linalg.cholesky_ex` | 0 |
 
 | pytorch/xla | Op info test for `linalg.cholesky` | 0 |
+
+| godotengine/godot | Animation editor: "Send Key(s) to RESET" menu item doesn't appear if user has not selected key before right-click | 0 |
 
 | pytorch/glow | [CPU] Remove the need for Rescale for the CPUMaxSplat | 1 |
 
@@ -877,8 +879,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/pytorch | torch.fx.Tracer.record_stack_traces is broken in torch 2.4.0 | 5 |
 
-| pytorch/pytorch | [dynamo] Missing support for many trivial builtin functions in operator | 5 |
-
 | pytorch/rl | [Feature Request] Missing ActionScaling and FlattenAction  | 5 |
 
 | huggingface/lerobot | Distributed v2.1 -> v3.0 conversion | 6 |
@@ -909,13 +909,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/pytorch | AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible | 6 |
 
+| pytorch/pytorch | [dynamo] Missing support for many trivial builtin functions in operator | 6 |
+
 | huggingface/lerobot | Select the VLM backbone for SmolVLA | 7 |
 
 | huggingface/lighteval | [EVAL] Long Horizon Execution | 7 |
 
 | pandas-dev/pandas | BUG: enlarging a DataFrame by adding an extra column with a tz-aware datetime results in object dtype | 7 |
-
-| pandas-dev/pandas | BUG: Multiindex Categorical type lost after div operation | 7 |
 
 | pandas-dev/pandas | Possible bug in df.update | 7 |
 
@@ -945,6 +945,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | ENH: Change ExtensionOpsMixin behaviour to not add new operator method if one is already defined on the ExtensionArray class | 8 |
 
+| pandas-dev/pandas | BUG: Multiindex Categorical type lost after div operation | 8 |
+
 | django/djangoproject.com | Improvements to the Corporate Sponsor Experience | 8 |
 
 | django/djangoproject.com | Use noindex meta tag or header, not robots.txt, to block untranslated docs pages | 8 |
@@ -958,8 +960,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | [BUG][PyTorch 2.0 Export][quant]:get_source_partitions() may return different matches with same input graph | 8 |
 
 | pytorch/pytorch | Improve error message for wrong number of arguments in CachingAutotuner | 8 |
-
-| pytorch/pytorch | [Dynamo] Support tracing through _get_current_dispatch_mode_stack | 8 |
 
 | huggingface/diffusers | Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline` | 9 |
 
@@ -982,6 +982,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | dynamo (re)compilation issues: shape (1,1), nn.Parameter, mark_dynamic | 9 |
 
 | pytorch/pytorch | Using an empty tensor and `torch.int64` or `torch.bool` for `dtype` of `nanmean()` works while a non-empty tensor doesn't work | 9 |
+
+| pytorch/pytorch | [Dynamo] Support tracing through _get_current_dispatch_mode_stack | 9 |
 
 | huggingface/datasets | Identical keywords in build_kwargs and config_kwargs lead to TypeError in load_dataset_builder() | 10 |
 
