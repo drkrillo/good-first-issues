@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-08</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-09</sub></sub>
 
 
 
@@ -66,8 +66,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | Op info test for `linalg.cholesky_ex` | 0 |
 
 | pytorch/xla | Op info test for `linalg.cholesky` | 0 |
-
-| godotengine/godot | Animation editor: "Send Key(s) to RESET" menu item doesn't appear if user has not selected key before right-click | 0 |
 
 | pytorch/glow | [CPU] Remove the need for Rescale for the CPUMaxSplat | 1 |
 
@@ -124,6 +122,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | Op info test for `nn.functional.avg_pool1d .. nn.functional.bilinear` | 4 |
 
 | pytorch/xla | Op info test for `linalg.lu_solve` | 4 |
+
+| godotengine/godot | Animation editor: "Send Key(s) to RESET" menu item doesn't appear if user has not selected key before right-click | 4 |
 
 | pytorch/glow | Fuse RescaleQuantized in the ChannelwiseQuantizedConv | 5 |
 
@@ -609,6 +609,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/torchtitan | Ability to train based on epoch | 1 |
 
+| godotengine/godot-contributing-docs | Broken link to class reference primer | 1 |
+
 | huggingface/dataset-viewer | use the `ROW_IDX_COLUMN` constant name instead of copying the value everywhere | 2 |
 
 | huggingface/dataset-viewer | Use "Sign-In with HF" instead of token in admin-UI | 2 |
@@ -843,13 +845,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/sentence-transformers | Update example scripts relying on `model.fit` to use `SentenceTransformerTrainer` instead | 5 |
 
-| huggingface/transformers | GeneratorExp aren't supported by torch.jit.script when I try to export a previously trained model  'google/vit-base-patch16-224-in21k'. | 5 |
-
 | pandas-dev/pandas | BUG: Timedelta resolution is different depending on how the argument is passed | 5 |
 
 | pandas-dev/pandas | .add gives incorrect result with MI Dataframe with mix of object and datetimes on index. | 5 |
-
-| pandas-dev/pandas | DataFrame.update silently does nothing when indices are of differing type | 5 |
 
 | django/djangoproject.com | Redirect from /about to /foundation | 5 |
 
@@ -888,6 +886,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | BUG: Conversion from datetime64[ns] to datetime does not effect .info() and probably not the DataFrame itself | 6 |
 
 | pandas-dev/pandas | Groupby Agg not working if different partials with same name on the same column | 6 |
+
+| pandas-dev/pandas | DataFrame.update silently does nothing when indices are of differing type | 6 |
 
 | django/djangoproject.com | Add link to 'Stable' doc version in the Warning Alert on top | 6 |
 
@@ -1083,13 +1083,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix | 22 |
 
-| huggingface/transformers | Export LayoutLMv2 to onnx  | 24 |
-
 | pandas-dev/pandas | DOC: Single Document For Code Guidelines | 24 |
 
 | pandas-dev/pandas | WEB: Multiple "Getting Started" on pandas.io leads to different links | 25 |
 
 | huggingface/optimum | Community contribution - `BetterTransformer` integration for more models! | 26 |
+
+| huggingface/transformers | Export LayoutLMv2 to onnx  | 26 |
 
 | pandas-dev/pandas | CLN: Use dedup_names in all instances where duplicate column names are renamed | 29 |
 
@@ -1150,8 +1150,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/chat-macOS | [Feature Request] System Prompt Support | 2 |
 
 | huggingface/chat-macOS | Asking "what time is it?" will always return the local time of Paris, regardless of your location (⌘R+) | 2 |
-
-| huggingface/swift-transformers | Option to use `~/.cache/huggingface/hub` for downloaded models | 3 |
 
 | tensorflow/swift-apis | Recursive Neural Networks (structured data/trees) | 3 |
 
