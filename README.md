@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-09</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-10</sub></sub>
 
 
 
@@ -597,6 +597,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | [Android] Use generic JNI instead of fbjni | 1 |
 
+| pytorch/ignite | DaviesBouldinScore raises ValueError when number of clusters < 2 | 1 |
+
 | pytorch/PiPPy | Support LayoutLM models in HF tests | 1 |
 
 | pytorch/pytorch | [BE] Deduplicate auto_functionalized and triton_kernel_wrapper_functional | 1 |
@@ -941,8 +943,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lighteval | [EVAL] Adding PHARE | 8 |
 
-| pandas-dev/pandas | BUG: Strange behavior when accessing datetime.date index with np.datetime64 | 8 |
-
 | pandas-dev/pandas | ENH: Change ExtensionOpsMixin behaviour to not add new operator method if one is already defined on the ExtensionArray class | 8 |
 
 | pandas-dev/pandas | BUG: Multiindex Categorical type lost after div operation | 8 |
@@ -993,6 +993,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lighteval | [EVAL] Add TUMLU benchmark | 10 |
 
+| pandas-dev/pandas | BUG: Strange behavior when accessing datetime.date index with np.datetime64 | 10 |
+
 | pandas-dev/pandas | ERR: ``numeric_only`` in reduction operations should disallow passing non-bools | 10 |
 
 | pandas-dev/pandas | ENH: Better error message when interpolating dtype integer with method="linear" | 10 |
@@ -1001,8 +1003,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | Check tensor's dim order ambiguity in IR verifier | 10 |
 
-| pytorch/pytorch | [dynamo] [dynamic] `torch.combinations` throws RuntimeError when `(backend=aot_eager, dynamic=True)` | 10 |
-
 | pytorch/pytorch | Expand Tag Set: views & reductions | 10 |
 
 | tensorflow/quantum | [Performance] Boost tfq.convert_to_tensor speed | 11 |
@@ -1010,6 +1010,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ao | Named Symbol not found (torchchat #1298) | 11 |
 
 | pytorch/ao | [MPS] torchao low-bit-precision optim does not expose 'backend' argument to torch.compile | 11 |
+
+| pytorch/ignite | SilhouetteScore crashes when number of clusters < 2 | 11 |
 
 | pytorch/pytorch | foreach_map enhancements | 11 |
 
@@ -1024,6 +1026,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | django/djangoproject.com | Make right sidebar independent from main content | 12 |
 
 | pytorch/ao | Update documents addressing AQT workflow | 12 |
+
+| pytorch/pytorch | [dynamo] [dynamic] `torch.combinations` throws RuntimeError when `(backend=aot_eager, dynamic=True)` | 12 |
 
 | pytorch/pytorch | Logging when executing fx.Interpreter | 12 |
 
@@ -1061,8 +1065,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/ao | Replace flash_4 with FlexAttention | 17 |
 
-| pytorch/pytorch | Obscure error: Expected a value of type 'List[int]' for argument 'sizes' but instead found type 'immutable_list' | 17 |
-
 | pytorch/pytorch | Supporting custom attributes with `__torch_function__` tensor subclasses | 17 |
 
 | huggingface/datasets | Return the name of the currently loaded file in the load_dataset function. | 18 |
@@ -1074,6 +1076,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/audio | Add Stereo to Mono Convertions | 18 |
 
 | pytorch/executorch | [Request impl] Devtool end-to-end tests | 18 |
+
+| pytorch/pytorch | Obscure error: Expected a value of type 'List[int]' for argument 'sizes' but instead found type 'immutable_list' | 18 |
 
 | pandas-dev/pandas | Updating value of a single row of a column using loc or at fails | 20 |
 
