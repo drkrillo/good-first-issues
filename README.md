@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-10</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-11</sub></sub>
 
 
 
@@ -143,7 +143,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/glow | Use explicit std::string conversions instead of implicit llvm::StringRef->std::string conversions to prepare Glow for builds using LLVM >=11 | 18 |
 
-| godotengine/godot | [Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on | 22 |
+| godotengine/godot | [Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on | 23 |
 
 | godotengine/godot | You're breathtaking! | 32 |
 
@@ -464,8 +464,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/moonlight | Export the key signature to MusicXML | 0 |
 
 | pytorch/ao | Resolve doc build warnings | 0 |
-
-| pytorch/ao | [fp8 blockwise training] try using torch._scaled_mm instead of Triton kernels for fp8 gemms | 0 |
 
 | pytorch/ao | TorchAO ROCM tests are taking a long time | 0 |
 
@@ -849,8 +847,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | BUG: Timedelta resolution is different depending on how the argument is passed | 5 |
 
-| pandas-dev/pandas | .add gives incorrect result with MI Dataframe with mix of object and datetimes on index. | 5 |
-
 | django/djangoproject.com | Redirect from /about to /foundation | 5 |
 
 | django/djangoproject.com | fundraising: 'customer.subscription.deleted' webhook event always gets 404 response | 5 |
@@ -889,7 +885,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | Groupby Agg not working if different partials with same name on the same column | 6 |
 
-| pandas-dev/pandas | DataFrame.update silently does nothing when indices are of differing type | 6 |
+| pandas-dev/pandas | .add gives incorrect result with MI Dataframe with mix of object and datetimes on index. | 6 |
 
 | django/djangoproject.com | Add link to 'Stable' doc version in the Warning Alert on top | 6 |
 
@@ -946,6 +942,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | ENH: Change ExtensionOpsMixin behaviour to not add new operator method if one is already defined on the ExtensionArray class | 8 |
 
 | pandas-dev/pandas | BUG: Multiindex Categorical type lost after div operation | 8 |
+
+| pandas-dev/pandas | DataFrame.update silently does nothing when indices are of differing type | 8 |
 
 | django/djangoproject.com | Improvements to the Corporate Sponsor Experience | 8 |
 
