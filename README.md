@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-11</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-12</sub></sub>
 
 
 
@@ -609,8 +609,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/torchtitan | Ability to train based on epoch | 1 |
 
-| godotengine/godot-contributing-docs | Broken link to class reference primer | 1 |
-
 | huggingface/dataset-viewer | use the `ROW_IDX_COLUMN` constant name instead of copying the value everywhere | 2 |
 
 | huggingface/dataset-viewer | Use "Sign-In with HF" instead of token in admin-UI | 2 |
@@ -969,6 +967,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | startingMonth ignored on non-unitary Quarter periods | 9 |
 
+| pandas-dev/pandas | Non-inclusive partial string indexing on DatetimeIndex | 9 |
+
 | django/djangoproject.com | Remove non-canonical docs versions from sitemap.xml | 9 |
 
 | tensorflow/similarity | Lifted Structured loss | 9 |
@@ -994,8 +994,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | BUG: Strange behavior when accessing datetime.date index with np.datetime64 | 10 |
 
 | pandas-dev/pandas | ERR: ``numeric_only`` in reduction operations should disallow passing non-bools | 10 |
-
-| pandas-dev/pandas | ENH: Better error message when interpolating dtype integer with method="linear" | 10 |
 
 | pandas-dev/pandas | DOC: `.str.cat` output in case of `Index` object | 10 |
 
@@ -1045,11 +1043,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | [Feature Request] Add `replace` method to `Index` objects | 14 |
 
+| pandas-dev/pandas | DOC: section on caveats of storing lists inside DataFrame/Series | 14 |
+
 | django/djangoproject.com | Improve 404 page | 14 |
 
 | pytorch/pytorch | Make tlparse able to show a summary of distinct graph breaks | 14 |
-
-| pandas-dev/pandas | BUG: inconsisntent construction results between `pd.array` and `pd.Series` for dtype=str | 15 |
 
 | pandas-dev/pandas-stubs | `pd.concat` with `GeoDataFrame`s | 15 |
 
