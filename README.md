@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-12</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-13</sub></sub>
 
 
 
@@ -427,8 +427,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lerobot | Question regarding downsampling and resizing dataset | 0 |
 
-| huggingface/lighteval | [FT] showing count in Markdown summary table | 0 |
-
 | huggingface/lighteval | [FT] Manage script and language in the Language enum | 0 |
 
 | huggingface/lighteval | [BUG]  Optimize tokenization | 0 |
@@ -702,6 +700,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/lerobot | How can I change the task name of already recorded episodes? | 3 |
 
 | huggingface/lerobot | Ensure the robots module passes MyPy type checks | 3 |
+
+| huggingface/lighteval | [FT] showing count in Markdown summary table | 3 |
 
 | huggingface/lighteval | [FT]  Add tests for nanotron | 3 |
 
@@ -991,8 +991,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/lighteval | [EVAL] Add TUMLU benchmark | 10 |
 
-| pandas-dev/pandas | BUG: Strange behavior when accessing datetime.date index with np.datetime64 | 10 |
-
 | pandas-dev/pandas | ERR: ``numeric_only`` in reduction operations should disallow passing non-bools | 10 |
 
 | pandas-dev/pandas | DOC: `.str.cat` output in case of `Index` object | 10 |
@@ -1000,6 +998,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | Check tensor's dim order ambiguity in IR verifier | 10 |
 
 | pytorch/pytorch | Expand Tag Set: views & reductions | 10 |
+
+| pandas-dev/pandas | BUG: Strange behavior when accessing datetime.date index with np.datetime64 | 11 |
 
 | tensorflow/quantum | [Performance] Boost tfq.convert_to_tensor speed | 11 |
 
