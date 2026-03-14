@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-13</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-14</sub></sub>
 
 
 
@@ -122,8 +122,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | Op info test for `nn.functional.avg_pool1d .. nn.functional.bilinear` | 4 |
 
 | pytorch/xla | Op info test for `linalg.lu_solve` | 4 |
-
-| godotengine/godot | Animation editor: "Send Key(s) to RESET" menu item doesn't appear if user has not selected key before right-click | 4 |
 
 | pytorch/glow | Fuse RescaleQuantized in the ChannelwiseQuantizedConv | 5 |
 
@@ -477,6 +475,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/examples | Example code (mnist) does not work under torch.utils.bottleneck | 0 |
 
+| pytorch/executorch | Clean up pytest warnings | 0 |
+
 | pytorch/executorch | [CMake] Potentially duplicated srcs in llama_runner build | 0 |
 
 | pytorch/executorch | Add Android model E2E test | 0 |
@@ -773,8 +773,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | ExecuTorch Scalar to() supports fewer types than c10::Scalar, breaking source compatibility | 3 |
 
-| pytorch/executorch | Optimized linear op doesn't support bias | 3 |
-
 | pytorch/pytorch | [auto functionalize][partitioner] ones_like is not getting recomputed | 3 |
 
 | pytorch/torchchat | Improve Tokenizer New Type Onboarding | 3 |
@@ -906,6 +904,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible | 6 |
 
 | pytorch/pytorch | [dynamo] Missing support for many trivial builtin functions in operator | 6 |
+
+| pytorch/pytorch | Enable ruff rule PLW1510 codebase wide | 6 |
 
 | huggingface/lerobot | Select the VLM backbone for SmolVLA | 7 |
 
@@ -1050,8 +1050,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Make tlparse able to show a summary of distinct graph breaks | 14 |
 
 | pandas-dev/pandas-stubs | `pd.concat` with `GeoDataFrame`s | 15 |
-
-| pytorch/pytorch | Device check missing in torch.linalg.solve_triangular leading to hard crash | 16 |
 
 | pandas-dev/pandas | Indexing on series where index is output from pd.cut  | 17 |
 
