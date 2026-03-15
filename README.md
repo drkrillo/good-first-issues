@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-14</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-15</sub></sub>
 
 
 
@@ -509,6 +509,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/PiPPy | Support SWIN models in HF tests | 0 |
 
+| pytorch/pytorch | `scaled_dot_product_attention` docs describe incorrect `attn_mask` shape | 0 |
+
 | pytorch/rl | [DO NOT CLOSE] Call for contributions | 0 |
 
 | pytorch/tensordict | [Feature Request] Deprecate `_run_checks` in favour of `TensorDict._checked` | 0 |
@@ -592,8 +594,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | Format CMakeLists.txt | 1 |
 
 | pytorch/executorch | [Android] Use generic JNI instead of fbjni | 1 |
-
-| pytorch/ignite | DaviesBouldinScore raises ValueError when number of clusters < 2 | 1 |
 
 | pytorch/PiPPy | Support LayoutLM models in HF tests | 1 |
 
@@ -680,6 +680,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | Need a feature to get etdump while running LLAMA model on qnn with qnn_llama_runner | 2 |
 
 | pytorch/executorch | [Request impl] Gracefully error out in ETDump | 2 |
+
+| pytorch/ignite | DaviesBouldinScore raises ValueError when number of clusters < 2 | 2 |
 
 | pytorch/PiPPy | Make RemoteInterpreter use the full implementation of `Interpreter.run` | 2 |
 
@@ -904,8 +906,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible | 6 |
 
 | pytorch/pytorch | [dynamo] Missing support for many trivial builtin functions in operator | 6 |
-
-| pytorch/pytorch | Enable ruff rule PLW1510 codebase wide | 6 |
 
 | huggingface/lerobot | Select the VLM backbone for SmolVLA | 7 |
 
