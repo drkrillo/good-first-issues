@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-15</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-16</sub></sub>
 
 
 
@@ -423,8 +423,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | Repo | Title | Comments |
 | --- | --- | --- |
 
-| huggingface/lerobot | Question regarding downsampling and resizing dataset | 0 |
-
 | huggingface/lighteval | [FT] Manage script and language in the Language enum | 0 |
 
 | huggingface/lighteval | [BUG]  Optimize tokenization | 0 |
@@ -475,8 +473,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/examples | Example code (mnist) does not work under torch.utils.bottleneck | 0 |
 
-| pytorch/executorch | Clean up pytest warnings | 0 |
-
 | pytorch/executorch | [CMake] Potentially duplicated srcs in llama_runner build | 0 |
 
 | pytorch/executorch | Add Android model E2E test | 0 |
@@ -509,8 +505,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/PiPPy | Support SWIN models in HF tests | 0 |
 
-| pytorch/pytorch | `scaled_dot_product_attention` docs describe incorrect `attn_mask` shape | 0 |
-
 | pytorch/rl | [DO NOT CLOSE] Call for contributions | 0 |
 
 | pytorch/tensordict | [Feature Request] Deprecate `_run_checks` in favour of `TensorDict._checked` | 0 |
@@ -530,6 +524,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/dataset-viewer | Use `revision_exists` (hfh) | 1 |
 
 | huggingface/diffusers | Do we have any script covert from hf format to orginal format? | 1 |
+
+| huggingface/lerobot | Question regarding downsampling and resizing dataset | 1 |
 
 | huggingface/lerobot | SO-101 leader precision | 1 |
 
@@ -596,6 +592,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | [Android] Use generic JNI instead of fbjni | 1 |
 
 | pytorch/PiPPy | Support LayoutLM models in HF tests | 1 |
+
+| pytorch/pytorch | `scaled_dot_product_attention` docs describe incorrect `attn_mask` shape | 1 |
 
 | pytorch/pytorch | [BE] Deduplicate auto_functionalized and triton_kernel_wrapper_functional | 1 |
 
@@ -774,6 +772,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | Consolidate executor_runners | 3 |
 
 | pytorch/executorch | ExecuTorch Scalar to() supports fewer types than c10::Scalar, breaking source compatibility | 3 |
+
+| pytorch/executorch | Optimized linear op doesn't support bias | 3 |
 
 | pytorch/pytorch | [auto functionalize][partitioner] ones_like is not getting recomputed | 3 |
 
@@ -963,8 +963,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | Information for new contributors | 9 |
 
-| pandas-dev/pandas | Series.combine with fill_value gives unexpected results | 9 |
-
 | pandas-dev/pandas | startingMonth ignored on non-unitary Quarter periods | 9 |
 
 | pandas-dev/pandas | Non-inclusive partial string indexing on DatetimeIndex | 9 |
@@ -1018,6 +1016,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | BUG: concat with datetime64 columns of differing resolutions results in object dtype | 12 |
 
 | pandas-dev/pandas | BUG: Assigning extension array value to series of dtype object fails if element type is array-like | 12 |
+
+| pandas-dev/pandas | DOC:  min_itemsize for HDFStore append for encoded strings | 12 |
 
 | django/djangoproject.com | Make right sidebar independent from main content | 12 |
 
