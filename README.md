@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-16</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-17</sub></sub>
 
 
 
@@ -619,6 +619,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | huggingface/nanotron | [Feature Request] Support Data Streaming for faster training of large models | 2 |
 
+| pandas-dev/pandas-stubs | `pandas.tseries.frequencies.to_offset` should accept arguments of type `datetime.timedelta` | 2 |
+
 | ansible/ansible-navigator | Switch to the use of `pathlib` where possible | 2 |
 
 | ansible/awx | Empty value in execution_environment should remove selections (ansible.controller.job_template) | 2 |
@@ -678,8 +680,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | Need a feature to get etdump while running LLAMA model on qnn with qnn_llama_runner | 2 |
 
 | pytorch/executorch | [Request impl] Gracefully error out in ETDump | 2 |
-
-| pytorch/ignite | DaviesBouldinScore raises ValueError when number of clusters < 2 | 2 |
 
 | pytorch/PiPPy | Make RemoteInterpreter use the full implementation of `Interpreter.run` | 2 |
 
@@ -819,6 +819,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/executorch | Re-inplace slice_copy with slice | 4 |
 
+| pytorch/ignite | DaviesBouldinScore raises ValueError when number of clusters < 2 | 4 |
+
 | pytorch/pytorch | [ONNX][Dynamo] TypeError: torchvision_roi_align() takes from 3 to 6 positional arguments but 7 were given in torch 2.12 nightly | 4 |
 
 | pytorch/pytorch | Use typing_extensions.TypeAliasType for better reexport of `__module__` | 4 |
@@ -880,10 +882,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/lighteval | [FT] Improve Documentation and Examples | 6 |
 
 | pandas-dev/pandas | BUG: Conversion from datetime64[ns] to datetime does not effect .info() and probably not the DataFrame itself | 6 |
-
-| pandas-dev/pandas | Groupby Agg not working if different partials with same name on the same column | 6 |
-
-| pandas-dev/pandas | .add gives incorrect result with MI Dataframe with mix of object and datetimes on index. | 6 |
 
 | django/djangoproject.com | Add link to 'Stable' doc version in the Warning Alert on top | 6 |
 
@@ -965,7 +963,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pandas-dev/pandas | startingMonth ignored on non-unitary Quarter periods | 9 |
 
+| pandas-dev/pandas | .add gives incorrect result with MI Dataframe with mix of object and datetimes on index. | 9 |
+
 | pandas-dev/pandas | Non-inclusive partial string indexing on DatetimeIndex | 9 |
+
+| pandas-dev/pandas | Possible bug when parsing from string to datetime when slicing | 9 |
 
 | django/djangoproject.com | Remove non-canonical docs versions from sitemap.xml | 9 |
 
@@ -1005,19 +1007,17 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | pytorch/ao | [MPS] torchao low-bit-precision optim does not expose 'backend' argument to torch.compile | 11 |
 
-| pytorch/ignite | SilhouetteScore crashes when number of clusters < 2 | 11 |
-
 | pytorch/pytorch | foreach_map enhancements | 11 |
 
 | pytorch/pytorch | Docs are little bit outdated for torch logs | 11 |
 
 | pytorch/pytorch | bmm, topk, cholesky, linalg.norm, max with out variants set causing recompilations in torch.compile | 11 |
 
-| pandas-dev/pandas | BUG: concat with datetime64 columns of differing resolutions results in object dtype | 12 |
-
 | pandas-dev/pandas | BUG: Assigning extension array value to series of dtype object fails if element type is array-like | 12 |
 
 | pandas-dev/pandas | DOC:  min_itemsize for HDFStore append for encoded strings | 12 |
+
+| pandas-dev/pandas | BUG: need to block split when filling na | 12 |
 
 | django/djangoproject.com | Make right sidebar independent from main content | 12 |
 
@@ -1030,6 +1030,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | DOC: Reindexing behaviour of dataframe column-assignment missing | 13 |
 
 | django/djangoproject.com | New content: Accessibility statement | 13 |
+
+| pytorch/ignite | SilhouetteScore crashes when number of clusters < 2 | 13 |
 
 | pytorch/pytorch | torch.compile regression 2.9.1: Triton kernel name '_Runner__kernel_name_0' is not defined | 13 |
 
