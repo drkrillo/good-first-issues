@@ -20,14 +20,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 ## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: {{today}}</sub></sub>
 
-{% for result in results %}
-
-### {{result.language}}
-
-| Repo | Title | Comments |
-| --- | --- | --- |
-{% for issue in result.issues %}
-| {{ issue.repo|replace('|', '\|') }} | {{ issue.title|replace('|', '\|') }} | {{ issue.comments }} |
-{% endfor %}
-
-{% endfor %}
+| Repo | Language | Title | Comments |
+| --- | --- | --- | --- |
+{% for result in results -%}
+| {{result.repo}} | {{result.language}} | [{{result.title}}]({{result.url}}) | {{result.comments}} |
