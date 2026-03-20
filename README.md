@@ -622,8 +622,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | huggingface/lerobot | Python | [How can I change the task name of already recorded episodes?](https://github.com/huggingface/lerobot/issues/2096) | 3 |
   
-| huggingface/lerobot | Python | [Ensure the robots module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1721) | 3 |
-  
 | huggingface/lighteval | Python | [[FT] showing count in Markdown summary table](https://github.com/huggingface/lighteval/issues/804) | 3 |
   
 | huggingface/lighteval | Python | [[FT]  Add tests for nanotron](https://github.com/huggingface/lighteval/issues/765) | 3 |
@@ -808,6 +806,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | huggingface/lighteval | Python | [[FT] Improve Documentation and Examples](https://github.com/huggingface/lighteval/issues/682) | 6 |
   
+| pandas-dev/pandas | Python | [DOC: splitting the IO docs into separate pages](https://github.com/pandas-dev/pandas/issues/10446) | 6 |
+  
 | django/djangoproject.com | Python | [Add link to 'Stable' doc version in the Warning Alert on top](https://github.com/django/djangoproject.com/issues/2094) | 6 |
   
 | django/djangoproject.com | Python | [Add link to new minutes repo](https://github.com/django/djangoproject.com/issues/2079) | 6 |
@@ -833,8 +833,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/lerobot | Python | [Select the VLM backbone for SmolVLA](https://github.com/huggingface/lerobot/issues/2104) | 7 |
   
 | huggingface/lighteval | Python | [[EVAL] Long Horizon Execution](https://github.com/huggingface/lighteval/issues/1056) | 7 |
-  
-| pandas-dev/pandas | Python | [BUG: enlarging a DataFrame by adding an extra column with a tz-aware datetime results in object dtype](https://github.com/pandas-dev/pandas/issues/55423) | 7 |
   
 | django/djangoproject.com | Python | [Improve Documentation by having list of topics fixed on the left and table of contents on the right ](https://github.com/django/djangoproject.com/issues/1129) | 7 |
   
@@ -950,8 +948,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/pytorch | Python | [Logging when executing fx.Interpreter](https://github.com/pytorch/pytorch/issues/117351) | 12 |
   
-| pandas-dev/pandas | Python | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 13 |
-  
 | django/djangoproject.com | Python | [New content: Accessibility statement](https://github.com/django/djangoproject.com/issues/1430) | 13 |
   
 | pytorch/pytorch | Python | [torch.compile regression 2.9.1: Triton kernel name '_Runner__kernel_name_0' is not defined](https://github.com/pytorch/pytorch/issues/170398) | 13 |
@@ -963,6 +959,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/diffusers | Python | [[Pipeline] AnimateDiff + SparseControl + ControlNet](https://github.com/huggingface/diffusers/issues/9329) | 14 |
   
 | huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 14 |
+  
+| pandas-dev/pandas | Python | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 14 |
   
 | pandas-dev/pandas | Python | [[Feature Request] Add `replace` method to `Index` objects](https://github.com/pandas-dev/pandas/issues/19495) | 14 |
   
@@ -1009,8 +1007,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 24 |
   
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 26 |
-  
-| huggingface/transformers | Python | [Export LayoutLMv2 to onnx ](https://github.com/huggingface/transformers/issues/14368) | 26 |
   
 | pandas-dev/pandas | Python | [WEB: Multiple "Getting Started" on pandas.io leads to different links](https://github.com/pandas-dev/pandas/issues/32307) | 26 |
   
