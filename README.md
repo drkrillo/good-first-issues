@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-20</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-21</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -41,8 +41,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | C++ | [ConvBench should use the layers of ResNet](https://github.com/pytorch/glow/issues/1887) | 0 |
   
 | pytorch/glow | C++ | [ConvBench should use libjit_convolution_D8KKC8](https://github.com/pytorch/glow/issues/1886) | 0 |
-  
-| pytorch/xla | C++ | [[torch_xla] scan_layers fails if the layer have no weights](https://github.com/pytorch/xla/issues/8748) | 0 |
   
 | pytorch/xla | C++ | [Op info test for `bmm .. ceil`](https://github.com/pytorch/xla/issues/7546) | 0 |
   
@@ -69,6 +67,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | C++ | [xs.make_mesh](https://github.com/pytorch/xla/issues/8838) | 1 |
   
 | pytorch/xla | C++ | [torch_xla scan forces inputs to be differentiable](https://github.com/pytorch/xla/issues/8783) | 1 |
+  
+| pytorch/xla | C++ | [[torch_xla] scan_layers fails if the layer have no weights](https://github.com/pytorch/xla/issues/8748) | 1 |
   
 | pytorch/xla | C++ | [[hard] Op info test for `special.airy_ai`](https://github.com/pytorch/xla/issues/7926) | 1 |
   
@@ -142,7 +142,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | godotengine/godot | C++ | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 32 |
   
-| godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 240 |
+| godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 242 |
   
 
   
@@ -714,8 +714,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pandas-dev/pandas | Python | [DOC: document optional arguments on plot submethods](https://github.com/pandas-dev/pandas/issues/11042) | 4 |
   
-| django/djangoproject.com | Python | [Github login doesn't work for community pages](https://github.com/django/djangoproject.com/issues/835) | 4 |
-  
 | django/djangoproject.com | Python | [Documentation table of contents is hard to reach on mobile devices](https://github.com/django/djangoproject.com/issues/494) | 4 |
   
 | ansible/ansible-documentation | Python | [Link to devel in the various roadmaps](https://github.com/ansible/ansible-documentation/issues/1865) | 4 |
@@ -768,11 +766,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | huggingface/sentence-transformers | Python | [Update example scripts relying on `model.fit` to use `SentenceTransformerTrainer` instead](https://github.com/huggingface/sentence-transformers/issues/3621) | 5 |
   
-| pandas-dev/pandas | Python | [BUG: Timedelta resolution is different depending on how the argument is passed](https://github.com/pandas-dev/pandas/issues/33992) | 5 |
-  
 | pandas-dev/pandas | Python | [append a categorical with different categories to the existing](https://github.com/pandas-dev/pandas/issues/12509) | 5 |
   
 | django/djangoproject.com | Python | [Redirect from /about to /foundation](https://github.com/django/djangoproject.com/issues/2428) | 5 |
+  
+| django/djangoproject.com | Python | [Github login doesn't work for community pages](https://github.com/django/djangoproject.com/issues/835) | 5 |
   
 | django/djangoproject.com | Python | [fundraising: 'customer.subscription.deleted' webhook event always gets 404 response](https://github.com/django/djangoproject.com/issues/764) | 5 |
   
@@ -858,8 +856,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pandas-dev/pandas | Python | [ENH: Change ExtensionOpsMixin behaviour to not add new operator method if one is already defined on the ExtensionArray class](https://github.com/pandas-dev/pandas/issues/50767) | 8 |
   
-| pandas-dev/pandas | Python | [BUG: Multiindex Categorical type lost after div operation](https://github.com/pandas-dev/pandas/issues/42785) | 8 |
-  
 | pandas-dev/pandas | Python | [DataFrame.update silently does nothing when indices are of differing type](https://github.com/pandas-dev/pandas/issues/19905) | 8 |
   
 | django/djangoproject.com | Python | [Improvements to the Corporate Sponsor Experience](https://github.com/django/djangoproject.com/issues/1171) | 8 |
@@ -884,11 +880,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pandas-dev/pandas | Python | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 9 |
   
-| pandas-dev/pandas | Python | [.add gives incorrect result with MI Dataframe with mix of object and datetimes on index.](https://github.com/pandas-dev/pandas/issues/26558) | 9 |
-  
 | pandas-dev/pandas | Python | [Non-inclusive partial string indexing on DatetimeIndex](https://github.com/pandas-dev/pandas/issues/16571) | 9 |
-  
-| pandas-dev/pandas | Python | [Possible bug when parsing from string to datetime when slicing](https://github.com/pandas-dev/pandas/issues/13929) | 9 |
   
 | django/djangoproject.com | Python | [Remove non-canonical docs versions from sitemap.xml](https://github.com/django/djangoproject.com/issues/878) | 9 |
   
@@ -934,11 +926,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/pytorch | Python | [bmm, topk, cholesky, linalg.norm, max with out variants set causing recompilations in torch.compile](https://github.com/pytorch/pytorch/issues/135859) | 11 |
   
-| pandas-dev/pandas | Python | [BUG: Assigning extension array value to series of dtype object fails if element type is array-like](https://github.com/pandas-dev/pandas/issues/42437) | 12 |
-  
 | pandas-dev/pandas | Python | [DOC:  min_itemsize for HDFStore append for encoded strings](https://github.com/pandas-dev/pandas/issues/14601) | 12 |
-  
-| pandas-dev/pandas | Python | [BUG: need to block split when filling na](https://github.com/pandas-dev/pandas/issues/14407) | 12 |
   
 | django/djangoproject.com | Python | [Make right sidebar independent from main content](https://github.com/django/djangoproject.com/issues/1366) | 12 |
   
@@ -978,6 +966,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pandas-dev/pandas | Python | [DOC: improve docs for broadcasting behavior](https://github.com/pandas-dev/pandas/issues/18857) | 17 |
   
+| pandas-dev/pandas | Python | [With an external grouper, there is no way to access the grouped value in a DataFrame(...).groupby(...).apply(...) workflow](https://github.com/pandas-dev/pandas/issues/9545) | 17 |
+  
 | django/djangoproject.com | Python | [Localize the fundraising app](https://github.com/django/djangoproject.com/issues/377) | 17 |
   
 | pytorch/ao | Python | [Replace flash_4 with FlexAttention](https://github.com/pytorch/ao/issues/639) | 17 |
@@ -996,13 +986,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/pytorch | Python | [Obscure error: Expected a value of type 'List[int]' for argument 'sizes' but instead found type 'immutable_list'](https://github.com/pytorch/pytorch/issues/122129) | 18 |
   
-| pandas-dev/pandas | Python | [Updating value of a single row of a column using loc or at fails](https://github.com/pandas-dev/pandas/issues/22040) | 20 |
-  
 | pandas-dev/pandas | Python | [Raise ValueError for read_json and orient='table' With Numeric Column Names](https://github.com/pandas-dev/pandas/issues/19129) | 20 |
   
 | huggingface/diffusers | Python | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 22 |
   
 | pandas-dev/pandas | Python | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 22 |
+  
+| pandas-dev/pandas | Python | [DOC: freeze old whatsnew notes?](https://github.com/pandas-dev/pandas/issues/6856) | 22 |
   
 | pandas-dev/pandas | Python | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 24 |
   
