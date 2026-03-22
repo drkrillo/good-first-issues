@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-21</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-22</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -514,8 +514,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/PiPPy | Python | [Support LayoutLM models in HF tests](https://github.com/pytorch/PiPPy/issues/247) | 1 |
   
-| pytorch/pytorch | Python | [`scaled_dot_product_attention` docs describe incorrect `attn_mask` shape](https://github.com/pytorch/pytorch/issues/177482) | 1 |
-  
 | pytorch/pytorch | Python | [[BE] Deduplicate auto_functionalized and triton_kernel_wrapper_functional](https://github.com/pytorch/pytorch/issues/133443) | 1 |
   
 | pytorch/text | Python | [torchtext main branch doesn't support pytorch2.0](https://github.com/pytorch/text/issues/2052) | 1 |
@@ -539,8 +537,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/nanotron | Python | [[Feature] Asyncronous Serialization](https://github.com/huggingface/nanotron/issues/87) | 2 |
   
 | huggingface/nanotron | Python | [[Feature Request] Support Data Streaming for faster training of large models](https://github.com/huggingface/nanotron/issues/45) | 2 |
-  
-| pandas-dev/pandas-stubs | Python | [`pandas.tseries.frequencies.to_offset` should accept arguments of type `datetime.timedelta`](https://github.com/pandas-dev/pandas-stubs/issues/1705) | 2 |
   
 | ansible/ansible-navigator | Python | [Switch to the use of `pathlib` where possible](https://github.com/ansible/ansible-navigator/issues/697) | 2 |
   
@@ -696,6 +692,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/executorch | Python | [Optimized linear op doesn't support bias](https://github.com/pytorch/executorch/issues/8234) | 3 |
   
+| pytorch/pytorch | Python | [`scaled_dot_product_attention` docs describe incorrect `attn_mask` shape](https://github.com/pytorch/pytorch/issues/177482) | 3 |
+  
 | pytorch/pytorch | Python | [[auto functionalize][partitioner] ones_like is not getting recomputed](https://github.com/pytorch/pytorch/issues/170160) | 3 |
   
 | pytorch/torchchat | Python | [Improve Tokenizer New Type Onboarding](https://github.com/pytorch/torchchat/issues/1536) | 3 |
@@ -737,8 +735,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [Add Siamese Network example](https://github.com/pytorch/examples/issues/645) | 4 |
   
 | pytorch/executorch | Python | [Re-inplace slice_copy with slice](https://github.com/pytorch/executorch/issues/10917) | 4 |
-  
-| pytorch/ignite | Python | [DaviesBouldinScore raises ValueError when number of clusters < 2](https://github.com/pytorch/ignite/issues/3642) | 4 |
   
 | pytorch/pytorch | Python | [[ONNX][Dynamo] TypeError: torchvision_roi_align() takes from 3 to 6 positional arguments but 7 were given in torch 2.12 nightly](https://github.com/pytorch/pytorch/issues/175732) | 4 |
   
@@ -793,6 +789,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/audio | Python | [read mp3 file fail](https://github.com/pytorch/audio/issues/2867) | 5 |
   
 | pytorch/executorch | Python | [Python apis for loading and saving .ptd from dictionaries](https://github.com/pytorch/executorch/issues/8542) | 5 |
+  
+| pytorch/ignite | Python | [DaviesBouldinScore raises ValueError when number of clusters < 2](https://github.com/pytorch/ignite/issues/3642) | 5 |
   
 | pytorch/pytorch | Python | [Report WHY a symbol was created dynamically in symbolic_shapes logs](https://github.com/pytorch/pytorch/issues/137527) | 5 |
   
@@ -900,8 +898,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | huggingface/datasets | Python | [WMT21 & WMT22](https://github.com/huggingface/datasets/issues/4709) | 10 |
   
-| huggingface/diffusers | Python | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 10 |
-  
 | huggingface/lighteval | Python | [[EVAL] Add TUMLU benchmark](https://github.com/huggingface/lighteval/issues/577) | 10 |
   
 | pandas-dev/pandas | Python | [ERR: ``numeric_only`` in reduction operations should disallow passing non-bools](https://github.com/pandas-dev/pandas/issues/53098) | 10 |
@@ -911,6 +907,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | Python | [Check tensor's dim order ambiguity in IR verifier](https://github.com/pytorch/executorch/issues/9942) | 10 |
   
 | pytorch/pytorch | Python | [Expand Tag Set: views & reductions](https://github.com/pytorch/pytorch/issues/129020) | 10 |
+  
+| huggingface/diffusers | Python | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 11 |
   
 | pandas-dev/pandas | Python | [BUG: Strange behavior when accessing datetime.date index with np.datetime64](https://github.com/pandas-dev/pandas/issues/55969) | 11 |
   
