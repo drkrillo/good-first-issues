@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-23</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-24</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -254,8 +254,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | tensorflow/swift-models | Jupyter Notebook | [Add logging callbacks for training statistics ](https://github.com/tensorflow/swift-models/issues/663) | 1 |
   
-| huggingface/optimum-intel | Jupyter Notebook | [Add tests which check, that required transformations are applied](https://github.com/huggingface/optimum-intel/issues/1645) | 2 |
-  
 | huggingface/optimum-intel | Jupyter Notebook | [Fix conversion of ltx_video models in bf16 format](https://github.com/huggingface/optimum-intel/issues/1614) | 2 |
   
 | tensorflow/probability | Jupyter Notebook | [Support for SeparableConv1DFlipout](https://github.com/tensorflow/probability/issues/745) | 2 |
@@ -293,6 +291,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/probability | Jupyter Notebook | [improve text and visuals in Bayesian Gaussian mixture model tutorial](https://github.com/tensorflow/probability/issues/74) | 3 |
   
 | tensorflow/swift | Jupyter Notebook | [Installation verification tool](https://github.com/tensorflow/swift/issues/479) | 3 |
+  
+| huggingface/optimum-intel | Jupyter Notebook | [Add tests which check, that required transformations are applied](https://github.com/huggingface/optimum-intel/issues/1645) | 4 |
   
 | tensorflow/probability | Jupyter Notebook | [A question about target_log_prob_fn](https://github.com/tensorflow/probability/issues/611) | 4 |
   
@@ -924,8 +924,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/pytorch | Python | [bmm, topk, cholesky, linalg.norm, max with out variants set causing recompilations in torch.compile](https://github.com/pytorch/pytorch/issues/135859) | 11 |
   
-| pandas-dev/pandas | Python | [DOC:  min_itemsize for HDFStore append for encoded strings](https://github.com/pandas-dev/pandas/issues/14601) | 12 |
-  
 | django/djangoproject.com | Python | [Make right sidebar independent from main content](https://github.com/django/djangoproject.com/issues/1366) | 12 |
   
 | pytorch/ao | Python | [Update documents addressing AQT workflow](https://github.com/pytorch/ao/issues/3637) | 12 |
@@ -1063,8 +1061,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/sam2-studio | Swift | [Video support estimated release date?](https://github.com/huggingface/sam2-studio/issues/25) | 26 |
   
 
-  
-| huggingface/huggingface.js | TypeScript | [local apps: add pi](https://github.com/huggingface/huggingface.js/issues/1951) | 0 |
   
 | ansible/vscode-ansible | TypeScript | [Add option to prefix all shell commands the plugin executes](https://github.com/ansible/vscode-ansible/issues/429) | 0 |
   
