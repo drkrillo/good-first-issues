@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-24</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-25</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -604,6 +604,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/PiPPy | Python | [Make RemoteInterpreter use the full implementation of `Interpreter.run`](https://github.com/pytorch/PiPPy/issues/25) | 2 |
   
+| pytorch/pytorch | Python | [[PT2] [Hardening] Track recompiles alongside graph breaks in our actual/expected comparison CI runs](https://github.com/pytorch/pytorch/issues/113040) | 2 |
+  
 | pytorch/rl | Python | [[Feature Request] Make sure that all losses work with tensorclasses and regular tensors](https://github.com/pytorch/rl/issues/1062) | 2 |
   
 | pytorch/rl | Python | [[Feature Request] TensorSpec is_in methods should check the dtype of val](https://github.com/pytorch/rl/issues/793) | 2 |
@@ -694,8 +696,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/executorch | Python | [Optimized linear op doesn't support bias](https://github.com/pytorch/executorch/issues/8234) | 3 |
   
-| pytorch/pytorch | Python | [`scaled_dot_product_attention` docs describe incorrect `attn_mask` shape](https://github.com/pytorch/pytorch/issues/177482) | 3 |
-  
 | pytorch/pytorch | Python | [[auto functionalize][partitioner] ones_like is not getting recomputed](https://github.com/pytorch/pytorch/issues/170160) | 3 |
   
 | pytorch/torchchat | Python | [Improve Tokenizer New Type Onboarding](https://github.com/pytorch/torchchat/issues/1536) | 3 |
@@ -738,13 +738,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/executorch | Python | [Re-inplace slice_copy with slice](https://github.com/pytorch/executorch/issues/10917) | 4 |
   
-| pytorch/pytorch | Python | [[ONNX][Dynamo] TypeError: torchvision_roi_align() takes from 3 to 6 positional arguments but 7 were given in torch 2.12 nightly](https://github.com/pytorch/pytorch/issues/175732) | 4 |
-  
 | pytorch/pytorch | Python | [Use typing_extensions.TypeAliasType for better reexport of `__module__`](https://github.com/pytorch/pytorch/issues/171905) | 4 |
   
 | pytorch/pytorch | Python | [[inductor] nan_asserts doesn't work for FP8, "RuntimeError: "isinf" not implemented for 'Float8_e4m3fn'"](https://github.com/pytorch/pytorch/issues/149002) | 4 |
-  
-| pytorch/pytorch | Python | [Remove tensor variable default method fallthrough](https://github.com/pytorch/pytorch/issues/140591) | 4 |
   
 | pytorch/pytorch | Python | [[export] Schematize nn_module_stack serialization](https://github.com/pytorch/pytorch/issues/131941) | 4 |
   
@@ -792,11 +788,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/executorch | Python | [Python apis for loading and saving .ptd from dictionaries](https://github.com/pytorch/executorch/issues/8542) | 5 |
   
-| pytorch/ignite | Python | [DaviesBouldinScore raises ValueError when number of clusters < 2](https://github.com/pytorch/ignite/issues/3642) | 5 |
-  
 | pytorch/pytorch | Python | [Report WHY a symbol was created dynamically in symbolic_shapes logs](https://github.com/pytorch/pytorch/issues/137527) | 5 |
   
 | pytorch/pytorch | Python | [torch.fx.Tracer.record_stack_traces is broken in torch 2.4.0](https://github.com/pytorch/pytorch/issues/130861) | 5 |
+  
+| pytorch/pytorch | Python | [refactor TracingContext to take a more limited subset of ViewAndMutationMeta](https://github.com/pytorch/pytorch/issues/114403) | 5 |
   
 | pytorch/rl | Python | [[Feature Request] Missing ActionScaling and FlattenAction ](https://github.com/pytorch/rl/issues/1209) | 5 |
   
@@ -827,6 +823,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible](https://github.com/pytorch/pytorch/issues/119191) | 6 |
   
 | pytorch/pytorch | Python | [[dynamo] Missing support for many trivial builtin functions in operator](https://github.com/pytorch/pytorch/issues/116396) | 6 |
+  
+| pytorch/pytorch | Python | [Enable ruff rule PLW1510 codebase wide](https://github.com/pytorch/pytorch/issues/115016) | 6 |
   
 | huggingface/lerobot | Python | [Select the VLM backbone for SmolVLA](https://github.com/huggingface/lerobot/issues/2104) | 7 |
   
@@ -865,6 +863,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/ansible-documentation | Python | [Link "see also" sections as recommended in the forum](https://github.com/ansible/ansible-documentation/issues/1200) | 8 |
   
 | ansible/awx | Python | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 8 |
+  
+| pytorch/ignite | Python | [DaviesBouldinScore raises ValueError when number of clusters < 2](https://github.com/pytorch/ignite/issues/3642) | 8 |
   
 | pytorch/pytorch | Python | [[Inductor] Inference failed with the compiled model with aminmax operator](https://github.com/pytorch/pytorch/issues/148808) | 8 |
   
@@ -953,8 +953,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [DOC: floating point precision on writing/reading to csv](https://github.com/pandas-dev/pandas/issues/13159) | 14 |
   
 | django/djangoproject.com | Python | [Improve 404 page](https://github.com/django/djangoproject.com/issues/1347) | 14 |
-  
-| pytorch/ignite | Python | [SilhouetteScore crashes when number of clusters < 2](https://github.com/pytorch/ignite/issues/3641) | 14 |
   
 | pytorch/pytorch | Python | [Make tlparse able to show a summary of distinct graph breaks](https://github.com/pytorch/pytorch/issues/153669) | 14 |
   
@@ -1101,6 +1099,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/mlir | None | [[LLVM] Implement missing LLVM IR instructions](https://github.com/tensorflow/mlir/issues/276) | 11 |
   
 
+  
+| godotengine/godot-docs | reStructuredText | [Object.get_meta & has_meta doc mentions is_valid_identifier but deprecated (prefer is_valid_ascii_identifier)](https://github.com/godotengine/godot-docs/issues/11870) | 0 |
   
 | godotengine/godot-docs | reStructuredText | [Add C# examples for custom BBCode](https://github.com/godotengine/godot-docs/issues/9334) | 0 |
   
