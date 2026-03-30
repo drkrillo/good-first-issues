@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-29</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-30</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -112,8 +112,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/xla | C++ | [Op info test for `kthvalue`](https://github.com/pytorch/xla/issues/7458) | 3 |
   
-| godotengine/godot | C++ | [Polygon2D's bug. disappear or don't render.](https://github.com/godotengine/godot/issues/117960) | 3 |
-  
 | pytorch/glow | C++ | [[GraphOptz] Sink Quantize below Reshape](https://github.com/pytorch/glow/issues/4629) | 4 |
   
 | pytorch/xla | C++ | [Op info test for `pinverse .. put`](https://github.com/pytorch/xla/issues/7529) | 4 |
@@ -129,6 +127,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | C++ | [Use gtest-parallel](https://github.com/pytorch/glow/issues/2412) | 5 |
   
 | pytorch/glow | C++ | [Glow should provide its own implementation of a random number generator to ensure deterministic testing and avoid platform-dependent differences](https://github.com/pytorch/glow/issues/1556) | 6 |
+  
+| godotengine/godot | C++ | [Polygon2D's bug. disappear or don't render.](https://github.com/godotengine/godot/issues/117960) | 6 |
   
 | pytorch/glow | C++ | [Make the execution of the Glow compiler more deterministic between multiple runs](https://github.com/pytorch/glow/issues/1948) | 9 |
   
@@ -217,8 +217,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
   
 | ansible/galaxy_collection | Jinja | [Replace order of roles](https://github.com/ansible/galaxy_collection/issues/396) | 0 |
-  
-| ansible/galaxy_collection | Jinja | [infra.ah_configuration.publish leaves clone dirs behind](https://github.com/ansible/galaxy_collection/issues/377) | 0 |
   
 | ansible/awx-operator | Jinja | [Add multi-arch build target](https://github.com/ansible/awx-operator/issues/1680) | 1 |
   
@@ -402,6 +400,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/executorch | Python | [Add Android model E2E test](https://github.com/pytorch/executorch/issues/9550) | 0 |
   
+| pytorch/helion | Python | [Emit a warning at end of autotuning for accuracy check failures](https://github.com/pytorch/helion/issues/1832) | 0 |
+  
 | pytorch/PiPPy | Python | [Support Segformer models in HF tests](https://github.com/pytorch/PiPPy/issues/592) | 0 |
   
 | pytorch/PiPPy | Python | [Support ConvNext models in HF tests](https://github.com/pytorch/PiPPy/issues/486) | 0 |
@@ -429,8 +429,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/PiPPy | Python | [Support CLIP models in HF tests](https://github.com/pytorch/PiPPy/issues/248) | 0 |
   
 | pytorch/PiPPy | Python | [Support SWIN models in HF tests](https://github.com/pytorch/PiPPy/issues/243) | 0 |
-  
-| pytorch/pytorch | Python | [[CUDA] Wrong `owidth_for_shape_check` in `AveragePool3d.cu`](https://github.com/pytorch/pytorch/issues/178719) | 0 |
   
 | pytorch/rl | Python | [[DO NOT CLOSE] Call for contributions](https://github.com/pytorch/rl/issues/509) | 0 |
   
@@ -698,6 +696,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/executorch | Python | [Optimized linear op doesn't support bias](https://github.com/pytorch/executorch/issues/8234) | 3 |
   
+| pytorch/pytorch | Python | [[CUDA] Wrong `owidth_for_shape_check` in `AveragePool3d.cu`](https://github.com/pytorch/pytorch/issues/178719) | 3 |
+  
 | pytorch/pytorch | Python | [[auto functionalize][partitioner] ones_like is not getting recomputed](https://github.com/pytorch/pytorch/issues/170160) | 3 |
   
 | pytorch/torchchat | Python | [Improve Tokenizer New Type Onboarding](https://github.com/pytorch/torchchat/issues/1536) | 3 |
@@ -942,8 +942,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | huggingface/diffusers | Python | [[Pipeline] AnimateDiff + SparseControl + ControlNet](https://github.com/huggingface/diffusers/issues/9329) | 14 |
   
-| huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 14 |
-  
 | pandas-dev/pandas | Python | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 14 |
   
 | pandas-dev/pandas | Python | [[Feature Request] Add `replace` method to `Index` objects](https://github.com/pandas-dev/pandas/issues/19495) | 14 |
@@ -957,6 +955,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [Make tlparse able to show a summary of distinct graph breaks](https://github.com/pytorch/pytorch/issues/153669) | 14 |
   
 | pandas-dev/pandas-stubs | Python | [`pd.concat` with `GeoDataFrame`s](https://github.com/pandas-dev/pandas-stubs/issues/1396) | 15 |
+  
+| huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 16 |
   
 | pandas-dev/pandas | Python | [DOC: improve docs for broadcasting behavior](https://github.com/pandas-dev/pandas/issues/18857) | 17 |
   
@@ -996,7 +996,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pandas-dev/pandas | Python | [CLN: Use dedup_names in all instances where duplicate column names are renamed](https://github.com/pandas-dev/pandas/issues/50371) | 30 |
   
-| pytorch/ignite | Python | [🥇 Everyone is welcome to contribute 💯 ](https://github.com/pytorch/ignite/issues/2026) | 39 |
+| pytorch/ignite | Python | [🥇 Everyone is welcome to contribute 💯 ](https://github.com/pytorch/ignite/issues/2026) | 40 |
   
 | huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 44 |
   
