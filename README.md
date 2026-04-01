@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-03-30</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-01</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -128,7 +128,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/glow | C++ | [Glow should provide its own implementation of a random number generator to ensure deterministic testing and avoid platform-dependent differences](https://github.com/pytorch/glow/issues/1556) | 6 |
   
-| godotengine/godot | C++ | [Polygon2D's bug. disappear or don't render.](https://github.com/godotengine/godot/issues/117960) | 6 |
+| godotengine/godot | C++ | [Polygon2D's bug. disappear or don't render.](https://github.com/godotengine/godot/issues/117960) | 8 |
   
 | pytorch/glow | C++ | [Make the execution of the Glow compiler more deterministic between multiple runs](https://github.com/pytorch/glow/issues/1948) | 9 |
   
@@ -518,6 +518,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/PiPPy | Python | [Support LayoutLM models in HF tests](https://github.com/pytorch/PiPPy/issues/247) | 1 |
   
+| pytorch/pytorch | Python | [[Inductor] Remove fp8 special handling in `triton_utils.py` because Triton supports PyTorch fp8 dtypes](https://github.com/pytorch/pytorch/issues/178938) | 1 |
+  
 | pytorch/text | Python | [torchtext main branch doesn't support pytorch2.0](https://github.com/pytorch/text/issues/2052) | 1 |
   
 | pytorch/torcharrow | Python | [Default aggregation functions delegates to Arrow Compute ](https://github.com/pytorch/torcharrow/issues/53) | 1 |
@@ -694,8 +696,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/executorch | Python | [ExecuTorch Scalar to() supports fewer types than c10::Scalar, breaking source compatibility](https://github.com/pytorch/executorch/issues/9500) | 3 |
   
-| pytorch/executorch | Python | [Optimized linear op doesn't support bias](https://github.com/pytorch/executorch/issues/8234) | 3 |
-  
 | pytorch/pytorch | Python | [[CUDA] Wrong `owidth_for_shape_check` in `AveragePool3d.cu`](https://github.com/pytorch/pytorch/issues/178719) | 3 |
   
 | pytorch/pytorch | Python | [[auto functionalize][partitioner] ones_like is not getting recomputed](https://github.com/pytorch/pytorch/issues/170160) | 3 |
@@ -739,6 +739,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [Add Siamese Network example](https://github.com/pytorch/examples/issues/645) | 4 |
   
 | pytorch/executorch | Python | [Re-inplace slice_copy with slice](https://github.com/pytorch/executorch/issues/10917) | 4 |
+  
+| pytorch/executorch | Python | [Optimized linear op doesn't support bias](https://github.com/pytorch/executorch/issues/8234) | 4 |
   
 | pytorch/pytorch | Python | [Use typing_extensions.TypeAliasType for better reexport of `__module__`](https://github.com/pytorch/pytorch/issues/171905) | 4 |
   
@@ -790,11 +792,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/executorch | Python | [Python apis for loading and saving .ptd from dictionaries](https://github.com/pytorch/executorch/issues/8542) | 5 |
   
+| pytorch/ignite | Python | [Modernize `super()` calls](https://github.com/pytorch/ignite/issues/3547) | 5 |
+  
 | pytorch/pytorch | Python | [Report WHY a symbol was created dynamically in symbolic_shapes logs](https://github.com/pytorch/pytorch/issues/137527) | 5 |
   
 | pytorch/pytorch | Python | [torch.fx.Tracer.record_stack_traces is broken in torch 2.4.0](https://github.com/pytorch/pytorch/issues/130861) | 5 |
-  
-| pytorch/pytorch | Python | [refactor TracingContext to take a more limited subset of ViewAndMutationMeta](https://github.com/pytorch/pytorch/issues/114403) | 5 |
   
 | pytorch/rl | Python | [[Feature Request] Missing ActionScaling and FlattenAction ](https://github.com/pytorch/rl/issues/1209) | 5 |
   
@@ -854,8 +856,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | huggingface/lighteval | Python | [[EVAL] Adding PHARE](https://github.com/huggingface/lighteval/issues/696) | 8 |
   
-| pandas-dev/pandas | Python | [ENH: Change ExtensionOpsMixin behaviour to not add new operator method if one is already defined on the ExtensionArray class](https://github.com/pandas-dev/pandas/issues/50767) | 8 |
-  
 | pandas-dev/pandas | Python | [DataFrame.update silently does nothing when indices are of differing type](https://github.com/pandas-dev/pandas/issues/19905) | 8 |
   
 | django/djangoproject.com | Python | [Improvements to the Corporate Sponsor Experience](https://github.com/django/djangoproject.com/issues/1171) | 8 |
@@ -875,6 +875,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/diffusers | Python | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 9 |
   
 | pandas-dev/pandas | Python | [BUG: DataFrame.rank does not return EA types when original type was an EADtype](https://github.com/pandas-dev/pandas/issues/52829) | 9 |
+  
+| pandas-dev/pandas | Python | [ENH: Change ExtensionOpsMixin behaviour to not add new operator method if one is already defined on the ExtensionArray class](https://github.com/pandas-dev/pandas/issues/50767) | 9 |
   
 | pandas-dev/pandas | Python | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
   
@@ -938,8 +940,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/pytorch | Python | [[Feature request] `torch.export` .save/.load could support `safetensors` and/or `weights_only=True`](https://github.com/pytorch/pytorch/issues/153410) | 13 |
   
-| huggingface/datasets | Python | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 14 |
-  
 | huggingface/diffusers | Python | [[Pipeline] AnimateDiff + SparseControl + ControlNet](https://github.com/huggingface/diffusers/issues/9329) | 14 |
   
 | pandas-dev/pandas | Python | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 14 |
@@ -954,9 +954,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/pytorch | Python | [Make tlparse able to show a summary of distinct graph breaks](https://github.com/pytorch/pytorch/issues/153669) | 14 |
   
-| pandas-dev/pandas-stubs | Python | [`pd.concat` with `GeoDataFrame`s](https://github.com/pandas-dev/pandas-stubs/issues/1396) | 15 |
+| huggingface/datasets | Python | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 15 |
   
-| huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 16 |
+| pandas-dev/pandas-stubs | Python | [`pd.concat` with `GeoDataFrame`s](https://github.com/pandas-dev/pandas-stubs/issues/1396) | 15 |
   
 | pandas-dev/pandas | Python | [DOC: improve docs for broadcasting behavior](https://github.com/pandas-dev/pandas/issues/18857) | 17 |
   
@@ -969,6 +969,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [Supporting custom attributes with `__torch_function__` tensor subclasses](https://github.com/pytorch/pytorch/issues/117806) | 17 |
   
 | huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 18 |
+  
+| huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 18 |
   
 | huggingface/lerobot | Python | [Make policies compatible with torch.compile](https://github.com/huggingface/lerobot/issues/2061) | 18 |
   
@@ -993,8 +995,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 26 |
   
 | pandas-dev/pandas | Python | [WEB: Multiple "Getting Started" on pandas.io leads to different links](https://github.com/pandas-dev/pandas/issues/32307) | 26 |
-  
-| pandas-dev/pandas | Python | [CLN: Use dedup_names in all instances where duplicate column names are renamed](https://github.com/pandas-dev/pandas/issues/50371) | 30 |
   
 | pytorch/ignite | Python | [🥇 Everyone is welcome to contribute 💯 ](https://github.com/pytorch/ignite/issues/2026) | 40 |
   
