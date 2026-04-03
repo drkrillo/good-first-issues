@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-02</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-03</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -85,6 +85,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | C++ | [Op info test for `index_reduce`](https://github.com/pytorch/xla/issues/7453) | 1 |
   
 | pytorch/xla | C++ | [[hard] Op info test for `histogramdd`](https://github.com/pytorch/xla/issues/7445) | 1 |
+  
+| godotengine/godot | C++ | [`texture-blit` shader fails to compile when using constants like `PI` and `E`](https://github.com/godotengine/godot/issues/118144) | 1 |
   
 | pytorch/glow | C++ | [New files added under glow/test/models/ don't get copied to build folder until clean build is performed.](https://github.com/pytorch/glow/issues/4647) | 2 |
   
@@ -486,8 +488,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | tensorflow/agents | Python | [Tutorial 1: Train a Deep Q Network with TF-Agents and the use of a driver](https://github.com/tensorflow/agents/issues/554) | 1 |
   
-| pytorch/ao | Python | [Refactor torchao and tests to use model architectures from torchao.testing.model_architectures](https://github.com/pytorch/ao/issues/2078) | 1 |
-  
 | pytorch/ao | Python | [Add weight tensor-wise scaling for INT8 quantized and mixed-precision training](https://github.com/pytorch/ao/issues/1010) | 1 |
   
 | pytorch/ao | Python | [MoE example ](https://github.com/pytorch/ao/issues/729) | 1 |
@@ -562,6 +562,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/ao | Python | [Resolve doc build warnings](https://github.com/pytorch/ao/issues/3863) | 2 |
   
+| pytorch/ao | Python | [Refactor torchao and tests to use model architectures from torchao.testing.model_architectures](https://github.com/pytorch/ao/issues/2078) | 2 |
+  
 | pytorch/ao | Python | [Unittests Migration Progress](https://github.com/pytorch/ao/issues/1621) | 2 |
   
 | pytorch/ao | Python | [[MX | Triton] Create MX matmul op using new `scaled_dot` op in Triton](https://github.com/pytorch/ao/issues/1084) | 2 |
@@ -603,8 +605,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | Python | [[Request impl] Gracefully error out in ETDump](https://github.com/pytorch/executorch/issues/9971) | 2 |
   
 | pytorch/PiPPy | Python | [Make RemoteInterpreter use the full implementation of `Interpreter.run`](https://github.com/pytorch/PiPPy/issues/25) | 2 |
-  
-| pytorch/pytorch | Python | [[Inductor] Remove fp8 special handling in `triton_utils.py` because Triton supports PyTorch fp8 dtypes](https://github.com/pytorch/pytorch/issues/178938) | 2 |
   
 | pytorch/pytorch | Python | [[BE] Deduplicate auto_functionalized and triton_kernel_wrapper_functional](https://github.com/pytorch/pytorch/issues/133443) | 2 |
   
@@ -695,6 +695,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | Python | [Consolidate executor_runners](https://github.com/pytorch/executorch/issues/10819) | 3 |
   
 | pytorch/executorch | Python | [ExecuTorch Scalar to() supports fewer types than c10::Scalar, breaking source compatibility](https://github.com/pytorch/executorch/issues/9500) | 3 |
+  
+| pytorch/pytorch | Python | [[Inductor] Remove fp8 special handling in `triton_utils.py` because Triton supports PyTorch fp8 dtypes](https://github.com/pytorch/pytorch/issues/178938) | 3 |
   
 | pytorch/pytorch | Python | [[auto functionalize][partitioner] ones_like is not getting recomputed](https://github.com/pytorch/pytorch/issues/170160) | 3 |
   
@@ -790,8 +792,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/executorch | Python | [Python apis for loading and saving .ptd from dictionaries](https://github.com/pytorch/executorch/issues/8542) | 5 |
   
-| pytorch/ignite | Python | [Modernize `super()` calls](https://github.com/pytorch/ignite/issues/3547) | 5 |
-  
 | pytorch/pytorch | Python | [Report WHY a symbol was created dynamically in symbolic_shapes logs](https://github.com/pytorch/pytorch/issues/137527) | 5 |
   
 | pytorch/pytorch | Python | [torch.fx.Tracer.record_stack_traces is broken in torch 2.4.0](https://github.com/pytorch/pytorch/issues/130861) | 5 |
@@ -823,6 +823,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ao | Python | [Accelerate activation sparsity with activation compression](https://github.com/pytorch/ao/issues/1920) | 6 |
   
 | pytorch/executorch | Python | [Manual kernel registration to include library names in API](https://github.com/pytorch/executorch/issues/11221) | 6 |
+  
+| pytorch/ignite | Python | [Modernize `super()` calls](https://github.com/pytorch/ignite/issues/3547) | 6 |
   
 | pytorch/pytorch | Python | [AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible](https://github.com/pytorch/pytorch/issues/119191) | 6 |
   
@@ -874,15 +876,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | huggingface/diffusers | Python | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 9 |
   
-| pandas-dev/pandas | Python | [BUG: DataFrame.rank does not return EA types when original type was an EADtype](https://github.com/pandas-dev/pandas/issues/52829) | 9 |
-  
 | pandas-dev/pandas | Python | [ENH: Change ExtensionOpsMixin behaviour to not add new operator method if one is already defined on the ExtensionArray class](https://github.com/pandas-dev/pandas/issues/50767) | 9 |
   
 | pandas-dev/pandas | Python | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
   
 | pandas-dev/pandas | Python | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 9 |
-  
-| pandas-dev/pandas | Python | [Non-inclusive partial string indexing on DatetimeIndex](https://github.com/pandas-dev/pandas/issues/16571) | 9 |
   
 | django/djangoproject.com | Python | [Remove non-canonical docs versions from sitemap.xml](https://github.com/django/djangoproject.com/issues/878) | 9 |
   
@@ -906,7 +904,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pandas-dev/pandas | Python | [ERR: ``numeric_only`` in reduction operations should disallow passing non-bools](https://github.com/pandas-dev/pandas/issues/53098) | 10 |
   
+| pandas-dev/pandas | Python | [BUG: DataFrame.rank does not return EA types when original type was an EADtype](https://github.com/pandas-dev/pandas/issues/52829) | 10 |
+  
 | pandas-dev/pandas | Python | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 10 |
+  
+| pandas-dev/pandas | Python | [Non-inclusive partial string indexing on DatetimeIndex](https://github.com/pandas-dev/pandas/issues/16571) | 10 |
   
 | pytorch/executorch | Python | [Check tensor's dim order ambiguity in IR verifier](https://github.com/pytorch/executorch/issues/9942) | 10 |
   
