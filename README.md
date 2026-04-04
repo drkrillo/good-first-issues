@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-03</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-04</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -103,6 +103,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | C++ | [Op info test for `linalg.matrix_power`](https://github.com/pytorch/xla/issues/7495) | 2 |
   
 | pytorch/xla | C++ | [Op info test for `linalg.ldl_solve`](https://github.com/pytorch/xla/issues/7488) | 2 |
+  
+| godotengine/godot | C++ | [Editor sliders ignores its range while dragging](https://github.com/godotengine/godot/issues/118194) | 2 |
   
 | tensorflow/minigo | C++ | [Support more GTP commands](https://github.com/tensorflow/minigo/issues/46) | 3 |
   
@@ -604,6 +606,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/executorch | Python | [[Request impl] Gracefully error out in ETDump](https://github.com/pytorch/executorch/issues/9971) | 2 |
   
+| pytorch/ignite | Python | [[Bug] HitRate metric raises IndexError instead of ValueError when top_k is empty](https://github.com/pytorch/ignite/issues/3718) | 2 |
+  
 | pytorch/PiPPy | Python | [Make RemoteInterpreter use the full implementation of `Interpreter.run`](https://github.com/pytorch/PiPPy/issues/25) | 2 |
   
 | pytorch/pytorch | Python | [[BE] Deduplicate auto_functionalized and triton_kernel_wrapper_functional](https://github.com/pytorch/pytorch/issues/133443) | 2 |
@@ -840,8 +844,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | tensorflow/similarity | Python | [Implement SwAV for self-supervised learning](https://github.com/tensorflow/similarity/issues/208) | 7 |
   
-| pytorch/audio | Python | [Use non-persistent buffers](https://github.com/pytorch/audio/issues/3059) | 7 |
-  
 | pytorch/examples | Python | [Why don't we use MSE as a reconstruction loss for VAE ?](https://github.com/pytorch/examples/issues/399) | 7 |
   
 | pytorch/executorch | Python | [Rename `executorch` cmake target to `prim_ops_lib`](https://github.com/pytorch/executorch/issues/11761) | 7 |
@@ -885,6 +887,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | django/djangoproject.com | Python | [Remove non-canonical docs versions from sitemap.xml](https://github.com/django/djangoproject.com/issues/878) | 9 |
   
 | tensorflow/similarity | Python | [Lifted Structured loss](https://github.com/tensorflow/similarity/issues/102) | 9 |
+  
+| pytorch/audio | Python | [Use non-persistent buffers](https://github.com/pytorch/audio/issues/3059) | 9 |
   
 | pytorch/executorch | Python | [Refactor binary op partitioner configs under binary op config class](https://github.com/pytorch/executorch/issues/9024) | 9 |
   
