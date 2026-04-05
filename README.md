@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-04</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-05</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -892,8 +892,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/executorch | Python | [Refactor binary op partitioner configs under binary op config class](https://github.com/pytorch/executorch/issues/9024) | 9 |
   
-| pytorch/pytorch | Python | [aten.grid_sampler_3d.default is missing a c-shim implementation, using proxy executor as fallback](https://github.com/pytorch/pytorch/issues/147625) | 9 |
-  
 | pytorch/pytorch | Python | [dynamo (re)compilation issues: shape (1,1), nn.Parameter, mark_dynamic](https://github.com/pytorch/pytorch/issues/135011) | 9 |
   
 | pytorch/pytorch | Python | [Using an empty tensor and `torch.int64` or `torch.bool` for `dtype` of `nanmean()` works while a non-empty tensor doesn't work](https://github.com/pytorch/pytorch/issues/131043) | 9 |
@@ -915,6 +913,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pandas-dev/pandas | Python | [Non-inclusive partial string indexing on DatetimeIndex](https://github.com/pandas-dev/pandas/issues/16571) | 10 |
   
 | pytorch/executorch | Python | [Check tensor's dim order ambiguity in IR verifier](https://github.com/pytorch/executorch/issues/9942) | 10 |
+  
+| pytorch/pytorch | Python | [aten.grid_sampler_3d.default is missing a c-shim implementation, using proxy executor as fallback](https://github.com/pytorch/pytorch/issues/147625) | 10 |
   
 | pytorch/pytorch | Python | [Expand Tag Set: views & reductions](https://github.com/pytorch/pytorch/issues/129020) | 10 |
   
@@ -948,19 +948,17 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | huggingface/diffusers | Python | [[Pipeline] AnimateDiff + SparseControl + ControlNet](https://github.com/huggingface/diffusers/issues/9329) | 14 |
   
-| pandas-dev/pandas | Python | [DOC: Reindexing behaviour of dataframe column-assignment missing](https://github.com/pandas-dev/pandas/issues/39845) | 14 |
-  
 | pandas-dev/pandas | Python | [[Feature Request] Add `replace` method to `Index` objects](https://github.com/pandas-dev/pandas/issues/19495) | 14 |
   
 | pandas-dev/pandas | Python | [DOC: section on caveats of storing lists inside DataFrame/Series](https://github.com/pandas-dev/pandas/issues/17027) | 14 |
-  
-| pandas-dev/pandas | Python | [DOC: floating point precision on writing/reading to csv](https://github.com/pandas-dev/pandas/issues/13159) | 14 |
   
 | django/djangoproject.com | Python | [Improve 404 page](https://github.com/django/djangoproject.com/issues/1347) | 14 |
   
 | pytorch/pytorch | Python | [Make tlparse able to show a summary of distinct graph breaks](https://github.com/pytorch/pytorch/issues/153669) | 14 |
   
 | huggingface/datasets | Python | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 15 |
+  
+| pandas-dev/pandas | Python | [DOC: floating point precision on writing/reading to csv](https://github.com/pandas-dev/pandas/issues/13159) | 15 |
   
 | pandas-dev/pandas-stubs | Python | [`pd.concat` with `GeoDataFrame`s](https://github.com/pandas-dev/pandas-stubs/issues/1396) | 15 |
   
