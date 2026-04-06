@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-05</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-06</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -86,7 +86,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/xla | C++ | [[hard] Op info test for `histogramdd`](https://github.com/pytorch/xla/issues/7445) | 1 |
   
-| godotengine/godot | C++ | [`texture-blit` shader fails to compile when using constants like `PI` and `E`](https://github.com/godotengine/godot/issues/118144) | 1 |
+| godotengine/godot | C++ | [`Basis.get_euler()` takes argument mistyped as `int`, but should be `EulerOrder` enum](https://github.com/godotengine/godot/issues/118184) | 1 |
   
 | pytorch/glow | C++ | [New files added under glow/test/models/ don't get copied to build folder until clean build is performed.](https://github.com/pytorch/glow/issues/4647) | 2 |
   
@@ -444,8 +444,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/torcharrow | Python | [Move `torcharrow/test` to `test`](https://github.com/pytorch/torcharrow/issues/24) | 0 |
   
-| godotengine/godot-contributing-docs | Python | [Link to configuring IDEs in Contributing docs](https://github.com/godotengine/godot-contributing-docs/issues/65) | 0 |
-  
 | godotengine/godot-contributing-docs | Python | [Incorrect example about tooltips in Editor style guide](https://github.com/godotengine/godot-contributing-docs/issues/56) | 0 |
   
 | huggingface/accelerate | Python | [Deadlock when running multi tasks](https://github.com/huggingface/accelerate/issues/3814) | 1 |
@@ -700,8 +698,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/executorch | Python | [ExecuTorch Scalar to() supports fewer types than c10::Scalar, breaking source compatibility](https://github.com/pytorch/executorch/issues/9500) | 3 |
   
-| pytorch/pytorch | Python | [[Inductor] Remove fp8 special handling in `triton_utils.py` because Triton supports PyTorch fp8 dtypes](https://github.com/pytorch/pytorch/issues/178938) | 3 |
-  
 | pytorch/pytorch | Python | [[auto functionalize][partitioner] ones_like is not getting recomputed](https://github.com/pytorch/pytorch/issues/170160) | 3 |
   
 | pytorch/torchchat | Python | [Improve Tokenizer New Type Onboarding](https://github.com/pytorch/torchchat/issues/1536) | 3 |
@@ -854,6 +850,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/executorch | Python | [Fail to allocate temp memory by exporting torch.topk](https://github.com/pytorch/executorch/issues/8700) | 7 |
   
+| pytorch/pytorch | Python | [Enable more flake8-pyi ruff checks](https://github.com/pytorch/pytorch/issues/110950) | 7 |
+  
 | huggingface/diffusers | Python | [Make `FlaxLMSDiscreteScheduler` jittable](https://github.com/huggingface/diffusers/issues/2180) | 8 |
   
 | huggingface/lerobot | Python | [Select the VLM backbone for SmolVLA](https://github.com/huggingface/lerobot/issues/2104) | 8 |
@@ -908,8 +906,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pandas-dev/pandas | Python | [BUG: DataFrame.rank does not return EA types when original type was an EADtype](https://github.com/pandas-dev/pandas/issues/52829) | 10 |
   
-| pandas-dev/pandas | Python | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 10 |
-  
 | pandas-dev/pandas | Python | [Non-inclusive partial string indexing on DatetimeIndex](https://github.com/pandas-dev/pandas/issues/16571) | 10 |
   
 | pytorch/executorch | Python | [Check tensor's dim order ambiguity in IR verifier](https://github.com/pytorch/executorch/issues/9942) | 10 |
@@ -919,6 +915,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [Expand Tag Set: views & reductions](https://github.com/pytorch/pytorch/issues/129020) | 10 |
   
 | huggingface/diffusers | Python | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 11 |
+  
+| pandas-dev/pandas | Python | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 11 |
   
 | tensorflow/quantum | Python | [[Performance] Boost tfq.convert_to_tensor speed](https://github.com/tensorflow/quantum/issues/336) | 11 |
   
