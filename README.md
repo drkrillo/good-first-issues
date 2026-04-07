@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-06</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-07</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -86,8 +86,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/xla | C++ | [[hard] Op info test for `histogramdd`](https://github.com/pytorch/xla/issues/7445) | 1 |
   
-| godotengine/godot | C++ | [`Basis.get_euler()` takes argument mistyped as `int`, but should be `EulerOrder` enum](https://github.com/godotengine/godot/issues/118184) | 1 |
-  
 | pytorch/glow | C++ | [New files added under glow/test/models/ don't get copied to build folder until clean build is performed.](https://github.com/pytorch/glow/issues/4647) | 2 |
   
 | pytorch/glow | C++ | [Make all useful data structures in Glow easy to dump in a textual form](https://github.com/pytorch/glow/issues/2831) | 2 |
@@ -115,6 +113,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | C++ | [Op info test for `nn.functional.leaky_relu .. nn.functional.max_pool1d`](https://github.com/pytorch/xla/issues/7523) | 3 |
   
 | pytorch/xla | C++ | [Op info test for `kthvalue`](https://github.com/pytorch/xla/issues/7458) | 3 |
+  
+| godotengine/godot | C++ | [`Basis.get_euler()` takes argument mistyped as `int`, but should be `EulerOrder` enum](https://github.com/godotengine/godot/issues/118184) | 3 |
   
 | pytorch/glow | C++ | [[GraphOptz] Sink Quantize below Reshape](https://github.com/pytorch/glow/issues/4629) | 4 |
   
@@ -532,8 +532,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | huggingface/lerobot | Python | [Finetune smolvla with vision encoder](https://github.com/huggingface/lerobot/issues/1774) | 2 |
   
-| huggingface/lerobot | Python | [Ensure the utilities module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1727) | 2 |
-  
 | huggingface/lighteval | Python | [Call for contributions: Translate lighteval's doc into Chinese](https://github.com/huggingface/lighteval/issues/716) | 2 |
   
 | huggingface/nanotron | Python | [[Feature] Asyncronous Serialization](https://github.com/huggingface/nanotron/issues/87) | 2 |
@@ -625,6 +623,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/accelerate | Python | [[Community Contributions] examples on distributed inference using 🤗 Accelerate](https://github.com/huggingface/accelerate/issues/3078) | 3 |
   
 | huggingface/dataset-viewer | Python | [Use `CONSTANT_LIST.copy` in list config fieds](https://github.com/huggingface/dataset-viewer/issues/1522) | 3 |
+  
+| huggingface/lerobot | Python | [Ensure the utilities module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1727) | 3 |
   
 | huggingface/lighteval | Python | [[FT] showing count in Markdown summary table](https://github.com/huggingface/lighteval/issues/804) | 3 |
   
@@ -955,10 +955,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [Make tlparse able to show a summary of distinct graph breaks](https://github.com/pytorch/pytorch/issues/153669) | 14 |
   
 | huggingface/datasets | Python | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 15 |
-  
-| pandas-dev/pandas | Python | [DOC: floating point precision on writing/reading to csv](https://github.com/pandas-dev/pandas/issues/13159) | 15 |
-  
-| pandas-dev/pandas-stubs | Python | [`pd.concat` with `GeoDataFrame`s](https://github.com/pandas-dev/pandas-stubs/issues/1396) | 15 |
   
 | pandas-dev/pandas | Python | [DOC: improve docs for broadcasting behavior](https://github.com/pandas-dev/pandas/issues/18857) | 17 |
   
