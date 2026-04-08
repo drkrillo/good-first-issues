@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-07</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-08</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -113,8 +113,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/xla | C++ | [Op info test for `nn.functional.leaky_relu .. nn.functional.max_pool1d`](https://github.com/pytorch/xla/issues/7523) | 3 |
   
 | pytorch/xla | C++ | [Op info test for `kthvalue`](https://github.com/pytorch/xla/issues/7458) | 3 |
-  
-| godotengine/godot | C++ | [`Basis.get_euler()` takes argument mistyped as `int`, but should be `EulerOrder` enum](https://github.com/godotengine/godot/issues/118184) | 3 |
   
 | pytorch/glow | C++ | [[GraphOptz] Sink Quantize below Reshape](https://github.com/pytorch/glow/issues/4629) | 4 |
   
@@ -602,8 +600,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/executorch | Python | [[Request impl] Gracefully error out in ETDump](https://github.com/pytorch/executorch/issues/9971) | 2 |
   
-| pytorch/ignite | Python | [[Bug] HitRate metric raises IndexError instead of ValueError when top_k is empty](https://github.com/pytorch/ignite/issues/3718) | 2 |
-  
 | pytorch/PiPPy | Python | [Make RemoteInterpreter use the full implementation of `Interpreter.run`](https://github.com/pytorch/PiPPy/issues/25) | 2 |
   
 | pytorch/pytorch | Python | [[BE] Deduplicate auto_functionalized and triton_kernel_wrapper_functional](https://github.com/pytorch/pytorch/issues/133443) | 2 |
@@ -623,8 +619,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/accelerate | Python | [[Community Contributions] examples on distributed inference using 🤗 Accelerate](https://github.com/huggingface/accelerate/issues/3078) | 3 |
   
 | huggingface/dataset-viewer | Python | [Use `CONSTANT_LIST.copy` in list config fieds](https://github.com/huggingface/dataset-viewer/issues/1522) | 3 |
-  
-| huggingface/lerobot | Python | [Ensure the utilities module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1727) | 3 |
   
 | huggingface/lighteval | Python | [[FT] showing count in Markdown summary table](https://github.com/huggingface/lighteval/issues/804) | 3 |
   
@@ -714,9 +708,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | huggingface/lerobot | Python | [How can I change the task name of already recorded episodes?](https://github.com/huggingface/lerobot/issues/2096) | 4 |
   
-| huggingface/lighteval | Python | [[EVAL]: Add more African Benchmarks](https://github.com/huggingface/lighteval/issues/373) | 4 |
+| huggingface/lerobot | Python | [Ensure the utilities module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1727) | 4 |
   
-| pandas-dev/pandas | Python | [DOC: document optional arguments on plot submethods](https://github.com/pandas-dev/pandas/issues/11042) | 4 |
+| huggingface/lighteval | Python | [[EVAL]: Add more African Benchmarks](https://github.com/huggingface/lighteval/issues/373) | 4 |
   
 | django/djangoproject.com | Python | [Documentation table of contents is hard to reach on mobile devices](https://github.com/django/djangoproject.com/issues/494) | 4 |
   
@@ -764,8 +758,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | huggingface/sentence-transformers | Python | [Update example scripts relying on `model.fit` to use `SentenceTransformerTrainer` instead](https://github.com/huggingface/sentence-transformers/issues/3621) | 5 |
   
-| pandas-dev/pandas | Python | [append a categorical with different categories to the existing](https://github.com/pandas-dev/pandas/issues/12509) | 5 |
-  
 | django/djangoproject.com | Python | [Redirect from /about to /foundation](https://github.com/django/djangoproject.com/issues/2428) | 5 |
   
 | django/djangoproject.com | Python | [Github login doesn't work for community pages](https://github.com/django/djangoproject.com/issues/835) | 5 |
@@ -804,8 +796,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | huggingface/lighteval | Python | [[FT] Improve Documentation and Examples](https://github.com/huggingface/lighteval/issues/682) | 6 |
   
-| pandas-dev/pandas | Python | [DOC: splitting the IO docs into separate pages](https://github.com/pandas-dev/pandas/issues/10446) | 6 |
-  
 | django/djangoproject.com | Python | [Add link to 'Stable' doc version in the Warning Alert on top](https://github.com/django/djangoproject.com/issues/2094) | 6 |
   
 | django/djangoproject.com | Python | [Add link to new minutes repo](https://github.com/django/djangoproject.com/issues/2079) | 6 |
@@ -823,8 +813,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ao | Python | [Accelerate activation sparsity with activation compression](https://github.com/pytorch/ao/issues/1920) | 6 |
   
 | pytorch/executorch | Python | [Manual kernel registration to include library names in API](https://github.com/pytorch/executorch/issues/11221) | 6 |
-  
-| pytorch/ignite | Python | [Modernize `super()` calls](https://github.com/pytorch/ignite/issues/3547) | 6 |
   
 | pytorch/pytorch | Python | [AOTAutograd: functionalization should emit foreach_copy_() instead of copy_() when possible](https://github.com/pytorch/pytorch/issues/119191) | 6 |
   
@@ -858,8 +846,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | huggingface/lighteval | Python | [[EVAL] Adding PHARE](https://github.com/huggingface/lighteval/issues/696) | 8 |
   
-| pandas-dev/pandas | Python | [DataFrame.update silently does nothing when indices are of differing type](https://github.com/pandas-dev/pandas/issues/19905) | 8 |
-  
 | django/djangoproject.com | Python | [Improvements to the Corporate Sponsor Experience](https://github.com/django/djangoproject.com/issues/1171) | 8 |
   
 | django/djangoproject.com | Python | [Use noindex meta tag or header, not robots.txt, to block untranslated docs pages](https://github.com/django/djangoproject.com/issues/877) | 8 |
@@ -875,12 +861,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [Improve error message for wrong number of arguments in CachingAutotuner](https://github.com/pytorch/pytorch/issues/146018) | 8 |
   
 | huggingface/diffusers | Python | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 9 |
-  
-| pandas-dev/pandas | Python | [ENH: Change ExtensionOpsMixin behaviour to not add new operator method if one is already defined on the ExtensionArray class](https://github.com/pandas-dev/pandas/issues/50767) | 9 |
-  
-| pandas-dev/pandas | Python | [Information for new contributors](https://github.com/pandas-dev/pandas/issues/49275) | 9 |
-  
-| pandas-dev/pandas | Python | [startingMonth ignored on non-unitary Quarter periods](https://github.com/pandas-dev/pandas/issues/29576) | 9 |
   
 | django/djangoproject.com | Python | [Remove non-canonical docs versions from sitemap.xml](https://github.com/django/djangoproject.com/issues/878) | 9 |
   
@@ -902,12 +882,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | huggingface/lighteval | Python | [[EVAL] Add TUMLU benchmark](https://github.com/huggingface/lighteval/issues/577) | 10 |
   
-| pandas-dev/pandas | Python | [ERR: ``numeric_only`` in reduction operations should disallow passing non-bools](https://github.com/pandas-dev/pandas/issues/53098) | 10 |
-  
-| pandas-dev/pandas | Python | [BUG: DataFrame.rank does not return EA types when original type was an EADtype](https://github.com/pandas-dev/pandas/issues/52829) | 10 |
-  
-| pandas-dev/pandas | Python | [Non-inclusive partial string indexing on DatetimeIndex](https://github.com/pandas-dev/pandas/issues/16571) | 10 |
-  
 | pytorch/executorch | Python | [Check tensor's dim order ambiguity in IR verifier](https://github.com/pytorch/executorch/issues/9942) | 10 |
   
 | pytorch/pytorch | Python | [aten.grid_sampler_3d.default is missing a c-shim implementation, using proxy executor as fallback](https://github.com/pytorch/pytorch/issues/147625) | 10 |
@@ -915,8 +889,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [Expand Tag Set: views & reductions](https://github.com/pytorch/pytorch/issues/129020) | 10 |
   
 | huggingface/diffusers | Python | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 11 |
-  
-| pandas-dev/pandas | Python | [DOC: `.str.cat` output in case of `Index` object](https://github.com/pandas-dev/pandas/issues/35556) | 11 |
   
 | tensorflow/quantum | Python | [[Performance] Boost tfq.convert_to_tensor speed](https://github.com/tensorflow/quantum/issues/336) | 11 |
   
@@ -946,19 +918,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | huggingface/diffusers | Python | [[Pipeline] AnimateDiff + SparseControl + ControlNet](https://github.com/huggingface/diffusers/issues/9329) | 14 |
   
-| pandas-dev/pandas | Python | [[Feature Request] Add `replace` method to `Index` objects](https://github.com/pandas-dev/pandas/issues/19495) | 14 |
-  
-| pandas-dev/pandas | Python | [DOC: section on caveats of storing lists inside DataFrame/Series](https://github.com/pandas-dev/pandas/issues/17027) | 14 |
-  
 | django/djangoproject.com | Python | [Improve 404 page](https://github.com/django/djangoproject.com/issues/1347) | 14 |
   
 | pytorch/pytorch | Python | [Make tlparse able to show a summary of distinct graph breaks](https://github.com/pytorch/pytorch/issues/153669) | 14 |
   
 | huggingface/datasets | Python | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 15 |
-  
-| pandas-dev/pandas | Python | [DOC: improve docs for broadcasting behavior](https://github.com/pandas-dev/pandas/issues/18857) | 17 |
-  
-| pandas-dev/pandas | Python | [With an external grouper, there is no way to access the grouped value in a DataFrame(...).groupby(...).apply(...) workflow](https://github.com/pandas-dev/pandas/issues/9545) | 17 |
   
 | django/djangoproject.com | Python | [Localize the fundraising app](https://github.com/django/djangoproject.com/issues/377) | 17 |
   
@@ -980,19 +944,9 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/pytorch | Python | [Obscure error: Expected a value of type 'List[int]' for argument 'sizes' but instead found type 'immutable_list'](https://github.com/pytorch/pytorch/issues/122129) | 18 |
   
-| pandas-dev/pandas | Python | [Raise ValueError for read_json and orient='table' With Numeric Column Names](https://github.com/pandas-dev/pandas/issues/19129) | 20 |
-  
 | huggingface/diffusers | Python | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 22 |
   
-| pandas-dev/pandas | Python | [BUG: read_sql no longer works simply with SqlAlchemy selectables and a quick fix](https://github.com/pandas-dev/pandas/issues/35484) | 22 |
-  
-| pandas-dev/pandas | Python | [DOC: freeze old whatsnew notes?](https://github.com/pandas-dev/pandas/issues/6856) | 22 |
-  
-| pandas-dev/pandas | Python | [DOC: Single Document For Code Guidelines](https://github.com/pandas-dev/pandas/issues/33851) | 24 |
-  
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 26 |
-  
-| pandas-dev/pandas | Python | [WEB: Multiple "Getting Started" on pandas.io leads to different links](https://github.com/pandas-dev/pandas/issues/32307) | 26 |
   
 | pytorch/ignite | Python | [🥇 Everyone is welcome to contribute 💯 ](https://github.com/pytorch/ignite/issues/2026) | 40 |
   
