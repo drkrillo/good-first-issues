@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-08</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-09</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -402,8 +402,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/executorch | Python | [Add Android model E2E test](https://github.com/pytorch/executorch/issues/9550) | 0 |
   
-| pytorch/helion | Python | [Emit a warning at end of autotuning for accuracy check failures](https://github.com/pytorch/helion/issues/1832) | 0 |
-  
 | pytorch/PiPPy | Python | [Support Segformer models in HF tests](https://github.com/pytorch/PiPPy/issues/592) | 0 |
   
 | pytorch/PiPPy | Python | [Support ConvNext models in HF tests](https://github.com/pytorch/PiPPy/issues/486) | 0 |
@@ -513,6 +511,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | Python | [Format CMakeLists.txt](https://github.com/pytorch/executorch/issues/10736) | 1 |
   
 | pytorch/executorch | Python | [[Android] Use generic JNI instead of fbjni](https://github.com/pytorch/executorch/issues/10444) | 1 |
+  
+| pytorch/helion | Python | [Emit a warning at end of autotuning for accuracy check failures](https://github.com/pytorch/helion/issues/1832) | 1 |
   
 | pytorch/PiPPy | Python | [Support LayoutLM models in HF tests](https://github.com/pytorch/PiPPy/issues/247) | 1 |
   
