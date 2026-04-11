@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-10</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-11</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -754,8 +754,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | huggingface/sentence-transformers | Python | [Update example scripts relying on `model.fit` to use `SentenceTransformerTrainer` instead](https://github.com/huggingface/sentence-transformers/issues/3621) | 5 |
   
-| django/djangoproject.com | Python | [Redirect from /about to /foundation](https://github.com/django/djangoproject.com/issues/2428) | 5 |
-  
 | django/djangoproject.com | Python | [Github login doesn't work for community pages](https://github.com/django/djangoproject.com/issues/835) | 5 |
   
 | django/djangoproject.com | Python | [fundraising: 'customer.subscription.deleted' webhook event always gets 404 response](https://github.com/django/djangoproject.com/issues/764) | 5 |
@@ -817,6 +815,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [Enable ruff rule PLW1510 codebase wide](https://github.com/pytorch/pytorch/issues/115016) | 6 |
   
 | huggingface/lighteval | Python | [[EVAL] Long Horizon Execution](https://github.com/huggingface/lighteval/issues/1056) | 7 |
+  
+| django/djangoproject.com | Python | [Redirect from /about to /foundation](https://github.com/django/djangoproject.com/issues/2428) | 7 |
   
 | django/djangoproject.com | Python | [Improve Documentation by having list of topics fixed on the left and table of contents on the right ](https://github.com/django/djangoproject.com/issues/1129) | 7 |
   
