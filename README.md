@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-12</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-13</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -736,6 +736,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/pytorch | Python | [[export] Schematize nn_module_stack serialization](https://github.com/pytorch/pytorch/issues/131941) | 4 |
   
+| pytorch/pytorch | Python | [switch more test cases to use MultithreadTestCase](https://github.com/pytorch/pytorch/issues/108744) | 4 |
+  
 | huggingface/accelerate | Python | [Barebones dataloader to allow for any type of iterable dataloader-like object to be used. Should just handle device placement](https://github.com/huggingface/accelerate/issues/2975) | 5 |
   
 | huggingface/lighteval | Python | [[BUG] custom model docs don't run: missing imports](https://github.com/huggingface/lighteval/issues/760) | 5 |
@@ -849,8 +851,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/ansible-documentation | Python | [Link "see also" sections as recommended in the forum](https://github.com/ansible/ansible-documentation/issues/1200) | 8 |
   
 | ansible/awx | Python | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 8 |
-  
-| pytorch/pytorch | Python | [[Inductor] Inference failed with the compiled model with aminmax operator](https://github.com/pytorch/pytorch/issues/148808) | 8 |
   
 | pytorch/pytorch | Python | [[BUG][PyTorch 2.0 Export][quant]:get_source_partitions() may return different matches with same input graph](https://github.com/pytorch/pytorch/issues/147170) | 8 |
   
