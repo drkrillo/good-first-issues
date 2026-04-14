@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-13</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-14</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -176,7 +176,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 
   
-| django/birthday20 | HTML | [Add social media links on event pages](https://github.com/django/birthday20/issues/101) | 2 |
+| django/birthday20 | HTML | [Add social media links on event pages](https://github.com/django/birthday20/issues/101) | 3 |
   
 | django/birthday20 | HTML | [Vendor third-party assets (leaflet)](https://github.com/django/birthday20/issues/70) | 10 |
   
@@ -503,8 +503,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | Python | [Add dynamism tests for xnnpack model tests](https://github.com/pytorch/executorch/issues/11585) | 1 |
   
 | pytorch/executorch | Python | [Implement load_into for the shared_ptr data loader](https://github.com/pytorch/executorch/issues/11562) | 1 |
-  
-| pytorch/executorch | Python | [Test exported models in Python](https://github.com/pytorch/executorch/issues/11225) | 1 |
   
 | pytorch/executorch | Python | [Format CMakeLists.txt](https://github.com/pytorch/executorch/issues/10736) | 1 |
   
@@ -835,6 +833,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | Python | [[Request Impl] Apply Segment Serialization in Bundled Program](https://github.com/pytorch/executorch/issues/9771) | 7 |
   
 | pytorch/executorch | Python | [Fail to allocate temp memory by exporting torch.topk](https://github.com/pytorch/executorch/issues/8700) | 7 |
+  
+| pytorch/executorch | Python | [insert_write_back_for_buffers_pass should inject copy_ nodes at the earliest possible spot.](https://github.com/pytorch/executorch/issues/7345) | 7 |
   
 | pytorch/pytorch | Python | [Enable more flake8-pyi ruff checks](https://github.com/pytorch/pytorch/issues/110950) | 7 |
   
