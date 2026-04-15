@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-14</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-15</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -732,6 +732,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/executorch | Python | [Optimized linear op doesn't support bias](https://github.com/pytorch/executorch/issues/8234) | 4 |
   
+| pytorch/ignite | Python | [Updating getting started to add code for the setup_tb_logger](https://github.com/pytorch/ignite/issues/3735) | 4 |
+  
 | pytorch/pytorch | Python | [[export] Schematize nn_module_stack serialization](https://github.com/pytorch/pytorch/issues/131941) | 4 |
   
 | pytorch/pytorch | Python | [switch more test cases to use MultithreadTestCase](https://github.com/pytorch/pytorch/issues/108744) | 4 |
@@ -1008,6 +1010,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 
   
+| ansible/ansible-ui | TypeScript | [EDA-Server logo is not loading correctly on the login page when eda-server is installed via eda-server-operator](https://github.com/ansible/ansible-ui/issues/3087) | 0 |
+  
 | ansible/vscode-ansible | TypeScript | [Add option to prefix all shell commands the plugin executes](https://github.com/ansible/vscode-ansible/issues/429) | 0 |
   
 | tensorflow/tfjs-tsne | TypeScript | [Implement tensorToDataTexture in the GPU](https://github.com/tensorflow/tfjs-tsne/issues/10) | 0 |
@@ -1017,6 +1021,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/probot | TypeScript | [deprecation of `number` for octokit](https://github.com/pytorch/probot/issues/62) | 1 |
   
 | huggingface/huggingface.js | TypeScript | [Maximize button not working properly on Hosted inference API block](https://github.com/huggingface/huggingface.js/issues/335) | 2 |
+  
+| ansible/ansible-ui | TypeScript | [Logo not loading correctly when building UI together with backend in a single image](https://github.com/ansible/ansible-ui/issues/3086) | 2 |
   
 | huggingface/chat-ui | TypeScript | [Add option for users to customize search engines in settings page](https://github.com/huggingface/chat-ui/issues/1756) | 3 |
   
