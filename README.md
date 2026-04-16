@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-15</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-16</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -382,6 +382,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | tensorflow/moonlight | Python | [Export the key signature to MusicXML](https://github.com/tensorflow/moonlight/issues/1) | 0 |
   
+| pytorch/ao | Python | [Broken image links in docs](https://github.com/pytorch/ao/issues/4285) | 0 |
+  
 | pytorch/ao | Python | [TorchAO ROCM tests are taking a long time](https://github.com/pytorch/ao/issues/2367) | 0 |
   
 | pytorch/examples | Python | [imagenet benchmark measure elapsed time function issue](https://github.com/pytorch/examples/issues/741) | 0 |
@@ -396,9 +398,23 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/examples | Python | [Example code (mnist) does not work under torch.utils.bottleneck](https://github.com/pytorch/examples/issues/391) | 0 |
   
-| pytorch/executorch | Python | [[CMake] Potentially duplicated srcs in llama_runner build](https://github.com/pytorch/executorch/issues/10686) | 0 |
+| pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.bitwise_or`](https://github.com/pytorch/executorch/issues/18926) | 0 |
   
-| pytorch/executorch | Python | [Add Android model E2E test](https://github.com/pytorch/executorch/issues/9550) | 0 |
+| pytorch/executorch | Python | [Good First Issue: Add Full Integer Support for `aten.bitwise_and`](https://github.com/pytorch/executorch/issues/18925) | 0 |
+  
+| pytorch/executorch | Python | [Good First Issue: Add Full Integer Support for `aten.bitwise_not`](https://github.com/pytorch/executorch/issues/18924) | 0 |
+  
+| pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.trunc`](https://github.com/pytorch/executorch/issues/18923) | 0 |
+  
+| pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.hardtanh`](https://github.com/pytorch/executorch/issues/18921) | 0 |
+  
+| pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.isnan`](https://github.com/pytorch/executorch/issues/18920) | 0 |
+  
+| pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.roll`](https://github.com/pytorch/executorch/issues/18919) | 0 |
+  
+| pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for aten.flip](https://github.com/pytorch/executorch/issues/18918) | 0 |
+  
+| pytorch/executorch | Python | [[CMake] Potentially duplicated srcs in llama_runner build](https://github.com/pytorch/executorch/issues/10686) | 0 |
   
 | pytorch/PiPPy | Python | [Support Segformer models in HF tests](https://github.com/pytorch/PiPPy/issues/592) | 0 |
   
@@ -482,6 +498,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | tensorflow/agents | Python | [Tutorial 1: Train a Deep Q Network with TF-Agents and the use of a driver](https://github.com/tensorflow/agents/issues/554) | 1 |
   
+| pytorch/ao | Python | [Broken links in first quantization example](https://github.com/pytorch/ao/issues/4286) | 1 |
+  
 | pytorch/ao | Python | [Add weight tensor-wise scaling for INT8 quantized and mixed-precision training](https://github.com/pytorch/ao/issues/1010) | 1 |
   
 | pytorch/ao | Python | [MoE example ](https://github.com/pytorch/ao/issues/729) | 1 |
@@ -499,6 +517,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [ImageFolder doc should clarify 1. order that images returned in 2. that all classes are concatenated into a single list](https://github.com/pytorch/examples/issues/400) | 1 |
   
 | pytorch/examples | Python | [Doc comment on `accuracy` method in imagenet example, incorrect?](https://github.com/pytorch/examples/issues/312) | 1 |
+  
+| pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.isinf`](https://github.com/pytorch/executorch/issues/18922) | 1 |
   
 | pytorch/executorch | Python | [Add dynamism tests for xnnpack model tests](https://github.com/pytorch/executorch/issues/11585) | 1 |
   
@@ -582,6 +602,10 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/examples | Python | [Ambiguous code in reinforce](https://github.com/pytorch/examples/issues/297) | 2 |
   
+| pytorch/executorch | Python | [Good First Issue: Enable Gemma 4 on MLX Backend](https://github.com/pytorch/executorch/issues/18928) | 2 |
+  
+| pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.bitwise_xor`](https://github.com/pytorch/executorch/issues/18927) | 2 |
+  
 | pytorch/executorch | Python | [[Arm] Size-test: Run the binary on CI](https://github.com/pytorch/executorch/issues/12812) | 2 |
   
 | pytorch/executorch | Python | [Consolidation of Selective Build APIs for OSS](https://github.com/pytorch/executorch/issues/11921) | 2 |
@@ -591,8 +615,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | Python | [Add torchao kernels to xcframework](https://github.com/pytorch/executorch/issues/10694) | 2 |
   
 | pytorch/executorch | Python | [Need a feature to get etdump while running LLAMA model on qnn with qnn_llama_runner](https://github.com/pytorch/executorch/issues/10580) | 2 |
-  
-| pytorch/executorch | Python | [[Request impl] Gracefully error out in ETDump](https://github.com/pytorch/executorch/issues/9971) | 2 |
   
 | pytorch/PiPPy | Python | [Make RemoteInterpreter use the full implementation of `Interpreter.run`](https://github.com/pytorch/PiPPy/issues/25) | 2 |
   
@@ -684,8 +706,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/executorch | Python | [Consolidate executor_runners](https://github.com/pytorch/executorch/issues/10819) | 3 |
   
-| pytorch/executorch | Python | [ExecuTorch Scalar to() supports fewer types than c10::Scalar, breaking source compatibility](https://github.com/pytorch/executorch/issues/9500) | 3 |
-  
 | pytorch/pytorch | Python | [[auto functionalize][partitioner] ones_like is not getting recomputed](https://github.com/pytorch/pytorch/issues/170160) | 3 |
   
 | pytorch/torchchat | Python | [Improve Tokenizer New Type Onboarding](https://github.com/pytorch/torchchat/issues/1536) | 3 |
@@ -730,8 +750,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/executorch | Python | [Re-inplace slice_copy with slice](https://github.com/pytorch/executorch/issues/10917) | 4 |
   
-| pytorch/executorch | Python | [Optimized linear op doesn't support bias](https://github.com/pytorch/executorch/issues/8234) | 4 |
-  
 | pytorch/ignite | Python | [Updating getting started to add code for the setup_tb_logger](https://github.com/pytorch/ignite/issues/3735) | 4 |
   
 | pytorch/pytorch | Python | [[export] Schematize nn_module_stack serialization](https://github.com/pytorch/pytorch/issues/131941) | 4 |
@@ -775,8 +793,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ao | Python | [The next tutorials](https://github.com/pytorch/ao/issues/426) | 5 |
   
 | pytorch/audio | Python | [read mp3 file fail](https://github.com/pytorch/audio/issues/2867) | 5 |
-  
-| pytorch/executorch | Python | [Python apis for loading and saving .ptd from dictionaries](https://github.com/pytorch/executorch/issues/8542) | 5 |
   
 | pytorch/pytorch | Python | [Use typing_extensions.TypeAliasType for better reexport of `__module__`](https://github.com/pytorch/pytorch/issues/171905) | 5 |
   
@@ -832,12 +848,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/executorch | Python | [Add timestamps for pte generation in CI](https://github.com/pytorch/executorch/issues/10761) | 7 |
   
-| pytorch/executorch | Python | [[Request Impl] Apply Segment Serialization in Bundled Program](https://github.com/pytorch/executorch/issues/9771) | 7 |
-  
-| pytorch/executorch | Python | [Fail to allocate temp memory by exporting torch.topk](https://github.com/pytorch/executorch/issues/8700) | 7 |
-  
-| pytorch/executorch | Python | [insert_write_back_for_buffers_pass should inject copy_ nodes at the earliest possible spot.](https://github.com/pytorch/executorch/issues/7345) | 7 |
-  
 | pytorch/pytorch | Python | [Enable more flake8-pyi ruff checks](https://github.com/pytorch/pytorch/issues/110950) | 7 |
   
 | huggingface/diffusers | Python | [Make `FlaxLMSDiscreteScheduler` jittable](https://github.com/huggingface/diffusers/issues/2180) | 8 |
@@ -866,8 +876,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/audio | Python | [Use non-persistent buffers](https://github.com/pytorch/audio/issues/3059) | 9 |
   
-| pytorch/executorch | Python | [Refactor binary op partitioner configs under binary op config class](https://github.com/pytorch/executorch/issues/9024) | 9 |
-  
 | pytorch/pytorch | Python | [dynamo (re)compilation issues: shape (1,1), nn.Parameter, mark_dynamic](https://github.com/pytorch/pytorch/issues/135011) | 9 |
   
 | pytorch/pytorch | Python | [Using an empty tensor and `torch.int64` or `torch.bool` for `dtype` of `nanmean()` works while a non-empty tensor doesn't work](https://github.com/pytorch/pytorch/issues/131043) | 9 |
@@ -879,8 +887,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/datasets | Python | [WMT21 & WMT22](https://github.com/huggingface/datasets/issues/4709) | 10 |
   
 | huggingface/lighteval | Python | [[EVAL] Add TUMLU benchmark](https://github.com/huggingface/lighteval/issues/577) | 10 |
-  
-| pytorch/executorch | Python | [Check tensor's dim order ambiguity in IR verifier](https://github.com/pytorch/executorch/issues/9942) | 10 |
   
 | pytorch/pytorch | Python | [aten.grid_sampler_3d.default is missing a c-shim implementation, using proxy executor as fallback](https://github.com/pytorch/pytorch/issues/147625) | 10 |
   
@@ -937,8 +943,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ao | Python | [Add codebook (look up table based) quantization flow in torchao](https://github.com/pytorch/ao/issues/1195) | 18 |
   
 | pytorch/audio | Python | [Add Stereo to Mono Convertions](https://github.com/pytorch/audio/issues/877) | 18 |
-  
-| pytorch/executorch | Python | [[Request impl] Devtool end-to-end tests](https://github.com/pytorch/executorch/issues/9778) | 18 |
   
 | pytorch/pytorch | Python | [Obscure error: Expected a value of type 'List[int]' for argument 'sizes' but instead found type 'immutable_list'](https://github.com/pytorch/pytorch/issues/122129) | 18 |
   
