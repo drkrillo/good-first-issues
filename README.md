@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-16</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-17</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -382,8 +382,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | tensorflow/moonlight | Python | [Export the key signature to MusicXML](https://github.com/tensorflow/moonlight/issues/1) | 0 |
   
-| pytorch/ao | Python | [Broken image links in docs](https://github.com/pytorch/ao/issues/4285) | 0 |
-  
 | pytorch/ao | Python | [TorchAO ROCM tests are taking a long time](https://github.com/pytorch/ao/issues/2367) | 0 |
   
 | pytorch/examples | Python | [imagenet benchmark measure elapsed time function issue](https://github.com/pytorch/examples/issues/741) | 0 |
@@ -399,10 +397,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [Example code (mnist) does not work under torch.utils.bottleneck](https://github.com/pytorch/examples/issues/391) | 0 |
   
 | pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.bitwise_or`](https://github.com/pytorch/executorch/issues/18926) | 0 |
-  
-| pytorch/executorch | Python | [Good First Issue: Add Full Integer Support for `aten.bitwise_and`](https://github.com/pytorch/executorch/issues/18925) | 0 |
-  
-| pytorch/executorch | Python | [Good First Issue: Add Full Integer Support for `aten.bitwise_not`](https://github.com/pytorch/executorch/issues/18924) | 0 |
   
 | pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.trunc`](https://github.com/pytorch/executorch/issues/18923) | 0 |
   
@@ -454,8 +448,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/torcharrow | Python | [Move `torcharrow/test` to `test`](https://github.com/pytorch/torcharrow/issues/24) | 0 |
   
-| godotengine/godot-contributing-docs | Python | [Incorrect example about tooltips in Editor style guide](https://github.com/godotengine/godot-contributing-docs/issues/56) | 0 |
-  
 | huggingface/accelerate | Python | [Deadlock when running multi tasks](https://github.com/huggingface/accelerate/issues/3814) | 1 |
   
 | huggingface/dataset-viewer | Python | [Use `revision_exists` (hfh)](https://github.com/huggingface/dataset-viewer/issues/2562) | 1 |
@@ -498,8 +490,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | tensorflow/agents | Python | [Tutorial 1: Train a Deep Q Network with TF-Agents and the use of a driver](https://github.com/tensorflow/agents/issues/554) | 1 |
   
-| pytorch/ao | Python | [Broken links in first quantization example](https://github.com/pytorch/ao/issues/4286) | 1 |
-  
 | pytorch/ao | Python | [Add weight tensor-wise scaling for INT8 quantized and mixed-precision training](https://github.com/pytorch/ao/issues/1010) | 1 |
   
 | pytorch/ao | Python | [MoE example ](https://github.com/pytorch/ao/issues/729) | 1 |
@@ -517,6 +507,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [ImageFolder doc should clarify 1. order that images returned in 2. that all classes are concatenated into a single list](https://github.com/pytorch/examples/issues/400) | 1 |
   
 | pytorch/examples | Python | [Doc comment on `accuracy` method in imagenet example, incorrect?](https://github.com/pytorch/examples/issues/312) | 1 |
+  
+| pytorch/executorch | Python | [Good First Issue: Add Full Integer Support for `aten.bitwise_not`](https://github.com/pytorch/executorch/issues/18924) | 1 |
   
 | pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.isinf`](https://github.com/pytorch/executorch/issues/18922) | 1 |
   
@@ -604,7 +596,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/executorch | Python | [Good First Issue: Enable Gemma 4 on MLX Backend](https://github.com/pytorch/executorch/issues/18928) | 2 |
   
-| pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.bitwise_xor`](https://github.com/pytorch/executorch/issues/18927) | 2 |
+| pytorch/executorch | Python | [Good First Issue: Add Full Integer Support for `aten.bitwise_and`](https://github.com/pytorch/executorch/issues/18925) | 2 |
   
 | pytorch/executorch | Python | [[Arm] Size-test: Run the binary on CI](https://github.com/pytorch/executorch/issues/12812) | 2 |
   
@@ -793,6 +785,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ao | Python | [The next tutorials](https://github.com/pytorch/ao/issues/426) | 5 |
   
 | pytorch/audio | Python | [read mp3 file fail](https://github.com/pytorch/audio/issues/2867) | 5 |
+  
+| pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.bitwise_xor`](https://github.com/pytorch/executorch/issues/18927) | 5 |
   
 | pytorch/pytorch | Python | [Use typing_extensions.TypeAliasType for better reexport of `__module__`](https://github.com/pytorch/pytorch/issues/171905) | 5 |
   
