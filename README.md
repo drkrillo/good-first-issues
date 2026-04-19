@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-18</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-19</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -802,8 +802,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | huggingface/lighteval | Python | [[FT] Improve Documentation and Examples](https://github.com/huggingface/lighteval/issues/682) | 6 |
   
-| django/djangoproject.com | Python | [Add link to 'Stable' doc version in the Warning Alert on top](https://github.com/django/djangoproject.com/issues/2094) | 6 |
-  
 | django/djangoproject.com | Python | [Add link to new minutes repo](https://github.com/django/djangoproject.com/issues/2079) | 6 |
   
 | django/djangoproject.com | Python | [Support switching languages on non-docs sites](https://github.com/django/djangoproject.com/issues/883) | 6 |
@@ -849,6 +847,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/lerobot | Python | [Select the VLM backbone for SmolVLA](https://github.com/huggingface/lerobot/issues/2104) | 8 |
   
 | huggingface/lighteval | Python | [[EVAL] Adding PHARE](https://github.com/huggingface/lighteval/issues/696) | 8 |
+  
+| django/djangoproject.com | Python | [Add link to 'Stable' doc version in the Warning Alert on top](https://github.com/django/djangoproject.com/issues/2094) | 8 |
   
 | django/djangoproject.com | Python | [Improvements to the Corporate Sponsor Experience](https://github.com/django/djangoproject.com/issues/1171) | 8 |
   
