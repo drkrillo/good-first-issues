@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-19</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-20</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -402,8 +402,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.hardtanh`](https://github.com/pytorch/executorch/issues/18921) | 0 |
   
-| pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.isnan`](https://github.com/pytorch/executorch/issues/18920) | 0 |
-  
 | pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.roll`](https://github.com/pytorch/executorch/issues/18919) | 0 |
   
 | pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for aten.flip](https://github.com/pytorch/executorch/issues/18918) | 0 |
@@ -456,8 +454,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | huggingface/lerobot | Python | [Question regarding downsampling and resizing dataset](https://github.com/huggingface/lerobot/issues/2124) | 1 |
   
-| huggingface/lerobot | Python | [SO-101 leader precision](https://github.com/huggingface/lerobot/issues/2074) | 1 |
-  
 | huggingface/lerobot | Python | [Ensure the teleoperators module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1726) | 1 |
   
 | huggingface/lighteval | Python | [[EVAL] Add kyrgyzLLM benchmark](https://github.com/huggingface/lighteval/issues/1036) | 1 |
@@ -508,8 +504,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/examples | Python | [Doc comment on `accuracy` method in imagenet example, incorrect?](https://github.com/pytorch/examples/issues/312) | 1 |
   
-| pytorch/executorch | Python | [Good First Issue: Add Full Integer Support for `aten.bitwise_not`](https://github.com/pytorch/executorch/issues/18924) | 1 |
-  
 | pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.isinf`](https://github.com/pytorch/executorch/issues/18922) | 1 |
   
 | pytorch/executorch | Python | [Add dynamism tests for xnnpack model tests](https://github.com/pytorch/executorch/issues/11585) | 1 |
@@ -533,6 +527,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/dataset-viewer | Python | [use the `ROW_IDX_COLUMN` constant name instead of copying the value everywhere](https://github.com/huggingface/dataset-viewer/issues/2798) | 2 |
   
 | huggingface/dataset-viewer | Python | [Use "Sign-In with HF" instead of token in admin-UI](https://github.com/huggingface/dataset-viewer/issues/2373) | 2 |
+  
+| huggingface/lerobot | Python | [SO-101 leader precision](https://github.com/huggingface/lerobot/issues/2074) | 2 |
   
 | huggingface/lerobot | Python | [Finetune smolvla with vision encoder](https://github.com/huggingface/lerobot/issues/1774) | 2 |
   
@@ -598,6 +594,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/executorch | Python | [Good First Issue: Add Full Integer Support for `aten.bitwise_and`](https://github.com/pytorch/executorch/issues/18925) | 2 |
   
+| pytorch/executorch | Python | [Good First Issue: Add Full Integer Support for `aten.bitwise_not`](https://github.com/pytorch/executorch/issues/18924) | 2 |
+  
 | pytorch/executorch | Python | [[Arm] Size-test: Run the binary on CI](https://github.com/pytorch/executorch/issues/12812) | 2 |
   
 | pytorch/executorch | Python | [Consolidation of Selective Build APIs for OSS](https://github.com/pytorch/executorch/issues/11921) | 2 |
@@ -607,6 +605,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | Python | [Add torchao kernels to xcframework](https://github.com/pytorch/executorch/issues/10694) | 2 |
   
 | pytorch/executorch | Python | [Need a feature to get etdump while running LLAMA model on qnn with qnn_llama_runner](https://github.com/pytorch/executorch/issues/10580) | 2 |
+  
+| pytorch/executorch | Python | [[Request impl] Gracefully error out in ETDump](https://github.com/pytorch/executorch/issues/9971) | 2 |
   
 | pytorch/PiPPy | Python | [Make RemoteInterpreter use the full implementation of `Interpreter.run`](https://github.com/pytorch/PiPPy/issues/25) | 2 |
   
@@ -920,7 +920,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
   
 | pytorch/pytorch | Python | [Make tlparse able to show a summary of distinct graph breaks](https://github.com/pytorch/pytorch/issues/153669) | 14 |
   
-| huggingface/datasets | Python | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 15 |
+| huggingface/datasets | Python | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 16 |
   
 | django/djangoproject.com | Python | [Localize the fundraising app](https://github.com/django/djangoproject.com/issues/377) | 17 |
   
