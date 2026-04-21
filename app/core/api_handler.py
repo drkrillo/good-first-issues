@@ -109,27 +109,6 @@ class TemplateManager:
         """
         Takes a list of dict issues, and returns them grouped by language.
         """
-    
-        grouped = defaultdict(list)
-    
-        for issue in issues:
-            language = issue.get("language") or "Unknown"
-            grouped[language].append(issue)
-    
-        formatted_results = []
-    
-        for language, language_issues in grouped.items():
-            sorted_issues = sorted(language_issues, key=lambda x: x.get("comments", 0))
-            formatted_results.append({
-                "language": language,
-                "issues": sorted_issues
-            })
-    
-        return sorted(formatted_results, key=lambda x: x["language"])
-    
-    """
-    @staticmethod
-    def format_response(issues: list) -> list:
         unique_languages = set([issue['language'] for issue in issues])
         formatted_results = []	
         for language in unique_languages:
@@ -139,7 +118,6 @@ class TemplateManager:
 
         sorted_formatted_results = sorted(formatted_results, key=lambda x: x['language'] or "Unknown")
         return sorted_formatted_results
-        """
     
     @staticmethod
     def render_template(results, template_path, today):
