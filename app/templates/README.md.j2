@@ -22,8 +22,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
-{% for lang_group in results %}
-  {% for issue in lang_group.issues %}
-| {{issue.repo}} | {{issue.language}} | [{{issue.title}}]({{issue.url}}) | {{issue.comments}} |
-  {% endfor %}
+{% for result in results -%}
+| {{result.repo}} | {{result.language}} | [{{result.title}}]({{result.url}}) | {{result.comments}} |
 {% endfor %}
