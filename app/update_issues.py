@@ -45,8 +45,12 @@ def main():
         logging.info("Normalizing data...")
         issues = [IssueManager().extract_issue_data(issue) for issue in raw_issues]
         logging.info(f"Normalized data.")
-    
+        logging.info(f"First issues row: {issues[0]}")
+
         formatted_response = TemplateManager.format_response(issues)
+
+        logging.info(f"Formatted issues first row: {formatted_response[0]}")
+        
         TemplateManager.render_template(
             results=formatted_response,
             template_path=template_path,

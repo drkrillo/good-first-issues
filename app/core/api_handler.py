@@ -107,16 +107,16 @@ class TemplateManager:
     @staticmethod
     def format_response(issues: list) -> list:
         """
-        Takes a list of dict issues, and returns them grouped by language.
+        Takes a list of issues, and returns them sorted by language and comments.
         """
-        unique_languages = set([issue['language'] for issue in issues])
+        unique_languages = sorted(set([issue['language'] for issue in issues]))
         formatted_results = []	
         for language in unique_languages:
             results = [issue for issue in issues if issue['language'] == language]
             sorted_results = sorted(results, key=lambda x: x['comments'])
-            formatted_results.append({'language': language, 'issues': sorted_results})
-
-        sorted_formatted_results = sorted(formatted_results, key=lambda x: x['language'] or "Unknown")
+            formatted_results.append(sorted_results)
+        sorted_formatted_results = Utils.create_list_from_lists(formatted_results) 
+        
         return sorted_formatted_results
     
     @staticmethod
