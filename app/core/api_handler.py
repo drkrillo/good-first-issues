@@ -76,6 +76,8 @@ class IssueManager:
         resp_json = APIClient().make_request(repo, session)
         try:
             language = resp_json['language']
+            if language == None:
+                language = "Other"
         except KeyError as error:
             logging.error(error)
             raise
