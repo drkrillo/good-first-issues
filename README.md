@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-23</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-24</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -202,7 +202,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [Example code (mnist) does not work under torch.utils.bottleneck](https://github.com/pytorch/examples/issues/391) | 0 |
 | pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.bitwise_or`](https://github.com/pytorch/executorch/issues/18926) | 0 |
 | pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.hardtanh`](https://github.com/pytorch/executorch/issues/18921) | 0 |
-| pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for aten.flip](https://github.com/pytorch/executorch/issues/18918) | 0 |
 | pytorch/executorch | Python | [[CMake] Potentially duplicated srcs in llama_runner build](https://github.com/pytorch/executorch/issues/10686) | 0 |
 | pytorch/PiPPy | Python | [Support Segformer models in HF tests](https://github.com/pytorch/PiPPy/issues/592) | 0 |
 | pytorch/PiPPy | Python | [Support ConvNext models in HF tests](https://github.com/pytorch/PiPPy/issues/486) | 0 |
@@ -254,6 +253,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [Doc comment on `accuracy` method in imagenet example, incorrect?](https://github.com/pytorch/examples/issues/312) | 1 |
 | pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.isinf`](https://github.com/pytorch/executorch/issues/18922) | 1 |
 | pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.roll`](https://github.com/pytorch/executorch/issues/18919) | 1 |
+| pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for aten.flip](https://github.com/pytorch/executorch/issues/18918) | 1 |
 | pytorch/executorch | Python | [Add dynamism tests for xnnpack model tests](https://github.com/pytorch/executorch/issues/11585) | 1 |
 | pytorch/executorch | Python | [Implement load_into for the shared_ptr data loader](https://github.com/pytorch/executorch/issues/11562) | 1 |
 | pytorch/executorch | Python | [[Android] Use generic JNI instead of fbjni](https://github.com/pytorch/executorch/issues/10444) | 1 |
@@ -371,7 +371,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [Please change dcgan to load truncated images.](https://github.com/pytorch/examples/issues/835) | 4 |
 | pytorch/examples | Python | [No matching function call  error in custom_dataset example ](https://github.com/pytorch/examples/issues/680) | 4 |
 | pytorch/examples | Python | [Add Siamese Network example](https://github.com/pytorch/examples/issues/645) | 4 |
-| pytorch/executorch | Python | [Good First Issue: Enable Gemma 4 on MLX Backend](https://github.com/pytorch/executorch/issues/18928) | 4 |
 | pytorch/executorch | Python | [Re-inplace slice_copy with slice](https://github.com/pytorch/executorch/issues/10917) | 4 |
 | pytorch/pytorch | Python | [[export] Schematize nn_module_stack serialization](https://github.com/pytorch/pytorch/issues/131941) | 4 |
 | pytorch/pytorch | Python | [switch more test cases to use MultithreadTestCase](https://github.com/pytorch/pytorch/issues/108744) | 4 |
@@ -394,6 +393,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/ao | Python | [[low-bit optim] Add COAT optimizer](https://github.com/pytorch/ao/issues/1190) | 5 |
 | pytorch/ao | Python | [The next tutorials](https://github.com/pytorch/ao/issues/426) | 5 |
 | pytorch/audio | Python | [read mp3 file fail](https://github.com/pytorch/audio/issues/2867) | 5 |
+| pytorch/executorch | Python | [Good First Issue: Enable Gemma 4 on MLX Backend](https://github.com/pytorch/executorch/issues/18928) | 5 |
 | pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.bitwise_xor`](https://github.com/pytorch/executorch/issues/18927) | 5 |
 | pytorch/pytorch | Python | [Use typing_extensions.TypeAliasType for better reexport of `__module__`](https://github.com/pytorch/pytorch/issues/171905) | 5 |
 | pytorch/pytorch | Python | [Report WHY a symbol was created dynamically in symbolic_shapes logs](https://github.com/pytorch/pytorch/issues/137527) | 5 |
@@ -523,7 +523,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | godotengine/godot-docs | reStructuredText | [Object.get_meta & has_meta doc mentions is_valid_identifier but deprecated (prefer is_valid_ascii_identifier)](https://github.com/godotengine/godot-docs/issues/11870) | 0 |
 | godotengine/godot-docs | reStructuredText | [Add C# examples for custom BBCode](https://github.com/godotengine/godot-docs/issues/9334) | 0 |
 | godotengine/godot-docs | reStructuredText | [Parallax2D property descriptions do not specify units](https://github.com/godotengine/godot-docs/issues/9715) | 1 |
-| godotengine/godot-docs | reStructuredText | [Specify the coordinate system for the 'force' parameter in Rigidbody apply_force methods](https://github.com/godotengine/godot-docs/issues/9066) | 1 |
 | godotengine/godot-docs | reStructuredText | [make_canvas_position_local](https://github.com/godotengine/godot-docs/issues/8313) | 1 |
 | godotengine/godot-docs | reStructuredText | [Inconsistent code example between PhysicsShapeQueryParameters3D and PhysicsServer3D](https://github.com/godotengine/godot-docs/issues/8305) | 1 |
 | godotengine/godot-docs | reStructuredText | [Curve2D.get_closest_point() incorrectly documented](https://github.com/godotengine/godot-docs/issues/5894) | 1 |
