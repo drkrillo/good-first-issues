@@ -1,7 +1,7 @@
-# Goood First Issues :palm_tree:
+# Good First Issues :palm_tree:
 
 This page contains open issues tagged with the label *good first issue*. It gathers issues from some famous libraries(at least for me).
-Let me knowif there are others you would like to see here :pizza:
+Let me know if there are others you would like to see here :pizza:
 
 `update_issues.py` can  be modified to  return the data in json or to csv. 
 To run the script locally:
