@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-28</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-29</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -289,7 +289,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/PiPPy | Python | [Support Speech2Text models in HF tests](https://github.com/pytorch/PiPPy/issues/249) | 0 |
 | pytorch/PiPPy | Python | [Support CLIP models in HF tests](https://github.com/pytorch/PiPPy/issues/248) | 0 |
 | pytorch/PiPPy | Python | [Support SWIN models in HF tests](https://github.com/pytorch/PiPPy/issues/243) | 0 |
-| pytorch/rl | Python | [[DO NOT CLOSE] Call for contributions](https://github.com/pytorch/rl/issues/509) | 0 |
 | pytorch/tensordict | Python | [[Feature Request] Deprecate `_run_checks` in favour of `TensorDict._checked`](https://github.com/pytorch/tensordict/issues/182) | 0 |
 | pytorch/torcharrow | Python | [Making BaseColumn::genericUnaryUDF and the family free functions](https://github.com/pytorch/torcharrow/issues/197) | 0 |
 | pytorch/torcharrow | Python | [Call type inferring in interop.from_pylist](https://github.com/pytorch/torcharrow/issues/80) | 0 |
@@ -379,7 +378,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [RFE: Send real client remote address in TACACS+ authentication packet](https://github.com/ansible/awx/issues/1797) | 1 |
 | ansible/django-ansible-base | Python | [Several unordered querysets](https://github.com/ansible/django-ansible-base/issues/178) | 1 |
 | canonical/charmed-postgresql-rock | Python | [Add integration test for verifying plugin shared objects consistency](https://github.com/canonical/charmed-postgresql-rock/issues/260) | 1 |
-| canonical/charmed-postgresql-snap | Python | [`start-pgbackrest-exporter.sh` does not support non-snapped environments](https://github.com/canonical/charmed-postgresql-snap/issues/169) | 1 |
 | canonical/charmed-temporal-uats | Python | [Explore spread usage for UAT orchestration](https://github.com/canonical/charmed-temporal-uats/issues/14) | 1 |
 | canonical/charmed-temporal-uats | Python | [Add custom concierge config for desired environment for UATs](https://github.com/canonical/charmed-temporal-uats/issues/13) | 1 |
 | canonical/cos-proxy-operator | Python | [Wrongly formatted alert rules are silently not loaded](https://github.com/canonical/cos-proxy-operator/issues/166) | 1 |
@@ -457,6 +455,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Make Info Metrics more easy to query](https://github.com/ansible/awx/issues/3781) | 2 |
 | ansible/awx | Python | [weekly dashboard view does not have sufficient granularity](https://github.com/ansible/awx/issues/3060) | 2 |
 | canonical/charmcraft | Python | [Improve the 'release' response when resources are automatically released with the charm](https://github.com/canonical/charmcraft/issues/847) | 2 |
+| canonical/charmed-postgresql-snap | Python | [`start-pgbackrest-exporter.sh` does not support non-snapped environments](https://github.com/canonical/charmed-postgresql-snap/issues/169) | 2 |
 | canonical/cloud-init | Python | [[docs]: some DataSources missing from docs](https://github.com/canonical/cloud-init/issues/5341) | 2 |
 | canonical/cloud-init | Python | [[docs]: The terms "#include" and "#include-once" are difficult to define in the documentation](https://github.com/canonical/cloud-init/issues/4408) | 2 |
 | canonical/gh-jira-sync-bot | Python | [Issue is created on closure](https://github.com/canonical/gh-jira-sync-bot/issues/40) | 2 |
@@ -523,7 +522,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | canonical/cloud-init | Python | [cc_grub_dpkg: race condition on dpkg-set-selections lock](https://github.com/canonical/cloud-init/issues/4010) | 3 |
 | canonical/cloud-init | Python | [docs: update rtd documentation for altcloud](https://github.com/canonical/cloud-init/issues/3968) | 3 |
 | canonical/cloud-init | Python | [cloud-init network config 2 rename does not match with name](https://github.com/canonical/cloud-init/issues/3229) | 3 |
-| canonical/open-documentation-academy | Python | [[Ubuntu Project] Add (describe) a glossary term: Closed-source software](https://github.com/canonical/open-documentation-academy/issues/247) | 3 |
 | canonical/open-documentation-academy | Python | [[Ubuntu Project] Add (describe) a glossary term: branch](https://github.com/canonical/open-documentation-academy/issues/246) | 3 |
 | canonical/pgbouncer-operator | Python | [Add configuration for max_prepared_statements](https://github.com/canonical/pgbouncer-operator/issues/425) | 3 |
 | canonical/redis-k8s-operator | Python | [Add integration test coverage for HA of metrics exporter](https://github.com/canonical/redis-k8s-operator/issues/86) | 3 |
@@ -550,6 +548,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | canonical/cos-lib | Python | [better tests for unhappy paths](https://github.com/canonical/cos-lib/issues/100) | 4 |
 | canonical/kfp-operators | Python | [Change the default bucket name for Argo Workflows - currently always mlpipeline](https://github.com/canonical/kfp-operators/issues/132) | 4 |
 | canonical/oidc-gatekeeper-operator | Python | [`client-secret` isn't used.](https://github.com/canonical/oidc-gatekeeper-operator/issues/27) | 4 |
+| canonical/open-documentation-academy | Python | [[Ubuntu Project] Add (describe) a glossary term: Closed-source software](https://github.com/canonical/open-documentation-academy/issues/247) | 4 |
 | canonical/open-documentation-academy | Python | [Launchpad: Add an info box on the discontinuation of support for Bazaar](https://github.com/canonical/open-documentation-academy/issues/240) | 4 |
 | canonical/rockcraft | Python | [Improve detection/setting of the PATH environment variable](https://github.com/canonical/rockcraft/issues/729) | 4 |
 | django/djangoproject.com | Python | [Documentation table of contents is hard to reach on mobile devices](https://github.com/django/djangoproject.com/issues/494) | 4 |
@@ -620,7 +619,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [Display SAML login icon for /api/login page](https://github.com/ansible/awx/issues/12905) | 8 |
 | canonical/open-documentation-academy | Python | [Rockcraft: Update text to American spelling](https://github.com/canonical/open-documentation-academy/issues/332) | 8 |
 | canonical/open-documentation-academy | Python | [MicroCeph: Replace :doc: with :ref: targets for internal cross-reference links (3)](https://github.com/canonical/open-documentation-academy/issues/279) | 8 |
-| django/djangoproject.com | Python | [Add link to 'Stable' doc version in the Warning Alert on top](https://github.com/django/djangoproject.com/issues/2094) | 8 |
 | django/djangoproject.com | Python | [Improvements to the Corporate Sponsor Experience](https://github.com/django/djangoproject.com/issues/1171) | 8 |
 | django/djangoproject.com | Python | [Use noindex meta tag or header, not robots.txt, to block untranslated docs pages](https://github.com/django/djangoproject.com/issues/877) | 8 |
 | pytorch/audio | Python | [Use non-persistent buffers](https://github.com/pytorch/audio/issues/3059) | 9 |
@@ -646,6 +644,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [Enable more flake8-bugbear lints](https://github.com/pytorch/pytorch/issues/106571) | 11 |
 | tensorflow/quantum | Python | [[Performance] Boost tfq.convert_to_tensor speed](https://github.com/tensorflow/quantum/issues/336) | 11 |
 | huggingface/diffusers | Python | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 11 |
+| django/djangoproject.com | Python | [Add link to 'Stable' doc version in the Warning Alert on top](https://github.com/django/djangoproject.com/issues/2094) | 11 |
 | pytorch/ao | Python | [Update documents addressing AQT workflow](https://github.com/pytorch/ao/issues/3637) | 12 |
 | pytorch/pytorch | Python | [[dynamo] [dynamic] `torch.combinations` throws RuntimeError when `(backend=aot_eager, dynamic=True)`](https://github.com/pytorch/pytorch/issues/163759) | 12 |
 | pytorch/pytorch | Python | [Logging when executing fx.Interpreter](https://github.com/pytorch/pytorch/issues/117351) | 12 |
@@ -673,7 +672,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | canonical/open-documentation-academy | Python | [Ubuntu Core: replace Markdown links with MyST references](https://github.com/canonical/open-documentation-academy/issues/243) | 21 |
 | huggingface/diffusers | Python | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 22 |
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 26 |
-| canonical/open-documentation-academy | Python | [Ubuntu Server: building up the glossary](https://github.com/canonical/open-documentation-academy/issues/166) | 26 |
+| canonical/open-documentation-academy | Python | [Ubuntu Server: building up the glossary](https://github.com/canonical/open-documentation-academy/issues/166) | 27 |
 | pytorch/ignite | Python | [🥇 Everyone is welcome to contribute 💯 ](https://github.com/pytorch/ignite/issues/2026) | 40 |
 | huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 54 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 |
