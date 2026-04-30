@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-29</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-30</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -116,7 +116,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | C++ | [Use explicit std::string conversions instead of implicit llvm::StringRef->std::string conversions to prepare Glow for builds using LLVM >=11](https://github.com/pytorch/glow/issues/5068) | 18 |
 | godotengine/godot | C++ | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 24 |
 | godotengine/godot | C++ | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 32 |
-| godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 244 |
+| godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 246 |
 | canonical/ulwazi | CSS | [Cookie consent banner fails to show](https://github.com/canonical/ulwazi/issues/91) | 0 |
 | canonical/ulwazi | CSS | [Weirdly looking code blocks captions](https://github.com/canonical/ulwazi/issues/78) | 0 |
 | canonical/ulwazi | CSS | [The first link in the footer seems to be wrong](https://github.com/canonical/ulwazi/issues/92) | 1 |
@@ -334,7 +334,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | canonical/prometheus-k8s-operator | Python | [Metrics are still received after Grafana Agent stops](https://github.com/canonical/prometheus-k8s-operator/issues/643) | 0 |
 | canonical/pycloudlib | Python | [Contributing guidelines seem outdated](https://github.com/canonical/pycloudlib/issues/377) | 0 |
 | canonical/pycloudlib | Python | [Consistent console_log() API](https://github.com/canonical/pycloudlib/issues/363) | 0 |
-| canonical/pyroscope-operators | Python | [use nginx module from charmlibs](https://github.com/canonical/pyroscope-operators/issues/285) | 0 |
 | canonical/redis-k8s-operator | Python | [Add integration tests that scale relating app](https://github.com/canonical/redis-k8s-operator/issues/48) | 0 |
 | canonical/script-exporter-operator | Python | [Change the path of script-exporter-script](https://github.com/canonical/script-exporter-operator/issues/12) | 0 |
 | pytorch/ao | Python | [Add weight tensor-wise scaling for INT8 quantized and mixed-precision training](https://github.com/pytorch/ao/issues/1010) | 1 |
@@ -395,6 +394,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | canonical/postgresql-k8s-operator | Python | [Improve config options validation](https://github.com/canonical/postgresql-k8s-operator/issues/295) | 1 |
 | canonical/postgresql-operator | Python | [Move `--log-level-stderr=warn` to pgBackRest's configuration file](https://github.com/canonical/postgresql-operator/issues/1353) | 1 |
 | canonical/postgresql-test-app | Python | [Create a nightly test run for self-checking](https://github.com/canonical/postgresql-test-app/issues/148) | 1 |
+| canonical/pyroscope-operators | Python | [use nginx module from charmlibs](https://github.com/canonical/pyroscope-operators/issues/285) | 1 |
 | canonical/rockcraft | Python | [docs: Running Flask, Django and FastAPI should be in a code block](https://github.com/canonical/rockcraft/issues/1145) | 1 |
 | canonical/rockcraft | Python | [Help includes expand-extensions entry with reference to snapcraft.yaml](https://github.com/canonical/rockcraft/issues/658) | 1 |
 | canonical/snapcraft | Python | [Recommend using newer versions of snapcraft](https://github.com/canonical/snapcraft/issues/4958) | 1 |
@@ -548,7 +548,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | canonical/cos-lib | Python | [better tests for unhappy paths](https://github.com/canonical/cos-lib/issues/100) | 4 |
 | canonical/kfp-operators | Python | [Change the default bucket name for Argo Workflows - currently always mlpipeline](https://github.com/canonical/kfp-operators/issues/132) | 4 |
 | canonical/oidc-gatekeeper-operator | Python | [`client-secret` isn't used.](https://github.com/canonical/oidc-gatekeeper-operator/issues/27) | 4 |
-| canonical/open-documentation-academy | Python | [[Ubuntu Project] Add (describe) a glossary term: Closed-source software](https://github.com/canonical/open-documentation-academy/issues/247) | 4 |
 | canonical/open-documentation-academy | Python | [Launchpad: Add an info box on the discontinuation of support for Bazaar](https://github.com/canonical/open-documentation-academy/issues/240) | 4 |
 | canonical/rockcraft | Python | [Improve detection/setting of the PATH environment variable](https://github.com/canonical/rockcraft/issues/729) | 4 |
 | django/djangoproject.com | Python | [Documentation table of contents is hard to reach on mobile devices](https://github.com/django/djangoproject.com/issues/494) | 4 |
@@ -604,6 +603,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/lighteval | Python | [[EVAL] Long Horizon Execution](https://github.com/huggingface/lighteval/issues/1056) | 7 |
 | canonical/cloud-init | Python | [ssh_import_id does not work on default user](https://github.com/canonical/cloud-init/issues/4306) | 7 |
 | canonical/cloud-init | Python | [package-update-upgrade-install does not update when run with --frequency=always](https://github.com/canonical/cloud-init/issues/3218) | 7 |
+| canonical/cos-lib | Python | [allow using cosl.coordinated_workers.S3ConnectionInfo outside of tempo-loki-mimir](https://github.com/canonical/cos-lib/issues/119) | 7 |
 | canonical/open-documentation-academy | Python | [[Ubuntu Project] Add (describe) a glossary term: Continuous Integration (CI)](https://github.com/canonical/open-documentation-academy/issues/272) | 7 |
 | canonical/open-documentation-academy | Python | [Launchpad: fix broken links](https://github.com/canonical/open-documentation-academy/issues/78) | 7 |
 | django/djangoproject.com | Python | [Redirect from /about to /foundation](https://github.com/django/djangoproject.com/issues/2428) | 7 |
@@ -672,7 +672,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | canonical/open-documentation-academy | Python | [Ubuntu Core: replace Markdown links with MyST references](https://github.com/canonical/open-documentation-academy/issues/243) | 21 |
 | huggingface/diffusers | Python | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 22 |
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 26 |
-| canonical/open-documentation-academy | Python | [Ubuntu Server: building up the glossary](https://github.com/canonical/open-documentation-academy/issues/166) | 27 |
+| canonical/open-documentation-academy | Python | [Ubuntu Server: building up the glossary](https://github.com/canonical/open-documentation-academy/issues/166) | 28 |
 | pytorch/ignite | Python | [🥇 Everyone is welcome to contribute 💯 ](https://github.com/pytorch/ignite/issues/2026) | 40 |
 | huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 54 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 |
