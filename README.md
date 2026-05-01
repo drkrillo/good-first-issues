@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-04-30</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-05-01</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -116,7 +116,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | C++ | [Use explicit std::string conversions instead of implicit llvm::StringRef->std::string conversions to prepare Glow for builds using LLVM >=11](https://github.com/pytorch/glow/issues/5068) | 18 |
 | godotengine/godot | C++ | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 24 |
 | godotengine/godot | C++ | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 32 |
-| godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 246 |
+| godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 247 |
 | canonical/ulwazi | CSS | [Cookie consent banner fails to show](https://github.com/canonical/ulwazi/issues/91) | 0 |
 | canonical/ulwazi | CSS | [Weirdly looking code blocks captions](https://github.com/canonical/ulwazi/issues/78) | 0 |
 | canonical/ulwazi | CSS | [The first link in the footer seems to be wrong](https://github.com/canonical/ulwazi/issues/92) | 1 |
@@ -125,7 +125,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/pylibssh | Cython | [[TODO] Ensure release builds don't include debug symbols](https://github.com/ansible/pylibssh/issues/767) | 0 |
 | godotengine/emacs-gdscript-mode | Emacs Lisp | [Rewrite gdscript-imenu to provide GDScript-specific tables](https://github.com/godotengine/emacs-gdscript-mode/issues/89) | 0 |
 | godotengine/emacs-gdscript-mode | Emacs Lisp | [Buffer does not revert or update instantly after formatting buffer](https://github.com/godotengine/emacs-gdscript-mode/issues/88) | 3 |
-| godotengine/godot-demo-projects | GDScript | [Update plugins demo to use custom Resources](https://github.com/godotengine/godot-demo-projects/issues/1061) | 0 |
 | godotengine/godot-benchmarks | GDScript | [[Call to Action] Benchmarks for the benchmark server](https://github.com/godotengine/godot-benchmarks/issues/36) | 5 |
 | godotengine/godot-benchmarks | GDScript | [[TRACKER] Benchmarks to create](https://github.com/godotengine/godot-benchmarks/issues/11) | 11 |
 | ansible/receptor | Go | [append conntype string representation in status output](https://github.com/ansible/receptor/issues/423) | 0 |
@@ -238,16 +237,16 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | canonical/chisel-releases | Other | [Add `logrotate` slice](https://github.com/canonical/chisel-releases/issues/551) | 0 |
 | canonical/chisel-releases | Other | [Add `cron` slice](https://github.com/canonical/chisel-releases/issues/550) | 0 |
 | canonical/chisel-releases | Other | [Add `socat` slice](https://github.com/canonical/chisel-releases/issues/533) | 0 |
-| canonical/sphinx-docs-starter-pack | Other | [Replace value of ogp_image in conf.py to an image included in the repository instead of assets manager](https://github.com/canonical/sphinx-docs-starter-pack/issues/512) | 0 |
-| canonical/sphinx-docs-starter-pack | Other | ["Style guide" documents are superfluous and should be syntax guides](https://github.com/canonical/sphinx-docs-starter-pack/issues/408) | 0 |
-| canonical/sphinx-docs-starter-pack | Other | [Housekeeping: update preview logo](https://github.com/canonical/sphinx-docs-starter-pack/issues/215) | 0 |
+| canonical/sphinx-stack | Other | [Replace value of ogp_image in conf.py to an image included in the repository instead of assets manager](https://github.com/canonical/sphinx-stack/issues/512) | 0 |
+| canonical/sphinx-stack | Other | [Housekeeping: update preview logo](https://github.com/canonical/sphinx-stack/issues/215) | 0 |
+| canonical/sphinx-stack-docs | Other | ["Style guide" documents are superfluous and should be syntax guides](https://github.com/canonical/sphinx-stack-docs/issues/7) | 0 |
 | decentraland/sdk | Other | [Remove the mandatory `?v=` from the renderer fetch](https://github.com/decentraland/sdk/issues/201) | 1 |
 | canonical/charmed-mysql-rock | Other | [Add tests](https://github.com/canonical/charmed-mysql-rock/issues/47) | 1 |
 | canonical/chisel-releases | Other | [feat(systemd): improve `systemd` test coverage](https://github.com/canonical/chisel-releases/issues/989) | 1 |
 | canonical/chisel-releases | Other | [ci: stale `test_install_slices`](https://github.com/canonical/chisel-releases/issues/718) | 1 |
 | canonical/chisel-releases | Other | [Add `adduser` slice](https://github.com/canonical/chisel-releases/issues/549) | 1 |
-| canonical/sphinx-docs-starter-pack | Other | [Underscores in anchor](https://github.com/canonical/sphinx-docs-starter-pack/issues/390) | 1 |
-| canonical/sphinx-docs-starter-pack | Other | [Make 'Sphinx python dependency build checks' optional](https://github.com/canonical/sphinx-docs-starter-pack/issues/332) | 1 |
+| canonical/sphinx-stack | Other | [Underscores in anchor](https://github.com/canonical/sphinx-stack/issues/390) | 1 |
+| canonical/sphinx-stack | Other | [Make 'Sphinx python dependency build checks' optional](https://github.com/canonical/sphinx-stack/issues/332) | 1 |
 | canonical/chisel-docs | Other | [Replace images in docs/explanation/mode-of-operation.md](https://github.com/canonical/chisel-docs/issues/31) | 2 |
 | canonical/chisel-releases | Other | [feat(25.10): arch-dependent gcc slices](https://github.com/canonical/chisel-releases/pull/896) | 2 |
 | canonical/launchpad-manual | Other | [Missing page: list of tags for bug reports](https://github.com/canonical/launchpad-manual/issues/158) | 2 |
@@ -272,6 +271,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [Is the loss of the first word covered during the language model evaluation?](https://github.com/pytorch/examples/issues/453) | 0 |
 | pytorch/examples | Python | [The casting problem on the result of the model.](https://github.com/pytorch/examples/issues/433) | 0 |
 | pytorch/examples | Python | [Example code (mnist) does not work under torch.utils.bottleneck](https://github.com/pytorch/examples/issues/391) | 0 |
+| pytorch/executorch | Python | [Content changes required in Doc page](https://github.com/pytorch/executorch/issues/19258) | 0 |
+| pytorch/executorch | Python | [Outdated versions in links on ET Doc page](https://github.com/pytorch/executorch/issues/19257) | 0 |
 | pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.bitwise_or`](https://github.com/pytorch/executorch/issues/18926) | 0 |
 | pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.hardtanh`](https://github.com/pytorch/executorch/issues/18921) | 0 |
 | pytorch/executorch | Python | [[CMake] Potentially duplicated srcs in llama_runner build](https://github.com/pytorch/executorch/issues/10686) | 0 |
@@ -297,7 +298,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/moonlight | Python | [Export stem directions in MusicXML](https://github.com/tensorflow/moonlight/issues/25) | 0 |
 | tensorflow/moonlight | Python | [Chord duration correction](https://github.com/tensorflow/moonlight/issues/2) | 0 |
 | tensorflow/moonlight | Python | [Export the key signature to MusicXML](https://github.com/tensorflow/moonlight/issues/1) | 0 |
-| huggingface/lighteval | Python | [[FT] Manage script and language in the Language enum](https://github.com/huggingface/lighteval/issues/745) | 0 |
 | huggingface/lighteval | Python | [[BUG]  Optimize tokenization](https://github.com/huggingface/lighteval/issues/732) | 0 |
 | huggingface/lighteval | Python | [[FT]  Add tests for `VLLMModel` base methods](https://github.com/huggingface/lighteval/issues/724) | 0 |
 | huggingface/lighteval | Python | [[FT] Build in a way to specify specific IDs/Lines in Dataset to use as few-shot examples in the same split](https://github.com/huggingface/lighteval/issues/634) | 0 |
@@ -363,6 +363,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/lerobot | Python | [Question regarding downsampling and resizing dataset](https://github.com/huggingface/lerobot/issues/2124) | 1 |
 | huggingface/lerobot | Python | [Ensure the teleoperators module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1726) | 1 |
 | huggingface/lighteval | Python | [[EVAL] Add kyrgyzLLM benchmark](https://github.com/huggingface/lighteval/issues/1036) | 1 |
+| huggingface/lighteval | Python | [[FT] Manage script and language in the Language enum](https://github.com/huggingface/lighteval/issues/745) | 1 |
 | huggingface/lighteval | Python | [[FT] LiteLLM concurrency parameters hard-coded](https://github.com/huggingface/lighteval/issues/567) | 1 |
 | huggingface/nanotron | Python | [Add Debug utility to be able to preview first samples used for training](https://github.com/huggingface/nanotron/issues/184) | 1 |
 | huggingface/nanotron | Python | [We don't save checkpoint after training ends](https://github.com/huggingface/nanotron/issues/163) | 1 |
@@ -401,6 +402,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | canonical/spark-k8s-bundle | Python | [Make `secret-key`, `storage-account` and `container-name` fields required in TF variables for azure-storage](https://github.com/canonical/spark-k8s-bundle/issues/139) | 1 |
 | canonical/spark-k8s-toolkit-py | Python | [Prettify the output printed by the CLI commands](https://github.com/canonical/spark-k8s-toolkit-py/issues/56) | 1 |
 | canonical/tempo-operators | Python | [Wrong `LogQL` in dashboard](https://github.com/canonical/tempo-operators/issues/272) | 1 |
+| canonical/testflinger | Python | [Remove blank line from `jobs` listing and consider adding single column mode](https://github.com/canonical/testflinger/issues/1042) | 1 |
 | canonical/traefik-k8s-operator | Python | [Output the correct message when traefik is not deployed with --trust](https://github.com/canonical/traefik-k8s-operator/issues/589) | 1 |
 | canonical/traefik-k8s-operator | Python | [missing substitution in log message](https://github.com/canonical/traefik-k8s-operator/issues/439) | 1 |
 | canonical/ubuntu-security-documentation | Python | [[security-features] `cloud-prng-seed.rst` contains dead links](https://github.com/canonical/ubuntu-security-documentation/issues/80) | 1 |
@@ -456,6 +458,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [weekly dashboard view does not have sufficient granularity](https://github.com/ansible/awx/issues/3060) | 2 |
 | canonical/charmcraft | Python | [Improve the 'release' response when resources are automatically released with the charm](https://github.com/canonical/charmcraft/issues/847) | 2 |
 | canonical/charmed-postgresql-snap | Python | [`start-pgbackrest-exporter.sh` does not support non-snapped environments](https://github.com/canonical/charmed-postgresql-snap/issues/169) | 2 |
+| canonical/cloud-init | Python | [[docs]: Users and Groups module schema examples code blocks differ from explanation text](https://github.com/canonical/cloud-init/issues/6857) | 2 |
 | canonical/cloud-init | Python | [[docs]: some DataSources missing from docs](https://github.com/canonical/cloud-init/issues/5341) | 2 |
 | canonical/cloud-init | Python | [[docs]: The terms "#include" and "#include-once" are difficult to define in the documentation](https://github.com/canonical/cloud-init/issues/4408) | 2 |
 | canonical/gh-jira-sync-bot | Python | [Issue is created on closure](https://github.com/canonical/gh-jira-sync-bot/issues/40) | 2 |
@@ -629,7 +632,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | canonical/open-documentation-academy | Python | [Website: Create an article summarizing the presentation "Documentation as code" done by Robert Kratky](https://github.com/canonical/open-documentation-academy/issues/229) | 9 |
 | canonical/snapcraft | Python | [Add link from `snapcraft register` to documentation](https://github.com/canonical/snapcraft/issues/5042) | 9 |
 | django/djangoproject.com | Python | [Remove non-canonical docs versions from sitemap.xml](https://github.com/django/djangoproject.com/issues/878) | 9 |
-| pytorch/executorch | Python | [Check tensor's dim order ambiguity in IR verifier](https://github.com/pytorch/executorch/issues/9942) | 10 |
 | pytorch/pytorch | Python | [Using an empty tensor and `torch.int64` or `torch.bool` for `dtype` of `nanmean()` works while a non-empty tensor doesn't work](https://github.com/pytorch/pytorch/issues/131043) | 10 |
 | pytorch/pytorch | Python | [Expand Tag Set: views & reductions](https://github.com/pytorch/pytorch/issues/129020) | 10 |
 | huggingface/datasets | Python | [Identical keywords in build_kwargs and config_kwargs lead to TypeError in load_dataset_builder()](https://github.com/huggingface/datasets/issues/4910) | 10 |
@@ -664,7 +666,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | django/djangoproject.com | Python | [Localize the fundraising app](https://github.com/django/djangoproject.com/issues/377) | 17 |
 | pytorch/ao | Python | [Add codebook (look up table based) quantization flow in torchao](https://github.com/pytorch/ao/issues/1195) | 18 |
 | pytorch/audio | Python | [Add Stereo to Mono Convertions](https://github.com/pytorch/audio/issues/877) | 18 |
-| pytorch/executorch | Python | [[Request impl] Devtool end-to-end tests](https://github.com/pytorch/executorch/issues/9778) | 18 |
 | pytorch/pytorch | Python | [Obscure error: Expected a value of type 'List[int]' for argument 'sizes' but instead found type 'immutable_list'](https://github.com/pytorch/pytorch/issues/122129) | 18 |
 | huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 18 |
 | huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 18 |
@@ -672,7 +673,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | canonical/open-documentation-academy | Python | [Ubuntu Core: replace Markdown links with MyST references](https://github.com/canonical/open-documentation-academy/issues/243) | 21 |
 | huggingface/diffusers | Python | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 22 |
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 26 |
-| canonical/open-documentation-academy | Python | [Ubuntu Server: building up the glossary](https://github.com/canonical/open-documentation-academy/issues/166) | 28 |
+| canonical/open-documentation-academy | Python | [Ubuntu Server: building up the glossary](https://github.com/canonical/open-documentation-academy/issues/166) | 29 |
 | pytorch/ignite | Python | [🥇 Everyone is welcome to contribute 💯 ](https://github.com/pytorch/ignite/issues/2026) | 40 |
 | huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 54 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 |
