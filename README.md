@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-05-01</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-05-02</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -115,7 +115,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | C++ | [[ONNXModelLoader] Support for LogSoftmax operator is missing](https://github.com/pytorch/glow/issues/4399) | 16 |
 | pytorch/glow | C++ | [Use explicit std::string conversions instead of implicit llvm::StringRef->std::string conversions to prepare Glow for builds using LLVM >=11](https://github.com/pytorch/glow/issues/5068) | 18 |
 | godotengine/godot | C++ | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 24 |
-| godotengine/godot | C++ | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 32 |
+| godotengine/godot | C++ | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 33 |
 | godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 247 |
 | canonical/ulwazi | CSS | [Cookie consent banner fails to show](https://github.com/canonical/ulwazi/issues/91) | 0 |
 | canonical/ulwazi | CSS | [Weirdly looking code blocks captions](https://github.com/canonical/ulwazi/issues/78) | 0 |
@@ -271,8 +271,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [Is the loss of the first word covered during the language model evaluation?](https://github.com/pytorch/examples/issues/453) | 0 |
 | pytorch/examples | Python | [The casting problem on the result of the model.](https://github.com/pytorch/examples/issues/433) | 0 |
 | pytorch/examples | Python | [Example code (mnist) does not work under torch.utils.bottleneck](https://github.com/pytorch/examples/issues/391) | 0 |
-| pytorch/executorch | Python | [Content changes required in Doc page](https://github.com/pytorch/executorch/issues/19258) | 0 |
-| pytorch/executorch | Python | [Outdated versions in links on ET Doc page](https://github.com/pytorch/executorch/issues/19257) | 0 |
 | pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.bitwise_or`](https://github.com/pytorch/executorch/issues/18926) | 0 |
 | pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.hardtanh`](https://github.com/pytorch/executorch/issues/18921) | 0 |
 | pytorch/executorch | Python | [[CMake] Potentially duplicated srcs in llama_runner build](https://github.com/pytorch/executorch/issues/10686) | 0 |
@@ -345,6 +343,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [Changes needed to run DCGAN 32x32 ](https://github.com/pytorch/examples/issues/486) | 1 |
 | pytorch/examples | Python | [ImageFolder doc should clarify 1. order that images returned in 2. that all classes are concatenated into a single list](https://github.com/pytorch/examples/issues/400) | 1 |
 | pytorch/examples | Python | [Doc comment on `accuracy` method in imagenet example, incorrect?](https://github.com/pytorch/examples/issues/312) | 1 |
+| pytorch/executorch | Python | [Content changes required in Doc page](https://github.com/pytorch/executorch/issues/19258) | 1 |
+| pytorch/executorch | Python | [Outdated versions in links on ET Doc page](https://github.com/pytorch/executorch/issues/19257) | 1 |
 | pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.isinf`](https://github.com/pytorch/executorch/issues/18922) | 1 |
 | pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.roll`](https://github.com/pytorch/executorch/issues/18919) | 1 |
 | pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for aten.flip](https://github.com/pytorch/executorch/issues/18918) | 1 |
@@ -458,7 +458,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [weekly dashboard view does not have sufficient granularity](https://github.com/ansible/awx/issues/3060) | 2 |
 | canonical/charmcraft | Python | [Improve the 'release' response when resources are automatically released with the charm](https://github.com/canonical/charmcraft/issues/847) | 2 |
 | canonical/charmed-postgresql-snap | Python | [`start-pgbackrest-exporter.sh` does not support non-snapped environments](https://github.com/canonical/charmed-postgresql-snap/issues/169) | 2 |
-| canonical/cloud-init | Python | [[docs]: Users and Groups module schema examples code blocks differ from explanation text](https://github.com/canonical/cloud-init/issues/6857) | 2 |
 | canonical/cloud-init | Python | [[docs]: some DataSources missing from docs](https://github.com/canonical/cloud-init/issues/5341) | 2 |
 | canonical/cloud-init | Python | [[docs]: The terms "#include" and "#include-once" are difficult to define in the documentation](https://github.com/canonical/cloud-init/issues/4408) | 2 |
 | canonical/gh-jira-sync-bot | Python | [Issue is created on closure](https://github.com/canonical/gh-jira-sync-bot/issues/40) | 2 |
@@ -545,6 +544,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [ visualizer info field ](https://github.com/ansible/awx/issues/14597) | 4 |
 | ansible/awx | Python | [Remove some of the eslint-disable comments](https://github.com/ansible/awx/issues/11707) | 4 |
 | ansible/awx | Python | [Docker install instructions do not mention how to add awx-logos](https://github.com/ansible/awx/issues/11593) | 4 |
+| canonical/cloud-init | Python | [[docs]: Users and Groups module schema examples code blocks differ from explanation text](https://github.com/canonical/cloud-init/issues/6857) | 4 |
 | canonical/cloud-init | Python | [[docs]: The term "module" does not appear to be rigorously defined in the documentation](https://github.com/canonical/cloud-init/issues/4407) | 4 |
 | canonical/cloud-init | Python | [World writable /usr/lib/cloud-init/clouddir should not be left behind](https://github.com/canonical/cloud-init/issues/4189) | 4 |
 | canonical/cloud-init | Python | [genisoimage may be going away](https://github.com/canonical/cloud-init/issues/3838) | 4 |
@@ -821,7 +821,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | godotengine/godot-docs | reStructuredText | [make_canvas_position_local](https://github.com/godotengine/godot-docs/issues/8313) | 1 |
 | godotengine/godot-docs | reStructuredText | [Inconsistent code example between PhysicsShapeQueryParameters3D and PhysicsServer3D](https://github.com/godotengine/godot-docs/issues/8305) | 1 |
 | godotengine/godot-docs | reStructuredText | [Curve2D.get_closest_point() incorrectly documented](https://github.com/godotengine/godot-docs/issues/5894) | 1 |
-| godotengine/godot-docs | reStructuredText | [Add clarification about what CharacterBody is used for](https://github.com/godotengine/godot-docs/issues/10458) | 2 |
 | godotengine/godot-docs | reStructuredText | [Viewport "use_hdr_2d" documentation point unclear](https://github.com/godotengine/godot-docs/issues/10044) | 2 |
 | godotengine/godot-docs | reStructuredText | [Physics2DDirectSpaceState does not specify local or global coordinates](https://github.com/godotengine/godot-docs/issues/3299) | 2 |
 | godotengine/godot-docs | reStructuredText | [PhysicsDirectSpaceState2D.get_rest_info claims not to use query motion but it does](https://github.com/godotengine/godot-docs/issues/10609) | 4 |
