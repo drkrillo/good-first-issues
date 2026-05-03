@@ -18,7 +18,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 * [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-05-02</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-05-03</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -115,7 +115,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | C++ | [[ONNXModelLoader] Support for LogSoftmax operator is missing](https://github.com/pytorch/glow/issues/4399) | 16 |
 | pytorch/glow | C++ | [Use explicit std::string conversions instead of implicit llvm::StringRef->std::string conversions to prepare Glow for builds using LLVM >=11](https://github.com/pytorch/glow/issues/5068) | 18 |
 | godotengine/godot | C++ | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 24 |
-| godotengine/godot | C++ | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 33 |
+| godotengine/godot | C++ | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 34 |
 | godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 247 |
 | canonical/ulwazi | CSS | [Cookie consent banner fails to show](https://github.com/canonical/ulwazi/issues/91) | 0 |
 | canonical/ulwazi | CSS | [Weirdly looking code blocks captions](https://github.com/canonical/ulwazi/issues/78) | 0 |
@@ -224,7 +224,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/probability | Jupyter Notebook | [[Feature Request] Zero-Inflated Poisson and Negative Binomial distributions](https://github.com/tensorflow/probability/issues/1134) | 13 |
 | tensorflow/swift-models | Jupyter Notebook | [UNet Example](https://github.com/tensorflow/swift-models/issues/35) | 15 |
 | huggingface/huggingface-llama-recipes | Jupyter Notebook | [Call for contributions](https://github.com/huggingface/huggingface-llama-recipes/issues/43) | 20 |
-| huggingface/agents-course | MDX | [Improve diagrams in unit 2.1](https://github.com/huggingface/agents-course/issues/233) | 4 |
+| huggingface/agents-course | MDX | [Improve diagrams in unit 2.1](https://github.com/huggingface/agents-course/issues/233) | 6 |
 | tensorflow/mlir | Other | [Implement support for qualified symbols](https://github.com/tensorflow/mlir/issues/186) | 0 |
 | huggingface/awesome-huggingface | Other | [[hacktoberfest] Hugging Face Collections Hacktoberfest challenge](https://github.com/huggingface/awesome-huggingface/issues/28) | 0 |
 | decentraland/dapps-issues | Other | [[Events] Update the Share link to use the new `jump-in` site.](https://github.com/decentraland/dapps-issues/issues/247) | 0 |
@@ -574,7 +574,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/nanotron | Python | [[Unit Test] Add unit tests for DistributedTrainer](https://github.com/huggingface/nanotron/issues/90) | 5 |
 | huggingface/optimum-benchmark | Python | [Evaluators for specific tasks](https://github.com/huggingface/optimum-benchmark/issues/34) | 5 |
 | huggingface/sentence-transformers | Python | [Update example scripts relying on `model.fit` to use `SentenceTransformerTrainer` instead](https://github.com/huggingface/sentence-transformers/issues/3621) | 5 |
-| ansible/ansible-lint | Python | ['format' option missing from configuration file schema](https://github.com/ansible/ansible-lint/issues/4898) | 5 |
 | ansible/awx | Python | [Add option to force the user to reset its password at first login](https://github.com/ansible/awx/issues/15766) | 5 |
 | ansible/awx | Python | [ adhoc jobs block other jobs from being processed in the queue](https://github.com/ansible/awx/issues/14645) | 5 |
 | ansible/awx | Python | [all cluster nodes in development environment have the same UUID](https://github.com/ansible/awx/issues/13029) | 5 |
@@ -604,6 +603,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [Enable more flake8-pyi ruff checks](https://github.com/pytorch/pytorch/issues/110950) | 7 |
 | tensorflow/similarity | Python | [Implement SwAV for self-supervised learning](https://github.com/tensorflow/similarity/issues/208) | 7 |
 | huggingface/lighteval | Python | [[EVAL] Long Horizon Execution](https://github.com/huggingface/lighteval/issues/1056) | 7 |
+| ansible/ansible-lint | Python | ['format' option missing from configuration file schema](https://github.com/ansible/ansible-lint/issues/4898) | 7 |
 | canonical/cloud-init | Python | [ssh_import_id does not work on default user](https://github.com/canonical/cloud-init/issues/4306) | 7 |
 | canonical/cloud-init | Python | [package-update-upgrade-install does not update when run with --frequency=always](https://github.com/canonical/cloud-init/issues/3218) | 7 |
 | canonical/cos-lib | Python | [allow using cosl.coordinated_workers.S3ConnectionInfo outside of tempo-loki-mimir](https://github.com/canonical/cos-lib/issues/119) | 7 |
@@ -615,6 +615,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | django/djangoproject.com | Python | [Docs for old supported versions should indicate that a newer version is available](https://github.com/django/djangoproject.com/issues/1122) | 7 |
 | pytorch/pytorch | Python | [[BUG][PyTorch 2.0 Export][quant]:get_source_partitions() may return different matches with same input graph](https://github.com/pytorch/pytorch/issues/147170) | 8 |
 | pytorch/pytorch | Python | [Improve error message for wrong number of arguments in CachingAutotuner](https://github.com/pytorch/pytorch/issues/146018) | 8 |
+| pytorch/pytorch | Python | [Command to reproduce error is incorrect](https://github.com/pytorch/pytorch/issues/106377) | 8 |
 | huggingface/diffusers | Python | [Make `FlaxLMSDiscreteScheduler` jittable](https://github.com/huggingface/diffusers/issues/2180) | 8 |
 | huggingface/lerobot | Python | [Select the VLM backbone for SmolVLA](https://github.com/huggingface/lerobot/issues/2104) | 8 |
 | huggingface/lighteval | Python | [[EVAL] Adding PHARE](https://github.com/huggingface/lighteval/issues/696) | 8 |
@@ -632,7 +633,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | canonical/open-documentation-academy | Python | [Website: Create an article summarizing the presentation "Documentation as code" done by Robert Kratky](https://github.com/canonical/open-documentation-academy/issues/229) | 9 |
 | canonical/snapcraft | Python | [Add link from `snapcraft register` to documentation](https://github.com/canonical/snapcraft/issues/5042) | 9 |
 | django/djangoproject.com | Python | [Remove non-canonical docs versions from sitemap.xml](https://github.com/django/djangoproject.com/issues/878) | 9 |
-| pytorch/pytorch | Python | [Using an empty tensor and `torch.int64` or `torch.bool` for `dtype` of `nanmean()` works while a non-empty tensor doesn't work](https://github.com/pytorch/pytorch/issues/131043) | 10 |
 | pytorch/pytorch | Python | [Expand Tag Set: views & reductions](https://github.com/pytorch/pytorch/issues/129020) | 10 |
 | huggingface/datasets | Python | [Identical keywords in build_kwargs and config_kwargs lead to TypeError in load_dataset_builder()](https://github.com/huggingface/datasets/issues/4910) | 10 |
 | huggingface/datasets | Python | [WMT21 & WMT22](https://github.com/huggingface/datasets/issues/4709) | 10 |
