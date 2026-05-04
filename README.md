@@ -135,7 +135,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | C++ | [Use explicit std::string conversions instead of implicit llvm::StringRef->std::string conversions to prepare Glow for builds using LLVM >=11](https://github.com/pytorch/glow/issues/5068) | 18 |
 | godotengine/godot | C++ | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 24 |
 | godotengine/godot | C++ | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 34 |
-| godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 247 |
+| godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 249 |
 | canonical/ulwazi | CSS | [Cookie consent banner fails to show](https://github.com/canonical/ulwazi/issues/91) | 0 |
 | canonical/ulwazi | CSS | [Weirdly looking code blocks captions](https://github.com/canonical/ulwazi/issues/78) | 0 |
 | canonical/ulwazi | CSS | [The first link in the footer seems to be wrong](https://github.com/canonical/ulwazi/issues/92) | 1 |
