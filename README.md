@@ -3,22 +3,41 @@
 This page contains open issues tagged with the label *good first issue*. It gathers issues from some famous libraries(at least for me).
 Let me know if there are others you would like to see here :pizza:
 
+## How it Works
+
+This project automates the discovery of good first-issues using GitHub API:
+
+* **Smart Discovery**: `RepoManager` identifies all public repositories from the usernames defined in your `.env` file.
+* **Issue Filtering**: `IssueManager` searches those repositories for issues labeled with `good first issue`.
+* **Language Matchmaking**: It identifies the primary language of each repository to help you find tasks in your area of expertise.
+* **Automated Rendering**: Uses **Jinja2** templates and the `TemplateManager` to render the gathered data into this README file.
+* **Daily Updates**: A GitHub Action runs the `update_issues.py` script daily to ensure the list is always updated.
+
+## Local Setup
+
 `update_issues.py` can  be modified to  return the data in json or to csv. 
 To run the script locally:
-* create an `.env` file in the root directory, and add
+* create an `.env` file in the root directory, and add:
+
 ```
 ACCESS_TOKEN=<YOUR_ACCESS_TOKEN>
 USERNAMES=<REPO_OWNER1>,<REPO_OWNER2>,<REPO_OWNER3>,...
 ```
+
 * How to create and  manage GitHub API access tokens in [this article](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).
 
-
+## Useful Resources for Open Source
 If you are wondering where to begin in the  journey contributing to open-source projects, these are good articles to get you started! :sailboat:
 
-* [First Contributions Repository](https://github.com/firstcontributions/first-contributions)
+* [First Contributions Repository](https://github.com/firstcontributions/first-contributions) - Practice the Fork-Pull Request workflow
 * [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
+* [Open Source Guide](https://opensource.guide/) - Comprehensive community guide.
+* [Writing Better Commits](https://cbea.ms/git-commit/) - Learn the art of commit messages.
+* [Markdown Syntax](https://www.markdownguide.org/basic-syntax/) - Master documentation formatting.
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-05-03</sub></sub>
+
+
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-05-04</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -442,7 +461,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/graphics | Python | [Tangential camera distortion/undistortion](https://github.com/tensorflow/graphics/issues/334) | 2 |
 | huggingface/dataset-viewer | Python | [use the `ROW_IDX_COLUMN` constant name instead of copying the value everywhere](https://github.com/huggingface/dataset-viewer/issues/2798) | 2 |
 | huggingface/dataset-viewer | Python | [Use "Sign-In with HF" instead of token in admin-UI](https://github.com/huggingface/dataset-viewer/issues/2373) | 2 |
-| huggingface/lerobot | Python | [SO-101 leader precision](https://github.com/huggingface/lerobot/issues/2074) | 2 |
 | huggingface/lerobot | Python | [Finetune smolvla with vision encoder](https://github.com/huggingface/lerobot/issues/1774) | 2 |
 | huggingface/lighteval | Python | [Call for contributions: Translate lighteval's doc into Chinese](https://github.com/huggingface/lighteval/issues/716) | 2 |
 | huggingface/nanotron | Python | [[Feature] Asyncronous Serialization](https://github.com/huggingface/nanotron/issues/87) | 2 |
@@ -593,7 +611,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/ansible-documentation | Python | [Misleading statement about "defaults" and "vars" sub-folders of roles](https://github.com/ansible/ansible-documentation/issues/2994) | 6 |
 | ansible/ansible-navigator | Python | [Allow to set ansible-runner artifacts dir ID ](https://github.com/ansible/ansible-navigator/issues/521) | 6 |
 | ansible/awx | Python | [AWX Collection Credential Delete](https://github.com/ansible/awx/issues/14209) | 6 |
-| canonical/cloud-init | Python | [[enhancement]: fix typing of untyped-defs](https://github.com/canonical/cloud-init/issues/5445) | 6 |
 | canonical/cloud-init | Python | [[enhancement]: Relocate json schemas somewhere more sensible](https://github.com/canonical/cloud-init/issues/4688) | 6 |
 | canonical/open-documentation-academy | Python | [LXD: configure `cloud-init` from a file](https://github.com/canonical/open-documentation-academy/issues/63) | 6 |
 | django/djangoproject.com | Python | [Support switching languages on non-docs sites](https://github.com/django/djangoproject.com/issues/883) | 6 |
@@ -604,6 +621,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/similarity | Python | [Implement SwAV for self-supervised learning](https://github.com/tensorflow/similarity/issues/208) | 7 |
 | huggingface/lighteval | Python | [[EVAL] Long Horizon Execution](https://github.com/huggingface/lighteval/issues/1056) | 7 |
 | ansible/ansible-lint | Python | ['format' option missing from configuration file schema](https://github.com/ansible/ansible-lint/issues/4898) | 7 |
+| canonical/cloud-init | Python | [[enhancement]: fix typing of untyped-defs](https://github.com/canonical/cloud-init/issues/5445) | 7 |
 | canonical/cloud-init | Python | [ssh_import_id does not work on default user](https://github.com/canonical/cloud-init/issues/4306) | 7 |
 | canonical/cloud-init | Python | [package-update-upgrade-install does not update when run with --frequency=always](https://github.com/canonical/cloud-init/issues/3218) | 7 |
 | canonical/cos-lib | Python | [allow using cosl.coordinated_workers.S3ConnectionInfo outside of tempo-loki-mimir](https://github.com/canonical/cos-lib/issues/119) | 7 |
@@ -631,7 +649,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/similarity | Python | [Lifted Structured loss](https://github.com/tensorflow/similarity/issues/102) | 9 |
 | huggingface/diffusers | Python | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 9 |
 | canonical/open-documentation-academy | Python | [Website: Create an article summarizing the presentation "Documentation as code" done by Robert Kratky](https://github.com/canonical/open-documentation-academy/issues/229) | 9 |
-| canonical/snapcraft | Python | [Add link from `snapcraft register` to documentation](https://github.com/canonical/snapcraft/issues/5042) | 9 |
 | django/djangoproject.com | Python | [Remove non-canonical docs versions from sitemap.xml](https://github.com/django/djangoproject.com/issues/878) | 9 |
 | pytorch/pytorch | Python | [Expand Tag Set: views & reductions](https://github.com/pytorch/pytorch/issues/129020) | 10 |
 | huggingface/datasets | Python | [Identical keywords in build_kwargs and config_kwargs lead to TypeError in load_dataset_builder()](https://github.com/huggingface/datasets/issues/4910) | 10 |
