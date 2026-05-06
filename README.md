@@ -37,7 +37,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-05-04</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-05-06</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -349,7 +349,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | canonical/parca-scrape-target-operator | Python | [Add CONTRIBUTING.md](https://github.com/canonical/parca-scrape-target-operator/issues/55) | 0 |
 | canonical/powershell-snaps | Python | [Create CI validation for release channel names](https://github.com/canonical/powershell-snaps/issues/20) | 0 |
 | canonical/prometheus-k8s-operator | Python | [Metrics are still received after Grafana Agent stops](https://github.com/canonical/prometheus-k8s-operator/issues/643) | 0 |
-| canonical/pycloudlib | Python | [Contributing guidelines seem outdated](https://github.com/canonical/pycloudlib/issues/377) | 0 |
 | canonical/pycloudlib | Python | [Consistent console_log() API](https://github.com/canonical/pycloudlib/issues/363) | 0 |
 | canonical/redis-k8s-operator | Python | [Add integration tests that scale relating app](https://github.com/canonical/redis-k8s-operator/issues/48) | 0 |
 | canonical/script-exporter-operator | Python | [Change the path of script-exporter-script](https://github.com/canonical/script-exporter-operator/issues/12) | 0 |
@@ -362,15 +361,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [Changes needed to run DCGAN 32x32 ](https://github.com/pytorch/examples/issues/486) | 1 |
 | pytorch/examples | Python | [ImageFolder doc should clarify 1. order that images returned in 2. that all classes are concatenated into a single list](https://github.com/pytorch/examples/issues/400) | 1 |
 | pytorch/examples | Python | [Doc comment on `accuracy` method in imagenet example, incorrect?](https://github.com/pytorch/examples/issues/312) | 1 |
-| pytorch/executorch | Python | [Content changes required in Doc page](https://github.com/pytorch/executorch/issues/19258) | 1 |
-| pytorch/executorch | Python | [Outdated versions in links on ET Doc page](https://github.com/pytorch/executorch/issues/19257) | 1 |
 | pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.isinf`](https://github.com/pytorch/executorch/issues/18922) | 1 |
-| pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.roll`](https://github.com/pytorch/executorch/issues/18919) | 1 |
 | pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for aten.flip](https://github.com/pytorch/executorch/issues/18918) | 1 |
 | pytorch/executorch | Python | [Add dynamism tests for xnnpack model tests](https://github.com/pytorch/executorch/issues/11585) | 1 |
 | pytorch/executorch | Python | [Implement load_into for the shared_ptr data loader](https://github.com/pytorch/executorch/issues/11562) | 1 |
 | pytorch/executorch | Python | [[Android] Use generic JNI instead of fbjni](https://github.com/pytorch/executorch/issues/10444) | 1 |
 | pytorch/PiPPy | Python | [Support LayoutLM models in HF tests](https://github.com/pytorch/PiPPy/issues/247) | 1 |
+| pytorch/pytorch | Python | [[Docathon] Convert `elastic/run.rst` from rST to MyST Markdown](https://github.com/pytorch/pytorch/issues/182472) | 1 |
 | pytorch/text | Python | [torchtext main branch doesn't support pytorch2.0](https://github.com/pytorch/text/issues/2052) | 1 |
 | pytorch/torcharrow | Python | [Default aggregation functions delegates to Arrow Compute ](https://github.com/pytorch/torcharrow/issues/53) | 1 |
 | pytorch/torchchat | Python | [GeneratorArgs.is_torchtune_model is a misnomer](https://github.com/pytorch/torchchat/issues/1273) | 1 |
@@ -414,14 +411,13 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | canonical/postgresql-k8s-operator | Python | [Improve config options validation](https://github.com/canonical/postgresql-k8s-operator/issues/295) | 1 |
 | canonical/postgresql-operator | Python | [Move `--log-level-stderr=warn` to pgBackRest's configuration file](https://github.com/canonical/postgresql-operator/issues/1353) | 1 |
 | canonical/postgresql-test-app | Python | [Create a nightly test run for self-checking](https://github.com/canonical/postgresql-test-app/issues/148) | 1 |
+| canonical/pycloudlib | Python | [Contributing guidelines seem outdated](https://github.com/canonical/pycloudlib/issues/377) | 1 |
 | canonical/pyroscope-operators | Python | [use nginx module from charmlibs](https://github.com/canonical/pyroscope-operators/issues/285) | 1 |
 | canonical/rockcraft | Python | [docs: Running Flask, Django and FastAPI should be in a code block](https://github.com/canonical/rockcraft/issues/1145) | 1 |
 | canonical/rockcraft | Python | [Help includes expand-extensions entry with reference to snapcraft.yaml](https://github.com/canonical/rockcraft/issues/658) | 1 |
-| canonical/snapcraft | Python | [Recommend using newer versions of snapcraft](https://github.com/canonical/snapcraft/issues/4958) | 1 |
 | canonical/spark-k8s-bundle | Python | [Make `secret-key`, `storage-account` and `container-name` fields required in TF variables for azure-storage](https://github.com/canonical/spark-k8s-bundle/issues/139) | 1 |
 | canonical/spark-k8s-toolkit-py | Python | [Prettify the output printed by the CLI commands](https://github.com/canonical/spark-k8s-toolkit-py/issues/56) | 1 |
 | canonical/tempo-operators | Python | [Wrong `LogQL` in dashboard](https://github.com/canonical/tempo-operators/issues/272) | 1 |
-| canonical/testflinger | Python | [Remove blank line from `jobs` listing and consider adding single column mode](https://github.com/canonical/testflinger/issues/1042) | 1 |
 | canonical/traefik-k8s-operator | Python | [Output the correct message when traefik is not deployed with --trust](https://github.com/canonical/traefik-k8s-operator/issues/589) | 1 |
 | canonical/traefik-k8s-operator | Python | [missing substitution in log message](https://github.com/canonical/traefik-k8s-operator/issues/439) | 1 |
 | canonical/ubuntu-security-documentation | Python | [[security-features] `cloud-prng-seed.rst` contains dead links](https://github.com/canonical/ubuntu-security-documentation/issues/80) | 1 |
@@ -451,6 +447,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | Python | [Need a feature to get etdump while running LLAMA model on qnn with qnn_llama_runner](https://github.com/pytorch/executorch/issues/10580) | 2 |
 | pytorch/executorch | Python | [[Request impl] Gracefully error out in ETDump](https://github.com/pytorch/executorch/issues/9971) | 2 |
 | pytorch/PiPPy | Python | [Make RemoteInterpreter use the full implementation of `Interpreter.run`](https://github.com/pytorch/PiPPy/issues/25) | 2 |
+| pytorch/pytorch | Python | [[Docathon] Convert `nn.init.rst` from rST to MyST Markdown](https://github.com/pytorch/pytorch/issues/182479) | 2 |
 | pytorch/pytorch | Python | [[BE] Deduplicate auto_functionalized and triton_kernel_wrapper_functional](https://github.com/pytorch/pytorch/issues/133443) | 2 |
 | pytorch/pytorch | Python | [[PT2] [Hardening] Track recompiles alongside graph breaks in our actual/expected comparison CI runs](https://github.com/pytorch/pytorch/issues/113040) | 2 |
 | pytorch/rl | Python | [[Feature Request] Make sure that all losses work with tensorclasses and regular tensors](https://github.com/pytorch/rl/issues/1062) | 2 |
@@ -545,6 +542,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | canonical/open-documentation-academy | Python | [[Ubuntu Project] Add (describe) a glossary term: branch](https://github.com/canonical/open-documentation-academy/issues/246) | 3 |
 | canonical/pgbouncer-operator | Python | [Add configuration for max_prepared_statements](https://github.com/canonical/pgbouncer-operator/issues/425) | 3 |
 | canonical/redis-k8s-operator | Python | [Add integration test coverage for HA of metrics exporter](https://github.com/canonical/redis-k8s-operator/issues/86) | 3 |
+| canonical/snapcraft | Python | [Recommend using newer versions of snapcraft](https://github.com/canonical/snapcraft/issues/4958) | 3 |
 | pytorch/ao | Python | [[llama] Use horizontal fusion trick from Attention for FeedForward](https://github.com/pytorch/ao/issues/606) | 4 |
 | pytorch/ao | Python | [Quantized Training](https://github.com/pytorch/ao/issues/554) | 4 |
 | pytorch/examples | Python | [Please change dcgan to load truncated images.](https://github.com/pytorch/examples/issues/835) | 4 |
@@ -617,6 +615,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/examples | Python | [Why don't we use MSE as a reconstruction loss for VAE ?](https://github.com/pytorch/examples/issues/399) | 7 |
 | pytorch/executorch | Python | [Rename `executorch` cmake target to `prim_ops_lib`](https://github.com/pytorch/executorch/issues/11761) | 7 |
 | pytorch/executorch | Python | [Add timestamps for pte generation in CI](https://github.com/pytorch/executorch/issues/10761) | 7 |
+| pytorch/executorch | Python | [[Request Impl] Apply Segment Serialization in Bundled Program](https://github.com/pytorch/executorch/issues/9771) | 7 |
 | pytorch/pytorch | Python | [Enable more flake8-pyi ruff checks](https://github.com/pytorch/pytorch/issues/110950) | 7 |
 | tensorflow/similarity | Python | [Implement SwAV for self-supervised learning](https://github.com/tensorflow/similarity/issues/208) | 7 |
 | huggingface/lighteval | Python | [[EVAL] Long Horizon Execution](https://github.com/huggingface/lighteval/issues/1056) | 7 |
@@ -632,8 +631,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | django/djangoproject.com | Python | [Improve Documentation by having list of topics fixed on the left and table of contents on the right ](https://github.com/django/djangoproject.com/issues/1129) | 7 |
 | django/djangoproject.com | Python | [Docs for old supported versions should indicate that a newer version is available](https://github.com/django/djangoproject.com/issues/1122) | 7 |
 | pytorch/pytorch | Python | [[BUG][PyTorch 2.0 Export][quant]:get_source_partitions() may return different matches with same input graph](https://github.com/pytorch/pytorch/issues/147170) | 8 |
-| pytorch/pytorch | Python | [Improve error message for wrong number of arguments in CachingAutotuner](https://github.com/pytorch/pytorch/issues/146018) | 8 |
-| pytorch/pytorch | Python | [Command to reproduce error is incorrect](https://github.com/pytorch/pytorch/issues/106377) | 8 |
 | huggingface/diffusers | Python | [Make `FlaxLMSDiscreteScheduler` jittable](https://github.com/huggingface/diffusers/issues/2180) | 8 |
 | huggingface/lerobot | Python | [Select the VLM backbone for SmolVLA](https://github.com/huggingface/lerobot/issues/2104) | 8 |
 | huggingface/lighteval | Python | [[EVAL] Adding PHARE](https://github.com/huggingface/lighteval/issues/696) | 8 |
@@ -644,12 +641,14 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | django/djangoproject.com | Python | [Improvements to the Corporate Sponsor Experience](https://github.com/django/djangoproject.com/issues/1171) | 8 |
 | django/djangoproject.com | Python | [Use noindex meta tag or header, not robots.txt, to block untranslated docs pages](https://github.com/django/djangoproject.com/issues/877) | 8 |
 | pytorch/audio | Python | [Use non-persistent buffers](https://github.com/pytorch/audio/issues/3059) | 9 |
+| pytorch/pytorch | Python | [Improve error message for wrong number of arguments in CachingAutotuner](https://github.com/pytorch/pytorch/issues/146018) | 9 |
 | pytorch/pytorch | Python | [dynamo (re)compilation issues: shape (1,1), nn.Parameter, mark_dynamic](https://github.com/pytorch/pytorch/issues/135011) | 9 |
 | pytorch/pytorch | Python | [[Dynamo] Support tracing through _get_current_dispatch_mode_stack](https://github.com/pytorch/pytorch/issues/125694) | 9 |
 | tensorflow/similarity | Python | [Lifted Structured loss](https://github.com/tensorflow/similarity/issues/102) | 9 |
 | huggingface/diffusers | Python | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 9 |
 | canonical/open-documentation-academy | Python | [Website: Create an article summarizing the presentation "Documentation as code" done by Robert Kratky](https://github.com/canonical/open-documentation-academy/issues/229) | 9 |
 | django/djangoproject.com | Python | [Remove non-canonical docs versions from sitemap.xml](https://github.com/django/djangoproject.com/issues/878) | 9 |
+| pytorch/executorch | Python | [Check tensor's dim order ambiguity in IR verifier](https://github.com/pytorch/executorch/issues/9942) | 10 |
 | pytorch/pytorch | Python | [Expand Tag Set: views & reductions](https://github.com/pytorch/pytorch/issues/129020) | 10 |
 | huggingface/datasets | Python | [Identical keywords in build_kwargs and config_kwargs lead to TypeError in load_dataset_builder()](https://github.com/huggingface/datasets/issues/4910) | 10 |
 | huggingface/datasets | Python | [WMT21 & WMT22](https://github.com/huggingface/datasets/issues/4709) | 10 |
@@ -660,7 +659,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [foreach_map enhancements](https://github.com/pytorch/pytorch/issues/158968) | 11 |
 | pytorch/pytorch | Python | [Docs are little bit outdated for torch logs](https://github.com/pytorch/pytorch/issues/137285) | 11 |
 | pytorch/pytorch | Python | [bmm, topk, cholesky, linalg.norm, max with out variants set causing recompilations in torch.compile](https://github.com/pytorch/pytorch/issues/135859) | 11 |
-| pytorch/pytorch | Python | [Enable more flake8-bugbear lints](https://github.com/pytorch/pytorch/issues/106571) | 11 |
 | tensorflow/quantum | Python | [[Performance] Boost tfq.convert_to_tensor speed](https://github.com/tensorflow/quantum/issues/336) | 11 |
 | huggingface/diffusers | Python | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 11 |
 | django/djangoproject.com | Python | [Add link to 'Stable' doc version in the Warning Alert on top](https://github.com/django/djangoproject.com/issues/2094) | 11 |
@@ -683,6 +681,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | django/djangoproject.com | Python | [Localize the fundraising app](https://github.com/django/djangoproject.com/issues/377) | 17 |
 | pytorch/ao | Python | [Add codebook (look up table based) quantization flow in torchao](https://github.com/pytorch/ao/issues/1195) | 18 |
 | pytorch/audio | Python | [Add Stereo to Mono Convertions](https://github.com/pytorch/audio/issues/877) | 18 |
+| pytorch/executorch | Python | [[Request impl] Devtool end-to-end tests](https://github.com/pytorch/executorch/issues/9778) | 18 |
 | pytorch/pytorch | Python | [Obscure error: Expected a value of type 'List[int]' for argument 'sizes' but instead found type 'immutable_list'](https://github.com/pytorch/pytorch/issues/122129) | 18 |
 | huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 18 |
 | huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 18 |
@@ -692,7 +691,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 26 |
 | canonical/open-documentation-academy | Python | [Ubuntu Server: building up the glossary](https://github.com/canonical/open-documentation-academy/issues/166) | 29 |
 | pytorch/ignite | Python | [🥇 Everyone is welcome to contribute 💯 ](https://github.com/pytorch/ignite/issues/2026) | 40 |
-| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 54 |
+| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 56 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 |
 | decentraland/godot-explorer | Rust | [[Bug]: Interaction Feedback Doesn't Trigger when holding one Control (E.g Joystick)](https://github.com/decentraland/godot-explorer/issues/1170) | 0 |
 | decentraland/godot-explorer | Rust | [[Bug]: Bio Core - text displaying outside of UI frame](https://github.com/decentraland/godot-explorer/issues/1046) | 0 |
@@ -784,7 +783,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | decentraland/decentraland-connect | TypeScript | [Consider tracking provider method usage](https://github.com/decentraland/decentraland-connect/issues/13) | 0 |
 | decentraland/decentraland-dapps | TypeScript | [Support Trezor for meta txs](https://github.com/decentraland/decentraland-dapps/issues/220) | 0 |
 | decentraland/decentraland-dapps | TypeScript | [Make the track function `add` generic so we can type the action it supplies](https://github.com/decentraland/decentraland-dapps/issues/143) | 0 |
-| decentraland/events | TypeScript | [feat: change to dark mode](https://github.com/decentraland/events/pull/855) | 0 |
 | decentraland/explorer | TypeScript | [Add new AvatarModifier: Force camera mode](https://github.com/decentraland/explorer/issues/1948) | 0 |
 | decentraland/explorer-website | TypeScript | [Add prettier](https://github.com/decentraland/explorer-website/issues/107) | 0 |
 | decentraland/governance | TypeScript | [Formatting within comments is not displayed correctly](https://github.com/decentraland/governance/issues/776) | 0 |
@@ -815,7 +813,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | decentraland/explorer | TypeScript | [Blocking error on console: "Warning: Unsupported graphics API WebGL 2.0"](https://github.com/decentraland/explorer/issues/1333) | 1 |
 | decentraland/marketplace | TypeScript | [Capitalize land filter words](https://github.com/decentraland/marketplace/issues/1395) | 1 |
 | decentraland/marketplace | TypeScript | [Inject `title` and description for each page](https://github.com/decentraland/marketplace/issues/603) | 1 |
-| decentraland/places | TypeScript | [feat: change to dark mode](https://github.com/decentraland/places/pull/755) | 1 |
 | canonical/charming-actions | TypeScript | [Add `microk8s.inspect`?](https://github.com/canonical/charming-actions/issues/28) | 1 |
 | huggingface/huggingface.js | TypeScript | [Maximize button not working properly on Hosted inference API block](https://github.com/huggingface/huggingface.js/issues/335) | 2 |
 | ansible/ansible-ui | TypeScript | [Logo not loading correctly when building UI together with backend in a single image](https://github.com/ansible/ansible-ui/issues/3086) | 2 |
