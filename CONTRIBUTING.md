@@ -5,7 +5,7 @@ Thank you for your interest in contributing! This is a project aimed at help dev
 ## How to contribute
 - Browse open issues. You can pick one labeled `good first issue` if you want to get started with an easy one. 
 - Fork the repository and ideally create a branch with a descriptive name of what you are solving. 
-- Submit a pull request with a clear description of your changes. If it's related with an existing Issue, please link it.
+- **Submit a pull request to dev** with a clear description of your changes. If it's related with an existing Issue, please link it.
 
 ## Running tests
 See [TESTING.md](TESTING.md) for instructions on running the test suite.
