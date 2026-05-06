@@ -3,15 +3,7 @@
 This page contains open issues tagged with the label *good first issue*. It gathers issues from some famous libraries(at least for me).
 Let me know if there are others you would like to see here :pizza:
 
-## How it Works
-
-This project automates the discovery of good first-issues using GitHub API:
-
-* **Smart Discovery**: `RepoManager` identifies all public repositories from the usernames defined in your `.env` file.
-* **Issue Filtering**: `IssueManager` searches those repositories for issues labeled with `good first issue`.
-* **Language Matchmaking**: It identifies the primary language of each repository to help you find tasks in your area of expertise.
-* **Automated Rendering**: Uses **Jinja2** templates and the `TemplateManager` to render the gathered data into this README file.
-* **Daily Updates**: A GitHub Action runs the `update_issues.py` script daily to ensure the list is always updated.
+For more details, see [How It Works](docs/how-it-works.md).
 
 ## Local Setup
 
@@ -138,7 +130,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 249 |
 | canonical/ulwazi | CSS | [Cookie consent banner fails to show](https://github.com/canonical/ulwazi/issues/91) | 0 |
 | canonical/ulwazi | CSS | [Weirdly looking code blocks captions](https://github.com/canonical/ulwazi/issues/78) | 0 |
-| canonical/ulwazi | CSS | [The first link in the footer seems to be wrong](https://github.com/canonical/ulwazi/issues/92) | 1 |
 | canonical/ulwazi | CSS | [Font size of numbers in numerated lists seems too big](https://github.com/canonical/ulwazi/issues/81) | 1 |
 | canonical/jepsen.dqlite | Clojure | [Use go-dqlite's TLS connections](https://github.com/canonical/jepsen.dqlite/issues/103) | 0 |
 | ansible/pylibssh | Cython | [[TODO] Ensure release builds don't include debug symbols](https://github.com/ansible/pylibssh/issues/767) | 0 |
@@ -367,7 +358,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | Python | [Implement load_into for the shared_ptr data loader](https://github.com/pytorch/executorch/issues/11562) | 1 |
 | pytorch/executorch | Python | [[Android] Use generic JNI instead of fbjni](https://github.com/pytorch/executorch/issues/10444) | 1 |
 | pytorch/PiPPy | Python | [Support LayoutLM models in HF tests](https://github.com/pytorch/PiPPy/issues/247) | 1 |
-| pytorch/pytorch | Python | [[Docathon] Convert `elastic/run.rst` from rST to MyST Markdown](https://github.com/pytorch/pytorch/issues/182472) | 1 |
 | pytorch/text | Python | [torchtext main branch doesn't support pytorch2.0](https://github.com/pytorch/text/issues/2052) | 1 |
 | pytorch/torcharrow | Python | [Default aggregation functions delegates to Arrow Compute ](https://github.com/pytorch/torcharrow/issues/53) | 1 |
 | pytorch/torchchat | Python | [GeneratorArgs.is_torchtune_model is a misnomer](https://github.com/pytorch/torchchat/issues/1273) | 1 |
@@ -560,7 +550,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | ansible/awx | Python | [ visualizer info field ](https://github.com/ansible/awx/issues/14597) | 4 |
 | ansible/awx | Python | [Remove some of the eslint-disable comments](https://github.com/ansible/awx/issues/11707) | 4 |
 | ansible/awx | Python | [Docker install instructions do not mention how to add awx-logos](https://github.com/ansible/awx/issues/11593) | 4 |
-| canonical/cloud-init | Python | [[docs]: Users and Groups module schema examples code blocks differ from explanation text](https://github.com/canonical/cloud-init/issues/6857) | 4 |
 | canonical/cloud-init | Python | [[docs]: The term "module" does not appear to be rigorously defined in the documentation](https://github.com/canonical/cloud-init/issues/4407) | 4 |
 | canonical/cloud-init | Python | [World writable /usr/lib/cloud-init/clouddir should not be left behind](https://github.com/canonical/cloud-init/issues/4189) | 4 |
 | canonical/cloud-init | Python | [genisoimage may be going away](https://github.com/canonical/cloud-init/issues/3838) | 4 |
@@ -575,6 +564,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/audio | Python | [read mp3 file fail](https://github.com/pytorch/audio/issues/2867) | 5 |
 | pytorch/executorch | Python | [Good First Issue: Enable Gemma 4 on MLX Backend](https://github.com/pytorch/executorch/issues/18928) | 5 |
 | pytorch/executorch | Python | [Good First Issue: Add MLX Op Handler for `aten.bitwise_xor`](https://github.com/pytorch/executorch/issues/18927) | 5 |
+| pytorch/pytorch | Python | [[Docathon] Convert `elastic/run.rst` from rST to MyST Markdown](https://github.com/pytorch/pytorch/issues/182472) | 5 |
 | pytorch/pytorch | Python | [Use typing_extensions.TypeAliasType for better reexport of `__module__`](https://github.com/pytorch/pytorch/issues/171905) | 5 |
 | pytorch/pytorch | Python | [Report WHY a symbol was created dynamically in symbolic_shapes logs](https://github.com/pytorch/pytorch/issues/137527) | 5 |
 | pytorch/pytorch | Python | [torch.fx.Tracer.record_stack_traces is broken in torch 2.4.0](https://github.com/pytorch/pytorch/issues/130861) | 5 |
