@@ -2,7 +2,10 @@ import logging
 
 import datetime
 import time
-import requests 
+import argparse
+import csv
+import json
+import requests
 
 from jinja2 import Environment, FileSystemLoader
 
@@ -24,7 +27,21 @@ from app.core.api_handler import (
 today = str(datetime.datetime.today().strftime('%Y-%m-%d'))
 template_path = get_template_path()
 
-def main():
+def write_output(issues, output_file):
+    """Write issues to a file in CSV or JSON format."""
+    ext = output_file.lower().split('.')[-1]
+    if ext == 'csv':
+        with open(output_file, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.DictWriter(f, fieldnames=['repo', 'language', 'title', 'url', 'comments', 'labels', 'state'])
+            writer.writeheader()
+            writer.writerows(issues)
+    elif ext == 'json':
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(issues, f, indent=2)
+    else:
+        raise ValueError(f"Unsupported output format: .{ext} (use --output issues.csv or --output issues.json)")
+
+def main(args):
     """
     1- Gathers all issues associated with all public repos
     in the usernames list defined at the beginning of the scrit.
@@ -49,6 +66,10 @@ def main():
 
         formatted_response = TemplateManager.format_response(issues)
 
+        if args.output:
+            write_output(issues, args.output)
+            logging.info(f"Wrote {len(issues)} issues to {args.output}")
+
         logging.info(f"Formatted issues first row: {formatted_response[0]}")
         
         TemplateManager.render_template(
@@ -64,7 +85,11 @@ def main():
         
 if __name__ == '__main__':
 
+    parser = argparse.ArgumentParser(description='Find Good First Issues')
+    parser.add_argument('--output', help='Output file path (e.g. issues.csv or issues.json)')
+    args = parser.parse_args()
+
     start_time = time.perf_counter()
-    main()
+    main(args)
     end_time = time.perf_counter()
     logging.info(f"Script runtime: {end_time - start_time}")

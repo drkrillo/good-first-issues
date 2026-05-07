@@ -61,6 +61,8 @@ class IssueManager:
             issue['title'] = raw_issue[1]['title']
             issue['url'] = raw_issue[1]['html_url']
             issue['comments'] = raw_issue[1]['comments']
+            issue['labels'] = [l['name'] for l in raw_issue[1].get('labels', [])]
+            issue['state'] = raw_issue[1].get('state', 'open')
         
             return issue
         except Exception as error:
