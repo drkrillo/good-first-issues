@@ -437,7 +437,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | Python | [Need a feature to get etdump while running LLAMA model on qnn with qnn_llama_runner](https://github.com/pytorch/executorch/issues/10580) | 2 |
 | pytorch/executorch | Python | [[Request impl] Gracefully error out in ETDump](https://github.com/pytorch/executorch/issues/9971) | 2 |
 | pytorch/PiPPy | Python | [Make RemoteInterpreter use the full implementation of `Interpreter.run`](https://github.com/pytorch/PiPPy/issues/25) | 2 |
-| pytorch/pytorch | Python | [[Docathon] Convert `nn.init.rst` from rST to MyST Markdown](https://github.com/pytorch/pytorch/issues/182479) | 2 |
 | pytorch/pytorch | Python | [[BE] Deduplicate auto_functionalized and triton_kernel_wrapper_functional](https://github.com/pytorch/pytorch/issues/133443) | 2 |
 | pytorch/pytorch | Python | [[PT2] [Hardening] Track recompiles alongside graph breaks in our actual/expected comparison CI runs](https://github.com/pytorch/pytorch/issues/113040) | 2 |
 | pytorch/rl | Python | [[Feature Request] Make sure that all losses work with tensorclasses and regular tensors](https://github.com/pytorch/rl/issues/1062) | 2 |
@@ -478,7 +477,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | canonical/specs.canonical.com | Python | [reviewers parser should ignore wrong cases](https://github.com/canonical/specs.canonical.com/issues/12) | 2 |
 | canonical/tempo-operators | Python | [Annoying tracing lib warning: charm tracing buffer exceeds max history length (100 events)](https://github.com/canonical/tempo-operators/issues/257) | 2 |
 | canonical/tempo-operators | Python | [Handle multiple ingresses cleanly](https://github.com/canonical/tempo-operators/issues/245) | 2 |
-| canonical/testflinger | Python | [Add website URL field for agents](https://github.com/canonical/testflinger/issues/794) | 2 |
 | canonical/traefik-k8s-operator | Python | [Refactor or remove `redirect_https` from the ingress/ingress-per-app interface](https://github.com/canonical/traefik-k8s-operator/issues/502) | 2 |
 | pytorch/ao | Python | [FP8 Blockwise Training Tracker](https://github.com/pytorch/ao/issues/3290) | 3 |
 | pytorch/ao | Python | [[QAT] Low-bit FSDP all-gather for QAT](https://github.com/pytorch/ao/issues/1224) | 3 |
@@ -494,6 +492,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/executorch | Python | [[Android] Rename JNI cpp file](https://github.com/pytorch/executorch/issues/10890) | 3 |
 | pytorch/executorch | Python | [Get rid of fixed number cmake --build -j in sh and docs](https://github.com/pytorch/executorch/issues/10887) | 3 |
 | pytorch/executorch | Python | [Consolidate executor_runners](https://github.com/pytorch/executorch/issues/10819) | 3 |
+| pytorch/pytorch | Python | [[Docathon] Convert `nn.init.rst` from rST to MyST Markdown](https://github.com/pytorch/pytorch/issues/182479) | 3 |
 | pytorch/pytorch | Python | [[auto functionalize][partitioner] ones_like is not getting recomputed](https://github.com/pytorch/pytorch/issues/170160) | 3 |
 | pytorch/torchchat | Python | [Improve Tokenizer New Type Onboarding](https://github.com/pytorch/torchchat/issues/1536) | 3 |
 | pytorch/torchchat | Python | [[UX] We are too quiet about errors - in particular missing HF authentication...](https://github.com/pytorch/torchchat/issues/782) | 3 |
@@ -503,7 +502,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | tensorflow/model-card-toolkit | Python | [Prefer single quote strings model-card-toolkit](https://github.com/tensorflow/model-card-toolkit/issues/279) | 3 |
 | tensorflow/similarity | Python | [Add a ranking example](https://github.com/tensorflow/similarity/issues/199) | 3 |
 | godotengine/godot-blender-exporter | Python | [Blender object with negative scale](https://github.com/godotengine/godot-blender-exporter/issues/24) | 3 |
-| huggingface/accelerate | Python | [[Community Contributions] examples on distributed inference using 🤗 Accelerate](https://github.com/huggingface/accelerate/issues/3078) | 3 |
 | huggingface/dataset-viewer | Python | [Use `CONSTANT_LIST.copy` in list config fieds](https://github.com/huggingface/dataset-viewer/issues/1522) | 3 |
 | huggingface/lighteval | Python | [[FT] showing count in Markdown summary table](https://github.com/huggingface/lighteval/issues/804) | 3 |
 | huggingface/lighteval | Python | [[FT]  Add tests for nanotron](https://github.com/huggingface/lighteval/issues/765) | 3 |
@@ -533,6 +531,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | canonical/pgbouncer-operator | Python | [Add configuration for max_prepared_statements](https://github.com/canonical/pgbouncer-operator/issues/425) | 3 |
 | canonical/redis-k8s-operator | Python | [Add integration test coverage for HA of metrics exporter](https://github.com/canonical/redis-k8s-operator/issues/86) | 3 |
 | canonical/snapcraft | Python | [Recommend using newer versions of snapcraft](https://github.com/canonical/snapcraft/issues/4958) | 3 |
+| canonical/testflinger | Python | [Add website URL field for agents](https://github.com/canonical/testflinger/issues/794) | 3 |
+| canonical/test_observer | Python | [UI is unusable to bulk approve large number of environments.](https://github.com/canonical/test_observer/issues/736) | 3 |
 | pytorch/ao | Python | [[llama] Use horizontal fusion trick from Attention for FeedForward](https://github.com/pytorch/ao/issues/606) | 4 |
 | pytorch/ao | Python | [Quantized Training](https://github.com/pytorch/ao/issues/554) | 4 |
 | pytorch/examples | Python | [Please change dcgan to load truncated images.](https://github.com/pytorch/examples/issues/835) | 4 |
@@ -542,6 +542,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/pytorch | Python | [[export] Schematize nn_module_stack serialization](https://github.com/pytorch/pytorch/issues/131941) | 4 |
 | pytorch/pytorch | Python | [switch more test cases to use MultithreadTestCase](https://github.com/pytorch/pytorch/issues/108744) | 4 |
 | tensorflow/graphics | Python | [Add ScanNet dataset](https://github.com/tensorflow/graphics/issues/307) | 4 |
+| huggingface/accelerate | Python | [[Community Contributions] examples on distributed inference using 🤗 Accelerate](https://github.com/huggingface/accelerate/issues/3078) | 4 |
 | huggingface/dataset-viewer | Python | [Cache/Queue metrics should not be negative](https://github.com/huggingface/dataset-viewer/issues/2495) | 4 |
 | huggingface/lerobot | Python | [How can I change the task name of already recorded episodes?](https://github.com/huggingface/lerobot/issues/2096) | 4 |
 | huggingface/lerobot | Python | [Ensure the utilities module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1727) | 4 |
@@ -808,11 +809,11 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | decentraland/marketplace | TypeScript | [It's hard to detect when the kebab menu of the ListCard is clickable](https://github.com/decentraland/marketplace/issues/1866) | 2 |
 | decentraland/marketplace | TypeScript | [Show full name when hovering over Lands and Wearables](https://github.com/decentraland/marketplace/issues/590) | 2 |
 | huggingface/chat-ui | TypeScript | [Add option for users to customize search engines in settings page](https://github.com/huggingface/chat-ui/issues/1756) | 3 |
-| huggingface/chat-ui | TypeScript | [Chrome app icon on macOS](https://github.com/huggingface/chat-ui/issues/1439) | 3 |
 | huggingface/chat-ui | TypeScript | [Load past conversations using the most recent leaf to determine the visible conversation tree.](https://github.com/huggingface/chat-ui/issues/1208) | 3 |
 | huggingface/chat-ui | TypeScript | [System prompt not taken into account when web browsing.](https://github.com/huggingface/chat-ui/issues/1159) | 3 |
 | ansible/vscode-ansible | TypeScript | [Option to completely disable autocomplete](https://github.com/ansible/vscode-ansible/issues/837) | 3 |
 | pytorch/test-infra | TypeScript | [A better HUD menu for PyTorch repos family](https://github.com/pytorch/test-infra/issues/5226) | 4 |
+| huggingface/chat-ui | TypeScript | [Chrome app icon on macOS](https://github.com/huggingface/chat-ui/issues/1439) | 4 |
 | decentraland/marketplace | TypeScript | [Create a high order component that redirects to the Sign In Page if the user is not connected](https://github.com/decentraland/marketplace/issues/1522) | 4 |
 | pytorch/test-infra | TypeScript | [Mergebot merged a PR even though a review had been re-requested](https://github.com/pytorch/test-infra/issues/5543) | 5 |
 | huggingface/chat-ui | TypeScript | [Disabling Reasoning Summary as an Env Option](https://github.com/huggingface/chat-ui/issues/1720) | 5 |

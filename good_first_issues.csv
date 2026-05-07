@@ -132,7 +132,7 @@ pytorch/PiPPy,Python,Support LayoutLM models in HF tests,https://github.com/pyto
 pytorch/PiPPy,Python,Support SWIN models in HF tests,https://github.com/pytorch/PiPPy/issues/243,0,"['good first issue', 'huggingface', 'PiPPy']",open
 pytorch/PiPPy,Python,Make RemoteInterpreter use the full implementation of `Interpreter.run`,https://github.com/pytorch/PiPPy/issues/25,2,"['good first issue', 'mid-pri']",open
 pytorch/probot,TypeScript,deprecation of `number` for octokit,https://github.com/pytorch/probot/issues/62,1,['good first issue'],open
-pytorch/pytorch,Python,[Docathon] Convert `nn.init.rst` from rST to MyST Markdown,https://github.com/pytorch/pytorch/issues/182479,2,"['module: docs', 'good first issue', 'triaged', 'enhancement', 'topic: docs', 'topic: not user facing', 'bot-triaged', 'docathon-h1-2025']",open
+pytorch/pytorch,Python,[Docathon] Convert `nn.init.rst` from rST to MyST Markdown,https://github.com/pytorch/pytorch/issues/182479,3,"['module: docs', 'good first issue', 'triaged', 'enhancement', 'topic: docs', 'topic: not user facing', 'bot-triaged', 'docathon-h1-2025']",open
 pytorch/pytorch,Python,[Docathon] Convert `elastic/run.rst` from rST to MyST Markdown,https://github.com/pytorch/pytorch/issues/182472,5,"['module: docs', 'good first issue', 'triaged', 'topic: docs', 'topic: not user facing', 'bot-triaged', 'docathon-h1-2025']",open
 pytorch/pytorch,Python,Use typing_extensions.TypeAliasType for better reexport of `__module__`,https://github.com/pytorch/pytorch/issues/171905,5,"['good first issue', 'module: typing', 'module: lint', 'triaged', 'actionable']",open
 pytorch/pytorch,Python,torch.compile regression 2.9.1: Triton kernel name '_Runner__kernel_name_0' is not defined,https://github.com/pytorch/pytorch/issues/170398,13,"['good first issue', 'triaged', 'actionable', 'oncall: pt2', 'module: inductor', 'module: user triton']",open
@@ -334,7 +334,7 @@ godotengine/godot-docs,reStructuredText,Inconsistent code example between Physic
 godotengine/godot-docs,reStructuredText,Curve2D.get_closest_point() incorrectly documented,https://github.com/godotengine/godot-docs/issues/5894,1,"['bug', 'good first issue', 'area:class reference']",open
 godotengine/godot-docs,reStructuredText,Physics2DDirectSpaceState does not specify local or global coordinates,https://github.com/godotengine/godot-docs/issues/3299,2,"['enhancement', 'good first issue', 'area:class reference', 'topic:physics']",open
 huggingface/accelerate,Python,Deadlock when running multi tasks,https://github.com/huggingface/accelerate/issues/3814,1,"['bug', 'good first issue']",open
-huggingface/accelerate,Python,[Community Contributions] examples on distributed inference using 🤗 Accelerate,https://github.com/huggingface/accelerate/issues/3078,3,"['good first issue', 'wip', 'contributions-welcome']",open
+huggingface/accelerate,Python,[Community Contributions] examples on distributed inference using 🤗 Accelerate,https://github.com/huggingface/accelerate/issues/3078,4,"['good first issue', 'wip', 'contributions-welcome']",open
 huggingface/accelerate,Python,Barebones dataloader to allow for any type of iterable dataloader-like object to be used. Should just handle device placement,https://github.com/huggingface/accelerate/issues/2975,5,['good first issue'],open
 huggingface/agents-course,MDX,Improve diagrams in unit 2.1,https://github.com/huggingface/agents-course/issues/233,6,['good first issue'],open
 huggingface/awesome-huggingface,Other,[hacktoberfest] Hugging Face Collections Hacktoberfest challenge,https://github.com/huggingface/awesome-huggingface/issues/28,0,['good first issue'],open
@@ -343,7 +343,7 @@ huggingface/chat-macOS,Swift,Add custom LLM API ,https://github.com/huggingface/
 huggingface/chat-macOS,Swift,"Asking ""what time is it?"" will always return the local time of Paris, regardless of your location (⌘R+)",https://github.com/huggingface/chat-macOS/issues/7,2,['good first issue'],open
 huggingface/chat-ui,TypeScript,Add option for users to customize search engines in settings page,https://github.com/huggingface/chat-ui/issues/1756,3,"['enhancement', 'good first issue', 'front', 'back', 'websearch']",open
 huggingface/chat-ui,TypeScript,Disabling Reasoning Summary as an Env Option,https://github.com/huggingface/chat-ui/issues/1720,5,"['enhancement', 'good first issue', 'models']",open
-huggingface/chat-ui,TypeScript,Chrome app icon on macOS,https://github.com/huggingface/chat-ui/issues/1439,3,"['bug', 'good first issue']",open
+huggingface/chat-ui,TypeScript,Chrome app icon on macOS,https://github.com/huggingface/chat-ui/issues/1439,4,"['bug', 'good first issue']",open
 huggingface/chat-ui,TypeScript,Load past conversations using the most recent leaf to determine the visible conversation tree.,https://github.com/huggingface/chat-ui/issues/1208,3,"['enhancement', 'good first issue', 'front']",open
 huggingface/chat-ui,TypeScript,System prompt not taken into account when web browsing.,https://github.com/huggingface/chat-ui/issues/1159,3,"['enhancement', 'good first issue', 'back', 'websearch']",open
 huggingface/dataset-viewer,Python,use the `ROW_IDX_COLUMN` constant name instead of copying the value everywhere,https://github.com/huggingface/dataset-viewer/issues/2798,2,"['good first issue', 'refactoring / architecture', 'P2']",open
@@ -767,7 +767,8 @@ canonical/sphinx-stack-docs,Other,"""Style guide"" documents are superfluous and
 canonical/tempo-operators,Python,Wrong `LogQL` in dashboard,https://github.com/canonical/tempo-operators/issues/272,1,['good first issue'],open
 canonical/tempo-operators,Python,Annoying tracing lib warning: charm tracing buffer exceeds max history length (100 events),https://github.com/canonical/tempo-operators/issues/257,2,"['good first issue', 'Status: Triage', 'Type: Bug']",open
 canonical/tempo-operators,Python,Handle multiple ingresses cleanly,https://github.com/canonical/tempo-operators/issues/245,2,"['good first issue', 'Type: Enhancement', 'Status: Triage']",open
-canonical/testflinger,Python,Add website URL field for agents,https://github.com/canonical/testflinger/issues/794,2,['good first issue'],open
+canonical/testflinger,Python,Add website URL field for agents,https://github.com/canonical/testflinger/issues/794,3,['good first issue'],open
+canonical/test_observer,Python,UI is unusable to bulk approve large number of environments.,https://github.com/canonical/test_observer/issues/736,3,"['bug', 'good first issue']",open
 canonical/traefik-k8s-operator,Python,Output the correct message when traefik is not deployed with --trust,https://github.com/canonical/traefik-k8s-operator/issues/589,1,"['good first issue', 'enhancement']",open
 canonical/traefik-k8s-operator,Python,Refactor or remove `redirect_https` from the ingress/ingress-per-app interface,https://github.com/canonical/traefik-k8s-operator/issues/502,2,"['good first issue', 'enhancement']",open
 canonical/traefik-k8s-operator,Python,missing substitution in log message,https://github.com/canonical/traefik-k8s-operator/issues/439,1,['good first issue'],open
