@@ -26,11 +26,12 @@ jobs:
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           USERNAMES: ${{ secrets.USERNAMES }}
-        run: python -m app.update_issues
+        run: python -m app.update_issues --output good_first_issues.csv
       - name: Commit and push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add README.md
-          git commit -m "Update README.md with dynamic content"
+          git add good_first_issues.csv
+          git commit -m "Update README.md & issues.csv with dynamic content"
           git push origin main
