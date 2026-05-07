@@ -29,7 +29,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 
 
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-05-06</sub></sub>
+## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: 2026-05-07</sub></sub>
 
 | Repo | Language | Title | Comments |
 | --- | --- | --- | --- |
@@ -127,7 +127,7 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | pytorch/glow | C++ | [Use explicit std::string conversions instead of implicit llvm::StringRef->std::string conversions to prepare Glow for builds using LLVM >=11](https://github.com/pytorch/glow/issues/5068) | 18 |
 | godotengine/godot | C++ | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 24 |
 | godotengine/godot | C++ | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 34 |
-| godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 249 |
+| godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 250 |
 | canonical/ulwazi | CSS | [Cookie consent banner fails to show](https://github.com/canonical/ulwazi/issues/91) | 0 |
 | canonical/ulwazi | CSS | [Weirdly looking code blocks captions](https://github.com/canonical/ulwazi/issues/78) | 0 |
 | canonical/ulwazi | CSS | [Font size of numbers in numerated lists seems too big](https://github.com/canonical/ulwazi/issues/81) | 1 |
@@ -684,7 +684,6 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 56 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 |
 | decentraland/godot-explorer | Rust | [[Bug]: Interaction Feedback Doesn't Trigger when holding one Control (E.g Joystick)](https://github.com/decentraland/godot-explorer/issues/1170) | 0 |
-| decentraland/godot-explorer | Rust | [[Bug]: Bio Core - text displaying outside of UI frame](https://github.com/decentraland/godot-explorer/issues/1046) | 0 |
 | canonical/source-wand | Rust | [[Feature] Add repositories to Go dependencies](https://github.com/canonical/source-wand/issues/12) | 1 |
 | tensorflow/rust | Rust | [Add Scope::with_kernel_label and with_xla_cluster](https://github.com/tensorflow/rust/issues/288) | 3 |
 | tensorflow/rust | Rust | [Add OpArgDef::default_value and allowed_values](https://github.com/tensorflow/rust/issues/290) | 7 |
