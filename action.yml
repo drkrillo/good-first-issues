@@ -1,0 +1,55 @@
+name: 'Good First Issues'
+description: 'Fetch good first issues from GitHub repos, can generate a CSV/JSON output'
+author: 'drkrillo'
+
+inputs:
+  usernames:
+    description: 'Comma-separated list of GitHub usernames/orgs'
+    required: false
+    default: ''
+  output-format:
+    description: 'Output format: json or csv'
+    required: false
+    default: 'csv'
+  output-path:
+    description: 'Where to write the output file'
+    required: false
+    default: 'good_first_issues.csv'
+  github-token:
+    description: 'GitHub token for API access'
+    required: true
+
+runs:
+  using: 'composite'
+  steps:
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      shell: bash
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r ${{ github.action_path }}/requirements.txt
+
+    - name: Fetch issues
+      shell: bash
+      env:
+        ACCESS_TOKEN: ${{ inputs.github-token }}
+        USERNAMES: ${{ inputs.usernames }}
+        REPOS: ${{ inputs.repos }}
+        LANGUAGES: ${{ inputs.languages }}
+        OUTPUT_FORMAT: ${{ inputs.output-format }}
+        OUTPUT_PATH: ${{ inputs.output-path }}
+      run: |
+        python -m app.update_issues \
+        --output ${{ inputs.output-path }}
+      working-directory: ${{ github.action_path }}
+    - name: Commit and push
+      shell: bash
+      run: |
+        git config user.name github-actions
+        git config user.email
+        git add ${{ inputs.output-path }}
+        git diff --staged --quiet || git commit -m "chore: update good first issues"
+        git push origin main
