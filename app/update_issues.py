@@ -24,9 +24,6 @@ from app.core.api_handler import (
 )
 
 
-today = str(datetime.datetime.today().strftime('%Y-%m-%d'))
-template_path = get_template_path()
-
 def write_output(issues, output_file):
     """Write issues to a file in CSV or JSON format."""
     ext = output_file.lower().split('.')[-1]
@@ -67,16 +64,8 @@ def main(args):
         formatted_response = TemplateManager.format_response(issues)
 
         if args.output:
-            write_output(issues, args.output)
+            write_output(formatted_response, args.output)
             logging.info(f"Wrote {len(issues)} issues to {args.output}")
-
-        logging.info(f"Formatted issues first row: {formatted_response[0]}")
-        
-        TemplateManager.render_template(
-            results=formatted_response,
-            template_path=template_path,
-            today=today,
-        )
 
         logging.info(f"Rendered README file.")
         logging.info(f"Total repositories gathered: {len(repos)}")        
