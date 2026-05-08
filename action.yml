@@ -1,6 +1,10 @@
 name: 'Good First Issues'
-description: 'Fetch good first issues from GitHub repos, can generate a CSV/JSON output'
+description: 'Fetch good first issues from GitHub repos and generate a CSV/JSON output'
 author: 'drkrillo'
+
+branding:
+  icon: 'git-pull-request'
+  color: 'green'
 
 inputs:
   usernames:
@@ -37,19 +41,9 @@ runs:
       env:
         ACCESS_TOKEN: ${{ inputs.github-token }}
         USERNAMES: ${{ inputs.usernames }}
-        REPOS: ${{ inputs.repos }}
-        LANGUAGES: ${{ inputs.languages }}
         OUTPUT_FORMAT: ${{ inputs.output-format }}
         OUTPUT_PATH: ${{ inputs.output-path }}
       run: |
         python -m app.update_issues \
-        --output ${{ inputs.output-path }}
+          --output ${{ inputs.output-path }}
       working-directory: ${{ github.action_path }}
-    - name: Commit and push
-      shell: bash
-      run: |
-        git config user.name github-actions
-        git config user.email
-        git add ${{ inputs.output-path }}
-        git diff --staged --quiet || git commit -m "chore: update good first issues"
-        git push origin main
