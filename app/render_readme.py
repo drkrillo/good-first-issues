@@ -10,12 +10,12 @@ template_path = get_template_path()
 
 if "__main__" == __name__:
 
-    parser = argparse.ArgumentParser(description='Find Good First Issues')
-    parser.add_argument('--output', help='Output file path (e.g. issues.csv or issues.json)')
+    parser = argparse.ArgumentParser(description='Render README.md')
+    parser.add_argument('--input', help='Input file path to use for rendering README(e.g. issues.csv or issues.json)')
     args = parser.parse_args()
     
     TemplateManager.render_template(
-    csv_path=args.output,
+    csv_path=args.input,
     template_path=template_path,
     today=today,
 )
