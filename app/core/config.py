@@ -14,7 +14,7 @@ logging.basicConfig(
 
 load_dotenv()
 ACCESS_TOKEN = os.environ.get('ACCESS_TOKEN')
-USERNAMES = os.environ.get('USERNAMES').split(',')
+USERNAMES = os.environ.get('USERNAMES', '').split(',')
 USERNAMES = [user.strip() for user in USERNAMES if user.strip()]
 
 HEADERS = {
