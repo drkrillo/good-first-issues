@@ -5,7 +5,7 @@ on:
     - cron: '15 20 * * *'
   push:
     branches:
-      - 'main'
+      - main
   workflow_dispatch:
 
 permissions:
@@ -13,11 +13,15 @@ permissions:
 
 jobs:
   update-issues:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
-      - uses: drkrillo/good-first-issues@main
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate good first issues CSV
+        uses: drkrillo/good-first-issues@main
         with:
           usernames: ${{ secrets.USERNAMES }}
           github-token: ${{ secrets.ACCESS_TOKEN }}
@@ -28,10 +32,19 @@ jobs:
           python -m app.render_readme \
             --input good_first_issues.csv
 
-      - name: Commit and push
+      - name: Upload CSV artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: good-first-issues
+          path: good_first_issues.csv
+
+      - name: Commit and push changes
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add README.md good_first_issues.csv
+
           git diff --staged --quiet || git commit -m "chore: update good first issues"
+
           git push origin main
