@@ -21,9 +21,12 @@ jobs:
         with:
           usernames: ${{ secrets.USERNAMES }}
           github-token: ${{ secrets.ACCESS_TOKEN }}
-      - name: Update README
+          output-path: good_first_issues.csv
+
+      - name: Render README
         run: |
-          pytnon -m app.update_issues --output good_first_issues.csv
+          python -m app.render_readme \
+            --output good_first_issues.csv
 
       - name: Commit and push
         run: |
