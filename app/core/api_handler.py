@@ -1,3 +1,4 @@
+import csv
 import math 
 import requests
 from jinja2 import Environment, FileSystemLoader
@@ -124,12 +125,25 @@ class TemplateManager:
         return sorted_formatted_results
     
     @staticmethod
-    def render_template(results, template_path, today):
+    def render_template(csv_path, template_path, today):
         """
-        Takes a jinja2 environment, template, results and today date
+        Takes a template, csv_path and today date
         and returns the rendered template.
         """
-        env = Environment(loader=FileSystemLoader(template_path))
+        results = []
+
+        with open(csv_path, newline='', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                results.append({
+                    'repo':     row['repo'],
+                    'language': row['language'],
+                    'title':    row['title'],
+                    'url':      row['url'],
+                    'comments': row['comments'],
+                })
+
+            env = Environment(loader=FileSystemLoader(template_path))
         
         template = env.get_template('README.md.j2')
         rendered_readme = template.render(results=results, today=today)
