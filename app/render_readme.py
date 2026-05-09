@@ -5,7 +5,7 @@ from app.core.api_handler import TemplateManager
 from app.core.config import get_template_path
 
 
-today = str(datetime.datetime.today().strftime('%Y-%m-%d'))
+today = str(datetime.today().strftime('%Y-%m-%d'))
 template_path = get_template_path()
 
 if "__main__" == __name__:
