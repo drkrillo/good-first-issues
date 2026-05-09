@@ -830,3 +830,8 @@ If you are wondering where to begin in the  journey contributing to open-source 
 | django/djangoproject.com | Python | [Documentation table of contents is hard to reach on mobile devices](https://github.com/django/djangoproject.com/issues/494) | 4 |
 | django/djangoproject.com | Python | [Localize the fundraising app](https://github.com/django/djangoproject.com/issues/377) | 17 |
 | zeromicro/goctl-swagger | PHP | [support for openapi 3.0 ](https://github.com/zeromicro/goctl-swagger/issues/52) | 0 |
+
+
+## Support the Project ⭐
+
+If this repository helped you start your open-source journey, consider giving it a star. It helps more developers discover the project!
