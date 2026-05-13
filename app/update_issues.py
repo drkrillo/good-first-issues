@@ -46,18 +46,28 @@ def main(args):
     """
     with requests.Session() as session:
         session.headers.update(HEADERS)
-        logging.info("Gathering repositories...")
-        repos = [RepoManager().extract_repos(user,  session) for user in USERNAMES]
-        repos = Utils().create_list_from_lists(repos)
-        logging.info(f"Extracted {len(repos)} public repositories.")
+        
+        logging.info("Gathering repositories and language data...")
+        repo_lang_map = {}
+        for user in USERNAMES:
+            user_repos = RepoManager().extract_repos(user, session)
+            repo_lang_map.update(user_repos)
+        logging.info(f"Extracted language data for {len(repo_lang_map)} repositories.")
 
-        logging.info(f"Gathering issues...")
-        raw_issues = [IssueManager().extract_issues(repo, session) for repo in repos]
-        raw_issues = Utils().create_list_from_lists(raw_issues)
-        logging.info(f"Extracted {len(raw_issues)} issues.")
+        logging.info(f"Gathering issues using Search API...")
+        all_raw_issues = []
+        for user in USERNAMES:
+            user_issues = IssueManager().extract_issues_by_user(user, session)
+            # Map each issue to its repo's language
+            for issue in user_issues:
+                repo_url = issue['repository_url']
+                lang = repo_lang_map.get(repo_url, "Other")
+                all_raw_issues.append((lang, issue))
+        
+        logging.info(f"Extracted {len(all_raw_issues)} issues.")
 
         logging.info("Normalizing data...")
-        issues = [IssueManager().extract_issue_data(issue) for issue in raw_issues]
+        issues = [IssueManager().extract_issue_data(issue) for issue in all_raw_issues]
         logging.info(f"Normalized data.")
         logging.info(f"First issues row: {issues[0]}")
 
@@ -68,7 +78,7 @@ def main(args):
             logging.info(f"Wrote {len(issues)} issues to {args.output}")
 
         logging.info(f"Rendered README file.")
-        logging.info(f"Total repositories gathered: {len(repos)}")        
+        logging.info(f"Total repositories gathered: {len(repo_lang_map)}")        
         logging.info(f"Total Issues gathered: {len(issues)}")
 
         
