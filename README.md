@@ -7,7 +7,7 @@ For more details, see [How It Works](docs/how-it-works.md).
 
 ## Local Setup
 
-`update_issues.py` can  be modified to  return the data in json or to csv. 
+`update_issues.py` can  be modified to return the data in json or to csv.
 To run the script locally:
 * create an `.env` file in the root directory, and add:
 
