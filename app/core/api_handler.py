@@ -30,22 +30,24 @@ class RepoManager:
     @staticmethod
     def extract_repos(user, session, repos_per_page=100):
         """
-        Takes a username, aiohttp sesion and number of repos pr page
-        and returns list of lists of repositories. 
+        Takes a username, session and number of repos per page
+        and returns a dictionary mapping repo URLs to their primary language.
         """
-        repos = []
+        repos_with_language = {}
         number_of_repos = RepoManager().extract_number_of_repos(user, session)
         number_of_pages = Utils().divide_and_round_up(number_of_repos)
-        for page in range(1,number_of_pages+1):
+        for page in range(1, number_of_pages + 1):
             user_url = f"https://api.github.com/users/{user}/repos?page={page}&per_page={repos_per_page}"
             resp_json = APIClient().make_request(user_url, session)
-            try: 
-                repos += [x['url'] for x in resp_json]
+            try:
+                for repo in resp_json:
+                    lang = repo.get('language')
+                    repos_with_language[repo['url']] = lang if lang else "Other"
             except TypeError as error:
                 logging.error(error)
                 raise
 
-        return repos
+        return repos_with_language
 
 
 class IssueManager:
@@ -70,41 +72,26 @@ class IssueManager:
             logging.error(error)
             raise
 
-    @staticmethod
-    def extract_language(repo, session):
-        """
-        Takes the repo API endpoint and aiohttp session
-        and returns the principal language of the repository.
-        """
-        resp_json = APIClient().make_request(repo, session)
-        try:
-            language = resp_json['language']
-            if language == None:
-                language = "Other"
-        except KeyError as error:
-            logging.error(error)
-            raise
-            
-        return language
 
     @staticmethod
-    def extract_issues(repo, session, labels="good first issue"):
+    def extract_issues_by_user(user, session, labels="good first issue"):
         """
-        Takes the repo API endpoing and aiohttp session
-        and returns issues  with defined labels and state.
+        Uses GitHub Search API to find all issues with defined labels
+        for a specific user/organization.
         """
         issues = []
-        language = IssueManager().extract_language(repo, session)
-        issues_url = repo + f"/issues?labels={labels}"
+        search_url = f"https://api.github.com/search/issues?q=user:{user}+label:\"{labels}\"+state:open+is:issue&per_page=100"
         
-        resp_json = APIClient().make_request(issues_url, session)
+        resp_json = APIClient().make_request(search_url, session)
         try:
-            cleaned_issues = [(language, issue) for issue in resp_json]
-            issues += cleaned_issues
-        except TypeError as error:
-            logging.error(error)
-            raise
-
+            # Search API returns total_count and items
+            items = resp_json.get('items', [])
+            # We don't have the language here, so we return raw issues
+            # We will map the language in update_issues.py
+            issues = items
+        except Exception as error:
+            logging.info(f"Error fetching issues for {user}: {error}")
+            
         return issues
 
 
