@@ -16,7 +16,7 @@ ACCESS_TOKEN=<YOUR_ACCESS_TOKEN>
 USERNAMES=<REPO_OWNER1>,<REPO_OWNER2>,<REPO_OWNER3>,...
 ```
 
-* How to create and  manage GitHub API access tokens in [this article](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).
+* How to create and manage GitHub API access tokens in [this article](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).
 
 ## Useful Resources for Open Source
 If you are wondering where to begin in the  journey contributing to open-source projects, these are good articles to get you started! :sailboat:
