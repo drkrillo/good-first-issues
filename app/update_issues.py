@@ -3,8 +3,6 @@ import logging
 import datetime
 import time
 import argparse
-import csv
-import json
 import requests
 
 from jinja2 import Environment, FileSystemLoader
@@ -22,21 +20,6 @@ from app.core.api_handler import (
     TemplateManager,
     Utils,
 )
-
-
-def write_output(issues, output_file):
-    """Write issues to a file in CSV or JSON format."""
-    ext = output_file.lower().split('.')[-1]
-    if ext == 'csv':
-        with open(output_file, 'w', newline='', encoding='utf-8') as f:
-            writer = csv.DictWriter(f, fieldnames=['repo', 'language', 'title', 'url', 'comments', 'labels', 'state'])
-            writer.writeheader()
-            writer.writerows(issues)
-    elif ext == 'json':
-        with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump(issues, f, indent=2)
-    else:
-        raise ValueError(f"Unsupported output format: .{ext} (use --output issues.csv or --output issues.json)")
 
 def main(args):
     """
@@ -74,7 +57,7 @@ def main(args):
         formatted_response = TemplateManager.format_response(issues)
 
         if args.output:
-            write_output(formatted_response, args.output)
+            TemplateManager.write_output(formatted_response, args.output)
             logging.info(f"Wrote {len(issues)} issues to {args.output}")
 
         logging.info(f"Rendered README file.")

@@ -102,15 +102,16 @@ class TemplateManager:
         Takes a list of issues, and returns them sorted by language and comments.
         """
         unique_languages = sorted(set([issue['language'] for issue in issues]))
-        formatted_results = []	
+        formatted_results = []
+
         for language in unique_languages:
             results = [issue for issue in issues if issue['language'] == language]
             sorted_results = sorted(results, key=lambda x: x['comments'])
             formatted_results.append(sorted_results)
-        sorted_formatted_results = Utils.create_list_from_lists(formatted_results) 
-        
+
+        sorted_formatted_results = Utils.create_list_from_lists(formatted_results)
         return sorted_formatted_results
-    
+
     @staticmethod
     def render_template(csv_path, template_path, today):
         """
@@ -121,24 +122,61 @@ class TemplateManager:
 
         with open(csv_path, newline='', encoding='utf-8') as f:
             reader = csv.DictReader(f)
+
             for row in reader:
                 results.append({
-                    'repo':     row['repo'],
+                    'repo': row['repo'],
                     'language': row['language'],
-                    'title':    row['title'],
-                    'url':      row['url'],
+                    'title': row['title'],
+                    'url': row['url'],
                     'comments': row['comments'],
                 })
 
-            env = Environment(loader=FileSystemLoader(template_path))
-        
+        env = Environment(loader=FileSystemLoader(template_path))
+
         template = env.get_template('README.md.j2')
         rendered_readme = template.render(results=results, today=today)
-        
-        with open("README.md", "w+") as f:
+
+        with open("README.md", "w+", encoding="utf-8") as f:
             f.write(rendered_readme)
-        
+
         return rendered_readme
+
+    @staticmethod
+    def write_output(issues, output_file):
+        """
+        Write issues to a file in CSV or JSON format.
+        """
+        import json
+
+        ext = output_file.lower().split('.')[-1]
+
+        if ext == 'csv':
+            with open(output_file, 'w', newline='', encoding='utf-8') as f:
+                writer = csv.DictWriter(
+                    f,
+                    fieldnames=[
+                        'repo',
+                        'language',
+                        'title',
+                        'url',
+                        'comments',
+                        'labels',
+                        'state'
+                    ]
+                )
+                writer.writeheader()
+                writer.writerows(issues)
+
+        elif ext == 'json':
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(issues, f, indent=2)
+
+        else:
+            raise ValueError(
+                f"Unsupported output format: .{ext} "
+                f"(use --output issues.csv or --output issues.json)"
+            )
     
 class Utils:
     @staticmethod
