@@ -1,38 +1,72 @@
-# Good First Issues :palm_tree:
+<div align="center">
 
-This page contains open issues tagged with the label *good first issue*. It gathers issues from some famous libraries(at least for me).
-Let me know if there are others you would like to see here :pizza:
+# Good First Issues
 
-For more details, see [How It Works](docs/how-it-works.md).
+[![Update Issues](https://github.com/drkrillo/good-first-issues/actions/workflows/update-issues.yml/badge.svg)](https://github.com/drkrillo/good-first-issues/actions/workflows/update-issues.yml)
+[![GitHub Marketplace](https://img.shields.io/badge/Marketplace-Good%20First%20Issues-green?logo=github)](https://github.com/marketplace/actions/good-first-issues)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-## Local Setup
+Automatically discover open issues labeled **good first issue** across GitHub repositories. Updated daily via GitHub Actions.
 
-`update_issues.py` can  be modified to  return the data in json or to csv. 
-To run the script locally:
-* create an `.env` file in the root directory, and add:
+</div>
 
+---
+
+## Overview
+
+This tool scans public repositories for a given list of GitHub usernames or organizations, collects issues tagged with `good first issue`, and renders them into a browsable table. It is available both as a **standalone script** and as a **GitHub Action** on the Marketplace.
+
+## Documentation
+
+| Resource | Description |
+|---|---|
+| [Action Usage Guide](docs/action-usage.md) | How to use this Action in your workflows |
+| [Local Setup](docs/setup.md) | **Work in Progress**: How to install, configure, and run the project locally |
+| [How It Works](docs/how-it-works.md) | Architecture and internal logic |
+| [Contributing](CONTRIBUTING.md) | Guidelines for contributing to this project |
+| [Testing](TESTING.md) | How to run the test suite |
+
+## Usage as a GitHub Action
+
+Add the following step to any workflow file:
+
+```yaml
+- name: Fetch good first issues
+  uses: drkrillo/good-first-issues@main
+  with:
+    usernames: "owner1,owner2,owner3"
+    github-token: ${{ "{{" }} secrets.GITHUB_TOKEN {{ "}}" }}
+    output-format: csv          # csv (default) or json
+    output-path: issues.csv     # default: good_first_issues.csv
 ```
-ACCESS_TOKEN=<YOUR_ACCESS_TOKEN>
-USERNAMES=<REPO_OWNER1>,<REPO_OWNER2>,<REPO_OWNER3>,...
-```
 
-* How to create and  manage GitHub API access tokens in [this article](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).
+The action outputs a CSV or JSON file with all discovered issues.
+
+| Input | Required | Default | Description |
+|---|---|---|---|
+| `github-token` | Yes | — | GitHub token for API access |
+| `usernames` | No | `''` | Comma-separated GitHub usernames or organizations to scan |
+| `output-format` | No | `csv` | Output format: `csv` or `json` |
+| `output-path` | No | `good_first_issues.csv` | Path where the output file is written |
+
+For complete workflow examples, output schema, and authentication details, see the [Action Usage Guide](docs/action-usage.md).
 
 ## Useful Resources for Open Source
-If you are wondering where to begin in the  journey contributing to open-source projects, these are good articles to get you started! :sailboat:
 
-* [First Contributions Repository](https://github.com/firstcontributions/first-contributions) - Practice the Fork-Pull Request workflow
-* [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
-* [Open Source Guide](https://opensource.guide/) - Comprehensive community guide.
-* [Writing Better Commits](https://cbea.ms/git-commit/) - Learn the art of commit messages.
-* [Markdown Syntax](https://www.markdownguide.org/basic-syntax/) - Master documentation formatting.
+If you are looking for where to begin contributing to open-source projects, these are good articles to get you started:
 
+- [First Contributions Repository](https://github.com/firstcontributions/first-contributions) — Practice the fork & pull-request workflow.
+- [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
+- [Open Source Guide](https://opensource.guide/) — Comprehensive community guide.
+- [Writing Better Commits](https://cbea.ms/git-commit/) — Learn the art of commit messages.
+- [Markdown Syntax](https://www.markdownguide.org/basic-syntax/) — Master documentation formatting.
 
+---
 
-## List of Good First Issues to start Collaborating! :surfer: <sub><sub>Last run: {{today}}</sub></sub>
+## Good First Issues <sub><sub>Last run: {{today}}</sub></sub>
 
 | Repo | Language | Title | Comments |
-| --- | --- | --- | --- |
+|---|---|---|---|
 {% for result in results -%}
 | {{result.repo}} | {{result.language}} | [{{result.title}}]({{result.url}}) | {{result.comments}} |
 {% endfor %}
