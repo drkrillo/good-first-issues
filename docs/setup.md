@@ -55,7 +55,7 @@ Example:
 
 ```env
 GITHUB_TOKEN=your_token_here
-USERNAMES=python,github;microsoft
+USERNAMES=python,github,microsoft
 ```
 
 `USERNAMES` defines which GitHub users or organizations will be scanned for issues.
@@ -67,13 +67,13 @@ USERNAMES=python,github;microsoft
 Generate issues in JSON format:
 
 ```bash
-python app update_issues.py --output issues.json
+python app.update_issues.py --output issues.json
 ```
 
 Generate issues in CSV format:
 
 ```bash
-python app update_issues.py --output issues.csv
+python app.update_issues.py --output issues.csv
 ```
 
 ---
