@@ -12,21 +12,31 @@ git clone https://github.com/drkrillo/good-first-issues.git
 cd good-first-issues
 ```
 
-## 2. Create and activate a virtual environment
+---
+
+# Create a Virtual Environment
+
+Using a virtual environment helps keep project dependencies isolated.
+
+## Linux / macOS
 
 ```bash
-python -m venv .venv
+python3 -m venv venv
+source venv/bin/activate
 ```
 
-Activate it:
+## Windows
 
-| OS | Command |
-|---|---|
-| macOS / Linux | `source .venv/bin/activate` |
-| Windows (cmd) | `.venv\Scripts\activate.bat` |
-| Windows (PowerShell) | `.venv\Scripts\Activate.ps1` |
+```bash
+python -m venv venv
+venv\\Scripts\\activate
+```
 
-## 3. Install dependencies
+---
+
+# Install Dependencies
+
+Install the required Python packages using:
 
 ```bash
 pip install -r requirements.txt
