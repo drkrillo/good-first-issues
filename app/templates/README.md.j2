@@ -21,7 +21,7 @@ This tool scans public repositories for a given list of GitHub usernames or orga
 | Resource | Description |
 |---|---|
 | [Action Usage Guide](docs/action-usage.md) | How to use this Action in your workflows |
-| [Local Setup](docs/setup.md) | **Work in Progress**: How to install, configure, and run the project locally |
+| [Local Setup](docs/setup.md) | How to install, configure, and run the project locally |
 | [How It Works](docs/how-it-works.md) | Architecture and internal logic |
 | [Contributing](CONTRIBUTING.md) | Guidelines for contributing to this project |
 | [Testing](TESTING.md) | How to run the test suite |
