@@ -1,12 +1,11 @@
 # Local Setup
 
-This guide explains how to run the project locally for development or testing.
+## Prerequisites
 
----
+- Python 3.11+
+- A GitHub account with a personal access token
 
-# Clone the Repository
-
-First, clone the repository and move into the project directory.
+## 1. Clone the repository
 
 ```bash
 git clone https://github.com/drkrillo/good-first-issues.git
@@ -43,41 +42,38 @@ Install the required Python packages using:
 pip install -r requirements.txt
 ```
 
----
+## 4. Create the `.env` file
 
-# Configure Environment Variables
+Create a file named `.env` in the project root with the following variables:
 
-Create a `.env` file in the root of the project.
-
-The `.env` file stores configuration values such as your GitHub token and the usernames or organizations to scan.
-
-Example:
-
-```env
-GITHUB_TOKEN=your_token_here
-USERNAMES=python,github,microsoft
+```
+ACCESS_TOKEN=<YOUR_GITHUB_TOKEN>
+USERNAMES=<OWNER1>,<OWNER2>,<OWNER3>
 ```
 
-`USERNAMES` defines which GitHub users or organizations will be scanned for issues.
+- **`ACCESS_TOKEN`** — A GitHub personal access token (see below).
+- **`USERNAMES`** — Comma-separated list of GitHub usernames or organizations whose repositories will be scanned for good first issues.
 
----
+## 5. Obtain a GitHub personal access token
 
-# Run the Project
+1. Go to **Settings > Developer settings > Personal access tokens > Tokens (classic)** in your GitHub account.
+2. Click **Generate new token (classic)**.
+3. Give it a descriptive name (e.g. `good-first-issues`).
+4. Select the **`public_repo`** scope — this is the only scope required.
+5. Click **Generate token** and copy it into your `.env` file.
 
-Generate issues in JSON format:
+For more details, see the [official GitHub documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).
+
+## 6. Run the script
 
 ```bash
-python app.update_issues.py --output issues.json
+python -m app.update_issues --output good_first_issues.csv
 ```
 
-Generate issues in CSV format:
+This fetches all good first issues from the configured usernames and writes them to the specified output file (`.csv` or `.json`).
+
+To render the README from the generated data:
 
 ```bash
-python app.update_issues.py --output issues.csv
+python -m app.render_readme --input good_first_issues.csv
 ```
-
----
-
-# Output Files
-
-The generated output file will contain the collected issues in the selected format.
