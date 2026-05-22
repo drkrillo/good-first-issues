@@ -3,7 +3,7 @@ description: 'Fetch good first issues from GitHub repos and generate a CSV/JSON 
 author: 'drkrillo'
 
 branding:
-  icon: 'git-pull-request'
+  icon: 'search'
   color: 'green'
 
 inputs:
