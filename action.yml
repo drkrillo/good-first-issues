@@ -45,5 +45,5 @@ runs:
         OUTPUT_PATH: ${{ inputs.output-path }}
       run: |
         python -m app.update_issues \
-          --output ${{ inputs.output-path }}
+          --output ${{ github.workspace }}/${{ inputs.output-path }}
       working-directory: ${{ github.action_path }}
