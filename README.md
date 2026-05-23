@@ -90,6 +90,7 @@ If you are looking for where to begin contributing to open-source projects, thes
 | microsoft/snmalloc | C++ | [Implement accurate size storage for Windows `_msize` and `_recalloc`](https://github.com/microsoft/snmalloc/issues/786) | 0 |
 | microsoft/react-native-windows | C++ | [Scroll wheel behavior differs significantly in new architecture (Windows App SDK) vs WinUI 3 Gallery app](https://github.com/microsoft/react-native-windows/issues/14653) | 1 |
 | microsoft/react-native-windows | C++ | [Deprecate autolink functionality to copy flags from react-native.config.js into ExperimentalFeature.props.](https://github.com/microsoft/react-native-windows/issues/14601) | 1 |
+| godotengine/godot | C++ | [GPUParticles2D `finished` signal isn't affected by `speed_scale`](https://github.com/godotengine/godot/issues/119675) | 2 |
 | microsoft/terminal | C++ | ["Export text" action invoked from cmd paletter forwards Enter key](https://github.com/microsoft/terminal/issues/20188) | 3 |
 | microsoft/react-native-windows | C++ | [[Bug] init-windows adds incorrect name of Native Codegen File Include](https://github.com/microsoft/react-native-windows/issues/15094) | 4 |
 | godotengine/godot | C++ | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 24 |
@@ -103,6 +104,7 @@ If you are looking for where to begin contributing to open-source projects, thes
 | godotengine/emacs-gdscript-mode | Emacs Lisp | [Buffer does not revert or update instantly after formatting buffer](https://github.com/godotengine/emacs-gdscript-mode/issues/88) | 3 |
 | godotengine/godot-benchmarks | GDScript | [[Call to Action] Benchmarks for the benchmark server](https://github.com/godotengine/godot-benchmarks/issues/36) | 5 |
 | godotengine/godot-benchmarks | GDScript | [[TRACKER] Benchmarks to create](https://github.com/godotengine/godot-benchmarks/issues/11) | 11 |
+| kubernetes/minikube | Go | [containerd: Skip TestPreload/Restart-With-Preload-Check-User-Image](https://github.com/kubernetes/minikube/issues/23035) | 0 |
 | hashicorp/packer-plugin-azure | Go | [Option to delete secret when build_key_vault_name is supplied](https://github.com/hashicorp/packer-plugin-azure/issues/506) | 0 |
 | hashicorp/nomad | Go | [unclear message in task event from executor crash](https://github.com/hashicorp/nomad/issues/24220) | 0 |
 | hashicorp/packer-plugin-googlecompute | Go | [Add disk_attachment labels](https://github.com/hashicorp/packer-plugin-googlecompute/issues/210) | 0 |
@@ -632,7 +634,6 @@ If you are looking for where to begin contributing to open-source projects, thes
 | decentraland/explorer | TypeScript | [Add new AvatarModifier: Force camera mode](https://github.com/decentraland/explorer/issues/1948) | 0 |
 | decentraland/atlas-server | TypeScript | [Add a redirect or message with a link to the documentation at /](https://github.com/decentraland/atlas-server/issues/3) | 0 |
 | decentraland/builder | TypeScript | [Add a way to de-assign a Name from a Land (Parcel/Estate) from the table](https://github.com/decentraland/builder/issues/1203) | 0 |
-| microsoft/vscode-documentdb | TypeScript | [Improve delete confirmation: use 'delete' for indexes, smart fallback for complex names 🔐](https://github.com/microsoft/vscode-documentdb/issues/677) | 1 |
 | microsoft/vscode-documentdb | TypeScript | [Show shard key in collection tooltip 🔑](https://github.com/microsoft/vscode-documentdb/issues/661) | 1 |
 | microsoft/vscode-documentdb | TypeScript | [Index tree items lack visual indication of hidden state & show incorrect context menu actions 👁️🗂️](https://github.com/microsoft/vscode-documentdb/issues/656) | 1 |
 | microsoft/Agent365-nodejs | TypeScript | [Move all ESLint configuration to a centralized location at the root of the repo](https://github.com/microsoft/Agent365-nodejs/issues/14) | 1 |
@@ -664,6 +665,7 @@ If you are looking for where to begin contributing to open-source projects, thes
 | decentraland/marketplace | TypeScript | [Show full name when hovering over Lands and Wearables](https://github.com/decentraland/marketplace/issues/590) | 2 |
 | huggingface/chat-ui | TypeScript | [Load past conversations using the most recent leaf to determine the visible conversation tree.](https://github.com/huggingface/chat-ui/issues/1208) | 3 |
 | huggingface/chat-ui | TypeScript | [System prompt not taken into account when web browsing.](https://github.com/huggingface/chat-ui/issues/1159) | 3 |
+| microsoft/vscode-documentdb | TypeScript | [Improve delete confirmation: use 'delete' for indexes, smart fallback for complex names 🔐](https://github.com/microsoft/vscode-documentdb/issues/677) | 3 |
 | microsoft/vscode-containers | TypeScript | [Add presentation options to Docker extension's compose commands](https://github.com/microsoft/vscode-containers/issues/350) | 3 |
 | microsoft/teams.ts | TypeScript | [[cards] support lowercase and Capitalized JSON values](https://github.com/microsoft/teams.ts/issues/132) | 3 |
 | microsoft/data-formulator | TypeScript | [Docker Support](https://github.com/microsoft/data-formulator/issues/85) | 3 |
