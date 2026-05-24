@@ -374,7 +374,6 @@ huggingface/lighteval,Python,[FT]  Add tests for `VLLMModel` base methods,https:
 huggingface/lighteval,Python,[FT] Build in a way to specify specific IDs/Lines in Dataset to use as few-shot examples in the same split,https://github.com/huggingface/lighteval/issues/634,0,"['good first issue', 'help wanted', 'feature']",open
 huggingface/nanotron,Python,[Feature] Use CUDA event for measuring elasped time,https://github.com/huggingface/nanotron/issues/88,0,"['enhancement', 'good first issue', 'help wanted']",open
 huggingface/nanotron,Python,[Feature] Refactor `ParallelContext.world_rank_matrix`,https://github.com/huggingface/nanotron/issues/77,0,"['enhancement', 'good first issue', 'help wanted']",open
-microsoft/apm,Python,Strangler Stage 2: tighten to industry-standard complexity thresholds,https://github.com/microsoft/apm/issues/1466,0,['good first issue'],open
 microsoft/physical-ai-toolchain,Python,fix(scripts): align setup-dev.sh with shell script conventions,https://github.com/microsoft/physical-ai-toolchain/issues/144,0,"['good first issue', 'help wanted', 'maintenance']",open
 microsoft/physical-ai-toolchain,Python,docs(ci): document GHSA allowlist in dependency-review.yml,https://github.com/microsoft/physical-ai-toolchain/issues/142,0,"['documentation', 'good first issue', 'help wanted', 'security']",open
 microsoft/physical-ai-toolchain,Python,chore(ci): remove JaCoCo parser config from codecov.yml,https://github.com/microsoft/physical-ai-toolchain/issues/140,0,"['good first issue', 'help wanted', 'maintenance']",open
@@ -466,6 +465,7 @@ decentraland/godot-explorer,Rust,[Bug]: Interaction Feedback Doesn't Trigger whe
 microsoft/webui,Rust,contact book example: Make search great,https://github.com/microsoft/webui/issues/191,1,['good first issue'],open
 microsoft/openvmm,Rust,repo: move no_std custom error types over to thiserror,https://github.com/microsoft/openvmm/issues/1811,1,['good first issue'],open
 microsoft/openvmm,Rust,Clean up our windows API dependencies,https://github.com/microsoft/openvmm/issues/1061,1,"['good first issue', 'dependencies']",open
+microsoft/openvmm,Rust,zerocopy: clean up TODOs,https://github.com/microsoft/openvmm/issues/759,1,"['good first issue', 'dependencies']",open
 microsoft/openvmm,Rust,openvmm: emulated nvme configuration,https://github.com/microsoft/openvmm/issues/1534,2,"['enhancement', 'good first issue']",open
 microsoft/windows-drivers-rs,Rust,HID hidport.h headers missing for UMDF build,https://github.com/microsoft/windows-drivers-rs/issues/355,3,['good first issue'],open
 godotengine/discourse-theme,SCSS,Change default `green` to our own green for the Solved questions,https://github.com/godotengine/discourse-theme/issues/14,0,"['enhancement', 'good first issue']",open
@@ -613,8 +613,8 @@ microsoft/vscode-python-debugger,TypeScript,Add support for no-config debugging 
 mattermost/mattermost,TypeScript,Help Wanted: Channel Export README > Split out admin content to child pages,https://github.com/mattermost/mattermost/issues/25173,5,"['Difficulty/1:Easy', 'Hacktoberfest', 'Good First Issue', 'Help Wanted', 'Tech/Markdown']",open
 microsoft/data-formulator,TypeScript,Expand chart type supports,https://github.com/microsoft/data-formulator/issues/193,6,"['good first issue', 'help wanted']",open
 microsoft/teams.ts,TypeScript,Automatically parse feedback value,https://github.com/microsoft/teams.ts/issues/184,7,"['enhancement', 'good first issue']",open
-mattermost/mattermost,TypeScript,Help Wanted: CircleCI README > Split out admin content to child pages,https://github.com/mattermost/mattermost/issues/25175,7,"['Difficulty/1:Easy', 'Hacktoberfest', 'Good First Issue', 'Help Wanted', 'Tech/Markdown']",open
 huggingface/huggingface.js,TypeScript,Tracking integration for Video Classification,https://github.com/huggingface/huggingface.js/issues/332,8,"['good first issue', 'widgets', 'tasks']",open
+mattermost/mattermost,TypeScript,Help Wanted: CircleCI README > Split out admin content to child pages,https://github.com/mattermost/mattermost/issues/25175,8,"['Difficulty/1:Easy', 'Hacktoberfest', 'Good First Issue', 'Help Wanted', 'Tech/Markdown']",open
 layer5io/sistent,TypeScript,[Feature] Add Support for Table Variants,https://github.com/layer5io/sistent/issues/992,10,"['good first issue', 'kind/enhancement']",open
 mattermost/mattermost,TypeScript,Bitbucket plugin: Support for bitbucket Datacenter/server,https://github.com/mattermost/mattermost/issues/24188,10,"['Difficulty/1:Easy', 'Tech/Go', 'Docs/Needed', 'Hacktoberfest', 'Area/Integrations', 'Good First Issue', 'Help Wanted', 'Enhancement']",open
 mattermost/mattermost,TypeScript,Create config setting to always have the team sidebar visible,https://github.com/mattermost/mattermost/issues/18010,13,"['Difficulty/1:Easy', 'Tech/Go', 'Tech/ReactJS', 'Hacktoberfest', 'Good First Issue', 'Help Wanted']",open
