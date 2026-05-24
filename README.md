@@ -445,7 +445,6 @@ If this repository helped you in your open source journey, consider giving it a 
 | huggingface/lighteval | Python | [[FT] Build in a way to specify specific IDs/Lines in Dataset to use as few-shot examples in the same split](https://github.com/huggingface/lighteval/issues/634) | 0 |
 | huggingface/nanotron | Python | [[Feature] Use CUDA event for measuring elasped time](https://github.com/huggingface/nanotron/issues/88) | 0 |
 | huggingface/nanotron | Python | [[Feature] Refactor `ParallelContext.world_rank_matrix`](https://github.com/huggingface/nanotron/issues/77) | 0 |
-| microsoft/apm | Python | [Strangler Stage 2: tighten to industry-standard complexity thresholds](https://github.com/microsoft/apm/issues/1466) | 0 |
 | microsoft/physical-ai-toolchain | Python | [fix(scripts): align setup-dev.sh with shell script conventions](https://github.com/microsoft/physical-ai-toolchain/issues/144) | 0 |
 | microsoft/physical-ai-toolchain | Python | [docs(ci): document GHSA allowlist in dependency-review.yml](https://github.com/microsoft/physical-ai-toolchain/issues/142) | 0 |
 | microsoft/physical-ai-toolchain | Python | [chore(ci): remove JaCoCo parser config from codecov.yml](https://github.com/microsoft/physical-ai-toolchain/issues/140) | 0 |
@@ -537,6 +536,7 @@ If this repository helped you in your open source journey, consider giving it a 
 | microsoft/webui | Rust | [contact book example: Make search great](https://github.com/microsoft/webui/issues/191) | 1 |
 | microsoft/openvmm | Rust | [repo: move no_std custom error types over to thiserror](https://github.com/microsoft/openvmm/issues/1811) | 1 |
 | microsoft/openvmm | Rust | [Clean up our windows API dependencies](https://github.com/microsoft/openvmm/issues/1061) | 1 |
+| microsoft/openvmm | Rust | [zerocopy: clean up TODOs](https://github.com/microsoft/openvmm/issues/759) | 1 |
 | microsoft/openvmm | Rust | [openvmm: emulated nvme configuration](https://github.com/microsoft/openvmm/issues/1534) | 2 |
 | microsoft/windows-drivers-rs | Rust | [HID hidport.h headers missing for UMDF build](https://github.com/microsoft/windows-drivers-rs/issues/355) | 3 |
 | godotengine/discourse-theme | SCSS | [Change default `green` to our own green for the Solved questions](https://github.com/godotengine/discourse-theme/issues/14) | 0 |
@@ -684,8 +684,8 @@ If this repository helped you in your open source journey, consider giving it a 
 | mattermost/mattermost | TypeScript | [Help Wanted: Channel Export README > Split out admin content to child pages](https://github.com/mattermost/mattermost/issues/25173) | 5 |
 | microsoft/data-formulator | TypeScript | [Expand chart type supports](https://github.com/microsoft/data-formulator/issues/193) | 6 |
 | microsoft/teams.ts | TypeScript | [Automatically parse feedback value](https://github.com/microsoft/teams.ts/issues/184) | 7 |
-| mattermost/mattermost | TypeScript | [Help Wanted: CircleCI README > Split out admin content to child pages](https://github.com/mattermost/mattermost/issues/25175) | 7 |
 | huggingface/huggingface.js | TypeScript | [Tracking integration for Video Classification](https://github.com/huggingface/huggingface.js/issues/332) | 8 |
+| mattermost/mattermost | TypeScript | [Help Wanted: CircleCI README > Split out admin content to child pages](https://github.com/mattermost/mattermost/issues/25175) | 8 |
 | layer5io/sistent | TypeScript | [[Feature] Add Support for Table Variants](https://github.com/layer5io/sistent/issues/992) | 10 |
 | mattermost/mattermost | TypeScript | [Bitbucket plugin: Support for bitbucket Datacenter/server](https://github.com/mattermost/mattermost/issues/24188) | 10 |
 | mattermost/mattermost | TypeScript | [Create config setting to always have the team sidebar visible](https://github.com/mattermost/mattermost/issues/18010) | 13 |
