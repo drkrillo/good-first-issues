@@ -36,7 +36,6 @@ godotengine/emacs-gdscript-mode,Emacs Lisp,Rewrite gdscript-imenu to provide GDS
 godotengine/emacs-gdscript-mode,Emacs Lisp,Buffer does not revert or update instantly after formatting buffer,https://github.com/godotengine/emacs-gdscript-mode/issues/88,3,"['bug', 'good first issue']",open
 godotengine/godot-benchmarks,GDScript,[Call to Action] Benchmarks for the benchmark server,https://github.com/godotengine/godot-benchmarks/issues/36,5,"['enhancement', 'good first issue']",open
 godotengine/godot-benchmarks,GDScript,[TRACKER] Benchmarks to create,https://github.com/godotengine/godot-benchmarks/issues/11,11,"['enhancement', 'good first issue']",open
-kubernetes/minikube,Go,containerd: Skip TestPreload/Restart-With-Preload-Check-User-Image,https://github.com/kubernetes/minikube/issues/23035,0,"['help wanted', 'area/testing', 'good first issue']",open
 hashicorp/packer-plugin-azure,Go,Option to delete secret when build_key_vault_name is supplied,https://github.com/hashicorp/packer-plugin-azure/issues/506,0,['good first issue'],open
 hashicorp/nomad,Go,unclear message in task event from executor crash,https://github.com/hashicorp/nomad/issues/24220,0,"['theme/driver/exec', 'theme/driver/raw_exec', 'good first issue', 'theme/bad-ux']",open
 hashicorp/packer-plugin-googlecompute,Go,Add disk_attachment labels,https://github.com/hashicorp/packer-plugin-googlecompute/issues/210,0,"['enhancement', 'good first issue']",open
@@ -68,6 +67,7 @@ mattermost/mattermost-plugin-confluence,Go,Add per user Authentication for Confl
 mattermost/mattermost-plugin-mscalendar,Go,"Allow ""create event"" command to accept spaces in values",https://github.com/mattermost/mattermost-plugin-mscalendar/issues/97,0,"['Difficulty/1:Easy', 'Good First Issue', 'Hacktoberfest', 'Help Wanted', 'Tech/Go', 'Up For Grabs', 'Type/Enhancement']",open
 mattermost/mattermost-plugin-github,Go,Create tests for `createIssue()` method,https://github.com/mattermost/mattermost-plugin-github/issues/223,0,"['Help Wanted', 'Up For Grabs', 'Hacktoberfest', 'Tech/Go', 'Good First Issue', 'Type/Enhancement']",open
 mattermost/mattermost-plugin-mscalendar,Go,Add mapped Mattermost users as attendees in CreateEvent API method,https://github.com/mattermost/mattermost-plugin-mscalendar/issues/28,0,"['Difficulty/1:Easy', 'Good First Issue', 'Hacktoberfest', 'Help Wanted', 'Tech/Go', 'Up For Grabs', 'Type/Enhancement']",open
+kubernetes/minikube,Go,containerd: Skip TestPreload/Restart-With-Preload-Check-User-Image,https://github.com/kubernetes/minikube/issues/23035,1,"['help wanted', 'area/testing', 'good first issue']",open
 hashicorp/terraform-provider-kubernetes,Go,Add CSI Driver fsGroup Support,https://github.com/hashicorp/terraform-provider-kubernetes/issues/2702,1,"['enhancement', 'good first issue']",open
 hashicorp/terraform-provider-aws,Go,[Docs]: Document necessary dependency between aws_eks_access_entry and aws_eks_access_policy_association,https://github.com/hashicorp/terraform-provider-aws/issues/40951,1,"['documentation', 'good first issue', 'service/eks']",open
 hashicorp/nomad,Go,show embedded template diffs line-by-line,https://github.com/hashicorp/nomad/issues/23603,1,"['type/enhancement', 'theme/template', 'good first issue', 'stage/accepted']",open
@@ -374,6 +374,7 @@ huggingface/lighteval,Python,[FT]  Add tests for `VLLMModel` base methods,https:
 huggingface/lighteval,Python,[FT] Build in a way to specify specific IDs/Lines in Dataset to use as few-shot examples in the same split,https://github.com/huggingface/lighteval/issues/634,0,"['good first issue', 'help wanted', 'feature']",open
 huggingface/nanotron,Python,[Feature] Use CUDA event for measuring elasped time,https://github.com/huggingface/nanotron/issues/88,0,"['enhancement', 'good first issue', 'help wanted']",open
 huggingface/nanotron,Python,[Feature] Refactor `ParallelContext.world_rank_matrix`,https://github.com/huggingface/nanotron/issues/77,0,"['enhancement', 'good first issue', 'help wanted']",open
+microsoft/apm,Python,Strangler Stage 2: tighten to industry-standard complexity thresholds,https://github.com/microsoft/apm/issues/1466,0,['good first issue'],open
 microsoft/physical-ai-toolchain,Python,fix(scripts): align setup-dev.sh with shell script conventions,https://github.com/microsoft/physical-ai-toolchain/issues/144,0,"['good first issue', 'help wanted', 'maintenance']",open
 microsoft/physical-ai-toolchain,Python,docs(ci): document GHSA allowlist in dependency-review.yml,https://github.com/microsoft/physical-ai-toolchain/issues/142,0,"['documentation', 'good first issue', 'help wanted', 'security']",open
 microsoft/physical-ai-toolchain,Python,chore(ci): remove JaCoCo parser config from codecov.yml,https://github.com/microsoft/physical-ai-toolchain/issues/140,0,"['good first issue', 'help wanted', 'maintenance']",open
@@ -465,7 +466,6 @@ decentraland/godot-explorer,Rust,[Bug]: Interaction Feedback Doesn't Trigger whe
 microsoft/webui,Rust,contact book example: Make search great,https://github.com/microsoft/webui/issues/191,1,['good first issue'],open
 microsoft/openvmm,Rust,repo: move no_std custom error types over to thiserror,https://github.com/microsoft/openvmm/issues/1811,1,['good first issue'],open
 microsoft/openvmm,Rust,Clean up our windows API dependencies,https://github.com/microsoft/openvmm/issues/1061,1,"['good first issue', 'dependencies']",open
-microsoft/openvmm,Rust,zerocopy: clean up TODOs,https://github.com/microsoft/openvmm/issues/759,1,"['good first issue', 'dependencies']",open
 microsoft/openvmm,Rust,openvmm: emulated nvme configuration,https://github.com/microsoft/openvmm/issues/1534,2,"['enhancement', 'good first issue']",open
 microsoft/windows-drivers-rs,Rust,HID hidport.h headers missing for UMDF build,https://github.com/microsoft/windows-drivers-rs/issues/355,3,['good first issue'],open
 godotengine/discourse-theme,SCSS,Change default `green` to our own green for the Solved questions,https://github.com/godotengine/discourse-theme/issues/14,0,"['enhancement', 'good first issue']",open
