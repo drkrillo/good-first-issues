@@ -36,6 +36,7 @@ godotengine/emacs-gdscript-mode,Emacs Lisp,Rewrite gdscript-imenu to provide GDS
 godotengine/emacs-gdscript-mode,Emacs Lisp,Buffer does not revert or update instantly after formatting buffer,https://github.com/godotengine/emacs-gdscript-mode/issues/88,3,"['bug', 'good first issue']",open
 godotengine/godot-benchmarks,GDScript,[Call to Action] Benchmarks for the benchmark server,https://github.com/godotengine/godot-benchmarks/issues/36,5,"['enhancement', 'good first issue']",open
 godotengine/godot-benchmarks,GDScript,[TRACKER] Benchmarks to create,https://github.com/godotengine/godot-benchmarks/issues/11,11,"['enhancement', 'good first issue']",open
+kubernetes/minikube,Go,Skip TestAddons/parallel/Registry to unblock developement,https://github.com/kubernetes/minikube/issues/23044,0,"['help wanted', 'area/testing', 'area/addons', 'good first issue']",open
 hashicorp/packer-plugin-azure,Go,Option to delete secret when build_key_vault_name is supplied,https://github.com/hashicorp/packer-plugin-azure/issues/506,0,['good first issue'],open
 hashicorp/nomad,Go,unclear message in task event from executor crash,https://github.com/hashicorp/nomad/issues/24220,0,"['theme/driver/exec', 'theme/driver/raw_exec', 'good first issue', 'theme/bad-ux']",open
 hashicorp/packer-plugin-googlecompute,Go,Add disk_attachment labels,https://github.com/hashicorp/packer-plugin-googlecompute/issues/210,0,"['enhancement', 'good first issue']",open
@@ -210,6 +211,7 @@ kubernetes/perf-tests,Go,Pod startup time phases are inaccurate in longer tests.
 hashicorp/terraform-provider-kubernetes,Go,Init container doesn't support restart_policy option (to transform it in a sidecar container),https://github.com/hashicorp/terraform-provider-kubernetes/issues/2446,9,"['bug', 'good first issue', 'help wanted', 'k8s/v1.29']",open
 hashicorp/nomad,Go,allow `raw_exec` tasks to drop client environment variables,https://github.com/hashicorp/nomad/issues/17650,9,"['type/enhancement', 'theme/driver/raw_exec', 'good first issue', 'stage/accepted', 'help-wanted', 'hcc/jira']",open
 hashicorp/nomad,Go,Nomad config validate does not check for missing host_volume directories and daemon fails to start,https://github.com/hashicorp/nomad/issues/16968,9,"['type/enhancement', 'theme/config', 'good first issue', 'stage/accepted']",open
+kubernetes/minikube,Go,ci: Ensure workflow timeouts - runs can get stuck for hours,https://github.com/kubernetes/minikube/issues/23041,10,"['help wanted', 'area/testing', 'good first issue']",open
 kubernetes/minikube,Go,test: Remove duplicate kubernetes versions in tests,https://github.com/kubernetes/minikube/issues/21483,10,"['help wanted', 'good first issue']",open
 kubernetes/kube-state-metrics,Go,[regression] /metrics port down when not existing CRD are listed in config file,https://github.com/kubernetes/kube-state-metrics/issues/2354,10,"['kind/bug', 'good first issue', 'triage/accepted']",open
 kubernetes/perf-tests,Go,clusterloader2 should be covered with unit tests,https://github.com/kubernetes/perf-tests/issues/572,10,"['help wanted', 'lifecycle/frozen', 'good first issue', 'kind/cleanup', 'area/clusterloader']",open
@@ -383,7 +385,6 @@ microsoft/physical-ai-toolchain,Python,fix(scripts): fix SC2318 local variable c
 microsoft/teams.py,Python,[apps] add default route overrides,https://github.com/microsoft/teams.py/issues/159,0,"['enhancement', 'good first issue']",open
 huggingface/lighteval,Python,[EVAL] Add kyrgyzLLM benchmark,https://github.com/huggingface/lighteval/issues/1036,1,"['good first issue', 'new-task']",open
 huggingface/accelerate,Python,Deadlock when running multi tasks,https://github.com/huggingface/accelerate/issues/3814,1,"['bug', 'good first issue']",open
-huggingface/lerobot,Python,Question regarding downsampling and resizing dataset,https://github.com/huggingface/lerobot/issues/2124,1,"['question', 'dataset', 'good first issue']",open
 huggingface/lerobot,Python,Ensure the teleoperators module passes MyPy type checks,https://github.com/huggingface/lerobot/issues/1726,1,"['python', 'good first issue']",open
 huggingface/lighteval,Python,[FT] Manage script and language in the Language enum,https://github.com/huggingface/lighteval/issues/745,1,"['good first issue', 'feature']",open
 huggingface/lighteval,Python,[FT] LiteLLM concurrency parameters hard-coded,https://github.com/huggingface/lighteval/issues/567,1,"['good first issue', 'help wanted', 'feature']",open
@@ -397,6 +398,7 @@ microsoft/onnxscript,Python,"[Optimizer] Fold Shape -> {Slice, Gather} -> Concat
 microsoft/onnxscript,Python,[torchlib] Add op test to torch.unique_consecutive,https://github.com/microsoft/onnxscript/issues/2695,1,"['good first issue', 'module: torchlib', 'contribution welcome']",open
 microsoft/onnxscript,Python,Constant-Folding Registry,https://github.com/microsoft/onnxscript/issues/2507,1,"['good first issue', 'category: question', 'contribution welcome', 'module: optimizer']",open
 microsoft/presidio,Python,More elaborate description how to build custom Docker images for Presidio,https://github.com/microsoft/presidio/issues/1663,1,"['good first issue', 'documentation']",open
+huggingface/lerobot,Python,Question regarding downsampling and resizing dataset,https://github.com/huggingface/lerobot/issues/2124,2,"['question', 'dataset', 'good first issue']",open
 huggingface/lerobot,Python,Finetune smolvla with vision encoder,https://github.com/huggingface/lerobot/issues/1774,2,"['question', 'policies', 'good first issue']",open
 huggingface/lighteval,Python,Call for contributions: Translate lighteval's doc into Chinese,https://github.com/huggingface/lighteval/issues/716,2,"['good first issue', 'help wanted', 'new-task']",open
 huggingface/dataset-viewer,Python,use the `ROW_IDX_COLUMN` constant name instead of copying the value everywhere,https://github.com/huggingface/dataset-viewer/issues/2798,2,"['good first issue', 'refactoring / architecture', 'P2']",open
