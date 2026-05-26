@@ -9,7 +9,6 @@ Thank you for your interest in contributing! This is a project aimed at help dev
 - Spam all issues with LLM comments
 - Block the opportunity for other devs to onboard.
 
-This is a repo 
 ## How to contribute
 - Browse open issues. You can pick one labeled `good first issue` if you want to get started with an easy one. 
 - Fork the repository and ideally create a branch with a descriptive name of what you are solving. 
