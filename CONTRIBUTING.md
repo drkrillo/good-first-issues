@@ -2,6 +2,14 @@
 
 Thank you for your interest in contributing! This is a project aimed at help developers find good opportunities in open source, and this project is also available to be that opportunity :).
 
+## Important note
+
+**We are all kearning here**. There is no problem at all with making mistakes, and iterating. But please, try solving the problems yourself. Using an LLM at some point to udnerstand what is happening in OK, but do not:
+- Use this repo for contribution farming
+- Spam all issues with LLM comments
+- Block the opportunity for other devs to onboard.
+
+This is a repo 
 ## How to contribute
 - Browse open issues. You can pick one labeled `good first issue` if you want to get started with an easy one. 
 - Fork the repository and ideally create a branch with a descriptive name of what you are solving. 
