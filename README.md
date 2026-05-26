@@ -74,8 +74,8 @@ If this repository helped you in your open source journey, consider giving it a 
 | microsoft/msquic | C | [Miss check for the return value of CXPLAT_ALLOC_NONPAGED and CxPlatPoolAlloc](https://github.com/microsoft/msquic/issues/5233) | 0 |
 | microsoft/jbpf | C | [jbpf_io_ipc_test passes with error messages](https://github.com/microsoft/jbpf/issues/54) | 0 |
 | microsoft/ebpf-for-windows | C | [Update tests/sample/undocked/map.c](https://github.com/microsoft/ebpf-for-windows/issues/4547) | 1 |
-| microsoft/msquic | C | [Support in-memory certificate stores](https://github.com/microsoft/msquic/issues/4951) | 1 |
 | microsoft/ntttcp | C | [per-thread throughput is always 0.00 with ntttcp version 5.40.](https://github.com/microsoft/ntttcp/issues/24) | 1 |
+| microsoft/msquic | C | [Support in-memory certificate stores](https://github.com/microsoft/msquic/issues/4951) | 2 |
 | microsoft/ebpf-for-windows | C | [ebpf-verifier is cloned twice](https://github.com/microsoft/ebpf-for-windows/issues/4174) | 2 |
 | microsoft/msquic | C | [Failing to use close-on-exec](https://github.com/microsoft/msquic/issues/4980) | 3 |
 | microsoft/kiota | C# | [Stacktrace on exceptions](https://github.com/microsoft/kiota/issues/7014) | 0 |
@@ -84,9 +84,7 @@ If this repository helped you in your open source journey, consider giving it a 
 | microsoft/CsWin32 | C# | [Inherited COM methods do not have documentation comments](https://github.com/microsoft/CsWin32/issues/1391) | 0 |
 | microsoft/profile-explorer | C# | [Mapping code gap?](https://github.com/microsoft/profile-explorer/issues/7) | 0 |
 | microsoft/WPF-Samples | C# | [Sample Applications Update to Fluent Theme](https://github.com/microsoft/WPF-Samples/issues/680) | 0 |
-| microsoft/Power-CAT-Copilot-Studio-Kit | C# | [Bug: Agent Debugger listing only Default Environment from the dropdown](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/710) | 1 |
 | microsoft/PowerToys | C# | [.opus support for Peek](https://github.com/microsoft/PowerToys/issues/42576) | 2 |
-| microsoft/Power-CAT-Copilot-Studio-Kit | C# | [Error trying to run Agent Inventory](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/706) | 4 |
 | microsoft/mcp | C# | [[COMMUNITY] Auto generate CHANGELOG, including adding contributors for each release](https://github.com/microsoft/mcp/issues/156) | 4 |
 | microsoft/aspire | C# | [Improve Exception Message for Missing Project Metadata Annotation in ResourceContainerImageBuilder.cs](https://github.com/microsoft/aspire/issues/11299) | 12 |
 | microsoft/snmalloc | C++ | [Implement accurate size storage for Windows `_msize` and `_recalloc`](https://github.com/microsoft/snmalloc/issues/786) | 0 |
@@ -136,7 +134,6 @@ If this repository helped you in your open source journey, consider giving it a 
 | mattermost/mattermost-plugin-mscalendar | Go | [Allow "create event" command to accept spaces in values](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/97) | 0 |
 | mattermost/mattermost-plugin-github | Go | [Create tests for `createIssue()` method](https://github.com/mattermost/mattermost-plugin-github/issues/223) | 0 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Add mapped Mattermost users as attendees in CreateEvent API method](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/28) | 0 |
-| kubernetes/minikube | Go | [containerd: Skip TestPreload/Restart-With-Preload-Check-User-Image](https://github.com/kubernetes/minikube/issues/23035) | 1 |
 | hashicorp/nomad | Go | [Improve description of Consul tokens to include client information](https://github.com/hashicorp/nomad/issues/28048) | 1 |
 | hashicorp/terraform-provider-kubernetes | Go | [Add CSI Driver fsGroup Support](https://github.com/hashicorp/terraform-provider-kubernetes/issues/2702) | 1 |
 | hashicorp/terraform-provider-aws | Go | [[Docs]: Document necessary dependency between aws_eks_access_entry and aws_eks_access_policy_association](https://github.com/hashicorp/terraform-provider-aws/issues/40951) | 1 |
@@ -318,13 +315,13 @@ If this repository helped you in your open source journey, consider giving it a 
 | kubernetes/kubernetes | Go | [Node lifecycle controller does not `markPodsNotReady` when the node `Ready` state changes from `false` to `unknown`](https://github.com/kubernetes/kubernetes/issues/112733) | 30 |
 | kubernetes/ingress-nginx | Go | [Distinguish wait-shutdown command from standard k8s SIGTERM](https://github.com/kubernetes/ingress-nginx/issues/6287) | 32 |
 | kubernetes/kubernetes | Go | [add and use alternative APIs which support contextual logging](https://github.com/kubernetes/kubernetes/issues/126379) | 33 |
-| kubernetes/kubernetes | Go | [NetworkPolicy tests for blocking north/south traffic](https://github.com/kubernetes/kubernetes/issues/114369) | 34 |
+| kubernetes/kubernetes | Go | [NetworkPolicy tests for blocking north/south traffic](https://github.com/kubernetes/kubernetes/issues/114369) | 35 |
 | kubernetes/kubernetes | Go | [kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment.](https://github.com/kubernetes/kubernetes/issues/118172) | 37 |
 | kubernetes/kubernetes | Go | [Write the stress test for gRPC, http, and tcp probes](https://github.com/kubernetes/kubernetes/issues/115782) | 37 |
 | kubernetes/perf-tests | Go | [Create api-availability measurement](https://github.com/kubernetes/perf-tests/issues/1096) | 38 |
 | kubernetes/kube-state-metrics | Go | [Missing replacement config for VPA collector in CRM](https://github.com/kubernetes/kube-state-metrics/issues/2041) | 41 |
 | kubernetes/kubernetes | Go | [Reuse the http request object for http probes](https://github.com/kubernetes/kubernetes/issues/115939) | 43 |
-| kubernetes/kubernetes | Go | [tracker: improve the kubelet test coverage](https://github.com/kubernetes/kubernetes/issues/109717) | 48 |
+| kubernetes/kubernetes | Go | [tracker: improve the kubelet test coverage](https://github.com/kubernetes/kubernetes/issues/109717) | 49 |
 | kubernetes/minikube | Go | [add documentation for WSL2](https://github.com/kubernetes/minikube/issues/7879) | 53 |
 | kubernetes/kubernetes | Go | [Migrate DRA components to support granular authorization on status updates](https://github.com/kubernetes/kubernetes/issues/138149) | 60 |
 | microsoft/edge-ai | HCL | [docs(testing): add regression test tracking policy](https://github.com/microsoft/edge-ai/issues/176) | 0 |
@@ -338,6 +335,7 @@ If this repository helped you in your open source journey, consider giving it a 
 | cncf/tag-contributor-strategy | HTML | [Charter link is 404](https://github.com/cncf/tag-contributor-strategy/issues/762) | 1 |
 | cncf/glossary | HTML | [[ru] Localize `Portability`](https://github.com/cncf/glossary/issues/3265) | 1 |
 | cncf/glossary | HTML | [[ru] Localize `Service` into Russian](https://github.com/cncf/glossary/issues/3334) | 2 |
+| kubernetes/website | HTML | [[RTL] navbar "hamburger" overlaps with logo on RTL layouts](https://github.com/kubernetes/website/issues/55924) | 3 |
 | cncf/tag-app-delivery | HTML | [Automation of tag-app-delivery repo](https://github.com/cncf/tag-app-delivery/issues/566) | 3 |
 | cncf/tag-security | HTML | [[Suggestion] Working Group Landing Page](https://github.com/cncf/tag-security/issues/1354) | 4 |
 | kubernetes/website | HTML | [[hi] Localize Network Policy Provider page](https://github.com/kubernetes/website/issues/47439) | 7 |
@@ -362,7 +360,6 @@ If this repository helped you in your open source journey, consider giving it a 
 | mattermost/mattermost-plugin-gitlab | JavaScript | [Convert link_tooltip component to typescript](https://github.com/mattermost/mattermost-plugin-gitlab/issues/424) | 1 |
 | freeCodeCamp/classroom | JavaScript | [Bug: Classrooms can be created with no certifications](https://github.com/freeCodeCamp/classroom/issues/551) | 1 |
 | layer5io/docs | JavaScript | [[Docs] Improve Related Docs Links in Pinning Models to Dock Page](https://github.com/layer5io/docs/issues/1028) | 2 |
-| layer5io/layer5 | JavaScript | [Add heading-based navigation to LFX program intro pages (jump to term + back to top)](https://github.com/layer5io/layer5/issues/7704) | 2 |
 | layer5io/docs | JavaScript | [[Docs] Add missing actions to comment history panel](https://github.com/layer5io/docs/issues/549) | 2 |
 | huggingface/transformers.js | JavaScript | [Is 'aggregation_strategy' parameter available for token classification pipeline?](https://github.com/huggingface/transformers.js/issues/633) | 2 |
 | huggingface/transformers.js | JavaScript | [[Feature request] Return offset mapping using tokenizer](https://github.com/huggingface/transformers.js/issues/425) | 2 |
@@ -442,7 +439,6 @@ If this repository helped you in your open source journey, consider giving it a 
 | huggingface/optimum-executorch | Python | [Add benchmarking numbers for more models](https://github.com/huggingface/optimum-executorch/issues/131) | 0 |
 | huggingface/lighteval | Python | [[BUG]  Optimize tokenization](https://github.com/huggingface/lighteval/issues/732) | 0 |
 | huggingface/lighteval | Python | [[FT]  Add tests for `VLLMModel` base methods](https://github.com/huggingface/lighteval/issues/724) | 0 |
-| huggingface/lighteval | Python | [[FT] Build in a way to specify specific IDs/Lines in Dataset to use as few-shot examples in the same split](https://github.com/huggingface/lighteval/issues/634) | 0 |
 | huggingface/nanotron | Python | [[Feature] Use CUDA event for measuring elasped time](https://github.com/huggingface/nanotron/issues/88) | 0 |
 | huggingface/nanotron | Python | [[Feature] Refactor `ParallelContext.world_rank_matrix`](https://github.com/huggingface/nanotron/issues/77) | 0 |
 | microsoft/physical-ai-toolchain | Python | [fix(scripts): align setup-dev.sh with shell script conventions](https://github.com/microsoft/physical-ai-toolchain/issues/144) | 0 |
@@ -454,7 +450,7 @@ If this repository helped you in your open source journey, consider giving it a 
 | huggingface/lighteval | Python | [[EVAL] Add kyrgyzLLM benchmark](https://github.com/huggingface/lighteval/issues/1036) | 1 |
 | huggingface/accelerate | Python | [Deadlock when running multi tasks](https://github.com/huggingface/accelerate/issues/3814) | 1 |
 | huggingface/lerobot | Python | [Ensure the teleoperators module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1726) | 1 |
-| huggingface/lighteval | Python | [[FT] Manage script and language in the Language enum](https://github.com/huggingface/lighteval/issues/745) | 1 |
+| huggingface/lighteval | Python | [[FT] Build in a way to specify specific IDs/Lines in Dataset to use as few-shot examples in the same split](https://github.com/huggingface/lighteval/issues/634) | 1 |
 | huggingface/lighteval | Python | [[FT] LiteLLM concurrency parameters hard-coded](https://github.com/huggingface/lighteval/issues/567) | 1 |
 | huggingface/diffusers | Python | [Do we have any script covert from hf format to orginal format?](https://github.com/huggingface/diffusers/issues/10076) | 1 |
 | huggingface/nanotron | Python | [Add Debug utility to be able to preview first samples used for training](https://github.com/huggingface/nanotron/issues/184) | 1 |
@@ -469,6 +465,7 @@ If this repository helped you in your open source journey, consider giving it a 
 | microsoft/presidio | Python | [More elaborate description how to build custom Docker images for Presidio](https://github.com/microsoft/presidio/issues/1663) | 1 |
 | huggingface/lerobot | Python | [Question regarding downsampling and resizing dataset](https://github.com/huggingface/lerobot/issues/2124) | 2 |
 | huggingface/lerobot | Python | [Finetune smolvla with vision encoder](https://github.com/huggingface/lerobot/issues/1774) | 2 |
+| huggingface/lighteval | Python | [[FT] Manage script and language in the Language enum](https://github.com/huggingface/lighteval/issues/745) | 2 |
 | huggingface/lighteval | Python | [Call for contributions: Translate lighteval's doc into Chinese](https://github.com/huggingface/lighteval/issues/716) | 2 |
 | huggingface/dataset-viewer | Python | [use the `ROW_IDX_COLUMN` constant name instead of copying the value everywhere](https://github.com/huggingface/dataset-viewer/issues/2798) | 2 |
 | huggingface/nanotron | Python | [[Feature] Asyncronous Serialization](https://github.com/huggingface/nanotron/issues/87) | 2 |
@@ -640,6 +637,7 @@ If this repository helped you in your open source journey, consider giving it a 
 | decentraland/builder | TypeScript | [Add a way to de-assign a Name from a Land (Parcel/Estate) from the table](https://github.com/decentraland/builder/issues/1203) | 0 |
 | microsoft/vscode-documentdb | TypeScript | [Show shard key in collection tooltip 🔑](https://github.com/microsoft/vscode-documentdb/issues/661) | 1 |
 | microsoft/vscode-documentdb | TypeScript | [Index tree items lack visual indication of hidden state & show incorrect context menu actions 👁️🗂️](https://github.com/microsoft/vscode-documentdb/issues/656) | 1 |
+| microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Bug: Agent Debugger listing only Default Environment from the dropdown](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/710) | 1 |
 | microsoft/Agent365-nodejs | TypeScript | [Move all ESLint configuration to a centralized location at the root of the repo](https://github.com/microsoft/Agent365-nodejs/issues/14) | 1 |
 | microsoft/genaiscript | TypeScript | [Open Telemetry](https://github.com/microsoft/genaiscript/issues/1323) | 1 |
 | microsoft/vscode-python-debugger | TypeScript | [Add a `debugpy.sh` for the no-config debugging](https://github.com/microsoft/vscode-python-debugger/issues/651) | 1 |
@@ -676,6 +674,7 @@ If this repository helped you in your open source journey, consider giving it a 
 | mattermost/mattermost | TypeScript | [Help Wanted: BitBucket README > Split out admin content to child pages](https://github.com/mattermost/mattermost/issues/25176) | 3 |
 | huggingface/chat-ui | TypeScript | [Add option for users to customize search engines in settings page](https://github.com/huggingface/chat-ui/issues/1756) | 4 |
 | huggingface/chat-ui | TypeScript | [Chrome app icon on macOS](https://github.com/huggingface/chat-ui/issues/1439) | 4 |
+| microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Error trying to run Agent Inventory](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/706) | 4 |
 | mattermost/mattermost | TypeScript | [[RN] Change "Join" button on sign in page keyboard to "Go"](https://github.com/mattermost/mattermost/issues/26590) | 4 |
 | freeCodeCamp/chapter | TypeScript | [Consolidate email templates](https://github.com/freeCodeCamp/chapter/issues/2071) | 4 |
 | decentraland/marketplace | TypeScript | [Create a high order component that redirects to the Sign In Page if the user is not connected](https://github.com/decentraland/marketplace/issues/1522) | 4 |
