@@ -127,7 +127,7 @@ class TemplateManager:
                 results.append({
                     'repo': row['repo'],
                     'language': row['language'],
-                    'title': row['title'],
+                    'title': row['title'].replace('|', '\\|'), # Escape '|' to avoid breaking markdown table rows
                     'url': row['url'],
                     'comments': row['comments'],
                 })
