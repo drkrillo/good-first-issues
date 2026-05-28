@@ -7,6 +7,7 @@ Thank you for your interest in contributing! This is a project aimed at help dev
 - Fork the repository and ideally create a branch with a descriptive name of what you are solving. 
 - **Submit a pull request to dev** with a clear description of your changes. If it's related with an existing Issue, please link it.
 
+
 ## Running tests
 See [TESTING.md](TESTING.md) for instructions on running the test suite.
 
