@@ -6,7 +6,7 @@
 [![GitHub Marketplace](https://img.shields.io/badge/Marketplace-Good%20First%20Issues-green?logo=github)](https://github.com/marketplace/actions/good-first-issues)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
-Automatically discover open issues labeled **good first issue** across GitHub repositories. Updated daily via GitHub Actions.
+This repo helps you automatically discover open issues labeled **good first issue** across GitHub repositories. It is a **community driven project**, and always welcoming interested contributors. Updated daily via GitHub Actions.
 
 </div>
 
@@ -20,10 +20,10 @@ This tool scans public repositories for a given list of GitHub usernames or orga
 
 | Resource | Description |
 |---|---|
+| [Contributing](CONTRIBUTING.md) | Guidelines for contributing to this project. It's not that long. Read it! |
 | [Action Usage Guide](docs/action-usage.md) | How to use this Action in your workflows |
 | [Local Setup](docs/setup.md) | How to install, configure, and run the project locally |
 | [How It Works](docs/how-it-works.md) | Architecture and internal logic |
-| [Contributing](CONTRIBUTING.md) | Guidelines for contributing to this project |
 | [Testing](TESTING.md) | How to run the test suite |
 
 ## Usage as a GitHub Action
@@ -51,15 +51,11 @@ The action outputs a CSV or JSON file with all discovered issues.
 
 For complete workflow examples, output schema, and authentication details, see the [Action Usage Guide](docs/action-usage.md).
 
-## Useful Resources for Open Source
+---
 
-If you are looking for where to begin contributing to open-source projects, these are good articles to get you started:
+## ⭐ Support
 
-- [First Contributions Repository](https://github.com/firstcontributions/first-contributions) — Practice the fork & pull-request workflow.
-- [A Beginner's Guide to Contributing to Open Source Projects](https://blog.ossph.org/a-beginners-guide-to-contributing-to-open-source-projects/)
-- [Open Source Guide](https://opensource.guide/) — Comprehensive community guide.
-- [Writing Better Commits](https://cbea.ms/git-commit/) — Learn the art of commit messages.
-- [Markdown Syntax](https://www.markdownguide.org/basic-syntax/) — Master documentation formatting.
+Did the repo helped you finding an issue? learning something? Consider giving it a star :) Helps keeping me motivated!
 
 ---
 ## ⭐ Support
@@ -88,6 +84,7 @@ If this repository helped you in your open source journey, consider giving it a 
 | microsoft/mcp | C# | [[COMMUNITY] Auto generate CHANGELOG, including adding contributors for each release](https://github.com/microsoft/mcp/issues/156) | 4 |
 | microsoft/aspire | C# | [Improve Exception Message for Missing Project Metadata Annotation in ResourceContainerImageBuilder.cs](https://github.com/microsoft/aspire/issues/11299) | 12 |
 | microsoft/snmalloc | C++ | [Implement accurate size storage for Windows `_msize` and `_recalloc`](https://github.com/microsoft/snmalloc/issues/786) | 0 |
+| godotengine/godot | C++ | [Polygon2d hides when its original shape is panned outside the main viewport](https://github.com/godotengine/godot/issues/119843) | 0 |
 | microsoft/react-native-windows | C++ | [Scroll wheel behavior differs significantly in new architecture (Windows App SDK) vs WinUI 3 Gallery app](https://github.com/microsoft/react-native-windows/issues/14653) | 1 |
 | microsoft/react-native-windows | C++ | [Deprecate autolink functionality to copy flags from react-native.config.js into ExperimentalFeature.props.](https://github.com/microsoft/react-native-windows/issues/14601) | 1 |
 | microsoft/terminal | C++ | ["Export text" action invoked from cmd paletter forwards Enter key](https://github.com/microsoft/terminal/issues/20188) | 3 |
@@ -109,7 +106,6 @@ If this repository helped you in your open source journey, consider giving it a 
 | hashicorp/vault-secrets-operator | Go | [Add allowedNamespaces spec to helm chart values.yaml](https://github.com/hashicorp/vault-secrets-operator/issues/426) | 0 |
 | hashicorp/pandora | Go | [tools/generator-terraform: validation function on lists/sets](https://github.com/hashicorp/pandora/issues/1514) | 0 |
 | hashicorp/waypoint | Go | [Replace pluralize helper in user-facing text](https://github.com/hashicorp/waypoint/issues/3446) | 0 |
-| hashicorp/consul-template | Go | [Feature: parseInt and parseFloat should handle json.Number](https://github.com/hashicorp/consul-template/issues/1584) | 0 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Improve layout of `viewcal` command](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/325) | 0 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Use button instead of link and update language for `/trigger connect` message](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/316) | 0 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Review `viewcal` command dates or help text](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/315) | 0 |
@@ -135,6 +131,8 @@ If this repository helped you in your open source journey, consider giving it a 
 | mattermost/mattermost-plugin-github | Go | [Create tests for `createIssue()` method](https://github.com/mattermost/mattermost-plugin-github/issues/223) | 0 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Add mapped Mattermost users as attendees in CreateEvent API method](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/28) | 0 |
 | hashicorp/nomad | Go | [Improve description of Consul tokens to include client information](https://github.com/hashicorp/nomad/issues/28048) | 1 |
+| hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_bedrockagentcore_memory_strategy missing reflection configuration for EPISODIC type](https://github.com/hashicorp/terraform-provider-aws/issues/47938) | 1 |
+| hashicorp/terraform-provider-aws | Go | [data/aws_bedrock_foundation_model: modelLifecycle attribute not exposed](https://github.com/hashicorp/terraform-provider-aws/issues/47779) | 1 |
 | hashicorp/terraform-provider-kubernetes | Go | [Add CSI Driver fsGroup Support](https://github.com/hashicorp/terraform-provider-kubernetes/issues/2702) | 1 |
 | hashicorp/terraform-provider-aws | Go | [[Docs]: Document necessary dependency between aws_eks_access_entry and aws_eks_access_policy_association](https://github.com/hashicorp/terraform-provider-aws/issues/40951) | 1 |
 | hashicorp/nomad | Go | [show embedded template diffs line-by-line](https://github.com/hashicorp/nomad/issues/23603) | 1 |
@@ -235,7 +233,6 @@ If this repository helped you in your open source journey, consider giving it a 
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_acm_certificate should guide how to import certificates including transparency logging](https://github.com/hashicorp/terraform-provider-aws/issues/35093) | 5 |
 | hashicorp/terraform-provider-aws | Go | [[Bug]: Resource aws_s3_bucket_versioning can't be created for s3 outpost bucket](https://github.com/hashicorp/terraform-provider-aws/issues/33119) | 5 |
 | hashicorp/terraform-provider-aws | Go | [[Docs]: `aws_rds_cluster` add section for Major version upgrades and parameter `db_instance_parameter_group_name`](https://github.com/hashicorp/terraform-provider-aws/issues/27617) | 5 |
-| hashicorp/nomad | Go | [Scale job API endpoint documentation is inconsistent with observed behavior](https://github.com/hashicorp/nomad/issues/13056) | 5 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Re-implement autorespond feature](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/227) | 5 |
 | mattermost/mattermost-plugin-github | Go | ["Someone replied to your comment thread" feature](https://github.com/mattermost/mattermost-plugin-github/issues/328) | 5 |
 | mattermost/mattermost-plugin-confluence | Go | [Handle React warnings regarding non-DOM properties](https://github.com/mattermost/mattermost-plugin-confluence/issues/46) | 5 |
@@ -464,7 +461,6 @@ If this repository helped you in your open source journey, consider giving it a 
 | microsoft/onnxscript | Python | [Constant-Folding Registry](https://github.com/microsoft/onnxscript/issues/2507) | 1 |
 | microsoft/presidio | Python | [More elaborate description how to build custom Docker images for Presidio](https://github.com/microsoft/presidio/issues/1663) | 1 |
 | huggingface/lerobot | Python | [Question regarding downsampling and resizing dataset](https://github.com/huggingface/lerobot/issues/2124) | 2 |
-| huggingface/lerobot | Python | [Finetune smolvla with vision encoder](https://github.com/huggingface/lerobot/issues/1774) | 2 |
 | huggingface/lighteval | Python | [[FT] Manage script and language in the Language enum](https://github.com/huggingface/lighteval/issues/745) | 2 |
 | huggingface/lighteval | Python | [Call for contributions: Translate lighteval's doc into Chinese](https://github.com/huggingface/lighteval/issues/716) | 2 |
 | huggingface/dataset-viewer | Python | [use the `ROW_IDX_COLUMN` constant name instead of copying the value everywhere](https://github.com/huggingface/dataset-viewer/issues/2798) | 2 |
@@ -480,6 +476,7 @@ If this repository helped you in your open source journey, consider giving it a 
 | microsoft/onnxscript | Python | [[torchlib] slice_scatter does not support start and end to be None](https://github.com/microsoft/onnxscript/issues/2372) | 2 |
 | microsoft/vscode-black-formatter | Python | [black is using cached pyproject.toml instead of the actual one](https://github.com/microsoft/vscode-black-formatter/issues/569) | 2 |
 | microsoft/msticpy | Python | [[Bug]: RiskIQ TI Provider does not seem functional anymore and docs for config and API access are out of date](https://github.com/microsoft/msticpy/issues/820) | 2 |
+| huggingface/lerobot | Python | [Finetune smolvla with vision encoder](https://github.com/huggingface/lerobot/issues/1774) | 3 |
 | huggingface/lighteval | Python | [[FT] showing count in Markdown summary table](https://github.com/huggingface/lighteval/issues/804) | 3 |
 | huggingface/lighteval | Python | [[FT]  Add tests for nanotron](https://github.com/huggingface/lighteval/issues/765) | 3 |
 | huggingface/lighteval | Python | [[EVAL] Big-Bench Extra Hard (BBEH)](https://github.com/huggingface/lighteval/issues/600) | 3 |
@@ -555,7 +552,6 @@ If this repository helped you in your open source journey, consider giving it a 
 | huggingface/chat-macOS | Swift | [Asking "what time is it?" will always return the local time of Paris, regardless of your location (⌘R+)](https://github.com/huggingface/chat-macOS/issues/7) | 2 |
 | huggingface/chat-macOS | Swift | [Add custom LLM API ](https://github.com/huggingface/chat-macOS/issues/18) | 5 |
 | huggingface/sam2-studio | Swift | [Video support estimated release date?](https://github.com/huggingface/sam2-studio/issues/25) | 26 |
-| microsoft/AI-Engineering-Coach | TypeScript | [feat: Context Files](https://github.com/microsoft/AI-Engineering-Coach/issues/60) | 0 |
 | microsoft/vscode-documentdb | TypeScript | [Show index count on the Indexes folder node 🔢](https://github.com/microsoft/vscode-documentdb/issues/659) | 0 |
 | microsoft/vscode-documentdb | TypeScript | [Show collection count on database tree items 🔢](https://github.com/microsoft/vscode-documentdb/issues/658) | 0 |
 | microsoft/compose-language-service | TypeScript | [Hover link on `image:` field in compose.yaml always points to Docker Hub, even for private registries](https://github.com/microsoft/compose-language-service/issues/179) | 0 |
@@ -635,6 +631,7 @@ If this repository helped you in your open source journey, consider giving it a 
 | decentraland/explorer | TypeScript | [Add new AvatarModifier: Force camera mode](https://github.com/decentraland/explorer/issues/1948) | 0 |
 | decentraland/atlas-server | TypeScript | [Add a redirect or message with a link to the documentation at /](https://github.com/decentraland/atlas-server/issues/3) | 0 |
 | decentraland/builder | TypeScript | [Add a way to de-assign a Name from a Land (Parcel/Estate) from the table](https://github.com/decentraland/builder/issues/1203) | 0 |
+| microsoft/AI-Engineering-Coach | TypeScript | [feat: Context Files](https://github.com/microsoft/AI-Engineering-Coach/issues/60) | 1 |
 | microsoft/Agent365-nodejs | TypeScript | [Move all ESLint configuration to a centralized location at the root of the repo](https://github.com/microsoft/Agent365-nodejs/issues/14) | 1 |
 | microsoft/genaiscript | TypeScript | [Open Telemetry](https://github.com/microsoft/genaiscript/issues/1323) | 1 |
 | microsoft/vscode-python-debugger | TypeScript | [Add a `debugpy.sh` for the no-config debugging](https://github.com/microsoft/vscode-python-debugger/issues/651) | 1 |
