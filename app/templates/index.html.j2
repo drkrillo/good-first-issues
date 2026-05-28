@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Good First Issues</title>
+</head>
+<body>
+
+<h1>Good First Issues</h1>
+
+<table border="1">
+    <tr>
+        <th>Repository</th>
+        <th>Title</th>
+        <th>Link</th>
+    </tr>
+
+    {% for row in issues %}
+    <tr>
+        <td>{{ row.repo }}</td>
+        <td>{{ row.title }}</td>
+        <td><a href="{{ row.url }}">Open</a></td>
+    </tr>
+    {% endfor %}
+
+</table>
+
+</body>
+</html>
