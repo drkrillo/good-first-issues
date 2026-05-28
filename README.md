@@ -66,7 +66,7 @@ If you are looking for where to begin contributing to open-source projects, thes
 
 If this repository helped you in your open source journey, consider giving it a star!
 
-## Good First Issues <sub><sub>Last run: 2026-05-27</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-05-28</sub></sub>
 
 | Repo | Language | Title | Comments |
 |---|---|---|---|
@@ -142,8 +142,6 @@ If this repository helped you in your open source journey, consider giving it a 
 | hashicorp/waypoint | Go | [Show job created time in CLI output](https://github.com/hashicorp/waypoint/issues/4293) | 1 |
 | hashicorp/nomad | Go | [Document the role of the -role-id and -role-name flags on nomad acl token create](https://github.com/hashicorp/nomad/issues/15340) | 1 |
 | hashicorp/nomad | Go | [docs: correctly detail endpoints that support PUT and POST](https://github.com/hashicorp/nomad/issues/15243) | 1 |
-| hashicorp/terraform-provider-azurerm | Go | [r/data_factory_linked_service_postgresql: export `key_vault_connection_string`](https://github.com/hashicorp/terraform-provider-azurerm/issues/16500) | 1 |
-| hashicorp/waypoint | Go | [Makefile: Add a make target to generate changelog text files](https://github.com/hashicorp/waypoint/issues/3219) | 1 |
 | mattermost/mattermost-plugin-google-calendar | Go | [`/gcal viewcal` and daily summary show up declined events](https://github.com/mattermost/mattermost-plugin-google-calendar/issues/53) | 1 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Add space between time and AM/PM for events](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/318) | 1 |
 | mattermost/mattermost-plugin-apps | Go | [If the App stops running I see a whole HTML response as the error](https://github.com/mattermost/mattermost-plugin-apps/issues/462) | 1 |
@@ -247,7 +245,6 @@ If this repository helped you in your open source journey, consider giving it a 
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_athena_prepared_statement: Allow multiline (EOT) query strings to preserve comments and line breaks without update-in-place](https://github.com/hashicorp/terraform-provider-aws/issues/41469) | 6 |
 | hashicorp/vault-csi-provider | Go | [feat: Enable json logging format](https://github.com/hashicorp/vault-csi-provider/issues/177) | 6 |
 | hashicorp/terraform-provider-aws | Go | [aws_iam_openid_connect_provider rejects valid "url"s](https://github.com/hashicorp/terraform-provider-aws/issues/26483) | 6 |
-| hashicorp/waypoint | Go | [Registry insecure flag](https://github.com/hashicorp/waypoint/issues/3333) | 6 |
 | mattermost/mattermost-plugin-jira | Go | [When an issue's assignee changes, the plugin should use the connected user's MM handle in the resulting post](https://github.com/mattermost/mattermost-plugin-jira/issues/943) | 6 |
 | mattermost/mattermost-plugin-github | Go | [Make new events for assigning](https://github.com/mattermost/mattermost-plugin-github/issues/340) | 6 |
 | mattermost/mattermost-plugin-starter-template | Go | [Include stubs for all hooks to get going quickly](https://github.com/mattermost/mattermost-plugin-starter-template/issues/110) | 6 |
@@ -326,6 +323,9 @@ If this repository helped you in your open source journey, consider giving it a 
 | microsoft/edge-ai | HCL | [docs(testing): add regression test tracking policy](https://github.com/microsoft/edge-ai/issues/176) | 0 |
 | microsoft/edge-ai | HCL | [chore(python): add pip lock files for reproducible builds](https://github.com/microsoft/edge-ai/issues/167) | 0 |
 | microsoft/edge-ai | HCL | [docs(testing): update testing-validation.md to reflect actual test frameworks](https://github.com/microsoft/edge-ai/issues/144) | 0 |
+| hashicorp/terraform-google-terraform-enterprise-hvd | HCL | [Feat(startup_script) add stop_grace_period to docker-compose](https://github.com/hashicorp/terraform-google-terraform-enterprise-hvd/issues/36) | 0 |
+| hashicorp/terraform-azurerm-terraform-enterprise-hvd | HCL | [Feat(custom_data) add stop_grace_period to docker-compose](https://github.com/hashicorp/terraform-azurerm-terraform-enterprise-hvd/issues/31) | 0 |
+| hashicorp/terraform-aws-terraform-enterprise-hvd | HCL | [Feat(user_data) add stop_grace_period to docker-compose](https://github.com/hashicorp/terraform-aws-terraform-enterprise-hvd/issues/59) | 0 |
 | microsoft/edge-ai | HCL | [docs(changelog): add CHANGELOG.md generation](https://github.com/microsoft/edge-ai/issues/143) | 1 |
 | microsoft/edge-ai | HCL | [chore(rust): standardize strip = true across all Rust crates](https://github.com/microsoft/edge-ai/issues/177) | 2 |
 | kubernetes/k8s.io | HCL | [[Umbrella Issue] Migrate CNCF Ecosystem projects from k8s.gcr.io to registry.k8s.io](https://github.com/kubernetes/k8s.io/issues/4780) | 37 |
@@ -345,8 +345,8 @@ If this repository helped you in your open source journey, consider giving it a 
 | kubernetes/website | HTML | [[hi] Localize concepts/Storage page](https://github.com/kubernetes/website/issues/47462) | 9 |
 | kubernetes/website | HTML | [[hi] Localize concepts/Workloads page ](https://github.com/kubernetes/website/issues/47442) | 11 |
 | kubernetes/website | HTML | [[hi] Localize tasks/configure-pod-container page ](https://github.com/kubernetes/website/issues/48992) | 14 |
-| kubernetes/website | HTML | [Add Etcd Version Skew to Kubernetes Docs](https://github.com/kubernetes/website/issues/53355) | 18 |
 | kubernetes/website | HTML | [[hi] Localize en/docs/contribute/style/page-content-types.md](https://github.com/kubernetes/website/issues/36594) | 18 |
+| kubernetes/website | HTML | [Add Etcd Version Skew to Kubernetes Docs](https://github.com/kubernetes/website/issues/53355) | 19 |
 | kubernetes/website | HTML | [[hi] Localize en/docs/contribute/participate/_index.md](https://github.com/kubernetes/website/issues/36471) | 19 |
 | kubernetes/website | HTML | [[de] Localize content/de/setup/production-environment/_index.md](https://github.com/kubernetes/website/issues/50286) | 23 |
 | kubernetes/website | HTML | [[hi] Localize /en/docs/reference/glossary/admission-controller.md](https://github.com/kubernetes/website/issues/35935) | 25 |
@@ -354,6 +354,7 @@ If this repository helped you in your open source journey, consider giving it a 
 | kubernetes/website | HTML | [[hi] Enhance README file to improve readability and user-friendliness](https://github.com/kubernetes/website/issues/41989) | 30 |
 | microsoft/copilot-for-eclipse | Java | [Detailed model information on dropdown hover is cropped on Linux](https://github.com/microsoft/copilot-for-eclipse/issues/113) | 1 |
 | microsoft/copilot-for-eclipse | Java | [Please integrate copilot into eclipse quickfix feature - Enhancement Request](https://github.com/microsoft/copilot-for-eclipse/issues/70) | 3 |
+| microsoft/typespec | Java | [testing: expectDiagnostics() should provide an option to ignore ordering](https://github.com/microsoft/typespec/issues/5818) | 3 |
 | microsoft/copilot-for-eclipse | Java | [Unable to use the Java source file corresponding to the class file as context](https://github.com/microsoft/copilot-for-eclipse/issues/117) | 6 |
 | mattermost/mattermost-plugin-gitlab | JavaScript | [Convert link_tooltip component to typescript](https://github.com/mattermost/mattermost-plugin-gitlab/issues/424) | 1 |
 | freeCodeCamp/classroom | JavaScript | [Bug: Classrooms can be created with no certifications](https://github.com/freeCodeCamp/classroom/issues/551) | 1 |
@@ -439,13 +440,9 @@ If this repository helped you in your open source journey, consider giving it a 
 | huggingface/nanotron | Python | [[Feature] Use CUDA event for measuring elasped time](https://github.com/huggingface/nanotron/issues/88) | 0 |
 | huggingface/nanotron | Python | [[Feature] Refactor `ParallelContext.world_rank_matrix`](https://github.com/huggingface/nanotron/issues/77) | 0 |
 | microsoft/winml-cli | Python | [Minor refactor: reuse _compute_case_signature to compute failed model file name](https://github.com/microsoft/winml-cli/issues/56) | 0 |
-| microsoft/winml-cli | Python | [Add test cases for sysinfo/](https://github.com/microsoft/winml-cli/issues/54) | 0 |
-| microsoft/winml-cli | Python | [Merge sysinfo subpackage with commands/sysinfo.py](https://github.com/microsoft/winml-cli/issues/53) | 0 |
 | microsoft/physical-ai-toolchain | Python | [fix(scripts): align setup-dev.sh with shell script conventions](https://github.com/microsoft/physical-ai-toolchain/issues/144) | 0 |
 | microsoft/physical-ai-toolchain | Python | [chore(ci): remove JaCoCo parser config from codecov.yml](https://github.com/microsoft/physical-ai-toolchain/issues/140) | 0 |
 | microsoft/physical-ai-toolchain | Python | [chore(scripts): remove redundant shellcheck disable directives](https://github.com/microsoft/physical-ai-toolchain/issues/138) | 0 |
-| microsoft/physical-ai-toolchain | Python | [fix(scripts): remove unused instance_type variable in submit-azureml-lerobot-inference.sh](https://github.com/microsoft/physical-ai-toolchain/issues/137) | 0 |
-| microsoft/physical-ai-toolchain | Python | [fix(scripts): fix SC2318 local variable cross-reference in common.sh tf_require](https://github.com/microsoft/physical-ai-toolchain/issues/136) | 0 |
 | microsoft/teams.py | Python | [[apps] add default route overrides](https://github.com/microsoft/teams.py/issues/159) | 0 |
 | huggingface/lighteval | Python | [[EVAL] Add kyrgyzLLM benchmark](https://github.com/huggingface/lighteval/issues/1036) | 1 |
 | huggingface/accelerate | Python | [Deadlock when running multi tasks](https://github.com/huggingface/accelerate/issues/3814) | 1 |
@@ -458,7 +455,10 @@ If this repository helped you in your open source journey, consider giving it a 
 | huggingface/nanotron | Python | [FEAT: Support 1.58-bit LLMs training](https://github.com/huggingface/nanotron/issues/114) | 1 |
 | huggingface/dataset-viewer | Python | [Use `revision_exists` (hfh)](https://github.com/huggingface/dataset-viewer/issues/2562) | 1 |
 | huggingface/nanotron | Python | [[Feature Request] Add simple communications benchmarks to the repo](https://github.com/huggingface/nanotron/issues/43) | 1 |
+| microsoft/winml-cli | Python | [Add test cases for sysinfo/](https://github.com/microsoft/winml-cli/issues/54) | 1 |
 | microsoft/physical-ai-toolchain | Python | [docs(ci): document GHSA allowlist in dependency-review.yml](https://github.com/microsoft/physical-ai-toolchain/issues/142) | 1 |
+| microsoft/physical-ai-toolchain | Python | [fix(scripts): remove unused instance_type variable in submit-azureml-lerobot-inference.sh](https://github.com/microsoft/physical-ai-toolchain/issues/137) | 1 |
+| microsoft/physical-ai-toolchain | Python | [fix(scripts): fix SC2318 local variable cross-reference in common.sh tf_require](https://github.com/microsoft/physical-ai-toolchain/issues/136) | 1 |
 | microsoft/onnxscript | Python | [[Optimizer] Fold Shape -> {Slice, Gather} -> Concat -> Reshape](https://github.com/microsoft/onnxscript/issues/2736) | 1 |
 | microsoft/onnxscript | Python | [[torchlib] Add op test to torch.unique_consecutive](https://github.com/microsoft/onnxscript/issues/2695) | 1 |
 | microsoft/onnxscript | Python | [Constant-Folding Registry](https://github.com/microsoft/onnxscript/issues/2507) | 1 |
@@ -622,7 +622,6 @@ If this repository helped you in your open source journey, consider giving it a 
 | decentraland/decentraland-connect | TypeScript | [Remove unused files from the public release](https://github.com/decentraland/decentraland-connect/issues/28) | 0 |
 | decentraland/builder | TypeScript | [Multiple mints set invalid values](https://github.com/decentraland/builder/issues/1690) | 0 |
 | decentraland/account | TypeScript | [Enhance transaction modals](https://github.com/decentraland/account/issues/167) | 0 |
-| decentraland/explorer-website | TypeScript | [Add prettier](https://github.com/decentraland/explorer-website/issues/107) | 0 |
 | decentraland/builder | TypeScript | [Show progress bar on Upload Files modal](https://github.com/decentraland/builder/issues/1614) | 0 |
 | decentraland/builder | TypeScript | [Broken link on publish collection Content Policy](https://github.com/decentraland/builder/issues/1588) | 0 |
 | decentraland/kernel | TypeScript | [Move empty parcels to their own repository](https://github.com/decentraland/kernel/issues/794) | 0 |
