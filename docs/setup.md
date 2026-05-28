@@ -66,6 +66,8 @@ For more details, see the [official GitHub documentation](https://docs.github.co
 
 ## 6. Run the script
 
+From the root of the project, run:
+
 ```bash
 python -m app.update_issues --output good_first_issues.csv
 ```
