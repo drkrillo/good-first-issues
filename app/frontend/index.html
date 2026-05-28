@@ -3,6 +3,9 @@
 <head>
     <title>Good First Issues</title>
 
+    <!-- PapaParse library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -49,37 +52,41 @@
 <script>
 fetch("/good_first_issues.csv")
   .then(response => response.text())
-  .then(data => {
-
-      const rows = data.trim().split("\n");
+  .then(csvText => {
 
       const table = document.getElementById("issuesTable");
 
-      rows.forEach((row, index) => {
+      Papa.parse(csvText, {
+          skipEmptyLines: true,
+          complete: function(results) {
 
-          const cols = row.split(",");
+              const data = results.data;
 
-          const tr = document.createElement("tr");
+              data.forEach((row, index) => {
 
-          cols.forEach(col => {
+                  const tr = document.createElement("tr");
 
-              const cell = document.createElement(index === 0 ? "th" : "td");
+                  row.forEach(col => {
 
-              // Make links clickable
-              if (col.startsWith("http")) {
-                  const a = document.createElement("a");
-                  a.href = col;
-                  a.innerText = "Open Issue";
-                  a.target = "_blank";
-                  cell.appendChild(a);
-              } else {
-                  cell.innerText = col;
-              }
+                      const cell = document.createElement(index === 0 ? "th" : "td");
 
-              tr.appendChild(cell);
-          });
+                      // Make links clickable
+                      if (typeof col === "string" && col.startsWith("http")) {
+                          const a = document.createElement("a");
+                          a.href = col;
+                          a.innerText = "Open Issue";
+                          a.target = "_blank";
+                          cell.appendChild(a);
+                      } else {
+                          cell.innerText = col;
+                      }
 
-          table.appendChild(tr);
+                      tr.appendChild(cell);
+                  });
+
+                  table.appendChild(tr);
+              });
+          }
       });
 
   })
