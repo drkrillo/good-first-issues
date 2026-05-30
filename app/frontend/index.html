@@ -7,46 +7,201 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 
     <style>
+        :root {
+            --bg: #ffffff;
+            --text: #1a1a2e;
+            --accent: #4361ee;
+            --accent-hover: #3a56d4;
+            --border: #e0e0e0;
+            --header-bg: #f0f2ff;
+            --row-hover: #f8f9ff;
+            --input-bg: #ffffff;
+            --input-border: #d0d0d0;
+            --card-shadow: 0 2px 12px rgba(0,0,0,0.06);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #0f0f23;
+                --text: #e0e0f0;
+                --accent: #6c8cff;
+                --accent-hover: #5a7aee;
+                --border: #2a2a4a;
+                --header-bg: #1a1a3e;
+                --row-hover: #1a1a3e;
+                --input-bg: #1a1a3e;
+                --input-border: #3a3a5a;
+                --card-shadow: 0 2px 12px rgba(0,0,0,0.4);
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 24px 16px;
+            min-height: 100vh;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
         }
 
         h1 {
             text-align: center;
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin: 0 0 24px;
+            color: var(--accent);
+        }
+
+        .controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 20px;
+            align-items: center;
+        }
+
+        #searchBox {
+            flex: 1 1 260px;
+            padding: 10px 14px;
+            font-size: 14px;
+            border: 1px solid var(--input-border);
+            border-radius: 8px;
+            background: var(--input-bg);
+            color: var(--text);
+            outline: none;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        #searchBox:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.15);
+        }
+
+        #languageFilter {
+            padding: 10px 14px;
+            font-size: 14px;
+            border: 1px solid var(--input-border);
+            border-radius: 8px;
+            background: var(--input-bg);
+            color: var(--text);
+            outline: none;
+            cursor: pointer;
+            min-width: 160px;
+            transition: border-color 0.2s;
+        }
+
+        #languageFilter:focus {
+            border-color: var(--accent);
+        }
+
+        #sortComments {
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: 600;
+            border: none;
+            border-radius: 8px;
+            background: var(--accent);
+            color: #ffffff;
+            cursor: pointer;
+            transition: background 0.2s, transform 0.1s;
+            white-space: nowrap;
+        }
+
+        #sortComments:hover {
+            background: var(--accent-hover);
+        }
+
+        #sortComments:active {
+            transform: scale(0.97);
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 20px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: var(--card-shadow);
         }
 
         th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
+            border: none;
+            border-bottom: 1px solid var(--border);
+            padding: 12px 14px;
             font-size: 14px;
             text-align: left;
         }
 
         th {
-            background-color: #f4f4f4;
+            background: var(--header-bg);
+            font-weight: 600;
+            color: var(--accent);
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
         }
 
-        tr:hover {
-            background-color: #f1f1f1;
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tr:hover td {
+            background: var(--row-hover);
         }
 
         a {
-            color: blue;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+            transition: text-decoration 0.2s;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 16px 8px;
+            }
+
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            #searchBox, #languageFilter, #sortComments {
+                width: 100%;
+            }
+
+            th, td {
+                padding: 8px 10px;
+                font-size: 13px;
+            }
+
+            h1 {
+                font-size: 1.3rem;
+            }
         }
     </style>
 </head>
 
 <body>
 
+<div class="container">
+
 <h1>Good First Issues</h1>
 
+<div class="controls">
 <input type="text" id="searchBox" placeholder="Search issues...">
 
 <select id="languageFilter">
@@ -56,6 +211,7 @@
 <button id="sortComments">
     Sort by comments
 </button>
+</div>
 
 <table id="issuesTable"></table>
 
