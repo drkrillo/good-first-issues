@@ -62,7 +62,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 If this repository helped you in your open source journey, consider giving it a star!
 
-## Good First Issues <sub><sub>Last run: 2026-05-29</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-05-30</sub></sub>
 
 | Repo | Language | Title | Comments |
 |---|---|---|---|
@@ -131,6 +131,7 @@ If this repository helped you in your open source journey, consider giving it a 
 | mattermost/mattermost-plugin-mscalendar | Go | [Allow "create event" command to accept spaces in values](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/97) | 0 |
 | mattermost/mattermost-plugin-github | Go | [Create tests for `createIssue()` method](https://github.com/mattermost/mattermost-plugin-github/issues/223) | 0 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Add mapped Mattermost users as attendees in CreateEvent API method](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/28) | 0 |
+| kubernetes/minikube | Go | [docs: Replace GitHub-style alerts with Docsy shortcodes](https://github.com/kubernetes/minikube/issues/23070) | 1 |
 | hashicorp/nomad | Go | [Improve description of Consul tokens to include client information](https://github.com/hashicorp/nomad/issues/28048) | 1 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_bedrockagentcore_memory_strategy missing reflection configuration for EPISODIC type](https://github.com/hashicorp/terraform-provider-aws/issues/47938) | 1 |
 | hashicorp/terraform-provider-aws | Go | [data/aws_bedrock_foundation_model: modelLifecycle attribute not exposed](https://github.com/hashicorp/terraform-provider-aws/issues/47779) | 1 |
