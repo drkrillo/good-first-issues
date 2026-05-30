@@ -74,6 +74,7 @@ If this repository helped you in your open source journey, consider giving it a 
 | microsoft/msquic | C | [Support in-memory certificate stores](https://github.com/microsoft/msquic/issues/4951) | 2 |
 | microsoft/ebpf-for-windows | C | [ebpf-verifier is cloned twice](https://github.com/microsoft/ebpf-for-windows/issues/4174) | 2 |
 | microsoft/msquic | C | [Failing to use close-on-exec](https://github.com/microsoft/msquic/issues/4980) | 3 |
+| microsoft/aspire | C# | [Debugging in VS Code with invalid csproj exits normally (0) and does not print the build error](https://github.com/microsoft/aspire/issues/17735) | 0 |
 | microsoft/aspire | C# | [Improve display of resource commands in aspire panel](https://github.com/microsoft/aspire/issues/17667) | 0 |
 | microsoft/aspire | C# | [Docker availability warnings should be more prominent in `aspire run` output](https://github.com/microsoft/aspire/issues/10621) | 0 |
 | microsoft/aspire | C# | [Improve Aspire compatibility error message to be more specific and actionable](https://github.com/microsoft/aspire/issues/10559) | 0 |
@@ -81,12 +82,14 @@ If this repository helped you in your open source journey, consider giving it a 
 | microsoft/profile-explorer | C# | [Mapping code gap?](https://github.com/microsoft/profile-explorer/issues/7) | 0 |
 | microsoft/WPF-Samples | C# | [Sample Applications Update to Fluent Theme](https://github.com/microsoft/WPF-Samples/issues/680) | 0 |
 | microsoft/kiota | C# | [Stacktrace on exceptions](https://github.com/microsoft/kiota/issues/7014) | 1 |
+| microsoft/aspire | C# | [VS Code extension: Show "Stopping..." state for AppHosts in the Aspire pane](https://github.com/microsoft/aspire/issues/17707) | 2 |
 | microsoft/PowerToys | C# | [.opus support for Peek](https://github.com/microsoft/PowerToys/issues/42576) | 2 |
 | microsoft/mcp | C# | [[COMMUNITY] Auto generate CHANGELOG, including adding contributors for each release](https://github.com/microsoft/mcp/issues/156) | 4 |
 | microsoft/aspire | C# | [Improve Exception Message for Missing Project Metadata Annotation in ResourceContainerImageBuilder.cs](https://github.com/microsoft/aspire/issues/11299) | 12 |
 | microsoft/snmalloc | C++ | [Implement accurate size storage for Windows `_msize` and `_recalloc`](https://github.com/microsoft/snmalloc/issues/786) | 0 |
 | microsoft/react-native-windows | C++ | [Scroll wheel behavior differs significantly in new architecture (Windows App SDK) vs WinUI 3 Gallery app](https://github.com/microsoft/react-native-windows/issues/14653) | 1 |
 | microsoft/react-native-windows | C++ | [Deprecate autolink functionality to copy flags from react-native.config.js into ExperimentalFeature.props.](https://github.com/microsoft/react-native-windows/issues/14601) | 1 |
+| godotengine/godot | C++ | [PI and TAU arent considered valid numeric expressions in hint_range in non-spatial shaders](https://github.com/godotengine/godot/issues/119835) | 1 |
 | microsoft/terminal | C++ | ["Export text" action invoked from cmd paletter forwards Enter key](https://github.com/microsoft/terminal/issues/20188) | 3 |
 | microsoft/react-native-windows | C++ | [[Bug] init-windows adds incorrect name of Native Codegen File Include](https://github.com/microsoft/react-native-windows/issues/15094) | 4 |
 | godotengine/godot | C++ | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 24 |
@@ -133,7 +136,6 @@ If this repository helped you in your open source journey, consider giving it a 
 | mattermost/mattermost-plugin-mscalendar | Go | [Add mapped Mattermost users as attendees in CreateEvent API method](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/28) | 0 |
 | kubernetes/minikube | Go | [docs: Replace GitHub-style alerts with Docsy shortcodes](https://github.com/kubernetes/minikube/issues/23070) | 1 |
 | hashicorp/nomad | Go | [Improve description of Consul tokens to include client information](https://github.com/hashicorp/nomad/issues/28048) | 1 |
-| hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_bedrockagentcore_memory_strategy missing reflection configuration for EPISODIC type](https://github.com/hashicorp/terraform-provider-aws/issues/47938) | 1 |
 | hashicorp/terraform-provider-aws | Go | [data/aws_bedrock_foundation_model: modelLifecycle attribute not exposed](https://github.com/hashicorp/terraform-provider-aws/issues/47779) | 1 |
 | hashicorp/terraform-provider-kubernetes | Go | [Add CSI Driver fsGroup Support](https://github.com/hashicorp/terraform-provider-kubernetes/issues/2702) | 1 |
 | hashicorp/terraform-provider-aws | Go | [[Docs]: Document necessary dependency between aws_eks_access_entry and aws_eks_access_policy_association](https://github.com/hashicorp/terraform-provider-aws/issues/40951) | 1 |
@@ -151,6 +153,7 @@ If this repository helped you in your open source journey, consider giving it a 
 | mattermost/mattermost-plugin-nps | Go | [Use SiteURL for all calls from the webapp](https://github.com/mattermost/mattermost-plugin-nps/issues/70) | 1 |
 | mattermost/mattermost-plugin-google-calendar | Go | [Improve error handling in `completeCalendar` to avoid panic](https://github.com/mattermost/mattermost-plugin-google-calendar/issues/8) | 1 |
 | mattermost/mattermost-plugin-github | Go | [Use custom post type to display TODO list](https://github.com/mattermost/mattermost-plugin-github/issues/86) | 1 |
+| hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_bedrockagentcore_memory_strategy missing reflection configuration for EPISODIC type](https://github.com/hashicorp/terraform-provider-aws/issues/47938) | 2 |
 | hashicorp/terraform-provider-aws | Go | [aws_fms_policy resource_tag_logical_operator not correctly displaying diff during a plan](https://github.com/hashicorp/terraform-provider-aws/issues/47771) | 2 |
 | hashicorp/terraform-provider-aws | Go | [Add private DNS endpoint attribute to `aws_dsql_cluster` resource](https://github.com/hashicorp/terraform-provider-aws/issues/47596) | 2 |
 | hashicorp/terraform-provider-aws | Go | [aws_quicksight_dashboard / aws_quicksight_analysis: scatter_plot_categorically_aggregated_field_wells missing label block](https://github.com/hashicorp/terraform-provider-aws/issues/46529) | 2 |
@@ -352,7 +355,6 @@ If this repository helped you in your open source journey, consider giving it a 
 | kubernetes/website | HTML | [[hi] Enhance README file to improve readability and user-friendliness](https://github.com/kubernetes/website/issues/41989) | 30 |
 | microsoft/copilot-for-eclipse | Java | [Detailed model information on dropdown hover is cropped on Linux](https://github.com/microsoft/copilot-for-eclipse/issues/113) | 1 |
 | microsoft/copilot-for-eclipse | Java | [Please integrate copilot into eclipse quickfix feature - Enhancement Request](https://github.com/microsoft/copilot-for-eclipse/issues/70) | 3 |
-| microsoft/typespec | Java | [testing: expectDiagnostics() should provide an option to ignore ordering](https://github.com/microsoft/typespec/issues/5818) | 3 |
 | microsoft/copilot-for-eclipse | Java | [Unable to use the Java source file corresponding to the class file as context](https://github.com/microsoft/copilot-for-eclipse/issues/117) | 6 |
 | mattermost/mattermost-plugin-gitlab | JavaScript | [Convert link_tooltip component to typescript](https://github.com/mattermost/mattermost-plugin-gitlab/issues/424) | 1 |
 | freeCodeCamp/classroom | JavaScript | [Bug: Classrooms can be created with no certifications](https://github.com/freeCodeCamp/classroom/issues/551) | 1 |
@@ -389,7 +391,6 @@ If this repository helped you in your open source journey, consider giving it a 
 | layer5io/layer5 | JavaScript | [[Screenshots] Cert Manager Crds under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4865) | 10 |
 | layer5io/layer5 | JavaScript | [Update the structure of pages based on the latest sitemap revision available in Figma](https://github.com/layer5io/layer5/issues/5359) | 11 |
 | layer5io/layer5 | JavaScript | [[Screenshots] AWS Elastic Kubernetes Service under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/5322) | 11 |
-| layer5io/layer5 | JavaScript | [Add Meshery Relationships Tutorial to Newcomers page](https://github.com/layer5io/layer5/issues/7696) | 12 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Cloudevents under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4869) | 13 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Cilium under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4868) | 13 |
 | mattermost/mattermost-plugin-gitlab | JavaScript | [Support config variable to disable project access check for incoming webhook event](https://github.com/mattermost/mattermost-plugin-gitlab/issues/463) | 13 |
@@ -475,7 +476,6 @@ If this repository helped you in your open source journey, consider giving it a 
 | microsoft/OpenAIWorkshop | Python | [Fix eslint warnings](https://github.com/microsoft/OpenAIWorkshop/issues/292) | 2 |
 | microsoft/onnxscript | Python | [[torchlib] slice_scatter does not support start and end to be None](https://github.com/microsoft/onnxscript/issues/2372) | 2 |
 | microsoft/vscode-black-formatter | Python | [black is using cached pyproject.toml instead of the actual one](https://github.com/microsoft/vscode-black-formatter/issues/569) | 2 |
-| microsoft/msticpy | Python | [[Bug]: RiskIQ TI Provider does not seem functional anymore and docs for config and API access are out of date](https://github.com/microsoft/msticpy/issues/820) | 2 |
 | huggingface/lerobot | Python | [Finetune smolvla with vision encoder](https://github.com/huggingface/lerobot/issues/1774) | 3 |
 | huggingface/lighteval | Python | [[FT] showing count in Markdown summary table](https://github.com/huggingface/lighteval/issues/804) | 3 |
 | huggingface/lighteval | Python | [[FT]  Add tests for nanotron](https://github.com/huggingface/lighteval/issues/765) | 3 |
@@ -523,7 +523,7 @@ If this repository helped you in your open source journey, consider giving it a 
 | huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 19 |
 | huggingface/diffusers | Python | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 22 |
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 26 |
-| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 69 |
+| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 70 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 |
 | microsoft/openvmm | Rust | [remove usages of futures::select! in the repo with futures_concurrency](https://github.com/microsoft/openvmm/issues/1246) | 0 |
 | microsoft/windows-drivers-rs | Rust | [Migrate from fs4 to std::File flocks](https://github.com/microsoft/windows-drivers-rs/issues/300) | 0 |
@@ -631,7 +631,6 @@ If this repository helped you in your open source journey, consider giving it a 
 | decentraland/explorer | TypeScript | [Add new AvatarModifier: Force camera mode](https://github.com/decentraland/explorer/issues/1948) | 0 |
 | decentraland/atlas-server | TypeScript | [Add a redirect or message with a link to the documentation at /](https://github.com/decentraland/atlas-server/issues/3) | 0 |
 | decentraland/builder | TypeScript | [Add a way to de-assign a Name from a Land (Parcel/Estate) from the table](https://github.com/decentraland/builder/issues/1203) | 0 |
-| microsoft/AI-Engineering-Coach | TypeScript | [feat: Context Files](https://github.com/microsoft/AI-Engineering-Coach/issues/60) | 1 |
 | microsoft/Agent365-nodejs | TypeScript | [Move all ESLint configuration to a centralized location at the root of the repo](https://github.com/microsoft/Agent365-nodejs/issues/14) | 1 |
 | microsoft/genaiscript | TypeScript | [Open Telemetry](https://github.com/microsoft/genaiscript/issues/1323) | 1 |
 | microsoft/vscode-python-debugger | TypeScript | [Add a `debugpy.sh` for the no-config debugging](https://github.com/microsoft/vscode-python-debugger/issues/651) | 1 |
@@ -655,6 +654,7 @@ If this repository helped you in your open source journey, consider giving it a 
 | decentraland/explorer | TypeScript | [Blocking error on console: "Warning: Unsupported graphics API WebGL 2.0"](https://github.com/decentraland/explorer/issues/1333) | 1 |
 | layer5io/sistent | TypeScript | [[Feature] Icons](https://github.com/layer5io/sistent/issues/1256) | 2 |
 | huggingface/huggingface.js | TypeScript | [Maximize button not working properly on Hosted inference API block](https://github.com/huggingface/huggingface.js/issues/335) | 2 |
+| microsoft/AI-Engineering-Coach | TypeScript | [feat: Context Files](https://github.com/microsoft/AI-Engineering-Coach/issues/60) | 2 |
 | microsoft/vscode-containers | TypeScript | [Add “Compose Pull / Update All Images” command for Docker Compose projects](https://github.com/microsoft/vscode-containers/issues/414) | 2 |
 | hashicorp/terraform-cdk | TypeScript | [Typo in Tokenizer code?](https://github.com/hashicorp/terraform-cdk/issues/2709) | 2 |
 | decentraland/marketplace | TypeScript | [It's hard to detect when the kebab menu of the ListCard is clickable](https://github.com/decentraland/marketplace/issues/1866) | 2 |
