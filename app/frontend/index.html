@@ -47,52 +47,156 @@
 
 <h1>Good First Issues</h1>
 
+<input type="text" id="searchBox" placeholder="Search issues...">
+
+<select id="languageFilter">
+    <option value="">All languages</option>
+</select>
+
+<button id="sortComments">
+    Sort by comments
+</button>
+
 <table id="issuesTable"></table>
 
 <script>
-fetch("/good_first_issues.csv")
-  .then(response => response.text())
-  .then(csvText => {
+    let issuesData = []
+    let currentSearch = "";
+    let currentLanguage = "";
+    let sortMode = 0;
+    /* 
+        0 = DEFAULT
+        1 = DESCENDING
+        2 = ASCENDING
+    */
 
-      const table = document.getElementById("issuesTable");
+    const $ = (id) => document.getElementById(id);
+    const searchBox = $("searchBox");
+    const languageFilter = $("languageFilter");
+    const sortComments = $("sortComments");
+    const table = $("issuesTable");
 
-      Papa.parse(csvText, {
-          skipEmptyLines: true,
-          complete: function(results) {
+    function renderTable(data) {
 
-              const data = results.data;
+        table.innerHTML = "";
 
-              data.forEach((row, index) => {
+        data.forEach((row, index) => {
+            const tr = document.createElement("tr");
 
-                  const tr = document.createElement("tr");
+            row.forEach(col => {
+                const cell = document.createElement(index === 0 ? "th" : "td")
 
-                  row.forEach(col => {
+                if (typeof col === "string" && col.startsWith("http")) {
+                const a = document.createElement("a");
 
-                      const cell = document.createElement(index === 0 ? "th" : "td");
+                a.href = col;
+                a.innerText = "Open Issue";
+                a.target = "_blank";
 
-                      // Make links clickable
-                      if (typeof col === "string" && col.startsWith("http")) {
-                          const a = document.createElement("a");
-                          a.href = col;
-                          a.innerText = "Open Issue";
-                          a.target = "_blank";
-                          cell.appendChild(a);
-                      } else {
-                          cell.innerText = col;
-                      }
+                cell.appendChild(a);
+            } else {
+                cell.innerText = col;
+            }
+            tr.appendChild(cell);
+            });
 
-                      tr.appendChild(cell);
-                  });
+            table.appendChild(tr);  
+        });
+        
+    }
 
-                  table.appendChild(tr);
-              });
-          }
-      });
+    function updateTable() {
 
-  })
-  .catch(err => {
-      console.error("Error loading CSV:", err);
-  });
+        const header = issuesData[0];
+        let rows = issuesData.slice(1);
+
+        if (currentSearch !== "") {
+            rows = rows.filter(row => {
+                return row.join(" ").toLowerCase().includes(currentSearch.toLowerCase())
+            });
+        }
+        
+        if (currentLanguage !== "") {
+            rows = rows.filter(row => {
+                return row[1] === currentLanguage
+            });
+        }
+
+        if (sortMode === 1) {
+            rows.sort(
+                (a,b) => Number(b[4]) - Number(a[4])
+            );
+        } else if (sortMode === 2) {
+            rows.sort(
+                (a,b) => Number(a[4]) - Number(b[4])
+            );
+        }
+
+        renderTable([header, ...rows]);
+    }
+
+    searchBox.addEventListener("input", () => {
+        currentSearch = searchBox.value;
+
+         updateTable();
+    });
+    
+    languageFilter.addEventListener("change", () => {
+        currentLanguage = languageFilter.value;
+
+        updateTable();
+    })
+
+    sortComments.addEventListener("click", () => {
+        sortMode = (sortMode +1) % 3;
+
+        switch (sortMode) {
+            case 0:
+                sortComments.textContent = "Sort by comments";
+                break;
+
+            case 1:
+                sortComments.textContent = "Comments Descending"
+                break;
+            case 2:
+                sortComments.textContent = "Comments Ascending"
+                break;
+        }
+
+        updateTable();
+    })
+    
+    fetch("/good_first_issues.csv")
+        .then(response => response.text())
+        .then(csvText => {
+
+            Papa.parse(csvText, {
+                skipEmptyLines: true,
+                complete: function(results) {
+                    issuesData = results.data;
+
+                    const languages = [
+                        ...new Set(
+                            issuesData.slice(1).map(row => row[1])
+                        )
+                    ];
+
+                    languages.forEach(lang => {
+                        const option = document.createElement("option");
+
+                        option.value = lang;
+                        option.textContent = lang;
+
+                        languageFilter.appendChild(option);
+                    });
+
+                    renderTable(issuesData)
+                }
+            });
+        })
+        .catch(err => {
+            console.error("Error loading CSV:", err);
+        });
 </script>
 
 </body>
