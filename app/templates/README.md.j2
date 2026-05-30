@@ -64,8 +64,8 @@ If this repository helped you in your open source journey, consider giving it a 
 
 ## Good First Issues <sub><sub>Last run: {{today}}</sub></sub>
 
-| Repo | Language | Title | Comments |
-|---|---|---|---|
+| Repo | Language | Title | Comments | Created | Updated |
+|---|---|---|---|---|---|
 {% for result in results -%}
-| {{result.repo}} | {{result.language}} | [{{result.title}}]({{result.url}}) | {{result.comments}} |
+| {{result.repo}} | {{result.language}} | [{{result.title}}]({{result.url}}) | {{result.comments}} | {{result.created_at}} | {{result.updated_at}} |
 {% endfor %}
