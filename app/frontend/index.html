@@ -76,6 +76,11 @@
     const sortComments = $("sortComments");
     const table = $("issuesTable");
 
+    // Resolve column name to index from the header row
+    function getColumnIndex(header, name) {
+        return header.findIndex(col => col.trim().toLowerCase() === name.toLowerCase());
+    }
+
     function renderTable(data) {
 
         table.innerHTML = "";
@@ -108,31 +113,35 @@
     function updateTable() {
 
         const header = issuesData[0];
-        let rows = issuesData.slice(1);
+        const langIdx = getColumnIndex(header, "language");
+        const commentsIdx = getColumnIndex(header, "comments");
+        const rows = issuesData.slice(1);
+
+        let filtered = rows;
 
         if (currentSearch !== "") {
-            rows = rows.filter(row => {
+            filtered = filtered.filter(row => {
                 return row.join(" ").toLowerCase().includes(currentSearch.toLowerCase())
             });
         }
         
-        if (currentLanguage !== "") {
-            rows = rows.filter(row => {
-                return row[1] === currentLanguage
+        if (currentLanguage !== "" && langIdx !== -1) {
+            filtered = filtered.filter(row => {
+                return row[langIdx] === currentLanguage
             });
         }
 
-        if (sortMode === 1) {
-            rows.sort(
-                (a,b) => Number(b[4]) - Number(a[4])
+        if (sortMode === 1 && commentsIdx !== -1) {
+            filtered.sort(
+                (a,b) => Number(b[commentsIdx]) - Number(a[commentsIdx])
             );
-        } else if (sortMode === 2) {
-            rows.sort(
-                (a,b) => Number(a[4]) - Number(b[4])
+        } else if (sortMode === 2 && commentsIdx !== -1) {
+            filtered.sort(
+                (a,b) => Number(a[commentsIdx]) - Number(b[commentsIdx])
             );
         }
 
-        renderTable([header, ...rows]);
+        renderTable([header, ...filtered]);
     }
 
     searchBox.addEventListener("input", () => {
@@ -174,10 +183,12 @@
                 skipEmptyLines: true,
                 complete: function(results) {
                     issuesData = results.data;
+                    const header = issuesData[0];
+                    const langIdx = getColumnIndex(header, "language");
 
                     const languages = [
                         ...new Set(
-                            issuesData.slice(1).map(row => row[1])
+                            issuesData.slice(1).map(row => langIdx !== -1 ? row[langIdx] : "")
                         )
                     ];
 
