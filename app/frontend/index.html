@@ -1,70 +1,228 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
     <title>Good First Issues</title>
 
     <!-- PapaParse library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 
     <style>
+        /* ── colour tokens ── */
+        :root {
+            --bg:           #ffffff;
+            --text:         #1a1a1a;
+            --border:       #d0d0d0;
+            --th-bg:        #e8eaf0;
+            --th-text:      #1a1a1a;
+            --row-alt:      #f5f7fa;
+            --row-hover:    #e8f0fe;
+            --link:         #1a73e8;
+            --btn-bg:       #1a73e8;
+            --btn-hover:    #1558b0;
+            --btn-text:     #ffffff;
+            --input-bg:     #ffffff;
+            --input-border: #c0c0c0;
+            --focus-ring:   #1a73e8;
+            --focus-glow:   rgba(26, 115, 232, 0.25);
+            --shadow:       0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg:           #0f0f0f;
+                --text:         #e8e8e8;
+                --border:       #2e2e2e;
+                --th-bg:        #252535;
+                --th-text:      #dde4ff;
+                --row-alt:      #181828;
+                --row-hover:    #252545;
+                --link:         #8ab4f8;
+                --btn-bg:       #4a6cf7;
+                --btn-hover:    #6b87ff;
+                --btn-text:     #ffffff;
+                --input-bg:     #1e1e1e;
+                --input-border: #3e3e3e;
+                --focus-ring:   #8ab4f8;
+                --focus-glow:   rgba(138, 180, 248, 0.25);
+                --shadow:       0 1px 3px rgba(0,0,0,.4), 0 1px 2px rgba(0,0,0,.3);
+            }
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 32px 16px;
+            transition: background-color 0.2s, color 0.2s;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
         }
 
         h1 {
             text-align: center;
+            font-size: 1.75rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin: 0 0 28px;
+        }
+
+        /* ── controls toolbar ── */
+        .toolbar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        #searchBox,
+        #languageFilter,
+        #sortComments {
+            padding: 9px 13px;
+            font-size: 14px;
+            border: 1px solid var(--input-border);
+            border-radius: 7px;
+            background-color: var(--input-bg);
+            color: var(--text);
+            transition: border-color 0.15s, box-shadow 0.15s;
+        }
+
+        #searchBox:focus-visible,
+        #languageFilter:focus-visible,
+        #sortComments:focus-visible {
+            outline: none;
+            border-color: var(--focus-ring);
+            box-shadow: 0 0 0 3px var(--focus-glow);
+        }
+
+        #searchBox {
+            flex: 1 1 200px;
+            min-width: 160px;
+        }
+
+        #languageFilter {
+            flex: 0 1 180px;
+        }
+
+        #sortComments {
+            background-color: var(--btn-bg);
+            color: var(--btn-text);
+            border-color: transparent;
+            cursor: pointer;
+            white-space: nowrap;
+            font-weight: 500;
+            box-shadow: var(--shadow);
+            transition: background-color 0.15s, box-shadow 0.15s;
+        }
+
+        #sortComments:hover {
+            background-color: var(--btn-hover);
+        }
+
+        /* ── table ── */
+        .table-wrapper {
+            overflow-x: auto;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow);
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 20px;
         }
 
         th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
+            border: 1px solid var(--border);
+            padding: 11px 16px;
             font-size: 14px;
             text-align: left;
         }
 
+        /* Remove double-border where cells meet the wrapper edge */
+        tr:first-child th,
+        tr:first-child td { border-top: none; }
+        tr:last-child td  { border-bottom: none; }
+        th:first-child,
+        td:first-child    { border-left: none; }
+        th:last-child,
+        td:last-child     { border-right: none; }
+
         th {
-            background-color: #f4f4f4;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+            background-color: var(--th-bg);
+            color: var(--th-text);
+            font-weight: 600;
+            white-space: nowrap;
         }
 
-        tr:hover {
-            background-color: #f1f1f1;
+        tr:nth-child(even) td {
+            background-color: var(--row-alt);
+        }
+
+        td {
+            transition: background-color 0.12s ease;
+        }
+
+        tr:hover td {
+            background-color: var(--row-hover);
         }
 
         a {
-            color: blue;
+            color: var(--link);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 
 <body>
 
-<h1>Good First Issues</h1>
+<div class="container">
 
-<input type="text" id="searchBox" placeholder="Search issues...">
+    <h1>Good First Issues</h1>
 
-<select id="languageFilter">
-    <option value="">All languages</option>
-</select>
+    <div class="toolbar">
+        <input type="text" id="searchBox" placeholder="Search issues...">
 
-<button id="sortComments">
-    Sort by comments
-</button>
+        <select id="languageFilter" aria-label="Filter by language">
+            <option value="">All languages</option>
+        </select>
 
-<table id="issuesTable"></table>
+        <button type="button" id="sortComments">
+            Sort by comments
+        </button>
+    </div>
+
+    <div class="table-wrapper">
+        <table id="issuesTable"></table>
+    </div>
+
+</div>
 
 <script>
     let issuesData = []
     let currentSearch = "";
     let currentLanguage = "";
     let sortMode = 0;
-    /* 
+    /*
         0 = DEFAULT
         1 = DESCENDING
         2 = ASCENDING
@@ -100,9 +258,9 @@
             tr.appendChild(cell);
             });
 
-            table.appendChild(tr);  
+            table.appendChild(tr);
         });
-        
+
     }
 
     function updateTable() {
@@ -115,7 +273,7 @@
                 return row.join(" ").toLowerCase().includes(currentSearch.toLowerCase())
             });
         }
-        
+
         if (currentLanguage !== "") {
             rows = rows.filter(row => {
                 return row[1] === currentLanguage
@@ -140,7 +298,7 @@
 
          updateTable();
     });
-    
+
     languageFilter.addEventListener("change", () => {
         currentLanguage = languageFilter.value;
 
@@ -165,7 +323,7 @@
 
         updateTable();
     })
-    
+
     fetch("/good_first_issues.csv")
         .then(response => response.text())
         .then(csvText => {
