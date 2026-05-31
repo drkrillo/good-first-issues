@@ -62,7 +62,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 If this repository helped you in your open source journey, consider giving it a star!
 
-## Good First Issues <sub><sub>Last run: 2026-05-30</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-05-31</sub></sub>
 
 | Repo | Language | Title | Comments |
 |---|---|---|---|
@@ -72,15 +72,14 @@ If this repository helped you in your open source journey, consider giving it a 
 | microsoft/ebpf-for-windows | C | [Update tests/sample/undocked/map.c](https://github.com/microsoft/ebpf-for-windows/issues/4547) | 1 |
 | microsoft/ntttcp | C | [per-thread throughput is always 0.00 with ntttcp version 5.40.](https://github.com/microsoft/ntttcp/issues/24) | 1 |
 | microsoft/msquic | C | [Support in-memory certificate stores](https://github.com/microsoft/msquic/issues/4951) | 2 |
-| microsoft/ebpf-for-windows | C | [ebpf-verifier is cloned twice](https://github.com/microsoft/ebpf-for-windows/issues/4174) | 2 |
 | microsoft/msquic | C | [Failing to use close-on-exec](https://github.com/microsoft/msquic/issues/4980) | 3 |
 | microsoft/aspire | C# | [Debugging in VS Code with invalid csproj exits normally (0) and does not print the build error](https://github.com/microsoft/aspire/issues/17735) | 0 |
 | microsoft/aspire | C# | [Improve display of resource commands in aspire panel](https://github.com/microsoft/aspire/issues/17667) | 0 |
+| microsoft/aspire | C# | [[bug] `aspire describe --format json` exposes plaintext values of secret parameters in dependent resources' env vars](https://github.com/microsoft/aspire/issues/17616) | 0 |
+| microsoft/aspire | C# | [Add VSCode commands to open the dashboard](https://github.com/microsoft/aspire/issues/16815) | 0 |
 | microsoft/aspire | C# | [Docker availability warnings should be more prominent in `aspire run` output](https://github.com/microsoft/aspire/issues/10621) | 0 |
 | microsoft/aspire | C# | [Improve Aspire compatibility error message to be more specific and actionable](https://github.com/microsoft/aspire/issues/10559) | 0 |
 | microsoft/CsWin32 | C# | [Inherited COM methods do not have documentation comments](https://github.com/microsoft/CsWin32/issues/1391) | 0 |
-| microsoft/profile-explorer | C# | [Mapping code gap?](https://github.com/microsoft/profile-explorer/issues/7) | 0 |
-| microsoft/WPF-Samples | C# | [Sample Applications Update to Fluent Theme](https://github.com/microsoft/WPF-Samples/issues/680) | 0 |
 | microsoft/kiota | C# | [Stacktrace on exceptions](https://github.com/microsoft/kiota/issues/7014) | 1 |
 | microsoft/aspire | C# | [VS Code extension: Show "Stopping..." state for AppHosts in the Aspire pane](https://github.com/microsoft/aspire/issues/17707) | 2 |
 | microsoft/PowerToys | C# | [.opus support for Peek](https://github.com/microsoft/PowerToys/issues/42576) | 2 |
@@ -89,7 +88,7 @@ If this repository helped you in your open source journey, consider giving it a 
 | microsoft/snmalloc | C++ | [Implement accurate size storage for Windows `_msize` and `_recalloc`](https://github.com/microsoft/snmalloc/issues/786) | 0 |
 | microsoft/react-native-windows | C++ | [Scroll wheel behavior differs significantly in new architecture (Windows App SDK) vs WinUI 3 Gallery app](https://github.com/microsoft/react-native-windows/issues/14653) | 1 |
 | microsoft/react-native-windows | C++ | [Deprecate autolink functionality to copy flags from react-native.config.js into ExperimentalFeature.props.](https://github.com/microsoft/react-native-windows/issues/14601) | 1 |
-| godotengine/godot | C++ | [PI and TAU arent considered valid numeric expressions in hint_range in non-spatial shaders](https://github.com/godotengine/godot/issues/119835) | 1 |
+| godotengine/godot | C++ | [PI and TAU arent considered valid numeric expressions in hint_range in non-spatial shaders](https://github.com/godotengine/godot/issues/119835) | 2 |
 | microsoft/terminal | C++ | ["Export text" action invoked from cmd paletter forwards Enter key](https://github.com/microsoft/terminal/issues/20188) | 3 |
 | microsoft/react-native-windows | C++ | [[Bug] init-windows adds incorrect name of Native Codegen File Include](https://github.com/microsoft/react-native-windows/issues/15094) | 4 |
 | godotengine/godot | C++ | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 24 |
@@ -136,7 +135,6 @@ If this repository helped you in your open source journey, consider giving it a 
 | mattermost/mattermost-plugin-mscalendar | Go | [Add mapped Mattermost users as attendees in CreateEvent API method](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/28) | 0 |
 | kubernetes/minikube | Go | [docs: Replace GitHub-style alerts with Docsy shortcodes](https://github.com/kubernetes/minikube/issues/23070) | 1 |
 | hashicorp/nomad | Go | [Improve description of Consul tokens to include client information](https://github.com/hashicorp/nomad/issues/28048) | 1 |
-| hashicorp/terraform-provider-aws | Go | [data/aws_bedrock_foundation_model: modelLifecycle attribute not exposed](https://github.com/hashicorp/terraform-provider-aws/issues/47779) | 1 |
 | hashicorp/terraform-provider-kubernetes | Go | [Add CSI Driver fsGroup Support](https://github.com/hashicorp/terraform-provider-kubernetes/issues/2702) | 1 |
 | hashicorp/terraform-provider-aws | Go | [[Docs]: Document necessary dependency between aws_eks_access_entry and aws_eks_access_policy_association](https://github.com/hashicorp/terraform-provider-aws/issues/40951) | 1 |
 | hashicorp/nomad | Go | [show embedded template diffs line-by-line](https://github.com/hashicorp/nomad/issues/23603) | 1 |
@@ -182,6 +180,7 @@ If this repository helped you in your open source journey, consider giving it a 
 | kubernetes/cloud-provider-openstack | Go | [[all]: openstack API debugger shows `client.go:128` for all calls](https://github.com/kubernetes/cloud-provider-openstack/issues/2300) | 3 |
 | kubernetes/kops | Go | [Update AWS China documentation with Route53 Support](https://github.com/kubernetes/kops/issues/9138) | 3 |
 | microsoft/retina | Go | [Update documentation with Hubble CLI and Hubble UI deployment instructions on Retina.](https://github.com/microsoft/retina/issues/1387) | 3 |
+| hashicorp/terraform-provider-aws | Go | [data/aws_bedrock_foundation_model: modelLifecycle attribute not exposed](https://github.com/hashicorp/terraform-provider-aws/issues/47779) | 3 |
 | hashicorp/terraform-provider-aws | Go | [aws_s3tables_table_replication: Create fails with "A version token is not specified"](https://github.com/hashicorp/terraform-provider-aws/issues/46675) | 3 |
 | hashicorp/terraform-provider-aws | Go | [[EMR on EKS] aws_emrcontainers_job_template: add support for job_template_data.parameter_configuration](https://github.com/hashicorp/terraform-provider-aws/issues/46502) | 3 |
 | hashicorp/terraform-provider-aws | Go | [aws_transfer_server::identity_provider_type causes replacement](https://github.com/hashicorp/terraform-provider-aws/issues/46229) | 3 |
@@ -242,7 +241,6 @@ If this repository helped you in your open source journey, consider giving it a 
 | mattermost/mattermost-plugin-github | Go | ["Someone replied to your comment thread" feature](https://github.com/mattermost/mattermost-plugin-github/issues/328) | 5 |
 | mattermost/mattermost-plugin-confluence | Go | [Handle React warnings regarding non-DOM properties](https://github.com/mattermost/mattermost-plugin-confluence/issues/46) | 5 |
 | mattermost/mattermost-plugin-github | Go | [Add alternative sorting functionality for RHS view](https://github.com/mattermost/mattermost-plugin-github/issues/242) | 5 |
-| kubernetes/autoscaler | Go | [Document the new VPA update mode on the Kubernetes website](https://github.com/kubernetes/autoscaler/issues/9654) | 6 |
 | kubernetes/kube-state-metrics | Go | [Parse Nested Arrays does not work](https://github.com/kubernetes/kube-state-metrics/issues/2368) | 6 |
 | hashicorp/terraform-provider-aws | Go | [Route53 Resolver Endpoint Hash Function Prevents Multiple IPs per Subnet When IP Address is Auto-Assigned](https://github.com/hashicorp/terraform-provider-aws/issues/43724) | 6 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_athena_prepared_statement: Allow multiline (EOT) query strings to preserve comments and line breaks without update-in-place](https://github.com/hashicorp/terraform-provider-aws/issues/41469) | 6 |
@@ -264,6 +262,7 @@ If this repository helped you in your open source journey, consider giving it a 
 | mattermost/mattermost-plugin-github | Go | [Notification numbers are not properly aligned](https://github.com/mattermost/mattermost-plugin-github/issues/398) | 7 |
 | mattermost/mattermost-plugin-github | Go | [In RHS, display whether there are linked pull requests to issues, and if there are linked issues for pull requests](https://github.com/mattermost/mattermost-plugin-github/issues/271) | 7 |
 | layer5io/getnighthawk | Go | [[SITE] Nav Bar is missing on the mobile view of the page](https://github.com/layer5io/getnighthawk/issues/258) | 8 |
+| kubernetes/autoscaler | Go | [Document the new VPA update mode on the Kubernetes website](https://github.com/kubernetes/autoscaler/issues/9654) | 8 |
 | kubernetes/autoscaler | Go | [VPA: document behavior for Requests & Limits](https://github.com/kubernetes/autoscaler/issues/7895) | 8 |
 | kubernetes/kube-state-metrics | Go | [CustomResourceDefinitions status fields cause spam of errors that cannot be fixed](https://github.com/kubernetes/kube-state-metrics/issues/2482) | 8 |
 | kubernetes/kops | Go | [Better output from kops rolling-update cluster command](https://github.com/kubernetes/kops/issues/14122) | 8 |
@@ -377,18 +376,17 @@ If this repository helped you in your open source journey, consider giving it a 
 | layer5io/layer5 | JavaScript | [[Screenshots] Chaos Mesh under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4867) | 7 |
 | huggingface/transformers.js | JavaScript | [[Doc request] Add an example guide of how to use it in Svelte (and deploy to HF Spaces)](https://github.com/huggingface/transformers.js/issues/171) | 7 |
 | EddieHubCommunity/EddieHubCommunity.github.io | JavaScript | [Add Issue Templates](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/issues/211) | 7 |
-| layer5io/layer5 | JavaScript | [[UI] Blog card images are not properly aligned in list view](https://github.com/layer5io/layer5/issues/7743) | 8 |
 | layer5io/layer5 | JavaScript | [[Animation] Animate Meshery Architecture](https://github.com/layer5io/layer5/issues/7661) | 8 |
 | layer5io/layer5 | JavaScript | [Mobile navigation menu contains invalid nesting](https://github.com/layer5io/layer5/issues/7484) | 8 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Fluentbit Operator under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/5333) | 8 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Flagger under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/5331) | 8 |
 | EddieHubCommunity/HealthCheck | JavaScript | [Update the preview image in the site](https://github.com/EddieHubCommunity/HealthCheck/issues/151) | 8 |
 | decentraland/land | JavaScript | [docs needed](https://github.com/decentraland/land/issues/154) | 8 |
-| layer5io/layer5 | JavaScript | [Pricing: subscription plans as a sticky row](https://github.com/layer5io/layer5/issues/7665) | 9 |
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Update docs to the KCD README pattern](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/131) | 9 |
 | layer5io/layer5 | JavaScript | [Improve styling of categories of models](https://github.com/layer5io/layer5/issues/7593) | 10 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Containerssh under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4876) | 10 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Cert Manager Crds under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4865) | 10 |
+| layer5io/layer5 | JavaScript | [Pricing: subscription plans as a sticky row](https://github.com/layer5io/layer5/issues/7665) | 11 |
 | layer5io/layer5 | JavaScript | [Update the structure of pages based on the latest sitemap revision available in Figma](https://github.com/layer5io/layer5/issues/5359) | 11 |
 | layer5io/layer5 | JavaScript | [[Screenshots] AWS Elastic Kubernetes Service under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/5322) | 11 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Cloudevents under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4869) | 13 |
@@ -441,7 +439,6 @@ If this repository helped you in your open source journey, consider giving it a 
 | microsoft/winml-cli | Python | [Minor refactor: reuse _compute_case_signature to compute failed model file name](https://github.com/microsoft/winml-cli/issues/56) | 0 |
 | microsoft/physical-ai-toolchain | Python | [fix(scripts): align setup-dev.sh with shell script conventions](https://github.com/microsoft/physical-ai-toolchain/issues/144) | 0 |
 | microsoft/physical-ai-toolchain | Python | [chore(ci): remove JaCoCo parser config from codecov.yml](https://github.com/microsoft/physical-ai-toolchain/issues/140) | 0 |
-| microsoft/physical-ai-toolchain | Python | [chore(scripts): remove redundant shellcheck disable directives](https://github.com/microsoft/physical-ai-toolchain/issues/138) | 0 |
 | huggingface/lighteval | Python | [[EVAL] Add kyrgyzLLM benchmark](https://github.com/huggingface/lighteval/issues/1036) | 1 |
 | huggingface/accelerate | Python | [Deadlock when running multi tasks](https://github.com/huggingface/accelerate/issues/3814) | 1 |
 | huggingface/lerobot | Python | [Ensure the teleoperators module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1726) | 1 |
@@ -453,6 +450,7 @@ If this repository helped you in your open source journey, consider giving it a 
 | huggingface/nanotron | Python | [FEAT: Support 1.58-bit LLMs training](https://github.com/huggingface/nanotron/issues/114) | 1 |
 | huggingface/dataset-viewer | Python | [Use `revision_exists` (hfh)](https://github.com/huggingface/dataset-viewer/issues/2562) | 1 |
 | huggingface/nanotron | Python | [[Feature Request] Add simple communications benchmarks to the repo](https://github.com/huggingface/nanotron/issues/43) | 1 |
+| microsoft/agent-governance-toolkit | Python | [feat: minimal-PATH sandbox image for command denylist enforcement](https://github.com/microsoft/agent-governance-toolkit/issues/2713) | 1 |
 | microsoft/winml-cli | Python | [Add test cases for sysinfo/](https://github.com/microsoft/winml-cli/issues/54) | 1 |
 | microsoft/physical-ai-toolchain | Python | [docs(ci): document GHSA allowlist in dependency-review.yml](https://github.com/microsoft/physical-ai-toolchain/issues/142) | 1 |
 | microsoft/physical-ai-toolchain | Python | [fix(scripts): remove unused instance_type variable in submit-azureml-lerobot-inference.sh](https://github.com/microsoft/physical-ai-toolchain/issues/137) | 1 |
@@ -468,10 +466,12 @@ If this repository helped you in your open source journey, consider giving it a 
 | huggingface/nanotron | Python | [[Feature] Asyncronous Serialization](https://github.com/huggingface/nanotron/issues/87) | 2 |
 | huggingface/dataset-viewer | Python | [Use "Sign-In with HF" instead of token in admin-UI](https://github.com/huggingface/dataset-viewer/issues/2373) | 2 |
 | huggingface/nanotron | Python | [[Feature Request] Support Data Streaming for faster training of large models](https://github.com/huggingface/nanotron/issues/45) | 2 |
+| microsoft/agent-governance-toolkit | Python | [feat: policy regression testing framework](https://github.com/microsoft/agent-governance-toolkit/issues/2479) | 2 |
 | microsoft/apm | Python | [[FEATURE] Create root AGENTS.md documenting all CI-enforced rules for coding agents](https://github.com/microsoft/apm/issues/695) | 2 |
 | microsoft/apm | Python | [Align CONTRIBUTING, Python formatting (Black/isort), and CI](https://github.com/microsoft/apm/issues/645) | 2 |
 | microsoft/winml-cli | Python | [bug: winml build shows misleading ValueError (opset domain) when disk is full during quantize step](https://github.com/microsoft/winml-cli/issues/259) | 2 |
 | microsoft/winml-cli | Python | [winml perf --op-tracing: ANSI color codes garbled on Windows cp1252 terminal](https://github.com/microsoft/winml-cli/issues/218) | 2 |
+| microsoft/physical-ai-toolchain | Python | [chore(scripts): remove redundant shellcheck disable directives](https://github.com/microsoft/physical-ai-toolchain/issues/138) | 2 |
 | microsoft/onnxscript | Python | [Missing converter for OpOverload(op='aten._grouped_mm', overload='default')](https://github.com/microsoft/onnxscript/issues/2795) | 2 |
 | microsoft/OpenAIWorkshop | Python | [Fix eslint warnings](https://github.com/microsoft/OpenAIWorkshop/issues/292) | 2 |
 | microsoft/onnxscript | Python | [[torchlib] slice_scatter does not support start and end to be None](https://github.com/microsoft/onnxscript/issues/2372) | 2 |
@@ -492,6 +492,7 @@ If this repository helped you in your open source journey, consider giving it a 
 | huggingface/lighteval | Python | [[EVAL]: Add more African Benchmarks](https://github.com/huggingface/lighteval/issues/373) | 4 |
 | huggingface/accelerate | Python | [[Community Contributions] examples on distributed inference using 🤗 Accelerate](https://github.com/huggingface/accelerate/issues/3078) | 4 |
 | huggingface/dataset-viewer | Python | [Cache/Queue metrics should not be negative](https://github.com/huggingface/dataset-viewer/issues/2495) | 4 |
+| microsoft/agent-governance-toolkit | Python | [[Feature]: CI: Enforce agent-os governance parity + adapter contract conformance tests in package-matrix test job (remove soft-fail for this scope)](https://github.com/microsoft/agent-governance-toolkit/issues/2695) | 4 |
 | microsoft/apm | Python | [[Feature] Document marketplace.json schema ](https://github.com/microsoft/apm/issues/757) | 4 |
 | microsoft/onnxscript | Python | [Constant Folding removes 'axes' initializer form Squeeze layer, resulting in incorrect ONNX model](https://github.com/microsoft/onnxscript/issues/2810) | 4 |
 | huggingface/lighteval | Python | [[BUG] custom model docs don't run: missing imports](https://github.com/huggingface/lighteval/issues/760) | 5 |
@@ -523,17 +524,15 @@ If this repository helped you in your open source journey, consider giving it a 
 | huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 19 |
 | huggingface/diffusers | Python | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 22 |
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 26 |
-| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 70 |
+| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 71 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 |
 | microsoft/openvmm | Rust | [remove usages of futures::select! in the repo with futures_concurrency](https://github.com/microsoft/openvmm/issues/1246) | 0 |
 | microsoft/windows-drivers-rs | Rust | [Migrate from fs4 to std::File flocks](https://github.com/microsoft/windows-drivers-rs/issues/300) | 0 |
-| microsoft/openvmm | Rust | [fdt/builder: enforce BE datatypes on add_prop_array](https://github.com/microsoft/openvmm/issues/777) | 0 |
 | decentraland/godot-explorer | Rust | [[Bug]: Interaction Feedback Doesn't Trigger when holding one Control (E.g Joystick)](https://github.com/decentraland/godot-explorer/issues/1170) | 0 |
 | microsoft/openvmm | Rust | [BaseChipsetBuilder should accept VmChipsetResult directly instead of piecemeal fields](https://github.com/microsoft/openvmm/issues/3463) | 1 |
 | microsoft/webui | Rust | [contact book example: Make search great](https://github.com/microsoft/webui/issues/191) | 1 |
 | microsoft/openvmm | Rust | [repo: move no_std custom error types over to thiserror](https://github.com/microsoft/openvmm/issues/1811) | 1 |
 | microsoft/openvmm | Rust | [Clean up our windows API dependencies](https://github.com/microsoft/openvmm/issues/1061) | 1 |
-| microsoft/openvmm | Rust | [zerocopy: clean up TODOs](https://github.com/microsoft/openvmm/issues/759) | 1 |
 | microsoft/openvmm | Rust | [openvmm: emulated nvme configuration](https://github.com/microsoft/openvmm/issues/1534) | 2 |
 | microsoft/windows-drivers-rs | Rust | [HID hidport.h headers missing for UMDF build](https://github.com/microsoft/windows-drivers-rs/issues/355) | 3 |
 | godotengine/discourse-theme | SCSS | [Change default `green` to our own green for the Solved questions](https://github.com/godotengine/discourse-theme/issues/14) | 0 |
