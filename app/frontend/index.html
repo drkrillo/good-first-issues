@@ -64,6 +64,7 @@
     let currentSearch = "";
     let currentLanguage = "";
     let sortMode = 0;
+    let colIdx = {};
     /* 
         0 = DEFAULT
         1 = DESCENDING
@@ -118,17 +119,17 @@
         
         if (currentLanguage !== "") {
             rows = rows.filter(row => {
-                return row[1] === currentLanguage
+                return row[colIdx.language] === currentLanguage
             });
         }
 
         if (sortMode === 1) {
             rows.sort(
-                (a,b) => Number(b[4]) - Number(a[4])
+                (a,b) => Number(b[colIdx.comments]) - Number(a[colIdx.comments])
             );
         } else if (sortMode === 2) {
             rows.sort(
-                (a,b) => Number(a[4]) - Number(b[4])
+                (a,b) => Number(a[colIdx.comments]) - Number(b[colIdx.comments])
             );
         }
 
@@ -174,10 +175,15 @@
                 skipEmptyLines: true,
                 complete: function(results) {
                     issuesData = results.data;
+                    const header = issuesData[0];
+                    colIdx = {
+                        language: header.indexOf("language"),
+                        comments: header.indexOf("comments")
+                    };
 
                     const languages = [
                         ...new Set(
-                            issuesData.slice(1).map(row => row[1])
+                            issuesData.slice(1).map(row => row[colIdx.language])
                         )
                     ];
 
