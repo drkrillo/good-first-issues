@@ -8,16 +8,23 @@ microsoft/ebpf-for-windows,C,Update tests/sample/undocked/map.c,https://github.c
 microsoft/ntttcp,C,per-thread throughput is always 0.00 with ntttcp version 5.40.,https://github.com/microsoft/ntttcp/issues/24,1,"['good first issue', 'help wanted']",open
 microsoft/msquic,C,Support in-memory certificate stores,https://github.com/microsoft/msquic/issues/4951,2,"['good first issue', 'feature request', 'external', 'Area: API', 'Area: Core']",open
 microsoft/msquic,C,Failing to use close-on-exec,https://github.com/microsoft/msquic/issues/4980,3,"['good first issue', 'OS: Windows (User)', 'OS: Linux', 'external', 'Bug: Platform', 'Triaged']",open
-microsoft/aspire,C#,Debugging in VS Code with invalid csproj exits normally (0) and does not print the build error,https://github.com/microsoft/aspire/issues/17735,0,"['good first issue', 'area-extension']",open
-microsoft/aspire,C#,Improve display of resource commands in aspire panel,https://github.com/microsoft/aspire/issues/17667,0,"['good first issue', 'area-extension']",open
+microsoft/aspire,C#,[bug] aspire describe --non-interactive crashes with 'An unexpected error occurred' when no AppHost in cwd,https://github.com/microsoft/aspire/issues/17619,0,"['good first issue', 'help wanted', 'area-cli']",open
 microsoft/aspire,C#,[bug] `aspire describe --format json` exposes plaintext values of secret parameters in dependent resources' env vars,https://github.com/microsoft/aspire/issues/17616,0,"['good first issue', 'area-cli']",open
-microsoft/aspire,C#,Add VSCode commands to open the dashboard,https://github.com/microsoft/aspire/issues/16815,0,"['good first issue', 'area-extension']",open
-microsoft/aspire,C#,Docker availability warnings should be more prominent in `aspire run` output,https://github.com/microsoft/aspire/issues/10621,0,"['good first issue', 'area-cli']",open
-microsoft/aspire,C#,Improve Aspire compatibility error message to be more specific and actionable,https://github.com/microsoft/aspire/issues/10559,0,"['good first issue', 'area-cli']",open
+microsoft/aspire,C#,Aspire dashboard - URL column click shows details,https://github.com/microsoft/aspire/issues/12307,0,"['good first issue', 'help wanted', 'area-dashboard']",open
+microsoft/aspire,C#,Docker availability warnings should be more prominent in `aspire run` output,https://github.com/microsoft/aspire/issues/10621,0,"['good first issue', 'help wanted', 'area-cli']",open
+microsoft/aspire,C#,Improve Aspire compatibility error message to be more specific and actionable,https://github.com/microsoft/aspire/issues/10559,0,"['good first issue', 'help wanted', 'area-cli']",open
 microsoft/CsWin32,C#,Inherited COM methods do not have documentation comments,https://github.com/microsoft/CsWin32/issues/1391,0,"['bug', 'good first issue']",open
-microsoft/profile-explorer,C#,Mapping code gap?,https://github.com/microsoft/profile-explorer/issues/7,0,"['enhancement', 'good first issue']",open
+microsoft/aspire,C#,"Dashboard: ""Export JSON"" resource action opens Text Visualizer instead of direct download; name and sensitive-value message need improvement",https://github.com/microsoft/aspire/issues/17690,1,"['good first issue', 'help wanted', 'area-dashboard', 'triage:bot-seen']",open
+microsoft/aspire,C#,Add aspire doctor hint when legacy .aspire/settings.json is detected,https://github.com/microsoft/aspire/issues/17632,1,"['good first issue', 'help wanted', 'area-cli', 'enhancement', 'triage:bot-seen']",open
+microsoft/aspire,C#,Add VSCode commands to open the dashboard,https://github.com/microsoft/aspire/issues/16815,1,"['good first issue', 'help wanted', 'area-extension']",open
 microsoft/kiota,C#,Stacktrace on exceptions,https://github.com/microsoft/kiota/issues/7014,1,"['good first issue', 'generator', 'type:task']",open
+microsoft/aspire,C#,CLI error message when AppHost exits before backchannel connection is vague and missing exit code,https://github.com/microsoft/aspire/issues/17277,2,"['good first issue', 'help wanted', 'needs-area-label', 'area-cli', 'triage:bot-seen']",open
+microsoft/aspire,C#,Improve parameter display in VS Code extension,https://github.com/microsoft/aspire/issues/17193,2,"['good first issue', 'help wanted', 'area-extension', 'triage:bot-seen']",open
+microsoft/aspire,C#,"`aspire new` lists ""yes"" and ""no"" options in inconsistent orders",https://github.com/microsoft/aspire/issues/12272,2,"['good first issue', 'help wanted', 'area-cli']",open
 microsoft/PowerToys,C#,.opus support for Peek,https://github.com/microsoft/PowerToys/issues/42576,2,"['Idea-Enhancement', 'Help Wanted', 'Good first issue', 'Status-In progress', 'Product-Peek']",open
+microsoft/aspire,C#,Provide CSV export option in dashboard console logs,https://github.com/microsoft/aspire/issues/11121,2,"['good first issue', 'help wanted', 'area-dashboard']",open
+microsoft/aspire,C#,Pick the last 8 characters of `service.instance.id` rather than the first to show in the UI,https://github.com/microsoft/aspire/issues/10615,2,"['good first issue', 'help wanted', 'area-dashboard']",open
+microsoft/aspire,C#,"[nit]: ""Operation cancelled by user action"" log is too incessant",https://github.com/microsoft/aspire/issues/9311,2,"['good first issue', 'help wanted', 'area-cli']",open
 microsoft/mcp,C#,"[COMMUNITY] Auto generate CHANGELOG, including adding contributors for each release",https://github.com/microsoft/mcp/issues/156,4,"['good first issue', 'help wanted', 'server-Azure.Mcp', 'Central-EngSys', 'community contribution']",open
 microsoft/aspire,C#,Improve Exception Message for Missing Project Metadata Annotation in ResourceContainerImageBuilder.cs,https://github.com/microsoft/aspire/issues/11299,12,"['good first issue', 'area-app-model']",open
 microsoft/snmalloc,C++,Implement accurate size storage for Windows `_msize` and `_recalloc`,https://github.com/microsoft/snmalloc/issues/786,0,"['enhancement', 'good first issue']",open
@@ -195,7 +202,6 @@ hashicorp/consul,Go,Metrics missing from documentation,https://github.com/hashic
 mattermost/mattermost-plugin-github,Go,Notification numbers are not properly aligned,https://github.com/mattermost/mattermost-plugin-github/issues/398,7,"['Help Wanted', 'Hacktoberfest', 'Good First Issue', 'Difficulty/1:Easy']",open
 mattermost/mattermost-plugin-github,Go,"In RHS, display whether there are linked pull requests to issues, and if there are linked issues for pull requests",https://github.com/mattermost/mattermost-plugin-github/issues/271,7,"['Help Wanted', 'Up For Grabs', 'Hacktoberfest', 'Tech/Go', 'Good First Issue', 'Tech/ReactJS', 'Difficulty/1:Easy', 'Type/Enhancement']",open
 layer5io/getnighthawk,Go,[SITE] Nav Bar is missing on the mobile view of the page,https://github.com/layer5io/getnighthawk/issues/258,8,"['good first issue', 'kind/bug', 'framework/jekyll', 'issue/remind', 'area/website']",open
-kubernetes/autoscaler,Go,Document the new VPA update mode on the Kubernetes website,https://github.com/kubernetes/autoscaler/issues/9654,8,"['help wanted', 'kind/documentation', 'good first issue', 'triage/accepted']",open
 kubernetes/autoscaler,Go,VPA: document behavior for Requests & Limits,https://github.com/kubernetes/autoscaler/issues/7895,8,"['help wanted', 'area/vertical-pod-autoscaler', 'kind/documentation', 'good first issue', 'triage/accepted']",open
 kubernetes/kube-state-metrics,Go,CustomResourceDefinitions status fields cause spam of errors that cannot be fixed,https://github.com/kubernetes/kube-state-metrics/issues/2482,8,"['kind/bug', 'good first issue', 'triage/accepted']",open
 kubernetes/kops,Go,Better output from kops rolling-update cluster command,https://github.com/kubernetes/kops/issues/14122,8,"['kind/feature', 'help wanted', 'good first issue']",open
@@ -217,7 +223,6 @@ kubernetes/cloud-provider-openstack,Go,[cinder-csi-plugin] Allow StorageClass pa
 kubernetes/perf-tests,Go,Make PV tests work on kubemark clusters,https://github.com/kubernetes/perf-tests/issues/803,11,"['help wanted', 'lifecycle/frozen', 'good first issue', 'area/clusterloader']",open
 hashicorp/terraform-provider-azurerm,Go,azurerm_postgresql_flexible_server SKU name validation mismatch between Terraform provider and Azure API,https://github.com/hashicorp/terraform-provider-azurerm/issues/21522,11,"['bug', 'good first issue', 'service/postgresql', 'v/3.x', 'upstream/microsoft/waiting-on-service-team']",open
 hashicorp/terraform-provider-aws,Go,Timeout for every account destroy with `close_on_deletion`,https://github.com/hashicorp/terraform-provider-aws/issues/46284,12,"['bug', 'good first issue', 'service/organizations', 'timeouts']",open
-kubernetes/minikube,Go,ci: Ensure workflow timeouts - runs can get stuck for hours,https://github.com/kubernetes/minikube/issues/23041,13,"['help wanted', 'area/testing', 'good first issue']",open
 kubernetes/kops,Go,AWS: Cluster requires designating subnets by both ID and containing AZ,https://github.com/kubernetes/kops/issues/14710,13,"['kind/feature', 'help wanted', 'good first issue']",open
 kubernetes/minikube,Go,minikube should allow 1 cpu --no-kubernetes,https://github.com/kubernetes/minikube/issues/22152,14,"['help wanted', 'good first issue', 'kind/improvement']",open
 kubernetes/minikube,Go,Minikube tunnel is not working on Windows (endessly trying to add a route),https://github.com/kubernetes/minikube/issues/11645,14,"['kind/bug', 'help wanted', 'priority/important-longterm', 'lifecycle/frozen', 'good first issue', 'area/tunnel']",open
@@ -231,6 +236,7 @@ hashicorp/terraform-provider-aws,Go,[Enhancement]: Support updateToLatestImageVe
 hashicorp/terraform-provider-aws,Go, Lifecycle configuration for S3 Bucket failing with time out issue for AWS Provider 4.21.0,https://github.com/hashicorp/terraform-provider-aws/issues/25939,15,"['good first issue', 'service/s3', 'timeouts']",open
 kubernetes/minikube,Go,add detailed info about what each integration test is doing to the site,https://github.com/kubernetes/minikube/issues/11571,16,"['kind/documentation', 'area/testing', 'priority/backlog', 'lifecycle/frozen', 'good first issue']",open
 kubernetes/minikube,Go,Feature: enable the structured logging for kubernetes components by default,https://github.com/kubernetes/minikube/issues/9268,16,"['help wanted', 'kind/feature', 'priority/backlog', 'lifecycle/frozen', 'good first issue']",open
+kubernetes/minikube,Go,ci: Ensure workflow timeouts - runs can get stuck for hours,https://github.com/kubernetes/minikube/issues/23041,17,"['help wanted', 'area/testing', 'good first issue']",open
 kubernetes/ingress-nginx,Go,Feature Request: Allow disabling custom-http-errors per ingress,https://github.com/kubernetes/ingress-nginx/issues/8384,17,"['help wanted', 'kind/feature', 'priority/backlog', 'good first issue', 'needs-triage']",open
 kubernetes/autoscaler,Go,"Autoscaler 1.25 or later: If a node fails to be deleted, the lastScaleDownFailTime is not refresh.",https://github.com/kubernetes/autoscaler/issues/6313,18,"['help wanted', 'area/cluster-autoscaler', 'kind/bug', 'good first issue', 'area/core-autoscaler', 'triage/accepted']",open
 kubernetes/minikube,Go,improve UI advice when user needs to delete the cluster,https://github.com/kubernetes/minikube/issues/10460,18,"['kind/bug', 'priority/backlog', 'lifecycle/frozen', 'good first issue']",open
@@ -255,7 +261,7 @@ kubernetes/kube-state-metrics,Go,Missing replacement config for VPA collector in
 kubernetes/kubernetes,Go,Reuse the http request object for http probes,https://github.com/kubernetes/kubernetes/issues/115939,43,"['area/kubelet', 'sig/node', 'help wanted', 'good first issue', 'needs-triage']",open
 kubernetes/kubernetes,Go,tracker: improve the kubelet test coverage,https://github.com/kubernetes/kubernetes/issues/109717,49,"['sig/node', 'help wanted', 'good first issue', 'needs-triage']",open
 kubernetes/minikube,Go,add documentation for WSL2,https://github.com/kubernetes/minikube/issues/7879,53,"['kind/documentation', 'os/windows', 'priority/backlog', 'sig/docs', 'lifecycle/frozen', 'good first issue', 'area/networking', 'co/docker-driver', 'os/wsl-windows']",open
-kubernetes/kubernetes,Go,Migrate DRA components to support granular authorization on status updates,https://github.com/kubernetes/kubernetes/issues/138149,61,"['sig/network', 'sig/node', 'sig/auth', 'help wanted', 'good first issue', 'triage/accepted', 'wg/device-management']",open
+kubernetes/kubernetes,Go,Migrate DRA components to support granular authorization on status updates,https://github.com/kubernetes/kubernetes/issues/138149,63,"['sig/network', 'sig/node', 'sig/auth', 'help wanted', 'good first issue', 'triage/accepted', 'wg/device-management']",open
 microsoft/edge-ai,HCL,docs(testing): add regression test tracking policy,https://github.com/microsoft/edge-ai/issues/176,0,"['documentation', 'enhancement', 'good first issue']",open
 microsoft/edge-ai,HCL,chore(python): add pip lock files for reproducible builds,https://github.com/microsoft/edge-ai/issues/167,0,"['enhancement', 'good first issue', 'configuration']",open
 microsoft/edge-ai,HCL,docs(testing): update testing-validation.md to reflect actual test frameworks,https://github.com/microsoft/edge-ai/issues/144,0,"['documentation', 'good first issue']",open
@@ -267,7 +273,6 @@ cncf/tag-app-delivery,HTML,Document how we use GitHub labels,https://github.com/
 cncf/tag-contributor-strategy,HTML,Charter link is 404,https://github.com/cncf/tag-contributor-strategy/issues/762,1,"['good first issue', 'help wanted']",open
 cncf/glossary,HTML,[ru] Localize `Portability`,https://github.com/cncf/glossary/issues/3265,1,"['good first issue', 'lang/ru']",open
 cncf/glossary,HTML,[ru] Localize `Service` into Russian,https://github.com/cncf/glossary/issues/3334,2,"['good first issue', 'lang/ru']",open
-kubernetes/website,HTML,Remove deprecated lang front matter,https://github.com/kubernetes/website/issues/55976,3,"['good first issue', 'help wanted', 'kind/bug', 'language/de', 'triage/accepted']",open
 cncf/tag-app-delivery,HTML,Automation of tag-app-delivery repo,https://github.com/cncf/tag-app-delivery/issues/566,3,"['good first issue', 'tag-discuss']",open
 cncf/tag-security,HTML,[Suggestion] Working Group Landing Page,https://github.com/cncf/tag-security/issues/1354,4,"['good first issue', 'suggestion', 'inactive', 'website']",open
 kubernetes/website,HTML,[hi] Localize Network Policy Provider page,https://github.com/kubernetes/website/issues/47439,7,"['good first issue', 'help wanted', 'kind/feature', 'language/hi', 'triage/accepted', 'area/localization']",open
@@ -277,6 +282,7 @@ kubernetes/website,HTML,[hi] Localize concepts/extend-kubernetes page,https://gi
 kubernetes/website,HTML,[hi] Localize /concepts/cluster-administration page,https://github.com/kubernetes/website/issues/48990,9,"['good first issue', 'help wanted', 'kind/feature', 'triage/accepted', 'area/localization']",open
 kubernetes/website,HTML,[hi] Localize concepts/Security page,https://github.com/kubernetes/website/issues/47463,9,"['good first issue', 'help wanted', 'kind/feature', 'language/hi', 'triage/accepted', 'area/localization']",open
 kubernetes/website,HTML,[hi] Localize concepts/Storage page,https://github.com/kubernetes/website/issues/47462,9,"['good first issue', 'help wanted', 'kind/feature', 'language/hi', 'triage/accepted', 'area/localization']",open
+kubernetes/website,HTML,[zh-cn] Remove a duplicate description line in the zh-cn kubectl create reference page,https://github.com/kubernetes/website/issues/55991,11,"['good first issue', 'help wanted', 'kind/bug', 'kind/cleanup', 'triage/accepted', 'area/localization']",open
 kubernetes/website,HTML,[hi] Localize concepts/Workloads page ,https://github.com/kubernetes/website/issues/47442,11,"['good first issue', 'help wanted', 'kind/feature', 'language/hi', 'triage/accepted', 'area/localization']",open
 kubernetes/website,HTML,[hi] Localize tasks/configure-pod-container page ,https://github.com/kubernetes/website/issues/48992,14,"['good first issue', 'help wanted', 'kind/feature', 'triage/accepted', 'area/localization']",open
 kubernetes/website,HTML,[hi] Localize en/docs/contribute/style/page-content-types.md,https://github.com/kubernetes/website/issues/36594,18,"['good first issue', 'help wanted', 'kind/feature', 'language/hi', 'triage/accepted']",open
@@ -345,7 +351,6 @@ cncf/landscape-graph,Jupyter Notebook,"create apps/landscape-introspector (intro
 cncf/landscape-graph,Jupyter Notebook,Create gource visualizations for all cncf project related repos,https://github.com/cncf/landscape-graph/issues/21,1,"['good first issue', 'help wanted']",open
 huggingface/optimum-intel,Jupyter Notebook,Fix conversion of ltx_video models in bf16 format,https://github.com/huggingface/optimum-intel/issues/1614,2,['good first issue'],open
 cncf/landscape-graph,Jupyter Notebook,Automatically generate GH Issue Labels for all Sub-Graph Modules,https://github.com/cncf/landscape-graph/issues/84,2,"['good first issue', 'help wanted', 'infrastructure', 'project-infra', 'ci']",open
-microsoft/presidio-research,Jupyter Notebook,Enforce locale for fake entities,https://github.com/microsoft/presidio-research/issues/123,3,"['bug', 'good first issue']",open
 huggingface/optimum-intel,Jupyter Notebook,"Add tests which check, that required transformations are applied",https://github.com/huggingface/optimum-intel/issues/1645,4,['good first issue'],open
 cncf/landscape-graph,Jupyter Notebook,Implement autogenerated mocks for GraphQL API from schema,https://github.com/cncf/landscape-graph/issues/103,4,"['good first issue', 'help wanted', 'e2-days', 'data']",open
 cncf/landscape-graph,Jupyter Notebook,Create documentation site (GitHub Pages or Netlify) using Docusaurus,https://github.com/cncf/landscape-graph/issues/97,7,"['documentation', 'enhancement', 'good first issue', 'help wanted', 'p1-high', 'project-infra']",open
@@ -369,7 +374,6 @@ huggingface/lighteval,Python,[BUG]  Optimize tokenization,https://github.com/hug
 huggingface/lighteval,Python,[FT]  Add tests for `VLLMModel` base methods,https://github.com/huggingface/lighteval/issues/724,0,"['good first issue', 'feature']",open
 huggingface/nanotron,Python,[Feature] Use CUDA event for measuring elasped time,https://github.com/huggingface/nanotron/issues/88,0,"['enhancement', 'good first issue', 'help wanted']",open
 huggingface/nanotron,Python,[Feature] Refactor `ParallelContext.world_rank_matrix`,https://github.com/huggingface/nanotron/issues/77,0,"['enhancement', 'good first issue', 'help wanted']",open
-microsoft/apm,Python,feat: surface 'file does not exist' error in managed_section mode before marker search,https://github.com/microsoft/apm/issues/1593,0,"['good first issue', 'priority/low', 'area/cli', 'status/accepted']",open
 microsoft/winml-cli,Python,Minor refactor: reuse _compute_case_signature to compute failed model file name,https://github.com/microsoft/winml-cli/issues/56,0,"['good first issue', 'refactor']",open
 microsoft/physical-ai-toolchain,Python,fix(scripts): align setup-dev.sh with shell script conventions,https://github.com/microsoft/physical-ai-toolchain/issues/144,0,"['good first issue', 'help wanted', 'maintenance']",open
 microsoft/physical-ai-toolchain,Python,chore(ci): remove JaCoCo parser config from codecov.yml,https://github.com/microsoft/physical-ai-toolchain/issues/140,0,"['good first issue', 'help wanted', 'maintenance']",open
@@ -384,6 +388,7 @@ huggingface/nanotron,Python,We don't save checkpoint after training ends,https:/
 huggingface/nanotron,Python,FEAT: Support 1.58-bit LLMs training,https://github.com/huggingface/nanotron/issues/114,1,"['enhancement', 'good first issue', 'help wanted', 'Low Priority']",open
 huggingface/dataset-viewer,Python,Use `revision_exists` (hfh),https://github.com/huggingface/dataset-viewer/issues/2562,1,"['good first issue', 'refactoring / architecture', 'P2']",open
 huggingface/nanotron,Python,[Feature Request] Add simple communications benchmarks to the repo,https://github.com/huggingface/nanotron/issues/43,1,"['enhancement', 'good first issue', 'help wanted']",open
+microsoft/agent-governance-toolkit,Python,chore: complete Python package consolidation — stub remaining legacy + integration packages,https://github.com/microsoft/agent-governance-toolkit/issues/2740,1,"['good first issue', 'Priority: MEDIUM', 'chore']",open
 microsoft/agent-governance-toolkit,Python,feat: minimal-PATH sandbox image for command denylist enforcement,https://github.com/microsoft/agent-governance-toolkit/issues/2713,1,"['enhancement', 'good first issue', 'agent-hypervisor', 'needs-review:MEDIUM']",open
 microsoft/winml-cli,Python,Add test cases for sysinfo/,https://github.com/microsoft/winml-cli/issues/54,1,['good first issue'],open
 microsoft/physical-ai-toolchain,Python,docs(ci): document GHSA allowlist in dependency-review.yml,https://github.com/microsoft/physical-ai-toolchain/issues/142,1,"['documentation', 'good first issue', 'help wanted', 'security']",open
@@ -417,7 +422,6 @@ huggingface/optimum-habana,Python,Add support for max_length in run_generation,h
 huggingface/dataset-viewer,Python,Use `CONSTANT_LIST.copy` in list config fieds,https://github.com/huggingface/dataset-viewer/issues/1522,3,"['good first issue', 'refactoring / architecture', 'P2']",open
 huggingface/optimum,Python,Add all available ONNX models to ORTConfigManager,https://github.com/huggingface/optimum/issues/351,3,['good first issue'],open
 huggingface/transfer-learning-conv-ai,Python,"RuntimeError: shape '[-1, 2, 34]' is invalid for input of size 61710",https://github.com/huggingface/transfer-learning-conv-ai/issues/12,3,['good first issue'],open
-microsoft/apm,Python,Strangler Stage 1: tame the worst outliers,https://github.com/microsoft/apm/issues/1077,3,"['good first issue', 'priority/low', 'refactor', 'area/cli', 'area/ci-cd', 'type/refactor', 'status/accepted', 'status/triaged', 'code-quality']",open
 microsoft/apm,Python,[FEATURE] PEP 8 Support,https://github.com/microsoft/apm/issues/690,3,"['enhancement', 'good first issue', 'accepted', 'priority/low', 'maintenance', 'area/testing', 'area/docs-site', 'type/automation', 'status/accepted', 'status/triaged']",open
 godotengine/godot-blender-exporter,Python,Blender object with negative scale,https://github.com/godotengine/godot-blender-exporter/issues/24,3,['good first issue'],open
 huggingface/lerobot,Python,How can I change the task name of already recorded episodes?,https://github.com/huggingface/lerobot/issues/2096,4,"['question', 'dataset', 'good first issue']",open
@@ -425,7 +429,6 @@ huggingface/lerobot,Python,Ensure the utilities module passes MyPy type checks,h
 huggingface/lighteval,Python,[EVAL]: Add more African Benchmarks,https://github.com/huggingface/lighteval/issues/373,4,"['good first issue', 'help wanted', 'new-task']",open
 huggingface/accelerate,Python,[Community Contributions] examples on distributed inference using 🤗 Accelerate,https://github.com/huggingface/accelerate/issues/3078,4,"['good first issue', 'wip', 'contributions-welcome']",open
 huggingface/dataset-viewer,Python,Cache/Queue metrics should not be negative,https://github.com/huggingface/dataset-viewer/issues/2495,4,"['bug', 'good first issue', 'P2', 'metrics']",open
-microsoft/apm,Python,[Feature] Document marketplace.json schema ,https://github.com/microsoft/apm/issues/757,4,"['good first issue', 'priority/low', 'marketplace', 'theme/governance', 'area/marketplace', 'area/docs-site', 'type/docs', 'status/accepted', 'status/triaged']",open
 microsoft/onnxscript,Python,"Constant Folding removes 'axes' initializer form Squeeze layer, resulting in incorrect ONNX model",https://github.com/microsoft/onnxscript/issues/2810,4,"['bug', 'good first issue', 'contribution welcome', 'module: optimizer']",open
 huggingface/lighteval,Python,[BUG] custom model docs don't run: missing imports,https://github.com/huggingface/lighteval/issues/760,5,"['bug', 'documentation', 'good first issue']",open
 huggingface/nanotron,Python,Avoid nested `InheritFromOtherOptimizer`,https://github.com/huggingface/nanotron/issues/267,5,"['good first issue', 'help wanted', 'Low Priority']",open
@@ -442,7 +445,6 @@ huggingface/lerobot,Python,Select the VLM backbone for SmolVLA,https://github.co
 huggingface/lighteval,Python,[EVAL] Adding PHARE,https://github.com/huggingface/lighteval/issues/696,8,"['good first issue', 'help wanted', 'new-task']",open
 huggingface/diffusers,Python,Make `FlaxLMSDiscreteScheduler` jittable,https://github.com/huggingface/diffusers/issues/2180,8,['good first issue'],open
 microsoft/presidio,Python,Can multiple GLiNERRecognizer instances be configured via YAML?,https://github.com/microsoft/presidio/issues/1760,8,"['good first issue', 'analyzer']",open
-microsoft/autogen,Python,"open needs encoding='utf-8' for non-english environment, error in playwright_controller.py",https://github.com/microsoft/autogen/issues/5566,8,"['good first issue', 'help wanted']",open
 huggingface/lerobot,Python,Distributed v2.1 -> v3.0 conversion,https://github.com/huggingface/lerobot/issues/1998,9,"['dataset', 'performance', 'good first issue']",open
 huggingface/diffusers,Python,Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`,https://github.com/huggingface/diffusers/issues/8434,9,"['good first issue', 'community-examples', 'contributions-welcome']",open
 huggingface/lighteval,Python,[EVAL] Add TUMLU benchmark,https://github.com/huggingface/lighteval/issues/577,10,"['good first issue', 'help wanted', 'new-task']",open
@@ -456,11 +458,9 @@ huggingface/datasets,Python,"Consider using ""Sequence"" instead of ""List""",ht
 huggingface/datasets,Python,Return the name of the currently loaded file in the load_dataset function.,https://github.com/huggingface/datasets/issues/5806,19,"['enhancement', 'good first issue']",open
 huggingface/diffusers,Python,Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines,https://github.com/huggingface/diffusers/issues/6969,22,"['bug', 'good first issue', 'help wanted', 'wip', 'contributions-welcome']",open
 huggingface/optimum,Python,Community contribution - `BetterTransformer` integration for more models!,https://github.com/huggingface/optimum/issues/488,26,['good first issue'],open
-huggingface/peft,Python,Comparison of Different Fine-Tuning Techniques for Conversational AI,https://github.com/huggingface/peft/issues/2310,73,"['good first issue', 'help wanted', 'contributions-welcome']",open
+huggingface/peft,Python,Comparison of Different Fine-Tuning Techniques for Conversational AI,https://github.com/huggingface/peft/issues/2310,75,"['good first issue', 'help wanted', 'contributions-welcome']",open
 huggingface/ratchet,Rust,Reduce dependencies! 🗡️,https://github.com/huggingface/ratchet/issues/170,0,"['help wanted', 'good first issue']",open
 microsoft/openvmm,Rust,remove usages of futures::select! in the repo with futures_concurrency,https://github.com/microsoft/openvmm/issues/1246,0,"['good first issue', 'linting']",open
-microsoft/windows-drivers-rs,Rust,Migrate from fs4 to std::File flocks,https://github.com/microsoft/windows-drivers-rs/issues/300,0,['good first issue'],open
-microsoft/openvmm,Rust,fdt/builder: enforce BE datatypes on add_prop_array,https://github.com/microsoft/openvmm/issues/777,0,"['enhancement', 'good first issue']",open
 decentraland/godot-explorer,Rust,[Bug]: Interaction Feedback Doesn't Trigger when holding one Control (E.g Joystick),https://github.com/decentraland/godot-explorer/issues/1170,0,"['bug', 'good first issue']",open
 microsoft/openvmm,Rust,BaseChipsetBuilder should accept VmChipsetResult directly instead of piecemeal fields,https://github.com/microsoft/openvmm/issues/3463,1,['good first issue'],open
 microsoft/webui,Rust,contact book example: Make search great,https://github.com/microsoft/webui/issues/191,1,['good first issue'],open
@@ -593,7 +593,6 @@ huggingface/chat-ui,TypeScript,System prompt not taken into account when web bro
 microsoft/Power-CAT-Copilot-Studio-Kit,TypeScript,Bug: Agent Debugger listing only Default Environment from the dropdown,https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/710,3,"['bug', 'good first issue']",open
 microsoft/vscode-containers,TypeScript,Add presentation options to Docker extension's compose commands,https://github.com/microsoft/vscode-containers/issues/350,3,['good first issue'],open
 microsoft/teams.ts,TypeScript,[cards] support lowercase and Capitalized JSON values,https://github.com/microsoft/teams.ts/issues/132,3,"['enhancement', 'good first issue']",open
-microsoft/data-formulator,TypeScript,Docker Support,https://github.com/microsoft/data-formulator/issues/85,3,['good first issue'],open
 mattermost/mattermost,TypeScript,Help Wanted: BitBucket README > Split out admin content to child pages,https://github.com/mattermost/mattermost/issues/25176,3,"['Difficulty/1:Easy', 'Hacktoberfest', 'Good First Issue', 'Help Wanted', 'Tech/Markdown']",open
 huggingface/chat-ui,TypeScript,Add option for users to customize search engines in settings page,https://github.com/huggingface/chat-ui/issues/1756,4,"['enhancement', 'good first issue', 'front', 'back', 'websearch']",open
 huggingface/chat-ui,TypeScript,Chrome app icon on macOS,https://github.com/huggingface/chat-ui/issues/1439,4,"['bug', 'good first issue']",open

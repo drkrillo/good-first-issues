@@ -59,7 +59,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-06-02</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-06-03</sub></sub>
 
 | Repo | Language | Title | Comments |
 |---|---|---|---|
@@ -72,16 +72,23 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/ntttcp | C | [per-thread throughput is always 0.00 with ntttcp version 5.40.](https://github.com/microsoft/ntttcp/issues/24) | 1 |
 | microsoft/msquic | C | [Support in-memory certificate stores](https://github.com/microsoft/msquic/issues/4951) | 2 |
 | microsoft/msquic | C | [Failing to use close-on-exec](https://github.com/microsoft/msquic/issues/4980) | 3 |
-| microsoft/aspire | C# | [Debugging in VS Code with invalid csproj exits normally (0) and does not print the build error](https://github.com/microsoft/aspire/issues/17735) | 0 |
-| microsoft/aspire | C# | [Improve display of resource commands in aspire panel](https://github.com/microsoft/aspire/issues/17667) | 0 |
+| microsoft/aspire | C# | [[bug] aspire describe --non-interactive crashes with 'An unexpected error occurred' when no AppHost in cwd](https://github.com/microsoft/aspire/issues/17619) | 0 |
 | microsoft/aspire | C# | [[bug] `aspire describe --format json` exposes plaintext values of secret parameters in dependent resources' env vars](https://github.com/microsoft/aspire/issues/17616) | 0 |
-| microsoft/aspire | C# | [Add VSCode commands to open the dashboard](https://github.com/microsoft/aspire/issues/16815) | 0 |
+| microsoft/aspire | C# | [Aspire dashboard - URL column click shows details](https://github.com/microsoft/aspire/issues/12307) | 0 |
 | microsoft/aspire | C# | [Docker availability warnings should be more prominent in `aspire run` output](https://github.com/microsoft/aspire/issues/10621) | 0 |
 | microsoft/aspire | C# | [Improve Aspire compatibility error message to be more specific and actionable](https://github.com/microsoft/aspire/issues/10559) | 0 |
 | microsoft/CsWin32 | C# | [Inherited COM methods do not have documentation comments](https://github.com/microsoft/CsWin32/issues/1391) | 0 |
-| microsoft/profile-explorer | C# | [Mapping code gap?](https://github.com/microsoft/profile-explorer/issues/7) | 0 |
+| microsoft/aspire | C# | [Dashboard: "Export JSON" resource action opens Text Visualizer instead of direct download; name and sensitive-value message need improvement](https://github.com/microsoft/aspire/issues/17690) | 1 |
+| microsoft/aspire | C# | [Add aspire doctor hint when legacy .aspire/settings.json is detected](https://github.com/microsoft/aspire/issues/17632) | 1 |
+| microsoft/aspire | C# | [Add VSCode commands to open the dashboard](https://github.com/microsoft/aspire/issues/16815) | 1 |
 | microsoft/kiota | C# | [Stacktrace on exceptions](https://github.com/microsoft/kiota/issues/7014) | 1 |
+| microsoft/aspire | C# | [CLI error message when AppHost exits before backchannel connection is vague and missing exit code](https://github.com/microsoft/aspire/issues/17277) | 2 |
+| microsoft/aspire | C# | [Improve parameter display in VS Code extension](https://github.com/microsoft/aspire/issues/17193) | 2 |
+| microsoft/aspire | C# | [`aspire new` lists "yes" and "no" options in inconsistent orders](https://github.com/microsoft/aspire/issues/12272) | 2 |
 | microsoft/PowerToys | C# | [.opus support for Peek](https://github.com/microsoft/PowerToys/issues/42576) | 2 |
+| microsoft/aspire | C# | [Provide CSV export option in dashboard console logs](https://github.com/microsoft/aspire/issues/11121) | 2 |
+| microsoft/aspire | C# | [Pick the last 8 characters of `service.instance.id` rather than the first to show in the UI](https://github.com/microsoft/aspire/issues/10615) | 2 |
+| microsoft/aspire | C# | [[nit]: "Operation cancelled by user action" log is too incessant](https://github.com/microsoft/aspire/issues/9311) | 2 |
 | microsoft/mcp | C# | [[COMMUNITY] Auto generate CHANGELOG, including adding contributors for each release](https://github.com/microsoft/mcp/issues/156) | 4 |
 | microsoft/aspire | C# | [Improve Exception Message for Missing Project Metadata Annotation in ResourceContainerImageBuilder.cs](https://github.com/microsoft/aspire/issues/11299) | 12 |
 | microsoft/snmalloc | C++ | [Implement accurate size storage for Windows `_msize` and `_recalloc`](https://github.com/microsoft/snmalloc/issues/786) | 0 |
@@ -259,7 +266,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-github | Go | [Notification numbers are not properly aligned](https://github.com/mattermost/mattermost-plugin-github/issues/398) | 7 |
 | mattermost/mattermost-plugin-github | Go | [In RHS, display whether there are linked pull requests to issues, and if there are linked issues for pull requests](https://github.com/mattermost/mattermost-plugin-github/issues/271) | 7 |
 | layer5io/getnighthawk | Go | [[SITE] Nav Bar is missing on the mobile view of the page](https://github.com/layer5io/getnighthawk/issues/258) | 8 |
-| kubernetes/autoscaler | Go | [Document the new VPA update mode on the Kubernetes website](https://github.com/kubernetes/autoscaler/issues/9654) | 8 |
 | kubernetes/autoscaler | Go | [VPA: document behavior for Requests & Limits](https://github.com/kubernetes/autoscaler/issues/7895) | 8 |
 | kubernetes/kube-state-metrics | Go | [CustomResourceDefinitions status fields cause spam of errors that cannot be fixed](https://github.com/kubernetes/kube-state-metrics/issues/2482) | 8 |
 | kubernetes/kops | Go | [Better output from kops rolling-update cluster command](https://github.com/kubernetes/kops/issues/14122) | 8 |
@@ -281,7 +287,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/perf-tests | Go | [Make PV tests work on kubemark clusters](https://github.com/kubernetes/perf-tests/issues/803) | 11 |
 | hashicorp/terraform-provider-azurerm | Go | [azurerm_postgresql_flexible_server SKU name validation mismatch between Terraform provider and Azure API](https://github.com/hashicorp/terraform-provider-azurerm/issues/21522) | 11 |
 | hashicorp/terraform-provider-aws | Go | [Timeout for every account destroy with `close_on_deletion`](https://github.com/hashicorp/terraform-provider-aws/issues/46284) | 12 |
-| kubernetes/minikube | Go | [ci: Ensure workflow timeouts - runs can get stuck for hours](https://github.com/kubernetes/minikube/issues/23041) | 13 |
 | kubernetes/kops | Go | [AWS: Cluster requires designating subnets by both ID and containing AZ](https://github.com/kubernetes/kops/issues/14710) | 13 |
 | kubernetes/minikube | Go | [minikube should allow 1 cpu --no-kubernetes](https://github.com/kubernetes/minikube/issues/22152) | 14 |
 | kubernetes/minikube | Go | [Minikube tunnel is not working on Windows (endessly trying to add a route)](https://github.com/kubernetes/minikube/issues/11645) | 14 |
@@ -295,6 +300,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/terraform-provider-aws | Go | [ Lifecycle configuration for S3 Bucket failing with time out issue for AWS Provider 4.21.0](https://github.com/hashicorp/terraform-provider-aws/issues/25939) | 15 |
 | kubernetes/minikube | Go | [add detailed info about what each integration test is doing to the site](https://github.com/kubernetes/minikube/issues/11571) | 16 |
 | kubernetes/minikube | Go | [Feature: enable the structured logging for kubernetes components by default](https://github.com/kubernetes/minikube/issues/9268) | 16 |
+| kubernetes/minikube | Go | [ci: Ensure workflow timeouts - runs can get stuck for hours](https://github.com/kubernetes/minikube/issues/23041) | 17 |
 | kubernetes/ingress-nginx | Go | [Feature Request: Allow disabling custom-http-errors per ingress](https://github.com/kubernetes/ingress-nginx/issues/8384) | 17 |
 | kubernetes/autoscaler | Go | [Autoscaler 1.25 or later: If a node fails to be deleted, the lastScaleDownFailTime is not refresh.](https://github.com/kubernetes/autoscaler/issues/6313) | 18 |
 | kubernetes/minikube | Go | [improve UI advice when user needs to delete the cluster](https://github.com/kubernetes/minikube/issues/10460) | 18 |
@@ -319,7 +325,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/kubernetes | Go | [Reuse the http request object for http probes](https://github.com/kubernetes/kubernetes/issues/115939) | 43 |
 | kubernetes/kubernetes | Go | [tracker: improve the kubelet test coverage](https://github.com/kubernetes/kubernetes/issues/109717) | 49 |
 | kubernetes/minikube | Go | [add documentation for WSL2](https://github.com/kubernetes/minikube/issues/7879) | 53 |
-| kubernetes/kubernetes | Go | [Migrate DRA components to support granular authorization on status updates](https://github.com/kubernetes/kubernetes/issues/138149) | 61 |
+| kubernetes/kubernetes | Go | [Migrate DRA components to support granular authorization on status updates](https://github.com/kubernetes/kubernetes/issues/138149) | 63 |
 | microsoft/edge-ai | HCL | [docs(testing): add regression test tracking policy](https://github.com/microsoft/edge-ai/issues/176) | 0 |
 | microsoft/edge-ai | HCL | [chore(python): add pip lock files for reproducible builds](https://github.com/microsoft/edge-ai/issues/167) | 0 |
 | microsoft/edge-ai | HCL | [docs(testing): update testing-validation.md to reflect actual test frameworks](https://github.com/microsoft/edge-ai/issues/144) | 0 |
@@ -331,7 +337,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | cncf/tag-contributor-strategy | HTML | [Charter link is 404](https://github.com/cncf/tag-contributor-strategy/issues/762) | 1 |
 | cncf/glossary | HTML | [[ru] Localize `Portability`](https://github.com/cncf/glossary/issues/3265) | 1 |
 | cncf/glossary | HTML | [[ru] Localize `Service` into Russian](https://github.com/cncf/glossary/issues/3334) | 2 |
-| kubernetes/website | HTML | [Remove deprecated lang front matter](https://github.com/kubernetes/website/issues/55976) | 3 |
 | cncf/tag-app-delivery | HTML | [Automation of tag-app-delivery repo](https://github.com/cncf/tag-app-delivery/issues/566) | 3 |
 | cncf/tag-security | HTML | [[Suggestion] Working Group Landing Page](https://github.com/cncf/tag-security/issues/1354) | 4 |
 | kubernetes/website | HTML | [[hi] Localize Network Policy Provider page](https://github.com/kubernetes/website/issues/47439) | 7 |
@@ -341,6 +346,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/website | HTML | [[hi] Localize /concepts/cluster-administration page](https://github.com/kubernetes/website/issues/48990) | 9 |
 | kubernetes/website | HTML | [[hi] Localize concepts/Security page](https://github.com/kubernetes/website/issues/47463) | 9 |
 | kubernetes/website | HTML | [[hi] Localize concepts/Storage page](https://github.com/kubernetes/website/issues/47462) | 9 |
+| kubernetes/website | HTML | [[zh-cn] Remove a duplicate description line in the zh-cn kubectl create reference page](https://github.com/kubernetes/website/issues/55991) | 11 |
 | kubernetes/website | HTML | [[hi] Localize concepts/Workloads page ](https://github.com/kubernetes/website/issues/47442) | 11 |
 | kubernetes/website | HTML | [[hi] Localize tasks/configure-pod-container page ](https://github.com/kubernetes/website/issues/48992) | 14 |
 | kubernetes/website | HTML | [[hi] Localize en/docs/contribute/style/page-content-types.md](https://github.com/kubernetes/website/issues/36594) | 18 |
@@ -409,7 +415,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | cncf/landscape-graph | Jupyter Notebook | [Create gource visualizations for all cncf project related repos](https://github.com/cncf/landscape-graph/issues/21) | 1 |
 | huggingface/optimum-intel | Jupyter Notebook | [Fix conversion of ltx_video models in bf16 format](https://github.com/huggingface/optimum-intel/issues/1614) | 2 |
 | cncf/landscape-graph | Jupyter Notebook | [Automatically generate GH Issue Labels for all Sub-Graph Modules](https://github.com/cncf/landscape-graph/issues/84) | 2 |
-| microsoft/presidio-research | Jupyter Notebook | [Enforce locale for fake entities](https://github.com/microsoft/presidio-research/issues/123) | 3 |
 | huggingface/optimum-intel | Jupyter Notebook | [Add tests which check, that required transformations are applied](https://github.com/huggingface/optimum-intel/issues/1645) | 4 |
 | cncf/landscape-graph | Jupyter Notebook | [Implement autogenerated mocks for GraphQL API from schema](https://github.com/cncf/landscape-graph/issues/103) | 4 |
 | cncf/landscape-graph | Jupyter Notebook | [Create documentation site (GitHub Pages or Netlify) using Docusaurus](https://github.com/cncf/landscape-graph/issues/97) | 7 |
@@ -433,7 +438,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/lighteval | Python | [[FT]  Add tests for `VLLMModel` base methods](https://github.com/huggingface/lighteval/issues/724) | 0 |
 | huggingface/nanotron | Python | [[Feature] Use CUDA event for measuring elasped time](https://github.com/huggingface/nanotron/issues/88) | 0 |
 | huggingface/nanotron | Python | [[Feature] Refactor `ParallelContext.world_rank_matrix`](https://github.com/huggingface/nanotron/issues/77) | 0 |
-| microsoft/apm | Python | [feat: surface 'file does not exist' error in managed_section mode before marker search](https://github.com/microsoft/apm/issues/1593) | 0 |
 | microsoft/winml-cli | Python | [Minor refactor: reuse _compute_case_signature to compute failed model file name](https://github.com/microsoft/winml-cli/issues/56) | 0 |
 | microsoft/physical-ai-toolchain | Python | [fix(scripts): align setup-dev.sh with shell script conventions](https://github.com/microsoft/physical-ai-toolchain/issues/144) | 0 |
 | microsoft/physical-ai-toolchain | Python | [chore(ci): remove JaCoCo parser config from codecov.yml](https://github.com/microsoft/physical-ai-toolchain/issues/140) | 0 |
@@ -448,6 +452,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/nanotron | Python | [FEAT: Support 1.58-bit LLMs training](https://github.com/huggingface/nanotron/issues/114) | 1 |
 | huggingface/dataset-viewer | Python | [Use `revision_exists` (hfh)](https://github.com/huggingface/dataset-viewer/issues/2562) | 1 |
 | huggingface/nanotron | Python | [[Feature Request] Add simple communications benchmarks to the repo](https://github.com/huggingface/nanotron/issues/43) | 1 |
+| microsoft/agent-governance-toolkit | Python | [chore: complete Python package consolidation — stub remaining legacy + integration packages](https://github.com/microsoft/agent-governance-toolkit/issues/2740) | 1 |
 | microsoft/agent-governance-toolkit | Python | [feat: minimal-PATH sandbox image for command denylist enforcement](https://github.com/microsoft/agent-governance-toolkit/issues/2713) | 1 |
 | microsoft/winml-cli | Python | [Add test cases for sysinfo/](https://github.com/microsoft/winml-cli/issues/54) | 1 |
 | microsoft/physical-ai-toolchain | Python | [docs(ci): document GHSA allowlist in dependency-review.yml](https://github.com/microsoft/physical-ai-toolchain/issues/142) | 1 |
@@ -481,7 +486,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/dataset-viewer | Python | [Use `CONSTANT_LIST.copy` in list config fieds](https://github.com/huggingface/dataset-viewer/issues/1522) | 3 |
 | huggingface/optimum | Python | [Add all available ONNX models to ORTConfigManager](https://github.com/huggingface/optimum/issues/351) | 3 |
 | huggingface/transfer-learning-conv-ai | Python | [RuntimeError: shape '[-1, 2, 34]' is invalid for input of size 61710](https://github.com/huggingface/transfer-learning-conv-ai/issues/12) | 3 |
-| microsoft/apm | Python | [Strangler Stage 1: tame the worst outliers](https://github.com/microsoft/apm/issues/1077) | 3 |
 | microsoft/apm | Python | [[FEATURE] PEP 8 Support](https://github.com/microsoft/apm/issues/690) | 3 |
 | godotengine/godot-blender-exporter | Python | [Blender object with negative scale](https://github.com/godotengine/godot-blender-exporter/issues/24) | 3 |
 | huggingface/lerobot | Python | [How can I change the task name of already recorded episodes?](https://github.com/huggingface/lerobot/issues/2096) | 4 |
@@ -489,7 +493,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/lighteval | Python | [[EVAL]: Add more African Benchmarks](https://github.com/huggingface/lighteval/issues/373) | 4 |
 | huggingface/accelerate | Python | [[Community Contributions] examples on distributed inference using 🤗 Accelerate](https://github.com/huggingface/accelerate/issues/3078) | 4 |
 | huggingface/dataset-viewer | Python | [Cache/Queue metrics should not be negative](https://github.com/huggingface/dataset-viewer/issues/2495) | 4 |
-| microsoft/apm | Python | [[Feature] Document marketplace.json schema ](https://github.com/microsoft/apm/issues/757) | 4 |
 | microsoft/onnxscript | Python | [Constant Folding removes 'axes' initializer form Squeeze layer, resulting in incorrect ONNX model](https://github.com/microsoft/onnxscript/issues/2810) | 4 |
 | huggingface/lighteval | Python | [[BUG] custom model docs don't run: missing imports](https://github.com/huggingface/lighteval/issues/760) | 5 |
 | huggingface/nanotron | Python | [Avoid nested `InheritFromOtherOptimizer`](https://github.com/huggingface/nanotron/issues/267) | 5 |
@@ -506,7 +509,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/lighteval | Python | [[EVAL] Adding PHARE](https://github.com/huggingface/lighteval/issues/696) | 8 |
 | huggingface/diffusers | Python | [Make `FlaxLMSDiscreteScheduler` jittable](https://github.com/huggingface/diffusers/issues/2180) | 8 |
 | microsoft/presidio | Python | [Can multiple GLiNERRecognizer instances be configured via YAML?](https://github.com/microsoft/presidio/issues/1760) | 8 |
-| microsoft/autogen | Python | [open needs encoding='utf-8' for non-english environment, error in playwright_controller.py](https://github.com/microsoft/autogen/issues/5566) | 8 |
 | huggingface/lerobot | Python | [Distributed v2.1 -> v3.0 conversion](https://github.com/huggingface/lerobot/issues/1998) | 9 |
 | huggingface/diffusers | Python | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 9 |
 | huggingface/lighteval | Python | [[EVAL] Add TUMLU benchmark](https://github.com/huggingface/lighteval/issues/577) | 10 |
@@ -520,11 +522,9 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 19 |
 | huggingface/diffusers | Python | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 22 |
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 26 |
-| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 73 |
+| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 75 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 |
 | microsoft/openvmm | Rust | [remove usages of futures::select! in the repo with futures_concurrency](https://github.com/microsoft/openvmm/issues/1246) | 0 |
-| microsoft/windows-drivers-rs | Rust | [Migrate from fs4 to std::File flocks](https://github.com/microsoft/windows-drivers-rs/issues/300) | 0 |
-| microsoft/openvmm | Rust | [fdt/builder: enforce BE datatypes on add_prop_array](https://github.com/microsoft/openvmm/issues/777) | 0 |
 | decentraland/godot-explorer | Rust | [[Bug]: Interaction Feedback Doesn't Trigger when holding one Control (E.g Joystick)](https://github.com/decentraland/godot-explorer/issues/1170) | 0 |
 | microsoft/openvmm | Rust | [BaseChipsetBuilder should accept VmChipsetResult directly instead of piecemeal fields](https://github.com/microsoft/openvmm/issues/3463) | 1 |
 | microsoft/webui | Rust | [contact book example: Make search great](https://github.com/microsoft/webui/issues/191) | 1 |
@@ -657,7 +657,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Bug: Agent Debugger listing only Default Environment from the dropdown](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/710) | 3 |
 | microsoft/vscode-containers | TypeScript | [Add presentation options to Docker extension's compose commands](https://github.com/microsoft/vscode-containers/issues/350) | 3 |
 | microsoft/teams.ts | TypeScript | [[cards] support lowercase and Capitalized JSON values](https://github.com/microsoft/teams.ts/issues/132) | 3 |
-| microsoft/data-formulator | TypeScript | [Docker Support](https://github.com/microsoft/data-formulator/issues/85) | 3 |
 | mattermost/mattermost | TypeScript | [Help Wanted: BitBucket README > Split out admin content to child pages](https://github.com/mattermost/mattermost/issues/25176) | 3 |
 | huggingface/chat-ui | TypeScript | [Add option for users to customize search engines in settings page](https://github.com/huggingface/chat-ui/issues/1756) | 4 |
 | huggingface/chat-ui | TypeScript | [Chrome app icon on macOS](https://github.com/huggingface/chat-ui/issues/1439) | 4 |
