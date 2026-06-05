@@ -59,7 +59,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-06-04</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-06-05</sub></sub>
 
 | Repo | Language | Title | Comments |
 |---|---|---|---|
@@ -72,10 +72,10 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/ntttcp | C | [per-thread throughput is always 0.00 with ntttcp version 5.40.](https://github.com/microsoft/ntttcp/issues/24) | 1 |
 | microsoft/msquic | C | [Support in-memory certificate stores](https://github.com/microsoft/msquic/issues/4951) | 2 |
 | microsoft/msquic | C | [Failing to use close-on-exec](https://github.com/microsoft/msquic/issues/4980) | 3 |
+| microsoft/aspire | C# | [aspire extension telemetry should include the Aspire version being targeted by the AppHost](https://github.com/microsoft/aspire/issues/17921) | 0 |
 | microsoft/aspire | C# | [[bug] aspire describe --non-interactive crashes with 'An unexpected error occurred' when no AppHost in cwd](https://github.com/microsoft/aspire/issues/17619) | 0 |
 | microsoft/aspire | C# | [[bug] `aspire describe --format json` exposes plaintext values of secret parameters in dependent resources' env vars](https://github.com/microsoft/aspire/issues/17616) | 0 |
 | microsoft/aspire | C# | [Aspire dashboard - URL column click shows details](https://github.com/microsoft/aspire/issues/12307) | 0 |
-| microsoft/aspire | C# | [Docker availability warnings should be more prominent in `aspire run` output](https://github.com/microsoft/aspire/issues/10621) | 0 |
 | microsoft/aspire | C# | [Improve Aspire compatibility error message to be more specific and actionable](https://github.com/microsoft/aspire/issues/10559) | 0 |
 | microsoft/CsWin32 | C# | [Inherited COM methods do not have documentation comments](https://github.com/microsoft/CsWin32/issues/1391) | 0 |
 | microsoft/aspire | C# | [VS Code extension should execute resource commands without opening the terminal](https://github.com/microsoft/aspire/issues/17911) | 1 |
@@ -84,7 +84,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/aspire | C# | [Add VSCode commands to open the dashboard](https://github.com/microsoft/aspire/issues/16815) | 1 |
 | microsoft/kiota | C# | [Stacktrace on exceptions](https://github.com/microsoft/kiota/issues/7014) | 1 |
 | microsoft/aspire | C# | [CLI error message when AppHost exits before backchannel connection is vague and missing exit code](https://github.com/microsoft/aspire/issues/17277) | 2 |
-| microsoft/aspire | C# | [Improve parameter display in VS Code extension](https://github.com/microsoft/aspire/issues/17193) | 2 |
 | microsoft/PowerToys | C# | [.opus support for Peek](https://github.com/microsoft/PowerToys/issues/42576) | 2 |
 | microsoft/aspire | C# | [Provide CSV export option in dashboard console logs](https://github.com/microsoft/aspire/issues/11121) | 2 |
 | microsoft/aspire | C# | [Pick the last 8 characters of `service.instance.id` rather than the first to show in the UI](https://github.com/microsoft/aspire/issues/10615) | 2 |
@@ -356,9 +355,11 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/website | HTML | [[hi] Localize /en/docs/reference/glossary/admission-controller.md](https://github.com/kubernetes/website/issues/35935) | 25 |
 | kubernetes/website | HTML | [[hi] Localize en/docs/contribute/review/for-approvers.md](https://github.com/kubernetes/website/issues/36474) | 26 |
 | kubernetes/website | HTML | [[hi] Enhance README file to improve readability and user-friendliness](https://github.com/kubernetes/website/issues/41989) | 30 |
+| microsoft/copilot-for-eclipse | Java | [The Copilot Chat view retains file context even after the file is closed](https://github.com/microsoft/copilot-for-eclipse/issues/277) | 0 |
 | microsoft/copilot-for-eclipse | Java | [Detailed model information on dropdown hover is cropped on Linux](https://github.com/microsoft/copilot-for-eclipse/issues/113) | 1 |
 | microsoft/copilot-for-eclipse | Java | [Please integrate copilot into eclipse quickfix feature - Enhancement Request](https://github.com/microsoft/copilot-for-eclipse/issues/70) | 3 |
 | microsoft/copilot-for-eclipse | Java | [Unable to use the Java source file corresponding to the class file as context](https://github.com/microsoft/copilot-for-eclipse/issues/117) | 6 |
+| layer5io/docs | JavaScript | [Default Permissions Table: Improve use of space on the page](https://github.com/layer5io/docs/issues/1082) | 0 |
 | mattermost/mattermost-plugin-gitlab | JavaScript | [Convert link_tooltip component to typescript](https://github.com/mattermost/mattermost-plugin-gitlab/issues/424) | 1 |
 | freeCodeCamp/classroom | JavaScript | [Bug: Classrooms can be created with no certifications](https://github.com/freeCodeCamp/classroom/issues/551) | 1 |
 | layer5io/docs | JavaScript | [[Docs] Improve Related Docs Links in Pinning Models to Dock Page](https://github.com/layer5io/docs/issues/1028) | 2 |
@@ -389,12 +390,12 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | layer5io/layer5 | JavaScript | [Improve styling of categories of models](https://github.com/layer5io/layer5/issues/7593) | 10 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Containerssh under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4876) | 10 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Cert Manager Crds under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4865) | 10 |
-| layer5io/layer5 | JavaScript | [Pricing: subscription plans as a sticky row](https://github.com/layer5io/layer5/issues/7665) | 11 |
 | layer5io/layer5 | JavaScript | [[Screenshots] AWS Elastic Kubernetes Service under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/5322) | 11 |
 | layer5io/layer5 | JavaScript | [Update the structure of pages based on the latest sitemap revision available in Figma](https://github.com/layer5io/layer5/issues/5359) | 13 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Cloudevents under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4869) | 13 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Cilium under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4868) | 13 |
 | mattermost/mattermost-plugin-gitlab | JavaScript | [Support config variable to disable project access check for incoming webhook event](https://github.com/mattermost/mattermost-plugin-gitlab/issues/463) | 13 |
+| layer5io/layer5 | JavaScript | [Pricing: subscription plans as a sticky row](https://github.com/layer5io/layer5/issues/7665) | 14 |
 | layer5io/layer5 | JavaScript | [Update resources and hands-on labs with latest content](https://github.com/layer5io/layer5/issues/6387) | 14 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Fabedge under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/5330) | 14 |
 | EddieHubCommunity/BioDrop | JavaScript | [[BUG] Duplicate sortable package present](https://github.com/EddieHubCommunity/BioDrop/issues/10139) | 14 |
@@ -667,10 +668,10 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/chat-ui | TypeScript | [Disabling Reasoning Summary as an Env Option](https://github.com/huggingface/chat-ui/issues/1720) | 5 |
 | microsoft/vscode-python-debugger | TypeScript | [Add support for no-config debugging using nushell](https://github.com/microsoft/vscode-python-debugger/issues/647) | 5 |
 | mattermost/mattermost | TypeScript | [Help Wanted: Channel Export README > Split out admin content to child pages](https://github.com/mattermost/mattermost/issues/25173) | 5 |
-| microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Error trying to run Agent Inventory](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/706) | 6 |
 | microsoft/data-formulator | TypeScript | [Expand chart type supports](https://github.com/microsoft/data-formulator/issues/193) | 6 |
 | microsoft/teams.ts | TypeScript | [Automatically parse feedback value](https://github.com/microsoft/teams.ts/issues/184) | 7 |
 | huggingface/huggingface.js | TypeScript | [Tracking integration for Video Classification](https://github.com/huggingface/huggingface.js/issues/332) | 8 |
+| microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Error trying to run Agent Inventory](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/706) | 8 |
 | mattermost/mattermost | TypeScript | [Help Wanted: CircleCI README > Split out admin content to child pages](https://github.com/mattermost/mattermost/issues/25175) | 8 |
 | layer5io/sistent | TypeScript | [[Feature] Add Support for Table Variants](https://github.com/layer5io/sistent/issues/992) | 10 |
 | mattermost/mattermost | TypeScript | [Bitbucket plugin: Support for bitbucket Datacenter/server](https://github.com/mattermost/mattermost/issues/24188) | 10 |
