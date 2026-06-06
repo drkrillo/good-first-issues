@@ -59,7 +59,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-06-05</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-06-06</sub></sub>
 
 | Repo | Language | Title | Comments |
 |---|---|---|---|
@@ -211,7 +211,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: `aws_cloudwatch_metric_alarm`: Add validation to prevent specifying both `metric` and `expression`](https://github.com/hashicorp/terraform-provider-aws/issues/41680) | 4 |
 | hashicorp/terraform-provider-aws | Go | [[Docs]: quicksight_data_source](https://github.com/hashicorp/terraform-provider-aws/issues/41672) | 4 |
 | hashicorp/terraform-provider-aws | Go | [[Bug]: aws_backup_selection `selection_tag` and `resources` do not interact as expected](https://github.com/hashicorp/terraform-provider-aws/issues/41274) | 4 |
-| hashicorp/terraform-provider-aws | Go | [[Documentation]: Add example for specifying p12 certificate with `aws_sns_platform_application`](https://github.com/hashicorp/terraform-provider-aws/issues/40803) | 4 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_dms_endpoint add additional redshift_settings parameters](https://github.com/hashicorp/terraform-provider-aws/issues/38814) | 4 |
 | hashicorp/terraform-provider-aws | Go | [[Bug]: Not able to generate config for aws_quicksight_analysis resource](https://github.com/hashicorp/terraform-provider-aws/issues/34243) | 4 |
 | hashicorp/nomad | Go | [Render JSON String Diffs as JSON](https://github.com/hashicorp/nomad/issues/18103) | 4 |
@@ -235,6 +234,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/nomad | Go | [option to run template.change_script on first render](https://github.com/hashicorp/nomad/issues/27429) | 5 |
 | hashicorp/nomad | Go | [Provide output formatting options for Nomad job plan CLI](https://github.com/hashicorp/nomad/issues/27369) | 5 |
 | hashicorp/terraform-provider-aws | Go | [[Bug]: Route 53 Resolver rule resource defines bad defaults for target configuration](https://github.com/hashicorp/terraform-provider-aws/issues/41523) | 5 |
+| hashicorp/terraform-provider-aws | Go | [[Documentation]: Add example for specifying p12 certificate with `aws_sns_platform_application`](https://github.com/hashicorp/terraform-provider-aws/issues/40803) | 5 |
 | hashicorp/terraform-provider-aws | Go | [[Docs]: Import existing trail using ARN doesn't work, but it does if the trail name is used](https://github.com/hashicorp/terraform-provider-aws/issues/37179) | 5 |
 | hashicorp/terraform-provider-aws | Go | [aws_redshiftserverless_namespace restore from snapshot](https://github.com/hashicorp/terraform-provider-aws/issues/35138) | 5 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_acm_certificate should guide how to import certificates including transparency logging](https://github.com/hashicorp/terraform-provider-aws/issues/35093) | 5 |
@@ -359,7 +359,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/copilot-for-eclipse | Java | [Detailed model information on dropdown hover is cropped on Linux](https://github.com/microsoft/copilot-for-eclipse/issues/113) | 1 |
 | microsoft/copilot-for-eclipse | Java | [Please integrate copilot into eclipse quickfix feature - Enhancement Request](https://github.com/microsoft/copilot-for-eclipse/issues/70) | 3 |
 | microsoft/copilot-for-eclipse | Java | [Unable to use the Java source file corresponding to the class file as context](https://github.com/microsoft/copilot-for-eclipse/issues/117) | 6 |
-| layer5io/docs | JavaScript | [Default Permissions Table: Improve use of space on the page](https://github.com/layer5io/docs/issues/1082) | 0 |
+| layer5io/docs | JavaScript | [Default Permissions Table: Improve use of space on the page](https://github.com/layer5io/docs/issues/1082) | 1 |
 | mattermost/mattermost-plugin-gitlab | JavaScript | [Convert link_tooltip component to typescript](https://github.com/mattermost/mattermost-plugin-gitlab/issues/424) | 1 |
 | freeCodeCamp/classroom | JavaScript | [Bug: Classrooms can be created with no certifications](https://github.com/freeCodeCamp/classroom/issues/551) | 1 |
 | layer5io/docs | JavaScript | [[Docs] Improve Related Docs Links in Pinning Models to Dock Page](https://github.com/layer5io/docs/issues/1028) | 2 |
