@@ -59,7 +59,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-06-06</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-06-07</sub></sub>
 
 | Repo | Language | Title | Comments |
 |---|---|---|---|
@@ -395,10 +395,10 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | layer5io/layer5 | JavaScript | [[Screenshots] Cloudevents under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4869) | 13 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Cilium under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4868) | 13 |
 | mattermost/mattermost-plugin-gitlab | JavaScript | [Support config variable to disable project access check for incoming webhook event](https://github.com/mattermost/mattermost-plugin-gitlab/issues/463) | 13 |
-| layer5io/layer5 | JavaScript | [Pricing: subscription plans as a sticky row](https://github.com/layer5io/layer5/issues/7665) | 14 |
 | layer5io/layer5 | JavaScript | [Update resources and hands-on labs with latest content](https://github.com/layer5io/layer5/issues/6387) | 14 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Fabedge under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/5330) | 14 |
 | EddieHubCommunity/BioDrop | JavaScript | [[BUG] Duplicate sortable package present](https://github.com/EddieHubCommunity/BioDrop/issues/10139) | 14 |
+| layer5io/layer5 | JavaScript | [Pricing: subscription plans as a sticky row](https://github.com/layer5io/layer5/issues/7665) | 15 |
 | layer5io/layer5 | JavaScript | [[SEO] First Contentful Paint (FCP): gatsby-plugin-webpack-bundle-analyser-v2](https://github.com/layer5io/layer5/issues/6449) | 17 |
 | layer5io/layer5 | JavaScript | [[Visual Design] New Recognition Badge: Event Evangelist Badge](https://github.com/layer5io/layer5/issues/4809) | 17 |
 | layer5io/layer5-academy | JavaScript | [[Docs] Convert meshery design image to embedded meshery design](https://github.com/layer5io/layer5-academy/issues/32) | 18 |
@@ -452,6 +452,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/nanotron | Python | [FEAT: Support 1.58-bit LLMs training](https://github.com/huggingface/nanotron/issues/114) | 1 |
 | huggingface/dataset-viewer | Python | [Use `revision_exists` (hfh)](https://github.com/huggingface/dataset-viewer/issues/2562) | 1 |
 | huggingface/nanotron | Python | [[Feature Request] Add simple communications benchmarks to the repo](https://github.com/huggingface/nanotron/issues/43) | 1 |
+| microsoft/apm | Python | [[BUG] Plugin .lsp.json with lspServers wrapper key is silently skipped during install](https://github.com/microsoft/apm/issues/1683) | 1 |
 | microsoft/agent-governance-toolkit | Python | [chore: complete Python package consolidation — stub remaining legacy + integration packages](https://github.com/microsoft/agent-governance-toolkit/issues/2740) | 1 |
 | microsoft/agent-governance-toolkit | Python | [feat: minimal-PATH sandbox image for command denylist enforcement](https://github.com/microsoft/agent-governance-toolkit/issues/2713) | 1 |
 | microsoft/winml-cli | Python | [Add test cases for sysinfo/](https://github.com/microsoft/winml-cli/issues/54) | 1 |
@@ -645,7 +646,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | decentraland/builder | TypeScript | [Loading indicator in activity overlaps with Menu](https://github.com/decentraland/builder/issues/1399) | 1 |
 | decentraland/explorer | TypeScript | [Switch to `?x=1&y=2` instead of `?position=1%C02`](https://github.com/decentraland/explorer/issues/1430) | 1 |
 | decentraland/explorer | TypeScript | [Blocking error on console: "Warning: Unsupported graphics API WebGL 2.0"](https://github.com/decentraland/explorer/issues/1333) | 1 |
-| layer5io/sistent | TypeScript | [[Feature] Icons](https://github.com/layer5io/sistent/issues/1256) | 2 |
 | huggingface/huggingface.js | TypeScript | [Maximize button not working properly on Hosted inference API block](https://github.com/huggingface/huggingface.js/issues/335) | 2 |
 | microsoft/vscode-containers | TypeScript | [Add “Compose Pull / Update All Images” command for Docker Compose projects](https://github.com/microsoft/vscode-containers/issues/414) | 2 |
 | hashicorp/terraform-cdk | TypeScript | [Typo in Tokenizer code?](https://github.com/hashicorp/terraform-cdk/issues/2709) | 2 |
@@ -656,7 +656,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Bug: Agent Debugger listing only Default Environment from the dropdown](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/710) | 3 |
 | microsoft/vscode-containers | TypeScript | [Add presentation options to Docker extension's compose commands](https://github.com/microsoft/vscode-containers/issues/350) | 3 |
 | microsoft/teams.ts | TypeScript | [[cards] support lowercase and Capitalized JSON values](https://github.com/microsoft/teams.ts/issues/132) | 3 |
-| microsoft/data-formulator | TypeScript | [Docker Support](https://github.com/microsoft/data-formulator/issues/85) | 3 |
 | mattermost/mattermost | TypeScript | [Help Wanted: BitBucket README > Split out admin content to child pages](https://github.com/mattermost/mattermost/issues/25176) | 3 |
 | huggingface/chat-ui | TypeScript | [Add option for users to customize search engines in settings page](https://github.com/huggingface/chat-ui/issues/1756) | 4 |
 | huggingface/chat-ui | TypeScript | [Chrome app icon on macOS](https://github.com/huggingface/chat-ui/issues/1439) | 4 |
