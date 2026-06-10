@@ -89,19 +89,21 @@ class TestIssueManager:
                 "repository_url": "https://api.github.com/repos/owner/repo",
                 "title": "Test Issue",
                 "html_url": "https://github.com/owner/repo/issues/1",
-                "comments": 5
+                "comments": 5,
+                "labels": [{"name": "good first issue"}],
+                "state": "open"
             }
         )
-        
+
         result = IssueManager().extract_issue_data(raw_issue)
-        
-        assert result == {
-            "repo": "owner/repo",
-            "language": "Python",
-            "title": "Test Issue",
-            "url": "https://github.com/owner/repo/issues/1",
-            "comments": 5
-        }
+
+        assert result["repo"] == "owner/repo"
+        assert result["language"] == "Python"
+        assert result["title"] == "Test Issue"
+        assert result["url"] == "https://github.com/owner/repo/issues/1"
+        assert result["comments"] == 5
+        assert "labels" in result
+        assert "state" in result
 
     @patch('app.core.api_handler.APIClient')
     def test_extract_language(self, mock_api_client):
