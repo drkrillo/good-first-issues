@@ -23,8 +23,8 @@ microsoft/kiota,C#,Stacktrace on exceptions,https://github.com/microsoft/kiota/i
 microsoft/PowerToys,C#,.opus support for Peek,https://github.com/microsoft/PowerToys/issues/42576,2,"['Idea-Enhancement', 'Help Wanted', 'Good first issue', 'Status-In progress', 'Product-Peek']",open
 microsoft/aspire,C#,Provide CSV export option in dashboard console logs,https://github.com/microsoft/aspire/issues/11121,2,"['good first issue', 'help wanted', 'area-dashboard']",open
 microsoft/aspire,C#,Pick the last 8 characters of `service.instance.id` rather than the first to show in the UI,https://github.com/microsoft/aspire/issues/10615,2,"['good first issue', 'help wanted', 'area-dashboard']",open
-microsoft/aspire,C#,"[nit]: ""Operation cancelled by user action"" log is too incessant",https://github.com/microsoft/aspire/issues/9311,2,"['good first issue', 'help wanted', 'area-cli']",open
 microsoft/aspire,C#,CLI error message when AppHost exits before backchannel connection is vague and missing exit code,https://github.com/microsoft/aspire/issues/17277,3,"['good first issue', 'help wanted', 'needs-area-label', 'area-cli', 'triage:bot-seen']",open
+microsoft/aspire,C#,"[nit]: ""Operation cancelled by user action"" log is too incessant",https://github.com/microsoft/aspire/issues/9311,3,"['good first issue', 'help wanted', 'area-cli']",open
 microsoft/aspire,C#,"`aspire new` lists ""yes"" and ""no"" options in inconsistent orders",https://github.com/microsoft/aspire/issues/12272,4,"['good first issue', 'help wanted', 'area-cli']",open
 microsoft/mcp,C#,"[COMMUNITY] Auto generate CHANGELOG, including adding contributors for each release",https://github.com/microsoft/mcp/issues/156,4,"['good first issue', 'help wanted', 'server-Azure.Mcp', 'Central-EngSys', 'community contribution']",open
 microsoft/aspire,C#,Improve Exception Message for Missing Project Metadata Annotation in ResourceContainerImageBuilder.cs,https://github.com/microsoft/aspire/issues/11299,12,"['good first issue', 'area-app-model']",open
@@ -299,7 +299,6 @@ microsoft/copilot-for-eclipse,Java,Unable to use the Java source file correspond
 layer5io/docs,JavaScript,Default Permissions Table: Improve use of space on the page,https://github.com/layer5io/docs/issues/1082,1,"['good first issue', 'help wanted', 'kind/enhancement', 'language/javascript', 'language/css', 'language/html', 'framework/hugo']",open
 mattermost/mattermost-plugin-gitlab,JavaScript,Convert link_tooltip component to typescript,https://github.com/mattermost/mattermost-plugin-gitlab/issues/424,1,"['Help Wanted', 'Up For Grabs', 'Hacktoberfest', 'Tech/ReactJS', 'Difficulty/1:Easy', 'Good First Issue', 'Type/Enhancement', 'Tech/TypeScript', 'Typescript Migration']",open
 freeCodeCamp/classroom,JavaScript,Bug: Classrooms can be created with no certifications,https://github.com/freeCodeCamp/classroom/issues/551,1,"['bug', 'good first issue']",open
-layer5io/docs,JavaScript,[Docs] Improve Related Docs Links in Pinning Models to Dock Page,https://github.com/layer5io/docs/issues/1028,2,"['area/docs', 'good first issue', 'help wanted', 'language/markdown', 'framework/hugo']",open
 layer5io/docs,JavaScript,[Docs] Add missing actions to comment history panel,https://github.com/layer5io/docs/issues/549,2,"['area/docs', 'good first issue', 'help wanted', 'language/markdown', 'framework/hugo']",open
 huggingface/transformers.js,JavaScript,Is 'aggregation_strategy' parameter available for token classification pipeline?,https://github.com/huggingface/transformers.js/issues/633,2,"['help wanted', 'good first issue', 'question']",open
 huggingface/transformers.js,JavaScript,[Feature request] Return offset mapping using tokenizer,https://github.com/huggingface/transformers.js/issues/425,2,"['enhancement', 'good first issue']",open
@@ -307,6 +306,7 @@ EddieHubCommunity/RepoRater,JavaScript,[BUG] Update the preview in the readme,ht
 freeCodeCamp/classroom,JavaScript,Bug: /classes page crashes if the mock-fcc-data endpoint is not running,https://github.com/freeCodeCamp/classroom/issues/533,2,"['good first issue', 'CTI']",open
 layer5io/docs,JavaScript,[Docs] Convert Static Image to Meshery Design - 4,https://github.com/layer5io/docs/issues/794,3,"['area/docs', 'good first issue', 'help wanted', 'language/markdown', 'framework/hugo']",open
 layer5io/docs,JavaScript,Screen capture includes Grammarly,https://github.com/layer5io/docs/issues/543,3,"['good first issue', 'help wanted', 'kind/bug', 'language/javascript', 'language/css', 'framework/hugo']",open
+layer5io/docs,JavaScript,[Docs] Improve Related Docs Links in Pinning Models to Dock Page,https://github.com/layer5io/docs/issues/1028,4,"['area/docs', 'good first issue', 'help wanted', 'language/markdown', 'framework/hugo']",open
 freeCodeCamp/100DaysOfCode-twitter-bot,JavaScript,Contributing needs work,https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/112,4,"['help wanted', 'good first issue', 'documentation']",open
 layer5io/docs,JavaScript,[Docs] Convert Static Image to Meshery Design - 3,https://github.com/layer5io/docs/issues/793,5,"['area/docs', 'good first issue', 'help wanted', 'language/markdown', 'framework/hugo']",open
 layer5io/layer5,JavaScript,[Screenshots] Citrix Service Mesh under 'How it Works See It in Action' section,https://github.com/layer5io/layer5/issues/4880,5,"['help wanted', 'good first issue']",open
@@ -412,6 +412,7 @@ microsoft/onnxscript,Python,"Missing converter for OpOverload(op='aten._grouped_
 microsoft/OpenAIWorkshop,Python,Fix eslint warnings,https://github.com/microsoft/OpenAIWorkshop/issues/292,2,"['enhancement', 'good first issue']",open
 microsoft/onnxscript,Python,[torchlib] slice_scatter does not support start and end to be None,https://github.com/microsoft/onnxscript/issues/2372,2,"['good first issue', 'module: torchlib']",open
 microsoft/vscode-black-formatter,Python,black is using cached pyproject.toml instead of the actual one,https://github.com/microsoft/vscode-black-formatter/issues/569,2,"['bug', 'good first issue', 'help wanted', 'needs PR']",open
+huggingface/diffusers,Python,[Anima] Add img2img capability,https://github.com/huggingface/diffusers/issues/13903,3,"['good first issue', 'contributions-welcome', 'modular-pipelines', 'feature-request']",open
 huggingface/lerobot,Python,Finetune smolvla with vision encoder,https://github.com/huggingface/lerobot/issues/1774,3,"['question', 'policies', 'good first issue']",open
 huggingface/lighteval,Python,[FT] showing count in Markdown summary table,https://github.com/huggingface/lighteval/issues/804,3,"['good first issue', 'feature']",open
 huggingface/lighteval,Python,[FT]  Add tests for nanotron,https://github.com/huggingface/lighteval/issues/765,3,"['good first issue', 'help wanted', 'feature', 'ignore-for-release']",open
@@ -442,8 +443,8 @@ huggingface/lighteval,Python,[EVAL] Adding PHARE,https://github.com/huggingface/
 huggingface/diffusers,Python,Make `FlaxLMSDiscreteScheduler` jittable,https://github.com/huggingface/diffusers/issues/2180,8,['good first issue'],open
 microsoft/presidio,Python,Can multiple GLiNERRecognizer instances be configured via YAML?,https://github.com/microsoft/presidio/issues/1760,8,"['good first issue', 'analyzer']",open
 microsoft/autogen,Python,"open needs encoding='utf-8' for non-english environment, error in playwright_controller.py",https://github.com/microsoft/autogen/issues/5566,8,"['good first issue', 'help wanted']",open
-huggingface/lerobot,Python,Distributed v2.1 -> v3.0 conversion,https://github.com/huggingface/lerobot/issues/1998,9,"['dataset', 'performance', 'good first issue']",open
 huggingface/diffusers,Python,Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`,https://github.com/huggingface/diffusers/issues/8434,9,"['good first issue', 'community-examples', 'contributions-welcome']",open
+huggingface/lerobot,Python,Distributed v2.1 -> v3.0 conversion,https://github.com/huggingface/lerobot/issues/1998,10,"['dataset', 'performance', 'good first issue']",open
 huggingface/lighteval,Python,[EVAL] Add TUMLU benchmark,https://github.com/huggingface/lighteval/issues/577,10,"['good first issue', 'help wanted', 'new-task']",open
 huggingface/datasets,Python,WMT21 & WMT22,https://github.com/huggingface/datasets/issues/4709,10,"['good first issue', 'dataset request']",open
 microsoft/onnxscript,Python,[torchlib] Inefficient implementations,https://github.com/microsoft/onnxscript/issues/2489,10,"['good first issue', 'module: torchlib', 'contribution welcome']",open
