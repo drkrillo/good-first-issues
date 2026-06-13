@@ -66,6 +66,8 @@ class IssueManager:
             issue['comments'] = raw_issue[1]['comments']
             issue['labels'] = [l['name'] for l in raw_issue[1].get('labels', [])]
             issue['state'] = raw_issue[1].get('state', 'open')
+            issue['created_at'] = raw_issue[1].get('created_at', '')
+            issue['updated_at'] = raw_issue[1].get('updated_at', '')
         
             return issue
         except Exception as error:
@@ -130,6 +132,8 @@ class TemplateManager:
                     'title': row['title'].replace('|', '\\|'), # Escape '|' to avoid breaking markdown table rows
                     'url': row['url'],
                     'comments': row['comments'],
+                     'created_at': row.get('created_at', ''),
+                     'updated_at': row.get('updated_at', ''),
                 })
 
         env = Environment(loader=FileSystemLoader(template_path))
@@ -163,6 +167,8 @@ class TemplateManager:
                         'comments',
                         'labels',
                         'state'
+                        'created_at',
+                        'updated_at',
                     ]
                 )
                 writer.writeheader()

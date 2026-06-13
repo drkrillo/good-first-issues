@@ -83,25 +83,33 @@ class TestRepoManager:
 class TestIssueManager:
     @patch('app.core.api_handler.APIClient')
     def test_extract_issue_data(self, mock_api_client):
-        raw_issue = (
-            "Python",
-            {
-                "repository_url": "https://api.github.com/repos/owner/repo",
-                "title": "Test Issue",
-                "html_url": "https://github.com/owner/repo/issues/1",
-                "comments": 5
-            }
-        )
-        
-        result = IssueManager().extract_issue_data(raw_issue)
-        
-        assert result == {
-            "repo": "owner/repo",
-            "language": "Python",
-            "title": "Test Issue",
-            "url": "https://github.com/owner/repo/issues/1",
-            "comments": 5
-        }
+       raw_issue = (
+    "Python",
+    {
+        "repository_url": "https://api.github.com/repos/owner/repo",
+        "title": "Test Issue",
+        "html_url": "https://github.com/owner/repo/issues/1",
+        "comments": 5,
+        "labels": [],
+        "state": "open",
+        "created_at": "2024-01-15T10:00:00Z",
+        "updated_at": "2024-02-20T12:00:00Z",
+    }
+)
+
+result = IssueManager().extract_issue_data(raw_issue)
+
+assert result == {
+    "repo": "owner/repo",
+    "language": "Python",
+    "title": "Test Issue",
+    "url": "https://github.com/owner/repo/issues/1",
+    "comments": 5,
+    "labels": [],
+    "state": "open",
+    "created_at": "2024-01-15T10:00:00Z",
+    "updated_at": "2024-02-20T12:00:00Z",
+}
 
     @patch('app.core.api_handler.APIClient')
     def test_extract_language(self, mock_api_client):

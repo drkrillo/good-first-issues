@@ -61,8 +61,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ## Good First Issues <sub><sub>Last run: {{today}}</sub></sub>
 
-| Repo | Language | Title | Comments |
-|---|---|---|---|
+| Repo | Language | Title | Comments | Created | Updated |
+|---|---|---|---|---|---|
 {% for result in results -%}
-| {{result.repo}} | {{result.language}} | [{{result.title}}]({{result.url}}) | {{result.comments}} |
+| {{result.repo}} | {{result.language}} | [{{result.title}}]({{result.url}}) | {{result.comments}} | {{result.created_at}} | {{result.updated_at}} |
 {% endfor %}
