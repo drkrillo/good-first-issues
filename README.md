@@ -59,7 +59,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-06-13</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-06-14</sub></sub>
 
 | Repo | Language | Title | Comments |
 |---|---|---|---|
@@ -308,8 +308,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/kube-state-metrics | Go | [Address lint reports](https://github.com/kubernetes/kube-state-metrics/issues/1887) | 19 |
 | kubernetes/perf-tests | Go | [NodeKiller seems to be not working in 100 node 1.17 / master performance tests](https://github.com/kubernetes/perf-tests/issues/1005) | 19 |
 | kubernetes/perf-tests | Go | [Run more linters with golangci-lint](https://github.com/kubernetes/perf-tests/issues/1244) | 20 |
-| kubernetes/minikube | Go | [ci: Ensure workflow timeouts - runs can get stuck for hours](https://github.com/kubernetes/minikube/issues/23041) | 21 |
 | kubernetes/cloud-provider-openstack | Go | [[occm] - add annotation for custom octavia listener tags](https://github.com/kubernetes/cloud-provider-openstack/issues/2327) | 21 |
+| kubernetes/minikube | Go | [ci: Ensure workflow timeouts - runs can get stuck for hours](https://github.com/kubernetes/minikube/issues/23041) | 22 |
 | kubernetes/kubernetes | Go | [Give an indication in container events for probe failure as to whether the failure was ignored due to FailureThreshold](https://github.com/kubernetes/kubernetes/issues/115823) | 22 |
 | kubernetes/minikube | Go | [get ETCD version from kubernetes constants](https://github.com/kubernetes/minikube/issues/11290) | 22 |
 | kubernetes/minikube | Go | [make it obvious in terminal for user if using docker-env](https://github.com/kubernetes/minikube/issues/6489) | 22 |
@@ -338,16 +338,16 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | cncf/glossary | HTML | [[ru] Localize `Portability`](https://github.com/cncf/glossary/issues/3265) | 1 |
 | cncf/glossary | HTML | [[ru] Localize `Service` into Russian](https://github.com/cncf/glossary/issues/3334) | 2 |
 | cncf/tag-app-delivery | HTML | [Automation of tag-app-delivery repo](https://github.com/cncf/tag-app-delivery/issues/566) | 3 |
-| kubernetes/website | HTML | [Certificates page renders %!s(<nil>) instead of ClusterTrustBundle API reference link](https://github.com/kubernetes/website/issues/56092) | 4 |
 | cncf/tag-security | HTML | [[Suggestion] Working Group Landing Page](https://github.com/cncf/tag-security/issues/1354) | 4 |
+| kubernetes/website | HTML | [Certificates page renders %!s(<nil>) instead of ClusterTrustBundle API reference link](https://github.com/kubernetes/website/issues/56092) | 5 |
 | kubernetes/website | HTML | [[hi] Localize Network Policy Provider page](https://github.com/kubernetes/website/issues/47439) | 7 |
 | cncf/tag-observability | HTML | [WG: Create GitHub Pages site for TAG Observability](https://github.com/cncf/tag-observability/issues/39) | 7 |
 | kubernetes/website | HTML | [[hi] Localize concepts/scheduling-eviction page ](https://github.com/kubernetes/website/issues/48989) | 8 |
 | kubernetes/website | HTML | [[hi] Localize concepts/extend-kubernetes page](https://github.com/kubernetes/website/issues/48991) | 9 |
-| kubernetes/website | HTML | [[hi] Localize /concepts/cluster-administration page](https://github.com/kubernetes/website/issues/48990) | 9 |
-| kubernetes/website | HTML | [[hi] Localize concepts/Security page](https://github.com/kubernetes/website/issues/47463) | 9 |
-| kubernetes/website | HTML | [[hi] Localize concepts/Storage page](https://github.com/kubernetes/website/issues/47462) | 9 |
-| kubernetes/website | HTML | [[hi] Localize concepts/Workloads page ](https://github.com/kubernetes/website/issues/47442) | 11 |
+| kubernetes/website | HTML | [[hi] Localize /concepts/cluster-administration page](https://github.com/kubernetes/website/issues/48990) | 10 |
+| kubernetes/website | HTML | [[hi] Localize concepts/Security page](https://github.com/kubernetes/website/issues/47463) | 10 |
+| kubernetes/website | HTML | [[hi] Localize concepts/Storage page](https://github.com/kubernetes/website/issues/47462) | 10 |
+| kubernetes/website | HTML | [[hi] Localize concepts/Workloads page ](https://github.com/kubernetes/website/issues/47442) | 12 |
 | kubernetes/website | HTML | [[hi] Localize tasks/configure-pod-container page ](https://github.com/kubernetes/website/issues/48992) | 14 |
 | kubernetes/website | HTML | [[hi] Localize en/docs/contribute/style/page-content-types.md](https://github.com/kubernetes/website/issues/36594) | 18 |
 | kubernetes/website | HTML | [Add Etcd Version Skew to Kubernetes Docs](https://github.com/kubernetes/website/issues/53355) | 19 |
@@ -362,12 +362,12 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/copilot-for-eclipse | Java | [Unable to use the Java source file corresponding to the class file as context](https://github.com/microsoft/copilot-for-eclipse/issues/117) | 6 |
 | mattermost/mattermost-plugin-gitlab | JavaScript | [Convert link_tooltip component to typescript](https://github.com/mattermost/mattermost-plugin-gitlab/issues/424) | 1 |
 | freeCodeCamp/classroom | JavaScript | [Bug: Classrooms can be created with no certifications](https://github.com/freeCodeCamp/classroom/issues/551) | 1 |
-| layer5io/docs | JavaScript | [[Docs] Add missing actions to comment history panel](https://github.com/layer5io/docs/issues/549) | 2 |
 | huggingface/transformers.js | JavaScript | [Is 'aggregation_strategy' parameter available for token classification pipeline?](https://github.com/huggingface/transformers.js/issues/633) | 2 |
 | huggingface/transformers.js | JavaScript | [[Feature request] Return offset mapping using tokenizer](https://github.com/huggingface/transformers.js/issues/425) | 2 |
 | EddieHubCommunity/RepoRater | JavaScript | [[BUG] Update the preview in the readme](https://github.com/EddieHubCommunity/RepoRater/issues/152) | 2 |
 | freeCodeCamp/classroom | JavaScript | [Bug: /classes page crashes if the mock-fcc-data endpoint is not running](https://github.com/freeCodeCamp/classroom/issues/533) | 2 |
 | layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 4](https://github.com/layer5io/docs/issues/794) | 3 |
+| layer5io/docs | JavaScript | [[Docs] Add missing actions to comment history panel](https://github.com/layer5io/docs/issues/549) | 3 |
 | layer5io/docs | JavaScript | [Screen capture includes Grammarly](https://github.com/layer5io/docs/issues/543) | 3 |
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Contributing needs work](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/112) | 4 |
 | layer5io/docs | JavaScript | [[Docs] Improve Related Docs Links in Pinning Models to Dock Page](https://github.com/layer5io/docs/issues/1028) | 5 |
@@ -444,7 +444,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/physical-ai-toolchain | Python | [chore(ci): remove JaCoCo parser config from codecov.yml](https://github.com/microsoft/physical-ai-toolchain/issues/140) | 0 |
 | huggingface/lighteval | Python | [[EVAL] Add kyrgyzLLM benchmark](https://github.com/huggingface/lighteval/issues/1036) | 1 |
 | huggingface/lerobot | Python | [Ensure the teleoperators module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1726) | 1 |
-| huggingface/lighteval | Python | [[FT] Build in a way to specify specific IDs/Lines in Dataset to use as few-shot examples in the same split](https://github.com/huggingface/lighteval/issues/634) | 1 |
 | huggingface/lighteval | Python | [[FT] LiteLLM concurrency parameters hard-coded](https://github.com/huggingface/lighteval/issues/567) | 1 |
 | huggingface/diffusers | Python | [Do we have any script covert from hf format to orginal format?](https://github.com/huggingface/diffusers/issues/10076) | 1 |
 | huggingface/nanotron | Python | [Add Debug utility to be able to preview first samples used for training](https://github.com/huggingface/nanotron/issues/184) | 1 |
@@ -462,6 +461,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/lerobot | Python | [Question regarding downsampling and resizing dataset](https://github.com/huggingface/lerobot/issues/2124) | 2 |
 | huggingface/lighteval | Python | [[FT] Manage script and language in the Language enum](https://github.com/huggingface/lighteval/issues/745) | 2 |
 | huggingface/lighteval | Python | [Call for contributions: Translate lighteval's doc into Chinese](https://github.com/huggingface/lighteval/issues/716) | 2 |
+| huggingface/lighteval | Python | [[FT] Build in a way to specify specific IDs/Lines in Dataset to use as few-shot examples in the same split](https://github.com/huggingface/lighteval/issues/634) | 2 |
 | huggingface/dataset-viewer | Python | [use the `ROW_IDX_COLUMN` constant name instead of copying the value everywhere](https://github.com/huggingface/dataset-viewer/issues/2798) | 2 |
 | huggingface/nanotron | Python | [[Feature] Asyncronous Serialization](https://github.com/huggingface/nanotron/issues/87) | 2 |
 | huggingface/dataset-viewer | Python | [Use "Sign-In with HF" instead of token in admin-UI](https://github.com/huggingface/dataset-viewer/issues/2373) | 2 |
@@ -486,11 +486,11 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/lerobot | Python | [How can I change the task name of already recorded episodes?](https://github.com/huggingface/lerobot/issues/2096) | 4 |
 | huggingface/lerobot | Python | [Ensure the utilities module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1727) | 4 |
 | huggingface/lighteval | Python | [[EVAL]: Add more African Benchmarks](https://github.com/huggingface/lighteval/issues/373) | 4 |
-| huggingface/accelerate | Python | [[Community Contributions] examples on distributed inference using 🤗 Accelerate](https://github.com/huggingface/accelerate/issues/3078) | 4 |
 | huggingface/dataset-viewer | Python | [Cache/Queue metrics should not be negative](https://github.com/huggingface/dataset-viewer/issues/2495) | 4 |
 | microsoft/onnxscript | Python | [Constant Folding removes 'axes' initializer form Squeeze layer, resulting in incorrect ONNX model](https://github.com/microsoft/onnxscript/issues/2810) | 4 |
 | huggingface/lighteval | Python | [[BUG] custom model docs don't run: missing imports](https://github.com/huggingface/lighteval/issues/760) | 5 |
 | huggingface/nanotron | Python | [Avoid nested `InheritFromOtherOptimizer`](https://github.com/huggingface/nanotron/issues/267) | 5 |
+| huggingface/accelerate | Python | [[Community Contributions] examples on distributed inference using 🤗 Accelerate](https://github.com/huggingface/accelerate/issues/3078) | 5 |
 | huggingface/nanotron | Python | [[Bug] Missing `_is_using_mup` when resume checkpoint](https://github.com/huggingface/nanotron/issues/198) | 5 |
 | huggingface/nanotron | Python | [[Unit Test] Add unit tests for DistributedTrainer](https://github.com/huggingface/nanotron/issues/90) | 5 |
 | huggingface/lighteval | Python | [Append revision to filepath in `--output_dir`?](https://github.com/huggingface/lighteval/issues/56) | 5 |
