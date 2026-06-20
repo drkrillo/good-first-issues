@@ -17,7 +17,7 @@ microsoft/aspire,C#,VS Code extension should execute resource commands without o
 microsoft/aspire,C#,Add VSCode commands to open the dashboard,https://github.com/microsoft/aspire/issues/16815,1,"['good first issue', 'help wanted', 'area-vscode-extension']",open
 microsoft/aspire,C#,Aspire dashboard - URL column click shows details,https://github.com/microsoft/aspire/issues/12307,1,"['good first issue', 'help wanted', 'area-dashboard']",open
 microsoft/aspire,C#,Provide CSV export option in dashboard console logs,https://github.com/microsoft/aspire/issues/11121,2,"['good first issue', 'help wanted', 'area-dashboard']",open
-microsoft/aspire,C#,CLI error message when AppHost exits before backchannel connection is vague and missing exit code,https://github.com/microsoft/aspire/issues/17277,3,"['good first issue', 'help wanted', 'needs-area-label', 'area-cli', 'triage:bot-seen']",open
+microsoft/aspire,C#,CLI error message when AppHost exits before backchannel connection is vague and missing exit code,https://github.com/microsoft/aspire/issues/17277,3,"['good first issue', 'help wanted', 'area-cli', 'triage:bot-seen']",open
 microsoft/aspire,C#,"[nit]: ""Operation cancelled by user action"" log is too incessant",https://github.com/microsoft/aspire/issues/9311,3,"['good first issue', 'help wanted', 'area-cli']",open
 microsoft/aspire,C#,"`aspire new` lists ""yes"" and ""no"" options in inconsistent orders",https://github.com/microsoft/aspire/issues/12272,4,"['good first issue', 'help wanted', 'area-cli']",open
 microsoft/mcp,C#,"[COMMUNITY] Auto generate CHANGELOG, including adding contributors for each release",https://github.com/microsoft/mcp/issues/156,4,"['good first issue', 'help wanted', 'server-Azure.Mcp', 'Central-EngSys', 'community contribution']",open
@@ -279,8 +279,8 @@ kubernetes/website,HTML,[hi] Localize concepts/Storage page,https://github.com/k
 kubernetes/website,HTML,[hi] Localize concepts/Workloads page ,https://github.com/kubernetes/website/issues/47442,13,"['good first issue', 'help wanted', 'kind/feature', 'language/hi', 'triage/accepted', 'area/localization']",open
 kubernetes/website,HTML,[hi] Localize tasks/configure-pod-container page ,https://github.com/kubernetes/website/issues/48992,14,"['good first issue', 'help wanted', 'kind/feature', 'triage/accepted', 'area/localization']",open
 kubernetes/website,HTML,[hi] Localize en/docs/contribute/style/page-content-types.md,https://github.com/kubernetes/website/issues/36594,18,"['good first issue', 'help wanted', 'kind/feature', 'language/hi', 'triage/accepted']",open
-kubernetes/website,HTML,Add Etcd Version Skew to Kubernetes Docs,https://github.com/kubernetes/website/issues/53355,19,"['good first issue', 'help wanted', 'kind/feature', 'sig/api-machinery', 'priority/important-longterm', 'triage/accepted', 'sig/etcd']",open
 kubernetes/website,HTML,[hi] Localize en/docs/contribute/participate/_index.md,https://github.com/kubernetes/website/issues/36471,19,"['good first issue', 'help wanted', 'kind/feature', 'lifecycle/rotten', 'language/hi', 'triage/accepted']",open
+kubernetes/website,HTML,Add Etcd Version Skew to Kubernetes Docs,https://github.com/kubernetes/website/issues/53355,20,"['good first issue', 'help wanted', 'kind/feature', 'sig/api-machinery', 'priority/important-longterm', 'triage/accepted', 'sig/etcd']",open
 kubernetes/website,HTML,[de] Localize content/de/setup/production-environment/_index.md,https://github.com/kubernetes/website/issues/50286,23,"['good first issue', 'help wanted', 'kind/feature', 'language/de', 'needs-triage', 'area/localization']",open
 kubernetes/website,HTML,[hi] Localize en/docs/contribute/review/for-approvers.md,https://github.com/kubernetes/website/issues/36474,26,"['good first issue', 'help wanted', 'kind/feature', 'language/hi', 'triage/accepted']",open
 kubernetes/website,HTML,[hi] Enhance README file to improve readability and user-friendliness,https://github.com/kubernetes/website/issues/41989,30,"['good first issue', 'help wanted', 'kind/feature', 'language/hi', 'triage/accepted', 'area/localization']",open
@@ -354,7 +354,7 @@ huggingface/huggingface-llama-recipes,Jupyter Notebook,Call for contributions,ht
 huggingface/agents-course,MDX,Improve diagrams in unit 2.1,https://github.com/huggingface/agents-course/issues/233,6,['good first issue'],open
 layer5io/.github,Makefile,Add the Sistent project to this readme.md,https://github.com/layer5io/.github/issues/54,1,"['good first issue', 'help wanted', 'kind/enhancement']",open
 layer5io/academy-example,Makefile,[Docs] deprecated: .Site.AllPages,https://github.com/layer5io/academy-example/issues/108,1,"['good first issue', 'kind/bug']",open
-layer5io/academy-build,Makefile,Replace generic favicon with Layer5 logo,https://github.com/layer5io/academy-build/issues/2,7,"['good first issue', 'help wanted', 'kind/enhancement']",open
+layer5io/academy-build,Makefile,Replace generic favicon with Layer5 logo,https://github.com/layer5io/academy-build/issues/2,8,"['good first issue', 'help wanted', 'kind/enhancement']",open
 huggingface/awesome-huggingface,Other,[hacktoberfest] Hugging Face Collections Hacktoberfest challenge,https://github.com/huggingface/awesome-huggingface/issues/28,0,['good first issue'],open
 decentraland/dapps-issues,Other,[Events] Update the Share link to use the new `jump-in` site.,https://github.com/decentraland/dapps-issues/issues/247,0,"['enhancement', 'good first issue']",open
 decentraland/dapps-issues,Other,Add a banner to communicate possible downtimes of our/thirdparty services,https://github.com/decentraland/dapps-issues/issues/20,0,['good first issue'],open
@@ -370,6 +370,7 @@ huggingface/lighteval,Python,[FT]  Add tests for `VLLMModel` base methods,https:
 huggingface/nanotron,Python,[Feature] Use CUDA event for measuring elasped time,https://github.com/huggingface/nanotron/issues/88,0,"['enhancement', 'good first issue', 'help wanted']",open
 huggingface/nanotron,Python,[Feature] Refactor `ParallelContext.world_rank_matrix`,https://github.com/huggingface/nanotron/issues/77,0,"['enhancement', 'good first issue', 'help wanted']",open
 microsoft/AutoPodcaster,Python,Add devcontainer,https://github.com/microsoft/AutoPodcaster/issues/9,0,"['enhancement', 'good first issue']",open
+microsoft/teams-agent-accelerator-libs-py,Python,Expose the ability to add memory explicitly,https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/57,0,['good first issue'],open
 huggingface/lighteval,Python,[EVAL] Add kyrgyzLLM benchmark,https://github.com/huggingface/lighteval/issues/1036,1,"['good first issue', 'new-task']",open
 huggingface/lerobot,Python,Ensure the teleoperators module passes MyPy type checks,https://github.com/huggingface/lerobot/issues/1726,1,"['python', 'good first issue']",open
 huggingface/lighteval,Python,[FT] LiteLLM concurrency parameters hard-coded,https://github.com/huggingface/lighteval/issues/567,1,"['good first issue', 'help wanted', 'feature']",open
@@ -444,7 +445,7 @@ huggingface/diffusers,Python,[Pipeline] AnimateDiff + SparseControl + ControlNet
 huggingface/lerobot,Python,Make policies compatible with torch.compile,https://github.com/huggingface/lerobot/issues/2061,18,"['enhancement', 'performance', 'good first issue']",open
 huggingface/datasets,Python,"Consider using ""Sequence"" instead of ""List""",https://github.com/huggingface/datasets/issues/5354,18,"['enhancement', 'good first issue']",open
 huggingface/datasets,Python,Return the name of the currently loaded file in the load_dataset function.,https://github.com/huggingface/datasets/issues/5806,19,"['enhancement', 'good first issue']",open
-huggingface/huggingface_hub,Python,[Community event] Translate documentation to your own langage,https://github.com/huggingface/huggingface_hub/issues/1700,20,"['documentation', 'good first issue']",open
+huggingface/huggingface_hub,Python,[Community event] Translate documentation to your own langage,https://github.com/huggingface/huggingface_hub/issues/1700,21,"['documentation', 'good first issue']",open
 huggingface/diffusers,Python,Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines,https://github.com/huggingface/diffusers/issues/6969,22,"['bug', 'good first issue', 'help wanted', 'wip', 'contributions-welcome']",open
 huggingface/optimum,Python,Community contribution - `BetterTransformer` integration for more models!,https://github.com/huggingface/optimum/issues/488,26,['good first issue'],open
 huggingface/peft,Python,Comparison of Different Fine-Tuning Techniques for Conversational AI,https://github.com/huggingface/peft/issues/2310,95,"['good first issue', 'help wanted', 'contributions-welcome']",open
@@ -588,16 +589,15 @@ microsoft/data-formulator,TypeScript,Docker Support,https://github.com/microsoft
 mattermost/mattermost,TypeScript,Help Wanted: BitBucket README > Split out admin content to child pages,https://github.com/mattermost/mattermost/issues/25176,3,"['Difficulty/1:Easy', 'Hacktoberfest', 'Good First Issue', 'Help Wanted', 'Tech/Markdown']",open
 huggingface/chat-ui,TypeScript,Add option for users to customize search engines in settings page,https://github.com/huggingface/chat-ui/issues/1756,4,"['enhancement', 'good first issue', 'front', 'back', 'websearch']",open
 huggingface/chat-ui,TypeScript,Chrome app icon on macOS,https://github.com/huggingface/chat-ui/issues/1439,4,"['bug', 'good first issue']",open
-microsoft/AI-Engineering-Coach,TypeScript,feat: Context Files,https://github.com/microsoft/AI-Engineering-Coach/issues/60,4,"['enhancement', 'good first issue']",open
 microsoft/genaiscript,TypeScript,Repository map example,https://github.com/microsoft/genaiscript/issues/982,4,"['good first issue', 'samples']",open
 freeCodeCamp/chapter,TypeScript,Consolidate email templates,https://github.com/freeCodeCamp/chapter/issues/2071,4,"['Help Wanted', 'API', 'Email', 'Good First Issue']",open
 decentraland/marketplace,TypeScript,Create a high order component that redirects to the Sign In Page if the user is not connected,https://github.com/decentraland/marketplace/issues/1522,4,"['enhancement', 'good first issue']",open
 layer5io/sistent,TypeScript,[Docs] update readme to include instructions to use npm link,https://github.com/layer5io/sistent/issues/999,5,"['area/docs', 'good first issue', 'help wanted', 'language/markdown']",open
 huggingface/chat-ui,TypeScript,Disabling Reasoning Summary as an Env Option,https://github.com/huggingface/chat-ui/issues/1720,5,"['enhancement', 'good first issue', 'models']",open
-microsoft/Power-CAT-Copilot-Studio-Kit,TypeScript,Bug: Conversation KPIs dashboard throwing error,https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/757,5,['good first issue'],open
 microsoft/vscode-python-debugger,TypeScript,Add support for no-config debugging using nushell,https://github.com/microsoft/vscode-python-debugger/issues/647,5,"['good first issue', 'feature-request', 'needs community feedback']",open
 mattermost/mattermost,TypeScript,"[RN] Change ""Join"" button on sign in page keyboard to ""Go""",https://github.com/mattermost/mattermost/issues/26590,5,"['Difficulty/1:Easy', 'Tech/React Native', 'Good First Issue', 'Help Wanted']",open
 mattermost/mattermost,TypeScript,Help Wanted: Channel Export README > Split out admin content to child pages,https://github.com/mattermost/mattermost/issues/25173,5,"['Difficulty/1:Easy', 'Hacktoberfest', 'Good First Issue', 'Help Wanted', 'Tech/Markdown']",open
+microsoft/Power-CAT-Copilot-Studio-Kit,TypeScript,Bug: Conversation KPIs dashboard throwing error,https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/757,6,['good first issue'],open
 microsoft/data-formulator,TypeScript,Expand chart type supports,https://github.com/microsoft/data-formulator/issues/193,6,"['good first issue', 'help wanted']",open
 microsoft/teams.ts,TypeScript,Automatically parse feedback value,https://github.com/microsoft/teams.ts/issues/184,7,"['enhancement', 'good first issue']",open
 huggingface/huggingface.js,TypeScript,Tracking integration for Video Classification,https://github.com/huggingface/huggingface.js/issues/332,8,"['good first issue', 'widgets', 'tasks']",open
