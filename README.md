@@ -59,7 +59,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-06-20</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-06-21</sub></sub>
 
 | Repo | Language | Title | Comments |
 |---|---|---|---|
@@ -287,7 +287,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/minikube | Go | [--host-only-cidr: invalid CIDR address: '192.168.99.1/24'](https://github.com/kubernetes/minikube/issues/7063) | 14 |
 | kubernetes/minikube | Go | [registry-creds addon: secrets stored with different name to defaults](https://github.com/kubernetes/minikube/issues/2805) | 14 |
 | hashicorp/terraform-provider-helm | Go | [the provider continues to reveal sensitive variables during destroy or update in-place](https://github.com/hashicorp/terraform-provider-helm/issues/1287) | 14 |
-| kubernetes/autoscaler | Go | [Add Comprehensive VPA Documentation to Kubernetes Website](https://github.com/kubernetes/autoscaler/issues/8839) | 15 |
 | kubernetes/autoscaler | Go | [Cluster autoscaler should remove unused "node-autoprovisioning-enabled" flag and the related metrics](https://github.com/kubernetes/autoscaler/issues/6228) | 15 |
 | kubernetes/ingress-nginx | Go | [Support standard Forwarded header](https://github.com/kubernetes/ingress-nginx/issues/10263) | 15 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: Support updateToLatestImageVersion in aws_batch_compute_environment.compute_resources](https://github.com/hashicorp/terraform-provider-aws/issues/39978) | 15 |
@@ -319,7 +318,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/kubernetes | Go | [Reuse the http request object for http probes](https://github.com/kubernetes/kubernetes/issues/115939) | 43 |
 | kubernetes/kubernetes | Go | [tracker: improve the kubelet test coverage](https://github.com/kubernetes/kubernetes/issues/109717) | 49 |
 | kubernetes/minikube | Go | [add documentation for WSL2](https://github.com/kubernetes/minikube/issues/7879) | 53 |
-| kubernetes/kubernetes | Go | [Migrate DRA components to support granular authorization on status updates](https://github.com/kubernetes/kubernetes/issues/138149) | 66 |
+| kubernetes/kubernetes | Go | [Migrate DRA components to support granular authorization on status updates](https://github.com/kubernetes/kubernetes/issues/138149) | 67 |
 | microsoft/edge-ai | HCL | [chore(python): add pip lock files for reproducible builds](https://github.com/microsoft/edge-ai/issues/167) | 0 |
 | microsoft/edge-ai | HCL | [docs(testing): add regression test tracking policy](https://github.com/microsoft/edge-ai/issues/176) | 1 |
 | microsoft/edge-ai | HCL | [docs(testing): update testing-validation.md to reflect actual test frameworks](https://github.com/microsoft/edge-ai/issues/144) | 1 |
@@ -338,8 +337,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/website | HTML | [[hi] Localize concepts/scheduling-eviction page ](https://github.com/kubernetes/website/issues/48989) | 8 |
 | kubernetes/website | HTML | [[hi] Localize concepts/extend-kubernetes page](https://github.com/kubernetes/website/issues/48991) | 9 |
 | kubernetes/website | HTML | [[hi] Localize /concepts/cluster-administration page](https://github.com/kubernetes/website/issues/48990) | 10 |
-| kubernetes/website | HTML | [[hi] Localize concepts/Security page](https://github.com/kubernetes/website/issues/47463) | 10 |
 | kubernetes/website | HTML | [[hi] Localize concepts/Storage page](https://github.com/kubernetes/website/issues/47462) | 10 |
+| kubernetes/website | HTML | [[hi] Localize concepts/Security page](https://github.com/kubernetes/website/issues/47463) | 13 |
 | kubernetes/website | HTML | [[hi] Localize concepts/Workloads page ](https://github.com/kubernetes/website/issues/47442) | 13 |
 | kubernetes/website | HTML | [[hi] Localize tasks/configure-pod-container page ](https://github.com/kubernetes/website/issues/48992) | 14 |
 | kubernetes/website | HTML | [[hi] Localize en/docs/contribute/style/page-content-types.md](https://github.com/kubernetes/website/issues/36594) | 18 |
@@ -512,7 +511,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 21 |
 | huggingface/diffusers | Python | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 22 |
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 26 |
-| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 95 |
+| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 96 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 |
 | microsoft/pg_durable | Rust | [Add a filter_label parameter to list_instances function](https://github.com/microsoft/pg_durable/issues/87) | 0 |
 | microsoft/openvmm | Rust | [remove usages of futures::select! in the repo with futures_concurrency](https://github.com/microsoft/openvmm/issues/1246) | 0 |
