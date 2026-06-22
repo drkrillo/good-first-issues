@@ -19,7 +19,6 @@ microsoft/aspire,C#,Aspire dashboard - URL column click shows details,https://gi
 microsoft/aspire,C#,Provide CSV export option in dashboard console logs,https://github.com/microsoft/aspire/issues/11121,2,"['good first issue', 'help wanted', 'area-dashboard']",open
 microsoft/aspire,C#,CLI error message when AppHost exits before backchannel connection is vague and missing exit code,https://github.com/microsoft/aspire/issues/17277,3,"['good first issue', 'help wanted', 'area-cli', 'triage:bot-seen']",open
 microsoft/aspire,C#,"[nit]: ""Operation cancelled by user action"" log is too incessant",https://github.com/microsoft/aspire/issues/9311,3,"['good first issue', 'help wanted', 'area-cli']",open
-microsoft/aspire,C#,"`aspire new` lists ""yes"" and ""no"" options in inconsistent orders",https://github.com/microsoft/aspire/issues/12272,4,"['good first issue', 'help wanted', 'area-cli']",open
 microsoft/mcp,C#,"[COMMUNITY] Auto generate CHANGELOG, including adding contributors for each release",https://github.com/microsoft/mcp/issues/156,4,"['good first issue', 'help wanted', 'server-Azure.Mcp', 'Central-EngSys', 'community contribution']",open
 microsoft/aspire,C#,Improve Exception Message for Missing Project Metadata Annotation in ResourceContainerImageBuilder.cs,https://github.com/microsoft/aspire/issues/11299,12,"['good first issue', 'area-app-model']",open
 microsoft/snmalloc,C++,Implement accurate size storage for Windows `_msize` and `_recalloc`,https://github.com/microsoft/snmalloc/issues/786,0,"['enhancement', 'good first issue']",open
@@ -364,14 +363,15 @@ godotengine/godot-asset-library,PHP,A way to cancel edit requests,https://github
 godotengine/godot-asset-library,PHP,"Sanitize inputs for Asset data/fields, like URLs",https://github.com/godotengine/godot-asset-library/issues/204,5,"['bug', 'topic:backend', 'good first issue']",open
 microsoft/hve-core,PowerShell,Standardize maturity field across all collection YAML manifests,https://github.com/microsoft/hve-core/issues/1319,0,"['enhancement', 'good first issue']",open
 huggingface/optimum-executorch,Python,Add benchmarking numbers for more models,https://github.com/huggingface/optimum-executorch/issues/131,0,"['good first issue', 'help wanted']",open
-huggingface/lighteval,Python,[BUG]  Optimize tokenization,https://github.com/huggingface/lighteval/issues/732,0,"['bug', 'good first issue', 'help wanted', 'science-team']",open
 huggingface/lighteval,Python,[FT]  Add tests for `VLLMModel` base methods,https://github.com/huggingface/lighteval/issues/724,0,"['good first issue', 'feature']",open
 huggingface/nanotron,Python,[Feature] Use CUDA event for measuring elasped time,https://github.com/huggingface/nanotron/issues/88,0,"['enhancement', 'good first issue', 'help wanted']",open
 huggingface/nanotron,Python,[Feature] Refactor `ParallelContext.world_rank_matrix`,https://github.com/huggingface/nanotron/issues/77,0,"['enhancement', 'good first issue', 'help wanted']",open
 microsoft/AutoPodcaster,Python,Add devcontainer,https://github.com/microsoft/AutoPodcaster/issues/9,0,"['enhancement', 'good first issue']",open
 microsoft/teams-agent-accelerator-libs-py,Python,Expose the ability to add memory explicitly,https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/57,0,['good first issue'],open
+microsoft/BitBLAS,Python,[Feature Request] Enhance Database to support reload scheduled tilelang operator,https://github.com/microsoft/BitBLAS/issues/269,0,"['enhancement', 'good first issue']",open
 huggingface/lighteval,Python,[EVAL] Add kyrgyzLLM benchmark,https://github.com/huggingface/lighteval/issues/1036,1,"['good first issue', 'new-task']",open
 huggingface/lerobot,Python,Ensure the teleoperators module passes MyPy type checks,https://github.com/huggingface/lerobot/issues/1726,1,"['python', 'good first issue']",open
+huggingface/lighteval,Python,[BUG]  Optimize tokenization,https://github.com/huggingface/lighteval/issues/732,1,"['bug', 'good first issue', 'help wanted', 'science-team']",open
 huggingface/lighteval,Python,[FT] LiteLLM concurrency parameters hard-coded,https://github.com/huggingface/lighteval/issues/567,1,"['good first issue', 'help wanted', 'feature']",open
 huggingface/nanotron,Python,Add Debug utility to be able to preview first samples used for training,https://github.com/huggingface/nanotron/issues/184,1,"['good first issue', 'help wanted']",open
 huggingface/nanotron,Python,We don't save checkpoint after training ends,https://github.com/huggingface/nanotron/issues/163,1,"['good first issue', 'help wanted', 'Low Priority']",open
@@ -444,10 +444,10 @@ huggingface/diffusers,Python,[Pipeline] AnimateDiff + SparseControl + ControlNet
 huggingface/lerobot,Python,Make policies compatible with torch.compile,https://github.com/huggingface/lerobot/issues/2061,18,"['enhancement', 'performance', 'good first issue']",open
 huggingface/datasets,Python,"Consider using ""Sequence"" instead of ""List""",https://github.com/huggingface/datasets/issues/5354,18,"['enhancement', 'good first issue']",open
 huggingface/datasets,Python,Return the name of the currently loaded file in the load_dataset function.,https://github.com/huggingface/datasets/issues/5806,19,"['enhancement', 'good first issue']",open
-huggingface/huggingface_hub,Python,[Community event] Translate documentation to your own langage,https://github.com/huggingface/huggingface_hub/issues/1700,21,"['documentation', 'good first issue']",open
 huggingface/diffusers,Python,Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines,https://github.com/huggingface/diffusers/issues/6969,22,"['bug', 'good first issue', 'help wanted', 'wip', 'contributions-welcome']",open
+huggingface/huggingface_hub,Python,[Community event] Translate documentation to your own langage,https://github.com/huggingface/huggingface_hub/issues/1700,22,"['documentation', 'good first issue']",open
 huggingface/optimum,Python,Community contribution - `BetterTransformer` integration for more models!,https://github.com/huggingface/optimum/issues/488,26,['good first issue'],open
-huggingface/peft,Python,Comparison of Different Fine-Tuning Techniques for Conversational AI,https://github.com/huggingface/peft/issues/2310,96,"['good first issue', 'help wanted', 'contributions-welcome']",open
+huggingface/peft,Python,Comparison of Different Fine-Tuning Techniques for Conversational AI,https://github.com/huggingface/peft/issues/2310,99,"['good first issue', 'help wanted', 'contributions-welcome']",open
 huggingface/ratchet,Rust,Reduce dependencies! 🗡️,https://github.com/huggingface/ratchet/issues/170,0,"['help wanted', 'good first issue']",open
 microsoft/pg_durable,Rust,Add a filter_label parameter to list_instances function,https://github.com/microsoft/pg_durable/issues/87,0,"['enhancement', 'good first issue']",open
 microsoft/openvmm,Rust,remove usages of futures::select! in the repo with futures_concurrency,https://github.com/microsoft/openvmm/issues/1246,0,"['good first issue', 'linting']",open
@@ -554,7 +554,6 @@ decentraland/builder,TypeScript,[ENS] There's no name check before authorising M
 decentraland/explorer,TypeScript,Add new AvatarModifier: Force camera mode,https://github.com/decentraland/explorer/issues/1948,0,"['SDK', 'good first issue']",open
 decentraland/atlas-server,TypeScript,Add a redirect or message with a link to the documentation at /,https://github.com/decentraland/atlas-server/issues/3,0,['good first issue'],open
 decentraland/builder,TypeScript,Add a way to de-assign a Name from a Land (Parcel/Estate) from the table,https://github.com/decentraland/builder/issues/1203,0,"['enhancement', 'good first issue']",open
-microsoft/Power-CAT-Copilot-Studio-Kit,TypeScript,Bug: Conversation KPIs dashboard is blank even though all the related flows are enabled and prerequisites are met,https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/746,1,['good first issue'],open
 microsoft/genaiscript,TypeScript,Open Telemetry,https://github.com/microsoft/genaiscript/issues/1323,1,"['enhancement', 'good first issue']",open
 microsoft/vscode-python-debugger,TypeScript,Add a `debugpy.sh` for the no-config debugging,https://github.com/microsoft/vscode-python-debugger/issues/651,1,"['bug', 'good first issue']",open
 hashicorp/terraform-cdk,TypeScript,CLI UX: Nicer output for `cdktf synth` if there are no stacks in an app,https://github.com/hashicorp/terraform-cdk/issues/2793,1,"['enhancement', 'good first issue', 'cdktf-cli', 'priority/backlog', 'ux/cli']",open
@@ -576,6 +575,7 @@ decentraland/builder,TypeScript,Loading indicator in activity overlaps with Menu
 decentraland/explorer,TypeScript,Switch to `?x=1&y=2` instead of `?position=1%C02`,https://github.com/decentraland/explorer/issues/1430,1,['good first issue'],open
 decentraland/explorer,TypeScript,"Blocking error on console: ""Warning: Unsupported graphics API WebGL 2.0""",https://github.com/decentraland/explorer/issues/1333,1,"['bug', 'good first issue', 'kernel']",open
 huggingface/huggingface.js,TypeScript,Maximize button not working properly on Hosted inference API block,https://github.com/huggingface/huggingface.js/issues/335,2,"['good first issue', 'widgets']",open
+microsoft/Power-CAT-Copilot-Studio-Kit,TypeScript,Bug: Conversation KPIs dashboard is blank even though all the related flows are enabled and prerequisites are met,https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/746,2,['good first issue'],open
 microsoft/vscode-containers,TypeScript,Add “Compose Pull / Update All Images” command for Docker Compose projects,https://github.com/microsoft/vscode-containers/issues/414,2,['good first issue'],open
 hashicorp/terraform-cdk,TypeScript,Typo in Tokenizer code?,https://github.com/hashicorp/terraform-cdk/issues/2709,2,"['bug', 'good first issue', 'help wanted', 'cdktf', 'priority/backlog', 'size/small', 'feature/tokens']",open
 decentraland/marketplace,TypeScript,It's hard to detect when the kebab menu of the ListCard is clickable,https://github.com/decentraland/marketplace/issues/1866,2,"['enhancement', 'good first issue', 'ui']",open
@@ -596,20 +596,20 @@ huggingface/chat-ui,TypeScript,Disabling Reasoning Summary as an Env Option,http
 microsoft/vscode-python-debugger,TypeScript,Add support for no-config debugging using nushell,https://github.com/microsoft/vscode-python-debugger/issues/647,5,"['good first issue', 'feature-request', 'needs community feedback']",open
 mattermost/mattermost,TypeScript,"[RN] Change ""Join"" button on sign in page keyboard to ""Go""",https://github.com/mattermost/mattermost/issues/26590,5,"['Difficulty/1:Easy', 'Tech/React Native', 'Good First Issue', 'Help Wanted']",open
 mattermost/mattermost,TypeScript,Help Wanted: Channel Export README > Split out admin content to child pages,https://github.com/mattermost/mattermost/issues/25173,5,"['Difficulty/1:Easy', 'Hacktoberfest', 'Good First Issue', 'Help Wanted', 'Tech/Markdown']",open
-microsoft/Power-CAT-Copilot-Studio-Kit,TypeScript,Bug: Conversation KPIs dashboard throwing error,https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/757,6,['good first issue'],open
 microsoft/data-formulator,TypeScript,Expand chart type supports,https://github.com/microsoft/data-formulator/issues/193,6,"['good first issue', 'help wanted']",open
+microsoft/Power-CAT-Copilot-Studio-Kit,TypeScript,Bug: Conversation KPIs dashboard throwing error,https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/757,7,['good first issue'],open
 microsoft/teams.ts,TypeScript,Automatically parse feedback value,https://github.com/microsoft/teams.ts/issues/184,7,"['enhancement', 'good first issue']",open
 huggingface/huggingface.js,TypeScript,Tracking integration for Video Classification,https://github.com/huggingface/huggingface.js/issues/332,8,"['good first issue', 'widgets', 'tasks']",open
 mattermost/mattermost,TypeScript,Help Wanted: CircleCI README > Split out admin content to child pages,https://github.com/mattermost/mattermost/issues/25175,8,"['Difficulty/1:Easy', 'Hacktoberfest', 'Good First Issue', 'Help Wanted', 'Tech/Markdown']",open
-microsoft/Power-CAT-Copilot-Studio-Kit,TypeScript,Error trying to run Agent Inventory,https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/706,9,['good first issue'],open
 layer5io/sistent,TypeScript,[Feature] Add Support for Table Variants,https://github.com/layer5io/sistent/issues/992,10,"['good first issue', 'kind/enhancement']",open
+microsoft/Power-CAT-Copilot-Studio-Kit,TypeScript,Error trying to run Agent Inventory,https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/706,10,['good first issue'],open
 mattermost/mattermost,TypeScript,Bitbucket plugin: Support for bitbucket Datacenter/server,https://github.com/mattermost/mattermost/issues/24188,10,"['Difficulty/1:Easy', 'Tech/Go', 'Docs/Needed', 'Hacktoberfest', 'Area/Integrations', 'Good First Issue', 'Help Wanted', 'Enhancement']",open
 mattermost/mattermost,TypeScript,Create config setting to always have the team sidebar visible,https://github.com/mattermost/mattermost/issues/18010,13,"['Difficulty/1:Easy', 'Tech/Go', 'Tech/ReactJS', 'Hacktoberfest', 'Good First Issue', 'Help Wanted']",open
 mattermost/mattermost,TypeScript,Interactive Dialogs timeout forbiddingly short in slash command integrations ,https://github.com/mattermost/mattermost/issues/21901,14,"['Difficulty/1:Easy', 'Tech/Go', 'Good First Issue', 'Help Wanted']",open
 microsoft/data-formulator,TypeScript,Create new data loaders to different resources,https://github.com/microsoft/data-formulator/issues/156,15,"['good first issue', 'help wanted']",open
 mattermost/mattermost,TypeScript,Mobile | Inconsistant channel updated info message on web and mobile,https://github.com/mattermost/mattermost/issues/26917,15,"['Difficulty/1:Easy', 'Tech/React Native', 'Good First Issue', 'Help Wanted']",open
-mattermost/mattermost,TypeScript,Mobile Web View: Text is cut off in channel dropdown > channel actions,https://github.com/mattermost/mattermost/issues/25165,18,"['Difficulty/1:Easy', 'Tech/ReactJS', 'Hacktoberfest', 'Good First Issue', 'Help Wanted']",open
 freeCodeCamp/chapter,TypeScript,Good first issues,https://github.com/freeCodeCamp/chapter/issues/691,18,['Good First Issue'],open
+mattermost/mattermost,TypeScript,Mobile Web View: Text is cut off in channel dropdown > channel actions,https://github.com/mattermost/mattermost/issues/25165,19,"['Difficulty/1:Easy', 'Tech/ReactJS', 'Hacktoberfest', 'Good First Issue', 'Help Wanted']",open
 mattermost/mattermost,TypeScript,Increase max height of the Find Channels modal,https://github.com/mattermost/mattermost/issues/21558,20,"['Hacktoberfest', 'Good First Issue', 'Help Wanted']",open
 microsoft/vscode,TypeScript,Review AsyncIterableObject usage: potential memory leaks and migration to AsyncIterableProducer,https://github.com/microsoft/vscode/issues/256854,21,"['help wanted', 'debt', 'good first issue', 'perf']",open
 mattermost/mattermost,TypeScript,Improve the grammar on Account Creation Screen if the email address you entered does not belong to the accepted domain,https://github.com/mattermost/mattermost/issues/15927,21,"['Difficulty/1:Easy', 'Hacktoberfest', 'Area/End User Feature', 'Good First Issue', 'Help Wanted']",open
