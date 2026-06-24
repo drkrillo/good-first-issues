@@ -59,7 +59,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-06-23</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-06-24</sub></sub>
 
 | Repo | Language | Title | Comments |
 |---|---|---|---|
@@ -151,7 +151,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-nps | Go | [Use SiteURL for all calls from the webapp](https://github.com/mattermost/mattermost-plugin-nps/issues/70) | 1 |
 | mattermost/mattermost-plugin-google-calendar | Go | [Improve error handling in `completeCalendar` to avoid panic](https://github.com/mattermost/mattermost-plugin-google-calendar/issues/8) | 1 |
 | mattermost/mattermost-plugin-github | Go | [Use custom post type to display TODO list](https://github.com/mattermost/mattermost-plugin-github/issues/86) | 1 |
-| hashicorp/terraform-provider-aws | Go | [Add new compute types G6 to Workspaces](https://github.com/hashicorp/terraform-provider-aws/issues/48500) | 2 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_bedrockagentcore_memory_strategy missing reflection configuration for EPISODIC type](https://github.com/hashicorp/terraform-provider-aws/issues/47938) | 2 |
 | hashicorp/terraform-provider-aws | Go | [aws_fms_policy resource_tag_logical_operator not correctly displaying diff during a plan](https://github.com/hashicorp/terraform-provider-aws/issues/47771) | 2 |
 | hashicorp/terraform-provider-aws | Go | [Add private DNS endpoint attribute to `aws_dsql_cluster` resource](https://github.com/hashicorp/terraform-provider-aws/issues/47596) | 2 |
@@ -256,6 +255,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/terraform-provider-aws | Go | [[Bug]: aws_kinesis_firehose_delivery_stream continually applies cloudwatch_logging_options](https://github.com/hashicorp/terraform-provider-aws/issues/40446) | 7 |
 | hashicorp/nomad | Go | [retry_join to support digitalocean provider](https://github.com/hashicorp/nomad/issues/18587) | 7 |
 | hashicorp/consul | Go | [Metrics missing from documentation](https://github.com/hashicorp/consul/issues/13364) | 7 |
+| hashicorp/nomad | Go | [Add AWS instance tags to client metadata](https://github.com/hashicorp/nomad/issues/12537) | 7 |
 | mattermost/mattermost-plugin-github | Go | [Notification numbers are not properly aligned](https://github.com/mattermost/mattermost-plugin-github/issues/398) | 7 |
 | mattermost/mattermost-plugin-github | Go | [In RHS, display whether there are linked pull requests to issues, and if there are linked issues for pull requests](https://github.com/mattermost/mattermost-plugin-github/issues/271) | 7 |
 | layer5io/getnighthawk | Go | [[SITE] Nav Bar is missing on the mobile view of the page](https://github.com/layer5io/getnighthawk/issues/258) | 8 |
@@ -304,7 +304,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/kubernetes | Go | [Give an indication in container events for probe failure as to whether the failure was ignored due to FailureThreshold](https://github.com/kubernetes/kubernetes/issues/115823) | 22 |
 | kubernetes/minikube | Go | [get ETCD version from kubernetes constants](https://github.com/kubernetes/minikube/issues/11290) | 22 |
 | kubernetes/minikube | Go | [make it obvious in terminal for user if using docker-env](https://github.com/kubernetes/minikube/issues/6489) | 22 |
-| kubernetes/minikube | Go | [ci: Ensure workflow timeouts - runs can get stuck for hours](https://github.com/kubernetes/minikube/issues/23041) | 23 |
 | kubernetes/minikube | Go | [Document how to run minikube in China](https://github.com/kubernetes/minikube/issues/5020) | 25 |
 | kubernetes/kubernetes | Go | [Node lifecycle controller does not `markPodsNotReady` when the node `Ready` state changes from `false` to `unknown`](https://github.com/kubernetes/kubernetes/issues/112733) | 30 |
 | kubernetes/ingress-nginx | Go | [Distinguish wait-shutdown command from standard k8s SIGTERM](https://github.com/kubernetes/ingress-nginx/issues/6287) | 32 |
@@ -317,14 +316,13 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/kubernetes | Go | [Reuse the http request object for http probes](https://github.com/kubernetes/kubernetes/issues/115939) | 43 |
 | kubernetes/kubernetes | Go | [tracker: improve the kubelet test coverage](https://github.com/kubernetes/kubernetes/issues/109717) | 49 |
 | kubernetes/minikube | Go | [add documentation for WSL2](https://github.com/kubernetes/minikube/issues/7879) | 53 |
-| kubernetes/kubernetes | Go | [Migrate DRA components to support granular authorization on status updates](https://github.com/kubernetes/kubernetes/issues/138149) | 67 |
+| kubernetes/kubernetes | Go | [Migrate DRA components to support granular authorization on status updates](https://github.com/kubernetes/kubernetes/issues/138149) | 68 |
 | microsoft/edge-ai | HCL | [chore(python): add pip lock files for reproducible builds](https://github.com/microsoft/edge-ai/issues/167) | 0 |
 | microsoft/edge-ai | HCL | [docs(testing): add regression test tracking policy](https://github.com/microsoft/edge-ai/issues/176) | 1 |
 | microsoft/edge-ai | HCL | [docs(testing): update testing-validation.md to reflect actual test frameworks](https://github.com/microsoft/edge-ai/issues/144) | 1 |
 | microsoft/edge-ai | HCL | [docs(changelog): add CHANGELOG.md generation](https://github.com/microsoft/edge-ai/issues/143) | 1 |
 | microsoft/edge-ai | HCL | [chore(rust): standardize strip = true across all Rust crates](https://github.com/microsoft/edge-ai/issues/177) | 2 |
 | kubernetes/k8s.io | HCL | [[Umbrella Issue] Migrate CNCF Ecosystem projects from k8s.gcr.io to registry.k8s.io](https://github.com/kubernetes/k8s.io/issues/4780) | 37 |
-| layer5io/academy-theme | HTML | [Upgrade project to go1.26.4](https://github.com/layer5io/academy-theme/issues/217) | 0 |
 | cncf/glossary | HTML | [[es] A report to track and reflect updates of English content](https://github.com/cncf/glossary/issues/3222) | 0 |
 | cncf/tag-app-delivery | HTML | [Document how we use GitHub labels](https://github.com/cncf/tag-app-delivery/issues/405) | 0 |
 | cncf/tag-contributor-strategy | HTML | [Charter link is 404](https://github.com/cncf/tag-contributor-strategy/issues/762) | 1 |
@@ -332,6 +330,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | cncf/glossary | HTML | [[ru] Localize `Service` into Russian](https://github.com/cncf/glossary/issues/3334) | 2 |
 | cncf/tag-app-delivery | HTML | [Automation of tag-app-delivery repo](https://github.com/cncf/tag-app-delivery/issues/566) | 3 |
 | cncf/tag-security | HTML | [[Suggestion] Working Group Landing Page](https://github.com/cncf/tag-security/issues/1354) | 4 |
+| layer5io/academy-theme | HTML | [Upgrade project to go1.26.4](https://github.com/layer5io/academy-theme/issues/217) | 7 |
 | kubernetes/website | HTML | [[hi] Localize Network Policy Provider page](https://github.com/kubernetes/website/issues/47439) | 7 |
 | cncf/tag-observability | HTML | [WG: Create GitHub Pages site for TAG Observability](https://github.com/cncf/tag-observability/issues/39) | 7 |
 | kubernetes/website | HTML | [[hi] Localize concepts/scheduling-eviction page ](https://github.com/kubernetes/website/issues/48989) | 8 |
@@ -366,6 +365,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | layer5io/layer5 | JavaScript | [[Screenshots] Citrix Service Mesh under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4880) | 5 |
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Welcome bot! Respond to the user when committing to 100DaysOfCode](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/96) | 5 |
 | layer5io/docs | JavaScript | [Convert Images into Meshery Design.](https://github.com/layer5io/docs/issues/646) | 6 |
+| layer5io/layer5 | JavaScript | [Readme: add bluesky social shield](https://github.com/layer5io/layer5/issues/7819) | 7 |
 | layer5io/layer5 | JavaScript | [Relocate partner logos to appropriate directory in static folder.](https://github.com/layer5io/layer5/issues/7256) | 7 |
 | layer5io/layer5 | JavaScript | [[CI] Create or add to existing workflow: a broken link checker](https://github.com/layer5io/layer5/issues/6407) | 7 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Chaos Mesh under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4867) | 7 |
@@ -416,7 +416,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/agents-course | MDX | [Improve diagrams in unit 2.1](https://github.com/huggingface/agents-course/issues/233) | 6 |
 | layer5io/.github | Makefile | [Add the Sistent project to this readme.md](https://github.com/layer5io/.github/issues/54) | 1 |
 | layer5io/academy-example | Makefile | [[Docs] deprecated: .Site.AllPages](https://github.com/layer5io/academy-example/issues/108) | 1 |
-| layer5io/academy-build | Makefile | [Replace generic favicon with Layer5 logo](https://github.com/layer5io/academy-build/issues/2) | 8 |
+| layer5io/academy-build | Makefile | [Replace generic favicon with Layer5 logo](https://github.com/layer5io/academy-build/issues/2) | 10 |
 | huggingface/awesome-huggingface | Other | [[hacktoberfest] Hugging Face Collections Hacktoberfest challenge](https://github.com/huggingface/awesome-huggingface/issues/28) | 0 |
 | decentraland/dapps-issues | Other | [[Events] Update the Share link to use the new `jump-in` site.](https://github.com/decentraland/dapps-issues/issues/247) | 0 |
 | decentraland/dapps-issues | Other | [Add a banner to communicate possible downtimes of our/thirdparty services](https://github.com/decentraland/dapps-issues/issues/20) | 0 |
@@ -426,11 +426,13 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | godotengine/godot-asset-library | PHP | [A way to cancel edit requests](https://github.com/godotengine/godot-asset-library/issues/149) | 3 |
 | godotengine/godot-asset-library | PHP | [Sanitize inputs for Asset data/fields, like URLs](https://github.com/godotengine/godot-asset-library/issues/204) | 5 |
 | microsoft/hve-core | PowerShell | [Standardize maturity field across all collection YAML manifests](https://github.com/microsoft/hve-core/issues/1319) | 0 |
+| huggingface/diffusers | Python | [Modular pipeline: Krea 2](https://github.com/huggingface/diffusers/issues/14056) | 0 |
 | huggingface/optimum-executorch | Python | [Add benchmarking numbers for more models](https://github.com/huggingface/optimum-executorch/issues/131) | 0 |
 | huggingface/lighteval | Python | [[FT]  Add tests for `VLLMModel` base methods](https://github.com/huggingface/lighteval/issues/724) | 0 |
 | huggingface/nanotron | Python | [[Feature] Use CUDA event for measuring elasped time](https://github.com/huggingface/nanotron/issues/88) | 0 |
 | huggingface/nanotron | Python | [[Feature] Refactor `ParallelContext.world_rank_matrix`](https://github.com/huggingface/nanotron/issues/77) | 0 |
 | microsoft/AutoPodcaster | Python | [Add devcontainer](https://github.com/microsoft/AutoPodcaster/issues/9) | 0 |
+| microsoft/teams-agent-accelerator-libs-py | Python | [Expose the ability to add memory explicitly](https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/57) | 0 |
 | huggingface/lighteval | Python | [[EVAL] Add kyrgyzLLM benchmark](https://github.com/huggingface/lighteval/issues/1036) | 1 |
 | huggingface/lerobot | Python | [Ensure the teleoperators module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1726) | 1 |
 | huggingface/lighteval | Python | [[BUG]  Optimize tokenization](https://github.com/huggingface/lighteval/issues/732) | 1 |
@@ -443,7 +445,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/winml-cli | Python | [Minor refactor: reuse _compute_case_signature to compute failed model file name](https://github.com/microsoft/winml-cli/issues/56) | 1 |
 | microsoft/physical-ai-toolchain | Python | [docs(ci): document GHSA allowlist in dependency-review.yml](https://github.com/microsoft/physical-ai-toolchain/issues/142) | 1 |
 | microsoft/physical-ai-toolchain | Python | [chore(ci): remove JaCoCo parser config from codecov.yml](https://github.com/microsoft/physical-ai-toolchain/issues/140) | 1 |
-| microsoft/onnxscript | Python | [[Optimizer] Fold Shape -> {Slice, Gather} -> Concat -> Reshape](https://github.com/microsoft/onnxscript/issues/2736) | 1 |
 | microsoft/onnxscript | Python | [[torchlib] Add op test to torch.unique_consecutive](https://github.com/microsoft/onnxscript/issues/2695) | 1 |
 | microsoft/onnxscript | Python | [Constant-Folding Registry](https://github.com/microsoft/onnxscript/issues/2507) | 1 |
 | microsoft/teams-agent-accelerator-libs-py | Python | [Provide cleaner api for building citations for memories](https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/72) | 1 |
@@ -458,6 +459,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/winml-cli | Python | [bug: winml build shows misleading ValueError (opset domain) when disk is full during quantize step](https://github.com/microsoft/winml-cli/issues/259) | 2 |
 | microsoft/winml-cli | Python | [winml perf --op-tracing: ANSI color codes garbled on Windows cp1252 terminal](https://github.com/microsoft/winml-cli/issues/218) | 2 |
 | microsoft/onnxscript | Python | [Missing converter for OpOverload(op='aten._grouped_mm', overload='default')](https://github.com/microsoft/onnxscript/issues/2795) | 2 |
+| microsoft/onnxscript | Python | [[Optimizer] Fold Shape -> {Slice, Gather} -> Concat -> Reshape](https://github.com/microsoft/onnxscript/issues/2736) | 2 |
 | microsoft/OpenAIWorkshop | Python | [Fix eslint warnings](https://github.com/microsoft/OpenAIWorkshop/issues/292) | 2 |
 | microsoft/onnxscript | Python | [[torchlib] slice_scatter does not support start and end to be None](https://github.com/microsoft/onnxscript/issues/2372) | 2 |
 | microsoft/vscode-black-formatter | Python | [black is using cached pyproject.toml instead of the actual one](https://github.com/microsoft/vscode-black-formatter/issues/569) | 2 |
@@ -495,7 +497,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/lighteval | Python | [[EVAL] Adding PHARE](https://github.com/huggingface/lighteval/issues/696) | 8 |
 | huggingface/diffusers | Python | [Make `FlaxLMSDiscreteScheduler` jittable](https://github.com/huggingface/diffusers/issues/2180) | 8 |
 | microsoft/presidio | Python | [Can multiple GLiNERRecognizer instances be configured via YAML?](https://github.com/microsoft/presidio/issues/1760) | 8 |
-| microsoft/autogen | Python | [open needs encoding='utf-8' for non-english environment, error in playwright_controller.py](https://github.com/microsoft/autogen/issues/5566) | 8 |
 | huggingface/diffusers | Python | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 9 |
 | huggingface/lerobot | Python | [Distributed v2.1 -> v3.0 conversion](https://github.com/huggingface/lerobot/issues/1998) | 10 |
 | huggingface/lighteval | Python | [[EVAL] Add TUMLU benchmark](https://github.com/huggingface/lighteval/issues/577) | 10 |
@@ -507,8 +508,9 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/datasets | Python | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 18 |
 | huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 19 |
 | huggingface/diffusers | Python | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 22 |
-| huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 22 |
+| huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 23 |
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 26 |
+| microsoft/autogen | Python | [open needs encoding='utf-8' for non-english environment, error in playwright_controller.py](https://github.com/microsoft/autogen/issues/5566) | 28 |
 | huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 100 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 |
 | microsoft/pg_durable | Rust | [Periodically prune the instance and node tables](https://github.com/microsoft/pg_durable/issues/261) | 0 |
@@ -660,9 +662,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/vscode-python-debugger | TypeScript | [Add support for no-config debugging using nushell](https://github.com/microsoft/vscode-python-debugger/issues/647) | 5 |
 | mattermost/mattermost | TypeScript | [Help Wanted: Channel Export README > Split out admin content to child pages](https://github.com/mattermost/mattermost/issues/25173) | 5 |
 | microsoft/data-formulator | TypeScript | [Expand chart type supports](https://github.com/microsoft/data-formulator/issues/193) | 6 |
-| mattermost/mattermost | TypeScript | [[RN] Change "Join" button on sign in page keyboard to "Go"](https://github.com/mattermost/mattermost/issues/26590) | 6 |
-| microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Bug: Conversation KPIs dashboard throwing error](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/757) | 7 |
 | microsoft/teams.ts | TypeScript | [Automatically parse feedback value](https://github.com/microsoft/teams.ts/issues/184) | 7 |
+| mattermost/mattermost | TypeScript | [[RN] Change "Join" button on sign in page keyboard to "Go"](https://github.com/mattermost/mattermost/issues/26590) | 7 |
 | huggingface/huggingface.js | TypeScript | [Tracking integration for Video Classification](https://github.com/huggingface/huggingface.js/issues/332) | 8 |
 | mattermost/mattermost | TypeScript | [Help Wanted: CircleCI README > Split out admin content to child pages](https://github.com/mattermost/mattermost/issues/25175) | 8 |
 | layer5io/sistent | TypeScript | [[Feature] Add Support for Table Variants](https://github.com/layer5io/sistent/issues/992) | 10 |
