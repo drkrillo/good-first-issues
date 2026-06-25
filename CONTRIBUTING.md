@@ -4,9 +4,9 @@ Thank you for your interest in contributing! This is a project aimed at help dev
 
 ## Important note
 
-**We are all learning here**. There is no problem at all with making mistakes, and iterating. But please, try solving the problems yourself. Using an LLM at some point to udnerstand what is happening in OK, but **do not**:
+**We are all learning here**. There is no problem at all with making mistakes, and iterating. But please, try solving the problems yourself. Using an LLM at some point to understand what is happening in OK, but **do not**:
 - **Use this repo for contribution farming**: don't block the opportunity for others to onboard genuinelly.
-- **Generate messages with LLMs**: nobody will judge you for your English. AI generated tecxt may be asked to be rewritten.
+- **Generate messages with LLMs**: nobody will judge you for your English. AI generated text may be asked to be rewritten.
 
 ## How to contribute
 - Browse open issues. You can pick one labeled `good first issue` if you want to get started with an easy one.
