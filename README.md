@@ -59,7 +59,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-06-25</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-06-26</sub></sub>
 
 | Repo | Language | Title | Comments |
 |---|---|---|---|
@@ -132,6 +132,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-mscalendar | Go | [Allow "create event" command to accept spaces in values](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/97) | 0 |
 | mattermost/mattermost-plugin-github | Go | [Create tests for `createIssue()` method](https://github.com/mattermost/mattermost-plugin-github/issues/223) | 0 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Add mapped Mattermost users as attendees in CreateEvent API method](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/28) | 0 |
+| kubernetes/autoscaler | Go | [Remove redundant logs](https://github.com/kubernetes/autoscaler/issues/9870) | 1 |
 | hashicorp/terraform-provider-aws | Go | [aws_bedrockagentcore_harness is missing additionalAttributes in bedrockModelConfig](https://github.com/hashicorp/terraform-provider-aws/issues/48363) | 1 |
 | hashicorp/nomad | Go | [Improve description of Consul tokens to include client information](https://github.com/hashicorp/nomad/issues/28048) | 1 |
 | hashicorp/terraform-provider-kubernetes | Go | [Add CSI Driver fsGroup Support](https://github.com/hashicorp/terraform-provider-kubernetes/issues/2702) | 1 |
@@ -336,7 +337,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/website | HTML | [[hi] Localize concepts/scheduling-eviction page ](https://github.com/kubernetes/website/issues/48989) | 8 |
 | kubernetes/website | HTML | [[hi] Localize concepts/extend-kubernetes page](https://github.com/kubernetes/website/issues/48991) | 9 |
 | kubernetes/website | HTML | [[hi] Localize /concepts/cluster-administration page](https://github.com/kubernetes/website/issues/48990) | 10 |
-| kubernetes/website | HTML | [[hi] Localize concepts/Storage page](https://github.com/kubernetes/website/issues/47462) | 10 |
+| kubernetes/website | HTML | [[hi] Localize concepts/Storage page](https://github.com/kubernetes/website/issues/47462) | 11 |
 | kubernetes/website | HTML | [[hi] Localize concepts/Security page](https://github.com/kubernetes/website/issues/47463) | 13 |
 | kubernetes/website | HTML | [[hi] Localize concepts/Workloads page ](https://github.com/kubernetes/website/issues/47442) | 13 |
 | kubernetes/website | HTML | [[hi] Localize tasks/configure-pod-container page ](https://github.com/kubernetes/website/issues/48992) | 14 |
@@ -356,7 +357,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | EddieHubCommunity/RepoRater | JavaScript | [[BUG] Update the preview in the readme](https://github.com/EddieHubCommunity/RepoRater/issues/152) | 2 |
 | freeCodeCamp/classroom | JavaScript | [Bug: /classes page crashes if the mock-fcc-data endpoint is not running](https://github.com/freeCodeCamp/classroom/issues/533) | 2 |
 | layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 4](https://github.com/layer5io/docs/issues/794) | 3 |
-| layer5io/docs | JavaScript | [[Docs] Add missing actions to comment history panel](https://github.com/layer5io/docs/issues/549) | 3 |
 | layer5io/docs | JavaScript | [Screen capture includes Grammarly](https://github.com/layer5io/docs/issues/543) | 3 |
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Contributing needs work](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/112) | 4 |
 | layer5io/docs | JavaScript | [[Docs] Improve Related Docs Links in Pinning Models to Dock Page](https://github.com/layer5io/docs/issues/1028) | 5 |
@@ -430,6 +430,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/AutoPodcaster | Python | [Add devcontainer](https://github.com/microsoft/AutoPodcaster/issues/9) | 0 |
 | microsoft/teams-agent-accelerator-libs-py | Python | [Expose the ability to add memory explicitly](https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/57) | 0 |
 | microsoft/BitBLAS | Python | [[Feature Request] Enhance Database to support reload scheduled tilelang operator](https://github.com/microsoft/BitBLAS/issues/269) | 0 |
+| huggingface/sentence-transformers | Python | [`token` not forwarded to `AutoProcessor.from_pretrained()` in `Transformer.__init__` — breaks private/gated models since 5.4.0](https://github.com/huggingface/sentence-transformers/issues/3836) | 1 |
 | huggingface/diffusers | Python | [Modular pipeline: Krea 2](https://github.com/huggingface/diffusers/issues/14056) | 1 |
 | huggingface/lighteval | Python | [[EVAL] Add kyrgyzLLM benchmark](https://github.com/huggingface/lighteval/issues/1036) | 1 |
 | huggingface/lerobot | Python | [Ensure the teleoperators module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1726) | 1 |
@@ -645,7 +646,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | decentraland/marketplace | TypeScript | [It's hard to detect when the kebab menu of the ListCard is clickable](https://github.com/decentraland/marketplace/issues/1866) | 2 |
 | decentraland/marketplace | TypeScript | [Show full name when hovering over Lands and Wearables](https://github.com/decentraland/marketplace/issues/590) | 2 |
 | huggingface/chat-ui | TypeScript | [Load past conversations using the most recent leaf to determine the visible conversation tree.](https://github.com/huggingface/chat-ui/issues/1208) | 3 |
-| huggingface/chat-ui | TypeScript | [System prompt not taken into account when web browsing.](https://github.com/huggingface/chat-ui/issues/1159) | 3 |
 | microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Bug: Conversation KPIs dashboard is blank even though all the related flows are enabled and prerequisites are met](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/746) | 3 |
 | microsoft/vscode-containers | TypeScript | [Add presentation options to Docker extension's compose commands](https://github.com/microsoft/vscode-containers/issues/350) | 3 |
 | microsoft/teams.ts | TypeScript | [[cards] support lowercase and Capitalized JSON values](https://github.com/microsoft/teams.ts/issues/132) | 3 |
@@ -653,6 +653,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost | TypeScript | [Help Wanted: BitBucket README > Split out admin content to child pages](https://github.com/mattermost/mattermost/issues/25176) | 3 |
 | huggingface/chat-ui | TypeScript | [Add option for users to customize search engines in settings page](https://github.com/huggingface/chat-ui/issues/1756) | 4 |
 | huggingface/chat-ui | TypeScript | [Chrome app icon on macOS](https://github.com/huggingface/chat-ui/issues/1439) | 4 |
+| huggingface/chat-ui | TypeScript | [System prompt not taken into account when web browsing.](https://github.com/huggingface/chat-ui/issues/1159) | 4 |
 | microsoft/genaiscript | TypeScript | [Repository map example](https://github.com/microsoft/genaiscript/issues/982) | 4 |
 | freeCodeCamp/chapter | TypeScript | [Consolidate email templates](https://github.com/freeCodeCamp/chapter/issues/2071) | 4 |
 | decentraland/marketplace | TypeScript | [Create a high order component that redirects to the Sign In Page if the user is not connected](https://github.com/decentraland/marketplace/issues/1522) | 4 |
