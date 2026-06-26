@@ -5,18 +5,26 @@ This document describes the testing strategy and coverage for the Good First Iss
 
 ## Test Coverage
 
-⚠️ Note: As of the latest test run, several tests are failing due to
-recent changes in `IssueManager` (the `extract_language` and
-`extract_issues` methods were removed/consolidated into
-`extract_issue_data`). The table below does not reflect current
-passing status.
-
-Run the following to see current status:
-```bash
-python -m pytest app/tests/ -v --cov=app
+-Current coverage status (as of latest update):
+-```
+Name                              Stmts   Miss  Cover
+-----------------------------------------------------
+app\__init__.py                       0      0   100%
+app\core\__init__.py                  0      0   100%
+app\core\api_handler.py             125     29    77%
+app\core\config.py                   12      1    92%
+app\core\custom_exceptions.py        11      0   100%
+app\render_readme.py                 11     11     0%
+app\tests\__init__.py                 0      0   100%
+app\tests\conftest.py                 9      0   100%
+app\tests\test_api_handler.py       164     30    82%
+app\tests\test_update_issues.py      54     23    57%
+app\update_issues.py                 46     32    30%
+-----------------------------------------------------
+TOTAL                               432    126    71%
 
 ## Test Structure
-gti
+```
 ### 1. Core Components Tests (`test_api_handler.py`)
 
 #### RepoManager Tests
