@@ -59,7 +59,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-06-27</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-06-28</sub></sub>
 
 | Repo | Language | Title | Comments |
 |---|---|---|---|
@@ -67,12 +67,13 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/ebpf-for-windows | C | [Cleanup: catch2 now allows multiple threads](https://github.com/microsoft/ebpf-for-windows/issues/4553) | 0 |
 | microsoft/msquic | C | [Miss check for the return value of CXPLAT_ALLOC_NONPAGED and CxPlatPoolAlloc](https://github.com/microsoft/msquic/issues/5233) | 0 |
 | microsoft/jbpf | C | [jbpf_io_ipc_test passes with error messages](https://github.com/microsoft/jbpf/issues/54) | 0 |
+| microsoft/jbpf | C | [Remove JBPF_EXPERIMENTAL_FEATURES from  header files](https://github.com/microsoft/jbpf/issues/26) | 0 |
 | microsoft/ebpf-for-windows | C | [Update tests/sample/undocked/map.c](https://github.com/microsoft/ebpf-for-windows/issues/4547) | 1 |
 | microsoft/ntttcp | C | [per-thread throughput is always 0.00 with ntttcp version 5.40.](https://github.com/microsoft/ntttcp/issues/24) | 1 |
-| microsoft/PowerToys | C | [.opus support for Peek](https://github.com/microsoft/PowerToys/issues/42576) | 2 |
 | microsoft/msquic | C | [Support in-memory certificate stores](https://github.com/microsoft/msquic/issues/4951) | 2 |
 | microsoft/ebpf-for-windows | C | [ebpf-verifier is cloned twice](https://github.com/microsoft/ebpf-for-windows/issues/4174) | 2 |
 | microsoft/msquic | C | [Failing to use close-on-exec](https://github.com/microsoft/msquic/issues/4980) | 3 |
+| microsoft/PowerToys | C | [.opus support for Peek](https://github.com/microsoft/PowerToys/issues/42576) | 4 |
 | microsoft/aspire | C# | [aspire deploy/publish fail in Aspire terminal](https://github.com/microsoft/aspire/issues/18017) | 0 |
 | microsoft/profile-explorer | C# | [Mapping code gap?](https://github.com/microsoft/profile-explorer/issues/7) | 0 |
 | microsoft/WPF-Samples | C# | [Sample Applications Update to Fluent Theme](https://github.com/microsoft/WPF-Samples/issues/680) | 0 |
@@ -184,7 +185,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/terraform-provider-aws | Go | [Unable to update a RAM share to use the latest version of a custom permission](https://github.com/hashicorp/terraform-provider-aws/issues/46219) | 3 |
 | hashicorp/terraform-provider-kubernetes | Go | [Helper function for creating `env` name/value pair list from a map.](https://github.com/hashicorp/terraform-provider-kubernetes/issues/2767) | 3 |
 | hashicorp/terraform-provider-aws | Go | [aws_efs_replication_configuration is missing role-arn for cross-account-replication](https://github.com/hashicorp/terraform-provider-aws/issues/42814) | 3 |
-| hashicorp/terraform-provider-aws | Go | [AWS IVS Real Time Stage Terraform Module](https://github.com/hashicorp/terraform-provider-aws/issues/42644) | 3 |
 | hashicorp/terraform-provider-aws | Go | [[Bug]: SageMaker App Image Config: API rejects valid UID/GID pairs defined in provider schema](https://github.com/hashicorp/terraform-provider-aws/issues/40976) | 3 |
 | hashicorp/terraform-provider-aws | Go | [[Bug]: aws_emr_cluster Inappropriate value for attribute "configurations": string required.](https://github.com/hashicorp/terraform-provider-aws/issues/39959) | 3 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_sagemaker_domain add Hidden Image Versions options to the studio_web_portal_settings](https://github.com/hashicorp/terraform-provider-aws/issues/39876) | 3 |
@@ -201,6 +201,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/retina | Go | [hubble-relay image v1.15.0 missing h2 ALPN support that breaks hubble CLI (grpc-go >= 1.67)](https://github.com/microsoft/retina/issues/2165) | 4 |
 | microsoft/terraform-provider-azuredevops | Go | [Full unit test suite isn't running on CI](https://github.com/microsoft/terraform-provider-azuredevops/issues/1439) | 4 |
 | hashicorp/terraform-provider-aws | Go | [aws_ec2_transit_gateway_route_table_association support for timeouts block](https://github.com/hashicorp/terraform-provider-aws/issues/42705) | 4 |
+| hashicorp/terraform-provider-aws | Go | [AWS IVS Real Time Stage Terraform Module](https://github.com/hashicorp/terraform-provider-aws/issues/42644) | 4 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: `aws_cloudwatch_metric_alarm`: Add validation to prevent specifying both `metric` and `expression`](https://github.com/hashicorp/terraform-provider-aws/issues/41680) | 4 |
 | hashicorp/terraform-provider-aws | Go | [[Docs]: quicksight_data_source](https://github.com/hashicorp/terraform-provider-aws/issues/41672) | 4 |
 | hashicorp/terraform-provider-aws | Go | [[Bug]: aws_backup_selection `selection_tag` and `resources` do not interact as expected](https://github.com/hashicorp/terraform-provider-aws/issues/41274) | 4 |
@@ -300,8 +301,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/perf-tests | Go | [Run more linters with golangci-lint](https://github.com/kubernetes/perf-tests/issues/1244) | 20 |
 | kubernetes/cloud-provider-openstack | Go | [[occm] - add annotation for custom octavia listener tags](https://github.com/kubernetes/cloud-provider-openstack/issues/2327) | 21 |
 | kubernetes/kubernetes | Go | [Give an indication in container events for probe failure as to whether the failure was ignored due to FailureThreshold](https://github.com/kubernetes/kubernetes/issues/115823) | 22 |
-| kubernetes/minikube | Go | [get ETCD version from kubernetes constants](https://github.com/kubernetes/minikube/issues/11290) | 22 |
 | kubernetes/minikube | Go | [make it obvious in terminal for user if using docker-env](https://github.com/kubernetes/minikube/issues/6489) | 22 |
+| kubernetes/minikube | Go | [get ETCD version from kubernetes constants](https://github.com/kubernetes/minikube/issues/11290) | 23 |
 | kubernetes/minikube | Go | [Document how to run minikube in China](https://github.com/kubernetes/minikube/issues/5020) | 25 |
 | kubernetes/kubernetes | Go | [Node lifecycle controller does not `markPodsNotReady` when the node `Ready` state changes from `false` to `unknown`](https://github.com/kubernetes/kubernetes/issues/112733) | 30 |
 | kubernetes/ingress-nginx | Go | [Distinguish wait-shutdown command from standard k8s SIGTERM](https://github.com/kubernetes/ingress-nginx/issues/6287) | 32 |
@@ -384,10 +385,10 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | layer5io/layer5 | JavaScript | [Update resources and hands-on labs with latest content](https://github.com/layer5io/layer5/issues/6387) | 14 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Fabedge under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/5330) | 14 |
 | EddieHubCommunity/BioDrop | JavaScript | [[BUG] Duplicate sortable package present](https://github.com/EddieHubCommunity/BioDrop/issues/10139) | 14 |
-| layer5io/layer5 | JavaScript | [[SEO] First Contentful Paint (FCP): gatsby-plugin-webpack-bundle-analyser-v2](https://github.com/layer5io/layer5/issues/6449) | 17 |
 | layer5io/layer5 | JavaScript | [[Visual Design] New Recognition Badge: Event Evangelist Badge](https://github.com/layer5io/layer5/issues/4809) | 17 |
 | layer5io/layer5 | JavaScript | [Pricing: subscription plans as a sticky row](https://github.com/layer5io/layer5/issues/7665) | 18 |
 | layer5io/layer5-academy | JavaScript | [[Docs] Convert meshery design image to embedded meshery design](https://github.com/layer5io/layer5-academy/issues/32) | 18 |
+| layer5io/layer5 | JavaScript | [[SEO] First Contentful Paint (FCP): gatsby-plugin-webpack-bundle-analyser-v2](https://github.com/layer5io/layer5/issues/6449) | 18 |
 | layer5io/layer5 | JavaScript | [[Learn] Learning Paths need enhanced with Meshery/MeshMap walk-throughs](https://github.com/layer5io/layer5/issues/4899) | 18 |
 | layer5io/layer5 | JavaScript | [add animated card](https://github.com/layer5io/layer5/issues/6521) | 20 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Devstream under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4887) | 31 |
@@ -401,7 +402,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | cncf/landscape-graph | Jupyter Notebook | [Create gource visualizations for all cncf project related repos](https://github.com/cncf/landscape-graph/issues/21) | 1 |
 | huggingface/optimum-intel | Jupyter Notebook | [Fix conversion of ltx_video models in bf16 format](https://github.com/huggingface/optimum-intel/issues/1614) | 2 |
 | cncf/landscape-graph | Jupyter Notebook | [Automatically generate GH Issue Labels for all Sub-Graph Modules](https://github.com/cncf/landscape-graph/issues/84) | 2 |
-| microsoft/presidio-research | Jupyter Notebook | [Enforce locale for fake entities](https://github.com/microsoft/presidio-research/issues/123) | 3 |
 | huggingface/optimum-intel | Jupyter Notebook | [Add tests which check, that required transformations are applied](https://github.com/huggingface/optimum-intel/issues/1645) | 4 |
 | cncf/landscape-graph | Jupyter Notebook | [Implement autogenerated mocks for GraphQL API from schema](https://github.com/cncf/landscape-graph/issues/103) | 4 |
 | cncf/landscape-graph | Jupyter Notebook | [Create documentation site (GitHub Pages or Netlify) using Docusaurus](https://github.com/cncf/landscape-graph/issues/97) | 7 |
@@ -427,8 +427,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/AutoPodcaster | Python | [Add devcontainer](https://github.com/microsoft/AutoPodcaster/issues/9) | 0 |
 | microsoft/teams-agent-accelerator-libs-py | Python | [Expose the ability to add memory explicitly](https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/57) | 0 |
 | microsoft/BitBLAS | Python | [[Feature Request] Enhance Database to support reload scheduled tilelang operator](https://github.com/microsoft/BitBLAS/issues/269) | 0 |
-| huggingface/sentence-transformers | Python | [`token` not forwarded to `AutoProcessor.from_pretrained()` in `Transformer.__init__` — breaks private/gated models since 5.4.0](https://github.com/huggingface/sentence-transformers/issues/3836) | 1 |
-| huggingface/diffusers | Python | [Modular pipeline: Krea 2](https://github.com/huggingface/diffusers/issues/14056) | 1 |
 | huggingface/lighteval | Python | [[EVAL] Add kyrgyzLLM benchmark](https://github.com/huggingface/lighteval/issues/1036) | 1 |
 | huggingface/lerobot | Python | [Ensure the teleoperators module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1726) | 1 |
 | huggingface/lighteval | Python | [[BUG]  Optimize tokenization](https://github.com/huggingface/lighteval/issues/732) | 1 |
@@ -444,6 +442,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/onnxscript | Python | [[torchlib] Add op test to torch.unique_consecutive](https://github.com/microsoft/onnxscript/issues/2695) | 1 |
 | microsoft/onnxscript | Python | [Constant-Folding Registry](https://github.com/microsoft/onnxscript/issues/2507) | 1 |
 | microsoft/teams-agent-accelerator-libs-py | Python | [Provide cleaner api for building citations for memories](https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/72) | 1 |
+| huggingface/sentence-transformers | Python | [`token` not forwarded to `AutoProcessor.from_pretrained()` in `Transformer.__init__` — breaks private/gated models since 5.4.0](https://github.com/huggingface/sentence-transformers/issues/3836) | 2 |
+| huggingface/diffusers | Python | [Modular pipeline: Krea 2](https://github.com/huggingface/diffusers/issues/14056) | 2 |
 | huggingface/lerobot | Python | [Question regarding downsampling and resizing dataset](https://github.com/huggingface/lerobot/issues/2124) | 2 |
 | huggingface/lighteval | Python | [[FT] Manage script and language in the Language enum](https://github.com/huggingface/lighteval/issues/745) | 2 |
 | huggingface/lighteval | Python | [Call for contributions: Translate lighteval's doc into Chinese](https://github.com/huggingface/lighteval/issues/716) | 2 |
@@ -482,12 +482,12 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/onnxscript | Python | [Constant Folding removes 'axes' initializer form Squeeze layer, resulting in incorrect ONNX model](https://github.com/microsoft/onnxscript/issues/2810) | 4 |
 | huggingface/lighteval | Python | [[BUG] custom model docs don't run: missing imports](https://github.com/huggingface/lighteval/issues/760) | 5 |
 | huggingface/nanotron | Python | [Avoid nested `InheritFromOtherOptimizer`](https://github.com/huggingface/nanotron/issues/267) | 5 |
-| huggingface/accelerate | Python | [[Community Contributions] examples on distributed inference using 🤗 Accelerate](https://github.com/huggingface/accelerate/issues/3078) | 5 |
 | huggingface/nanotron | Python | [[Bug] Missing `_is_using_mup` when resume checkpoint](https://github.com/huggingface/nanotron/issues/198) | 5 |
 | huggingface/nanotron | Python | [[Unit Test] Add unit tests for DistributedTrainer](https://github.com/huggingface/nanotron/issues/90) | 5 |
 | huggingface/lighteval | Python | [Append revision to filepath in `--output_dir`?](https://github.com/huggingface/lighteval/issues/56) | 5 |
 | huggingface/optimum-benchmark | Python | [Evaluators for specific tasks](https://github.com/huggingface/optimum-benchmark/issues/34) | 5 |
 | huggingface/lighteval | Python | [[FT] Improve Documentation and Examples](https://github.com/huggingface/lighteval/issues/682) | 6 |
+| huggingface/accelerate | Python | [[Community Contributions] examples on distributed inference using 🤗 Accelerate](https://github.com/huggingface/accelerate/issues/3078) | 6 |
 | huggingface/lighteval | Python | [[EVAL] Long Horizon Execution](https://github.com/huggingface/lighteval/issues/1056) | 7 |
 | microsoft/onnxscript | Python | [Attention fusion (SDPA/MHA) broken for BART decoder with/wo past🐛](https://github.com/microsoft/onnxscript/issues/2424) | 7 |
 | microsoft/autogen | Python | [Get current message thread from a group chat team.](https://github.com/microsoft/autogen/issues/6085) | 7 |
@@ -495,7 +495,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/lerobot | Python | [Select the VLM backbone for SmolVLA](https://github.com/huggingface/lerobot/issues/2104) | 8 |
 | huggingface/lighteval | Python | [[EVAL] Adding PHARE](https://github.com/huggingface/lighteval/issues/696) | 8 |
 | huggingface/diffusers | Python | [Make `FlaxLMSDiscreteScheduler` jittable](https://github.com/huggingface/diffusers/issues/2180) | 8 |
-| microsoft/presidio | Python | [Can multiple GLiNERRecognizer instances be configured via YAML?](https://github.com/microsoft/presidio/issues/1760) | 8 |
 | huggingface/diffusers | Python | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 9 |
 | huggingface/lerobot | Python | [Distributed v2.1 -> v3.0 conversion](https://github.com/huggingface/lerobot/issues/1998) | 10 |
 | huggingface/lighteval | Python | [[EVAL] Add TUMLU benchmark](https://github.com/huggingface/lighteval/issues/577) | 10 |
@@ -504,6 +503,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/diffusers | Python | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 12 |
 | huggingface/diffusers | Python | [[Pipeline] AnimateDiff + SparseControl + ControlNet](https://github.com/huggingface/diffusers/issues/9329) | 14 |
 | microsoft/markitdown | Python | [Support for .doc extensions](https://github.com/microsoft/markitdown/issues/23) | 14 |
+| microsoft/markitdown | Python | [LLM Integration](https://github.com/microsoft/markitdown/issues/12) | 17 |
 | huggingface/lerobot | Python | [Make policies compatible with torch.compile](https://github.com/huggingface/lerobot/issues/2061) | 18 |
 | huggingface/datasets | Python | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 18 |
 | huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 19 |

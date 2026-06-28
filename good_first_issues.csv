@@ -3,12 +3,13 @@ microsoft/ebpf-for-windows,C,OpenCppCoverage install step fails silently,https:/
 microsoft/ebpf-for-windows,C,Cleanup: catch2 now allows multiple threads,https://github.com/microsoft/ebpf-for-windows/issues/4553,0,"['good first issue', 'cleanup', 'triaged', 'P3']",open
 microsoft/msquic,C,Miss check for the return value of CXPLAT_ALLOC_NONPAGED and CxPlatPoolAlloc,https://github.com/microsoft/msquic/issues/5233,0,"['good first issue', 'help wanted', 'Area: Testing', 'Triaged', 'HowFound: MSR']",open
 microsoft/jbpf,C,jbpf_io_ipc_test passes with error messages,https://github.com/microsoft/jbpf/issues/54,0,"['bug', 'good first issue']",open
+microsoft/jbpf,C,Remove JBPF_EXPERIMENTAL_FEATURES from  header files,https://github.com/microsoft/jbpf/issues/26,0,['good first issue'],open
 microsoft/ebpf-for-windows,C,Update tests/sample/undocked/map.c,https://github.com/microsoft/ebpf-for-windows/issues/4547,1,"['good first issue', 'cleanup', 'triaged', 'P3']",open
 microsoft/ntttcp,C,per-thread throughput is always 0.00 with ntttcp version 5.40.,https://github.com/microsoft/ntttcp/issues/24,1,"['good first issue', 'help wanted']",open
-microsoft/PowerToys,C,.opus support for Peek,https://github.com/microsoft/PowerToys/issues/42576,2,"['Idea-Enhancement', 'Help Wanted', 'Good first issue', 'Status-In progress', 'Product-Peek']",open
 microsoft/msquic,C,Support in-memory certificate stores,https://github.com/microsoft/msquic/issues/4951,2,"['good first issue', 'feature request', 'external', 'Area: API', 'Area: Core']",open
 microsoft/ebpf-for-windows,C,ebpf-verifier is cloned twice,https://github.com/microsoft/ebpf-for-windows/issues/4174,2,"['good first issue', 'blocked', 'cleanup', 'triaged', 'P3']",open
 microsoft/msquic,C,Failing to use close-on-exec,https://github.com/microsoft/msquic/issues/4980,3,"['good first issue', 'OS: Windows (User)', 'OS: Linux', 'external', 'Bug: Platform', 'Triaged']",open
+microsoft/PowerToys,C,.opus support for Peek,https://github.com/microsoft/PowerToys/issues/42576,4,"['Idea-Enhancement', 'Help Wanted', 'Good first issue', 'Status-In progress', 'Product-Peek']",open
 microsoft/aspire,C#,aspire deploy/publish fail in Aspire terminal,https://github.com/microsoft/aspire/issues/18017,0,"['good first issue', 'area-vscode-extension']",open
 microsoft/profile-explorer,C#,Mapping code gap?,https://github.com/microsoft/profile-explorer/issues/7,0,"['enhancement', 'good first issue']",open
 microsoft/WPF-Samples,C#,Sample Applications Update to Fluent Theme,https://github.com/microsoft/WPF-Samples/issues/680,0,"['easy', 'up-for-grabs', 'help wanted', 'good first issue']",open
@@ -120,7 +121,6 @@ hashicorp/terraform-provider-aws,Go,aws_transfer_server::identity_provider_type 
 hashicorp/terraform-provider-aws,Go,Unable to update a RAM share to use the latest version of a custom permission,https://github.com/hashicorp/terraform-provider-aws/issues/46219,3,"['new-resource', 'good first issue', 'service/ram']",open
 hashicorp/terraform-provider-kubernetes,Go,Helper function for creating `env` name/value pair list from a map.,https://github.com/hashicorp/terraform-provider-kubernetes/issues/2767,3,"['enhancement', 'good first issue']",open
 hashicorp/terraform-provider-aws,Go,aws_efs_replication_configuration is missing role-arn for cross-account-replication,https://github.com/hashicorp/terraform-provider-aws/issues/42814,3,"['enhancement', 'good first issue', 'service/efs']",open
-hashicorp/terraform-provider-aws,Go,AWS IVS Real Time Stage Terraform Module,https://github.com/hashicorp/terraform-provider-aws/issues/42644,3,"['new-resource', 'good first issue', 'service/ivs']",open
 hashicorp/terraform-provider-aws,Go,[Bug]: SageMaker App Image Config: API rejects valid UID/GID pairs defined in provider schema,https://github.com/hashicorp/terraform-provider-aws/issues/40976,3,"['bug', 'good first issue', 'service/sagemaker']",open
 hashicorp/terraform-provider-aws,Go,"[Bug]: aws_emr_cluster Inappropriate value for attribute ""configurations"": string required.",https://github.com/hashicorp/terraform-provider-aws/issues/39959,3,"['documentation', 'good first issue', 'service/emr']",open
 hashicorp/terraform-provider-aws,Go,[Enhancement]: aws_sagemaker_domain add Hidden Image Versions options to the studio_web_portal_settings,https://github.com/hashicorp/terraform-provider-aws/issues/39876,3,"['enhancement', 'good first issue', 'service/sagemaker']",open
@@ -137,6 +137,7 @@ mattermost/mattermost-plugin-github,Go,Register autolinks for GitHub URLs,https:
 microsoft/retina,Go,hubble-relay image v1.15.0 missing h2 ALPN support that breaks hubble CLI (grpc-go >= 1.67),https://github.com/microsoft/retina/issues/2165,4,"['good first issue', 'help wanted', 'area/infra']",open
 microsoft/terraform-provider-azuredevops,Go,Full unit test suite isn't running on CI,https://github.com/microsoft/terraform-provider-azuredevops/issues/1439,4,['good first issue'],open
 hashicorp/terraform-provider-aws,Go,aws_ec2_transit_gateway_route_table_association support for timeouts block,https://github.com/hashicorp/terraform-provider-aws/issues/42705,4,"['enhancement', 'good first issue', 'timeouts', 'service/transitgateway']",open
+hashicorp/terraform-provider-aws,Go,AWS IVS Real Time Stage Terraform Module,https://github.com/hashicorp/terraform-provider-aws/issues/42644,4,"['new-resource', 'good first issue', 'service/ivs']",open
 hashicorp/terraform-provider-aws,Go,[Enhancement]: `aws_cloudwatch_metric_alarm`: Add validation to prevent specifying both `metric` and `expression`,https://github.com/hashicorp/terraform-provider-aws/issues/41680,4,"['enhancement', 'good first issue', 'service/cloudwatch']",open
 hashicorp/terraform-provider-aws,Go,[Docs]: quicksight_data_source,https://github.com/hashicorp/terraform-provider-aws/issues/41672,4,"['documentation', 'good first issue', 'service/quicksight']",open
 hashicorp/terraform-provider-aws,Go,[Bug]: aws_backup_selection `selection_tag` and `resources` do not interact as expected,https://github.com/hashicorp/terraform-provider-aws/issues/41274,4,"['bug', 'documentation', 'good first issue', 'service/backup']",open
@@ -236,8 +237,8 @@ kubernetes/kubernetes,Go,"DRA: measure and track performance of ""experimental""
 kubernetes/perf-tests,Go,Run more linters with golangci-lint,https://github.com/kubernetes/perf-tests/issues/1244,20,"['help wanted', 'lifecycle/frozen', 'good first issue']",open
 kubernetes/cloud-provider-openstack,Go,[occm] - add annotation for custom octavia listener tags,https://github.com/kubernetes/cloud-provider-openstack/issues/2327,21,"['good first issue', 'kind/feature']",open
 kubernetes/kubernetes,Go,Give an indication in container events for probe failure as to whether the failure was ignored due to FailureThreshold,https://github.com/kubernetes/kubernetes/issues/115823,22,"['priority/backlog', 'kind/documentation', 'kind/cleanup', 'sig/node', 'help wanted', 'good first issue', 'triage/accepted']",open
-kubernetes/minikube,Go,get ETCD version from kubernetes constants,https://github.com/kubernetes/minikube/issues/11290,22,"['priority/backlog', 'lifecycle/frozen', 'kind/cleanup', 'good first issue']",open
 kubernetes/minikube,Go,make it obvious in terminal for user if using docker-env,https://github.com/kubernetes/minikube/issues/6489,22,"['kind/documentation', 'kind/feature', 'priority/backlog', 'lifecycle/frozen', 'good first issue', 'co/docker-env']",open
+kubernetes/minikube,Go,get ETCD version from kubernetes constants,https://github.com/kubernetes/minikube/issues/11290,23,"['priority/backlog', 'lifecycle/frozen', 'kind/cleanup', 'good first issue']",open
 kubernetes/minikube,Go,Document how to run minikube in China,https://github.com/kubernetes/minikube/issues/5020,25,"['help wanted', 'kind/documentation', 'priority/backlog', 'lifecycle/frozen', 'good first issue']",open
 kubernetes/kubernetes,Go,Node lifecycle controller does not `markPodsNotReady` when the node `Ready` state changes from `false` to `unknown`,https://github.com/kubernetes/kubernetes/issues/112733,30,"['kind/bug', 'sig/node', 'help wanted', 'good first issue', 'triage/accepted']",open
 kubernetes/ingress-nginx,Go,Distinguish wait-shutdown command from standard k8s SIGTERM,https://github.com/kubernetes/ingress-nginx/issues/6287,32,"['help wanted', 'kind/feature', 'priority/backlog', 'good first issue', 'needs-triage']",open
@@ -320,10 +321,10 @@ mattermost/mattermost-plugin-gitlab,JavaScript,Support config variable to disabl
 layer5io/layer5,JavaScript,Update resources and hands-on labs with latest content,https://github.com/layer5io/layer5/issues/6387,14,"['help wanted', 'good first issue', 'kind/chore', 'issue/willfix']",open
 layer5io/layer5,JavaScript,[Screenshots] Fabedge under 'How it Works See It in Action' section,https://github.com/layer5io/layer5/issues/5330,14,"['kind/enhancement', 'help wanted', 'good first issue']",open
 EddieHubCommunity/BioDrop,JavaScript,[BUG] Duplicate sortable package present,https://github.com/EddieHubCommunity/BioDrop/issues/10139,14,"['🏁 status: ready for dev', '🛠 goal: fix', 'good first issue', '🔢 points: 2']",open
-layer5io/layer5,JavaScript,[SEO] First Contentful Paint (FCP): gatsby-plugin-webpack-bundle-analyser-v2,https://github.com/layer5io/layer5/issues/6449,17,"['help wanted', 'good first issue', 'kind/chore', 'language/javascript', 'framework/gatsby', 'type/performance', 'type/seo', 'javascript']",open
 layer5io/layer5,JavaScript,[Visual Design] New Recognition Badge: Event Evangelist Badge,https://github.com/layer5io/layer5/issues/4809,17,"['kind/enhancement', 'help wanted', 'good first issue', 'hacktoberfest', 'area/community', 'type/ux', 'issue/remind', 'figma', 'type/visual design']",open
 layer5io/layer5,JavaScript,Pricing: subscription plans as a sticky row,https://github.com/layer5io/layer5/issues/7665,18,"['kind/enhancement', 'help wanted', 'good first issue', 'language/javascript', 'framework/react', 'language/css']",open
 layer5io/layer5-academy,JavaScript,[Docs] Convert meshery design image to embedded meshery design,https://github.com/layer5io/layer5-academy/issues/32,18,"['good first issue', 'help wanted']",open
+layer5io/layer5,JavaScript,[SEO] First Contentful Paint (FCP): gatsby-plugin-webpack-bundle-analyser-v2,https://github.com/layer5io/layer5/issues/6449,18,"['help wanted', 'good first issue', 'kind/chore', 'language/javascript', 'framework/gatsby', 'type/performance', 'type/seo', 'javascript']",open
 layer5io/layer5,JavaScript,[Learn] Learning Paths need enhanced with Meshery/MeshMap walk-throughs,https://github.com/layer5io/layer5/issues/4899,18,"['help wanted', 'good first issue', 'language/markdown', 'framework/gatsby', 'area/learn', 'devops']",open
 layer5io/layer5,JavaScript,add animated card,https://github.com/layer5io/layer5/issues/6521,20,"['kind/enhancement', 'help wanted', 'good first issue', 'language/javascript', 'framework/react', 'issue/remind']",open
 layer5io/layer5,JavaScript,[Screenshots] Devstream under 'How it Works See It in Action' section,https://github.com/layer5io/layer5/issues/4887,31,"['help wanted', 'good first issue', 'issue/remind']",open
@@ -337,7 +338,6 @@ cncf/landscape-graph,Jupyter Notebook,"create apps/landscape-introspector (intro
 cncf/landscape-graph,Jupyter Notebook,Create gource visualizations for all cncf project related repos,https://github.com/cncf/landscape-graph/issues/21,1,"['good first issue', 'help wanted']",open
 huggingface/optimum-intel,Jupyter Notebook,Fix conversion of ltx_video models in bf16 format,https://github.com/huggingface/optimum-intel/issues/1614,2,['good first issue'],open
 cncf/landscape-graph,Jupyter Notebook,Automatically generate GH Issue Labels for all Sub-Graph Modules,https://github.com/cncf/landscape-graph/issues/84,2,"['good first issue', 'help wanted', 'infrastructure', 'project-infra', 'ci']",open
-microsoft/presidio-research,Jupyter Notebook,Enforce locale for fake entities,https://github.com/microsoft/presidio-research/issues/123,3,"['bug', 'good first issue']",open
 huggingface/optimum-intel,Jupyter Notebook,"Add tests which check, that required transformations are applied",https://github.com/huggingface/optimum-intel/issues/1645,4,['good first issue'],open
 cncf/landscape-graph,Jupyter Notebook,Implement autogenerated mocks for GraphQL API from schema,https://github.com/cncf/landscape-graph/issues/103,4,"['good first issue', 'help wanted', 'e2-days', 'data']",open
 cncf/landscape-graph,Jupyter Notebook,Create documentation site (GitHub Pages or Netlify) using Docusaurus,https://github.com/cncf/landscape-graph/issues/97,7,"['documentation', 'enhancement', 'good first issue', 'help wanted', 'p1-high', 'project-infra']",open
@@ -363,8 +363,6 @@ huggingface/nanotron,Python,[Feature] Refactor `ParallelContext.world_rank_matri
 microsoft/AutoPodcaster,Python,Add devcontainer,https://github.com/microsoft/AutoPodcaster/issues/9,0,"['enhancement', 'good first issue']",open
 microsoft/teams-agent-accelerator-libs-py,Python,Expose the ability to add memory explicitly,https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/57,0,['good first issue'],open
 microsoft/BitBLAS,Python,[Feature Request] Enhance Database to support reload scheduled tilelang operator,https://github.com/microsoft/BitBLAS/issues/269,0,"['enhancement', 'good first issue']",open
-huggingface/sentence-transformers,Python,`token` not forwarded to `AutoProcessor.from_pretrained()` in `Transformer.__init__` — breaks private/gated models since 5.4.0,https://github.com/huggingface/sentence-transformers/issues/3836,1,"['bug', 'good first issue']",open
-huggingface/diffusers,Python,Modular pipeline: Krea 2,https://github.com/huggingface/diffusers/issues/14056,1,"['good first issue', 'contributions-welcome']",open
 huggingface/lighteval,Python,[EVAL] Add kyrgyzLLM benchmark,https://github.com/huggingface/lighteval/issues/1036,1,"['good first issue', 'new-task']",open
 huggingface/lerobot,Python,Ensure the teleoperators module passes MyPy type checks,https://github.com/huggingface/lerobot/issues/1726,1,"['python', 'good first issue']",open
 huggingface/lighteval,Python,[BUG]  Optimize tokenization,https://github.com/huggingface/lighteval/issues/732,1,"['bug', 'good first issue', 'help wanted', 'science-team']",open
@@ -380,6 +378,8 @@ microsoft/physical-ai-toolchain,Python,chore(ci): remove JaCoCo parser config fr
 microsoft/onnxscript,Python,[torchlib] Add op test to torch.unique_consecutive,https://github.com/microsoft/onnxscript/issues/2695,1,"['good first issue', 'module: torchlib', 'contribution welcome']",open
 microsoft/onnxscript,Python,Constant-Folding Registry,https://github.com/microsoft/onnxscript/issues/2507,1,"['good first issue', 'category: question', 'contribution welcome', 'module: optimizer']",open
 microsoft/teams-agent-accelerator-libs-py,Python,Provide cleaner api for building citations for memories,https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/72,1,['good first issue'],open
+huggingface/sentence-transformers,Python,`token` not forwarded to `AutoProcessor.from_pretrained()` in `Transformer.__init__` — breaks private/gated models since 5.4.0,https://github.com/huggingface/sentence-transformers/issues/3836,2,"['bug', 'good first issue']",open
+huggingface/diffusers,Python,Modular pipeline: Krea 2,https://github.com/huggingface/diffusers/issues/14056,2,"['good first issue', 'contributions-welcome']",open
 huggingface/lerobot,Python,Question regarding downsampling and resizing dataset,https://github.com/huggingface/lerobot/issues/2124,2,"['question', 'dataset', 'good first issue']",open
 huggingface/lighteval,Python,[FT] Manage script and language in the Language enum,https://github.com/huggingface/lighteval/issues/745,2,"['good first issue', 'feature']",open
 huggingface/lighteval,Python,Call for contributions: Translate lighteval's doc into Chinese,https://github.com/huggingface/lighteval/issues/716,2,"['good first issue', 'help wanted', 'new-task']",open
@@ -418,12 +418,12 @@ huggingface/dataset-viewer,Python,Cache/Queue metrics should not be negative,htt
 microsoft/onnxscript,Python,"Constant Folding removes 'axes' initializer form Squeeze layer, resulting in incorrect ONNX model",https://github.com/microsoft/onnxscript/issues/2810,4,"['bug', 'good first issue', 'contribution welcome', 'module: optimizer']",open
 huggingface/lighteval,Python,[BUG] custom model docs don't run: missing imports,https://github.com/huggingface/lighteval/issues/760,5,"['bug', 'documentation', 'good first issue']",open
 huggingface/nanotron,Python,Avoid nested `InheritFromOtherOptimizer`,https://github.com/huggingface/nanotron/issues/267,5,"['good first issue', 'help wanted', 'Low Priority']",open
-huggingface/accelerate,Python,[Community Contributions] examples on distributed inference using 🤗 Accelerate,https://github.com/huggingface/accelerate/issues/3078,5,"['good first issue', 'wip', 'contributions-welcome']",open
 huggingface/nanotron,Python,[Bug] Missing `_is_using_mup` when resume checkpoint,https://github.com/huggingface/nanotron/issues/198,5,"['bug', 'good first issue', 'help wanted']",open
 huggingface/nanotron,Python,[Unit Test] Add unit tests for DistributedTrainer,https://github.com/huggingface/nanotron/issues/90,5,"['good first issue', 'help wanted', 'High Priority']",open
 huggingface/lighteval,Python,Append revision to filepath in `--output_dir`?,https://github.com/huggingface/lighteval/issues/56,5,"['good first issue', 'feature', 'science-team']",open
 huggingface/optimum-benchmark,Python,Evaluators for specific tasks,https://github.com/huggingface/optimum-benchmark/issues/34,5,"['enhancement', 'good first issue']",open
 huggingface/lighteval,Python,[FT] Improve Documentation and Examples,https://github.com/huggingface/lighteval/issues/682,6,"['documentation', 'good first issue', 'help wanted', 'feature']",open
+huggingface/accelerate,Python,[Community Contributions] examples on distributed inference using 🤗 Accelerate,https://github.com/huggingface/accelerate/issues/3078,6,"['good first issue', 'wip', 'contributions-welcome']",open
 huggingface/lighteval,Python,[EVAL] Long Horizon Execution,https://github.com/huggingface/lighteval/issues/1056,7,"['good first issue', 'help wanted', 'new-task']",open
 microsoft/onnxscript,Python,Attention fusion (SDPA/MHA) broken for BART decoder with/wo past🐛,https://github.com/microsoft/onnxscript/issues/2424,7,"['good first issue', 'contribution welcome', 'module: rewriter']",open
 microsoft/autogen,Python,Get current message thread from a group chat team.,https://github.com/microsoft/autogen/issues/6085,7,"['good first issue', 'help wanted', 'proj-agentchat']",open
@@ -431,7 +431,6 @@ microsoft/markitdown,Python,File support: chm support,https://github.com/microso
 huggingface/lerobot,Python,Select the VLM backbone for SmolVLA,https://github.com/huggingface/lerobot/issues/2104,8,"['question', 'policies', 'good first issue']",open
 huggingface/lighteval,Python,[EVAL] Adding PHARE,https://github.com/huggingface/lighteval/issues/696,8,"['good first issue', 'help wanted', 'new-task']",open
 huggingface/diffusers,Python,Make `FlaxLMSDiscreteScheduler` jittable,https://github.com/huggingface/diffusers/issues/2180,8,['good first issue'],open
-microsoft/presidio,Python,Can multiple GLiNERRecognizer instances be configured via YAML?,https://github.com/microsoft/presidio/issues/1760,8,"['good first issue', 'analyzer']",open
 huggingface/diffusers,Python,Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`,https://github.com/huggingface/diffusers/issues/8434,9,"['good first issue', 'community-examples', 'contributions-welcome']",open
 huggingface/lerobot,Python,Distributed v2.1 -> v3.0 conversion,https://github.com/huggingface/lerobot/issues/1998,10,"['dataset', 'performance', 'good first issue']",open
 huggingface/lighteval,Python,[EVAL] Add TUMLU benchmark,https://github.com/huggingface/lighteval/issues/577,10,"['good first issue', 'help wanted', 'new-task']",open
@@ -440,6 +439,7 @@ microsoft/onnxscript,Python,[torchlib] Inefficient implementations,https://githu
 huggingface/diffusers,Python,[Flux ControlNet] Add support for de-distilled models with CFG,https://github.com/huggingface/diffusers/issues/9635,12,"['good first issue', 'contributions-welcome']",open
 huggingface/diffusers,Python,[Pipeline] AnimateDiff + SparseControl + ControlNet,https://github.com/huggingface/diffusers/issues/9329,14,"['good first issue', 'community-examples', 'contributions-welcome', 'consider-for-modular-diffusers']",open
 microsoft/markitdown,Python,Support for .doc extensions,https://github.com/microsoft/markitdown/issues/23,14,"['enhancement', 'good first issue', 'open for contribution']",open
+microsoft/markitdown,Python,LLM Integration,https://github.com/microsoft/markitdown/issues/12,17,"['enhancement', 'good first issue']",open
 huggingface/lerobot,Python,Make policies compatible with torch.compile,https://github.com/huggingface/lerobot/issues/2061,18,"['enhancement', 'performance', 'good first issue']",open
 huggingface/datasets,Python,"Consider using ""Sequence"" instead of ""List""",https://github.com/huggingface/datasets/issues/5354,18,"['enhancement', 'good first issue']",open
 huggingface/datasets,Python,Return the name of the currently loaded file in the load_dataset function.,https://github.com/huggingface/datasets/issues/5806,19,"['enhancement', 'good first issue']",open
