@@ -13,7 +13,6 @@ microsoft/PowerToys,C,.opus support for Peek,https://github.com/microsoft/PowerT
 microsoft/aspire,C#,aspire deploy/publish fail in Aspire terminal,https://github.com/microsoft/aspire/issues/18017,0,"['good first issue', 'area-vscode-extension']",open
 microsoft/profile-explorer,C#,Mapping code gap?,https://github.com/microsoft/profile-explorer/issues/7,0,"['enhancement', 'good first issue']",open
 microsoft/WPF-Samples,C#,Sample Applications Update to Fluent Theme,https://github.com/microsoft/WPF-Samples/issues/680,0,"['easy', 'up-for-grabs', 'help wanted', 'good first issue']",open
-microsoft/aspire,C#,VS Code extension should execute resource commands without opening the terminal,https://github.com/microsoft/aspire/issues/17911,1,"['good first issue', 'area-vscode-extension', 'vscode', 'triage:bot-seen']",open
 microsoft/aspire,C#,Aspire dashboard - URL column click shows details,https://github.com/microsoft/aspire/issues/12307,1,"['good first issue', 'help wanted', 'area-dashboard']",open
 microsoft/aspire,C#,Provide CSV export option in dashboard console logs,https://github.com/microsoft/aspire/issues/11121,2,"['good first issue', 'help wanted', 'area-dashboard']",open
 microsoft/aspire,C#,CLI error message when AppHost exits before backchannel connection is vague and missing exit code,https://github.com/microsoft/aspire/issues/17277,3,"['good first issue', 'help wanted', 'area-cli', 'triage:bot-seen']",open
@@ -242,9 +241,9 @@ kubernetes/minikube,Go,get ETCD version from kubernetes constants,https://github
 kubernetes/minikube,Go,Document how to run minikube in China,https://github.com/kubernetes/minikube/issues/5020,25,"['help wanted', 'kind/documentation', 'priority/backlog', 'lifecycle/frozen', 'good first issue']",open
 kubernetes/kubernetes,Go,Node lifecycle controller does not `markPodsNotReady` when the node `Ready` state changes from `false` to `unknown`,https://github.com/kubernetes/kubernetes/issues/112733,30,"['kind/bug', 'sig/node', 'help wanted', 'good first issue', 'triage/accepted']",open
 kubernetes/ingress-nginx,Go,Distinguish wait-shutdown command from standard k8s SIGTERM,https://github.com/kubernetes/ingress-nginx/issues/6287,32,"['help wanted', 'kind/feature', 'priority/backlog', 'good first issue', 'needs-triage']",open
-kubernetes/kubernetes,Go,NetworkPolicy tests for blocking north/south traffic,https://github.com/kubernetes/kubernetes/issues/114369,35,"['priority/backlog', 'sig/network', 'help wanted', 'good first issue', 'triage/accepted', 'area/network-policy']",open
 kubernetes/kubernetes,Go,add and use alternative APIs which support contextual logging,https://github.com/kubernetes/kubernetes/issues/126379,36,"['area/logging', 'kind/feature', 'help wanted', 'sig/instrumentation', 'good first issue', 'triage/accepted', 'wg/structured-logging']",open
 kubernetes/kubernetes,Go,"kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment.",https://github.com/kubernetes/kubernetes/issues/118172,37,"['kind/bug', 'priority/backlog', 'kind/documentation', 'sig/node', 'help wanted', 'priority/important-longterm', 'good first issue', 'triage/accepted']",open
+kubernetes/kubernetes,Go,NetworkPolicy tests for blocking north/south traffic,https://github.com/kubernetes/kubernetes/issues/114369,37,"['priority/backlog', 'sig/network', 'help wanted', 'good first issue', 'triage/accepted', 'area/network-policy']",open
 kubernetes/perf-tests,Go,Create api-availability measurement,https://github.com/kubernetes/perf-tests/issues/1096,38,"['help wanted', 'lifecycle/stale', 'good first issue']",open
 kubernetes/kubernetes,Go,"Write the stress test for gRPC, http, and tcp probes",https://github.com/kubernetes/kubernetes/issues/115782,39,"['priority/backlog', 'kind/cleanup', 'sig/node', 'help wanted', 'good first issue', 'needs-triage']",open
 kubernetes/kube-state-metrics,Go,Missing replacement config for VPA collector in CRM,https://github.com/kubernetes/kube-state-metrics/issues/2041,41,"['kind/documentation', 'good first issue', 'triage/accepted']",open
@@ -378,8 +377,6 @@ microsoft/physical-ai-toolchain,Python,chore(ci): remove JaCoCo parser config fr
 microsoft/onnxscript,Python,[torchlib] Add op test to torch.unique_consecutive,https://github.com/microsoft/onnxscript/issues/2695,1,"['good first issue', 'module: torchlib', 'contribution welcome']",open
 microsoft/onnxscript,Python,Constant-Folding Registry,https://github.com/microsoft/onnxscript/issues/2507,1,"['good first issue', 'category: question', 'contribution welcome', 'module: optimizer']",open
 microsoft/teams-agent-accelerator-libs-py,Python,Provide cleaner api for building citations for memories,https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/72,1,['good first issue'],open
-huggingface/sentence-transformers,Python,`token` not forwarded to `AutoProcessor.from_pretrained()` in `Transformer.__init__` — breaks private/gated models since 5.4.0,https://github.com/huggingface/sentence-transformers/issues/3836,2,"['bug', 'good first issue']",open
-huggingface/diffusers,Python,Modular pipeline: Krea 2,https://github.com/huggingface/diffusers/issues/14056,2,"['good first issue', 'contributions-welcome']",open
 huggingface/lerobot,Python,Question regarding downsampling and resizing dataset,https://github.com/huggingface/lerobot/issues/2124,2,"['question', 'dataset', 'good first issue']",open
 huggingface/lighteval,Python,[FT] Manage script and language in the Language enum,https://github.com/huggingface/lighteval/issues/745,2,"['good first issue', 'feature']",open
 huggingface/lighteval,Python,Call for contributions: Translate lighteval's doc into Chinese,https://github.com/huggingface/lighteval/issues/716,2,"['good first issue', 'help wanted', 'new-task']",open
@@ -400,6 +397,7 @@ microsoft/msticpy,Python,[Bug]: RiskIQ TI Provider does not seem functional anym
 microsoft/onnxscript,Python,[IR] Graph editor API,https://github.com/microsoft/onnxscript/issues/2005,2,"['good first issue', 'topic: discussion', 'contribution welcome', 'module: IR']",open
 microsoft/onnxscript,Python,informing about bad positional argument in node constructor,https://github.com/microsoft/onnxscript/issues/1984,2,"['good first issue', 'contribution welcome']",open
 microsoft/TRELLIS,Python,TRELLIS API,https://github.com/microsoft/TRELLIS/issues/65,2,['good first issue'],open
+huggingface/diffusers,Python,Modular pipeline: Krea 2,https://github.com/huggingface/diffusers/issues/14056,3,"['good first issue', 'contributions-welcome']",open
 huggingface/diffusers,Python,[Anima] Add img2img capability,https://github.com/huggingface/diffusers/issues/13903,3,"['good first issue', 'contributions-welcome', 'modular-pipelines', 'feature-request']",open
 huggingface/lerobot,Python,Finetune smolvla with vision encoder,https://github.com/huggingface/lerobot/issues/1774,3,"['question', 'policies', 'good first issue']",open
 huggingface/lighteval,Python,[FT] showing count in Markdown summary table,https://github.com/huggingface/lighteval/issues/804,3,"['good first issue', 'feature']",open
@@ -449,6 +447,7 @@ huggingface/optimum,Python,Community contribution - `BetterTransformer` integrat
 microsoft/autogen,Python,"open needs encoding='utf-8' for non-english environment, error in playwright_controller.py",https://github.com/microsoft/autogen/issues/5566,29,"['good first issue', 'help wanted']",open
 huggingface/peft,Python,Comparison of Different Fine-Tuning Techniques for Conversational AI,https://github.com/huggingface/peft/issues/2310,100,"['good first issue', 'help wanted', 'contributions-welcome']",open
 huggingface/ratchet,Rust,Reduce dependencies! 🗡️,https://github.com/huggingface/ratchet/issues/170,0,"['help wanted', 'good first issue']",open
+microsoft/pg_durable,Rust,df.explain() does not render RACE branches,https://github.com/microsoft/pg_durable/issues/274,0,['good first issue'],open
 microsoft/pg_durable,Rust,Add a filter_label parameter to list_instances function,https://github.com/microsoft/pg_durable/issues/87,0,"['enhancement', 'good first issue']",open
 microsoft/openvmm,Rust,remove usages of futures::select! in the repo with futures_concurrency,https://github.com/microsoft/openvmm/issues/1246,0,"['good first issue', 'linting']",open
 microsoft/windows-drivers-rs,Rust,Migrate from fs4 to std::File flocks,https://github.com/microsoft/windows-drivers-rs/issues/300,0,['good first issue'],open
