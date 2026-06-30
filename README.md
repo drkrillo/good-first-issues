@@ -59,7 +59,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-06-29</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-06-30</sub></sub>
 
 | Repo | Language | Title | Comments |
 |---|---|---|---|
@@ -305,9 +305,9 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/minikube | Go | [Document how to run minikube in China](https://github.com/kubernetes/minikube/issues/5020) | 25 |
 | kubernetes/kubernetes | Go | [Node lifecycle controller does not `markPodsNotReady` when the node `Ready` state changes from `false` to `unknown`](https://github.com/kubernetes/kubernetes/issues/112733) | 30 |
 | kubernetes/ingress-nginx | Go | [Distinguish wait-shutdown command from standard k8s SIGTERM](https://github.com/kubernetes/ingress-nginx/issues/6287) | 32 |
-| kubernetes/kubernetes | Go | [add and use alternative APIs which support contextual logging](https://github.com/kubernetes/kubernetes/issues/126379) | 36 |
 | kubernetes/kubernetes | Go | [kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment.](https://github.com/kubernetes/kubernetes/issues/118172) | 37 |
 | kubernetes/kubernetes | Go | [NetworkPolicy tests for blocking north/south traffic](https://github.com/kubernetes/kubernetes/issues/114369) | 37 |
+| kubernetes/kubernetes | Go | [add and use alternative APIs which support contextual logging](https://github.com/kubernetes/kubernetes/issues/126379) | 38 |
 | kubernetes/perf-tests | Go | [Create api-availability measurement](https://github.com/kubernetes/perf-tests/issues/1096) | 38 |
 | kubernetes/kubernetes | Go | [Write the stress test for gRPC, http, and tcp probes](https://github.com/kubernetes/kubernetes/issues/115782) | 39 |
 | kubernetes/kube-state-metrics | Go | [Missing replacement config for VPA collector in CRM](https://github.com/kubernetes/kube-state-metrics/issues/2041) | 41 |
@@ -423,9 +423,12 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/lighteval | Python | [[FT]  Add tests for `VLLMModel` base methods](https://github.com/huggingface/lighteval/issues/724) | 0 |
 | huggingface/nanotron | Python | [[Feature] Use CUDA event for measuring elasped time](https://github.com/huggingface/nanotron/issues/88) | 0 |
 | huggingface/nanotron | Python | [[Feature] Refactor `ParallelContext.world_rank_matrix`](https://github.com/huggingface/nanotron/issues/77) | 0 |
+| microsoft/SkillOpt | Python | [Strengthen verifier-discipline test to assert held-out scores and gate_action (follow-up to #87)](https://github.com/microsoft/SkillOpt/issues/94) | 0 |
+| microsoft/physical-ai-toolchain | Python | [build: refresh uv pin to 0.11.25 and consolidate remaining stale uv reference](https://github.com/microsoft/physical-ai-toolchain/issues/1071) | 0 |
 | microsoft/AutoPodcaster | Python | [Add devcontainer](https://github.com/microsoft/AutoPodcaster/issues/9) | 0 |
 | microsoft/teams-agent-accelerator-libs-py | Python | [Expose the ability to add memory explicitly](https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/57) | 0 |
 | microsoft/BitBLAS | Python | [[Feature Request] Enhance Database to support reload scheduled tilelang operator](https://github.com/microsoft/BitBLAS/issues/269) | 0 |
+| microsoft/BitBLAS | Python | [[Feature Request] Flash Attention Op should be enhanced with our Scheduler Abstraction](https://github.com/microsoft/BitBLAS/issues/264) | 0 |
 | huggingface/lighteval | Python | [[EVAL] Add kyrgyzLLM benchmark](https://github.com/huggingface/lighteval/issues/1036) | 1 |
 | huggingface/lerobot | Python | [Ensure the teleoperators module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1726) | 1 |
 | huggingface/lighteval | Python | [[BUG]  Optimize tokenization](https://github.com/huggingface/lighteval/issues/732) | 1 |
@@ -450,7 +453,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/dataset-viewer | Python | [Use "Sign-In with HF" instead of token in admin-UI](https://github.com/huggingface/dataset-viewer/issues/2373) | 2 |
 | huggingface/nanotron | Python | [[Feature Request] Support Data Streaming for faster training of large models](https://github.com/huggingface/nanotron/issues/45) | 2 |
 | microsoft/agent-governance-toolkit | Python | [bug(examples/flowise-governance): flowise-flow.json fails to import on Flowise 2.x and 3.x](https://github.com/microsoft/agent-governance-toolkit/issues/3194) | 2 |
-| microsoft/winml-cli | Python | [bug: winml build shows misleading ValueError (opset domain) when disk is full during quantize step](https://github.com/microsoft/winml-cli/issues/259) | 2 |
 | microsoft/winml-cli | Python | [winml perf --op-tracing: ANSI color codes garbled on Windows cp1252 terminal](https://github.com/microsoft/winml-cli/issues/218) | 2 |
 | microsoft/onnxscript | Python | [Missing converter for OpOverload(op='aten._grouped_mm', overload='default')](https://github.com/microsoft/onnxscript/issues/2795) | 2 |
 | microsoft/onnxscript | Python | [[Optimizer] Fold Shape -> {Slice, Gather} -> Concat -> Reshape](https://github.com/microsoft/onnxscript/issues/2736) | 2 |
@@ -506,23 +508,21 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/datasets | Python | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 18 |
 | huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 19 |
 | huggingface/diffusers | Python | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 22 |
-| huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 23 |
+| huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 24 |
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 26 |
 | microsoft/autogen | Python | [open needs encoding='utf-8' for non-english environment, error in playwright_controller.py](https://github.com/microsoft/autogen/issues/5566) | 29 |
 | huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 100 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 |
-| microsoft/pg_durable | Rust | [df.explain() does not render RACE branches](https://github.com/microsoft/pg_durable/issues/274) | 0 |
-| microsoft/pg_durable | Rust | [Add a filter_label parameter to list_instances function](https://github.com/microsoft/pg_durable/issues/87) | 0 |
 | microsoft/openvmm | Rust | [remove usages of futures::select! in the repo with futures_concurrency](https://github.com/microsoft/openvmm/issues/1246) | 0 |
 | microsoft/windows-drivers-rs | Rust | [Migrate from fs4 to std::File flocks](https://github.com/microsoft/windows-drivers-rs/issues/300) | 0 |
 | microsoft/openvmm | Rust | [fdt/builder: enforce BE datatypes on add_prop_array](https://github.com/microsoft/openvmm/issues/777) | 0 |
 | decentraland/godot-explorer | Rust | [[Bug]: Interaction Feedback Doesn't Trigger when holding one Control (E.g Joystick)](https://github.com/decentraland/godot-explorer/issues/1170) | 0 |
-| microsoft/pg_durable | Rust | [No observable "waiting on a signal" state at the instance level](https://github.com/microsoft/pg_durable/issues/239) | 1 |
 | microsoft/openvmm | Rust | [BaseChipsetBuilder should accept VmChipsetResult directly instead of piecemeal fields](https://github.com/microsoft/openvmm/issues/3463) | 1 |
 | microsoft/webui | Rust | [contact book example: Make search great](https://github.com/microsoft/webui/issues/191) | 1 |
 | microsoft/openvmm | Rust | [repo: move no_std custom error types over to thiserror](https://github.com/microsoft/openvmm/issues/1811) | 1 |
 | microsoft/openvmm | Rust | [Clean up our windows API dependencies](https://github.com/microsoft/openvmm/issues/1061) | 1 |
 | microsoft/openvmm | Rust | [zerocopy: clean up TODOs](https://github.com/microsoft/openvmm/issues/759) | 1 |
+| microsoft/pg_durable | Rust | [No observable "waiting on a signal" state at the instance level](https://github.com/microsoft/pg_durable/issues/239) | 2 |
 | microsoft/openvmm | Rust | [openvmm: emulated nvme configuration](https://github.com/microsoft/openvmm/issues/1534) | 2 |
 | microsoft/windows-drivers-rs | Rust | [HID hidport.h headers missing for UMDF build](https://github.com/microsoft/windows-drivers-rs/issues/355) | 3 |
 | godotengine/discourse-theme | SCSS | [Change default `green` to our own green for the Solved questions](https://github.com/godotengine/discourse-theme/issues/14) | 0 |
@@ -673,11 +673,11 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | freeCodeCamp/chapter | TypeScript | [Good first issues](https://github.com/freeCodeCamp/chapter/issues/691) | 18 |
 | mattermost/mattermost | TypeScript | [Mobile Web View: Text is cut off in channel dropdown > channel actions](https://github.com/mattermost/mattermost/issues/25165) | 19 |
 | mattermost/mattermost | TypeScript | [Increase max height of the Find Channels modal](https://github.com/mattermost/mattermost/issues/21558) | 20 |
-| microsoft/vscode | TypeScript | [Review AsyncIterableObject usage: potential memory leaks and migration to AsyncIterableProducer](https://github.com/microsoft/vscode/issues/256854) | 21 |
 | mattermost/mattermost | TypeScript | [Improve the grammar on Account Creation Screen if the email address you entered does not belong to the accepted domain](https://github.com/mattermost/mattermost/issues/15927) | 21 |
 | microsoft/vscode | TypeScript | [Disabled and enabled (workspace) extension Disable button dropdown contains both "Disable" and "Disable (Workspace)" items](https://github.com/microsoft/vscode/issues/244138) | 27 |
 | mattermost/mattermost | TypeScript | [`Unable to find manifest for extracted plugin` when using `make deploy`](https://github.com/mattermost/mattermost/issues/22614) | 27 |
 | mattermost/mattermost | TypeScript | [Fix all initialism errors in the codebase](https://github.com/mattermost/mattermost/issues/16623) | 27 |
+| microsoft/vscode | TypeScript | [Review AsyncIterableObject usage: potential memory leaks and migration to AsyncIterableProducer](https://github.com/microsoft/vscode/issues/256854) | 30 |
 | mattermost/mattermost | TypeScript | [Mobile: Slight horizontal indent difference after first line](https://github.com/mattermost/mattermost/issues/27377) | 34 |
 | godotengine/godot-docs | reStructuredText | [make_canvas_position_local](https://github.com/godotengine/godot-docs/issues/8313) | 1 |
 | godotengine/godot-docs | reStructuredText | [Inconsistent code example between PhysicsShapeQueryParameters3D and PhysicsServer3D](https://github.com/godotengine/godot-docs/issues/8305) | 1 |
