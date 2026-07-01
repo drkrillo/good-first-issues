@@ -59,7 +59,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-06-30</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-07-01</sub></sub>
 
 | Repo | Language | Title | Comments |
 |---|---|---|---|
@@ -79,16 +79,16 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/WPF-Samples | C# | [Sample Applications Update to Fluent Theme](https://github.com/microsoft/WPF-Samples/issues/680) | 0 |
 | microsoft/aspire | C# | [Aspire dashboard - URL column click shows details](https://github.com/microsoft/aspire/issues/12307) | 1 |
 | microsoft/aspire | C# | [Provide CSV export option in dashboard console logs](https://github.com/microsoft/aspire/issues/11121) | 2 |
-| microsoft/aspire | C# | [CLI error message when AppHost exits before backchannel connection is vague and missing exit code](https://github.com/microsoft/aspire/issues/17277) | 3 |
 | microsoft/aspire | C# | [[nit]: "Operation cancelled by user action" log is too incessant](https://github.com/microsoft/aspire/issues/9311) | 3 |
 | microsoft/mcp | C# | [[COMMUNITY] Auto generate CHANGELOG, including adding contributors for each release](https://github.com/microsoft/mcp/issues/156) | 4 |
 | microsoft/aspire | C# | [Improve Exception Message for Missing Project Metadata Annotation in ResourceContainerImageBuilder.cs](https://github.com/microsoft/aspire/issues/11299) | 12 |
+| microsoft/STL | C++ | [`<yvals_core.h>`: Update `_MSVC_STL_UPDATE` to July 2026](https://github.com/microsoft/STL/issues/6349) | 0 |
 | microsoft/snmalloc | C++ | [Implement accurate size storage for Windows `_msize` and `_recalloc`](https://github.com/microsoft/snmalloc/issues/786) | 0 |
 | microsoft/react-native-windows | C++ | [Scroll wheel behavior differs significantly in new architecture (Windows App SDK) vs WinUI 3 Gallery app](https://github.com/microsoft/react-native-windows/issues/14653) | 1 |
 | microsoft/react-native-windows | C++ | [Deprecate autolink functionality to copy flags from react-native.config.js into ExperimentalFeature.props.](https://github.com/microsoft/react-native-windows/issues/14601) | 1 |
 | microsoft/terminal | C++ | ["Export text" action invoked from cmd paletter forwards Enter key](https://github.com/microsoft/terminal/issues/20188) | 3 |
 | microsoft/react-native-windows | C++ | [[Bug] init-windows adds incorrect name of Native Codegen File Include](https://github.com/microsoft/react-native-windows/issues/15094) | 4 |
-| godotengine/godot | C++ | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 25 |
+| godotengine/godot | C++ | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 26 |
 | godotengine/godot | C++ | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 34 |
 | godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 254 |
 | mattermost/mattermost-developer-documentation | CSS | [Help Wanted: Gitpod docs have outdated screenshots for the mattermost GitHub repository](https://github.com/mattermost/mattermost-developer-documentation/issues/1244) | 2 |
@@ -424,11 +424,9 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/nanotron | Python | [[Feature] Use CUDA event for measuring elasped time](https://github.com/huggingface/nanotron/issues/88) | 0 |
 | huggingface/nanotron | Python | [[Feature] Refactor `ParallelContext.world_rank_matrix`](https://github.com/huggingface/nanotron/issues/77) | 0 |
 | microsoft/SkillOpt | Python | [Strengthen verifier-discipline test to assert held-out scores and gate_action (follow-up to #87)](https://github.com/microsoft/SkillOpt/issues/94) | 0 |
-| microsoft/physical-ai-toolchain | Python | [build: refresh uv pin to 0.11.25 and consolidate remaining stale uv reference](https://github.com/microsoft/physical-ai-toolchain/issues/1071) | 0 |
 | microsoft/AutoPodcaster | Python | [Add devcontainer](https://github.com/microsoft/AutoPodcaster/issues/9) | 0 |
 | microsoft/teams-agent-accelerator-libs-py | Python | [Expose the ability to add memory explicitly](https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/57) | 0 |
 | microsoft/BitBLAS | Python | [[Feature Request] Enhance Database to support reload scheduled tilelang operator](https://github.com/microsoft/BitBLAS/issues/269) | 0 |
-| microsoft/BitBLAS | Python | [[Feature Request] Flash Attention Op should be enhanced with our Scheduler Abstraction](https://github.com/microsoft/BitBLAS/issues/264) | 0 |
 | huggingface/lighteval | Python | [[EVAL] Add kyrgyzLLM benchmark](https://github.com/huggingface/lighteval/issues/1036) | 1 |
 | huggingface/lerobot | Python | [Ensure the teleoperators module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1726) | 1 |
 | huggingface/lighteval | Python | [[BUG]  Optimize tokenization](https://github.com/huggingface/lighteval/issues/732) | 1 |
@@ -438,6 +436,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/nanotron | Python | [FEAT: Support 1.58-bit LLMs training](https://github.com/huggingface/nanotron/issues/114) | 1 |
 | huggingface/dataset-viewer | Python | [Use `revision_exists` (hfh)](https://github.com/huggingface/dataset-viewer/issues/2562) | 1 |
 | huggingface/nanotron | Python | [[Feature Request] Add simple communications benchmarks to the repo](https://github.com/huggingface/nanotron/issues/43) | 1 |
+| microsoft/apm | Python | [[BUG] Copilot hook events are never renamed to camelCase](https://github.com/microsoft/apm/issues/1977) | 1 |
 | microsoft/winml-cli | Python | [Minor refactor: reuse _compute_case_signature to compute failed model file name](https://github.com/microsoft/winml-cli/issues/56) | 1 |
 | microsoft/physical-ai-toolchain | Python | [docs(ci): document GHSA allowlist in dependency-review.yml](https://github.com/microsoft/physical-ai-toolchain/issues/142) | 1 |
 | microsoft/physical-ai-toolchain | Python | [chore(ci): remove JaCoCo parser config from codecov.yml](https://github.com/microsoft/physical-ai-toolchain/issues/140) | 1 |
@@ -452,6 +451,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/nanotron | Python | [[Feature] Asyncronous Serialization](https://github.com/huggingface/nanotron/issues/87) | 2 |
 | huggingface/dataset-viewer | Python | [Use "Sign-In with HF" instead of token in admin-UI](https://github.com/huggingface/dataset-viewer/issues/2373) | 2 |
 | huggingface/nanotron | Python | [[Feature Request] Support Data Streaming for faster training of large models](https://github.com/huggingface/nanotron/issues/45) | 2 |
+| microsoft/physical-ai-toolchain | Python | [build: refresh uv pin to 0.11.25 and consolidate remaining stale uv reference](https://github.com/microsoft/physical-ai-toolchain/issues/1071) | 2 |
 | microsoft/agent-governance-toolkit | Python | [bug(examples/flowise-governance): flowise-flow.json fails to import on Flowise 2.x and 3.x](https://github.com/microsoft/agent-governance-toolkit/issues/3194) | 2 |
 | microsoft/winml-cli | Python | [winml perf --op-tracing: ANSI color codes garbled on Windows cp1252 terminal](https://github.com/microsoft/winml-cli/issues/218) | 2 |
 | microsoft/onnxscript | Python | [Missing converter for OpOverload(op='aten._grouped_mm', overload='default')](https://github.com/microsoft/onnxscript/issues/2795) | 2 |
@@ -511,7 +511,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 24 |
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 26 |
 | microsoft/autogen | Python | [open needs encoding='utf-8' for non-english environment, error in playwright_controller.py](https://github.com/microsoft/autogen/issues/5566) | 29 |
-| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 100 |
+| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 105 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 |
 | microsoft/openvmm | Rust | [remove usages of futures::select! in the repo with futures_concurrency](https://github.com/microsoft/openvmm/issues/1246) | 0 |
 | microsoft/windows-drivers-rs | Rust | [Migrate from fs4 to std::File flocks](https://github.com/microsoft/windows-drivers-rs/issues/300) | 0 |
