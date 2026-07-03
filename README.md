@@ -59,7 +59,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-07-02</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-07-03</sub></sub>
 
 | Repo | Language | Title | Comments |
 |---|---|---|---|
@@ -147,7 +147,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-nps | Go | [Use SiteURL for all calls from the webapp](https://github.com/mattermost/mattermost-plugin-nps/issues/70) | 1 |
 | mattermost/mattermost-plugin-google-calendar | Go | [Improve error handling in `completeCalendar` to avoid panic](https://github.com/mattermost/mattermost-plugin-google-calendar/issues/8) | 1 |
 | mattermost/mattermost-plugin-github | Go | [Use custom post type to display TODO list](https://github.com/mattermost/mattermost-plugin-github/issues/86) | 1 |
-| hashicorp/terraform-provider-aws | Go | [[Bug]: Data Source: aws_rds_cluster does not export deletion_protection](https://github.com/hashicorp/terraform-provider-aws/issues/48708) | 2 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_bedrockagentcore_memory_strategy missing reflection configuration for EPISODIC type](https://github.com/hashicorp/terraform-provider-aws/issues/47938) | 2 |
 | hashicorp/terraform-provider-aws | Go | [aws_fms_policy resource_tag_logical_operator not correctly displaying diff during a plan](https://github.com/hashicorp/terraform-provider-aws/issues/47771) | 2 |
 | hashicorp/terraform-provider-aws | Go | [Add private DNS endpoint attribute to `aws_dsql_cluster` resource](https://github.com/hashicorp/terraform-provider-aws/issues/47596) | 2 |
@@ -177,6 +176,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/cloud-provider-openstack | Go | [[all]: openstack API debugger shows `client.go:128` for all calls](https://github.com/kubernetes/cloud-provider-openstack/issues/2300) | 3 |
 | kubernetes/kops | Go | [Update AWS China documentation with Route53 Support](https://github.com/kubernetes/kops/issues/9138) | 3 |
 | microsoft/retina | Go | [Update documentation with Hubble CLI and Hubble UI deployment instructions on Retina.](https://github.com/microsoft/retina/issues/1387) | 3 |
+| hashicorp/terraform-provider-aws | Go | [[Bug]: Data Source: aws_rds_cluster does not export deletion_protection](https://github.com/hashicorp/terraform-provider-aws/issues/48708) | 3 |
 | hashicorp/nomad | Go | [secret block value not interpolated into Consul-provider service check header](https://github.com/hashicorp/nomad/issues/28195) | 3 |
 | hashicorp/terraform-provider-aws | Go | [data/aws_bedrock_foundation_model: modelLifecycle attribute not exposed](https://github.com/hashicorp/terraform-provider-aws/issues/47779) | 3 |
 | hashicorp/terraform-provider-aws | Go | [aws_s3tables_table_replication: Create fails with "A version token is not specified"](https://github.com/hashicorp/terraform-provider-aws/issues/46675) | 3 |
@@ -327,9 +327,9 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | cncf/glossary | HTML | [[ru] Localize `Portability`](https://github.com/cncf/glossary/issues/3265) | 1 |
 | cncf/glossary | HTML | [[ru] Localize `Service` into Russian](https://github.com/cncf/glossary/issues/3334) | 2 |
 | cncf/tag-app-delivery | HTML | [Automation of tag-app-delivery repo](https://github.com/cncf/tag-app-delivery/issues/566) | 3 |
-| kubernetes/website | HTML | [Fix grammar error in What Happens After A Node Restart page](https://github.com/kubernetes/website/issues/56366) | 4 |
 | cncf/tag-security | HTML | [[Suggestion] Working Group Landing Page](https://github.com/cncf/tag-security/issues/1354) | 4 |
 | layer5io/academy-theme | HTML | [Upgrade project to go1.26.4](https://github.com/layer5io/academy-theme/issues/217) | 7 |
+| kubernetes/website | HTML | [Fix grammar error in What Happens After A Node Restart page](https://github.com/kubernetes/website/issues/56366) | 7 |
 | kubernetes/website | HTML | [[hi] Localize Network Policy Provider page](https://github.com/kubernetes/website/issues/47439) | 7 |
 | cncf/tag-observability | HTML | [WG: Create GitHub Pages site for TAG Observability](https://github.com/cncf/tag-observability/issues/39) | 7 |
 | kubernetes/website | HTML | [[hi] Localize concepts/scheduling-eviction page ](https://github.com/kubernetes/website/issues/48989) | 8 |
@@ -512,7 +512,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 24 |
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 26 |
 | microsoft/autogen | Python | [open needs encoding='utf-8' for non-english environment, error in playwright_controller.py](https://github.com/microsoft/autogen/issues/5566) | 29 |
-| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 109 |
+| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 113 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 |
 | microsoft/openvmm | Rust | [remove usages of futures::select! in the repo with futures_concurrency](https://github.com/microsoft/openvmm/issues/1246) | 0 |
 | microsoft/windows-drivers-rs | Rust | [Migrate from fs4 to std::File flocks](https://github.com/microsoft/windows-drivers-rs/issues/300) | 0 |
@@ -675,11 +675,11 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost | TypeScript | [Mobile Web View: Text is cut off in channel dropdown > channel actions](https://github.com/mattermost/mattermost/issues/25165) | 19 |
 | mattermost/mattermost | TypeScript | [Increase max height of the Find Channels modal](https://github.com/mattermost/mattermost/issues/21558) | 20 |
 | mattermost/mattermost | TypeScript | [Improve the grammar on Account Creation Screen if the email address you entered does not belong to the accepted domain](https://github.com/mattermost/mattermost/issues/15927) | 21 |
-| microsoft/vscode | TypeScript | [Disabled and enabled (workspace) extension Disable button dropdown contains both "Disable" and "Disable (Workspace)" items](https://github.com/microsoft/vscode/issues/244138) | 27 |
 | mattermost/mattermost | TypeScript | [`Unable to find manifest for extracted plugin` when using `make deploy`](https://github.com/mattermost/mattermost/issues/22614) | 27 |
 | mattermost/mattermost | TypeScript | [Fix all initialism errors in the codebase](https://github.com/mattermost/mattermost/issues/16623) | 27 |
 | microsoft/vscode | TypeScript | [Review AsyncIterableObject usage: potential memory leaks and migration to AsyncIterableProducer](https://github.com/microsoft/vscode/issues/256854) | 30 |
 | mattermost/mattermost | TypeScript | [Mobile: Slight horizontal indent difference after first line](https://github.com/mattermost/mattermost/issues/27377) | 34 |
+| microsoft/vscode | TypeScript | [Disabled and enabled (workspace) extension Disable button dropdown contains both "Disable" and "Disable (Workspace)" items](https://github.com/microsoft/vscode/issues/244138) | 37 |
 | godotengine/godot-docs | reStructuredText | [make_canvas_position_local](https://github.com/godotengine/godot-docs/issues/8313) | 1 |
 | godotengine/godot-docs | reStructuredText | [Inconsistent code example between PhysicsShapeQueryParameters3D and PhysicsServer3D](https://github.com/godotengine/godot-docs/issues/8305) | 1 |
 | godotengine/godot-docs | reStructuredText | [Physics2DDirectSpaceState does not specify local or global coordinates](https://github.com/godotengine/godot-docs/issues/3299) | 2 |
