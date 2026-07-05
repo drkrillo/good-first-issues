@@ -3,7 +3,6 @@ microsoft/ebpf-for-windows,C,OpenCppCoverage install step fails silently,https:/
 microsoft/ebpf-for-windows,C,Cleanup: catch2 now allows multiple threads,https://github.com/microsoft/ebpf-for-windows/issues/4553,0,"['good first issue', 'cleanup', 'triaged', 'P3']",open
 microsoft/msquic,C,Miss check for the return value of CXPLAT_ALLOC_NONPAGED and CxPlatPoolAlloc,https://github.com/microsoft/msquic/issues/5233,0,"['good first issue', 'help wanted', 'Area: Testing', 'Triaged', 'HowFound: MSR']",open
 microsoft/jbpf,C,jbpf_io_ipc_test passes with error messages,https://github.com/microsoft/jbpf/issues/54,0,"['bug', 'good first issue']",open
-microsoft/jbpf,C,Remove JBPF_EXPERIMENTAL_FEATURES from  header files,https://github.com/microsoft/jbpf/issues/26,0,['good first issue'],open
 microsoft/ebpf-for-windows,C,Update tests/sample/undocked/map.c,https://github.com/microsoft/ebpf-for-windows/issues/4547,1,"['good first issue', 'cleanup', 'triaged', 'P3']",open
 microsoft/ntttcp,C,per-thread throughput is always 0.00 with ntttcp version 5.40.,https://github.com/microsoft/ntttcp/issues/24,1,"['good first issue', 'help wanted']",open
 microsoft/msquic,C,Support in-memory certificate stores,https://github.com/microsoft/msquic/issues/4951,2,"['good first issue', 'feature request', 'external', 'Area: API', 'Area: Core']",open
@@ -268,7 +267,7 @@ layer5io/academy-theme,HTML,Upgrade project to go1.26.4,https://github.com/layer
 kubernetes/website,HTML,[hi] Localize Network Policy Provider page,https://github.com/kubernetes/website/issues/47439,7,"['good first issue', 'help wanted', 'kind/feature', 'language/hi', 'triage/accepted', 'area/localization']",open
 cncf/tag-observability,HTML,WG: Create GitHub Pages site for TAG Observability,https://github.com/cncf/tag-observability/issues/39,7,"['documentation', 'good first issue', 'help wanted', 'working group']",open
 kubernetes/website,HTML,Umbrella: Improve and update the generate-ref-docs contributor guide,https://github.com/kubernetes/website/issues/56385,8,"['good first issue', 'help wanted', 'kind/feature', 'sig/docs', 'kind/cleanup', 'needs-triage']",open
-kubernetes/website,HTML,[hi] Localize concepts/extend-kubernetes page,https://github.com/kubernetes/website/issues/48991,9,"['good first issue', 'help wanted', 'kind/feature', 'language/hi', 'triage/accepted', 'area/localization']",open
+kubernetes/website,HTML,[hi] Localize concepts/extend-kubernetes page,https://github.com/kubernetes/website/issues/48991,10,"['good first issue', 'help wanted', 'kind/feature', 'language/hi', 'triage/accepted', 'area/localization']",open
 kubernetes/website,HTML,[hi] Localize /concepts/cluster-administration page,https://github.com/kubernetes/website/issues/48990,10,"['good first issue', 'help wanted', 'kind/feature', 'triage/accepted', 'area/localization']",open
 kubernetes/website,HTML,[hi] Localize concepts/scheduling-eviction page ,https://github.com/kubernetes/website/issues/48989,10,"['good first issue', 'help wanted', 'kind/feature', 'language/hi', 'triage/accepted', 'area/localization']",open
 kubernetes/website,HTML,[hi] Localize concepts/Storage page,https://github.com/kubernetes/website/issues/47462,11,"['good first issue', 'help wanted', 'kind/feature', 'language/hi', 'triage/accepted', 'area/localization']",open
@@ -292,7 +291,6 @@ EddieHubCommunity/RepoRater,JavaScript,[BUG] Update the preview in the readme,ht
 freeCodeCamp/classroom,JavaScript,Bug: /classes page crashes if the mock-fcc-data endpoint is not running,https://github.com/freeCodeCamp/classroom/issues/533,2,"['good first issue', 'CTI']",open
 layer5io/docs,JavaScript,[Docs] Convert Static Image to Meshery Design - 4,https://github.com/layer5io/docs/issues/794,3,"['area/docs', 'good first issue', 'help wanted', 'language/markdown', 'framework/hugo']",open
 layer5io/docs,JavaScript,Screen capture includes Grammarly,https://github.com/layer5io/docs/issues/543,3,"['good first issue', 'help wanted', 'kind/bug', 'language/javascript', 'language/css', 'framework/hugo']",open
-layer5io/layer5,JavaScript,[Community] Member Profile: Oluwatunmise Olat,https://github.com/layer5io/layer5/issues/7852,4,"['help wanted', 'good first issue', 'language/markdown', 'framework/gatsby', 'area/community']",open
 freeCodeCamp/100DaysOfCode-twitter-bot,JavaScript,Contributing needs work,https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/112,4,"['help wanted', 'good first issue', 'documentation']",open
 layer5io/docs,JavaScript,[Docs] Improve Related Docs Links in Pinning Models to Dock Page,https://github.com/layer5io/docs/issues/1028,5,"['area/docs', 'good first issue', 'help wanted', 'language/markdown', 'framework/hugo']",open
 layer5io/docs,JavaScript,[Docs] Convert Static Image to Meshery Design - 3,https://github.com/layer5io/docs/issues/793,5,"['area/docs', 'good first issue', 'help wanted', 'language/markdown', 'framework/hugo']",open
@@ -374,6 +372,9 @@ huggingface/nanotron,Python,We don't save checkpoint after training ends,https:/
 huggingface/nanotron,Python,FEAT: Support 1.58-bit LLMs training,https://github.com/huggingface/nanotron/issues/114,1,"['enhancement', 'good first issue', 'help wanted', 'Low Priority']",open
 huggingface/dataset-viewer,Python,Use `revision_exists` (hfh),https://github.com/huggingface/dataset-viewer/issues/2562,1,"['good first issue', 'refactoring / architecture', 'P2']",open
 huggingface/nanotron,Python,[Feature Request] Add simple communications benchmarks to the repo,https://github.com/huggingface/nanotron/issues/43,1,"['enhancement', 'good first issue', 'help wanted']",open
+microsoft/agent-governance-toolkit,Python,"credential_redactor: docs imply redact() scrubs PII, but it covers secrets only; SSN patterns diverge",https://github.com/microsoft/agent-governance-toolkit/issues/3239,1,"['documentation', 'good first issue']",open
+microsoft/agent-governance-toolkit,Python,agent-os PolicyInterceptor: check ordering inconsistent with pre_execute_check,https://github.com/microsoft/agent-governance-toolkit/issues/3238,1,"['bug', 'good first issue']",open
+microsoft/agent-governance-toolkit,Python,agt red-team: report verdict and CI exit code use different criteria,https://github.com/microsoft/agent-governance-toolkit/issues/3237,1,"['bug', 'good first issue']",open
 microsoft/winml-cli,Python,Minor refactor: reuse _compute_case_signature to compute failed model file name,https://github.com/microsoft/winml-cli/issues/56,1,"['good first issue', 'refactor', 'NPU', 'P1', 'triaged']",open
 microsoft/physical-ai-toolchain,Python,docs(ci): document GHSA allowlist in dependency-review.yml,https://github.com/microsoft/physical-ai-toolchain/issues/142,1,"['documentation', 'good first issue', 'help wanted', 'security']",open
 microsoft/physical-ai-toolchain,Python,chore(ci): remove JaCoCo parser config from codecov.yml,https://github.com/microsoft/physical-ai-toolchain/issues/140,1,"['good first issue', 'help wanted', 'maintenance']",open
@@ -388,7 +389,7 @@ huggingface/dataset-viewer,Python,use the `ROW_IDX_COLUMN` constant name instead
 huggingface/nanotron,Python,[Feature] Asyncronous Serialization,https://github.com/huggingface/nanotron/issues/87,2,"['enhancement', 'good first issue', 'help wanted']",open
 huggingface/dataset-viewer,Python,"Use ""Sign-In with HF"" instead of token in admin-UI",https://github.com/huggingface/dataset-viewer/issues/2373,2,"['good first issue', 'admin tools', 'P2']",open
 huggingface/nanotron,Python,[Feature Request] Support Data Streaming for faster training of large models,https://github.com/huggingface/nanotron/issues/45,2,"['enhancement', 'good first issue', 'help wanted']",open
-microsoft/apm,Python,[BUG] apm compile emits duplicate H1 in CLAUDE.md (extra '# Project Standards' after '# CLAUDE.md' banner); AGENTS.md has single H1,https://github.com/microsoft/apm/issues/2014,2,"['help wanted', 'good first issue', 'area/cli', 'type/bug', 'status/accepted', 'status/triaged']",open
+microsoft/agent-governance-toolkit,Python,"[Bug]: Quickstart imports fail on base install — README paths need [full], and agent_os is deprecated",https://github.com/microsoft/agent-governance-toolkit/issues/3253,2,"['bug', 'documentation', 'good first issue']",open
 microsoft/physical-ai-toolchain,Python,build: refresh uv pin to 0.11.25 and consolidate remaining stale uv reference,https://github.com/microsoft/physical-ai-toolchain/issues/1071,2,"['good first issue', 'build', 'security']",open
 microsoft/agent-governance-toolkit,Python,bug(examples/flowise-governance): flowise-flow.json fails to import on Flowise 2.x and 3.x,https://github.com/microsoft/agent-governance-toolkit/issues/3194,2,"['bug', 'good first issue', 'help wanted', 'integration/flowise-agentmesh', 'needs-review:MEDIUM', 'Priority: HIGH']",open
 microsoft/winml-cli,Python,winml perf --op-tracing: ANSI color codes garbled on Windows cp1252 terminal,https://github.com/microsoft/winml-cli/issues/218,2,"['good first issue', 'dev experience', 'bug', 'P2', 'triaged']",open
@@ -429,7 +430,6 @@ huggingface/accelerate,Python,[Community Contributions] examples on distributed 
 huggingface/lighteval,Python,[EVAL] Long Horizon Execution,https://github.com/huggingface/lighteval/issues/1056,7,"['good first issue', 'help wanted', 'new-task']",open
 microsoft/onnxscript,Python,Attention fusion (SDPA/MHA) broken for BART decoder with/wo past🐛,https://github.com/microsoft/onnxscript/issues/2424,7,"['good first issue', 'contribution welcome', 'module: rewriter']",open
 microsoft/autogen,Python,Get current message thread from a group chat team.,https://github.com/microsoft/autogen/issues/6085,7,"['good first issue', 'help wanted', 'proj-agentchat']",open
-microsoft/markitdown,Python,File support: chm support,https://github.com/microsoft/markitdown/issues/14,7,"['enhancement', 'good first issue']",open
 huggingface/lerobot,Python,Select the VLM backbone for SmolVLA,https://github.com/huggingface/lerobot/issues/2104,8,"['question', 'policies', 'good first issue']",open
 huggingface/lighteval,Python,[EVAL] Adding PHARE,https://github.com/huggingface/lighteval/issues/696,8,"['good first issue', 'help wanted', 'new-task']",open
 huggingface/diffusers,Python,Make `FlaxLMSDiscreteScheduler` jittable,https://github.com/huggingface/diffusers/issues/2180,8,['good first issue'],open
@@ -441,7 +441,6 @@ microsoft/onnxscript,Python,[torchlib] Inefficient implementations,https://githu
 huggingface/diffusers,Python,[Flux ControlNet] Add support for de-distilled models with CFG,https://github.com/huggingface/diffusers/issues/9635,12,"['good first issue', 'contributions-welcome']",open
 huggingface/diffusers,Python,[Pipeline] AnimateDiff + SparseControl + ControlNet,https://github.com/huggingface/diffusers/issues/9329,14,"['good first issue', 'community-examples', 'contributions-welcome', 'consider-for-modular-diffusers']",open
 microsoft/markitdown,Python,Support for .doc extensions,https://github.com/microsoft/markitdown/issues/23,14,"['enhancement', 'good first issue', 'open for contribution']",open
-microsoft/markitdown,Python,LLM Integration,https://github.com/microsoft/markitdown/issues/12,17,"['enhancement', 'good first issue']",open
 huggingface/lerobot,Python,Make policies compatible with torch.compile,https://github.com/huggingface/lerobot/issues/2061,18,"['enhancement', 'performance', 'good first issue']",open
 huggingface/datasets,Python,"Consider using ""Sequence"" instead of ""List""",https://github.com/huggingface/datasets/issues/5354,18,"['enhancement', 'good first issue']",open
 huggingface/datasets,Python,Return the name of the currently loaded file in the load_dataset function.,https://github.com/huggingface/datasets/issues/5806,19,"['enhancement', 'good first issue']",open
