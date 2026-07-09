@@ -59,7 +59,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-07-08</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-07-09</sub></sub>
 
 | Repo | Language | Title | Comments |
 |---|---|---|---|
@@ -129,7 +129,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-github | Go | [Create tests for `createIssue()` method](https://github.com/mattermost/mattermost-plugin-github/issues/223) | 0 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Add mapped Mattermost users as attendees in CreateEvent API method](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/28) | 0 |
 | hashicorp/terraform-provider-aws | Go | [aws_bedrockagentcore_harness is missing additionalAttributes in bedrockModelConfig](https://github.com/hashicorp/terraform-provider-aws/issues/48363) | 1 |
-| hashicorp/nomad | Go | [Improve description of Consul tokens to include client information](https://github.com/hashicorp/nomad/issues/28048) | 1 |
 | hashicorp/terraform-provider-aws | Go | [[Docs]: Document necessary dependency between aws_eks_access_entry and aws_eks_access_policy_association](https://github.com/hashicorp/terraform-provider-aws/issues/40951) | 1 |
 | hashicorp/nomad | Go | [show embedded template diffs line-by-line](https://github.com/hashicorp/nomad/issues/23603) | 1 |
 | hashicorp/packer-plugin-azure | Go | [Improve error messaging for "Managed Images not supporting ARM64 images error"](https://github.com/hashicorp/packer-plugin-azure/issues/367) | 1 |
@@ -145,6 +144,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-nps | Go | [Use SiteURL for all calls from the webapp](https://github.com/mattermost/mattermost-plugin-nps/issues/70) | 1 |
 | mattermost/mattermost-plugin-google-calendar | Go | [Improve error handling in `completeCalendar` to avoid panic](https://github.com/mattermost/mattermost-plugin-google-calendar/issues/8) | 1 |
 | mattermost/mattermost-plugin-github | Go | [Use custom post type to display TODO list](https://github.com/mattermost/mattermost-plugin-github/issues/86) | 1 |
+| hashicorp/terraform-provider-aws | Go | [`webserver_access_mode` argument in `aws_mwaa_environment` resource is missing a value](https://github.com/hashicorp/terraform-provider-aws/issues/48835) | 2 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_bedrockagentcore_memory_strategy missing reflection configuration for EPISODIC type](https://github.com/hashicorp/terraform-provider-aws/issues/47938) | 2 |
 | hashicorp/terraform-provider-aws | Go | [aws_fms_policy resource_tag_logical_operator not correctly displaying diff during a plan](https://github.com/hashicorp/terraform-provider-aws/issues/47771) | 2 |
 | hashicorp/terraform-provider-aws | Go | [Add private DNS endpoint attribute to `aws_dsql_cluster` resource](https://github.com/hashicorp/terraform-provider-aws/issues/47596) | 2 |
@@ -174,7 +174,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/cloud-provider-openstack | Go | [[all]: openstack API debugger shows `client.go:128` for all calls](https://github.com/kubernetes/cloud-provider-openstack/issues/2300) | 3 |
 | kubernetes/kops | Go | [Update AWS China documentation with Route53 Support](https://github.com/kubernetes/kops/issues/9138) | 3 |
 | microsoft/retina | Go | [Update documentation with Hubble CLI and Hubble UI deployment instructions on Retina.](https://github.com/microsoft/retina/issues/1387) | 3 |
-| hashicorp/nomad | Go | [secret block value not interpolated into Consul-provider service check header](https://github.com/hashicorp/nomad/issues/28195) | 3 |
 | hashicorp/terraform-provider-aws | Go | [data/aws_bedrock_foundation_model: modelLifecycle attribute not exposed](https://github.com/hashicorp/terraform-provider-aws/issues/47779) | 3 |
 | hashicorp/terraform-provider-aws | Go | [aws_s3tables_table_replication: Create fails with "A version token is not specified"](https://github.com/hashicorp/terraform-provider-aws/issues/46675) | 3 |
 | hashicorp/terraform-provider-aws | Go | [[EMR on EKS] aws_emrcontainers_job_template: add support for job_template_data.parameter_configuration](https://github.com/hashicorp/terraform-provider-aws/issues/46502) | 3 |
@@ -197,6 +196,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-github | Go | [Register autolinks for GitHub URLs](https://github.com/mattermost/mattermost-plugin-github/issues/269) | 3 |
 | microsoft/retina | Go | [hubble-relay image v1.15.0 missing h2 ALPN support that breaks hubble CLI (grpc-go >= 1.67)](https://github.com/microsoft/retina/issues/2165) | 4 |
 | microsoft/terraform-provider-azuredevops | Go | [Full unit test suite isn't running on CI](https://github.com/microsoft/terraform-provider-azuredevops/issues/1439) | 4 |
+| hashicorp/terraform-provider-aws | Go | [aws_storagegateway_smb_file_share: cache_stale_timeout_in_seconds validation rejects 0, but the AWS API accepts it (blocks disabling cache refresh)](https://github.com/hashicorp/terraform-provider-aws/issues/48876) | 4 |
 | hashicorp/terraform-provider-aws | Go | [aws_ec2_transit_gateway_route_table_association support for timeouts block](https://github.com/hashicorp/terraform-provider-aws/issues/42705) | 4 |
 | hashicorp/terraform-provider-aws | Go | [AWS IVS Real Time Stage Terraform Module](https://github.com/hashicorp/terraform-provider-aws/issues/42644) | 4 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: `aws_cloudwatch_metric_alarm`: Add validation to prevent specifying both `metric` and `expression`](https://github.com/hashicorp/terraform-provider-aws/issues/41680) | 4 |
@@ -326,13 +326,13 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | cncf/tag-app-delivery | HTML | [Automation of tag-app-delivery repo](https://github.com/cncf/tag-app-delivery/issues/566) | 3 |
 | cncf/tag-security | HTML | [[Suggestion] Working Group Landing Page](https://github.com/cncf/tag-security/issues/1354) | 4 |
 | layer5io/academy-theme | HTML | [Upgrade project to go1.26.4](https://github.com/layer5io/academy-theme/issues/217) | 7 |
-| kubernetes/website | HTML | [[hi] Localize Network Policy Provider page](https://github.com/kubernetes/website/issues/47439) | 7 |
 | cncf/tag-observability | HTML | [WG: Create GitHub Pages site for TAG Observability](https://github.com/cncf/tag-observability/issues/39) | 7 |
+| kubernetes/website | HTML | [[hi] Localize Network Policy Provider page](https://github.com/kubernetes/website/issues/47439) | 8 |
 | kubernetes/website | HTML | [[hi] Localize concepts/extend-kubernetes page](https://github.com/kubernetes/website/issues/48991) | 10 |
 | kubernetes/website | HTML | [[hi] Localize /concepts/cluster-administration page](https://github.com/kubernetes/website/issues/48990) | 10 |
 | kubernetes/website | HTML | [[hi] Localize concepts/scheduling-eviction page ](https://github.com/kubernetes/website/issues/48989) | 10 |
-| kubernetes/website | HTML | [Umbrella: Improve and update the generate-ref-docs contributor guide](https://github.com/kubernetes/website/issues/56385) | 11 |
 | kubernetes/website | HTML | [[hi] Localize concepts/Storage page](https://github.com/kubernetes/website/issues/47462) | 11 |
+| kubernetes/website | HTML | [Umbrella: Improve and update the generate-ref-docs contributor guide](https://github.com/kubernetes/website/issues/56385) | 12 |
 | kubernetes/website | HTML | [[hi] Localize concepts/Security page](https://github.com/kubernetes/website/issues/47463) | 13 |
 | kubernetes/website | HTML | [[hi] Localize concepts/Workloads page ](https://github.com/kubernetes/website/issues/47442) | 13 |
 | kubernetes/website | HTML | [[hi] Localize tasks/configure-pod-container page ](https://github.com/kubernetes/website/issues/48992) | 14 |
@@ -353,6 +353,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | freeCodeCamp/classroom | JavaScript | [Bug: /classes page crashes if the mock-fcc-data endpoint is not running](https://github.com/freeCodeCamp/classroom/issues/533) | 2 |
 | layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 4](https://github.com/layer5io/docs/issues/794) | 3 |
 | layer5io/docs | JavaScript | [Screen capture includes Grammarly](https://github.com/layer5io/docs/issues/543) | 3 |
+| layer5io/docs | JavaScript | [[UI] Docs layout breaks when browser zoom is increased](https://github.com/layer5io/docs/issues/1140) | 4 |
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Contributing needs work](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/112) | 4 |
 | layer5io/docs | JavaScript | [[Docs] Improve Related Docs Links in Pinning Models to Dock Page](https://github.com/layer5io/docs/issues/1028) | 5 |
 | layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 3](https://github.com/layer5io/docs/issues/793) | 5 |
@@ -464,7 +465,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/onnxscript | Python | [informing about bad positional argument in node constructor](https://github.com/microsoft/onnxscript/issues/1984) | 2 |
 | microsoft/TRELLIS | Python | [TRELLIS API](https://github.com/microsoft/TRELLIS/issues/65) | 2 |
 | huggingface/diffusers | Python | [Modular pipeline: Krea 2](https://github.com/huggingface/diffusers/issues/14056) | 3 |
-| huggingface/lerobot | Python | [Finetune smolvla with vision encoder](https://github.com/huggingface/lerobot/issues/1774) | 3 |
 | huggingface/lighteval | Python | [[FT] showing count in Markdown summary table](https://github.com/huggingface/lighteval/issues/804) | 3 |
 | huggingface/lighteval | Python | [[FT]  Add tests for nanotron](https://github.com/huggingface/lighteval/issues/765) | 3 |
 | huggingface/lighteval | Python | [[FT] Build in a way to specify specific IDs/Lines in Dataset to use as few-shot examples in the same split](https://github.com/huggingface/lighteval/issues/634) | 3 |
@@ -476,6 +476,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | godotengine/godot-blender-exporter | Python | [Blender object with negative scale](https://github.com/godotengine/godot-blender-exporter/issues/24) | 3 |
 | huggingface/diffusers | Python | [[Anima] Add img2img capability](https://github.com/huggingface/diffusers/issues/13903) | 4 |
 | huggingface/lerobot | Python | [How can I change the task name of already recorded episodes?](https://github.com/huggingface/lerobot/issues/2096) | 4 |
+| huggingface/lerobot | Python | [Finetune smolvla with vision encoder](https://github.com/huggingface/lerobot/issues/1774) | 4 |
 | huggingface/lerobot | Python | [Ensure the utilities module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1727) | 4 |
 | huggingface/lighteval | Python | [[EVAL]: Add more African Benchmarks](https://github.com/huggingface/lighteval/issues/373) | 4 |
 | huggingface/dataset-viewer | Python | [Cache/Queue metrics should not be negative](https://github.com/huggingface/dataset-viewer/issues/2495) | 4 |
@@ -511,7 +512,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 24 |
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 26 |
 | microsoft/autogen | Python | [open needs encoding='utf-8' for non-english environment, error in playwright_controller.py](https://github.com/microsoft/autogen/issues/5566) | 29 |
-| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 128 |
+| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 133 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 |
 | microsoft/openvmm | Rust | [remove usages of futures::select! in the repo with futures_concurrency](https://github.com/microsoft/openvmm/issues/1246) | 0 |
 | microsoft/windows-drivers-rs | Rust | [Migrate from fs4 to std::File flocks](https://github.com/microsoft/windows-drivers-rs/issues/300) | 0 |
@@ -657,7 +658,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/chat-ui | TypeScript | [Disabling Reasoning Summary as an Env Option](https://github.com/huggingface/chat-ui/issues/1720) | 5 |
 | microsoft/vscode-python-debugger | TypeScript | [Add support for no-config debugging using nushell](https://github.com/microsoft/vscode-python-debugger/issues/647) | 5 |
 | mattermost/mattermost | TypeScript | [Help Wanted: Channel Export README > Split out admin content to child pages](https://github.com/mattermost/mattermost/issues/25173) | 5 |
-| layer5io/sistent | TypeScript | [[Feature] Add ShieldIcon to Sistent](https://github.com/layer5io/sistent/issues/1685) | 6 |
 | microsoft/data-formulator | TypeScript | [Expand chart type supports](https://github.com/microsoft/data-formulator/issues/193) | 6 |
 | microsoft/teams.ts | TypeScript | [Automatically parse feedback value](https://github.com/microsoft/teams.ts/issues/184) | 7 |
 | mattermost/mattermost | TypeScript | [[RN] Change "Join" button on sign in page keyboard to "Go"](https://github.com/mattermost/mattermost/issues/26590) | 7 |
