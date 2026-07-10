@@ -59,7 +59,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-07-09</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-07-10</sub></sub>
 
 | Repo | Language | Title | Comments |
 |---|---|---|---|
@@ -67,6 +67,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/ebpf-for-windows | C | [Cleanup: catch2 now allows multiple threads](https://github.com/microsoft/ebpf-for-windows/issues/4553) | 0 |
 | microsoft/msquic | C | [Miss check for the return value of CXPLAT_ALLOC_NONPAGED and CxPlatPoolAlloc](https://github.com/microsoft/msquic/issues/5233) | 0 |
 | microsoft/jbpf | C | [jbpf_io_ipc_test passes with error messages](https://github.com/microsoft/jbpf/issues/54) | 0 |
+| microsoft/jbpf | C | [Remove JBPF_EXPERIMENTAL_FEATURES from  header files](https://github.com/microsoft/jbpf/issues/26) | 0 |
 | microsoft/ebpf-for-windows | C | [Update tests/sample/undocked/map.c](https://github.com/microsoft/ebpf-for-windows/issues/4547) | 1 |
 | microsoft/ntttcp | C | [per-thread throughput is always 0.00 with ntttcp version 5.40.](https://github.com/microsoft/ntttcp/issues/24) | 1 |
 | microsoft/msquic | C | [Support in-memory certificate stores](https://github.com/microsoft/msquic/issues/4951) | 2 |
@@ -84,7 +85,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/snmalloc | C++ | [Implement accurate size storage for Windows `_msize` and `_recalloc`](https://github.com/microsoft/snmalloc/issues/786) | 0 |
 | microsoft/react-native-windows | C++ | [Scroll wheel behavior differs significantly in new architecture (Windows App SDK) vs WinUI 3 Gallery app](https://github.com/microsoft/react-native-windows/issues/14653) | 1 |
 | microsoft/react-native-windows | C++ | [Deprecate autolink functionality to copy flags from react-native.config.js into ExperimentalFeature.props.](https://github.com/microsoft/react-native-windows/issues/14601) | 1 |
-| microsoft/terminal | C++ | ["Export text" action invoked from cmd paletter forwards Enter key](https://github.com/microsoft/terminal/issues/20188) | 3 |
 | microsoft/react-native-windows | C++ | [[Bug] init-windows adds incorrect name of Native Codegen File Include](https://github.com/microsoft/react-native-windows/issues/15094) | 4 |
 | godotengine/godot | C++ | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 27 |
 | godotengine/godot | C++ | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 34 |
@@ -194,6 +194,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-nps | Go | [JS error when telling Surveybot to disable the survey on old post](https://github.com/mattermost/mattermost-plugin-nps/issues/81) | 3 |
 | mattermost/mattermost-plugin-zoom | Go | [Synch Status: When on a Zoom call, show as “Busy”](https://github.com/mattermost/mattermost-plugin-zoom/issues/170) | 3 |
 | mattermost/mattermost-plugin-github | Go | [Register autolinks for GitHub URLs](https://github.com/mattermost/mattermost-plugin-github/issues/269) | 3 |
+| kubernetes/autoscaler | Go | [VPA: Improve CanInPlaceUpdate Logging](https://github.com/kubernetes/autoscaler/issues/9965) | 4 |
 | microsoft/retina | Go | [hubble-relay image v1.15.0 missing h2 ALPN support that breaks hubble CLI (grpc-go >= 1.67)](https://github.com/microsoft/retina/issues/2165) | 4 |
 | microsoft/terraform-provider-azuredevops | Go | [Full unit test suite isn't running on CI](https://github.com/microsoft/terraform-provider-azuredevops/issues/1439) | 4 |
 | hashicorp/terraform-provider-aws | Go | [aws_storagegateway_smb_file_share: cache_stale_timeout_in_seconds validation rejects 0, but the AWS API accepts it (blocks disabling cache refresh)](https://github.com/hashicorp/terraform-provider-aws/issues/48876) | 4 |
@@ -325,7 +326,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | cncf/glossary | HTML | [[ru] Localize `Service` into Russian](https://github.com/cncf/glossary/issues/3334) | 2 |
 | cncf/tag-app-delivery | HTML | [Automation of tag-app-delivery repo](https://github.com/cncf/tag-app-delivery/issues/566) | 3 |
 | cncf/tag-security | HTML | [[Suggestion] Working Group Landing Page](https://github.com/cncf/tag-security/issues/1354) | 4 |
-| layer5io/academy-theme | HTML | [Upgrade project to go1.26.4](https://github.com/layer5io/academy-theme/issues/217) | 7 |
+| layer5io/academy-theme | HTML | [Upgrade project to go1.26.4](https://github.com/layer5io/academy-theme/issues/217) | 6 |
 | cncf/tag-observability | HTML | [WG: Create GitHub Pages site for TAG Observability](https://github.com/cncf/tag-observability/issues/39) | 7 |
 | kubernetes/website | HTML | [[hi] Localize Network Policy Provider page](https://github.com/kubernetes/website/issues/47439) | 8 |
 | kubernetes/website | HTML | [[hi] Localize concepts/extend-kubernetes page](https://github.com/kubernetes/website/issues/48991) | 10 |
@@ -345,6 +346,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/copilot-for-eclipse | Java | [Please integrate copilot into eclipse quickfix feature - Enhancement Request](https://github.com/microsoft/copilot-for-eclipse/issues/70) | 3 |
 | microsoft/typespec | Java | [testing: expectDiagnostics() should provide an option to ignore ordering](https://github.com/microsoft/typespec/issues/5818) | 3 |
 | microsoft/copilot-for-eclipse | Java | [Unable to use the Java source file corresponding to the class file as context](https://github.com/microsoft/copilot-for-eclipse/issues/117) | 13 |
+| layer5io/docs | JavaScript | [[Docs] SMTP guide layout is misaligned](https://github.com/layer5io/docs/issues/1147) | 1 |
 | mattermost/mattermost-plugin-gitlab | JavaScript | [Convert link_tooltip component to typescript](https://github.com/mattermost/mattermost-plugin-gitlab/issues/424) | 1 |
 | freeCodeCamp/classroom | JavaScript | [Bug: Classrooms can be created with no certifications](https://github.com/freeCodeCamp/classroom/issues/551) | 1 |
 | huggingface/transformers.js | JavaScript | [Is 'aggregation_strategy' parameter available for token classification pipeline?](https://github.com/huggingface/transformers.js/issues/633) | 2 |
@@ -355,6 +357,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | layer5io/docs | JavaScript | [Screen capture includes Grammarly](https://github.com/layer5io/docs/issues/543) | 3 |
 | layer5io/docs | JavaScript | [[UI] Docs layout breaks when browser zoom is increased](https://github.com/layer5io/docs/issues/1140) | 4 |
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Contributing needs work](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/112) | 4 |
+| layer5io/layer5 | JavaScript | [[Blog] Fix image visibility issue in dark theme](https://github.com/layer5io/layer5/issues/7858) | 5 |
 | layer5io/docs | JavaScript | [[Docs] Improve Related Docs Links in Pinning Models to Dock Page](https://github.com/layer5io/docs/issues/1028) | 5 |
 | layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 3](https://github.com/layer5io/docs/issues/793) | 5 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Citrix Service Mesh under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4880) | 5 |
@@ -480,13 +483,13 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/lerobot | Python | [Ensure the utilities module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1727) | 4 |
 | huggingface/lighteval | Python | [[EVAL]: Add more African Benchmarks](https://github.com/huggingface/lighteval/issues/373) | 4 |
 | huggingface/dataset-viewer | Python | [Cache/Queue metrics should not be negative](https://github.com/huggingface/dataset-viewer/issues/2495) | 4 |
-| microsoft/onnxscript | Python | [Constant Folding removes 'axes' initializer form Squeeze layer, resulting in incorrect ONNX model](https://github.com/microsoft/onnxscript/issues/2810) | 4 |
 | huggingface/lighteval | Python | [[BUG] custom model docs don't run: missing imports](https://github.com/huggingface/lighteval/issues/760) | 5 |
 | huggingface/nanotron | Python | [Avoid nested `InheritFromOtherOptimizer`](https://github.com/huggingface/nanotron/issues/267) | 5 |
 | huggingface/nanotron | Python | [[Bug] Missing `_is_using_mup` when resume checkpoint](https://github.com/huggingface/nanotron/issues/198) | 5 |
 | huggingface/nanotron | Python | [[Unit Test] Add unit tests for DistributedTrainer](https://github.com/huggingface/nanotron/issues/90) | 5 |
 | huggingface/lighteval | Python | [Append revision to filepath in `--output_dir`?](https://github.com/huggingface/lighteval/issues/56) | 5 |
 | huggingface/optimum-benchmark | Python | [Evaluators for specific tasks](https://github.com/huggingface/optimum-benchmark/issues/34) | 5 |
+| microsoft/onnxscript | Python | [Constant Folding removes 'axes' initializer form Squeeze layer, resulting in incorrect ONNX model](https://github.com/microsoft/onnxscript/issues/2810) | 5 |
 | huggingface/lighteval | Python | [[FT] Improve Documentation and Examples](https://github.com/huggingface/lighteval/issues/682) | 6 |
 | huggingface/accelerate | Python | [[Community Contributions] examples on distributed inference using 🤗 Accelerate](https://github.com/huggingface/accelerate/issues/3078) | 6 |
 | huggingface/lighteval | Python | [[EVAL] Long Horizon Execution](https://github.com/huggingface/lighteval/issues/1056) | 7 |
@@ -512,7 +515,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 24 |
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 26 |
 | microsoft/autogen | Python | [open needs encoding='utf-8' for non-english environment, error in playwright_controller.py](https://github.com/microsoft/autogen/issues/5566) | 29 |
-| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 133 |
+| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 139 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 |
 | microsoft/openvmm | Rust | [remove usages of futures::select! in the repo with futures_concurrency](https://github.com/microsoft/openvmm/issues/1246) | 0 |
 | microsoft/windows-drivers-rs | Rust | [Migrate from fs4 to std::File flocks](https://github.com/microsoft/windows-drivers-rs/issues/300) | 0 |
@@ -663,9 +666,9 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost | TypeScript | [[RN] Change "Join" button on sign in page keyboard to "Go"](https://github.com/mattermost/mattermost/issues/26590) | 7 |
 | huggingface/huggingface.js | TypeScript | [Tracking integration for Video Classification](https://github.com/huggingface/huggingface.js/issues/332) | 8 |
 | mattermost/mattermost | TypeScript | [Help Wanted: CircleCI README > Split out admin content to child pages](https://github.com/mattermost/mattermost/issues/25175) | 8 |
-| microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Bug: Conversation KPIs dashboard is blank even though all the related flows are enabled and prerequisites are met](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/746) | 9 |
 | layer5io/sistent | TypeScript | [[Feature] Add Support for Table Variants](https://github.com/layer5io/sistent/issues/992) | 10 |
 | mattermost/mattermost | TypeScript | [Bitbucket plugin: Support for bitbucket Datacenter/server](https://github.com/mattermost/mattermost/issues/24188) | 10 |
+| microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Bug: Conversation KPIs dashboard is blank even though all the related flows are enabled and prerequisites are met](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/746) | 11 |
 | mattermost/mattermost | TypeScript | [Create config setting to always have the team sidebar visible](https://github.com/mattermost/mattermost/issues/18010) | 13 |
 | mattermost/mattermost | TypeScript | [Interactive Dialogs timeout forbiddingly short in slash command integrations ](https://github.com/mattermost/mattermost/issues/21901) | 14 |
 | microsoft/data-formulator | TypeScript | [Create new data loaders to different resources](https://github.com/microsoft/data-formulator/issues/156) | 15 |
