@@ -59,7 +59,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-07-10</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-07-11</sub></sub>
 
 | Repo | Language | Title | Comments |
 |---|---|---|---|
@@ -81,10 +81,10 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/aspire | C# | [[nit]: "Operation cancelled by user action" log is too incessant](https://github.com/microsoft/aspire/issues/9311) | 3 |
 | microsoft/mcp | C# | [[COMMUNITY] Auto generate CHANGELOG, including adding contributors for each release](https://github.com/microsoft/mcp/issues/156) | 4 |
 | microsoft/aspire | C# | [Improve Exception Message for Missing Project Metadata Annotation in ResourceContainerImageBuilder.cs](https://github.com/microsoft/aspire/issues/11299) | 12 |
-| microsoft/STL | C++ | [`<yvals_core.h>`: Update `_MSVC_STL_UPDATE` to July 2026](https://github.com/microsoft/STL/issues/6349) | 0 |
 | microsoft/snmalloc | C++ | [Implement accurate size storage for Windows `_msize` and `_recalloc`](https://github.com/microsoft/snmalloc/issues/786) | 0 |
 | microsoft/react-native-windows | C++ | [Scroll wheel behavior differs significantly in new architecture (Windows App SDK) vs WinUI 3 Gallery app](https://github.com/microsoft/react-native-windows/issues/14653) | 1 |
 | microsoft/react-native-windows | C++ | [Deprecate autolink functionality to copy flags from react-native.config.js into ExperimentalFeature.props.](https://github.com/microsoft/react-native-windows/issues/14601) | 1 |
+| godotengine/godot | C++ | [Duplicate buffer deletion in destructor in GLES3 backend](https://github.com/godotengine/godot/issues/121191) | 2 |
 | microsoft/react-native-windows | C++ | [[Bug] init-windows adds incorrect name of Native Codegen File Include](https://github.com/microsoft/react-native-windows/issues/15094) | 4 |
 | godotengine/godot | C++ | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 27 |
 | godotengine/godot | C++ | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 34 |
@@ -144,7 +144,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-nps | Go | [Use SiteURL for all calls from the webapp](https://github.com/mattermost/mattermost-plugin-nps/issues/70) | 1 |
 | mattermost/mattermost-plugin-google-calendar | Go | [Improve error handling in `completeCalendar` to avoid panic](https://github.com/mattermost/mattermost-plugin-google-calendar/issues/8) | 1 |
 | mattermost/mattermost-plugin-github | Go | [Use custom post type to display TODO list](https://github.com/mattermost/mattermost-plugin-github/issues/86) | 1 |
-| hashicorp/terraform-provider-aws | Go | [`webserver_access_mode` argument in `aws_mwaa_environment` resource is missing a value](https://github.com/hashicorp/terraform-provider-aws/issues/48835) | 2 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_bedrockagentcore_memory_strategy missing reflection configuration for EPISODIC type](https://github.com/hashicorp/terraform-provider-aws/issues/47938) | 2 |
 | hashicorp/terraform-provider-aws | Go | [aws_fms_policy resource_tag_logical_operator not correctly displaying diff during a plan](https://github.com/hashicorp/terraform-provider-aws/issues/47771) | 2 |
 | hashicorp/terraform-provider-aws | Go | [Add private DNS endpoint attribute to `aws_dsql_cluster` resource](https://github.com/hashicorp/terraform-provider-aws/issues/47596) | 2 |
@@ -174,6 +173,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/cloud-provider-openstack | Go | [[all]: openstack API debugger shows `client.go:128` for all calls](https://github.com/kubernetes/cloud-provider-openstack/issues/2300) | 3 |
 | kubernetes/kops | Go | [Update AWS China documentation with Route53 Support](https://github.com/kubernetes/kops/issues/9138) | 3 |
 | microsoft/retina | Go | [Update documentation with Hubble CLI and Hubble UI deployment instructions on Retina.](https://github.com/microsoft/retina/issues/1387) | 3 |
+| hashicorp/terraform-provider-aws | Go | [`webserver_access_mode` argument in `aws_mwaa_environment` resource is missing a value](https://github.com/hashicorp/terraform-provider-aws/issues/48835) | 3 |
 | hashicorp/terraform-provider-aws | Go | [data/aws_bedrock_foundation_model: modelLifecycle attribute not exposed](https://github.com/hashicorp/terraform-provider-aws/issues/47779) | 3 |
 | hashicorp/terraform-provider-aws | Go | [aws_s3tables_table_replication: Create fails with "A version token is not specified"](https://github.com/hashicorp/terraform-provider-aws/issues/46675) | 3 |
 | hashicorp/terraform-provider-aws | Go | [[EMR on EKS] aws_emrcontainers_job_template: add support for job_template_data.parameter_configuration](https://github.com/hashicorp/terraform-provider-aws/issues/46502) | 3 |
@@ -346,6 +346,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/copilot-for-eclipse | Java | [Please integrate copilot into eclipse quickfix feature - Enhancement Request](https://github.com/microsoft/copilot-for-eclipse/issues/70) | 3 |
 | microsoft/typespec | Java | [testing: expectDiagnostics() should provide an option to ignore ordering](https://github.com/microsoft/typespec/issues/5818) | 3 |
 | microsoft/copilot-for-eclipse | Java | [Unable to use the Java source file corresponding to the class file as context](https://github.com/microsoft/copilot-for-eclipse/issues/117) | 13 |
+| layer5io/layer5 | JavaScript | [Enhance or replace the "Star the Repo" button](https://github.com/layer5io/layer5/issues/7859) | 0 |
+| layer5io/layer5 | JavaScript | [Inaccurate: "0" performance tests results being reported](https://github.com/layer5io/layer5/issues/7860) | 1 |
 | layer5io/docs | JavaScript | [[Docs] SMTP guide layout is misaligned](https://github.com/layer5io/docs/issues/1147) | 1 |
 | mattermost/mattermost-plugin-gitlab | JavaScript | [Convert link_tooltip component to typescript](https://github.com/mattermost/mattermost-plugin-gitlab/issues/424) | 1 |
 | freeCodeCamp/classroom | JavaScript | [Bug: Classrooms can be created with no certifications](https://github.com/freeCodeCamp/classroom/issues/551) | 1 |
@@ -427,6 +429,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/AutoPodcaster | Python | [Add devcontainer](https://github.com/microsoft/AutoPodcaster/issues/9) | 0 |
 | microsoft/teams-agent-accelerator-libs-py | Python | [Expose the ability to add memory explicitly](https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/57) | 0 |
 | microsoft/BitBLAS | Python | [[Feature Request] Enhance Database to support reload scheduled tilelang operator](https://github.com/microsoft/BitBLAS/issues/269) | 0 |
+| microsoft/BitBLAS | Python | [[Feature Request] Flash Attention Op should be enhanced with our Scheduler Abstraction](https://github.com/microsoft/BitBLAS/issues/264) | 0 |
 | huggingface/lighteval | Python | [[EVAL] Add kyrgyzLLM benchmark](https://github.com/huggingface/lighteval/issues/1036) | 1 |
 | huggingface/lerobot | Python | [Ensure the teleoperators module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1726) | 1 |
 | huggingface/lighteval | Python | [[BUG]  Optimize tokenization](https://github.com/huggingface/lighteval/issues/732) | 1 |
@@ -452,7 +455,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/nanotron | Python | [[Feature Request] Support Data Streaming for faster training of large models](https://github.com/huggingface/nanotron/issues/45) | 2 |
 | microsoft/agent-governance-toolkit | Python | [[Bug]: Quickstart imports fail on base install — README paths need [full], and agent_os is deprecated](https://github.com/microsoft/agent-governance-toolkit/issues/3253) | 2 |
 | microsoft/agent-governance-toolkit | Python | [credential_redactor: docs imply redact() scrubs PII, but it covers secrets only; SSN patterns diverge](https://github.com/microsoft/agent-governance-toolkit/issues/3239) | 2 |
-| microsoft/agent-governance-toolkit | Python | [agent-os PolicyInterceptor: check ordering inconsistent with pre_execute_check](https://github.com/microsoft/agent-governance-toolkit/issues/3238) | 2 |
 | microsoft/agent-governance-toolkit | Python | [agt red-team: report verdict and CI exit code use different criteria](https://github.com/microsoft/agent-governance-toolkit/issues/3237) | 2 |
 | microsoft/SkillOpt | Python | [Strengthen verifier-discipline test to assert held-out scores and gate_action (follow-up to #87)](https://github.com/microsoft/SkillOpt/issues/94) | 2 |
 | microsoft/physical-ai-toolchain | Python | [build: refresh uv pin to 0.11.25 and consolidate remaining stale uv reference](https://github.com/microsoft/physical-ai-toolchain/issues/1071) | 2 |
@@ -489,7 +491,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/nanotron | Python | [[Unit Test] Add unit tests for DistributedTrainer](https://github.com/huggingface/nanotron/issues/90) | 5 |
 | huggingface/lighteval | Python | [Append revision to filepath in `--output_dir`?](https://github.com/huggingface/lighteval/issues/56) | 5 |
 | huggingface/optimum-benchmark | Python | [Evaluators for specific tasks](https://github.com/huggingface/optimum-benchmark/issues/34) | 5 |
-| microsoft/onnxscript | Python | [Constant Folding removes 'axes' initializer form Squeeze layer, resulting in incorrect ONNX model](https://github.com/microsoft/onnxscript/issues/2810) | 5 |
 | huggingface/lighteval | Python | [[FT] Improve Documentation and Examples](https://github.com/huggingface/lighteval/issues/682) | 6 |
 | huggingface/accelerate | Python | [[Community Contributions] examples on distributed inference using 🤗 Accelerate](https://github.com/huggingface/accelerate/issues/3078) | 6 |
 | huggingface/lighteval | Python | [[EVAL] Long Horizon Execution](https://github.com/huggingface/lighteval/issues/1056) | 7 |
@@ -509,12 +510,14 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/markitdown | Python | [Support for .doc extensions](https://github.com/microsoft/markitdown/issues/23) | 14 |
 | microsoft/markitdown | Python | [LLM Integration](https://github.com/microsoft/markitdown/issues/12) | 17 |
 | huggingface/lerobot | Python | [Make policies compatible with torch.compile](https://github.com/huggingface/lerobot/issues/2061) | 18 |
-| huggingface/datasets | Python | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 18 |
 | huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 19 |
+| huggingface/datasets | Python | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 19 |
 | huggingface/diffusers | Python | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 22 |
 | huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 24 |
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 26 |
 | microsoft/autogen | Python | [open needs encoding='utf-8' for non-english environment, error in playwright_controller.py](https://github.com/microsoft/autogen/issues/5566) | 29 |
+| microsoft/TRELLIS | Python | [Can this be used commercially?](https://github.com/microsoft/TRELLIS/issues/41) | 30 |
+| microsoft/TRELLIS | Python | [How to generate 3D assets with more number of faces?](https://github.com/microsoft/TRELLIS/issues/58) | 34 |
 | huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 139 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 |
 | microsoft/openvmm | Rust | [remove usages of futures::select! in the repo with futures_concurrency](https://github.com/microsoft/openvmm/issues/1246) | 0 |
