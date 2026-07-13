@@ -59,7 +59,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-07-12</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-07-13</sub></sub>
 
 | Repo | Language | Title | Comments |
 |---|---|---|---|
@@ -82,12 +82,11 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/mcp | C# | [[COMMUNITY] Auto generate CHANGELOG, including adding contributors for each release](https://github.com/microsoft/mcp/issues/156) | 4 |
 | microsoft/aspire | C# | [Improve Exception Message for Missing Project Metadata Annotation in ResourceContainerImageBuilder.cs](https://github.com/microsoft/aspire/issues/11299) | 12 |
 | microsoft/snmalloc | C++ | [Implement accurate size storage for Windows `_msize` and `_recalloc`](https://github.com/microsoft/snmalloc/issues/786) | 0 |
-| godotengine/godot | C++ | [Fuzzer: `GLTFState.append_gltf_node` crashes Godot](https://github.com/godotengine/godot/issues/121269) | 0 |
-| godotengine/godot | C++ | [Fuzzer: `CameraFeed.get_texture_tex_id` crashes Godot](https://github.com/godotengine/godot/issues/121266) | 0 |
 | microsoft/react-native-windows | C++ | [Scroll wheel behavior differs significantly in new architecture (Windows App SDK) vs WinUI 3 Gallery app](https://github.com/microsoft/react-native-windows/issues/14653) | 1 |
 | microsoft/react-native-windows | C++ | [Deprecate autolink functionality to copy flags from react-native.config.js into ExperimentalFeature.props.](https://github.com/microsoft/react-native-windows/issues/14601) | 1 |
 | godotengine/godot | C++ | [Fuzzer: `BlitMaterial.set_blend_mode` crashes Godot](https://github.com/godotengine/godot/issues/121263) | 1 |
 | microsoft/react-native-windows | C++ | [[Bug] init-windows adds incorrect name of Native Codegen File Include](https://github.com/microsoft/react-native-windows/issues/15094) | 4 |
+| godotengine/godot | C++ | [Fuzzer: `CameraFeed.get_texture_tex_id` crashes Godot](https://github.com/godotengine/godot/issues/121266) | 4 |
 | godotengine/godot | C++ | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 27 |
 | godotengine/godot | C++ | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 34 |
 | godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 254 |
@@ -176,7 +175,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/cloud-provider-openstack | Go | [[all]: openstack API debugger shows `client.go:128` for all calls](https://github.com/kubernetes/cloud-provider-openstack/issues/2300) | 3 |
 | kubernetes/kops | Go | [Update AWS China documentation with Route53 Support](https://github.com/kubernetes/kops/issues/9138) | 3 |
 | microsoft/retina | Go | [Update documentation with Hubble CLI and Hubble UI deployment instructions on Retina.](https://github.com/microsoft/retina/issues/1387) | 3 |
-| hashicorp/terraform-provider-aws | Go | [`webserver_access_mode` argument in `aws_mwaa_environment` resource is missing a value](https://github.com/hashicorp/terraform-provider-aws/issues/48835) | 3 |
 | hashicorp/terraform-provider-aws | Go | [data/aws_bedrock_foundation_model: modelLifecycle attribute not exposed](https://github.com/hashicorp/terraform-provider-aws/issues/47779) | 3 |
 | hashicorp/terraform-provider-aws | Go | [aws_s3tables_table_replication: Create fails with "A version token is not specified"](https://github.com/hashicorp/terraform-provider-aws/issues/46675) | 3 |
 | hashicorp/terraform-provider-aws | Go | [[EMR on EKS] aws_emrcontainers_job_template: add support for job_template_data.parameter_configuration](https://github.com/hashicorp/terraform-provider-aws/issues/46502) | 3 |
@@ -197,7 +195,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-nps | Go | [JS error when telling Surveybot to disable the survey on old post](https://github.com/mattermost/mattermost-plugin-nps/issues/81) | 3 |
 | mattermost/mattermost-plugin-zoom | Go | [Synch Status: When on a Zoom call, show as “Busy”](https://github.com/mattermost/mattermost-plugin-zoom/issues/170) | 3 |
 | mattermost/mattermost-plugin-github | Go | [Register autolinks for GitHub URLs](https://github.com/mattermost/mattermost-plugin-github/issues/269) | 3 |
-| kubernetes/autoscaler | Go | [VPA: use helper function for getting all update modes](https://github.com/kubernetes/autoscaler/issues/9971) | 4 |
 | kubernetes/autoscaler | Go | [VPA: Improve CanInPlaceUpdate Logging](https://github.com/kubernetes/autoscaler/issues/9965) | 4 |
 | microsoft/retina | Go | [hubble-relay image v1.15.0 missing h2 ALPN support that breaks hubble CLI (grpc-go >= 1.67)](https://github.com/microsoft/retina/issues/2165) | 4 |
 | microsoft/terraform-provider-azuredevops | Go | [Full unit test suite isn't running on CI](https://github.com/microsoft/terraform-provider-azuredevops/issues/1439) | 4 |
@@ -256,6 +253,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/terraform-provider-aws | Go | [[Bug]: aws_kinesis_firehose_delivery_stream continually applies cloudwatch_logging_options](https://github.com/hashicorp/terraform-provider-aws/issues/40446) | 7 |
 | hashicorp/nomad | Go | [retry_join to support digitalocean provider](https://github.com/hashicorp/nomad/issues/18587) | 7 |
 | hashicorp/consul | Go | [Metrics missing from documentation](https://github.com/hashicorp/consul/issues/13364) | 7 |
+| hashicorp/nomad | Go | [Add AWS instance tags to client metadata](https://github.com/hashicorp/nomad/issues/12537) | 7 |
 | mattermost/mattermost-plugin-github | Go | [Notification numbers are not properly aligned](https://github.com/mattermost/mattermost-plugin-github/issues/398) | 7 |
 | mattermost/mattermost-plugin-github | Go | [In RHS, display whether there are linked pull requests to issues, and if there are linked issues for pull requests](https://github.com/mattermost/mattermost-plugin-github/issues/271) | 7 |
 | layer5io/getnighthawk | Go | [[SITE] Nav Bar is missing on the mobile view of the page](https://github.com/layer5io/getnighthawk/issues/258) | 8 |
@@ -335,10 +333,10 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/website | HTML | [[hi] Localize /concepts/cluster-administration page](https://github.com/kubernetes/website/issues/48990) | 10 |
 | kubernetes/website | HTML | [[hi] Localize concepts/scheduling-eviction page ](https://github.com/kubernetes/website/issues/48989) | 10 |
 | kubernetes/website | HTML | [[hi] Localize concepts/Storage page](https://github.com/kubernetes/website/issues/47462) | 11 |
-| kubernetes/website | HTML | [Umbrella: Improve and update the generate-ref-docs contributor guide](https://github.com/kubernetes/website/issues/56385) | 13 |
 | kubernetes/website | HTML | [[hi] Localize concepts/Security page](https://github.com/kubernetes/website/issues/47463) | 13 |
 | kubernetes/website | HTML | [[hi] Localize concepts/Workloads page ](https://github.com/kubernetes/website/issues/47442) | 13 |
 | kubernetes/website | HTML | [[hi] Localize tasks/configure-pod-container page ](https://github.com/kubernetes/website/issues/48992) | 14 |
+| kubernetes/website | HTML | [Umbrella: Improve and update the generate-ref-docs contributor guide](https://github.com/kubernetes/website/issues/56385) | 15 |
 | kubernetes/website | HTML | [[hi] Localize en/docs/contribute/style/page-content-types.md](https://github.com/kubernetes/website/issues/36594) | 18 |
 | kubernetes/website | HTML | [[hi] Localize en/docs/contribute/participate/_index.md](https://github.com/kubernetes/website/issues/36471) | 19 |
 | kubernetes/website | HTML | [[de] Localize content/de/setup/production-environment/_index.md](https://github.com/kubernetes/website/issues/50286) | 23 |
@@ -348,8 +346,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/copilot-for-eclipse | Java | [Please integrate copilot into eclipse quickfix feature - Enhancement Request](https://github.com/microsoft/copilot-for-eclipse/issues/70) | 3 |
 | microsoft/typespec | Java | [testing: expectDiagnostics() should provide an option to ignore ordering](https://github.com/microsoft/typespec/issues/5818) | 3 |
 | microsoft/copilot-for-eclipse | Java | [Unable to use the Java source file corresponding to the class file as context](https://github.com/microsoft/copilot-for-eclipse/issues/117) | 13 |
-| layer5io/layer5 | JavaScript | [Enhance or replace the "Star the Repo" button](https://github.com/layer5io/layer5/issues/7859) | 1 |
-| layer5io/docs | JavaScript | [[Docs] SMTP guide layout is misaligned](https://github.com/layer5io/docs/issues/1147) | 1 |
 | mattermost/mattermost-plugin-gitlab | JavaScript | [Convert link_tooltip component to typescript](https://github.com/mattermost/mattermost-plugin-gitlab/issues/424) | 1 |
 | freeCodeCamp/classroom | JavaScript | [Bug: Classrooms can be created with no certifications](https://github.com/freeCodeCamp/classroom/issues/551) | 1 |
 | layer5io/layer5 | JavaScript | [Inaccurate: "0" performance tests results being reported](https://github.com/layer5io/layer5/issues/7860) | 2 |
@@ -359,6 +355,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | freeCodeCamp/classroom | JavaScript | [Bug: /classes page crashes if the mock-fcc-data endpoint is not running](https://github.com/freeCodeCamp/classroom/issues/533) | 2 |
 | layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 4](https://github.com/layer5io/docs/issues/794) | 3 |
 | layer5io/docs | JavaScript | [Screen capture includes Grammarly](https://github.com/layer5io/docs/issues/543) | 3 |
+| layer5io/docs | JavaScript | [[Docs] Improve visibility of carousel navigation](https://github.com/layer5io/docs/issues/1163) | 4 |
+| layer5io/layer5 | JavaScript | [Enhance or replace the "Star the Repo" button](https://github.com/layer5io/layer5/issues/7859) | 4 |
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Contributing needs work](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/112) | 4 |
 | layer5io/docs | JavaScript | [[Docs] Improve Related Docs Links in Pinning Models to Dock Page](https://github.com/layer5io/docs/issues/1028) | 5 |
 | layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 3](https://github.com/layer5io/docs/issues/793) | 5 |
@@ -452,7 +450,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/dataset-viewer | Python | [Use "Sign-In with HF" instead of token in admin-UI](https://github.com/huggingface/dataset-viewer/issues/2373) | 2 |
 | huggingface/nanotron | Python | [[Feature Request] Support Data Streaming for faster training of large models](https://github.com/huggingface/nanotron/issues/45) | 2 |
 | microsoft/agent-governance-toolkit | Python | [[Bug]: Quickstart imports fail on base install — README paths need [full], and agent_os is deprecated](https://github.com/microsoft/agent-governance-toolkit/issues/3253) | 2 |
-| microsoft/agent-governance-toolkit | Python | [credential_redactor: docs imply redact() scrubs PII, but it covers secrets only; SSN patterns diverge](https://github.com/microsoft/agent-governance-toolkit/issues/3239) | 2 |
 | microsoft/agent-governance-toolkit | Python | [agt red-team: report verdict and CI exit code use different criteria](https://github.com/microsoft/agent-governance-toolkit/issues/3237) | 2 |
 | microsoft/physical-ai-toolchain | Python | [build: refresh uv pin to 0.11.25 and consolidate remaining stale uv reference](https://github.com/microsoft/physical-ai-toolchain/issues/1071) | 2 |
 | microsoft/agent-governance-toolkit | Python | [bug(examples/flowise-governance): flowise-flow.json fails to import on Flowise 2.x and 3.x](https://github.com/microsoft/agent-governance-toolkit/issues/3194) | 2 |
@@ -477,6 +474,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/dataset-viewer | Python | [Use `CONSTANT_LIST.copy` in list config fieds](https://github.com/huggingface/dataset-viewer/issues/1522) | 3 |
 | huggingface/optimum | Python | [Add all available ONNX models to ORTConfigManager](https://github.com/huggingface/optimum/issues/351) | 3 |
 | huggingface/transfer-learning-conv-ai | Python | [RuntimeError: shape '[-1, 2, 34]' is invalid for input of size 61710](https://github.com/huggingface/transfer-learning-conv-ai/issues/12) | 3 |
+| microsoft/agent-governance-toolkit | Python | [credential_redactor: docs imply redact() scrubs PII, but it covers secrets only; SSN patterns diverge](https://github.com/microsoft/agent-governance-toolkit/issues/3239) | 3 |
 | godotengine/godot-blender-exporter | Python | [Blender object with negative scale](https://github.com/godotengine/godot-blender-exporter/issues/24) | 3 |
 | huggingface/diffusers | Python | [[Anima] Add img2img capability](https://github.com/huggingface/diffusers/issues/13903) | 4 |
 | huggingface/lerobot | Python | [How can I change the task name of already recorded episodes?](https://github.com/huggingface/lerobot/issues/2096) | 4 |
@@ -509,8 +507,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/markitdown | Python | [Support for .doc extensions](https://github.com/microsoft/markitdown/issues/23) | 14 |
 | microsoft/markitdown | Python | [LLM Integration](https://github.com/microsoft/markitdown/issues/12) | 17 |
 | huggingface/lerobot | Python | [Make policies compatible with torch.compile](https://github.com/huggingface/lerobot/issues/2061) | 18 |
-| huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 19 |
 | huggingface/datasets | Python | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 19 |
+| huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 20 |
 | huggingface/diffusers | Python | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 22 |
 | huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 24 |
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 26 |
