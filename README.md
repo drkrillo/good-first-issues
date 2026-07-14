@@ -59,7 +59,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-07-13</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-07-14</sub></sub>
 
 | Repo | Language | Title | Comments |
 |---|---|---|---|
@@ -86,10 +86,9 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/react-native-windows | C++ | [Deprecate autolink functionality to copy flags from react-native.config.js into ExperimentalFeature.props.](https://github.com/microsoft/react-native-windows/issues/14601) | 1 |
 | godotengine/godot | C++ | [Fuzzer: `BlitMaterial.set_blend_mode` crashes Godot](https://github.com/godotengine/godot/issues/121263) | 1 |
 | microsoft/react-native-windows | C++ | [[Bug] init-windows adds incorrect name of Native Codegen File Include](https://github.com/microsoft/react-native-windows/issues/15094) | 4 |
-| godotengine/godot | C++ | [Fuzzer: `CameraFeed.get_texture_tex_id` crashes Godot](https://github.com/godotengine/godot/issues/121266) | 4 |
 | godotengine/godot | C++ | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 27 |
 | godotengine/godot | C++ | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 34 |
-| godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 254 |
+| godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 258 |
 | mattermost/mattermost-developer-documentation | CSS | [Help Wanted: Document how to do local development on a plugin that requires an E20/Enterprise license](https://github.com/mattermost/mattermost-developer-documentation/issues/815) | 2 |
 | mattermost/mattermost-developer-documentation | CSS | [Enhance Documentation for Registering Plugins on the Mattermost Webapp Sidebar](https://github.com/mattermost/mattermost-developer-documentation/issues/1352) | 3 |
 | mattermost/mattermost-developer-documentation | CSS | [Help Wanted: Gitpod docs have outdated screenshots for the mattermost GitHub repository](https://github.com/mattermost/mattermost-developer-documentation/issues/1244) | 3 |
@@ -235,6 +234,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-github | Go | ["Someone replied to your comment thread" feature](https://github.com/mattermost/mattermost-plugin-github/issues/328) | 5 |
 | mattermost/mattermost-plugin-confluence | Go | [Handle React warnings regarding non-DOM properties](https://github.com/mattermost/mattermost-plugin-confluence/issues/46) | 5 |
 | mattermost/mattermost-plugin-github | Go | [Add alternative sorting functionality for RHS view](https://github.com/mattermost/mattermost-plugin-github/issues/242) | 5 |
+| kubernetes/minikube | Go | [mikube start fail when --memory is lower than 2500M - missing input validation](https://github.com/kubernetes/minikube/issues/23317) | 6 |
 | kubernetes/kube-state-metrics | Go | [Parse Nested Arrays does not work](https://github.com/kubernetes/kube-state-metrics/issues/2368) | 6 |
 | hashicorp/terraform-provider-aws | Go | [Route53 Resolver Endpoint Hash Function Prevents Multiple IPs per Subnet When IP Address is Auto-Assigned](https://github.com/hashicorp/terraform-provider-aws/issues/43724) | 6 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_athena_prepared_statement: Allow multiline (EOT) query strings to preserve comments and line breaks without update-in-place](https://github.com/hashicorp/terraform-provider-aws/issues/41469) | 6 |
@@ -313,7 +313,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/kubernetes | Go | [Reuse the http request object for http probes](https://github.com/kubernetes/kubernetes/issues/115939) | 43 |
 | kubernetes/kubernetes | Go | [tracker: improve the kubelet test coverage](https://github.com/kubernetes/kubernetes/issues/109717) | 49 |
 | kubernetes/minikube | Go | [add documentation for WSL2](https://github.com/kubernetes/minikube/issues/7879) | 53 |
-| kubernetes/kubernetes | Go | [Migrate DRA components to support granular authorization on status updates](https://github.com/kubernetes/kubernetes/issues/138149) | 70 |
+| kubernetes/kubernetes | Go | [Migrate DRA components to support granular authorization on status updates](https://github.com/kubernetes/kubernetes/issues/138149) | 71 |
 | microsoft/edge-ai | HCL | [chore(python): add pip lock files for reproducible builds](https://github.com/microsoft/edge-ai/issues/167) | 0 |
 | microsoft/edge-ai | HCL | [docs(testing): add regression test tracking policy](https://github.com/microsoft/edge-ai/issues/176) | 1 |
 | microsoft/edge-ai | HCL | [docs(testing): update testing-validation.md to reflect actual test frameworks](https://github.com/microsoft/edge-ai/issues/144) | 1 |
@@ -336,8 +336,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/website | HTML | [[hi] Localize concepts/Security page](https://github.com/kubernetes/website/issues/47463) | 13 |
 | kubernetes/website | HTML | [[hi] Localize concepts/Workloads page ](https://github.com/kubernetes/website/issues/47442) | 13 |
 | kubernetes/website | HTML | [[hi] Localize tasks/configure-pod-container page ](https://github.com/kubernetes/website/issues/48992) | 14 |
-| kubernetes/website | HTML | [Umbrella: Improve and update the generate-ref-docs contributor guide](https://github.com/kubernetes/website/issues/56385) | 15 |
 | kubernetes/website | HTML | [[hi] Localize en/docs/contribute/style/page-content-types.md](https://github.com/kubernetes/website/issues/36594) | 18 |
+| kubernetes/website | HTML | [Umbrella: Improve and update the generate-ref-docs contributor guide](https://github.com/kubernetes/website/issues/56385) | 19 |
 | kubernetes/website | HTML | [[hi] Localize en/docs/contribute/participate/_index.md](https://github.com/kubernetes/website/issues/36471) | 19 |
 | kubernetes/website | HTML | [[de] Localize content/de/setup/production-environment/_index.md](https://github.com/kubernetes/website/issues/50286) | 23 |
 | kubernetes/website | HTML | [[hi] Localize en/docs/contribute/review/for-approvers.md](https://github.com/kubernetes/website/issues/36474) | 26 |
@@ -450,7 +450,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/dataset-viewer | Python | [Use "Sign-In with HF" instead of token in admin-UI](https://github.com/huggingface/dataset-viewer/issues/2373) | 2 |
 | huggingface/nanotron | Python | [[Feature Request] Support Data Streaming for faster training of large models](https://github.com/huggingface/nanotron/issues/45) | 2 |
 | microsoft/agent-governance-toolkit | Python | [[Bug]: Quickstart imports fail on base install — README paths need [full], and agent_os is deprecated](https://github.com/microsoft/agent-governance-toolkit/issues/3253) | 2 |
-| microsoft/agent-governance-toolkit | Python | [agt red-team: report verdict and CI exit code use different criteria](https://github.com/microsoft/agent-governance-toolkit/issues/3237) | 2 |
 | microsoft/physical-ai-toolchain | Python | [build: refresh uv pin to 0.11.25 and consolidate remaining stale uv reference](https://github.com/microsoft/physical-ai-toolchain/issues/1071) | 2 |
 | microsoft/agent-governance-toolkit | Python | [bug(examples/flowise-governance): flowise-flow.json fails to import on Flowise 2.x and 3.x](https://github.com/microsoft/agent-governance-toolkit/issues/3194) | 2 |
 | microsoft/winml-cli | Python | [winml perf --op-tracing: ANSI color codes garbled on Windows cp1252 terminal](https://github.com/microsoft/winml-cli/issues/218) | 2 |
@@ -475,6 +474,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/optimum | Python | [Add all available ONNX models to ORTConfigManager](https://github.com/huggingface/optimum/issues/351) | 3 |
 | huggingface/transfer-learning-conv-ai | Python | [RuntimeError: shape '[-1, 2, 34]' is invalid for input of size 61710](https://github.com/huggingface/transfer-learning-conv-ai/issues/12) | 3 |
 | microsoft/agent-governance-toolkit | Python | [credential_redactor: docs imply redact() scrubs PII, but it covers secrets only; SSN patterns diverge](https://github.com/microsoft/agent-governance-toolkit/issues/3239) | 3 |
+| microsoft/agent-governance-toolkit | Python | [agt red-team: report verdict and CI exit code use different criteria](https://github.com/microsoft/agent-governance-toolkit/issues/3237) | 3 |
+| microsoft/data-formulator | Python | [Docker Support](https://github.com/microsoft/data-formulator/issues/85) | 3 |
 | godotengine/godot-blender-exporter | Python | [Blender object with negative scale](https://github.com/godotengine/godot-blender-exporter/issues/24) | 3 |
 | huggingface/diffusers | Python | [[Anima] Add img2img capability](https://github.com/huggingface/diffusers/issues/13903) | 4 |
 | huggingface/lerobot | Python | [How can I change the task name of already recorded episodes?](https://github.com/huggingface/lerobot/issues/2096) | 4 |
@@ -490,6 +491,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/optimum-benchmark | Python | [Evaluators for specific tasks](https://github.com/huggingface/optimum-benchmark/issues/34) | 5 |
 | huggingface/lighteval | Python | [[FT] Improve Documentation and Examples](https://github.com/huggingface/lighteval/issues/682) | 6 |
 | huggingface/accelerate | Python | [[Community Contributions] examples on distributed inference using 🤗 Accelerate](https://github.com/huggingface/accelerate/issues/3078) | 6 |
+| microsoft/data-formulator | Python | [Expand chart type supports](https://github.com/microsoft/data-formulator/issues/193) | 6 |
 | huggingface/lighteval | Python | [[EVAL] Long Horizon Execution](https://github.com/huggingface/lighteval/issues/1056) | 7 |
 | microsoft/onnxscript | Python | [Attention fusion (SDPA/MHA) broken for BART decoder with/wo past🐛](https://github.com/microsoft/onnxscript/issues/2424) | 7 |
 | microsoft/autogen | Python | [Get current message thread from a group chat team.](https://github.com/microsoft/autogen/issues/6085) | 7 |
@@ -505,6 +507,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/diffusers | Python | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 13 |
 | huggingface/diffusers | Python | [[Pipeline] AnimateDiff + SparseControl + ControlNet](https://github.com/huggingface/diffusers/issues/9329) | 14 |
 | microsoft/markitdown | Python | [Support for .doc extensions](https://github.com/microsoft/markitdown/issues/23) | 14 |
+| microsoft/data-formulator | Python | [Create new data loaders to different resources](https://github.com/microsoft/data-formulator/issues/156) | 15 |
 | microsoft/markitdown | Python | [LLM Integration](https://github.com/microsoft/markitdown/issues/12) | 17 |
 | huggingface/lerobot | Python | [Make policies compatible with torch.compile](https://github.com/huggingface/lerobot/issues/2061) | 18 |
 | huggingface/datasets | Python | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 19 |
@@ -650,7 +653,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/chat-ui | TypeScript | [Load past conversations using the most recent leaf to determine the visible conversation tree.](https://github.com/huggingface/chat-ui/issues/1208) | 3 |
 | microsoft/vscode-containers | TypeScript | [Add presentation options to Docker extension's compose commands](https://github.com/microsoft/vscode-containers/issues/350) | 3 |
 | microsoft/teams.ts | TypeScript | [[cards] support lowercase and Capitalized JSON values](https://github.com/microsoft/teams.ts/issues/132) | 3 |
-| microsoft/data-formulator | TypeScript | [Docker Support](https://github.com/microsoft/data-formulator/issues/85) | 3 |
 | mattermost/mattermost | TypeScript | [Help Wanted: BitBucket README > Split out admin content to child pages](https://github.com/mattermost/mattermost/issues/25176) | 3 |
 | huggingface/chat-ui | TypeScript | [Add option for users to customize search engines in settings page](https://github.com/huggingface/chat-ui/issues/1756) | 4 |
 | huggingface/chat-ui | TypeScript | [Chrome app icon on macOS](https://github.com/huggingface/chat-ui/issues/1439) | 4 |
@@ -662,17 +664,15 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/chat-ui | TypeScript | [Disabling Reasoning Summary as an Env Option](https://github.com/huggingface/chat-ui/issues/1720) | 5 |
 | microsoft/vscode-python-debugger | TypeScript | [Add support for no-config debugging using nushell](https://github.com/microsoft/vscode-python-debugger/issues/647) | 5 |
 | mattermost/mattermost | TypeScript | [Help Wanted: Channel Export README > Split out admin content to child pages](https://github.com/mattermost/mattermost/issues/25173) | 5 |
-| microsoft/data-formulator | TypeScript | [Expand chart type supports](https://github.com/microsoft/data-formulator/issues/193) | 6 |
 | microsoft/teams.ts | TypeScript | [Automatically parse feedback value](https://github.com/microsoft/teams.ts/issues/184) | 7 |
 | mattermost/mattermost | TypeScript | [[RN] Change "Join" button on sign in page keyboard to "Go"](https://github.com/mattermost/mattermost/issues/26590) | 7 |
 | huggingface/huggingface.js | TypeScript | [Tracking integration for Video Classification](https://github.com/huggingface/huggingface.js/issues/332) | 8 |
 | mattermost/mattermost | TypeScript | [Help Wanted: CircleCI README > Split out admin content to child pages](https://github.com/mattermost/mattermost/issues/25175) | 8 |
 | layer5io/sistent | TypeScript | [[Feature] Add Support for Table Variants](https://github.com/layer5io/sistent/issues/992) | 10 |
 | mattermost/mattermost | TypeScript | [Bitbucket plugin: Support for bitbucket Datacenter/server](https://github.com/mattermost/mattermost/issues/24188) | 10 |
-| microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Bug: Conversation KPIs dashboard is blank even though all the related flows are enabled and prerequisites are met](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/746) | 11 |
+| microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Bug: Conversation KPIs dashboard is blank even though all the related flows are enabled and prerequisites are met](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/746) | 12 |
 | mattermost/mattermost | TypeScript | [Create config setting to always have the team sidebar visible](https://github.com/mattermost/mattermost/issues/18010) | 13 |
 | mattermost/mattermost | TypeScript | [Interactive Dialogs timeout forbiddingly short in slash command integrations ](https://github.com/mattermost/mattermost/issues/21901) | 14 |
-| microsoft/data-formulator | TypeScript | [Create new data loaders to different resources](https://github.com/microsoft/data-formulator/issues/156) | 15 |
 | mattermost/mattermost | TypeScript | [Mobile \| Inconsistant channel updated info message on web and mobile](https://github.com/mattermost/mattermost/issues/26917) | 15 |
 | freeCodeCamp/chapter | TypeScript | [Good first issues](https://github.com/freeCodeCamp/chapter/issues/691) | 18 |
 | mattermost/mattermost | TypeScript | [Mobile Web View: Text is cut off in channel dropdown > channel actions](https://github.com/mattermost/mattermost/issues/25165) | 19 |
