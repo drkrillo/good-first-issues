@@ -266,6 +266,9 @@
     function updateTable() {
 
         const header = issuesData[0];
+        const languageIndex = header.indexOF("language");
+        const commentsIndex = header.indexOF(comments");
+
         let rows = issuesData.slice(1);
 
         if (currentSearch !== "") {
@@ -276,17 +279,17 @@
 
         if (currentLanguage !== "") {
             rows = rows.filter(row => {
-                return row[1] === currentLanguage
+                return row[languageIndex] === currentLanguage;
             });
         }
 
         if (sortMode === 1) {
             rows.sort(
-                (a,b) => Number(b[4]) - Number(a[4])
+                (a,b) => Number(b[commentsIndex]) - Number(a[commentsIndex])
             );
         } else if (sortMode === 2) {
             rows.sort(
-                (a,b) => Number(a[4]) - Number(b[4])
+                (a,b) => Number(a[commentsIndex]) - Number(b[commentsIndex])
             );
         }
 
