@@ -183,7 +183,6 @@ kubernetes/perf-tests,Go,Check watch terminations from clusters loader tests,htt
 kubernetes/minikube,Go,Wrong error message on minikube tunnel without Administrator privilege on Windows,https://github.com/kubernetes/minikube/issues/9589,7,"['kind/bug', 'help wanted', 'priority/backlog', 'lifecycle/frozen', 'good first issue', 'needs-solution-message']",open
 hashicorp/nomad,Go,Provide output formatting options for Nomad job plan CLI,https://github.com/hashicorp/nomad/issues/27369,7,"['type/enhancement', 'theme/cli', 'good first issue', 'stage/accepted', 'hcc/jira']",open
 hashicorp/terraform-provider-aws,Go,Error: Unsupported argument: blue_green_update,https://github.com/hashicorp/terraform-provider-aws/issues/44488,7,"['documentation', 'good first issue', 'service/rds']",open
-hashicorp/terraform-provider-aws,Go,`aws_elasticache_serverless_cache` Security Group Ids are incorrectly optional.,https://github.com/hashicorp/terraform-provider-aws/issues/43027,7,"['bug', 'good first issue', 'service/elasticache']",open
 hashicorp/terraform-provider-aws,Go,[Bug]: aws_kinesis_firehose_delivery_stream continually applies cloudwatch_logging_options,https://github.com/hashicorp/terraform-provider-aws/issues/40446,7,"['bug', 'good first issue', 'service/firehose']",open
 hashicorp/nomad,Go,retry_join to support digitalocean provider,https://github.com/hashicorp/nomad/issues/18587,7,"['type/enhancement', 'theme/docs', 'theme/discovery', 'good first issue', 'stage/accepted']",open
 hashicorp/consul,Go,Metrics missing from documentation,https://github.com/hashicorp/consul/issues/13364,7,"['type/docs', 'good first issue', 'theme/telemetry']",open
@@ -195,6 +194,7 @@ kubernetes/minikube,Go,mikube start fail when --memory is lower than 2500M - mis
 kubernetes/autoscaler,Go,VPA: document behavior for Requests & Limits,https://github.com/kubernetes/autoscaler/issues/7895,8,"['help wanted', 'area/vertical-pod-autoscaler', 'kind/documentation', 'good first issue', 'triage/accepted']",open
 kubernetes/kube-state-metrics,Go,CustomResourceDefinitions status fields cause spam of errors that cannot be fixed,https://github.com/kubernetes/kube-state-metrics/issues/2482,8,"['kind/bug', 'good first issue', 'triage/accepted']",open
 kubernetes/kops,Go,Better output from kops rolling-update cluster command,https://github.com/kubernetes/kops/issues/14122,8,"['kind/feature', 'help wanted', 'good first issue']",open
+hashicorp/terraform-provider-aws,Go,`aws_elasticache_serverless_cache` Security Group Ids are incorrectly optional.,https://github.com/hashicorp/terraform-provider-aws/issues/43027,8,"['bug', 'good first issue', 'service/elasticache']",open
 hashicorp/nomad,Go,Support optional object type attributes in Nomad HCL variables,https://github.com/hashicorp/nomad/issues/25317,8,"['type/enhancement', 'theme/jobspec', 'good first issue', 'theme/hcl', 'stage/accepted', 'hcc/jira']",open
 hashicorp/vault-k8s,Go,Configurable default log_level and log_format for injected Vault Agent containers,https://github.com/hashicorp/vault-k8s/issues/417,8,"['enhancement', 'good first issue']",open
 hashicorp/nomad,Go,add  `-json` and `-t` options to inspection related cmds,https://github.com/hashicorp/nomad/issues/15894,8,"['type/enhancement', 'theme/cli', 'good first issue', 'stage/accepted']",open
@@ -270,7 +270,7 @@ kubernetes/website,HTML,[hi] Localize concepts/scheduling-eviction page ,https:/
 kubernetes/website,HTML,[hi] Localize concepts/Storage page,https://github.com/kubernetes/website/issues/47462,11,"['good first issue', 'help wanted', 'kind/feature', 'language/hi', 'triage/accepted', 'area/localization']",open
 kubernetes/website,HTML,[hi] Localize concepts/Security page,https://github.com/kubernetes/website/issues/47463,13,"['good first issue', 'help wanted', 'kind/feature', 'language/hi', 'triage/accepted', 'area/localization']",open
 kubernetes/website,HTML,[hi] Localize concepts/Workloads page ,https://github.com/kubernetes/website/issues/47442,13,"['good first issue', 'help wanted', 'kind/feature', 'language/hi', 'triage/accepted', 'area/localization']",open
-kubernetes/website,HTML,[hi] Localize tasks/configure-pod-container page ,https://github.com/kubernetes/website/issues/48992,14,"['good first issue', 'help wanted', 'kind/feature', 'triage/accepted', 'area/localization']",open
+kubernetes/website,HTML,[hi] Localize tasks/configure-pod-container page ,https://github.com/kubernetes/website/issues/48992,15,"['good first issue', 'help wanted', 'kind/feature', 'triage/accepted', 'area/localization']",open
 kubernetes/website,HTML,[hi] Localize en/docs/contribute/style/page-content-types.md,https://github.com/kubernetes/website/issues/36594,18,"['good first issue', 'help wanted', 'kind/feature', 'language/hi', 'triage/accepted']",open
 kubernetes/website,HTML,Umbrella: Improve and update the generate-ref-docs contributor guide,https://github.com/kubernetes/website/issues/56385,19,"['good first issue', 'help wanted', 'kind/feature', 'sig/docs', 'kind/cleanup', 'triage/accepted']",open
 kubernetes/website,HTML,[hi] Localize en/docs/contribute/participate/_index.md,https://github.com/kubernetes/website/issues/36471,19,"['good first issue', 'help wanted', 'kind/feature', 'lifecycle/rotten', 'language/hi', 'triage/accepted']",open
@@ -374,7 +374,6 @@ huggingface/dataset-viewer,Python,Use `revision_exists` (hfh),https://github.com
 huggingface/nanotron,Python,[Feature Request] Add simple communications benchmarks to the repo,https://github.com/huggingface/nanotron/issues/43,1,"['enhancement', 'good first issue', 'help wanted']",open
 microsoft/winml-cli,Python,Minor refactor: reuse _compute_case_signature to compute failed model file name,https://github.com/microsoft/winml-cli/issues/56,1,"['good first issue', 'refactor', 'NPU', 'P1', 'triaged']",open
 microsoft/onnxscript,Python,[torchlib] Add op test to torch.unique_consecutive,https://github.com/microsoft/onnxscript/issues/2695,1,"['good first issue', 'module: torchlib', 'contribution welcome']",open
-microsoft/onnxscript,Python,Constant-Folding Registry,https://github.com/microsoft/onnxscript/issues/2507,1,"['good first issue', 'category: question', 'contribution welcome', 'module: optimizer']",open
 microsoft/teams-agent-accelerator-libs-py,Python,Provide cleaner api for building citations for memories,https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/72,1,['good first issue'],open
 huggingface/lerobot,Python,Question regarding downsampling and resizing dataset,https://github.com/huggingface/lerobot/issues/2124,2,"['question', 'dataset', 'good first issue']",open
 huggingface/lighteval,Python,[FT] Manage script and language in the Language enum,https://github.com/huggingface/lighteval/issues/745,2,"['good first issue', 'feature']",open
@@ -384,6 +383,7 @@ huggingface/dataset-viewer,Python,use the `ROW_IDX_COLUMN` constant name instead
 huggingface/nanotron,Python,[Feature] Asyncronous Serialization,https://github.com/huggingface/nanotron/issues/87,2,"['enhancement', 'good first issue', 'help wanted']",open
 huggingface/dataset-viewer,Python,"Use ""Sign-In with HF"" instead of token in admin-UI",https://github.com/huggingface/dataset-viewer/issues/2373,2,"['good first issue', 'admin tools', 'P2']",open
 huggingface/nanotron,Python,[Feature Request] Support Data Streaming for faster training of large models,https://github.com/huggingface/nanotron/issues/45,2,"['enhancement', 'good first issue', 'help wanted']",open
+microsoft/apm,Python,Transitive-dependency hook entries wiped but never rebuilt by uninstall/prune reconciliation,https://github.com/microsoft/apm/issues/2254,2,"['good first issue', 'priority/low', 'theme/governance', 'area/cli', 'type/bug', 'status/accepted', 'status/triaged']",open
 microsoft/agent-governance-toolkit,Python,"[Bug]: Quickstart imports fail on base install — README paths need [full], and agent_os is deprecated",https://github.com/microsoft/agent-governance-toolkit/issues/3253,2,"['bug', 'documentation', 'good first issue']",open
 microsoft/physical-ai-toolchain,Python,build: refresh uv pin to 0.11.25 and consolidate remaining stale uv reference,https://github.com/microsoft/physical-ai-toolchain/issues/1071,2,"['good first issue', 'build', 'security']",open
 microsoft/agent-governance-toolkit,Python,bug(examples/flowise-governance): flowise-flow.json fails to import on Flowise 2.x and 3.x,https://github.com/microsoft/agent-governance-toolkit/issues/3194,2,"['bug', 'good first issue', 'help wanted', 'integration/flowise-agentmesh', 'needs-review:MEDIUM', 'Priority: HIGH']",open
@@ -393,6 +393,7 @@ microsoft/physical-ai-toolchain,Python,chore(ci): remove JaCoCo parser config fr
 microsoft/onnxscript,Python,"Missing converter for OpOverload(op='aten._grouped_mm', overload='default')",https://github.com/microsoft/onnxscript/issues/2795,2,"['good first issue', 'module: torchlib', 'contribution welcome']",open
 microsoft/onnxscript,Python,"[Optimizer] Fold Shape -> {Slice, Gather} -> Concat -> Reshape",https://github.com/microsoft/onnxscript/issues/2736,2,"['good first issue', 'contribution welcome', 'module: rewriter']",open
 microsoft/OpenAIWorkshop,Python,Fix eslint warnings,https://github.com/microsoft/OpenAIWorkshop/issues/292,2,"['enhancement', 'good first issue']",open
+microsoft/onnxscript,Python,Constant-Folding Registry,https://github.com/microsoft/onnxscript/issues/2507,2,"['good first issue', 'category: question', 'contribution welcome', 'module: optimizer']",open
 microsoft/onnxscript,Python,[torchlib] slice_scatter does not support start and end to be None,https://github.com/microsoft/onnxscript/issues/2372,2,"['good first issue', 'module: torchlib']",open
 microsoft/vscode-black-formatter,Python,black is using cached pyproject.toml instead of the actual one,https://github.com/microsoft/vscode-black-formatter/issues/569,2,"['bug', 'good first issue', 'help wanted', 'needs PR']",open
 microsoft/msticpy,Python,[Bug]: RiskIQ TI Provider does not seem functional anymore and docs for config and API access are out of date,https://github.com/microsoft/msticpy/issues/820,2,"['enhancement', 'good first issue']",open
@@ -412,7 +413,6 @@ microsoft/agent-governance-toolkit,Python,"credential_redactor: docs imply redac
 microsoft/agent-governance-toolkit,Python,agt red-team: report verdict and CI exit code use different criteria,https://github.com/microsoft/agent-governance-toolkit/issues/3237,3,"['bug', 'good first issue']",open
 microsoft/data-formulator,Python,Docker Support,https://github.com/microsoft/data-formulator/issues/85,3,['good first issue'],open
 godotengine/godot-blender-exporter,Python,Blender object with negative scale,https://github.com/godotengine/godot-blender-exporter/issues/24,3,['good first issue'],open
-huggingface/diffusers,Python,[Anima] Add img2img capability,https://github.com/huggingface/diffusers/issues/13903,4,"['good first issue', 'contributions-welcome', 'modular-pipelines', 'feature-request']",open
 huggingface/lerobot,Python,How can I change the task name of already recorded episodes?,https://github.com/huggingface/lerobot/issues/2096,4,"['question', 'dataset', 'good first issue']",open
 huggingface/lerobot,Python,Finetune smolvla with vision encoder,https://github.com/huggingface/lerobot/issues/1774,4,"['question', 'policies', 'good first issue']",open
 huggingface/lerobot,Python,Ensure the utilities module passes MyPy type checks,https://github.com/huggingface/lerobot/issues/1727,4,"['python', 'good first issue']",open
@@ -432,8 +432,8 @@ microsoft/onnxscript,Python,Attention fusion (SDPA/MHA) broken for BART decoder 
 microsoft/autogen,Python,Get current message thread from a group chat team.,https://github.com/microsoft/autogen/issues/6085,7,"['good first issue', 'help wanted', 'proj-agentchat']",open
 microsoft/markitdown,Python,File support: chm support,https://github.com/microsoft/markitdown/issues/14,7,"['enhancement', 'good first issue']",open
 huggingface/lerobot,Python,Select the VLM backbone for SmolVLA,https://github.com/huggingface/lerobot/issues/2104,8,"['question', 'policies', 'good first issue']",open
-huggingface/lighteval,Python,[EVAL] Adding PHARE,https://github.com/huggingface/lighteval/issues/696,8,"['good first issue', 'help wanted', 'new-task']",open
 huggingface/diffusers,Python,Make `FlaxLMSDiscreteScheduler` jittable,https://github.com/huggingface/diffusers/issues/2180,8,['good first issue'],open
+huggingface/lighteval,Python,[EVAL] Adding PHARE,https://github.com/huggingface/lighteval/issues/696,9,"['good first issue', 'help wanted', 'new-task']",open
 huggingface/diffusers,Python,Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`,https://github.com/huggingface/diffusers/issues/8434,9,"['good first issue', 'community-examples', 'contributions-welcome']",open
 huggingface/lerobot,Python,Distributed v2.1 -> v3.0 conversion,https://github.com/huggingface/lerobot/issues/1998,10,"['dataset', 'performance', 'good first issue']",open
 huggingface/lighteval,Python,[EVAL] Add TUMLU benchmark,https://github.com/huggingface/lighteval/issues/577,10,"['good first issue', 'help wanted', 'new-task']",open
@@ -450,8 +450,8 @@ huggingface/datasets,Python,Return the name of the currently loaded file in the 
 huggingface/diffusers,Python,Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines,https://github.com/huggingface/diffusers/issues/6969,22,"['bug', 'good first issue', 'help wanted', 'wip', 'contributions-welcome']",open
 huggingface/huggingface_hub,Python,[Community event] Translate documentation to your own langage,https://github.com/huggingface/huggingface_hub/issues/1700,24,"['documentation', 'good first issue']",open
 huggingface/optimum,Python,Community contribution - `BetterTransformer` integration for more models!,https://github.com/huggingface/optimum/issues/488,26,['good first issue'],open
-microsoft/autogen,Python,"open needs encoding='utf-8' for non-english environment, error in playwright_controller.py",https://github.com/microsoft/autogen/issues/5566,29,"['good first issue', 'help wanted']",open
 microsoft/TRELLIS,Python,Can this be used commercially?,https://github.com/microsoft/TRELLIS/issues/41,30,['good first issue'],open
+microsoft/autogen,Python,"open needs encoding='utf-8' for non-english environment, error in playwright_controller.py",https://github.com/microsoft/autogen/issues/5566,31,"['good first issue', 'help wanted']",open
 microsoft/TRELLIS,Python,How to generate 3D assets with more number of faces?,https://github.com/microsoft/TRELLIS/issues/58,34,['good first issue'],open
 microsoft/TRELLIS,Python,Setting Up Trellis on Windows,https://github.com/microsoft/TRELLIS/issues/3,53,['good first issue'],open
 huggingface/peft,Python,Comparison of Different Fine-Tuning Techniques for Conversational AI,https://github.com/huggingface/peft/issues/2310,139,"['good first issue', 'help wanted', 'contributions-welcome']",open
@@ -483,7 +483,6 @@ huggingface/chat-macOS,Swift,[Feature Request] System Prompt Support,https://git
 huggingface/chat-macOS,Swift,"Asking ""what time is it?"" will always return the local time of Paris, regardless of your location (⌘R+)",https://github.com/huggingface/chat-macOS/issues/7,2,['good first issue'],open
 huggingface/chat-macOS,Swift,Add custom LLM API ,https://github.com/huggingface/chat-macOS/issues/18,5,['good first issue'],open
 huggingface/sam2-studio,Swift,Video support estimated release date?,https://github.com/huggingface/sam2-studio/issues/25,26,"['enhancement', 'help wanted', 'good first issue']",open
-microsoft/compose-language-service,TypeScript,"Hover link on `image:` field in compose.yaml always points to Docker Hub, even for private registries",https://github.com/microsoft/compose-language-service/issues/179,0,['good first issue'],open
 microsoft/vscode-containers,TypeScript,"""Compose Logs"" command in extension settings",https://github.com/microsoft/vscode-containers/issues/323,0,['good first issue'],open
 microsoft/Agent365-nodejs,TypeScript,"Convert ""test-agents"" into E2E tests",https://github.com/microsoft/Agent365-nodejs/issues/15,0,['good first issue'],open
 microsoft/vscode-jupyter,TypeScript,Add magic line comments regex pattern as configuration for uncommentMagicCommands,https://github.com/microsoft/vscode-jupyter/issues/16499,0,"['good first issue', 'feature-request']",open
