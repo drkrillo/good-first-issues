@@ -59,7 +59,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-07-18</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-07-19</sub></sub>
 
 | Repo | Language | Title | Comments |
 |---|---|---|---|
@@ -87,7 +87,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/react-native-windows | C++ | [[Bug] init-windows adds incorrect name of Native Codegen File Include](https://github.com/microsoft/react-native-windows/issues/15094) | 4 |
 | godotengine/godot | C++ | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 27 |
 | godotengine/godot | C++ | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 34 |
-| godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 265 |
+| godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 266 |
 | mattermost/mattermost-developer-documentation | CSS | [Help Wanted: Document how to do local development on a plugin that requires an E20/Enterprise license](https://github.com/mattermost/mattermost-developer-documentation/issues/815) | 2 |
 | mattermost/mattermost-developer-documentation | CSS | [Enhance Documentation for Registering Plugins on the Mattermost Webapp Sidebar](https://github.com/mattermost/mattermost-developer-documentation/issues/1352) | 3 |
 | mattermost/mattermost-developer-documentation | CSS | [Help Wanted: Gitpod docs have outdated screenshots for the mattermost GitHub repository](https://github.com/mattermost/mattermost-developer-documentation/issues/1244) | 3 |
