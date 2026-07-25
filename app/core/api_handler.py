@@ -66,6 +66,9 @@ class IssueManager:
             issue['comments'] = raw_issue[1]['comments']
             issue['labels'] = [l['name'] for l in raw_issue[1].get('labels', [])]
             issue['state'] = raw_issue[1].get('state', 'open')
+            issue['created_at'] = raw_issue[1]['created_at']
+            issue['updated_at'] = raw_issue[1]['updated_at']
+
         
             return issue
         except Exception as error:
@@ -162,7 +165,10 @@ class TemplateManager:
                         'url',
                         'comments',
                         'labels',
-                        'state'
+                        'state',
+                        'created_at',
+                        'updated_at'
+                        
                     ]
                 )
                 writer.writeheader()
