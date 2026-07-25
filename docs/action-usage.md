@@ -51,6 +51,9 @@ Each issue in the output contains the following fields:
 | `comments` | Number of comments on the issue |
 | `labels` | Labels assigned to the issue |
 | `state` | Issue state |
+| `created_at` | Timestamp of when the issue was created |
+| `updated_at` | Timestamp of when the issue was last updated |
+
 
 ### CSV Example
 
