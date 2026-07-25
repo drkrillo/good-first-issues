@@ -1,4 +1,4 @@
-repo,language,title,url,comments,labels,state
+repo,language,title,url,comments,labels,state,created_at,updated_at
 microsoft/ebpf-for-windows,C,OpenCppCoverage install step fails silently,https://github.com/microsoft/ebpf-for-windows/issues/5330,0,"['good first issue', 'ebpfjitter', 'triaged', 'P3']",open
 microsoft/ebpf-for-windows,C,Cleanup: catch2 now allows multiple threads,https://github.com/microsoft/ebpf-for-windows/issues/4553,0,"['good first issue', 'cleanup', 'triaged', 'P3']",open
 microsoft/msquic,C,Miss check for the return value of CXPLAT_ALLOC_NONPAGED and CxPlatPoolAlloc,https://github.com/microsoft/msquic/issues/5233,0,"['good first issue', 'help wanted', 'Area: Testing', 'Triaged', 'HowFound: MSR']",open
