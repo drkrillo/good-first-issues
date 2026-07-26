@@ -59,7 +59,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-07-25</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-07-26</sub></sub>
 
 | Repo | Language | Title | Comments |
 |---|---|---|---|
@@ -99,7 +99,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | godotengine/godot-benchmarks | GDScript | [[TRACKER] Benchmarks to create](https://github.com/godotengine/godot-benchmarks/issues/11) | 11 |
 | hashicorp/packer-plugin-azure | Go | [Option to delete secret when build_key_vault_name is supplied](https://github.com/hashicorp/packer-plugin-azure/issues/506) | 0 |
 | hashicorp/nomad | Go | [unclear message in task event from executor crash](https://github.com/hashicorp/nomad/issues/24220) | 0 |
-| hashicorp/packer-plugin-googlecompute | Go | [Add disk_attachment labels](https://github.com/hashicorp/packer-plugin-googlecompute/issues/210) | 0 |
 | hashicorp/vault-secrets-operator | Go | [Add allowedNamespaces spec to helm chart values.yaml](https://github.com/hashicorp/vault-secrets-operator/issues/426) | 0 |
 | hashicorp/pandora | Go | [tools/generator-terraform: validation function on lists/sets](https://github.com/hashicorp/pandora/issues/1514) | 0 |
 | hashicorp/waypoint | Go | [Replace pluralize helper in user-facing text](https://github.com/hashicorp/waypoint/issues/3446) | 0 |
@@ -130,6 +129,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-mscalendar | Go | [Add mapped Mattermost users as attendees in CreateEvent API method](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/28) | 0 |
 | hashicorp/terraform-provider-aws | Go | [aws_bedrockagentcore_harness is missing additionalAttributes in bedrockModelConfig](https://github.com/hashicorp/terraform-provider-aws/issues/48363) | 1 |
 | hashicorp/terraform-provider-aws | Go | [[Docs]: Document necessary dependency between aws_eks_access_entry and aws_eks_access_policy_association](https://github.com/hashicorp/terraform-provider-aws/issues/40951) | 1 |
+| hashicorp/packer-plugin-googlecompute | Go | [Add disk_attachment labels](https://github.com/hashicorp/packer-plugin-googlecompute/issues/210) | 1 |
 | hashicorp/packer-plugin-azure | Go | [Improve error messaging for "Managed Images not supporting ARM64 images error"](https://github.com/hashicorp/packer-plugin-azure/issues/367) | 1 |
 | hashicorp/waypoint | Go | [Show job created time in CLI output](https://github.com/hashicorp/waypoint/issues/4293) | 1 |
 | hashicorp/nomad | Go | [docs: correctly detail endpoints that support PUT and POST](https://github.com/hashicorp/nomad/issues/15243) | 1 |
@@ -197,7 +197,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/terraform-provider-aws | Go | [aws_storagegateway_smb_file_share: cache_stale_timeout_in_seconds validation rejects 0, but the AWS API accepts it (blocks disabling cache refresh)](https://github.com/hashicorp/terraform-provider-aws/issues/48876) | 4 |
 | hashicorp/terraform-provider-aws | Go | [aws_ec2_transit_gateway_route_table_association support for timeouts block](https://github.com/hashicorp/terraform-provider-aws/issues/42705) | 4 |
 | hashicorp/terraform-provider-aws | Go | [AWS IVS Real Time Stage Terraform Module](https://github.com/hashicorp/terraform-provider-aws/issues/42644) | 4 |
-| hashicorp/terraform-provider-aws | Go | [[Enhancement]: `aws_cloudwatch_metric_alarm`: Add validation to prevent specifying both `metric` and `expression`](https://github.com/hashicorp/terraform-provider-aws/issues/41680) | 4 |
 | hashicorp/terraform-provider-aws | Go | [[Docs]: quicksight_data_source](https://github.com/hashicorp/terraform-provider-aws/issues/41672) | 4 |
 | hashicorp/terraform-provider-aws | Go | [[Bug]: aws_backup_selection `selection_tag` and `resources` do not interact as expected](https://github.com/hashicorp/terraform-provider-aws/issues/41274) | 4 |
 | hashicorp/nomad | Go | [show embedded template diffs line-by-line](https://github.com/hashicorp/nomad/issues/23603) | 4 |
@@ -219,6 +218,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/terraform-provider-aws | Go | [[Bug]: aws_elasticache_cluster , redis oss does not support transit_encryption_enabled](https://github.com/hashicorp/terraform-provider-aws/issues/49066) | 5 |
 | hashicorp/terraform-provider-aws | Go | [[Bug]: Data Source: aws_rds_cluster does not export deletion_protection](https://github.com/hashicorp/terraform-provider-aws/issues/48708) | 5 |
 | hashicorp/terraform-provider-aws | Go | [[New Resource]: aws_datazone_policy_grant](https://github.com/hashicorp/terraform-provider-aws/issues/46764) | 5 |
+| hashicorp/terraform-provider-aws | Go | [[Enhancement]: `aws_cloudwatch_metric_alarm`: Add validation to prevent specifying both `metric` and `expression`](https://github.com/hashicorp/terraform-provider-aws/issues/41680) | 5 |
 | hashicorp/terraform-provider-aws | Go | [[Bug]: Route 53 Resolver rule resource defines bad defaults for target configuration](https://github.com/hashicorp/terraform-provider-aws/issues/41523) | 5 |
 | hashicorp/terraform-provider-aws | Go | [[Documentation]: Add example for specifying p12 certificate with `aws_sns_platform_application`](https://github.com/hashicorp/terraform-provider-aws/issues/40803) | 5 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_dms_endpoint add additional redshift_settings parameters](https://github.com/hashicorp/terraform-provider-aws/issues/38814) | 5 |
@@ -310,7 +310,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/kube-state-metrics | Go | [Missing replacement config for VPA collector in CRM](https://github.com/kubernetes/kube-state-metrics/issues/2041) | 41 |
 | kubernetes/kubernetes | Go | [Reuse the http request object for http probes](https://github.com/kubernetes/kubernetes/issues/115939) | 46 |
 | kubernetes/kubernetes | Go | [tracker: improve the kubelet test coverage](https://github.com/kubernetes/kubernetes/issues/109717) | 49 |
-| kubernetes/minikube | Go | [add documentation for WSL2](https://github.com/kubernetes/minikube/issues/7879) | 53 |
+| kubernetes/minikube | Go | [add documentation for WSL2](https://github.com/kubernetes/minikube/issues/7879) | 54 |
 | kubernetes/kubernetes | Go | [Migrate DRA components to support granular authorization on status updates](https://github.com/kubernetes/kubernetes/issues/138149) | 73 |
 | microsoft/edge-ai | HCL | [chore(python): add pip lock files for reproducible builds](https://github.com/microsoft/edge-ai/issues/167) | 0 |
 | microsoft/edge-ai | HCL | [docs(testing): add regression test tracking policy](https://github.com/microsoft/edge-ai/issues/176) | 1 |
@@ -461,7 +461,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/onnxscript | Python | [informing about bad positional argument in node constructor](https://github.com/microsoft/onnxscript/issues/1984) | 2 |
 | microsoft/TRELLIS | Python | [TRELLIS API](https://github.com/microsoft/TRELLIS/issues/65) | 2 |
 | microsoft/vscode-pylint | Python | [Cannot globally set Import Strategy](https://github.com/microsoft/vscode-pylint/issues/581) | 2 |
-| huggingface/lighteval | Python | [[FT] showing count in Markdown summary table](https://github.com/huggingface/lighteval/issues/804) | 3 |
 | huggingface/lighteval | Python | [[FT]  Add tests for nanotron](https://github.com/huggingface/lighteval/issues/765) | 3 |
 | huggingface/lighteval | Python | [[FT] Build in a way to specify specific IDs/Lines in Dataset to use as few-shot examples in the same split](https://github.com/huggingface/lighteval/issues/634) | 3 |
 | huggingface/lighteval | Python | [[EVAL] Big-Bench Extra Hard (BBEH)](https://github.com/huggingface/lighteval/issues/600) | 3 |
@@ -477,6 +476,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/lerobot | Python | [How can I change the task name of already recorded episodes?](https://github.com/huggingface/lerobot/issues/2096) | 4 |
 | huggingface/lerobot | Python | [Finetune smolvla with vision encoder](https://github.com/huggingface/lerobot/issues/1774) | 4 |
 | huggingface/lerobot | Python | [Ensure the utilities module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1727) | 4 |
+| huggingface/lighteval | Python | [[FT] showing count in Markdown summary table](https://github.com/huggingface/lighteval/issues/804) | 4 |
 | huggingface/lighteval | Python | [[EVAL]: Add more African Benchmarks](https://github.com/huggingface/lighteval/issues/373) | 4 |
 | huggingface/dataset-viewer | Python | [Cache/Queue metrics should not be negative](https://github.com/huggingface/dataset-viewer/issues/2495) | 4 |
 | microsoft/agent-governance-toolkit | Python | [[Bug]: Quickstart imports fail on base install — README paths need [full], and agent_os is deprecated](https://github.com/microsoft/agent-governance-toolkit/issues/3253) | 4 |
@@ -508,10 +508,10 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/markitdown | Python | [LLM Integration](https://github.com/microsoft/markitdown/issues/12) | 17 |
 | huggingface/lerobot | Python | [Make policies compatible with torch.compile](https://github.com/huggingface/lerobot/issues/2061) | 18 |
 | huggingface/datasets | Python | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 19 |
-| huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 20 |
+| huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 21 |
 | microsoft/autogen | Python | [need docs/bicep/etc for how to setup with full TLS between all nodes](https://github.com/microsoft/autogen/issues/4373) | 21 |
 | huggingface/diffusers | Python | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 22 |
-| huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 25 |
+| huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 26 |
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 26 |
 | microsoft/TRELLIS | Python | [Can this be used commercially?](https://github.com/microsoft/TRELLIS/issues/41) | 30 |
 | microsoft/autogen | Python | [open needs encoding='utf-8' for non-english environment, error in playwright_controller.py](https://github.com/microsoft/autogen/issues/5566) | 32 |
