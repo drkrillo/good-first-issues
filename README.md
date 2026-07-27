@@ -59,7 +59,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-07-26</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-07-27</sub></sub>
 
 | Repo | Language | Title | Comments |
 |---|---|---|---|
@@ -170,7 +170,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-github | Go | [Support filtering of repositories in RHS](https://github.com/mattermost/mattermost-plugin-github/issues/265) | 2 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Improve Daily Summary weekday setup](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/56) | 2 |
 | kubernetes/cloud-provider-openstack | Go | [[all]: openstack API debugger shows `client.go:128` for all calls](https://github.com/kubernetes/cloud-provider-openstack/issues/2300) | 3 |
-| kubernetes/kops | Go | [Update AWS China documentation with Route53 Support](https://github.com/kubernetes/kops/issues/9138) | 3 |
 | microsoft/retina | Go | [Update documentation with Hubble CLI and Hubble UI deployment instructions on Retina.](https://github.com/microsoft/retina/issues/1387) | 3 |
 | hashicorp/terraform-provider-aws | Go | [data/aws_bedrock_foundation_model: modelLifecycle attribute not exposed](https://github.com/hashicorp/terraform-provider-aws/issues/47779) | 3 |
 | hashicorp/terraform-provider-aws | Go | [aws_s3tables_table_replication: Create fails with "A version token is not specified"](https://github.com/hashicorp/terraform-provider-aws/issues/46675) | 3 |
@@ -261,7 +260,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/nomad | Go | [add  `-json` and `-t` options to inspection related cmds](https://github.com/hashicorp/nomad/issues/15894) | 8 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Support different time format preferences for the user](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/358) | 8 |
 | kubernetes/sig-security | Go | [tooling: run tests and linters with prow for srctl](https://github.com/kubernetes/sig-security/issues/175) | 9 |
-| kubernetes/kops | Go | [Better output from kops rolling-update cluster command](https://github.com/kubernetes/kops/issues/14122) | 9 |
 | kubernetes/kube-state-metrics | Go | [Promote experimental metrics](https://github.com/kubernetes/kube-state-metrics/issues/1792) | 9 |
 | kubernetes/perf-tests | Go | [Pod startup time phases are inaccurate in longer tests.](https://github.com/kubernetes/perf-tests/issues/2006) | 9 |
 | hashicorp/terraform-provider-kubernetes | Go | [Init container doesn't support restart_policy option (to transform it in a sidecar container)](https://github.com/hashicorp/terraform-provider-kubernetes/issues/2446) | 9 |
@@ -269,14 +267,12 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/nomad | Go | [Nomad config validate does not check for missing host_volume directories and daemon fails to start](https://github.com/hashicorp/nomad/issues/16968) | 9 |
 | kubernetes/minikube | Go | [mikube start fail when --memory is lower than 2500M - missing input validation](https://github.com/kubernetes/minikube/issues/23317) | 10 |
 | kubernetes/minikube | Go | [test: Remove duplicate kubernetes versions in tests](https://github.com/kubernetes/minikube/issues/21483) | 10 |
-| kubernetes/kube-state-metrics | Go | [[regression] /metrics port down when not existing CRD are listed in config file](https://github.com/kubernetes/kube-state-metrics/issues/2354) | 10 |
 | kubernetes/perf-tests | Go | [clusterloader2 should be covered with unit tests](https://github.com/kubernetes/perf-tests/issues/572) | 10 |
 | hashicorp/waypoint | Go | [Improve error message if docker desktop is not running](https://github.com/hashicorp/waypoint/issues/3471) | 10 |
 | kubernetes/cloud-provider-openstack | Go | [[cinder-csi-plugin] Allow StorageClass parameters to be set in Helm chart](https://github.com/kubernetes/cloud-provider-openstack/issues/1980) | 11 |
 | kubernetes/perf-tests | Go | [Make PV tests work on kubemark clusters](https://github.com/kubernetes/perf-tests/issues/803) | 11 |
 | hashicorp/terraform-provider-azurerm | Go | [azurerm_postgresql_flexible_server SKU name validation mismatch between Terraform provider and Azure API](https://github.com/hashicorp/terraform-provider-azurerm/issues/21522) | 11 |
 | hashicorp/terraform-provider-aws | Go | [Timeout for every account destroy with `close_on_deletion`](https://github.com/hashicorp/terraform-provider-aws/issues/46284) | 12 |
-| kubernetes/kops | Go | [AWS: Cluster requires designating subnets by both ID and containing AZ](https://github.com/kubernetes/kops/issues/14710) | 13 |
 | kubernetes/minikube | Go | [minikube should allow 1 cpu --no-kubernetes](https://github.com/kubernetes/minikube/issues/22152) | 14 |
 | kubernetes/minikube | Go | [Minikube tunnel is not working on Windows (endessly trying to add a route)](https://github.com/kubernetes/minikube/issues/11645) | 14 |
 | kubernetes/minikube | Go | [--host-only-cidr: invalid CIDR address: '192.168.99.1/24'](https://github.com/kubernetes/minikube/issues/7063) | 14 |
@@ -344,6 +340,9 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/copilot-for-eclipse | Java | [Please integrate copilot into eclipse quickfix feature - Enhancement Request](https://github.com/microsoft/copilot-for-eclipse/issues/70) | 3 |
 | microsoft/typespec | Java | [testing: expectDiagnostics() should provide an option to ignore ordering](https://github.com/microsoft/typespec/issues/5818) | 3 |
 | microsoft/copilot-for-eclipse | Java | [Unable to use the Java source file corresponding to the class file as context](https://github.com/microsoft/copilot-for-eclipse/issues/117) | 13 |
+| layer5io/layer5 | JavaScript | [[Community] Member Profile: Aastha Bhat](https://github.com/layer5io/layer5/issues/7896) | 0 |
+| layer5io/layer5 | JavaScript | [[Community] Member Profile: Maanvi Chetwani](https://github.com/layer5io/layer5/issues/7895) | 0 |
+| layer5io/layer5 | JavaScript | [[Community] Member Profile: Ishwar](https://github.com/layer5io/layer5/issues/7894) | 1 |
 | mattermost/mattermost-plugin-gitlab | JavaScript | [Convert link_tooltip component to typescript](https://github.com/mattermost/mattermost-plugin-gitlab/issues/424) | 1 |
 | freeCodeCamp/classroom | JavaScript | [Bug: Classrooms can be created with no certifications](https://github.com/freeCodeCamp/classroom/issues/551) | 1 |
 | huggingface/transformers.js | JavaScript | [Is 'aggregation_strategy' parameter available for token classification pipeline?](https://github.com/huggingface/transformers.js/issues/633) | 2 |
@@ -480,6 +479,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/lighteval | Python | [[EVAL]: Add more African Benchmarks](https://github.com/huggingface/lighteval/issues/373) | 4 |
 | huggingface/dataset-viewer | Python | [Cache/Queue metrics should not be negative](https://github.com/huggingface/dataset-viewer/issues/2495) | 4 |
 | microsoft/agent-governance-toolkit | Python | [[Bug]: Quickstart imports fail on base install — README paths need [full], and agent_os is deprecated](https://github.com/microsoft/agent-governance-toolkit/issues/3253) | 4 |
+| microsoft/BitBLAS | Python | [Example of bitblas/ladder with dtypes like int3, int5, int6, int7](https://github.com/microsoft/BitBLAS/issues/244) | 4 |
 | huggingface/lighteval | Python | [[BUG] custom model docs don't run: missing imports](https://github.com/huggingface/lighteval/issues/760) | 5 |
 | huggingface/nanotron | Python | [Avoid nested `InheritFromOtherOptimizer`](https://github.com/huggingface/nanotron/issues/267) | 5 |
 | huggingface/nanotron | Python | [[Bug] Missing `_is_using_mup` when resume checkpoint](https://github.com/huggingface/nanotron/issues/198) | 5 |
@@ -511,8 +511,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 21 |
 | microsoft/autogen | Python | [need docs/bicep/etc for how to setup with full TLS between all nodes](https://github.com/microsoft/autogen/issues/4373) | 21 |
 | huggingface/diffusers | Python | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 22 |
-| huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 26 |
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 26 |
+| huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 28 |
 | microsoft/TRELLIS | Python | [Can this be used commercially?](https://github.com/microsoft/TRELLIS/issues/41) | 30 |
 | microsoft/autogen | Python | [open needs encoding='utf-8' for non-english environment, error in playwright_controller.py](https://github.com/microsoft/autogen/issues/5566) | 32 |
 | microsoft/TRELLIS | Python | [How to generate 3D assets with more number of faces?](https://github.com/microsoft/TRELLIS/issues/58) | 34 |
@@ -525,7 +525,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/openvmm | Rust | [repo: move no_std custom error types over to thiserror](https://github.com/microsoft/openvmm/issues/1811) | 1 |
 | microsoft/openvmm | Rust | [Clean up our windows API dependencies](https://github.com/microsoft/openvmm/issues/1061) | 1 |
 | microsoft/openvmm | Rust | [zerocopy: clean up TODOs](https://github.com/microsoft/openvmm/issues/759) | 1 |
-| microsoft/pg_durable | Rust | [No observable "waiting on a signal" state at the instance level](https://github.com/microsoft/pg_durable/issues/239) | 2 |
 | microsoft/openvmm | Rust | [openvmm: emulated nvme configuration](https://github.com/microsoft/openvmm/issues/1534) | 2 |
 | microsoft/windows-drivers-rs | Rust | [HID hidport.h headers missing for UMDF build](https://github.com/microsoft/windows-drivers-rs/issues/355) | 3 |
 | godotengine/discourse-theme | SCSS | [Change default `green` to our own green for the Solved questions](https://github.com/godotengine/discourse-theme/issues/14) | 0 |
