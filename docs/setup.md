@@ -44,11 +44,20 @@ pip install -r requirements.txt
 
 ## 4. Create the `.env` file
 
-Create a file named `.env` in the project root with the following variables:
+Copy the example environment file:
 
+```bash
+cp .env.example .env
 ```
-ACCESS_TOKEN=<YOUR_GITHUB_TOKEN>
-USERNAMES=<OWNER1>,<OWNER2>,<OWNER3>
+
+Then update the values inside `.env`:
+
+```env
+# GitHub Personal Access Token
+ACCESS_TOKEN=ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+# Comma-separated GitHub usernames or organizations
+USERNAMES=microsoft,hashicorp,huggingface,layer5io,mattermost
 ```
 
 - **`ACCESS_TOKEN`** — A GitHub personal access token (see below).
