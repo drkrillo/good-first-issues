@@ -89,18 +89,26 @@ class TestIssueManager:
                 "repository_url": "https://api.github.com/repos/owner/repo",
                 "title": "Test Issue",
                 "html_url": "https://github.com/owner/repo/issues/1",
-                "comments": 5
+                "comments": 5,
+                "labels": [{"name": "good first issue"}],
+                "state": "open",
+                "created_at": "2026-05-20T12:34:56Z",
+                "updated_at": "2026-07-29T08:00:00Z",
             }
         )
-        
+
         result = IssueManager().extract_issue_data(raw_issue)
-        
+
         assert result == {
             "repo": "owner/repo",
             "language": "Python",
             "title": "Test Issue",
             "url": "https://github.com/owner/repo/issues/1",
-            "comments": 5
+            "comments": 5,
+            "labels": ["good first issue"],
+            "state": "open",
+            "created_at": "2026-05-20",
+            "updated_at": "2026-07-29",
         }
 
     @patch('app.core.api_handler.APIClient')

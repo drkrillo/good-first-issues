@@ -66,7 +66,10 @@ class IssueManager:
             issue['comments'] = raw_issue[1]['comments']
             issue['labels'] = [l['name'] for l in raw_issue[1].get('labels', [])]
             issue['state'] = raw_issue[1].get('state', 'open')
-        
+            # Keep only the date part (YYYY-MM-DD) of the ISO 8601 timestamps.
+            issue['created_at'] = raw_issue[1].get('created_at', '')[:10]
+            issue['updated_at'] = raw_issue[1].get('updated_at', '')[:10]
+
             return issue
         except Exception as error:
             logging.error(error)
@@ -130,6 +133,8 @@ class TemplateManager:
                     'title': row['title'].replace('|', '\\|'), # Escape '|' to avoid breaking markdown table rows
                     'url': row['url'],
                     'comments': row['comments'],
+                    'created_at': row.get('created_at', ''),
+                    'updated_at': row.get('updated_at', ''),
                 })
 
         env = Environment(loader=FileSystemLoader(template_path))
@@ -162,7 +167,9 @@ class TemplateManager:
                         'url',
                         'comments',
                         'labels',
-                        'state'
+                        'state',
+                        'created_at',
+                        'updated_at',
                     ]
                 )
                 writer.writeheader()
