@@ -59,7 +59,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-07-29</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-07-30</sub></sub>
 
 | Repo | Language | Title | Comments | Updated |
 |---|---|---|---|---|
@@ -85,7 +85,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/snmalloc | C++ | [Implement accurate size storage for Windows `_msize` and `_recalloc`](https://github.com/microsoft/snmalloc/issues/786) | 0 | 2025-07-02 |
 | microsoft/react-native-windows | C++ | [Scroll wheel behavior differs significantly in new architecture (Windows App SDK) vs WinUI 3 Gallery app](https://github.com/microsoft/react-native-windows/issues/14653) | 1 | 2025-07-03 |
 | microsoft/react-native-windows | C++ | [Deprecate autolink functionality to copy flags from react-native.config.js into ExperimentalFeature.props.](https://github.com/microsoft/react-native-windows/issues/14601) | 1 | 2025-06-11 |
-| godotengine/godot | C++ | [Tree dropdown has wrong tooltip](https://github.com/godotengine/godot/issues/121888) | 1 | 2026-07-29 |
 | microsoft/react-native-windows | C++ | [[Bug] init-windows adds incorrect name of Native Codegen File Include](https://github.com/microsoft/react-native-windows/issues/15094) | 4 | 2026-04-14 |
 | godotengine/godot | C++ | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 27 | 2026-07-01 |
 | godotengine/godot | C++ | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 34 | 2026-07-14 |
@@ -191,7 +190,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-nps | Go | [JS error when telling Surveybot to disable the survey on old post](https://github.com/mattermost/mattermost-plugin-nps/issues/81) | 3 | 2021-10-02 |
 | mattermost/mattermost-plugin-zoom | Go | [Synch Status: When on a Zoom call, show as “Busy”](https://github.com/mattermost/mattermost-plugin-zoom/issues/170) | 3 | 2022-06-13 |
 | mattermost/mattermost-plugin-github | Go | [Register autolinks for GitHub URLs](https://github.com/mattermost/mattermost-plugin-github/issues/269) | 3 | 2021-10-02 |
-| kubernetes/autoscaler | Go | [VPA: Improve CanInPlaceUpdate Logging](https://github.com/kubernetes/autoscaler/issues/9965) | 4 | 2026-07-10 |
 | microsoft/terraform-provider-azuredevops | Go | [Full unit test suite isn't running on CI](https://github.com/microsoft/terraform-provider-azuredevops/issues/1439) | 4 | 2025-10-02 |
 | hashicorp/terraform-provider-aws | Go | [aws_storagegateway_smb_file_share: cache_stale_timeout_in_seconds validation rejects 0, but the AWS API accepts it (blocks disabling cache refresh)](https://github.com/hashicorp/terraform-provider-aws/issues/48876) | 4 | 2026-07-09 |
 | hashicorp/terraform-provider-aws | Go | [aws_ec2_transit_gateway_route_table_association support for timeouts block](https://github.com/hashicorp/terraform-provider-aws/issues/42705) | 4 | 2025-05-23 |
@@ -218,7 +216,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/terraform-provider-aws | Go | [[Bug]: aws_elasticache_cluster , redis oss does not support transit_encryption_enabled](https://github.com/hashicorp/terraform-provider-aws/issues/49066) | 5 | 2026-07-24 |
 | hashicorp/terraform-provider-aws | Go | [[Bug]: Data Source: aws_rds_cluster does not export deletion_protection](https://github.com/hashicorp/terraform-provider-aws/issues/48708) | 5 | 2026-07-08 |
 | hashicorp/terraform-provider-aws | Go | [[New Resource]: aws_datazone_policy_grant](https://github.com/hashicorp/terraform-provider-aws/issues/46764) | 5 | 2026-04-28 |
-| hashicorp/terraform-provider-aws | Go | [[Enhancement]: `aws_cloudwatch_metric_alarm`: Add validation to prevent specifying both `metric` and `expression`](https://github.com/hashicorp/terraform-provider-aws/issues/41680) | 5 | 2026-07-26 |
 | hashicorp/terraform-provider-aws | Go | [[Bug]: Route 53 Resolver rule resource defines bad defaults for target configuration](https://github.com/hashicorp/terraform-provider-aws/issues/41523) | 5 | 2026-03-24 |
 | hashicorp/terraform-provider-aws | Go | [[Documentation]: Add example for specifying p12 certificate with `aws_sns_platform_application`](https://github.com/hashicorp/terraform-provider-aws/issues/40803) | 5 | 2026-06-06 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_dms_endpoint add additional redshift_settings parameters](https://github.com/hashicorp/terraform-provider-aws/issues/38814) | 5 | 2026-06-11 |
@@ -234,6 +231,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-github | Go | [Add alternative sorting functionality for RHS view](https://github.com/mattermost/mattermost-plugin-github/issues/242) | 5 | 2026-02-17 |
 | kubernetes/kube-state-metrics | Go | [Parse Nested Arrays does not work](https://github.com/kubernetes/kube-state-metrics/issues/2368) | 6 | 2025-08-27 |
 | hashicorp/terraform-provider-aws | Go | [Route53 Resolver Endpoint Hash Function Prevents Multiple IPs per Subnet When IP Address is Auto-Assigned](https://github.com/hashicorp/terraform-provider-aws/issues/43724) | 6 | 2025-08-20 |
+| hashicorp/terraform-provider-aws | Go | [[Enhancement]: `aws_cloudwatch_metric_alarm`: Add validation to prevent specifying both `metric` and `expression`](https://github.com/hashicorp/terraform-provider-aws/issues/41680) | 6 | 2026-07-30 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_athena_prepared_statement: Allow multiline (EOT) query strings to preserve comments and line breaks without update-in-place](https://github.com/hashicorp/terraform-provider-aws/issues/41469) | 6 | 2025-03-08 |
 | hashicorp/vault-csi-provider | Go | [feat: Enable json logging format](https://github.com/hashicorp/vault-csi-provider/issues/177) | 6 | 2025-10-23 |
 | hashicorp/terraform-provider-aws | Go | [aws_iam_openid_connect_provider rejects valid "url"s](https://github.com/hashicorp/terraform-provider-aws/issues/26483) | 6 | 2025-02-27 |
@@ -253,7 +251,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-github | Go | [Notification numbers are not properly aligned](https://github.com/mattermost/mattermost-plugin-github/issues/398) | 7 | 2024-02-16 |
 | mattermost/mattermost-plugin-github | Go | [In RHS, display whether there are linked pull requests to issues, and if there are linked issues for pull requests](https://github.com/mattermost/mattermost-plugin-github/issues/271) | 7 | 2023-02-21 |
 | layer5io/getnighthawk | Go | [[SITE] Nav Bar is missing on the mobile view of the page](https://github.com/layer5io/getnighthawk/issues/258) | 8 | 2023-11-09 |
-| kubernetes/autoscaler | Go | [VPA: document behavior for Requests & Limits](https://github.com/kubernetes/autoscaler/issues/7895) | 8 | 2025-10-10 |
 | kubernetes/kube-state-metrics | Go | [CustomResourceDefinitions status fields cause spam of errors that cannot be fixed](https://github.com/kubernetes/kube-state-metrics/issues/2482) | 8 | 2026-03-08 |
 | hashicorp/terraform-provider-aws | Go | [`aws_elasticache_serverless_cache` Security Group Ids are incorrectly optional.](https://github.com/hashicorp/terraform-provider-aws/issues/43027) | 8 | 2026-07-16 |
 | hashicorp/nomad | Go | [Support optional object type attributes in Nomad HCL variables](https://github.com/hashicorp/nomad/issues/25317) | 8 | 2025-08-26 |
@@ -261,6 +258,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/nomad | Go | [add  `-json` and `-t` options to inspection related cmds](https://github.com/hashicorp/nomad/issues/15894) | 8 | 2023-07-04 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Support different time format preferences for the user](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/358) | 8 | 2025-10-23 |
 | kubernetes/sig-security | Go | [tooling: run tests and linters with prow for srctl](https://github.com/kubernetes/sig-security/issues/175) | 9 | 2026-06-19 |
+| kubernetes/autoscaler | Go | [VPA: document behavior for Requests & Limits](https://github.com/kubernetes/autoscaler/issues/7895) | 9 | 2026-07-30 |
 | kubernetes/kube-state-metrics | Go | [Promote experimental metrics](https://github.com/kubernetes/kube-state-metrics/issues/1792) | 9 | 2025-07-27 |
 | kubernetes/perf-tests | Go | [Pod startup time phases are inaccurate in longer tests.](https://github.com/kubernetes/perf-tests/issues/2006) | 9 | 2023-02-08 |
 | hashicorp/terraform-provider-kubernetes | Go | [Init container doesn't support restart_policy option (to transform it in a sidecar container)](https://github.com/hashicorp/terraform-provider-kubernetes/issues/2446) | 9 | 2025-11-26 |
@@ -304,15 +302,14 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/kubernetes | Go | [Write the stress test for gRPC, http, and tcp probes](https://github.com/kubernetes/kubernetes/issues/115782) | 39 | 2026-06-16 |
 | kubernetes/kubernetes | Go | [add and use alternative APIs which support contextual logging](https://github.com/kubernetes/kubernetes/issues/126379) | 40 | 2026-07-17 |
 | kubernetes/kube-state-metrics | Go | [Missing replacement config for VPA collector in CRM](https://github.com/kubernetes/kube-state-metrics/issues/2041) | 41 | 2025-08-11 |
-| kubernetes/kubernetes | Go | [Reuse the http request object for http probes](https://github.com/kubernetes/kubernetes/issues/115939) | 46 | 2026-07-22 |
 | kubernetes/kubernetes | Go | [tracker: improve the kubelet test coverage](https://github.com/kubernetes/kubernetes/issues/109717) | 49 | 2026-05-26 |
 | kubernetes/minikube | Go | [add documentation for WSL2](https://github.com/kubernetes/minikube/issues/7879) | 54 | 2026-07-25 |
 | kubernetes/kubernetes | Go | [Migrate DRA components to support granular authorization on status updates](https://github.com/kubernetes/kubernetes/issues/138149) | 73 | 2026-07-25 |
 | microsoft/edge-ai | HCL | [chore(python): add pip lock files for reproducible builds](https://github.com/microsoft/edge-ai/issues/167) | 0 | 2026-04-19 |
 | microsoft/edge-ai | HCL | [docs(testing): add regression test tracking policy](https://github.com/microsoft/edge-ai/issues/176) | 1 | 2026-06-19 |
 | microsoft/edge-ai | HCL | [docs(testing): update testing-validation.md to reflect actual test frameworks](https://github.com/microsoft/edge-ai/issues/144) | 1 | 2026-06-11 |
-| microsoft/edge-ai | HCL | [docs(changelog): add CHANGELOG.md generation](https://github.com/microsoft/edge-ai/issues/143) | 1 | 2026-05-26 |
 | microsoft/edge-ai | HCL | [chore(rust): standardize strip = true across all Rust crates](https://github.com/microsoft/edge-ai/issues/177) | 2 | 2026-04-10 |
+| microsoft/edge-ai | HCL | [docs(changelog): add CHANGELOG.md generation](https://github.com/microsoft/edge-ai/issues/143) | 3 | 2026-07-30 |
 | kubernetes/k8s.io | HCL | [[Umbrella Issue] Migrate CNCF Ecosystem projects from k8s.gcr.io to registry.k8s.io](https://github.com/kubernetes/k8s.io/issues/4780) | 37 | 2025-12-26 |
 | cncf/glossary | HTML | [[es] A report to track and reflect updates of English content](https://github.com/cncf/glossary/issues/3222) | 0 | 2025-04-07 |
 | cncf/tag-app-delivery | HTML | [Document how we use GitHub labels](https://github.com/cncf/tag-app-delivery/issues/405) | 0 | 2024-06-22 |
@@ -350,7 +347,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | layer5io/layer5 | JavaScript | [Inaccurate: "0" performance tests results being reported](https://github.com/layer5io/layer5/issues/7860) | 3 | 2026-07-23 |
 | layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 4](https://github.com/layer5io/docs/issues/794) | 3 | 2025-09-04 |
 | layer5io/docs | JavaScript | [Screen capture includes Grammarly](https://github.com/layer5io/docs/issues/543) | 3 | 2025-07-13 |
-| layer5io/layer5 | JavaScript | [[Community] Member Profile: Maanvi Chetwani](https://github.com/layer5io/layer5/issues/7895) | 4 | 2026-07-29 |
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Contributing needs work](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/112) | 4 | 2018-03-24 |
 | layer5io/layer5 | JavaScript | [Enhance or replace the "Star the Repo" button](https://github.com/layer5io/layer5/issues/7859) | 5 | 2026-07-15 |
 | layer5io/docs | JavaScript | [[Docs] Improve Related Docs Links in Pinning Models to Dock Page](https://github.com/layer5io/docs/issues/1028) | 5 | 2026-06-11 |
@@ -419,6 +415,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/lighteval | Python | [[FT]  Add tests for `VLLMModel` base methods](https://github.com/huggingface/lighteval/issues/724) | 0 | 2025-05-20 |
 | huggingface/nanotron | Python | [[Feature] Use CUDA event for measuring elasped time](https://github.com/huggingface/nanotron/issues/88) | 0 | 2024-04-20 |
 | huggingface/nanotron | Python | [[Feature] Refactor `ParallelContext.world_rank_matrix`](https://github.com/huggingface/nanotron/issues/77) | 0 | 2024-02-19 |
+| microsoft/apm | Python | [Extract shared retain/reindex predicate for git auth-config entries (follow-up to #2368)](https://github.com/microsoft/apm/issues/2398) | 0 | 2026-07-30 |
 | microsoft/AutoPodcaster | Python | [Add devcontainer](https://github.com/microsoft/AutoPodcaster/issues/9) | 0 | 2025-01-09 |
 | microsoft/teams-agent-accelerator-libs-py | Python | [Expose the ability to add memory explicitly](https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/57) | 0 | 2025-01-06 |
 | microsoft/BitBLAS | Python | [[Feature Request] Enhance Database to support reload scheduled tilelang operator](https://github.com/microsoft/BitBLAS/issues/269) | 0 | 2024-12-16 |
@@ -466,7 +463,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/optimum | Python | [Add all available ONNX models to ORTConfigManager](https://github.com/huggingface/optimum/issues/351) | 3 | 2025-11-19 |
 | huggingface/transfer-learning-conv-ai | Python | [RuntimeError: shape '[-1, 2, 34]' is invalid for input of size 61710](https://github.com/huggingface/transfer-learning-conv-ai/issues/12) | 3 | 2022-09-02 |
 | microsoft/agent-governance-toolkit | Python | [credential_redactor: docs imply redact() scrubs PII, but it covers secrets only; SSN patterns diverge](https://github.com/microsoft/agent-governance-toolkit/issues/3239) | 3 | 2026-07-13 |
-| microsoft/agent-governance-toolkit | Python | [agt red-team: report verdict and CI exit code use different criteria](https://github.com/microsoft/agent-governance-toolkit/issues/3237) | 3 | 2026-07-14 |
 | microsoft/winml-cli | Python | [winml perf --op-tracing: ANSI color codes garbled on Windows cp1252 terminal](https://github.com/microsoft/winml-cli/issues/218) | 3 | 2026-07-25 |
 | microsoft/data-formulator | Python | [Docker Support](https://github.com/microsoft/data-formulator/issues/85) | 3 | 2026-03-14 |
 | godotengine/godot-blender-exporter | Python | [Blender object with negative scale](https://github.com/godotengine/godot-blender-exporter/issues/24) | 3 | 2020-10-09 |
@@ -483,9 +479,9 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/lighteval | Python | [Append revision to filepath in `--output_dir`?](https://github.com/huggingface/lighteval/issues/56) | 5 | 2025-09-10 |
 | huggingface/optimum-benchmark | Python | [Evaluators for specific tasks](https://github.com/huggingface/optimum-benchmark/issues/34) | 5 | 2023-12-07 |
 | huggingface/lighteval | Python | [[FT] Improve Documentation and Examples](https://github.com/huggingface/lighteval/issues/682) | 6 | 2025-05-15 |
-| huggingface/accelerate | Python | [[Community Contributions] examples on distributed inference using 🤗 Accelerate](https://github.com/huggingface/accelerate/issues/3078) | 6 | 2026-06-27 |
 | microsoft/data-formulator | Python | [Expand chart type supports](https://github.com/microsoft/data-formulator/issues/193) | 6 | 2025-12-05 |
 | huggingface/lighteval | Python | [[EVAL] Long Horizon Execution](https://github.com/huggingface/lighteval/issues/1056) | 7 | 2026-01-25 |
+| huggingface/accelerate | Python | [[Community Contributions] examples on distributed inference using 🤗 Accelerate](https://github.com/huggingface/accelerate/issues/3078) | 7 | 2026-07-30 |
 | huggingface/nanotron | Python | [[Bug] Missing `_is_using_mup` when resume checkpoint](https://github.com/huggingface/nanotron/issues/198) | 7 | 2026-07-29 |
 | microsoft/onnxscript | Python | [Attention fusion (SDPA/MHA) broken for BART decoder with/wo past🐛](https://github.com/microsoft/onnxscript/issues/2424) | 7 | 2026-03-01 |
 | microsoft/autogen | Python | [Get current message thread from a group chat team.](https://github.com/microsoft/autogen/issues/6085) | 7 | 2026-04-30 |
@@ -514,7 +510,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/autogen | Python | [open needs encoding='utf-8' for non-english environment, error in playwright_controller.py](https://github.com/microsoft/autogen/issues/5566) | 32 | 2026-07-24 |
 | microsoft/TRELLIS | Python | [How to generate 3D assets with more number of faces?](https://github.com/microsoft/TRELLIS/issues/58) | 34 | 2025-01-25 |
 | microsoft/TRELLIS | Python | [Setting Up Trellis on Windows](https://github.com/microsoft/TRELLIS/issues/3) | 53 | 2025-11-02 |
-| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 141 | 2026-07-29 |
+| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 142 | 2026-07-30 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 | 2024-04-17 |
 | microsoft/openvmm | Rust | [remove usages of futures::select! in the repo with futures_concurrency](https://github.com/microsoft/openvmm/issues/1246) | 0 | 2025-06-21 |
 | microsoft/windows-drivers-rs | Rust | [Migrate from fs4 to std::File flocks](https://github.com/microsoft/windows-drivers-rs/issues/300) | 0 | 2025-08-15 |
@@ -664,8 +660,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost | TypeScript | [Bitbucket plugin: Support for bitbucket Datacenter/server](https://github.com/mattermost/mattermost/issues/24188) | 10 | 2023-10-04 |
 | mattermost/mattermost | TypeScript | [Create config setting to always have the team sidebar visible](https://github.com/mattermost/mattermost/issues/18010) | 13 | 2024-10-18 |
 | mattermost/mattermost | TypeScript | [Interactive Dialogs timeout forbiddingly short in slash command integrations ](https://github.com/mattermost/mattermost/issues/21901) | 14 | 2026-02-24 |
-| microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Bug: Conversation KPIs dashboard is blank even though all the related flows are enabled and prerequisites are met](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/746) | 15 | 2026-07-29 |
 | mattermost/mattermost | TypeScript | [Mobile \| Inconsistant channel updated info message on web and mobile](https://github.com/mattermost/mattermost/issues/26917) | 15 | 2026-05-21 |
+| microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Bug: Conversation KPIs dashboard is blank even though all the related flows are enabled and prerequisites are met](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/746) | 16 | 2026-07-30 |
 | freeCodeCamp/chapter | TypeScript | [Good first issues](https://github.com/freeCodeCamp/chapter/issues/691) | 18 | 2025-09-25 |
 | mattermost/mattermost | TypeScript | [Mobile Web View: Text is cut off in channel dropdown > channel actions](https://github.com/mattermost/mattermost/issues/25165) | 19 | 2026-06-22 |
 | mattermost/mattermost | TypeScript | [Increase max height of the Find Channels modal](https://github.com/mattermost/mattermost/issues/21558) | 20 | 2026-05-27 |
