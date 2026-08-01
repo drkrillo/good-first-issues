@@ -59,7 +59,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-07-31</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-08-01</sub></sub>
 
 | Repo | Language | Title | Comments | Updated |
 |---|---|---|---|---|
@@ -82,11 +82,12 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/aspire | C# | [[nit]: "Operation cancelled by user action" log is too incessant](https://github.com/microsoft/aspire/issues/9311) | 3 | 2026-06-09 |
 | microsoft/mcp | C# | [[COMMUNITY] Auto generate CHANGELOG, including adding contributors for each release](https://github.com/microsoft/mcp/issues/156) | 4 | 2026-07-07 |
 | microsoft/aspire | C# | [Improve Exception Message for Missing Project Metadata Annotation in ResourceContainerImageBuilder.cs](https://github.com/microsoft/aspire/issues/11299) | 12 | 2026-05-26 |
+| microsoft/STL | C++ | [`<yvals_core.h>`: Update `_MSVC_STL_UPDATE` to August 2026](https://github.com/microsoft/STL/issues/6392) | 0 | 2026-08-01 |
 | microsoft/snmalloc | C++ | [Implement accurate size storage for Windows `_msize` and `_recalloc`](https://github.com/microsoft/snmalloc/issues/786) | 0 | 2025-07-02 |
 | microsoft/react-native-windows | C++ | [Scroll wheel behavior differs significantly in new architecture (Windows App SDK) vs WinUI 3 Gallery app](https://github.com/microsoft/react-native-windows/issues/14653) | 1 | 2025-07-03 |
 | microsoft/react-native-windows | C++ | [Deprecate autolink functionality to copy flags from react-native.config.js into ExperimentalFeature.props.](https://github.com/microsoft/react-native-windows/issues/14601) | 1 | 2025-06-11 |
 | microsoft/react-native-windows | C++ | [[Bug] init-windows adds incorrect name of Native Codegen File Include](https://github.com/microsoft/react-native-windows/issues/15094) | 4 | 2026-04-14 |
-| godotengine/godot | C++ | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 27 | 2026-07-01 |
+| godotengine/godot | C++ | [[Godot v4.4] Gizmos exponentially increasing Draw Calls and Objects when turned on](https://github.com/godotengine/godot/issues/103676) | 30 | 2026-08-01 |
 | godotengine/godot | C++ | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 34 | 2026-07-14 |
 | godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 266 | 2026-07-19 |
 | mattermost/mattermost-developer-documentation | CSS | [Help Wanted: Document how to do local development on a plugin that requires an E20/Enterprise license](https://github.com/mattermost/mattermost-developer-documentation/issues/815) | 2 | 2024-11-01 |
@@ -313,15 +314,15 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/k8s.io | HCL | [[Umbrella Issue] Migrate CNCF Ecosystem projects from k8s.gcr.io to registry.k8s.io](https://github.com/kubernetes/k8s.io/issues/4780) | 37 | 2025-12-26 |
 | cncf/glossary | HTML | [[es] A report to track and reflect updates of English content](https://github.com/cncf/glossary/issues/3222) | 0 | 2025-04-07 |
 | cncf/tag-app-delivery | HTML | [Document how we use GitHub labels](https://github.com/cncf/tag-app-delivery/issues/405) | 0 | 2024-06-22 |
-| kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/ephemeral-container.md into Japanese](https://github.com/kubernetes/website/issues/56700) | 1 | 2026-07-31 |
-| kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/operator-pattern.md into Japanese](https://github.com/kubernetes/website/issues/56699) | 1 | 2026-07-31 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/preemption.md into Japanese](https://github.com/kubernetes/website/issues/56698) | 1 | 2026-07-31 |
 | cncf/tag-contributor-strategy | HTML | [Charter link is 404](https://github.com/cncf/tag-contributor-strategy/issues/762) | 1 | 2025-09-25 |
 | cncf/glossary | HTML | [[ru] Localize `Portability`](https://github.com/cncf/glossary/issues/3265) | 1 | 2024-11-19 |
+| kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/ephemeral-container.md into Japanese](https://github.com/kubernetes/website/issues/56700) | 2 | 2026-08-01 |
+| kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/operator-pattern.md into Japanese](https://github.com/kubernetes/website/issues/56699) | 2 | 2026-08-01 |
 | cncf/glossary | HTML | [[ru] Localize `Service` into Russian](https://github.com/cncf/glossary/issues/3334) | 2 | 2025-03-03 |
 | cncf/tag-app-delivery | HTML | [Automation of tag-app-delivery repo](https://github.com/cncf/tag-app-delivery/issues/566) | 3 | 2024-06-22 |
-| kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/object.md into Japanese](https://github.com/kubernetes/website/issues/56697) | 4 | 2026-07-31 |
 | cncf/tag-security | HTML | [[Suggestion] Working Group Landing Page](https://github.com/cncf/tag-security/issues/1354) | 4 | 2025-07-19 |
+| kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/object.md into Japanese](https://github.com/kubernetes/website/issues/56697) | 5 | 2026-07-31 |
 | cncf/tag-observability | HTML | [WG: Create GitHub Pages site for TAG Observability](https://github.com/cncf/tag-observability/issues/39) | 7 | 2023-11-21 |
 | kubernetes/website | HTML | [[hi] Localize Network Policy Provider page](https://github.com/kubernetes/website/issues/47439) | 8 | 2026-07-09 |
 | kubernetes/website | HTML | [[hi] Localize concepts/extend-kubernetes page](https://github.com/kubernetes/website/issues/48991) | 10 | 2026-07-05 |
@@ -418,7 +419,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/optimum-executorch | Python | [Add benchmarking numbers for more models](https://github.com/huggingface/optimum-executorch/issues/131) | 0 | 2025-09-02 |
 | huggingface/lighteval | Python | [[FT]  Add tests for `VLLMModel` base methods](https://github.com/huggingface/lighteval/issues/724) | 0 | 2025-05-20 |
 | huggingface/nanotron | Python | [[Feature] Use CUDA event for measuring elasped time](https://github.com/huggingface/nanotron/issues/88) | 0 | 2024-04-20 |
-| huggingface/nanotron | Python | [[Feature] Refactor `ParallelContext.world_rank_matrix`](https://github.com/huggingface/nanotron/issues/77) | 0 | 2024-02-19 |
+| huggingface/nanotron | Python | [[Feature] Refactor `ParallelContext.world_rank_matrix`](https://github.com/huggingface/nanotron/issues/77) | 0 | 2026-08-01 |
 | microsoft/AutoPodcaster | Python | [Add devcontainer](https://github.com/microsoft/AutoPodcaster/issues/9) | 0 | 2025-01-09 |
 | microsoft/teams-agent-accelerator-libs-py | Python | [Expose the ability to add memory explicitly](https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/57) | 0 | 2025-01-06 |
 | microsoft/BitBLAS | Python | [[Feature Request] Enhance Database to support reload scheduled tilelang operator](https://github.com/microsoft/BitBLAS/issues/269) | 0 | 2024-12-16 |
@@ -432,6 +433,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/nanotron | Python | [FEAT: Support 1.58-bit LLMs training](https://github.com/huggingface/nanotron/issues/114) | 1 | 2024-04-03 |
 | huggingface/dataset-viewer | Python | [Use `revision_exists` (hfh)](https://github.com/huggingface/dataset-viewer/issues/2562) | 1 | 2025-07-01 |
 | huggingface/nanotron | Python | [[Feature Request] Add simple communications benchmarks to the repo](https://github.com/huggingface/nanotron/issues/43) | 1 | 2024-01-25 |
+| microsoft/apm | Python | [[FEATURE] Add Grok (xAI) as a first-class APM target](https://github.com/microsoft/apm/issues/2419) | 1 | 2026-08-01 |
 | microsoft/apm | Python | [Extract shared retain/reindex predicate for git auth-config entries (follow-up to #2368)](https://github.com/microsoft/apm/issues/2398) | 1 | 2026-07-31 |
 | microsoft/winml-cli | Python | [Minor refactor: reuse _compute_case_signature to compute failed model file name](https://github.com/microsoft/winml-cli/issues/56) | 1 | 2026-06-17 |
 | microsoft/onnxscript | Python | [[torchlib] Add op test to torch.unique_consecutive](https://github.com/microsoft/onnxscript/issues/2695) | 1 | 2025-12-21 |
@@ -475,7 +477,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/lighteval | Python | [[EVAL]: Add more African Benchmarks](https://github.com/huggingface/lighteval/issues/373) | 4 | 2024-11-08 |
 | huggingface/dataset-viewer | Python | [Cache/Queue metrics should not be negative](https://github.com/huggingface/dataset-viewer/issues/2495) | 4 | 2025-08-04 |
 | microsoft/agent-governance-toolkit | Python | [[Bug]: Quickstart imports fail on base install — README paths need [full], and agent_os is deprecated](https://github.com/microsoft/agent-governance-toolkit/issues/3253) | 4 | 2026-07-24 |
-| microsoft/BitBLAS | Python | [Example of bitblas/ladder with dtypes like int3, int5, int6, int7](https://github.com/microsoft/BitBLAS/issues/244) | 4 | 2024-12-16 |
 | huggingface/lighteval | Python | [[BUG] custom model docs don't run: missing imports](https://github.com/huggingface/lighteval/issues/760) | 5 | 2025-05-21 |
 | huggingface/nanotron | Python | [Avoid nested `InheritFromOtherOptimizer`](https://github.com/huggingface/nanotron/issues/267) | 5 | 2025-09-23 |
 | huggingface/nanotron | Python | [[Unit Test] Add unit tests for DistributedTrainer](https://github.com/huggingface/nanotron/issues/90) | 5 | 2024-03-03 |
@@ -542,7 +543,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/vscode-containers | TypeScript | ["Compose Logs" command in extension settings](https://github.com/microsoft/vscode-containers/issues/323) | 0 | 2026-01-07 |
 | microsoft/Agent365-nodejs | TypeScript | [Convert "test-agents" into E2E tests](https://github.com/microsoft/Agent365-nodejs/issues/15) | 0 | 2025-10-29 |
 | microsoft/vscode-jupyter | TypeScript | [Add magic line comments regex pattern as configuration for uncommentMagicCommands](https://github.com/microsoft/vscode-jupyter/issues/16499) | 0 | 2025-03-24 |
-| microsoft/Game-Control-Puzzle-Event-Administration-Tools | TypeScript | [Per team and per puzzle activity feeds](https://github.com/microsoft/Game-Control-Puzzle-Event-Administration-Tools/issues/81) | 0 | 2025-03-02 |
 | microsoft/vscode-azurestorage | TypeScript | [There is a redundant Azure activity log "upload 0 files to xxx" when uploading a folder by "Upload to Azure Storage..." command](https://github.com/microsoft/vscode-azurestorage/issues/1373) | 0 | 2025-09-09 |
 | mattermost/mattermost-test-management | TypeScript | [feat: add validation to custom field's "Location"](https://github.com/mattermost/mattermost-test-management/issues/25) | 0 | 2024-01-30 |
 | decentraland/creator-hub | TypeScript | [Name tooltip too high when searching](https://github.com/decentraland/creator-hub/issues/1010) | 0 | 2026-01-07 |
@@ -616,7 +616,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | decentraland/builder | TypeScript | [Add a way to de-assign a Name from a Land (Parcel/Estate) from the table](https://github.com/decentraland/builder/issues/1203) | 0 | 2022-10-31 |
 | microsoft/genaiscript | TypeScript | [Open Telemetry](https://github.com/microsoft/genaiscript/issues/1323) | 1 | 2025-03-19 |
 | microsoft/vscode-python-debugger | TypeScript | [Add a `debugpy.sh` for the no-config debugging](https://github.com/microsoft/vscode-python-debugger/issues/651) | 1 | 2026-01-10 |
-| microsoft/vscode-azurestorage | TypeScript | [Using vs-code to edit files in blob storage changes the files content-type.](https://github.com/microsoft/vscode-azurestorage/issues/1352) | 1 | 2026-04-29 |
+| microsoft/Game-Control-Puzzle-Event-Administration-Tools | TypeScript | [Per team and per puzzle activity feeds](https://github.com/microsoft/Game-Control-Puzzle-Event-Administration-Tools/issues/81) | 1 | 2026-08-01 |
 | hashicorp/terraform-cdk | TypeScript | [CLI UX: Nicer output for `cdktf synth` if there are no stacks in an app](https://github.com/hashicorp/terraform-cdk/issues/2793) | 1 | 2023-05-28 |
 | hashicorp/terraform-cdk | TypeScript | [Support `local-exec` `quiet` attribute](https://github.com/hashicorp/terraform-cdk/issues/2702) | 1 | 2023-06-01 |
 | mattermost/mattermost-test-management | TypeScript | [Display Errors and Files name in which they occurr](https://github.com/mattermost/mattermost-test-management/issues/20) | 1 | 2022-11-24 |
@@ -644,11 +644,11 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/vscode-containers | TypeScript | [Add presentation options to Docker extension's compose commands](https://github.com/microsoft/vscode-containers/issues/350) | 3 | 2026-01-28 |
 | microsoft/teams.ts | TypeScript | [[cards] support lowercase and Capitalized JSON values](https://github.com/microsoft/teams.ts/issues/132) | 3 | 2025-10-11 |
 | hashicorp/terraform-cdk | TypeScript | [Support kubernetes backend](https://github.com/hashicorp/terraform-cdk/issues/1628) | 3 | 2023-06-01 |
-| mattermost/mattermost | TypeScript | [Help Wanted: BitBucket README > Split out admin content to child pages](https://github.com/mattermost/mattermost/issues/25176) | 3 | 2023-10-27 |
 | huggingface/chat-ui | TypeScript | [Add option for users to customize search engines in settings page](https://github.com/huggingface/chat-ui/issues/1756) | 4 | 2026-05-09 |
 | huggingface/chat-ui | TypeScript | [Chrome app icon on macOS](https://github.com/huggingface/chat-ui/issues/1439) | 4 | 2026-05-07 |
 | huggingface/chat-ui | TypeScript | [System prompt not taken into account when web browsing.](https://github.com/huggingface/chat-ui/issues/1159) | 4 | 2026-06-26 |
 | microsoft/genaiscript | TypeScript | [Repository map example](https://github.com/microsoft/genaiscript/issues/982) | 4 | 2025-03-19 |
+| mattermost/mattermost | TypeScript | [Help Wanted: BitBucket README > Split out admin content to child pages](https://github.com/mattermost/mattermost/issues/25176) | 4 | 2026-08-01 |
 | freeCodeCamp/chapter | TypeScript | [Consolidate email templates](https://github.com/freeCodeCamp/chapter/issues/2071) | 4 | 2023-04-30 |
 | decentraland/marketplace | TypeScript | [Create a high order component that redirects to the Sign In Page if the user is not connected](https://github.com/decentraland/marketplace/issues/1522) | 4 | 2023-04-10 |
 | layer5io/sistent | TypeScript | [[Docs] update readme to include instructions to use npm link](https://github.com/layer5io/sistent/issues/999) | 5 | 2025-06-17 |
@@ -668,7 +668,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | freeCodeCamp/chapter | TypeScript | [Good first issues](https://github.com/freeCodeCamp/chapter/issues/691) | 18 | 2025-09-25 |
 | mattermost/mattermost | TypeScript | [Mobile Web View: Text is cut off in channel dropdown > channel actions](https://github.com/mattermost/mattermost/issues/25165) | 19 | 2026-06-22 |
 | mattermost/mattermost | TypeScript | [Increase max height of the Find Channels modal](https://github.com/mattermost/mattermost/issues/21558) | 20 | 2026-05-27 |
-| mattermost/mattermost | TypeScript | [Improve the grammar on Account Creation Screen if the email address you entered does not belong to the accepted domain](https://github.com/mattermost/mattermost/issues/15927) | 21 | 2025-09-15 |
+| mattermost/mattermost | TypeScript | [Improve the grammar on Account Creation Screen if the email address you entered does not belong to the accepted domain](https://github.com/mattermost/mattermost/issues/15927) | 22 | 2026-08-01 |
 | mattermost/mattermost | TypeScript | [`Unable to find manifest for extracted plugin` when using `make deploy`](https://github.com/mattermost/mattermost/issues/22614) | 27 | 2023-08-11 |
 | mattermost/mattermost | TypeScript | [Fix all initialism errors in the codebase](https://github.com/mattermost/mattermost/issues/16623) | 27 | 2025-11-24 |
 | microsoft/vscode | TypeScript | [Review AsyncIterableObject usage: potential memory leaks and migration to AsyncIterableProducer](https://github.com/microsoft/vscode/issues/256854) | 30 | 2026-06-30 |
