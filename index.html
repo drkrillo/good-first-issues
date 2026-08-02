@@ -263,10 +263,17 @@
 
     }
 
+    function getColumnIndex(header, columnName) {
+        return header.indexOf(columnName);
+    }
+
     function updateTable() {
 
         const header = issuesData[0];
         let rows = issuesData.slice(1);
+
+        const languageIdx = getColumnIndex(header, "language");
+        const commentsIdx = getColumnIndex(header, "comments");
 
         if (currentSearch !== "") {
             rows = rows.filter(row => {
@@ -276,17 +283,17 @@
 
         if (currentLanguage !== "") {
             rows = rows.filter(row => {
-                return row[1] === currentLanguage
+                return row[languageIdx] === currentLanguage
             });
         }
 
         if (sortMode === 1) {
             rows.sort(
-                (a,b) => Number(b[4]) - Number(a[4])
+                (a,b) => Number(b[commentsIdx]) - Number(a[commentsIdx])
             );
         } else if (sortMode === 2) {
             rows.sort(
-                (a,b) => Number(a[4]) - Number(b[4])
+                (a,b) => Number(a[commentsIdx]) - Number(b[commentsIdx])
             );
         }
 
@@ -333,9 +340,12 @@
                 complete: function(results) {
                     issuesData = results.data;
 
+                    const header = issuesData[0];
+                    const languageIdx = getColumnIndex(header, "language");
+
                     const languages = [
                         ...new Set(
-                            issuesData.slice(1).map(row => row[1])
+                            issuesData.slice(1).map(row => row[languageIdx])
                         )
                     ];
 
