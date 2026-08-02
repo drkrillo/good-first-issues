@@ -103,6 +103,92 @@ def test_main_with_no_issues(mock_session, mock_env_vars, mock_args):
             main(mock_args)
 
 
+def test_main_with_output(mock_session, mock_env_vars):
+    """Test main() when args.output is set (covers write_output branch)."""
+    repos = {
+        "https://api.github.com/repos/owner/repo1": "Python",
+    }
+
+    raw_issues = [
+        {
+            "repository_url": "https://api.github.com/repos/owner/repo1",
+            "title": "Test Issue 1",
+            "html_url": "https://github.com/owner/repo1/issues/1",
+            "comments": 5,
+            "labels": [{"name": "good first issue"}],
+            "state": "open",
+            "created_at": "2026-01-01T00:00:00Z",
+            "updated_at": "2026-01-02T00:00:00Z",
+        },
+    ]
+
+    mock_args = MagicMock()
+    mock_args.output = "output.csv"
+
+    with patch.object(RepoManager, 'extract_repos', return_value=repos), \
+         patch.object(IssueManager, 'extract_issues_by_user', return_value=raw_issues), \
+         patch.object(IssueManager, 'extract_issue_data', side_effect=lambda x: {
+             "repo": x[1]["repository_url"].split('repos/')[1],
+             "language": x[0],
+             "title": x[1]["title"],
+             "url": x[1]["html_url"],
+             "comments": x[1]["comments"],
+             "labels": [l["name"] for l in x[1].get("labels", [])],
+             "state": x[1].get("state", "open"),
+             "created_at": x[1].get("created_at", "")[:10],
+             "updated_at": x[1].get("updated_at", "")[:10],
+         }), \
+         patch.object(TemplateManager, 'format_response', return_value=[]) as mock_format, \
+         patch.object(TemplateManager, 'write_output') as mock_write:
+
+        main(mock_args)
+
+        mock_format.assert_called_once()
+        mock_write.assert_called_once_with([], "output.csv")
+
+
+def test_update_issues_main_block(monkeypatch):
+    """Test the __main__ block of update_issues.py."""
+    monkeypatch.setattr(sys, 'argv', ['update_issues.py'])
+
+    with patch('app.core.config.USERNAMES', ['test_user']), \
+         patch('app.core.config.HEADERS', {'Authorization': 'Bearer test-token'}), \
+         patch.object(RepoManager, 'extract_repos', return_value={
+             'https://api.github.com/repos/owner/repo': 'Python'
+         }), \
+         patch.object(IssueManager, 'extract_issues_by_user', return_value=[{
+             "repository_url": "https://api.github.com/repos/owner/repo",
+             "title": "Test",
+             "html_url": "https://github.com/owner/repo/issues/1",
+             "comments": 0,
+             "labels": [],
+             "state": "open",
+             "created_at": "2026-01-01T00:00:00Z",
+             "updated_at": "2026-01-01T00:00:00Z",
+         }]), \
+         patch('requests.Session') as mock_sess:
+        mock_sess.return_value.__enter__.return_value = MagicMock()
+
+        import runpy
+        runpy.run_module('app.update_issues', run_name='__main__', alter_sys=True)
+
+
+def test_render_readme_main_block(monkeypatch, tmp_path):
+    """Test the render_readme.py script execution."""
+    csv_file = tmp_path / "issues.csv"
+    csv_file.write_text(
+        "repo,language,title,url,comments,created_at,updated_at\n"
+        "owner/repo,Python,Test,https://example.com,1,2024-01-01,2024-01-02\n"
+    )
+    monkeypatch.setattr(sys, 'argv', ['render_readme.py', '--input', str(csv_file)])
+
+    with patch.object(TemplateManager, 'render_template') as mock_render:
+        import runpy
+        runpy.run_module('app.render_readme', run_name='__main__', alter_sys=True)
+
+    mock_render.assert_called_once()
+
+
 def test_main_script_execution(mock_session, mock_env_vars, monkeypatch):
     counter = [0]
     def mock_perf_counter():

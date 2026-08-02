@@ -134,6 +134,18 @@ class TestIssueManager:
         mock_api_instance.make_request.assert_called_once()
 
     @patch('app.core.api_handler.APIClient')
+    def test_extract_issues_by_user_error(self, mock_api_client):
+        mock_api_instance = MagicMock()
+        mock_api_client.return_value = mock_api_instance
+        # Return a non-dict so .get() raises AttributeError
+        mock_api_instance.make_request.return_value = None
+
+        result = IssueManager().extract_issues_by_user("test_user", mock_api_instance)
+
+        # The except block catches the error and returns empty list
+        assert result == []
+
+    @patch('app.core.api_handler.APIClient')
     def test_extract_issue_data_error(self, mock_api_client):
         raw_issue = (
             "Python",
@@ -285,4 +297,60 @@ class TestTemplateManager:
             write_calls = [call for call in mock_open.call_args_list if call[0][0] == "README.md"]
             assert len(write_calls) == 1
             assert write_calls[0][0][1] == "w+"
+
+    def test_write_output_csv(self, tmp_path):
+        issues = [
+            {
+                'repo': 'owner/repo',
+                'language': 'Python',
+                'title': 'Issue 1',
+                'url': 'https://example.com',
+                'comments': 5,
+                'labels': ['good first issue'],
+                'state': 'open',
+                'created_at': '2024-01-01',
+                'updated_at': '2024-01-02',
+            }
+        ]
+        output_file = str(tmp_path / "output.csv")
+
+        TemplateManager.write_output(issues, output_file)
+
+        with open(output_file) as f:
+            content = f.read()
+        assert "owner/repo" in content
+        assert "Python" in content
+
+    def test_write_output_json(self, tmp_path):
+        import json
+        issues = [
+            {
+                'repo': 'owner/repo',
+                'language': 'Python',
+                'title': 'Issue 1',
+                'url': 'https://example.com',
+                'comments': 5,
+            }
+        ]
+        output_file = str(tmp_path / "output.json")
+
+        TemplateManager.write_output(issues, output_file)
+
+        with open(output_file) as f:
+            data = json.load(f)
+        assert len(data) == 1
+        assert data[0]['repo'] == 'owner/repo'
+
+    def test_write_output_invalid_format(self, tmp_path):
+        output_file = str(tmp_path / "output.txt")
+
+        with pytest.raises(ValueError, match="Unsupported output format"):
+            TemplateManager.write_output([], output_file)
+
+
+class TestConfig:
+    def test_get_template_path(self):
+        from app.core.config import get_template_path
+        result = get_template_path()
+        assert "templates" in result
 
