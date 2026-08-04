@@ -35,19 +35,19 @@ class TestRepoManager:
         
         # Mock the response for each page
         mock_api_instance.make_request.side_effect = [
-            [{"url": "https://api.github.com/repos/owner/repo1"},
-             {"url": "https://api.github.com/repos/owner/repo2"}],
-            [{"url": "https://api.github.com/repos/owner/repo3"}]
+            [{"url": "https://api.github.com/repos/owner/repo1", "language": "Python"},
+             {"url": "https://api.github.com/repos/owner/repo2", "language": "JavaScript"}],
+            [{"url": "https://api.github.com/repos/owner/repo3", "language": None}]
         ]
 
         result = RepoManager().extract_repos('test_user', mock_api_instance)
 
         assert len(result) == 3
-        assert result == [
-            "https://api.github.com/repos/owner/repo1",
-            "https://api.github.com/repos/owner/repo2",
-            "https://api.github.com/repos/owner/repo3"
-        ]
+        assert result == {
+            "https://api.github.com/repos/owner/repo1": "Python",
+            "https://api.github.com/repos/owner/repo2": "JavaScript",
+            "https://api.github.com/repos/owner/repo3": "Other",
+        }
         
         # Verify API calls
         assert mock_api_instance.make_request.call_count == 2
@@ -112,43 +112,38 @@ class TestIssueManager:
         }
 
     @patch('app.core.api_handler.APIClient')
-    def test_extract_language(self, mock_api_client):
+    def test_extract_issues_by_user(self, mock_api_client):
         mock_api_instance = MagicMock()
         mock_api_client.return_value = mock_api_instance
-        mock_api_instance.make_request.return_value = {"language": "Python"}
 
-        result = IssueManager().extract_language("https://api.github.com/repos/owner/repo", mock_api_instance)
-
-        assert result == "Python"
-        mock_api_instance.make_request.assert_called_once_with("https://api.github.com/repos/owner/repo", mock_api_instance)
-
-    @patch('app.core.api_handler.APIClient')
-    def test_extract_issues(self, mock_api_client):
-        mock_api_instance = MagicMock()
-        mock_api_client.return_value = mock_api_instance
-        
-        # Mock the language request
-        mock_api_instance.make_request.side_effect = [
-            {"language": "Python"},  # First call for extract_language
-            [  # Second call for issues
+        mock_api_instance.make_request.return_value = {
+            "items": [
                 {
                     "title": "Test Issue",
                     "html_url": "https://github.com/owner/repo/issues/1",
-                    "comments": 5
+                    "repository_url": "https://api.github.com/repos/owner/repo",
+                    "comments": 5,
                 }
             ]
-        ]
+        }
 
-        result = IssueManager().extract_issues("https://api.github.com/repos/owner/repo", mock_api_instance)
+        result = IssueManager().extract_issues_by_user("test_user", mock_api_instance)
 
         assert len(result) == 1
-        assert result[0][0] == "Python"  # Language
-        assert result[0][1]["title"] == "Test Issue"
-        
-        # Verify API calls
-        assert mock_api_instance.make_request.call_count == 2
-        mock_api_instance.make_request.assert_any_call("https://api.github.com/repos/owner/repo", mock_api_instance)
-        mock_api_instance.make_request.assert_any_call("https://api.github.com/repos/owner/repo/issues?labels=good first issue", mock_api_instance)
+        assert result[0]["title"] == "Test Issue"
+        mock_api_instance.make_request.assert_called_once()
+
+    @patch('app.core.api_handler.APIClient')
+    def test_extract_issues_by_user_error(self, mock_api_client):
+        mock_api_instance = MagicMock()
+        mock_api_client.return_value = mock_api_instance
+        # Return a non-dict so .get() raises AttributeError
+        mock_api_instance.make_request.return_value = None
+
+        result = IssueManager().extract_issues_by_user("test_user", mock_api_instance)
+
+        # The except block catches the error and returns empty list
+        assert result == []
 
     @patch('app.core.api_handler.APIClient')
     def test_extract_issue_data_error(self, mock_api_client):
@@ -162,27 +157,6 @@ class TestIssueManager:
         
         with pytest.raises(Exception):
             IssueManager().extract_issue_data(raw_issue)
-
-    @patch('app.core.api_handler.APIClient')
-    def test_extract_language_error(self, mock_api_client):
-        mock_api_instance = MagicMock()
-        mock_api_client.return_value = mock_api_instance
-        mock_api_instance.make_request.return_value = {}  # Missing 'language' key
-
-        with pytest.raises(KeyError):
-            IssueManager().extract_language("https://api.github.com/repos/owner/repo", mock_api_instance)
-
-    @patch('app.core.api_handler.APIClient')
-    def test_extract_issues_error(self, mock_api_client):
-        mock_api_instance = MagicMock()
-        mock_api_client.return_value = mock_api_instance
-        mock_api_instance.make_request.side_effect = [
-            {"language": "Python"},  # First call for extract_language
-            None  # Second call will cause TypeError
-        ]
-
-        with pytest.raises(TypeError):
-            IssueManager().extract_issues("https://api.github.com/repos/owner/repo", mock_api_instance)
 
 class TestUtils:
 
@@ -265,18 +239,18 @@ class TestTemplateManager:
 
         result = TemplateManager().format_response(issues)
 
-        assert len(result) == 2  # Two languages
-        
-        # Check JavaScript issues
-        js_result = next(r for r in result if r['language'] == 'JavaScript')
-        assert len(js_result['issues']) == 1
-        assert js_result['issues'][0]['title'] == 'Issue 3'
+        # Returns a flat list sorted by language, then by comments
+        assert len(result) == 3
 
-        # Check Python issues (should be sorted by comments)
-        py_result = next(r for r in result if r['language'] == 'Python')
-        assert len(py_result['issues']) == 2
-        assert py_result['issues'][0]['comments'] == 2  # First should have fewer comments
-        assert py_result['issues'][1]['comments'] == 5  # Second should have more comments
+        # JavaScript comes first alphabetically
+        assert result[0]['language'] == 'JavaScript'
+        assert result[0]['title'] == 'Issue 3'
+
+        # Python issues sorted by comments (ascending)
+        assert result[1]['language'] == 'Python'
+        assert result[1]['comments'] == 2
+        assert result[2]['language'] == 'Python'
+        assert result[2]['comments'] == 5
 
     def test_render_template(self, tmp_path):
         # Create a temporary template file
@@ -285,32 +259,20 @@ class TestTemplateManager:
         template_file = template_dir / "README.md.j2"
         template_content = """# Good First Issues ({{ today }})
 
-{% for lang in results %}
-## {{ lang.language }}
-{% for issue in lang.issues %}
-- [{{ issue.title }}]({{ issue.url }}) ({{ issue.comments }} comments)
-{% endfor %}
+{% for result in results -%}
+| {{ result.repo }} | {{ result.language }} | [{{ result.title }}]({{ result.url }}) | {{ result.comments }} |
 {% endfor %}"""
         template_file.write_text(template_content)
 
-        results = [
-            {
-                'language': 'Python',
-                'issues': [
-                    {
-                        'title': 'Test Issue',
-                        'url': 'https://example.com',
-                        'comments': 5
-                    }
-                ]
-            }
-        ]
+        # Create a temporary CSV file
+        csv_file = tmp_path / "issues.csv"
+        csv_file.write_text(
+            "repo,language,title,url,comments,created_at,updated_at\n"
+            "owner/repo,Python,Test Issue,https://example.com,5,2024-01-01,2024-01-02\n"
+        )
 
         today = "2024-03-01"
-        
-        # Create a temporary output file
-        output_file = tmp_path / "README.md"
-        
+
         # Only mock the write to README.md
         def mock_open_wrapper(original_open):
             def wrapped_open(*args, **kwargs):
@@ -320,26 +282,75 @@ class TestTemplateManager:
                     return mock_file
                 return original_open(*args, **kwargs)
             return wrapped_open
-        
+
         with patch('builtins.open', side_effect=mock_open_wrapper(open)) as mock_open:
-            rendered = TemplateManager().render_template(results, str(template_dir), today)
+            rendered = TemplateManager().render_template(
+                str(csv_file), str(template_dir), today
+            )
 
-            # Normalize whitespace for comparison
-            def normalize_whitespace(text):
-                # Remove empty lines and normalize remaining whitespace
-                lines = [line.strip() for line in text.splitlines() if line.strip()]
-                return '\n'.join(lines)
+            assert "Good First Issues (2024-03-01)" in rendered
+            assert "owner/repo" in rendered
+            assert "Python" in rendered
+            assert "Test Issue" in rendered
 
-            rendered_normalized = normalize_whitespace(rendered)
-            expected_normalized = normalize_whitespace("""# Good First Issues (2024-03-01)
-
-## Python
-- [Test Issue](https://example.com) (5 comments)""")
-
-            assert rendered_normalized == expected_normalized
-            
             # Verify the write to README.md
             write_calls = [call for call in mock_open.call_args_list if call[0][0] == "README.md"]
             assert len(write_calls) == 1
             assert write_calls[0][0][1] == "w+"
+
+    def test_write_output_csv(self, tmp_path):
+        issues = [
+            {
+                'repo': 'owner/repo',
+                'language': 'Python',
+                'title': 'Issue 1',
+                'url': 'https://example.com',
+                'comments': 5,
+                'labels': ['good first issue'],
+                'state': 'open',
+                'created_at': '2024-01-01',
+                'updated_at': '2024-01-02',
+            }
+        ]
+        output_file = str(tmp_path / "output.csv")
+
+        TemplateManager.write_output(issues, output_file)
+
+        with open(output_file) as f:
+            content = f.read()
+        assert "owner/repo" in content
+        assert "Python" in content
+
+    def test_write_output_json(self, tmp_path):
+        import json
+        issues = [
+            {
+                'repo': 'owner/repo',
+                'language': 'Python',
+                'title': 'Issue 1',
+                'url': 'https://example.com',
+                'comments': 5,
+            }
+        ]
+        output_file = str(tmp_path / "output.json")
+
+        TemplateManager.write_output(issues, output_file)
+
+        with open(output_file) as f:
+            data = json.load(f)
+        assert len(data) == 1
+        assert data[0]['repo'] == 'owner/repo'
+
+    def test_write_output_invalid_format(self, tmp_path):
+        output_file = str(tmp_path / "output.txt")
+
+        with pytest.raises(ValueError, match="Unsupported output format"):
+            TemplateManager.write_output([], output_file)
+
+
+class TestConfig:
+    def test_get_template_path(self):
+        from app.core.config import get_template_path
+        result = get_template_path()
+        assert "templates" in result
 
