@@ -50,13 +50,12 @@ Each issue in the output contains the following fields:
 | `url` | Direct link to the issue on GitHub |
 | `comments` | Number of comments on the issue |
 | `labels` | Labels assigned to the issue |
-| `state` | Issue state |
 
 ### CSV Example
 
 ```
-repo,language,title,url,comments,labels,state
-pytorch/glow,C++,Add layout propagation to NodeGen,https://github.com/pytorch/glow/issues/3834,0,['good first issue'],open
+repo,language,title,url,comments,labels
+pytorch/glow,C++,Add layout propagation to NodeGen,https://github.com/pytorch/glow/issues/3834,0,['good first issue']
 ```
 
 ### JSON Example
@@ -69,8 +68,7 @@ pytorch/glow,C++,Add layout propagation to NodeGen,https://github.com/pytorch/gl
     "title": "Add layout propagation to NodeGen",
     "url": "https://github.com/pytorch/glow/issues/3834",
     "comments": 0,
-    "labels": ["good first issue"],
-    "state": "open"
+    "labels": ["good first issue"]
   }
 ]
 ```
