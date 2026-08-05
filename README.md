@@ -75,8 +75,11 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/ebpf-for-windows | C | [ebpf-verifier is cloned twice](https://github.com/microsoft/ebpf-for-windows/issues/4174) | 2 | 2026-08-03 |
 | microsoft/PowerToys | C | [.opus support for Peek](https://github.com/microsoft/PowerToys/issues/42576) | 4 | 2026-06-28 |
 | microsoft/msquic | C | [Failing to use close-on-exec](https://github.com/microsoft/msquic/issues/4980) | 5 | 2026-07-15 |
+| microsoft/aspire | C# | [[13.5] Capture Paused alignment](https://github.com/microsoft/aspire/issues/19018) | 0 | 2026-08-05 |
+| microsoft/aspire | C# | [[main] Auto Completion on Structured Logs filter](https://github.com/microsoft/aspire/issues/19015) | 0 | 2026-08-05 |
 | microsoft/profile-explorer | C# | [Mapping code gap?](https://github.com/microsoft/profile-explorer/issues/7) | 0 | 2026-03-27 |
 | microsoft/WPF-Samples | C# | [Sample Applications Update to Fluent Theme](https://github.com/microsoft/WPF-Samples/issues/680) | 0 | 2025-02-03 |
+| microsoft/aspire | C# | [[13.5] Logs filter should hide `UTC timestamps` option when `Show timestamps` is disabled](https://github.com/microsoft/aspire/issues/19019) | 2 | 2026-08-05 |
 | microsoft/aspire | C# | [Provide CSV export option in dashboard console logs](https://github.com/microsoft/aspire/issues/11121) | 3 | 2026-07-04 |
 | microsoft/aspire | C# | [[nit]: "Operation cancelled by user action" log is too incessant](https://github.com/microsoft/aspire/issues/9311) | 3 | 2026-06-09 |
 | microsoft/mcp | C# | [[COMMUNITY] Auto generate CHANGELOG, including adding contributors for each release](https://github.com/microsoft/mcp/issues/156) | 4 | 2026-07-07 |
@@ -96,7 +99,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | godotengine/emacs-gdscript-mode | Emacs Lisp | [Buffer does not revert or update instantly after formatting buffer](https://github.com/godotengine/emacs-gdscript-mode/issues/88) | 3 | 2020-09-10 |
 | godotengine/godot-benchmarks | GDScript | [[Call to Action] Benchmarks for the benchmark server](https://github.com/godotengine/godot-benchmarks/issues/36) | 5 | 2024-06-24 |
 | godotengine/godot-benchmarks | GDScript | [[TRACKER] Benchmarks to create](https://github.com/godotengine/godot-benchmarks/issues/11) | 11 | 2024-04-30 |
-| kubernetes/minikube | Go | [nerdctl-bin package files use spaces instead of tabs](https://github.com/kubernetes/minikube/issues/23437) | 0 | 2026-08-04 |
 | hashicorp/packer-plugin-azure | Go | [Option to delete secret when build_key_vault_name is supplied](https://github.com/hashicorp/packer-plugin-azure/issues/506) | 0 | 2025-07-04 |
 | hashicorp/nomad | Go | [unclear message in task event from executor crash](https://github.com/hashicorp/nomad/issues/24220) | 0 | 2024-10-15 |
 | hashicorp/vault-secrets-operator | Go | [Add allowedNamespaces spec to helm chart values.yaml](https://github.com/hashicorp/vault-secrets-operator/issues/426) | 0 | 2023-10-25 |
@@ -127,6 +129,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-mscalendar | Go | [Allow "create event" command to accept spaces in values](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/97) | 0 | 2021-10-02 |
 | mattermost/mattermost-plugin-github | Go | [Create tests for `createIssue()` method](https://github.com/mattermost/mattermost-plugin-github/issues/223) | 0 | 2025-01-09 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Add mapped Mattermost users as attendees in CreateEvent API method](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/28) | 0 | 2021-10-02 |
+| kubernetes/minikube | Go | [nerdctl-bin package files use spaces instead of tabs](https://github.com/kubernetes/minikube/issues/23437) | 1 | 2026-08-05 |
 | kubernetes/minikube | Go | [nerdctl-bin x86_64 package references wrong version variable](https://github.com/kubernetes/minikube/issues/23436) | 1 | 2026-08-04 |
 | hashicorp/terraform-provider-aws | Go | [aws_bedrockagentcore_harness is missing additionalAttributes in bedrockModelConfig](https://github.com/hashicorp/terraform-provider-aws/issues/48363) | 1 | 2026-06-12 |
 | hashicorp/terraform-provider-aws | Go | [[Docs]: Document necessary dependency between aws_eks_access_entry and aws_eks_access_policy_association](https://github.com/hashicorp/terraform-provider-aws/issues/40951) | 1 | 2025-02-05 |
@@ -274,12 +277,12 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/terraform-provider-aws | Go | [Timeout for every account destroy with `close_on_deletion`](https://github.com/hashicorp/terraform-provider-aws/issues/46284) | 13 | 2026-08-04 |
 | hashicorp/terraform-provider-azurerm | Go | [azurerm_kusto_script failing to create, then saying it already exists on rerun](https://github.com/hashicorp/terraform-provider-azurerm/issues/15649) | 13 | 2025-07-17 |
 | kubernetes/minikube | Go | [minikube should allow 1 cpu --no-kubernetes](https://github.com/kubernetes/minikube/issues/22152) | 14 | 2026-04-12 |
-| kubernetes/minikube | Go | [Minikube tunnel is not working on Windows (endessly trying to add a route)](https://github.com/kubernetes/minikube/issues/11645) | 14 | 2025-05-31 |
 | kubernetes/minikube | Go | [--host-only-cidr: invalid CIDR address: '192.168.99.1/24'](https://github.com/kubernetes/minikube/issues/7063) | 14 | 2021-05-21 |
 | kubernetes/minikube | Go | [registry-creds addon: secrets stored with different name to defaults](https://github.com/kubernetes/minikube/issues/2805) | 14 | 2024-07-10 |
 | hashicorp/terraform-provider-helm | Go | [the provider continues to reveal sensitive variables during destroy or update in-place](https://github.com/hashicorp/terraform-provider-helm/issues/1287) | 14 | 2025-12-02 |
 | kubernetes/autoscaler | Go | [Cluster autoscaler should remove unused "node-autoprovisioning-enabled" flag and the related metrics](https://github.com/kubernetes/autoscaler/issues/6228) | 15 | 2026-04-08 |
 | kubernetes/ingress-nginx | Go | [Support standard Forwarded header](https://github.com/kubernetes/ingress-nginx/issues/10263) | 15 | 2026-02-25 |
+| kubernetes/minikube | Go | [Minikube tunnel is not working on Windows (endessly trying to add a route)](https://github.com/kubernetes/minikube/issues/11645) | 15 | 2026-08-05 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: Support updateToLatestImageVersion in aws_batch_compute_environment.compute_resources](https://github.com/hashicorp/terraform-provider-aws/issues/39978) | 15 | 2025-01-09 |
 | hashicorp/terraform-provider-aws | Go | [ Lifecycle configuration for S3 Bucket failing with time out issue for AWS Provider 4.21.0](https://github.com/hashicorp/terraform-provider-aws/issues/25939) | 15 | 2025-11-26 |
 | kubernetes/minikube | Go | [Feature: enable the structured logging for kubernetes components by default](https://github.com/kubernetes/minikube/issues/9268) | 16 | 2026-02-18 |
@@ -433,7 +436,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/winml-cli | Python | [Minor refactor: reuse _compute_case_signature to compute failed model file name](https://github.com/microsoft/winml-cli/issues/56) | 1 | 2026-06-17 |
 | microsoft/onnxscript | Python | [[torchlib] Add op test to torch.unique_consecutive](https://github.com/microsoft/onnxscript/issues/2695) | 1 | 2025-12-21 |
 | microsoft/teams-agent-accelerator-libs-py | Python | [Provide cleaner api for building citations for memories](https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/72) | 1 | 2025-11-17 |
-| microsoft/PyRIT | Python | [Parent: LLM Vulnerability Scanner Feature Parity with Garak, Giskard, CyberSecEval](https://github.com/microsoft/PyRIT/issues/511) | 1 | 2026-06-17 |
 | huggingface/lerobot | Python | [Question regarding downsampling and resizing dataset](https://github.com/huggingface/lerobot/issues/2124) | 2 | 2026-05-25 |
 | huggingface/lighteval | Python | [[FT] Manage script and language in the Language enum](https://github.com/huggingface/lighteval/issues/745) | 2 | 2026-05-26 |
 | huggingface/lighteval | Python | [Call for contributions: Translate lighteval's doc into Chinese](https://github.com/huggingface/lighteval/issues/716) | 2 | 2025-05-19 |
@@ -472,7 +474,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/dataset-viewer | Python | [Cache/Queue metrics should not be negative](https://github.com/huggingface/dataset-viewer/issues/2495) | 4 | 2025-08-04 |
 | huggingface/optimum | Python | [Add all available ONNX models to ORTConfigManager](https://github.com/huggingface/optimum/issues/351) | 4 | 2026-08-03 |
 | microsoft/agent-governance-toolkit | Python | [[Bug]: Quickstart imports fail on base install — README paths need [full], and agent_os is deprecated](https://github.com/microsoft/agent-governance-toolkit/issues/3253) | 4 | 2026-07-24 |
-| microsoft/BitBLAS | Python | [Example of bitblas/ladder with dtypes like int3, int5, int6, int7](https://github.com/microsoft/BitBLAS/issues/244) | 4 | 2024-12-16 |
 | huggingface/lighteval | Python | [[BUG] custom model docs don't run: missing imports](https://github.com/huggingface/lighteval/issues/760) | 5 | 2025-05-21 |
 | huggingface/nanotron | Python | [Avoid nested `InheritFromOtherOptimizer`](https://github.com/huggingface/nanotron/issues/267) | 5 | 2025-09-23 |
 | huggingface/nanotron | Python | [[Unit Test] Add unit tests for DistributedTrainer](https://github.com/huggingface/nanotron/issues/90) | 5 | 2024-03-03 |
@@ -510,7 +511,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/autogen | Python | [open needs encoding='utf-8' for non-english environment, error in playwright_controller.py](https://github.com/microsoft/autogen/issues/5566) | 32 | 2026-07-24 |
 | microsoft/TRELLIS | Python | [How to generate 3D assets with more number of faces?](https://github.com/microsoft/TRELLIS/issues/58) | 34 | 2025-01-25 |
 | microsoft/TRELLIS | Python | [Setting Up Trellis on Windows](https://github.com/microsoft/TRELLIS/issues/3) | 53 | 2025-11-02 |
-| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 144 | 2026-08-03 |
+| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 147 | 2026-08-05 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 | 2024-04-17 |
 | microsoft/openvmm | Rust | [remove usages of futures::select! in the repo with futures_concurrency](https://github.com/microsoft/openvmm/issues/1246) | 0 | 2025-06-21 |
 | microsoft/windows-drivers-rs | Rust | [Migrate from fs4 to std::File flocks](https://github.com/microsoft/windows-drivers-rs/issues/300) | 0 | 2025-08-15 |
@@ -520,7 +521,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/openvmm | Rust | [zerocopy: clean up TODOs](https://github.com/microsoft/openvmm/issues/759) | 1 | 2025-07-07 |
 | microsoft/openvmm | Rust | [openvmm: emulated nvme configuration](https://github.com/microsoft/openvmm/issues/1534) | 2 | 2025-08-08 |
 | microsoft/windows-drivers-rs | Rust | [HID hidport.h headers missing for UMDF build](https://github.com/microsoft/windows-drivers-rs/issues/355) | 3 | 2025-05-14 |
-| microsoft/windows-drivers-rs | Rust | [Add `WDF_STRUCTURE_SIZE` macro equivalent](https://github.com/microsoft/windows-drivers-rs/issues/242) | 3 | 2024-12-11 |
 | godotengine/discourse-theme | SCSS | [Change default `green` to our own green for the Solved questions](https://github.com/godotengine/discourse-theme/issues/14) | 0 | 2024-04-10 |
 | godotengine/discourse-theme | SCSS | [Make tag and tag count more distinct](https://github.com/godotengine/discourse-theme/issues/11) | 0 | 2023-12-10 |
 | godotengine/discourse-theme | SCSS | [Categories are not rounded on mobile](https://github.com/godotengine/discourse-theme/issues/3) | 0 | 2023-12-10 |
@@ -656,15 +656,15 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost | TypeScript | [[RN] Change "Join" button on sign in page keyboard to "Go"](https://github.com/mattermost/mattermost/issues/26590) | 7 | 2026-06-24 |
 | huggingface/huggingface.js | TypeScript | [Tracking integration for Video Classification](https://github.com/huggingface/huggingface.js/issues/332) | 8 | 2023-11-24 |
 | mattermost/mattermost | TypeScript | [Help Wanted: CircleCI README > Split out admin content to child pages](https://github.com/mattermost/mattermost/issues/25175) | 8 | 2026-05-24 |
-| layer5io/sistent | TypeScript | [[Feature] Add Support for Table Variants](https://github.com/layer5io/sistent/issues/992) | 10 | 2026-01-20 |
 | mattermost/mattermost | TypeScript | [Bitbucket plugin: Support for bitbucket Datacenter/server](https://github.com/mattermost/mattermost/issues/24188) | 10 | 2023-10-04 |
+| layer5io/sistent | TypeScript | [[Feature] Add Support for Table Variants](https://github.com/layer5io/sistent/issues/992) | 11 | 2026-08-05 |
 | mattermost/mattermost | TypeScript | [Create config setting to always have the team sidebar visible](https://github.com/mattermost/mattermost/issues/18010) | 13 | 2024-10-18 |
 | mattermost/mattermost | TypeScript | [Interactive Dialogs timeout forbiddingly short in slash command integrations ](https://github.com/mattermost/mattermost/issues/21901) | 14 | 2026-02-24 |
 | mattermost/mattermost | TypeScript | [Mobile \| Inconsistant channel updated info message on web and mobile](https://github.com/mattermost/mattermost/issues/26917) | 15 | 2026-05-21 |
 | microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Bug: Conversation KPIs dashboard is blank even though all the related flows are enabled and prerequisites are met](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/746) | 16 | 2026-07-30 |
 | freeCodeCamp/chapter | TypeScript | [Good first issues](https://github.com/freeCodeCamp/chapter/issues/691) | 18 | 2025-09-25 |
 | mattermost/mattermost | TypeScript | [Mobile Web View: Text is cut off in channel dropdown > channel actions](https://github.com/mattermost/mattermost/issues/25165) | 19 | 2026-06-22 |
-| mattermost/mattermost | TypeScript | [Increase max height of the Find Channels modal](https://github.com/mattermost/mattermost/issues/21558) | 21 | 2026-08-04 |
+| mattermost/mattermost | TypeScript | [Increase max height of the Find Channels modal](https://github.com/mattermost/mattermost/issues/21558) | 22 | 2026-08-05 |
 | mattermost/mattermost | TypeScript | [Improve the grammar on Account Creation Screen if the email address you entered does not belong to the accepted domain](https://github.com/mattermost/mattermost/issues/15927) | 24 | 2026-08-04 |
 | mattermost/mattermost | TypeScript | [`Unable to find manifest for extracted plugin` when using `make deploy`](https://github.com/mattermost/mattermost/issues/22614) | 27 | 2023-08-11 |
 | mattermost/mattermost | TypeScript | [Fix all initialism errors in the codebase](https://github.com/mattermost/mattermost/issues/16623) | 27 | 2025-11-24 |
