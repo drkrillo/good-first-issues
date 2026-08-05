@@ -169,6 +169,7 @@ def test_update_issues_main_block(monkeypatch):
          patch('requests.Session') as mock_sess:
         mock_sess.return_value.__enter__.return_value = MagicMock()
 
+        sys.modules.pop('app.update_issues', None)
         import runpy
         runpy.run_module('app.update_issues', run_name='__main__', alter_sys=True)
 
