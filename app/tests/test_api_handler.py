@@ -91,7 +91,6 @@ class TestIssueManager:
                 "html_url": "https://github.com/owner/repo/issues/1",
                 "comments": 5,
                 "labels": [{"name": "good first issue"}],
-                "state": "open",
                 "created_at": "2026-05-20T12:34:56Z",
                 "updated_at": "2026-07-29T08:00:00Z",
             }
@@ -106,7 +105,6 @@ class TestIssueManager:
             "url": "https://github.com/owner/repo/issues/1",
             "comments": 5,
             "labels": ["good first issue"],
-            "state": "open",
             "created_at": "2026-05-20",
             "updated_at": "2026-07-29",
         }
@@ -131,7 +129,10 @@ class TestIssueManager:
 
         assert len(result) == 1
         assert result[0]["title"] == "Test Issue"
-        mock_api_instance.make_request.assert_called_once()
+        mock_api_instance.make_request.assert_called_once_with(
+            "https://api.github.com/search/issues?q=user:test_user+label:\"good first issue\"+state:open+is:issue+no:assignee&per_page=100",
+            mock_api_instance
+        )
 
     @patch('app.core.api_handler.APIClient')
     def test_extract_issues_by_user_error(self, mock_api_client):
@@ -307,7 +308,6 @@ class TestTemplateManager:
                 'url': 'https://example.com',
                 'comments': 5,
                 'labels': ['good first issue'],
-                'state': 'open',
                 'created_at': '2024-01-01',
                 'updated_at': '2024-01-02',
             }
@@ -320,6 +320,9 @@ class TestTemplateManager:
             content = f.read()
         assert "owner/repo" in content
         assert "Python" in content
+        header = content.splitlines()[0]
+        assert "state" not in header
+        assert header == "repo,language,title,url,comments,labels,created_at,updated_at"
 
     def test_write_output_json(self, tmp_path):
         import json

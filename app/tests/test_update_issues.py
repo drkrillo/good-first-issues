@@ -39,7 +39,6 @@ def test_main_flow(mock_session, mock_env_vars, mock_args):
             "html_url": "https://github.com/owner/repo1/issues/1",
             "comments": 5,
             "labels": [{"name": "good first issue"}],
-            "state": "open",
             "created_at": "2026-01-01T00:00:00Z",
             "updated_at": "2026-01-02T00:00:00Z",
         },
@@ -49,7 +48,6 @@ def test_main_flow(mock_session, mock_env_vars, mock_args):
             "html_url": "https://github.com/owner/repo2/issues/2",
             "comments": 3,
             "labels": [{"name": "good first issue"}],
-            "state": "open",
             "created_at": "2026-01-03T00:00:00Z",
             "updated_at": "2026-01-04T00:00:00Z",
         },
@@ -64,7 +62,6 @@ def test_main_flow(mock_session, mock_env_vars, mock_args):
              "url": x[1]["html_url"],
              "comments": x[1]["comments"],
              "labels": [l["name"] for l in x[1].get("labels", [])],
-             "state": x[1].get("state", "open"),
              "created_at": x[1].get("created_at", "")[:10],
              "updated_at": x[1].get("updated_at", "")[:10],
          }), \
@@ -116,7 +113,6 @@ def test_main_with_output(mock_session, mock_env_vars):
             "html_url": "https://github.com/owner/repo1/issues/1",
             "comments": 5,
             "labels": [{"name": "good first issue"}],
-            "state": "open",
             "created_at": "2026-01-01T00:00:00Z",
             "updated_at": "2026-01-02T00:00:00Z",
         },
@@ -134,7 +130,6 @@ def test_main_with_output(mock_session, mock_env_vars):
              "url": x[1]["html_url"],
              "comments": x[1]["comments"],
              "labels": [l["name"] for l in x[1].get("labels", [])],
-             "state": x[1].get("state", "open"),
              "created_at": x[1].get("created_at", "")[:10],
              "updated_at": x[1].get("updated_at", "")[:10],
          }), \
@@ -162,7 +157,6 @@ def test_update_issues_main_block(monkeypatch):
              "html_url": "https://github.com/owner/repo/issues/1",
              "comments": 0,
              "labels": [],
-             "state": "open",
              "created_at": "2026-01-01T00:00:00Z",
              "updated_at": "2026-01-01T00:00:00Z",
          }]), \

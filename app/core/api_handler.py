@@ -65,7 +65,6 @@ class IssueManager:
             issue['url'] = raw_issue[1]['html_url']
             issue['comments'] = raw_issue[1]['comments']
             issue['labels'] = [l['name'] for l in raw_issue[1].get('labels', [])]
-            issue['state'] = raw_issue[1].get('state', 'open')
             # Keep only the date part (YYYY-MM-DD) of the ISO 8601 timestamps.
             issue['created_at'] = raw_issue[1].get('created_at', '')[:10]
             issue['updated_at'] = raw_issue[1].get('updated_at', '')[:10]
@@ -83,7 +82,7 @@ class IssueManager:
         for a specific user/organization.
         """
         issues = []
-        search_url = f"https://api.github.com/search/issues?q=user:{user}+label:\"{labels}\"+state:open+is:issue&per_page=100"
+        search_url = f"https://api.github.com/search/issues?q=user:{user}+label:\"{labels}\"+state:open+is:issue+no:assignee&per_page=100"
         
         resp_json = APIClient().make_request(search_url, session)
         try:
@@ -167,7 +166,6 @@ class TemplateManager:
                         'url',
                         'comments',
                         'labels',
-                        'state',
                         'created_at',
                         'updated_at',
                     ]
