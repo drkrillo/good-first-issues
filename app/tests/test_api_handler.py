@@ -106,7 +106,6 @@ class TestIssueManager:
             "url": "https://github.com/owner/repo/issues/1",
             "comments": 5,
             "labels": ["good first issue"],
-            "state": "open",
             "created_at": "2026-05-20",
             "updated_at": "2026-07-29",
         }
@@ -307,7 +306,6 @@ class TestTemplateManager:
                 'url': 'https://example.com',
                 'comments': 5,
                 'labels': ['good first issue'],
-                'state': 'open',
                 'created_at': '2024-01-01',
                 'updated_at': '2024-01-02',
             }
