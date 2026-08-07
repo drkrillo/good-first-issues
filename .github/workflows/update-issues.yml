@@ -13,12 +13,14 @@ permissions:
 
 jobs:
   update-issues:
-    if: github.actor != 'github-actions[bot]'
+    if: "!contains(github.event.head_commit.message, 'chore: update good first issues')"
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
 
       - name: Generate good first issues CSV
         uses: drkrillo/good-first-issues@main
@@ -45,6 +47,6 @@ jobs:
 
           git add README.md good_first_issues.csv
 
-          git diff --staged --quiet || git commit -m "chore: update good first issues"
+          git diff --staged --quiet || git commit -m "chore: update good first issues [skip ci]"
 
           git push origin main
