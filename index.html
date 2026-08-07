@@ -87,8 +87,7 @@
         }
 
         #searchBox,
-        #languageFilter,
-        #sortComments {
+        #languageFilter {
             padding: 9px 13px;
             font-size: 14px;
             border: 1px solid var(--input-border);
@@ -99,8 +98,7 @@
         }
 
         #searchBox:focus-visible,
-        #languageFilter:focus-visible,
-        #sortComments:focus-visible {
+        #languageFilter:focus-visible {
             outline: none;
             border-color: var(--focus-ring);
             box-shadow: 0 0 0 3px var(--focus-glow);
@@ -113,21 +111,6 @@
 
         #languageFilter {
             flex: 0 1 180px;
-        }
-
-        #sortComments {
-            background-color: var(--btn-bg);
-            color: var(--btn-text);
-            border-color: transparent;
-            cursor: pointer;
-            white-space: nowrap;
-            font-weight: 500;
-            box-shadow: var(--shadow);
-            transition: background-color 0.15s, box-shadow 0.15s;
-        }
-
-        #sortComments:hover {
-            background-color: var(--btn-hover);
         }
 
         /* ── table ── */
@@ -169,6 +152,25 @@
             white-space: nowrap;
         }
 
+        th .sort-btn {
+            all: unset;
+            cursor: pointer;
+            font: inherit;
+            color: inherit;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        th .sort-btn:focus-visible {
+            outline: 2px solid var(--focus-ring);
+            outline-offset: 2px;
+            border-radius: 3px;
+        }
+
+        th .sort-btn:hover {
+            text-decoration: underline;
+        }
+
         tr:nth-child(even) td {
             background-color: var(--row-alt);
         }
@@ -206,9 +208,6 @@
             <option value="">All languages</option>
         </select>
 
-        <button type="button" id="sortComments">
-            Sort by comments
-        </button>
     </div>
 
     <div class="table-wrapper">
@@ -221,18 +220,35 @@
     let issuesData = []
     let currentSearch = "";
     let currentLanguage = "";
-    let sortMode = 0;
-    /*
-        0 = DEFAULT
-        1 = DESCENDING
-        2 = ASCENDING
-    */
+    let sortColumn = null;
+    let sortDir = "desc";
+
+    const SORTABLE = ["comments", "created_at", "updated_at"];
+    const HEADER_LABELS = {
+        repo: "Repo",
+        language: "Language",
+        title: "Title",
+        url: "URL",
+        comments: "Comments",
+        labels: "Labels",
+        created_at: "Created",
+        updated_at: "Updated",
+    };
 
     const $ = (id) => document.getElementById(id);
     const searchBox = $("searchBox");
     const languageFilter = $("languageFilter");
-    const sortComments = $("sortComments");
     const table = $("issuesTable");
+
+    function handleSort(column) {
+        if (sortColumn === column) {
+            sortDir = sortDir === "desc" ? "asc" : "desc";
+        } else {
+            sortColumn = column;
+            sortDir = "desc";
+        }
+        updateTable();
+    }
 
     function renderTable(data) {
 
@@ -241,21 +257,44 @@
         data.forEach((row, index) => {
             const tr = document.createElement("tr");
 
-            row.forEach(col => {
-                const cell = document.createElement(index === 0 ? "th" : "td")
+            row.forEach((col, colIdx) => {
+                const cell = document.createElement(index === 0 ? "th" : "td");
 
-                if (typeof col === "string" && col.startsWith("http")) {
-                const a = document.createElement("a");
+                if (index === 0) {
+                    const colName = col;
+                    const label = HEADER_LABELS[colName] || colName;
 
-                a.href = col;
-                a.innerText = "Open Issue";
-                a.target = "_blank";
+                    if (SORTABLE.includes(colName)) {
+                        const btn = document.createElement("button");
+                        btn.className = "sort-btn";
+                        btn.type = "button";
 
-                cell.appendChild(a);
-            } else {
-                cell.innerText = col;
-            }
-            tr.appendChild(cell);
+                        const indicator = sortColumn === colName
+                            ? (sortDir === "asc" ? " \u25B2" : " \u25BC")
+                            : "";
+                        btn.textContent = label + indicator;
+
+                        btn.addEventListener("click", () => handleSort(colName));
+                        cell.appendChild(btn);
+
+                        if (sortColumn === colName) {
+                            cell.setAttribute("aria-sort", sortDir === "asc" ? "ascending" : "descending");
+                        } else {
+                            cell.setAttribute("aria-sort", "none");
+                        }
+                    } else {
+                        cell.textContent = label;
+                    }
+                } else if (typeof col === "string" && col.startsWith("http")) {
+                    const a = document.createElement("a");
+                    a.href = col;
+                    a.innerText = "Open Issue";
+                    a.target = "_blank";
+                    cell.appendChild(a);
+                } else {
+                    cell.innerText = col;
+                }
+                tr.appendChild(cell);
             });
 
             table.appendChild(tr);
@@ -273,7 +312,6 @@
         let rows = issuesData.slice(1);
 
         const languageIdx = getColumnIndex(header, "language");
-        const commentsIdx = getColumnIndex(header, "comments");
 
         if (currentSearch !== "") {
             rows = rows.filter(row => {
@@ -287,14 +325,15 @@
             });
         }
 
-        if (sortMode === 1) {
-            rows.sort(
-                (a,b) => Number(b[commentsIdx]) - Number(a[commentsIdx])
-            );
-        } else if (sortMode === 2) {
-            rows.sort(
-                (a,b) => Number(a[commentsIdx]) - Number(b[commentsIdx])
-            );
+        if (sortColumn) {
+            const sortIdx = getColumnIndex(header, sortColumn);
+            const isNumeric = sortColumn === "comments";
+            rows.sort((a, b) => {
+                const av = a[sortIdx];
+                const bv = b[sortIdx];
+                const cmp = isNumeric ? Number(av) - Number(bv) : av.localeCompare(bv);
+                return sortDir === "asc" ? cmp : -cmp;
+            });
         }
 
         renderTable([header, ...rows]);
@@ -308,25 +347,6 @@
 
     languageFilter.addEventListener("change", () => {
         currentLanguage = languageFilter.value;
-
-        updateTable();
-    })
-
-    sortComments.addEventListener("click", () => {
-        sortMode = (sortMode +1) % 3;
-
-        switch (sortMode) {
-            case 0:
-                sortComments.textContent = "Sort by comments";
-                break;
-
-            case 1:
-                sortComments.textContent = "Comments Descending"
-                break;
-            case 2:
-                sortComments.textContent = "Comments Ascending"
-                break;
-        }
 
         updateTable();
     })
