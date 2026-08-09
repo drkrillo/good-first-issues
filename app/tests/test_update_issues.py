@@ -86,10 +86,8 @@ def test_main_flow(mock_session, mock_env_vars, mock_args):
 def test_main_with_no_repos(mock_session, mock_env_vars, mock_args):
     with patch.object(RepoManager, 'extract_repos', return_value={}), \
          patch.object(IssueManager, 'extract_issues_by_user', return_value=[]):
-
-        # Current code raises IndexError when no issues are found (issues[0])
-        with pytest.raises(IndexError):
-            main(mock_args)
+        # Verify that empty issue results are handled without raising an exception
+        main(mock_args)
 
 
 def test_main_with_no_issues(mock_session, mock_env_vars, mock_args):
@@ -97,10 +95,8 @@ def test_main_with_no_issues(mock_session, mock_env_vars, mock_args):
 
     with patch.object(RepoManager, 'extract_repos', return_value=repos), \
          patch.object(IssueManager, 'extract_issues_by_user', return_value=[]):
-
-        # Current code raises IndexError when no issues are found (issues[0])
-        with pytest.raises(IndexError):
-            main(mock_args)
+        # Verify that empty issue results are handled without raising an exception
+        main(mock_args)
 
 
 def test_main_with_output(mock_session, mock_env_vars):
