@@ -52,7 +52,10 @@ def main(args):
         logging.info("Normalizing data...")
         issues = [IssueManager().extract_issue_data(issue) for issue in all_raw_issues]
         logging.info(f"Normalized data.")
-        logging.info(f"First issues row: {issues[0]}")
+        if issues:
+            logging.info(f"First issues row: {issues[0]}")
+        else:
+            logging.info("No issues found.")
 
         formatted_response = TemplateManager.format_response(issues)
 

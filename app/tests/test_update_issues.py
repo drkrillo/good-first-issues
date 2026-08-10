@@ -85,23 +85,26 @@ def test_main_flow(mock_session, mock_env_vars, mock_args):
 
 def test_main_with_no_repos(mock_session, mock_env_vars, mock_args):
     with patch.object(RepoManager, 'extract_repos', return_value={}), \
-         patch.object(IssueManager, 'extract_issues_by_user', return_value=[]):
+         patch.object(IssueManager, 'extract_issues_by_user', return_value=[]), \
+         patch.object(TemplateManager, 'format_response') as mock_format:
 
-        # Current code raises IndexError when no issues are found (issues[0])
-        with pytest.raises(IndexError):
-            main(mock_args)
+        # Verify that empty issue results are handled without raising an exception
+        main(mock_args)
+
+        mock_format.assert_called_once_with([])
 
 
 def test_main_with_no_issues(mock_session, mock_env_vars, mock_args):
     repos = {"https://api.github.com/repos/owner/repo1": "Python"}
 
     with patch.object(RepoManager, 'extract_repos', return_value=repos), \
-         patch.object(IssueManager, 'extract_issues_by_user', return_value=[]):
+         patch.object(IssueManager, 'extract_issues_by_user', return_value=[]), \
+         patch.object(TemplateManager, 'format_response') as mock_format:
 
-        # Current code raises IndexError when no issues are found (issues[0])
-        with pytest.raises(IndexError):
-            main(mock_args)
+        # Verify that empty issue results are handled without raising an exception
+        main(mock_args)
 
+        mock_format.assert_called_once_with([])
 
 def test_main_with_output(mock_session, mock_env_vars):
     """Test main() when args.output is set (covers write_output branch)."""
