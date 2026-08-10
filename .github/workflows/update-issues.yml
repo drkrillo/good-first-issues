@@ -49,4 +49,5 @@ jobs:
 
           git diff --staged --quiet || git commit -m "chore: update good first issues [skip ci]"
 
+          git pull --rebase origin main
           git push origin main
