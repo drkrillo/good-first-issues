@@ -30,3 +30,14 @@ This project uses Python, Javascript, HTML, CSS and Markdown. Try to follow the 
 Open an issue if you:
 - Have any questions before starting.
 - Want to solve a specific problem that is not reflected in the Issues opened at the moment.
+
+## Reviews
+
+**Anyone can comment on a PR**: feedback from other contributors is welcome and useful.
+
+- **A PR solves one issue.** If you spot something else while you are in there, open a new issue instead of fixing it in the same PR. Someone may already be working on it.
+- **An issue someone else is already solving is not yours to finish.** If a PR is open for it, comment on it, don't send your own version of the same fix.
+- **Use `Comment` for suggestions**: preferences, style, ideas for later. It doesn't block anything, and it is the right button for almost everything.
+- **`Request changes` is for things that are wrong**: a bug, a failing test, something that doesn't do what the issue asked. It blocks the merge until the reviewer resolves it, so it is reserved for collaborators.
+
+If you receive a `Request changes`, something needs fixing before the PR can go in. A `Comment` is a suggestion, you are free to take it or leave it.
