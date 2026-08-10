@@ -314,15 +314,15 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | cncf/glossary | HTML | [[es] A report to track and reflect updates of English content](https://github.com/cncf/glossary/issues/3222) | 0 | 2024-07-15 | 2025-04-07 |
 | cncf/tag-app-delivery | HTML | [Document how we use GitHub labels](https://github.com/cncf/tag-app-delivery/issues/405) | 0 | 2023-05-03 | 2024-06-22 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/downstream.md into Japanese](https://github.com/kubernetes/website/issues/56858) | 1 | 2026-08-08 | 2026-08-08 |
-| kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/spec.md into Japanese](https://github.com/kubernetes/website/issues/56857) | 1 | 2026-08-08 | 2026-08-08 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/infrastructure-resource.md into Japanese](https://github.com/kubernetes/website/issues/56854) | 1 | 2026-08-08 | 2026-08-08 |
-| kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/pod-disruption-budget.md into Japanese](https://github.com/kubernetes/website/issues/56853) | 1 | 2026-08-08 | 2026-08-08 |
-| kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/disruption.md into Japanese](https://github.com/kubernetes/website/issues/56852) | 1 | 2026-08-08 | 2026-08-08 |
 | cncf/tag-contributor-strategy | HTML | [Charter link is 404](https://github.com/cncf/tag-contributor-strategy/issues/762) | 1 | 2025-02-03 | 2025-09-25 |
 | cncf/glossary | HTML | [[ru] Localize `Portability`](https://github.com/cncf/glossary/issues/3265) | 1 | 2024-08-04 | 2024-11-19 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/developer.md into Japanese](https://github.com/kubernetes/website/issues/56859) | 2 | 2026-08-08 | 2026-08-09 |
+| kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/spec.md into Japanese](https://github.com/kubernetes/website/issues/56857) | 2 | 2026-08-08 | 2026-08-10 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/event.md into Japanese](https://github.com/kubernetes/website/issues/56856) | 2 | 2026-08-08 | 2026-08-10 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/condition.md into Japanese](https://github.com/kubernetes/website/issues/56855) | 2 | 2026-08-08 | 2026-08-09 |
+| kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/pod-disruption-budget.md into Japanese](https://github.com/kubernetes/website/issues/56853) | 2 | 2026-08-08 | 2026-08-10 |
+| kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/disruption.md into Japanese](https://github.com/kubernetes/website/issues/56852) | 2 | 2026-08-08 | 2026-08-10 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/kubernetes-api.md into Japanese](https://github.com/kubernetes/website/issues/56851) | 2 | 2026-08-08 | 2026-08-10 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/qos-class.md into Japanese](https://github.com/kubernetes/website/issues/56850) | 2 | 2026-08-08 | 2026-08-10 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/ephemeral-container.md into Japanese](https://github.com/kubernetes/website/issues/56700) | 2 | 2026-07-31 | 2026-08-01 |
@@ -357,7 +357,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | freeCodeCamp/classroom | JavaScript | [Bug: /classes page crashes if the mock-fcc-data endpoint is not running](https://github.com/freeCodeCamp/classroom/issues/533) | 2 | 2024-12-31 | 2026-04-28 |
 | layer5io/docs | JavaScript | [[Docs] Floating Card Overlapping Navbar](https://github.com/layer5io/docs/issues/1187) | 3 | 2026-08-06 | 2026-08-06 |
 | layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 4](https://github.com/layer5io/docs/issues/794) | 3 | 2025-08-21 | 2025-09-04 |
-| layer5io/docs | JavaScript | [Screen capture includes Grammarly](https://github.com/layer5io/docs/issues/543) | 3 | 2025-05-06 | 2025-07-13 |
+| layer5io/docs | JavaScript | [Screen capture includes Grammarly](https://github.com/layer5io/docs/issues/543) | 4 | 2025-05-06 | 2026-08-10 |
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Contributing needs work](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/112) | 4 | 2017-12-02 | 2018-03-24 |
 | layer5io/layer5 | JavaScript | [[UI] Scrollbar styling is inconsistent in the navigation menu](https://github.com/layer5io/layer5/issues/7904) | 5 | 2026-07-29 | 2026-08-06 |
 | layer5io/layer5 | JavaScript | [Inaccurate: "0" performance tests results being reported](https://github.com/layer5io/layer5/issues/7860) | 5 | 2026-07-10 | 2026-08-06 |
@@ -367,12 +367,12 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Welcome bot! Respond to the user when committing to 100DaysOfCode](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/96) | 5 | 2017-10-03 | 2026-04-28 |
 | layer5io/layer5 | JavaScript | [Enhance or replace the "Star the Repo" button](https://github.com/layer5io/layer5/issues/7859) | 6 | 2026-07-10 | 2026-08-08 |
 | layer5io/docs | JavaScript | [Convert Images into Meshery Design.](https://github.com/layer5io/docs/issues/646) | 6 | 2025-07-10 | 2025-12-25 |
-| layer5io/layer5 | JavaScript | [[Bug] Next and previous button stays in clicked state](https://github.com/layer5io/layer5/issues/7940) | 7 | 2026-08-08 | 2026-08-10 |
 | layer5io/layer5 | JavaScript | [Relocate partner logos to appropriate directory in static folder.](https://github.com/layer5io/layer5/issues/7256) | 7 | 2025-12-08 | 2026-02-23 |
 | layer5io/layer5 | JavaScript | [[CI] Create or add to existing workflow: a broken link checker](https://github.com/layer5io/layer5/issues/6407) | 7 | 2025-04-25 | 2026-06-20 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Chaos Mesh under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4867) | 7 | 2023-09-07 | 2026-03-22 |
 | huggingface/transformers.js | JavaScript | [[Doc request] Add an example guide of how to use it in Svelte (and deploy to HF Spaces)](https://github.com/huggingface/transformers.js/issues/171) | 7 | 2023-06-29 | 2023-08-21 |
 | EddieHubCommunity/EddieHubCommunity.github.io | JavaScript | [Add Issue Templates](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/issues/211) | 7 | 2021-10-04 | 2024-04-23 |
+| layer5io/layer5 | JavaScript | [[Bug] Next and previous button stays in clicked state](https://github.com/layer5io/layer5/issues/7940) | 8 | 2026-08-08 | 2026-08-10 |
 | layer5io/layer5 | JavaScript | [Mobile navigation menu contains invalid nesting](https://github.com/layer5io/layer5/issues/7484) | 8 | 2026-03-11 | 2026-03-21 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Fluentbit Operator under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/5333) | 8 | 2024-01-23 | 2025-07-29 |
 | EddieHubCommunity/HealthCheck | JavaScript | [Update the preview image in the site](https://github.com/EddieHubCommunity/HealthCheck/issues/151) | 8 | 2024-08-12 | 2024-10-14 |
@@ -681,7 +681,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost | TypeScript | [Fix all initialism errors in the codebase](https://github.com/mattermost/mattermost/issues/16623) | 27 | 2021-01-04 | 2025-11-24 |
 | microsoft/vscode | TypeScript | [Review AsyncIterableObject usage: potential memory leaks and migration to AsyncIterableProducer](https://github.com/microsoft/vscode/issues/256854) | 30 | 2025-07-19 | 2026-06-30 |
 | mattermost/mattermost | TypeScript | [Mobile: Slight horizontal indent difference after first line](https://github.com/mattermost/mattermost/issues/27377) | 36 | 2024-06-17 | 2026-08-07 |
-| microsoft/vscode | TypeScript | [Disabled and enabled (workspace) extension Disable button dropdown contains both "Disable" and "Disable (Workspace)" items](https://github.com/microsoft/vscode/issues/244138) | 38 | 2025-03-20 | 2026-08-02 |
+| microsoft/vscode | TypeScript | [Disabled and enabled (workspace) extension Disable button dropdown contains both "Disable" and "Disable (Workspace)" items](https://github.com/microsoft/vscode/issues/244138) | 39 | 2025-03-20 | 2026-08-10 |
 | godotengine/godot-docs | reStructuredText | [make_canvas_position_local](https://github.com/godotengine/godot-docs/issues/8313) | 1 | 2023-10-23 | 2024-12-15 |
 | godotengine/godot-docs | reStructuredText | [Inconsistent code example between PhysicsShapeQueryParameters3D and PhysicsServer3D](https://github.com/godotengine/godot-docs/issues/8305) | 1 | 2023-10-22 | 2024-12-14 |
 | godotengine/godot-docs | reStructuredText | [Physics2DDirectSpaceState does not specify local or global coordinates](https://github.com/godotengine/godot-docs/issues/3299) | 2 | 2020-03-24 | 2026-02-05 |
