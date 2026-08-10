@@ -59,7 +59,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-08-09</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-08-10</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -295,8 +295,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/minikube | Go | [make it obvious in terminal for user if using docker-env](https://github.com/kubernetes/minikube/issues/6489) | 22 | 2020-02-04 | 2026-04-07 |
 | kubernetes/minikube | Go | [get ETCD version from kubernetes constants](https://github.com/kubernetes/minikube/issues/11290) | 23 | 2021-05-05 | 2026-06-28 |
 | kubernetes/minikube | Go | [Document how to run minikube in China](https://github.com/kubernetes/minikube/issues/5020) | 25 | 2019-08-08 | 2025-09-20 |
-| kubernetes/kubernetes | Go | [Node lifecycle controller does not `markPodsNotReady` when the node `Ready` state changes from `false` to `unknown`](https://github.com/kubernetes/kubernetes/issues/112733) | 31 | 2022-09-26 | 2026-08-03 |
 | kubernetes/ingress-nginx | Go | [Distinguish wait-shutdown command from standard k8s SIGTERM](https://github.com/kubernetes/ingress-nginx/issues/6287) | 32 | 2020-10-06 | 2024-07-17 |
+| kubernetes/kubernetes | Go | [Node lifecycle controller does not `markPodsNotReady` when the node `Ready` state changes from `false` to `unknown`](https://github.com/kubernetes/kubernetes/issues/112733) | 33 | 2022-09-26 | 2026-08-10 |
 | kubernetes/kubernetes | Go | [kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment.](https://github.com/kubernetes/kubernetes/issues/118172) | 37 | 2023-05-22 | 2026-05-26 |
 | kubernetes/kubernetes | Go | [NetworkPolicy tests for blocking north/south traffic](https://github.com/kubernetes/kubernetes/issues/114369) | 38 | 2022-12-08 | 2026-07-15 |
 | kubernetes/perf-tests | Go | [Create api-availability measurement](https://github.com/kubernetes/perf-tests/issues/1096) | 38 | 2020-03-03 | 2023-06-02 |
@@ -315,16 +315,16 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | cncf/tag-app-delivery | HTML | [Document how we use GitHub labels](https://github.com/cncf/tag-app-delivery/issues/405) | 0 | 2023-05-03 | 2024-06-22 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/downstream.md into Japanese](https://github.com/kubernetes/website/issues/56858) | 1 | 2026-08-08 | 2026-08-08 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/spec.md into Japanese](https://github.com/kubernetes/website/issues/56857) | 1 | 2026-08-08 | 2026-08-08 |
-| kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/event.md into Japanese](https://github.com/kubernetes/website/issues/56856) | 1 | 2026-08-08 | 2026-08-08 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/infrastructure-resource.md into Japanese](https://github.com/kubernetes/website/issues/56854) | 1 | 2026-08-08 | 2026-08-08 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/pod-disruption-budget.md into Japanese](https://github.com/kubernetes/website/issues/56853) | 1 | 2026-08-08 | 2026-08-08 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/disruption.md into Japanese](https://github.com/kubernetes/website/issues/56852) | 1 | 2026-08-08 | 2026-08-08 |
-| kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/kubernetes-api.md into Japanese](https://github.com/kubernetes/website/issues/56851) | 1 | 2026-08-08 | 2026-08-08 |
-| kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/qos-class.md into Japanese](https://github.com/kubernetes/website/issues/56850) | 1 | 2026-08-08 | 2026-08-08 |
 | cncf/tag-contributor-strategy | HTML | [Charter link is 404](https://github.com/cncf/tag-contributor-strategy/issues/762) | 1 | 2025-02-03 | 2025-09-25 |
 | cncf/glossary | HTML | [[ru] Localize `Portability`](https://github.com/cncf/glossary/issues/3265) | 1 | 2024-08-04 | 2024-11-19 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/developer.md into Japanese](https://github.com/kubernetes/website/issues/56859) | 2 | 2026-08-08 | 2026-08-09 |
+| kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/event.md into Japanese](https://github.com/kubernetes/website/issues/56856) | 2 | 2026-08-08 | 2026-08-10 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/condition.md into Japanese](https://github.com/kubernetes/website/issues/56855) | 2 | 2026-08-08 | 2026-08-09 |
+| kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/kubernetes-api.md into Japanese](https://github.com/kubernetes/website/issues/56851) | 2 | 2026-08-08 | 2026-08-10 |
+| kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/qos-class.md into Japanese](https://github.com/kubernetes/website/issues/56850) | 2 | 2026-08-08 | 2026-08-10 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/ephemeral-container.md into Japanese](https://github.com/kubernetes/website/issues/56700) | 2 | 2026-07-31 | 2026-08-01 |
 | cncf/glossary | HTML | [[ru] Localize `Service` into Russian](https://github.com/cncf/glossary/issues/3334) | 2 | 2024-10-17 | 2025-03-03 |
 | kubernetes/website | HTML | [Broken Kyverno link in Pod Security Standards alternatives section](https://github.com/kubernetes/website/issues/56734) | 3 | 2026-08-01 | 2026-08-03 |
@@ -333,8 +333,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | cncf/tag-observability | HTML | [WG: Create GitHub Pages site for TAG Observability](https://github.com/cncf/tag-observability/issues/39) | 7 | 2021-05-12 | 2023-11-21 |
 | kubernetes/website | HTML | [[hi] Localize Network Policy Provider page](https://github.com/kubernetes/website/issues/47439) | 8 | 2024-08-11 | 2026-07-09 |
 | kubernetes/website | HTML | [[hi] Localize concepts/scheduling-eviction page ](https://github.com/kubernetes/website/issues/48989) | 10 | 2024-12-09 | 2026-07-04 |
-| kubernetes/website | HTML | [[hi] Localize concepts/extend-kubernetes page](https://github.com/kubernetes/website/issues/48991) | 11 | 2024-12-09 | 2026-08-07 |
 | kubernetes/website | HTML | [[hi] Localize concepts/Storage page](https://github.com/kubernetes/website/issues/47462) | 11 | 2024-08-12 | 2026-06-26 |
+| kubernetes/website | HTML | [[hi] Localize concepts/extend-kubernetes page](https://github.com/kubernetes/website/issues/48991) | 12 | 2024-12-09 | 2026-08-10 |
 | kubernetes/website | HTML | [[hi] Localize /concepts/cluster-administration page](https://github.com/kubernetes/website/issues/48990) | 12 | 2024-12-09 | 2026-07-22 |
 | kubernetes/website | HTML | [[hi] Localize concepts/Security page](https://github.com/kubernetes/website/issues/47463) | 13 | 2024-08-12 | 2026-06-21 |
 | kubernetes/website | HTML | [[hi] Localize concepts/Workloads page ](https://github.com/kubernetes/website/issues/47442) | 13 | 2024-08-11 | 2026-06-15 |
@@ -365,10 +365,9 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 3](https://github.com/layer5io/docs/issues/793) | 5 | 2025-08-21 | 2025-09-04 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Citrix Service Mesh under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4880) | 5 | 2023-09-07 | 2026-03-22 |
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Welcome bot! Respond to the user when committing to 100DaysOfCode](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/96) | 5 | 2017-10-03 | 2026-04-28 |
-| layer5io/layer5 | JavaScript | [[Bug] Next and previous button stays in clicked state](https://github.com/layer5io/layer5/issues/7940) | 6 | 2026-08-08 | 2026-08-09 |
-| layer5io/layer5 | JavaScript | [[Bug] Comparison table displays raw text](https://github.com/layer5io/layer5/issues/7935) | 6 | 2026-08-07 | 2026-08-07 |
 | layer5io/layer5 | JavaScript | [Enhance or replace the "Star the Repo" button](https://github.com/layer5io/layer5/issues/7859) | 6 | 2026-07-10 | 2026-08-08 |
 | layer5io/docs | JavaScript | [Convert Images into Meshery Design.](https://github.com/layer5io/docs/issues/646) | 6 | 2025-07-10 | 2025-12-25 |
+| layer5io/layer5 | JavaScript | [[Bug] Next and previous button stays in clicked state](https://github.com/layer5io/layer5/issues/7940) | 7 | 2026-08-08 | 2026-08-10 |
 | layer5io/layer5 | JavaScript | [Relocate partner logos to appropriate directory in static folder.](https://github.com/layer5io/layer5/issues/7256) | 7 | 2025-12-08 | 2026-02-23 |
 | layer5io/layer5 | JavaScript | [[CI] Create or add to existing workflow: a broken link checker](https://github.com/layer5io/layer5/issues/6407) | 7 | 2025-04-25 | 2026-06-20 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Chaos Mesh under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4867) | 7 | 2023-09-07 | 2026-03-22 |
@@ -417,6 +416,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/agents-course | MDX | [Improve diagrams in unit 2.1](https://github.com/huggingface/agents-course/issues/233) | 6 | 2025-02-25 | 2026-05-03 |
 | layer5io/.github | Makefile | [Add the Sistent project to this readme.md](https://github.com/layer5io/.github/issues/54) | 1 | 2026-05-06 | 2026-05-06 |
 | layer5io/academy-example | Makefile | [[Docs] deprecated: .Site.AllPages](https://github.com/layer5io/academy-example/issues/108) | 1 | 2026-03-31 | 2026-04-01 |
+| layer5io/exoscale-academy | Makefile | [Convert Images into Meshery Design [ Kubernetes Workshop]](https://github.com/layer5io/exoscale-academy/issues/45) | 4 | 2025-07-18 | 2026-04-10 |
+| layer5io/exoscale-academy | Makefile | [Kubernetes Workshop Image-8](https://github.com/layer5io/exoscale-academy/issues/53) | 9 | 2025-07-18 | 2025-12-16 |
 | layer5io/academy-build | Makefile | [Replace generic favicon with Layer5 logo](https://github.com/layer5io/academy-build/issues/2) | 12 | 2025-07-17 | 2026-07-02 |
 | huggingface/awesome-huggingface | Other | [[hacktoberfest] Hugging Face Collections Hacktoberfest challenge](https://github.com/huggingface/awesome-huggingface/issues/28) | 0 | 2023-10-11 | 2023-10-11 |
 | decentraland/dapps-issues | Other | [[Events] Update the Share link to use the new `jump-in` site.](https://github.com/decentraland/dapps-issues/issues/247) | 0 | 2025-07-03 | 2025-07-03 |
@@ -540,9 +541,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | godotengine/discourse-theme | SCSS | [Remove the "Sign Up" button from navbar](https://github.com/godotengine/discourse-theme/issues/15) | 2 | 2024-04-10 | 2024-04-10 |
 | mattermost/mattermost-gitpod-config | Shell | [If a the workspace repo doesn't define `.gitpod/*.sh` files, we shouldn't try to run them](https://github.com/mattermost/mattermost-gitpod-config/issues/50) | 0 | 2023-11-28 | 2023-11-28 |
 | mattermost/mattermost-gitpod-config | Shell | [Improve development flow of opening the Mattermost webapp automatically](https://github.com/mattermost/mattermost-gitpod-config/issues/49) | 0 | 2023-11-28 | 2023-11-28 |
-| layer5io/exoscale-academy | Shell | [Convert Images into Meshery Design [ Kubernetes Workshop]](https://github.com/layer5io/exoscale-academy/issues/45) | 4 | 2025-07-18 | 2026-04-10 |
 | layer5io/trigger-remote-provider-action | Shell | [to fix error in "Slack Notify on Star" Job under GitHub Actions ](https://github.com/layer5io/trigger-remote-provider-action/issues/12) | 4 | 2023-09-27 | 2026-03-22 |
-| layer5io/exoscale-academy | Shell | [Kubernetes Workshop Image-8](https://github.com/layer5io/exoscale-academy/issues/53) | 9 | 2025-07-18 | 2025-12-16 |
 | hashicorp/waypoint-helm | Smarty | [An ability to define Tolerations for Server and Runner StatefulSets](https://github.com/hashicorp/waypoint-helm/issues/42) | 1 | 2022-07-08 | 2022-07-13 |
 | huggingface/sam2-studio | Swift | [Model download selector](https://github.com/huggingface/sam2-studio/issues/28) | 1 | 2024-10-01 | 2024-10-01 |
 | huggingface/chat-macOS | Swift | [[Feature Request] System Prompt Support](https://github.com/huggingface/chat-macOS/issues/35) | 2 | 2024-11-06 | 2024-12-03 |
