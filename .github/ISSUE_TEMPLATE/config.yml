@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/drkrillo/good-first-issues/discussions
+    about: Not sure if it's a bug, an enhancement or something else? Bring it here and we'll shape it together.
