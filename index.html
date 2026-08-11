@@ -223,17 +223,16 @@
     let sortColumn = null;
     let sortDir = "desc";
 
-    const SORTABLE = ["comments", "created_at", "updated_at"];
-    const HEADER_LABELS = {
-        repo: "Repo",
-        language: "Language",
-        title: "Title",
-        url: "URL",
-        comments: "Comments",
-        labels: "Labels",
-        created_at: "Created",
-        updated_at: "Updated",
-    };
+    const COLUMNS = [
+        { key: "repo",       label: "Repo" },
+        { key: "language",   label: "Language" },
+        { key: "title",      label: "Title" },
+        { key: "url",        label: "URL",      render: "link", linkText: "Open Issue" },
+        { key: "comments",   label: "Comments", sortable: true, numeric: true },
+        { key: "labels",     label: "Labels" },
+        { key: "created_at", label: "Created",  sortable: true },
+        { key: "updated_at", label: "Updated",  sortable: true },
+    ];
 
     const $ = (id) => document.getElementById(id);
     const searchBox = $("searchBox");
@@ -254,47 +253,60 @@
 
         table.innerHTML = "";
 
-        data.forEach((row, index) => {
+        const header = data[0];
+        const rows = data.slice(1);
+
+        const idx = {};
+        header.forEach((name, i) => { idx[name] = i; });
+
+        const visible = COLUMNS.filter(c => !c.hidden);
+
+        const headTr = document.createElement("tr");
+        visible.forEach(col => {
+            const th = document.createElement("th");
+
+            if (col.sortable) {
+                const btn = document.createElement("button");
+                btn.className = "sort-btn";
+                btn.type = "button";
+
+                const indicator = sortColumn === col.key
+                    ? (sortDir === "asc" ? " \u25B2" : " \u25BC")
+                    : "";
+                btn.textContent = col.label + indicator;
+
+                btn.addEventListener("click", () => handleSort(col.key));
+                th.appendChild(btn);
+
+                if (sortColumn === col.key) {
+                    th.setAttribute("aria-sort", sortDir === "asc" ? "ascending" : "descending");
+                } else {
+                    th.setAttribute("aria-sort", "none");
+                }
+            } else {
+                th.textContent = col.label;
+            }
+            headTr.appendChild(th);
+        });
+        table.appendChild(headTr);
+
+        rows.forEach(row => {
             const tr = document.createElement("tr");
 
-            row.forEach((col, colIdx) => {
-                const cell = document.createElement(index === 0 ? "th" : "td");
+            visible.forEach(col => {
+                const td = document.createElement("td");
+                const value = row[idx[col.key]];
 
-                if (index === 0) {
-                    const colName = col;
-                    const label = HEADER_LABELS[colName] || colName;
-
-                    if (SORTABLE.includes(colName)) {
-                        const btn = document.createElement("button");
-                        btn.className = "sort-btn";
-                        btn.type = "button";
-
-                        const indicator = sortColumn === colName
-                            ? (sortDir === "asc" ? " \u25B2" : " \u25BC")
-                            : "";
-                        btn.textContent = label + indicator;
-
-                        btn.addEventListener("click", () => handleSort(colName));
-                        cell.appendChild(btn);
-
-                        if (sortColumn === colName) {
-                            cell.setAttribute("aria-sort", sortDir === "asc" ? "ascending" : "descending");
-                        } else {
-                            cell.setAttribute("aria-sort", "none");
-                        }
-                    } else {
-                        cell.textContent = label;
-                    }
-                } else if (typeof col === "string" && col.startsWith("http")) {
+                if (col.render === "link") {
                     const a = document.createElement("a");
-                    a.href = col;
-                    a.innerText = "Open Issue";
+                    a.href = col.href ? row[idx[col.href]] : value;
+                    a.innerText = col.linkText || value;
                     a.target = "_blank";
-                    cell.appendChild(a);
+                    td.appendChild(a);
                 } else {
-                    cell.innerText = col;
+                    td.innerText = value;
                 }
-                tr.appendChild(cell);
+                tr.appendChild(td);
             });
 
             table.appendChild(tr);
@@ -327,7 +339,8 @@
 
         if (sortColumn) {
             const sortIdx = getColumnIndex(header, sortColumn);
-            const isNumeric = sortColumn === "comments";
+            const col = COLUMNS.find(c => c.key === sortColumn);
+            const isNumeric = col && col.numeric;
             rows.sort((a, b) => {
                 const av = a[sortIdx];
                 const bv = b[sortIdx];
