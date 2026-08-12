@@ -63,10 +63,10 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
-| microsoft/ebpf-for-windows | C | [OpenCppCoverage install step fails silently](https://github.com/microsoft/ebpf-for-windows/issues/5330) | 0 | 2026-06-01 | 2026-06-01 |
 | microsoft/ebpf-for-windows | C | [Cleanup: catch2 now allows multiple threads](https://github.com/microsoft/ebpf-for-windows/issues/4553) | 0 | 2025-07-31 | 2026-08-03 |
 | microsoft/msquic | C | [Miss check for the return value of CXPLAT_ALLOC_NONPAGED and CxPlatPoolAlloc](https://github.com/microsoft/msquic/issues/5233) | 0 | 2025-07-10 | 2026-03-03 |
 | microsoft/jbpf | C | [jbpf_io_ipc_test passes with error messages](https://github.com/microsoft/jbpf/issues/54) | 0 | 2025-03-17 | 2025-03-27 |
+| microsoft/ebpf-for-windows | C | [OpenCppCoverage install step fails silently](https://github.com/microsoft/ebpf-for-windows/issues/5330) | 1 | 2026-06-01 | 2026-08-12 |
 | microsoft/ebpf-for-windows | C | [Update tests/sample/undocked/map.c](https://github.com/microsoft/ebpf-for-windows/issues/4547) | 1 | 2025-07-30 | 2026-08-03 |
 | microsoft/ntttcp | C | [per-thread throughput is always 0.00 with ntttcp version 5.40.](https://github.com/microsoft/ntttcp/issues/24) | 1 | 2025-03-14 | 2026-02-17 |
 | microsoft/msquic | C | [Support in-memory certificate stores](https://github.com/microsoft/msquic/issues/4951) | 2 | 2025-03-27 | 2026-05-26 |
@@ -297,10 +297,10 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/kubernetes | Go | [NetworkPolicy tests for blocking north/south traffic](https://github.com/kubernetes/kubernetes/issues/114369) | 38 | 2022-12-08 | 2026-07-15 |
 | kubernetes/perf-tests | Go | [Create api-availability measurement](https://github.com/kubernetes/perf-tests/issues/1096) | 38 | 2020-03-03 | 2023-06-02 |
 | kubernetes/kubernetes | Go | [add and use alternative APIs which support contextual logging](https://github.com/kubernetes/kubernetes/issues/126379) | 40 | 2024-07-26 | 2026-07-17 |
-| kubernetes/kubernetes | Go | [Write the stress test for gRPC, http, and tcp probes](https://github.com/kubernetes/kubernetes/issues/115782) | 41 | 2023-02-15 | 2026-08-02 |
 | kubernetes/kube-state-metrics | Go | [Missing replacement config for VPA collector in CRM](https://github.com/kubernetes/kube-state-metrics/issues/2041) | 42 | 2023-04-05 | 2026-08-11 |
+| kubernetes/kubernetes | Go | [Write the stress test for gRPC, http, and tcp probes](https://github.com/kubernetes/kubernetes/issues/115782) | 45 | 2023-02-15 | 2026-08-12 |
 | kubernetes/kubernetes | Go | [tracker: improve the kubelet test coverage](https://github.com/kubernetes/kubernetes/issues/109717) | 51 | 2022-04-29 | 2026-08-02 |
-| kubernetes/kubernetes | Go | [Migrate DRA components to support granular authorization on status updates](https://github.com/kubernetes/kubernetes/issues/138149) | 73 | 2026-04-01 | 2026-07-25 |
+| kubernetes/kubernetes | Go | [Migrate DRA components to support granular authorization on status updates](https://github.com/kubernetes/kubernetes/issues/138149) | 74 | 2026-04-01 | 2026-08-12 |
 | microsoft/edge-ai | HCL | [chore(python): add pip lock files for reproducible builds](https://github.com/microsoft/edge-ai/issues/167) | 0 | 2026-02-08 | 2026-04-19 |
 | microsoft/edge-ai | HCL | [docs(testing): add regression test tracking policy](https://github.com/microsoft/edge-ai/issues/176) | 1 | 2026-02-08 | 2026-06-19 |
 | microsoft/edge-ai | HCL | [docs(testing): update testing-validation.md to reflect actual test frameworks](https://github.com/microsoft/edge-ai/issues/144) | 1 | 2026-02-07 | 2026-06-11 |
@@ -314,7 +314,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/developer.md into Japanese](https://github.com/kubernetes/website/issues/56859) | 2 | 2026-08-08 | 2026-08-09 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/spec.md into Japanese](https://github.com/kubernetes/website/issues/56857) | 2 | 2026-08-08 | 2026-08-10 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/event.md into Japanese](https://github.com/kubernetes/website/issues/56856) | 2 | 2026-08-08 | 2026-08-10 |
-| kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/condition.md into Japanese](https://github.com/kubernetes/website/issues/56855) | 2 | 2026-08-08 | 2026-08-09 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/infrastructure-resource.md into Japanese](https://github.com/kubernetes/website/issues/56854) | 2 | 2026-08-08 | 2026-08-10 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/pod-disruption-budget.md into Japanese](https://github.com/kubernetes/website/issues/56853) | 2 | 2026-08-08 | 2026-08-10 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/disruption.md into Japanese](https://github.com/kubernetes/website/issues/56852) | 2 | 2026-08-08 | 2026-08-10 |
@@ -322,7 +321,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/qos-class.md into Japanese](https://github.com/kubernetes/website/issues/56850) | 2 | 2026-08-08 | 2026-08-10 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/ephemeral-container.md into Japanese](https://github.com/kubernetes/website/issues/56700) | 2 | 2026-07-31 | 2026-08-01 |
 | cncf/glossary | HTML | [[ru] Localize `Service` into Russian](https://github.com/cncf/glossary/issues/3334) | 2 | 2024-10-17 | 2025-03-03 |
-| kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/downstream.md into Japanese](https://github.com/kubernetes/website/issues/56858) | 3 | 2026-08-08 | 2026-08-11 |
 | kubernetes/website | HTML | [Broken Kyverno link in Pod Security Standards alternatives section](https://github.com/kubernetes/website/issues/56734) | 3 | 2026-08-01 | 2026-08-03 |
 | cncf/tag-app-delivery | HTML | [Automation of tag-app-delivery repo](https://github.com/cncf/tag-app-delivery/issues/566) | 3 | 2024-02-27 | 2024-06-22 |
 | cncf/tag-security | HTML | [[Suggestion] Working Group Landing Page](https://github.com/cncf/tag-security/issues/1354) | 4 | 2024-08-23 | 2025-07-19 |
@@ -343,7 +341,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/website | HTML | [[hi] Enhance README file to improve readability and user-friendliness](https://github.com/kubernetes/website/issues/41989) | 30 | 2023-07-12 | 2026-03-22 |
 | microsoft/copilot-for-eclipse | Java | [The Copilot Chat view retains file context even after the file is closed](https://github.com/microsoft/copilot-for-eclipse/issues/277) | 0 | 2026-06-05 | 2026-06-05 |
 | microsoft/typespec | Java | [testing: expectDiagnostics() should provide an option to ignore ordering](https://github.com/microsoft/typespec/issues/5818) | 3 | 2025-01-30 | 2025-05-23 |
-| microsoft/copilot-for-eclipse | Java | [Please integrate copilot into eclipse quickfix feature - Enhancement Request](https://github.com/microsoft/copilot-for-eclipse/issues/70) | 4 | 2026-01-04 | 2026-08-11 |
+| microsoft/copilot-for-eclipse | Java | [Please integrate copilot into eclipse quickfix feature - Enhancement Request](https://github.com/microsoft/copilot-for-eclipse/issues/70) | 6 | 2026-01-04 | 2026-08-12 |
 | microsoft/copilot-for-eclipse | Java | [Unable to use the Java source file corresponding to the class file as context](https://github.com/microsoft/copilot-for-eclipse/issues/117) | 13 | 2026-04-15 | 2026-06-25 |
 | mattermost/mattermost-plugin-gitlab | JavaScript | [Convert link_tooltip component to typescript](https://github.com/mattermost/mattermost-plugin-gitlab/issues/424) | 1 | 2023-12-19 | 2025-11-01 |
 | huggingface/transformers.js | JavaScript | [Is 'aggregation_strategy' parameter available for token classification pipeline?](https://github.com/huggingface/transformers.js/issues/633) | 2 | 2024-03-07 | 2024-06-09 |
@@ -354,6 +352,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | layer5io/docs | JavaScript | [[Docs] Floating Card Overlapping Navbar](https://github.com/layer5io/docs/issues/1187) | 3 | 2026-08-06 | 2026-08-06 |
 | layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 4](https://github.com/layer5io/docs/issues/794) | 3 | 2025-08-21 | 2025-09-04 |
 | layer5io/docs | JavaScript | [Screen capture includes Grammarly](https://github.com/layer5io/docs/issues/543) | 3 | 2025-05-06 | 2026-08-11 |
+| layer5io/layer5 | JavaScript | [[Community] Manager Profile: Maanvi Chetwani and Ishwar Chand Meena](https://github.com/layer5io/layer5/issues/7949) | 4 | 2026-08-12 | 2026-08-12 |
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Contributing needs work](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/112) | 4 | 2017-12-02 | 2018-03-24 |
 | layer5io/docs | JavaScript | [[Docs] Improve Related Docs Links in Pinning Models to Dock Page](https://github.com/layer5io/docs/issues/1028) | 5 | 2026-05-11 | 2026-06-11 |
 | layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 3](https://github.com/layer5io/docs/issues/793) | 5 | 2025-08-21 | 2025-09-04 |
@@ -423,15 +422,16 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | godotengine/godot-asset-library | PHP | [keep the content of the submition form when its not validated, or try some ajax realtime pre-validation](https://github.com/godotengine/godot-asset-library/issues/61) | 1 | 2016-09-04 | 2016-09-08 |
 | godotengine/godot-asset-library | PHP | [A way to cancel edit requests](https://github.com/godotengine/godot-asset-library/issues/149) | 3 | 2018-06-27 | 2020-05-07 |
 | godotengine/godot-asset-library | PHP | [Sanitize inputs for Asset data/fields, like URLs](https://github.com/godotengine/godot-asset-library/issues/204) | 5 | 2020-03-08 | 2021-11-03 |
-| microsoft/hve-core | PowerShell | [docs: update custom-agents.md and prompts.md with cross-artifact reference portability rules](https://github.com/microsoft/hve-core/issues/2662) | 0 | 2026-08-11 | 2026-08-11 |
+| microsoft/hve-core | PowerShell | [docs: update docs/customization/environment.md to list GitHub Copilot CLI in DevContainer tool stack](https://github.com/microsoft/hve-core/issues/2683) | 0 | 2026-08-12 | 2026-08-12 |
 | microsoft/hve-core | PowerShell | [docs: Update stale documentation - docs/agents/mural/credentials.md](https://github.com/microsoft/hve-core/issues/2655) | 0 | 2026-08-10 | 2026-08-11 |
 | microsoft/hve-core | PowerShell | [docs: validation.md missing pip/uv proxy and devcontainer build arg documentation](https://github.com/microsoft/hve-core/issues/2583) | 0 | 2026-08-03 | 2026-08-11 |
-| microsoft/hve-core | PowerShell | [docs: scripts/README.md evals table is missing 13 scripts added in the vally migration](https://github.com/microsoft/hve-core/issues/2572) | 0 | 2026-07-31 | 2026-08-11 |
 | microsoft/hve-core | PowerShell | [docs: scripts/README.md is missing entries for 13 evals scripts added in feat(mcsb)](https://github.com/microsoft/hve-core/issues/2571) | 0 | 2026-07-31 | 2026-08-11 |
+| microsoft/hve-core | PowerShell | [docs: update custom-agents.md and prompts.md with cross-artifact reference portability rules](https://github.com/microsoft/hve-core/issues/2662) | 1 | 2026-08-11 | 2026-08-12 |
 | microsoft/hve-core | PowerShell | [docs: Update stale documentation - .github/skills/experimental/video-to-gif/examples/README.md](https://github.com/microsoft/hve-core/issues/2587) | 1 | 2026-08-03 | 2026-08-11 |
 | microsoft/hve-core | PowerShell | [docs: Update stale documentation - .github/skills/project-planning/adr-author/references/asr-trigger-taxonomy.md](https://github.com/microsoft/hve-core/issues/2586) | 1 | 2026-08-03 | 2026-08-11 |
 | microsoft/hve-core | PowerShell | [docs: Update stale documentation - .github/skills/project-planning/adr-author/references/standards-excerpts.md](https://github.com/microsoft/hve-core/issues/2585) | 1 | 2026-08-03 | 2026-08-11 |
 | microsoft/hve-core | PowerShell | [docs: Update stale documentation - .github/skills/project-planning/adr-author/references/lineage-rules.md](https://github.com/microsoft/hve-core/issues/2584) | 1 | 2026-08-03 | 2026-08-11 |
+| microsoft/hve-core | PowerShell | [docs: scripts/README.md evals table is missing 13 scripts added in the vally migration](https://github.com/microsoft/hve-core/issues/2572) | 1 | 2026-07-31 | 2026-08-12 |
 | huggingface/optimum-executorch | Python | [Add benchmarking numbers for more models](https://github.com/huggingface/optimum-executorch/issues/131) | 0 | 2025-09-02 | 2025-09-02 |
 | huggingface/lighteval | Python | [[FT]  Add tests for `VLLMModel` base methods](https://github.com/huggingface/lighteval/issues/724) | 0 | 2025-05-15 | 2025-05-20 |
 | huggingface/nanotron | Python | [[Feature] Use CUDA event for measuring elasped time](https://github.com/huggingface/nanotron/issues/88) | 0 | 2024-03-02 | 2024-04-20 |
@@ -481,12 +481,12 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/dataset-viewer | Python | [Use `CONSTANT_LIST.copy` in list config fieds](https://github.com/huggingface/dataset-viewer/issues/1522) | 3 | 2023-07-17 | 2025-07-10 |
 | huggingface/transfer-learning-conv-ai | Python | [RuntimeError: shape '[-1, 2, 34]' is invalid for input of size 61710](https://github.com/huggingface/transfer-learning-conv-ai/issues/12) | 3 | 2019-06-04 | 2022-09-02 |
 | microsoft/agent-governance-toolkit | Python | [credential_redactor: docs imply redact() scrubs PII, but it covers secrets only; SSN patterns diverge](https://github.com/microsoft/agent-governance-toolkit/issues/3239) | 3 | 2026-06-30 | 2026-07-13 |
-| microsoft/agent-governance-toolkit | Python | [bug(examples/flowise-governance): flowise-flow.json fails to import on Flowise 2.x and 3.x](https://github.com/microsoft/agent-governance-toolkit/issues/3194) | 3 | 2026-06-26 | 2026-08-04 |
 | microsoft/data-formulator | Python | [Docker Support](https://github.com/microsoft/data-formulator/issues/85) | 3 | 2025-02-13 | 2026-03-14 |
 | godotengine/godot-blender-exporter | Python | [Blender object with negative scale](https://github.com/godotengine/godot-blender-exporter/issues/24) | 3 | 2018-05-11 | 2020-10-09 |
 | huggingface/lerobot | Python | [Ensure the utilities module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1727) | 4 | 2025-08-13 | 2026-04-08 |
 | huggingface/lighteval | Python | [[EVAL]: Add more African Benchmarks](https://github.com/huggingface/lighteval/issues/373) | 4 | 2024-10-24 | 2024-11-08 |
 | huggingface/dataset-viewer | Python | [Cache/Queue metrics should not be negative](https://github.com/huggingface/dataset-viewer/issues/2495) | 4 | 2024-02-23 | 2025-08-04 |
+| microsoft/agent-governance-toolkit | Python | [bug(examples/flowise-governance): flowise-flow.json fails to import on Flowise 2.x and 3.x](https://github.com/microsoft/agent-governance-toolkit/issues/3194) | 4 | 2026-06-26 | 2026-08-12 |
 | huggingface/lighteval | Python | [[FT] showing count in Markdown summary table](https://github.com/huggingface/lighteval/issues/804) | 5 | 2025-06-09 | 2026-08-11 |
 | huggingface/lighteval | Python | [[BUG] custom model docs don't run: missing imports](https://github.com/huggingface/lighteval/issues/760) | 5 | 2025-05-21 | 2025-05-21 |
 | huggingface/nanotron | Python | [Avoid nested `InheritFromOtherOptimizer`](https://github.com/huggingface/nanotron/issues/267) | 5 | 2025-01-15 | 2025-09-23 |
@@ -515,15 +515,14 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/diffusers | Python | [[Pipeline] AnimateDiff + SparseControl + ControlNet](https://github.com/huggingface/diffusers/issues/9329) | 14 | 2024-08-30 | 2025-09-10 |
 | microsoft/markitdown | Python | [Support for .doc extensions](https://github.com/microsoft/markitdown/issues/23) | 14 | 2024-12-14 | 2026-06-02 |
 | microsoft/data-formulator | Python | [Create new data loaders to different resources](https://github.com/microsoft/data-formulator/issues/156) | 15 | 2025-05-13 | 2025-12-11 |
-| microsoft/markitdown | Python | [LLM Integration](https://github.com/microsoft/markitdown/issues/12) | 17 | 2024-12-13 | 2026-06-08 |
 | huggingface/lerobot | Python | [Make policies compatible with torch.compile](https://github.com/huggingface/lerobot/issues/2061) | 18 | 2025-09-26 | 2026-03-23 |
 | huggingface/datasets | Python | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 19 | 2022-12-12 | 2026-07-11 |
 | huggingface/diffusers | Python | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 22 | 2024-02-13 | 2025-10-31 |
-| huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 22 | 2023-04-28 | 2026-07-31 |
+| huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 23 | 2023-04-28 | 2026-08-12 |
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 26 | 2022-11-18 | 2025-05-20 |
 | huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 29 | 2023-09-29 | 2026-07-29 |
 | microsoft/autogen | Python | [open needs encoding='utf-8' for non-english environment, error in playwright_controller.py](https://github.com/microsoft/autogen/issues/5566) | 32 | 2025-02-16 | 2026-07-24 |
-| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 149 | 2025-01-07 | 2026-08-06 |
+| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 155 | 2025-01-07 | 2026-08-12 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 | 2024-04-17 | 2024-04-17 |
 | microsoft/openvmm | Rust | [remove usages of futures::select! in the repo with futures_concurrency](https://github.com/microsoft/openvmm/issues/1246) | 0 | 2025-04-25 | 2025-06-21 |
 | microsoft/windows-drivers-rs | Rust | [Migrate from fs4 to std::File flocks](https://github.com/microsoft/windows-drivers-rs/issues/300) | 0 | 2025-02-20 | 2025-08-15 |
@@ -647,7 +646,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | decentraland/marketplace | TypeScript | [It's hard to detect when the kebab menu of the ListCard is clickable](https://github.com/decentraland/marketplace/issues/1866) | 2 | 2023-06-22 | 2023-07-31 |
 | decentraland/marketplace | TypeScript | [Show full name when hovering over Lands and Wearables](https://github.com/decentraland/marketplace/issues/590) | 2 | 2022-02-07 | 2024-08-23 |
 | huggingface/chat-ui | TypeScript | [Load past conversations using the most recent leaf to determine the visible conversation tree.](https://github.com/huggingface/chat-ui/issues/1208) | 3 | 2024-05-28 | 2024-07-06 |
-| microsoft/vscode-containers | TypeScript | [Add presentation options to Docker extension's compose commands](https://github.com/microsoft/vscode-containers/issues/350) | 3 | 2026-01-22 | 2026-01-28 |
+| microsoft/vscode-containers | TypeScript | [Add presentation options to Docker extension's compose commands](https://github.com/microsoft/vscode-containers/issues/350) | 3 | 2026-01-22 | 2026-08-12 |
 | microsoft/teams.ts | TypeScript | [[cards] support lowercase and Capitalized JSON values](https://github.com/microsoft/teams.ts/issues/132) | 3 | 2025-04-09 | 2025-10-11 |
 | hashicorp/terraform-cdk | TypeScript | [Support kubernetes backend](https://github.com/hashicorp/terraform-cdk/issues/1628) | 3 | 2022-03-19 | 2023-06-01 |
 | huggingface/chat-ui | TypeScript | [Add option for users to customize search engines in settings page](https://github.com/huggingface/chat-ui/issues/1756) | 4 | 2025-03-15 | 2026-05-09 |
@@ -679,7 +678,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost | TypeScript | [Fix all initialism errors in the codebase](https://github.com/mattermost/mattermost/issues/16623) | 27 | 2021-01-04 | 2025-11-24 |
 | microsoft/vscode | TypeScript | [Review AsyncIterableObject usage: potential memory leaks and migration to AsyncIterableProducer](https://github.com/microsoft/vscode/issues/256854) | 30 | 2025-07-19 | 2026-06-30 |
 | mattermost/mattermost | TypeScript | [Mobile: Slight horizontal indent difference after first line](https://github.com/mattermost/mattermost/issues/27377) | 36 | 2024-06-17 | 2026-08-07 |
-| microsoft/vscode | TypeScript | [Disabled and enabled (workspace) extension Disable button dropdown contains both "Disable" and "Disable (Workspace)" items](https://github.com/microsoft/vscode/issues/244138) | 39 | 2025-03-20 | 2026-08-10 |
+| microsoft/vscode | TypeScript | [Disabled and enabled (workspace) extension Disable button dropdown contains both "Disable" and "Disable (Workspace)" items](https://github.com/microsoft/vscode/issues/244138) | 38 | 2025-03-20 | 2026-08-12 |
 | godotengine/godot-docs | reStructuredText | [make_canvas_position_local](https://github.com/godotengine/godot-docs/issues/8313) | 1 | 2023-10-23 | 2024-12-15 |
 | godotengine/godot-docs | reStructuredText | [Inconsistent code example between PhysicsShapeQueryParameters3D and PhysicsServer3D](https://github.com/godotengine/godot-docs/issues/8305) | 1 | 2023-10-22 | 2024-12-14 |
 | godotengine/godot-docs | reStructuredText | [Physics2DDirectSpaceState does not specify local or global coordinates](https://github.com/godotengine/godot-docs/issues/3299) | 2 | 2020-03-24 | 2026-02-05 |
