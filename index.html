@@ -133,6 +133,11 @@
             text-align: left;
         }
 
+        th.align-center,
+        td.align-center {
+            text-align: center;
+        }
+
         /* Remove double-border where cells meet the wrapper edge */
         tr:first-child th,
         tr:first-child td { border-top: none; }
@@ -228,7 +233,7 @@
         { key: "language",   label: "Language" },
         { key: "title",      label: "Title" },
         { key: "url",        label: "URL",      render: "link", linkText: "Open Issue" },
-        { key: "comments",   label: "Comments", sortable: true, numeric: true },
+        { key: "comments",   label: "Comments", sortable: true, numeric: true, align: "center" },
         { key: "labels",     label: "Labels" },
         { key: "created_at", label: "Created",  sortable: true },
         { key: "updated_at", label: "Updated",  sortable: true },
@@ -264,6 +269,9 @@
         const headTr = document.createElement("tr");
         visible.forEach(col => {
             const th = document.createElement("th");
+            if (col.align) {
+                th.classList.add(`align-${col.align}`);
+            }
 
             if (col.sortable) {
                 const btn = document.createElement("button");
@@ -295,6 +303,9 @@
 
             visible.forEach(col => {
                 const td = document.createElement("td");
+                if (col.align) {
+                    td.classList.add(`align-${col.align}`);
+                }
                 const value = row[idx[col.key]];
 
                 if (col.render === "link") {
