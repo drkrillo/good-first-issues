@@ -159,11 +159,6 @@
 
         th .sort-btn {
             all: unset;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 0.25rem;
-            width: 100%;
             cursor: pointer;
             font: inherit;
             color: inherit;
@@ -238,7 +233,7 @@
         { key: "language",   label: "Language" },
         { key: "title",      label: "Title" },
         { key: "url",        label: "URL",      render: "link", linkText: "Open Issue" },
-        { key: "comments",   label: "Comments", sortable: true, numeric: true, align: "center", width: "120px" },
+        { key: "comments",   label: "Comments", sortable: true, numeric: true, align: "center" },
         { key: "labels",     label: "Labels" },
         { key: "created_at", label: "Created",  sortable: true },
         { key: "updated_at", label: "Updated",  sortable: true },
@@ -270,16 +265,6 @@
         header.forEach((name, i) => { idx[name] = i; });
 
         const visible = COLUMNS.filter(c => !c.hidden);
-
-        const colgroup = document.createElement("colgroup");
-        visible.forEach(col => {
-            const colEl = document.createElement("col");
-            if (col.width) {
-                colEl.style.width = col.width;
-            }
-            colgroup.appendChild(colEl);
-        });
-        table.appendChild(colgroup);
 
         const headTr = document.createElement("tr");
         visible.forEach(col => {
