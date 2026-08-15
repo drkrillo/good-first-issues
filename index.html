@@ -231,7 +231,7 @@
     const COLUMNS = [
         { key: "repo",       label: "Repo" },
         { key: "language",   label: "Language" },
-        { key: "title",      label: "Title" },
+        { key: "title",      label: "Title", truncate: 90 },
         { key: "url",        label: "URL",      render: "link", linkText: "Open Issue" },
         { key: "comments",   label: "Comments", sortable: true, numeric: true, align: "center" },
         { key: "labels",     label: "Labels" },
@@ -314,6 +314,9 @@
                     a.innerText = col.linkText || value;
                     a.target = "_blank";
                     td.appendChild(a);
+                } else if (col.truncate && value.length > col.truncate) {
+                    td.innerText = value.slice(0, col.truncate).trimEnd() + "…";
+                    td.title = value;
                 } else {
                     td.innerText = value;
                 }
