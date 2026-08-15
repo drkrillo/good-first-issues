@@ -303,7 +303,7 @@
                     a.innerText = col.linkText || value;
                     a.target = "_blank";
                     td.appendChild(a);
-                }else if (col.truncate && value.length > col.truncate) {
+                } else if (col.truncate && value.length > col.truncate) {
                     td.innerText = value.slice(0, col.truncate).trimEnd() + "…";
                     td.title = value;
                 } else {
