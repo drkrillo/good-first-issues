@@ -13,6 +13,7 @@ microsoft/PowerToys,C,.opus support for Peek,https://github.com/microsoft/PowerT
 microsoft/msquic,C,Failing to use close-on-exec,https://github.com/microsoft/msquic/issues/4980,5,"['good first issue', 'OS: Windows (User)', 'OS: Linux', 'external', 'Bug: Platform', 'Triaged']",2025-04-08,2026-07-15
 microsoft/profile-explorer,C#,Mapping code gap?,https://github.com/microsoft/profile-explorer/issues/7,0,"['enhancement', 'good first issue']",2025-02-10,2026-03-27
 microsoft/WPF-Samples,C#,Sample Applications Update to Fluent Theme,https://github.com/microsoft/WPF-Samples/issues/680,0,"['easy', 'up-for-grabs', 'help wanted', 'good first issue']",2025-02-03,2025-02-03
+microsoft/aspire,C#,[VS Code] Automatically expand the only AppHost in the Aspire pane,https://github.com/microsoft/aspire/issues/19553,1,"['good first issue', 'help wanted', 'area-vscode-extension']",2026-08-20,2026-08-20
 microsoft/aspire,C#,[13.5] Capture Paused alignment,https://github.com/microsoft/aspire/issues/19018,1,"['good first issue', 'help wanted', 'area-dashboard']",2026-08-05,2026-08-06
 microsoft/aspire,C#,[main] Auto Completion on Structured Logs filter,https://github.com/microsoft/aspire/issues/19015,1,"['good first issue', 'help wanted', 'area-dashboard']",2026-08-05,2026-08-06
 microsoft/aspire,C#,[13.5] Logs filter should hide `UTC timestamps` option when `Show timestamps` is disabled,https://github.com/microsoft/aspire/issues/19019,3,"['good first issue', 'help wanted', 'area-dashboard']",2026-08-05,2026-08-06
@@ -194,7 +195,6 @@ kubernetes/autoscaler,Go,VPA: document behavior for Requests & Limits,https://gi
 kubernetes/kube-state-metrics,Go,Promote experimental metrics,https://github.com/kubernetes/kube-state-metrics/issues/1792,9,['good first issue'],2022-07-19,2025-07-27
 kubernetes/perf-tests,Go,Pod startup time phases are inaccurate in longer tests.,https://github.com/kubernetes/perf-tests/issues/2006,9,"['help wanted', 'good first issue', 'area/clusterloader']",2022-03-07,2023-02-08
 hashicorp/terraform-provider-kubernetes,Go,Init container doesn't support restart_policy option (to transform it in a sidecar container),https://github.com/hashicorp/terraform-provider-kubernetes/issues/2446,9,"['bug', 'good first issue', 'help wanted', 'k8s/v1.29']",2024-03-18,2025-11-26
-kubernetes/minikube,Go,test: Remove duplicate kubernetes versions in tests,https://github.com/kubernetes/minikube/issues/21483,10,"['help wanted', 'good first issue']",2025-09-03,2025-12-11
 kubernetes/perf-tests,Go,clusterloader2 should be covered with unit tests,https://github.com/kubernetes/perf-tests/issues/572,10,"['help wanted', 'lifecycle/frozen', 'good first issue', 'kind/cleanup', 'area/clusterloader']",2019-06-18,2025-06-04
 hashicorp/waypoint,Go,Improve error message if docker desktop is not running,https://github.com/hashicorp/waypoint/issues/3471,10,"['enhancement', 'good first issue']",2022-06-18,2023-01-06
 kubernetes/cloud-provider-openstack,Go,[cinder-csi-plugin] Allow StorageClass parameters to be set in Helm chart,https://github.com/kubernetes/cloud-provider-openstack/issues/1980,11,"['good first issue', 'kind/feature', 'lifecycle/stale']",2022-08-31,2023-10-15
@@ -438,7 +438,6 @@ huggingface/accelerate,Python,[Community Contributions] examples on distributed 
 huggingface/nanotron,Python,[Bug] Missing `_is_using_mup` when resume checkpoint,https://github.com/huggingface/nanotron/issues/198,7,"['bug', 'good first issue', 'help wanted']",2024-06-14,2026-07-29
 microsoft/onnxscript,Python,Attention fusion (SDPA/MHA) broken for BART decoder with/wo past🐛,https://github.com/microsoft/onnxscript/issues/2424,7,"['good first issue', 'contribution welcome', 'module: rewriter']",2025-06-29,2026-03-01
 microsoft/autogen,Python,Get current message thread from a group chat team.,https://github.com/microsoft/autogen/issues/6085,7,"['good first issue', 'help wanted', 'proj-agentchat']",2025-03-24,2026-04-30
-microsoft/markitdown,Python,File support: chm support,https://github.com/microsoft/markitdown/issues/14,7,"['enhancement', 'good first issue']",2024-12-13,2026-06-10
 huggingface/diffusers,Python,Make `FlaxLMSDiscreteScheduler` jittable,https://github.com/huggingface/diffusers/issues/2180,8,['good first issue'],2023-01-31,2025-06-28
 huggingface/lerobot,Python,Select the VLM backbone for SmolVLA,https://github.com/huggingface/lerobot/issues/2104,9,"['question', 'policies', 'good first issue']",2025-10-02,2026-08-17
 huggingface/lighteval,Python,[EVAL] Adding PHARE,https://github.com/huggingface/lighteval/issues/696,9,"['good first issue', 'help wanted', 'new-task']",2025-04-30,2026-07-16
