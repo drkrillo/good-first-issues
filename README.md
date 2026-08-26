@@ -63,15 +63,16 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
-| microsoft/ebpf-for-windows | C | [Cleanup: catch2 now allows multiple threads](https://github.com/microsoft/ebpf-for-windows/issues/4553) | 0 | 2025-07-31 | 2026-08-03 |
+| microsoft/ebpf-for-windows | C | [Cleanup: catch2 now allows multiple threads](https://github.com/microsoft/ebpf-for-windows/issues/4553) | 0 | 2025-07-31 | 2026-08-26 |
 | microsoft/msquic | C | [Miss check for the return value of CXPLAT_ALLOC_NONPAGED and CxPlatPoolAlloc](https://github.com/microsoft/msquic/issues/5233) | 0 | 2025-07-10 | 2026-03-03 |
 | microsoft/jbpf | C | [jbpf_io_ipc_test passes with error messages](https://github.com/microsoft/jbpf/issues/54) | 0 | 2025-03-17 | 2025-03-27 |
+| microsoft/jbpf | C | [Remove JBPF_EXPERIMENTAL_FEATURES from  header files](https://github.com/microsoft/jbpf/issues/26) | 0 | 2024-12-13 | 2025-03-03 |
 | microsoft/ebpf-for-windows | C | [OpenCppCoverage install step fails silently](https://github.com/microsoft/ebpf-for-windows/issues/5330) | 1 | 2026-06-01 | 2026-08-12 |
-| microsoft/ebpf-for-windows | C | [Update tests/sample/undocked/map.c](https://github.com/microsoft/ebpf-for-windows/issues/4547) | 1 | 2025-07-30 | 2026-08-03 |
+| microsoft/ebpf-for-windows | C | [Update tests/sample/undocked/map.c](https://github.com/microsoft/ebpf-for-windows/issues/4547) | 1 | 2025-07-30 | 2026-08-26 |
 | microsoft/ntttcp | C | [per-thread throughput is always 0.00 with ntttcp version 5.40.](https://github.com/microsoft/ntttcp/issues/24) | 1 | 2025-03-14 | 2026-02-17 |
 | microsoft/msquic | C | [Simplify ALPN re-negotiation path](https://github.com/microsoft/msquic/issues/6239) | 2 | 2026-08-18 | 2026-08-19 |
 | microsoft/msquic | C | [Support in-memory certificate stores](https://github.com/microsoft/msquic/issues/4951) | 2 | 2025-03-27 | 2026-05-26 |
-| microsoft/ebpf-for-windows | C | [ebpf-verifier is cloned twice](https://github.com/microsoft/ebpf-for-windows/issues/4174) | 2 | 2025-02-03 | 2026-08-03 |
+| microsoft/ebpf-for-windows | C | [ebpf-verifier is cloned twice](https://github.com/microsoft/ebpf-for-windows/issues/4174) | 2 | 2025-02-03 | 2026-08-26 |
 | microsoft/PowerToys | C | [.opus support for Peek](https://github.com/microsoft/PowerToys/issues/42576) | 4 | 2025-10-18 | 2026-06-28 |
 | microsoft/msquic | C | [2.6.0 : Visual Studio : some warnings as errors](https://github.com/microsoft/msquic/issues/6234) | 5 | 2026-08-14 | 2026-08-24 |
 | microsoft/msquic | C | [Failing to use close-on-exec](https://github.com/microsoft/msquic/issues/4980) | 5 | 2025-04-08 | 2026-07-15 |
@@ -80,8 +81,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/aspire | C# | [[13.5] Capture Paused alignment](https://github.com/microsoft/aspire/issues/19018) | 1 | 2026-08-05 | 2026-08-06 |
 | microsoft/aspire | C# | [[13.5] Logs filter should hide `UTC timestamps` option when `Show timestamps` is disabled](https://github.com/microsoft/aspire/issues/19019) | 3 | 2026-08-05 | 2026-08-06 |
 | microsoft/aspire | C# | [Provide CSV export option in dashboard console logs](https://github.com/microsoft/aspire/issues/11121) | 3 | 2025-08-26 | 2026-07-04 |
-| microsoft/mcp | C# | [[COMMUNITY] Auto generate CHANGELOG, including adding contributors for each release](https://github.com/microsoft/mcp/issues/156) | 4 | 2025-09-03 | 2026-07-07 |
-| microsoft/aspire | C# | [Improve Exception Message for Missing Project Metadata Annotation in ResourceContainerImageBuilder.cs](https://github.com/microsoft/aspire/issues/11299) | 12 | 2025-09-09 | 2026-08-14 |
+| microsoft/mcp | C# | [[COMMUNITY] Auto generate CHANGELOG, including adding contributors for each release](https://github.com/microsoft/mcp/issues/156) | 4 | 2025-09-03 | 2026-08-26 |
+| microsoft/aspire | C# | [Improve Exception Message for Missing Project Metadata Annotation in ResourceContainerImageBuilder.cs](https://github.com/microsoft/aspire/issues/11299) | 13 | 2025-09-09 | 2026-08-26 |
 | microsoft/snmalloc | C++ | [Implement accurate size storage for Windows `_msize` and `_recalloc`](https://github.com/microsoft/snmalloc/issues/786) | 0 | 2025-07-02 | 2025-07-02 |
 | microsoft/react-native-windows | C++ | [Scroll wheel behavior differs significantly in new architecture (Windows App SDK) vs WinUI 3 Gallery app](https://github.com/microsoft/react-native-windows/issues/14653) | 1 | 2025-05-08 | 2025-07-03 |
 | microsoft/react-native-windows | C++ | [Deprecate autolink functionality to copy flags from react-native.config.js into ExperimentalFeature.props.](https://github.com/microsoft/react-native-windows/issues/14601) | 1 | 2025-04-22 | 2025-06-11 |
@@ -125,7 +126,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-confluence | Go | [Support notifications to users "watching" in Confluence](https://github.com/mattermost/mattermost-plugin-confluence/issues/50) | 0 | 2020-05-05 | 2025-03-26 |
 | mattermost/mattermost-plugin-confluence | Go | [Add per user Authentication for Confluence](https://github.com/mattermost/mattermost-plugin-confluence/issues/49) | 0 | 2020-05-04 | 2025-03-26 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Allow "create event" command to accept spaces in values](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/97) | 0 | 2020-04-26 | 2021-10-02 |
-| mattermost/mattermost-plugin-github | Go | [Create tests for `createIssue()` method](https://github.com/mattermost/mattermost-plugin-github/issues/223) | 0 | 2020-03-24 | 2025-01-09 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Add mapped Mattermost users as attendees in CreateEvent API method](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/28) | 0 | 2020-01-29 | 2021-10-02 |
 | hashicorp/terraform-provider-aws | Go | [[Docs]: Document necessary dependency between aws_eks_access_entry and aws_eks_access_policy_association](https://github.com/hashicorp/terraform-provider-aws/issues/40951) | 1 | 2025-01-15 | 2025-02-05 |
 | hashicorp/packer-plugin-googlecompute | Go | [Add disk_attachment labels](https://github.com/hashicorp/packer-plugin-googlecompute/issues/210) | 1 | 2024-02-28 | 2026-07-26 |
@@ -143,6 +143,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-github | Go | [Create Issue modal should disable labels etc instead of hiding the elements](https://github.com/mattermost/mattermost-plugin-github/issues/438) | 1 | 2021-04-17 | 2023-02-20 |
 | mattermost/mattermost-plugin-nps | Go | [Use SiteURL for all calls from the webapp](https://github.com/mattermost/mattermost-plugin-nps/issues/70) | 1 | 2020-07-21 | 2021-10-02 |
 | mattermost/mattermost-plugin-google-calendar | Go | [Improve error handling in `completeCalendar` to avoid panic](https://github.com/mattermost/mattermost-plugin-google-calendar/issues/8) | 1 | 2020-04-23 | 2021-10-02 |
+| mattermost/mattermost-plugin-github | Go | [Create tests for `createIssue()` method](https://github.com/mattermost/mattermost-plugin-github/issues/223) | 1 | 2020-03-24 | 2026-08-26 |
 | mattermost/mattermost-plugin-github | Go | [Use custom post type to display TODO list](https://github.com/mattermost/mattermost-plugin-github/issues/86) | 1 | 2019-06-04 | 2021-10-02 |
 | hashicorp/terraform-provider-aws | Go | [aws_bedrockagentcore_harness is missing additionalAttributes in bedrockModelConfig](https://github.com/hashicorp/terraform-provider-aws/issues/48363) | 2 | 2026-06-11 | 2026-08-21 |
 | hashicorp/terraform-provider-aws | Go | [aws_fms_policy resource_tag_logical_operator not correctly displaying diff during a plan](https://github.com/hashicorp/terraform-provider-aws/issues/47771) | 2 | 2026-05-05 | 2026-05-06 |
@@ -310,9 +311,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/kubernetes-api.md into Japanese](https://github.com/kubernetes/website/issues/56851) | 2 | 2026-08-08 | 2026-08-10 |
 | cncf/glossary | HTML | [[ru] Localize `Service` into Russian](https://github.com/cncf/glossary/issues/3334) | 2 | 2024-10-17 | 2025-03-03 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/logging.md into Japanese](https://github.com/kubernetes/website/issues/57020) | 3 | 2026-08-16 | 2026-08-17 |
-| kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/cel.md into Japanese](https://github.com/kubernetes/website/issues/57019) | 3 | 2026-08-16 | 2026-08-17 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/proxy.md into Japanese](https://github.com/kubernetes/website/issues/57018) | 3 | 2026-08-16 | 2026-08-17 |
-| kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/quantity.md into Japanese](https://github.com/kubernetes/website/issues/57016) | 3 | 2026-08-16 | 2026-08-18 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/reviewer.md into Japanese](https://github.com/kubernetes/website/issues/56989) | 3 | 2026-08-14 | 2026-08-15 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/sysctl.md into Japanese](https://github.com/kubernetes/website/issues/56988) | 3 | 2026-08-14 | 2026-08-15 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/resource-quota.md into Japanese](https://github.com/kubernetes/website/issues/56985) | 3 | 2026-08-14 | 2026-08-17 |
@@ -320,6 +319,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | cncf/tag-app-delivery | HTML | [Automation of tag-app-delivery repo](https://github.com/cncf/tag-app-delivery/issues/566) | 3 | 2024-02-27 | 2024-06-22 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/downward-api.md into Japanese](https://github.com/kubernetes/website/issues/56987) | 4 | 2026-08-14 | 2026-08-16 |
 | cncf/tag-security | HTML | [[Suggestion] Working Group Landing Page](https://github.com/cncf/tag-security/issues/1354) | 4 | 2024-08-23 | 2025-07-19 |
+| kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/quantity.md into Japanese](https://github.com/kubernetes/website/issues/57016) | 6 | 2026-08-16 | 2026-08-26 |
 | cncf/tag-observability | HTML | [WG: Create GitHub Pages site for TAG Observability](https://github.com/cncf/tag-observability/issues/39) | 7 | 2021-05-12 | 2023-11-21 |
 | kubernetes/website | HTML | [[hi] Localize Network Policy Provider page](https://github.com/kubernetes/website/issues/47439) | 8 | 2024-08-11 | 2026-07-09 |
 | kubernetes/website | HTML | [[hi] Localize concepts/scheduling-eviction page ](https://github.com/kubernetes/website/issues/48989) | 10 | 2024-12-09 | 2026-07-04 |
@@ -332,12 +332,11 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/website | HTML | [[hi] Localize en/docs/contribute/style/page-content-types.md](https://github.com/kubernetes/website/issues/36594) | 18 | 2022-09-04 | 2026-01-10 |
 | kubernetes/website | HTML | [[hi] Localize en/docs/contribute/participate/_index.md](https://github.com/kubernetes/website/issues/36471) | 19 | 2022-08-31 | 2026-01-16 |
 | kubernetes/website | HTML | [[de] Localize content/de/setup/production-environment/_index.md](https://github.com/kubernetes/website/issues/50286) | 23 | 2025-03-27 | 2025-07-17 |
-| kubernetes/website | HTML | [Umbrella: Improve and update the generate-ref-docs contributor guide](https://github.com/kubernetes/website/issues/56385) | 24 | 2026-07-04 | 2026-08-03 |
+| kubernetes/website | HTML | [Umbrella: Improve and update the generate-ref-docs contributor guide](https://github.com/kubernetes/website/issues/56385) | 26 | 2026-07-04 | 2026-08-26 |
 | kubernetes/website | HTML | [[hi] Localize en/docs/contribute/review/for-approvers.md](https://github.com/kubernetes/website/issues/36474) | 28 | 2022-08-31 | 2026-08-06 |
 | kubernetes/website | HTML | [[hi] Enhance README file to improve readability and user-friendliness](https://github.com/kubernetes/website/issues/41989) | 30 | 2023-07-12 | 2026-03-22 |
 | microsoft/copilot-for-eclipse | Java | [The Copilot Chat view retains file context even after the file is closed](https://github.com/microsoft/copilot-for-eclipse/issues/277) | 0 | 2026-06-05 | 2026-06-05 |
 | microsoft/typespec | Java | [testing: expectDiagnostics() should provide an option to ignore ordering](https://github.com/microsoft/typespec/issues/5818) | 3 | 2025-01-30 | 2025-05-23 |
-| microsoft/copilot-for-eclipse | Java | [Please integrate copilot into eclipse quickfix feature - Enhancement Request](https://github.com/microsoft/copilot-for-eclipse/issues/70) | 6 | 2026-01-04 | 2026-08-12 |
 | microsoft/copilot-for-eclipse | Java | [Unable to use the Java source file corresponding to the class file as context](https://github.com/microsoft/copilot-for-eclipse/issues/117) | 13 | 2026-04-15 | 2026-06-25 |
 | layer5io/docs | JavaScript | [[Bug] Image not rendering correctly](https://github.com/layer5io/docs/issues/1207) | 1 | 2026-08-15 | 2026-08-15 |
 | mattermost/mattermost-plugin-gitlab | JavaScript | [Convert link_tooltip component to typescript](https://github.com/mattermost/mattermost-plugin-gitlab/issues/424) | 1 | 2023-12-19 | 2025-11-01 |
@@ -638,6 +637,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | decentraland/builder | TypeScript | [Loading indicator in activity overlaps with Menu](https://github.com/decentraland/builder/issues/1399) | 1 | 2021-05-31 | 2021-06-30 |
 | decentraland/explorer | TypeScript | [Switch to `?x=1&y=2` instead of `?position=1%C02`](https://github.com/decentraland/explorer/issues/1430) | 1 | 2020-10-14 | 2021-08-05 |
 | decentraland/explorer | TypeScript | [Blocking error on console: "Warning: Unsupported graphics API WebGL 2.0"](https://github.com/decentraland/explorer/issues/1333) | 1 | 2020-09-21 | 2020-10-21 |
+| layer5io/sistent | TypeScript | [[ svg ]: Create `createIcon` as the base icon for `svg`](https://github.com/layer5io/sistent/issues/245) | 2 | 2023-11-07 | 2026-08-26 |
 | huggingface/huggingface.js | TypeScript | [Maximize button not working properly on Hosted inference API block](https://github.com/huggingface/huggingface.js/issues/335) | 2 | 2023-01-30 | 2023-11-24 |
 | microsoft/vscode-containers | TypeScript | [Add “Compose Pull / Update All Images” command for Docker Compose projects](https://github.com/microsoft/vscode-containers/issues/414) | 2 | 2026-03-11 | 2026-08-24 |
 | hashicorp/terraform-cdk | TypeScript | [Typo in Tokenizer code?](https://github.com/hashicorp/terraform-cdk/issues/2709) | 2 | 2023-03-09 | 2023-06-02 |
