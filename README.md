@@ -59,7 +59,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-08-25</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-08-26</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -419,8 +419,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | godotengine/godot-asset-library | PHP | [Sanitize inputs for Asset data/fields, like URLs](https://github.com/godotengine/godot-asset-library/issues/204) | 5 | 2020-03-08 | 2021-11-03 |
 | huggingface/optimum-executorch | Python | [Add benchmarking numbers for more models](https://github.com/huggingface/optimum-executorch/issues/131) | 0 | 2025-09-02 | 2025-09-02 |
 | huggingface/lighteval | Python | [[FT]  Add tests for `VLLMModel` base methods](https://github.com/huggingface/lighteval/issues/724) | 0 | 2025-05-15 | 2025-05-20 |
-| huggingface/nanotron | Python | [[Feature] Use CUDA event for measuring elasped time](https://github.com/huggingface/nanotron/issues/88) | 0 | 2024-03-02 | 2024-04-20 |
-| huggingface/nanotron | Python | [[Feature] Refactor `ParallelContext.world_rank_matrix`](https://github.com/huggingface/nanotron/issues/77) | 0 | 2024-02-19 | 2026-08-01 |
 | microsoft/hve-core | Python | [docs: Update stale documentation - .github/skills/shared/pr-reference/references/REFERENCE.md](https://github.com/microsoft/hve-core/issues/2771) | 0 | 2026-08-24 | 2026-08-24 |
 | microsoft/teams-agent-accelerator-libs-py | Python | [Expose the ability to add memory explicitly](https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/57) | 0 | 2024-12-16 | 2025-01-06 |
 | microsoft/BitBLAS | Python | [[Feature Request] Enhance Database to support reload scheduled tilelang operator](https://github.com/microsoft/BitBLAS/issues/269) | 0 | 2024-12-16 | 2024-12-16 |
@@ -433,6 +431,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/nanotron | Python | [We don't save checkpoint after training ends](https://github.com/huggingface/nanotron/issues/163) | 1 | 2024-05-06 | 2025-02-18 |
 | huggingface/nanotron | Python | [FEAT: Support 1.58-bit LLMs training](https://github.com/huggingface/nanotron/issues/114) | 1 | 2024-03-21 | 2024-04-03 |
 | huggingface/dataset-viewer | Python | [Use `revision_exists` (hfh)](https://github.com/huggingface/dataset-viewer/issues/2562) | 1 | 2024-03-08 | 2025-07-01 |
+| huggingface/nanotron | Python | [[Feature] Use CUDA event for measuring elasped time](https://github.com/huggingface/nanotron/issues/88) | 1 | 2024-03-02 | 2026-08-25 |
+| huggingface/nanotron | Python | [[Feature] Refactor `ParallelContext.world_rank_matrix`](https://github.com/huggingface/nanotron/issues/77) | 1 | 2024-02-19 | 2026-08-25 |
 | huggingface/nanotron | Python | [[Feature Request] Add simple communications benchmarks to the repo](https://github.com/huggingface/nanotron/issues/43) | 1 | 2024-01-25 | 2024-01-25 |
 | microsoft/hve-core | Python | [docs: scripts/README.md evals table is missing 13 scripts added in the vally migration](https://github.com/microsoft/hve-core/issues/2572) | 1 | 2026-07-31 | 2026-08-12 |
 | microsoft/apm | Python | [Extract shared retain/reindex predicate for git auth-config entries (follow-up to #2368)](https://github.com/microsoft/apm/issues/2398) | 1 | 2026-07-30 | 2026-07-31 |
@@ -488,9 +488,9 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/nanotron | Python | [[Unit Test] Add unit tests for DistributedTrainer](https://github.com/huggingface/nanotron/issues/90) | 5 | 2024-03-02 | 2024-03-03 |
 | huggingface/lighteval | Python | [Append revision to filepath in `--output_dir`?](https://github.com/huggingface/lighteval/issues/56) | 5 | 2024-02-26 | 2025-09-10 |
 | huggingface/optimum-benchmark | Python | [Evaluators for specific tasks](https://github.com/huggingface/optimum-benchmark/issues/34) | 5 | 2023-08-21 | 2023-12-07 |
-| huggingface/optimum | Python | [Add all available ONNX models to ORTConfigManager](https://github.com/huggingface/optimum/issues/351) | 5 | 2022-08-16 | 2026-08-07 |
 | microsoft/agent-governance-toolkit | Python | [[Bug]: Quickstart imports fail on base install — README paths need [full], and agent_os is deprecated](https://github.com/microsoft/agent-governance-toolkit/issues/3253) | 5 | 2026-07-04 | 2026-08-09 |
 | huggingface/lighteval | Python | [[FT] Improve Documentation and Examples](https://github.com/huggingface/lighteval/issues/682) | 6 | 2025-04-21 | 2025-05-15 |
+| huggingface/optimum | Python | [Add all available ONNX models to ORTConfigManager](https://github.com/huggingface/optimum/issues/351) | 6 | 2022-08-16 | 2026-08-25 |
 | microsoft/agent-governance-toolkit | Python | [bug(examples/flowise-governance): flowise-flow.json fails to import on Flowise 2.x and 3.x](https://github.com/microsoft/agent-governance-toolkit/issues/3194) | 6 | 2026-06-26 | 2026-08-23 |
 | microsoft/data-formulator | Python | [Expand chart type supports](https://github.com/microsoft/data-formulator/issues/193) | 6 | 2025-11-07 | 2025-12-05 |
 | huggingface/lighteval | Python | [[EVAL] Long Horizon Execution](https://github.com/huggingface/lighteval/issues/1056) | 7 | 2025-11-13 | 2026-01-25 |
