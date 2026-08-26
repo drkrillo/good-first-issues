@@ -14,6 +14,8 @@ Thank you for your interest in contributing! This is a project aimed at helping 
 - Browse open issues. You can pick one labeled `good first issue` if you want to get started with an easy one.
 - **Comment on the issue before you start** so I can assign it to you. This is how issues get claimed here, and it is what stops two people from doing the same work.
 - Fork the repository and ideally create a branch with a descriptive name of what you are solving.
+- **A claimed issue is yours for some time, not forever.** If there is no pull request and no news after **7 days** (**14** for `size 3` and above), I will ask how it is going, and free it a few days later if there is no answer. Nothing personal: someone else may be interested too.
+- **If you get stuck or run out of time, just say it.** Saying "I can't finish this" is welcome and frees it immediately. Come back for another one whenever you want. If you need some extra time, let us know. That's also welcomed.
 - **Submit a pull request to main** with a clear description of your changes. If it's related with an existing Issue, please link it.
 - PRs are expected to follow the [PULL REQUEST TEMPLATE](./.github/PULL_REQUEST_TEMPLATE.md)
 
