@@ -20,3 +20,24 @@ class APIError(Exception):
         
     def __str__(self):
         return self.custom_message
+
+class DatasetError(Exception):
+    """
+    Exception Handling for a missing issues dataset.
+    
+    Input:
+    path: The path the dataset was expected to be found at.
+    """
+    def __init__(self, path):
+        self.path = path
+        self.custom_message = (
+            f"DatasetError: no issues dataset at {path}. "
+            f"Run update_issues.py first, or point ISSUES_CSV at one."
+        )
+        
+        logging.error(self.custom_message)
+        
+        super().__init__(self.custom_message)
+        
+    def __str__(self):
+        return self.custom_message
