@@ -24,6 +24,7 @@ This tool scans public repositories for a given list of GitHub usernames or orga
 | [Action Usage Guide](docs/action-usage.md) | How to use this Action in your workflows |
 | [Local Setup](docs/setup.md) | How to install, configure, and run the project locally |
 | [How It Works](docs/how-it-works.md) | Architecture and internal logic |
+| [MCP Server](docs/mcp-server.md) | Query the issues from an AI assistant |
 | [Testing](TESTING.md) | How to run the test suite |
 
 ## Usage as a GitHub Action
@@ -59,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-08-26</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-08-27</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
