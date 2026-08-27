@@ -1,0 +1,4 @@
+# Optional: only needed to run the MCP server (docs/mcp-server.md).
+# The GitHub Action does not need these.
+-r requirements.txt
+mcp>=2.1.1,<2.2
