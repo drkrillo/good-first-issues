@@ -131,7 +131,18 @@ class TestIssueManager:
         assert len(result) == 1
         assert result[0]["title"] == "Test Issue"
         mock_api_instance.make_request.assert_called_once()
+        
+    @patch('app.core.api_handler.APIClient')
+    def test_extract_issues_by_user_query_excludes_assigned(self, mock_api_client):
+        mock_api_instance = MagicMock()
+        mock_api_client.return_value = mock_api_instance
+        mock_api_instance.make_request.return_value = {"items": []}
 
+        IssueManager().extract_issues_by_user("test_user", mock_api_instance)
+
+        called_url = mock_api_instance.make_request.call_args[0][0]
+        assert "no:assignee" in called_url 
+        
     @patch('app.core.api_handler.APIClient')
     def test_extract_issues_by_user_error(self, mock_api_client):
         mock_api_instance = MagicMock()
