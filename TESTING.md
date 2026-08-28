@@ -5,9 +5,13 @@ This project uses `pytest` and enforces **100% coverage** on every pull request.
 ## Running the tests
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt -r requirements-mcp.txt
 pytest --cov=app --cov-report=term-missing
 ```
+
+The MCP dependency lives in `requirements-mcp.txt` so the GitHub Action does
+not have to install it, but the test suite covers `app/mcp_server.py`, so you
+need both files to reach 100%.
 
 To check the coverage gate the same way CI does:
 
@@ -43,6 +47,27 @@ Grouped in classes, one per component:
 | `TestAPIError` | the custom exception's string representation |
 | `TestTemplateManager` | grouping by language, Jinja2 rendering, and CSV/JSON output |
 | `TestConfig` | template path resolution |
+
+### `app/tests/test_dataset.py`
+
+Grouped in classes, one per component:
+
+| Class | Covers |
+|---|---|
+| `TestParseLabels` | reading the labels column, including unreadable values |
+| `TestLoadIssues` | dataset normalization, and the missing dataset error path |
+| `TestFilterIssues` | every filter, the sort order and the limit |
+| `TestCountByLanguage` | language counts and their ordering |
+| `TestCountByRepo` | repository counts, with and without a language |
+| `TestDatasetError` | the custom exception's string representation |
+| `TestConfig` | dataset path resolution, default and `ISSUES_CSV` |
+
+### `app/tests/test_mcp_server.py`
+
+The MCP tools, each against a dataset written to `tmp_path` and pointed at with
+`ISSUES_CSV`: `search_issues` with and without filters, `list_languages`,
+`list_repositories`, that the three tools are registered and described for the
+model, and the `__main__` block.
 
 ### `app/tests/test_update_issues.py`
 

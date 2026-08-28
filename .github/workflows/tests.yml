@@ -28,7 +28,7 @@ jobs:
           cache: pip
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r requirements.txt -r requirements-mcp.txt
 
       - name: Run tests with coverage
         run: pytest --cov=app --cov-report=term-missing --cov-report=xml
