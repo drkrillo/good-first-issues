@@ -2,6 +2,8 @@ import os
 
 import pytest
 
+from datetime import date, timedelta
+
 from app.core.config import get_dataset_path
 from app.core.dataset import DatasetManager
 from app.core.custom_exceptions import DatasetError
@@ -126,6 +128,44 @@ class TestFilterIssues:
         result = DatasetManager.filter_issues(issues, limit=1)
 
         assert len(result) == 1
+
+    def test_filter_issues_boundary_case(self, tmp_path):
+        updated_at = date.today().isoformat()
+        created_at = (date.today() - timedelta(days=200)).isoformat()
+        csv_content = (
+            CSV_HEADER +
+            f'owner/recent,Python,Fresh issue,https://github.com/owner/recent/issues/1,'
+            f'0,"[\'good first issue\']",{updated_at},{updated_at}\n'
+            f'owner/old,Python,Stale issue,https://github.com/owner/old/issues/2,'
+            f'0,"[\'good first issue\']",{created_at},{created_at}\n'
+        )
+        csv_file = tmp_path / 'issues.csv'
+        csv_file.write_text(csv_content, encoding='utf-8')
+        issues = DatasetManager.load_issues(str(csv_file))
+        result = DatasetManager.filter_issues(issues, max_age_days=0)
+        assert len(result) == 1
+        assert result[0]['repo'] == 'owner/recent'
+
+    def test_filter_issues_empty_updated_at(self, tmp_path):
+            updated_at = date.today().isoformat()
+            created_at = (date.today() - timedelta(days=200)).isoformat()
+            csv_content = (
+                CSV_HEADER +
+                f'owner/empty_updated_at,Python,Fresh issue,https://github.com/owner/recent/issues/1,'
+                f'0,"[\'good first issue\']",{created_at},\n'
+                f'owner/with_updated_at,Python,Stale issue,https://github.com/owner/old/issues/2,'
+                f'0,"[\'good first issue\']",{created_at},{updated_at}\n'
+            )
+            csv_file = tmp_path / 'issues.csv'
+            csv_file.write_text(csv_content, encoding='utf-8')
+            issues = DatasetManager.load_issues(str(csv_file))
+            result = DatasetManager.filter_issues(issues, max_age_days=0)
+            assert len(result) == 1
+            assert result[0]['repo'] == 'owner/with_updated_at'
+
+    def test_filter_issues_without_max_age_days(self, issues):
+        result = DatasetManager.filter_issues(issues, max_age_days=None)
+        assert len(result) == len(issues)
 
 
 class TestCountByLanguage:

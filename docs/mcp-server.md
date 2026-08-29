@@ -63,7 +63,7 @@ dependencies into, otherwise the server starts without them.
 
 | Tool | Arguments | Returns |
 |---|---|---|
-| `search_issues` | `language`, `max_comments`, `label`, `repo`, `limit` | Matching issues, least discussed first |
+| `search_issues` | `language`, `max_comments`, `label`, `repo`, `limit`, `max_age_days` | Matching issues, least discussed first |
 | `list_languages` | — | Languages in the dataset, with issue counts |
 | `list_repositories` | `language` | Repositories in the dataset, with issue counts |
 
@@ -82,6 +82,11 @@ All arguments are optional.
 - **`repo`** — Matches a substring of `owner/name`, so `django` finds every
   Django repository at once.
 - **`limit`** — How many issues to return. Defaults to 20.
+- **`max_age_days`** — Only return issues updated within this many days.
+  Filters on `updated_at`, inclusive of the boundary, so `0` means "updated
+  today." Issues with no `updated_at` are excluded, since recency can't be
+  verified for them. Use this to avoid surfacing issues nobody has actually
+  touched in years.
 
 Results are always sorted by comment count, least discussed first, on the
 assumption that a quiet issue is a free one.
