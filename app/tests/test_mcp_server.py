@@ -1,10 +1,12 @@
 import asyncio
 import sys
 from unittest.mock import patch
+from datetime import date, timedelta
 
 import pytest
 
 from mcp.server.mcpserver import MCPServer
+
 
 from app import mcp_server
 
@@ -55,6 +57,29 @@ class TestSearchIssues:
         assert len(result) == 1
         assert result[0]['repo'] == 'owner/alpha'
 
+    def test_search_issues_with_filter_max_age_days(self, tmp_path, monkeypatch):
+
+        updated_at = date.today().isoformat()
+        created_at = (date.today() - timedelta(days=200)).isoformat()
+        csv_content = (
+            CSV_HEADER +
+            f'owner/recent,Python,Fresh issue,https://github.com/owner/recent/issues/1,'
+            f'0,"[\'good first issue\']",{updated_at},{updated_at}\n'
+            f'owner/old,Python,Stale issue,https://github.com/owner/old/issues/2,'
+            f'0,"[\'good first issue\']",{created_at},{created_at}\n'
+        )
+        csv_file = tmp_path / 'issues.csv'
+        csv_file.write_text(csv_content, encoding='utf-8')
+        monkeypatch.setenv('ISSUES_CSV', str(csv_file)) 
+        result = mcp_server.search_issues(
+            max_age_days=0
+        )
+
+        assert len(result) == 1
+        assert result[0]['repo'] == 'owner/recent'
+
+        
+
 
 class TestListLanguages:
 
@@ -98,7 +123,7 @@ class TestToolRegistration:
 
         search = next(t for t in tools if t.name == 'search_issues')
         assert set(search.input_schema['properties']) == {
-            'language', 'max_comments', 'label', 'repo', 'limit',
+            'language', 'max_comments', 'label', 'repo', 'limit', 'max_age_days',
         }
 
 

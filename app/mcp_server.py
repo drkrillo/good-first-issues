@@ -29,6 +29,7 @@ def search_issues(
     label: str | None = None,
     repo: str | None = None,
     limit: int = 20,
+    max_age_days: int | None = None
 ) -> list[dict]:
     """
     Search the good first issues dataset, least discussed issues first.
@@ -37,6 +38,11 @@ def search_issues(
     the ones least likely to be claimed already. The language must match one
     reported by list_languages. The repo filter matches on a substring of
     owner/name, so "django" finds every Django repository at once.
+
+    Set max_age_days to only return issues updated within that many days.
+    An issue labeled good first issue that nobody has touched in years is
+    not really available, and this dataset has plenty of those — use this
+    filter when the goal is a currently active issue, not just any match.
     """
     return DatasetManager.filter_issues(
         load_dataset(),
@@ -45,6 +51,7 @@ def search_issues(
         label=label,
         repo=repo,
         limit=limit,
+        max_age_days=max_age_days
     )
 
 

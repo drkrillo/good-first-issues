@@ -2,6 +2,7 @@ import ast
 import csv
 
 from app.core.custom_exceptions import DatasetError
+from datetime import date, timedelta
 
 import logging
 from collections import defaultdict
@@ -58,13 +59,15 @@ class DatasetManager:
 
     @staticmethod
     def filter_issues(issues, language=None, max_comments=None,
-                      label=None, repo=None, limit=20):
+                      label=None, repo=None, limit=20, max_age_days: int | None = None):
         """
         Takes a list of issues and the filters to apply, and returns the
         matching ones sorted by comment count, least discussed first.
-        """
-        results = issues
 
+        max_age_days filters on the updated_at, inclusive of boundary. 
+        Issues with no updated_at are excluded, since recency can't be verified for them.   
+        """
+        results = issues       
         if language:
             results = [i for i in results
                        if i['language'].lower() == language.lower()]
@@ -75,6 +78,15 @@ class DatasetManager:
                        if any(label.lower() == l.lower() for l in i['labels'])]
         if repo:
             results = [i for i in results if repo.lower() in i['repo'].lower()]
+        if max_age_days is not None:
+            cutoff = date.today() - timedelta(days=max_age_days)
+            filtered = []
+            for i in results:
+                if not i['updated_at']:
+                    continue  
+                if date.fromisoformat(i['updated_at']) >= cutoff:
+                    filtered.append(i)
+            results = filtered
 
         sorted_results = sorted(results, key=lambda i: i['comments'])
         return sorted_results[:limit]
