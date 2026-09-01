@@ -6,7 +6,6 @@ from datetime import date, timedelta
 import pytest
 
 from mcp.server.mcpserver import MCPServer
-from app.core.dataset import DatasetManager
 
 
 from app import mcp_server
