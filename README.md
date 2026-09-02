@@ -60,18 +60,17 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-09-01</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-09-02</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
-| microsoft/ebpf-for-windows | C | [Cleanup: catch2 now allows multiple threads](https://github.com/microsoft/ebpf-for-windows/issues/4553) | 0 | 2025-07-31 | 2026-08-26 |
 | microsoft/msquic | C | [Miss check for the return value of CXPLAT_ALLOC_NONPAGED and CxPlatPoolAlloc](https://github.com/microsoft/msquic/issues/5233) | 0 | 2025-07-10 | 2026-03-03 |
 | microsoft/jbpf | C | [jbpf_io_ipc_test passes with error messages](https://github.com/microsoft/jbpf/issues/54) | 0 | 2025-03-17 | 2025-03-27 |
-| microsoft/jbpf | C | [Remove JBPF_EXPERIMENTAL_FEATURES from  header files](https://github.com/microsoft/jbpf/issues/26) | 0 | 2024-12-13 | 2025-03-03 |
 | microsoft/ebpf-for-windows | C | [OpenCppCoverage install step fails silently](https://github.com/microsoft/ebpf-for-windows/issues/5330) | 1 | 2026-06-01 | 2026-08-12 |
-| microsoft/ebpf-for-windows | C | [Update tests/sample/undocked/map.c](https://github.com/microsoft/ebpf-for-windows/issues/4547) | 1 | 2025-07-30 | 2026-08-26 |
+| microsoft/ebpf-for-windows | C | [Cleanup: catch2 now allows multiple threads](https://github.com/microsoft/ebpf-for-windows/issues/4553) | 1 | 2025-07-31 | 2026-09-02 |
 | microsoft/ntttcp | C | [per-thread throughput is always 0.00 with ntttcp version 5.40.](https://github.com/microsoft/ntttcp/issues/24) | 1 | 2025-03-14 | 2026-02-17 |
 | microsoft/msquic | C | [Simplify ALPN re-negotiation path](https://github.com/microsoft/msquic/issues/6239) | 2 | 2026-08-18 | 2026-08-19 |
+| microsoft/ebpf-for-windows | C | [Update tests/sample/undocked/map.c](https://github.com/microsoft/ebpf-for-windows/issues/4547) | 2 | 2025-07-30 | 2026-09-02 |
 | microsoft/msquic | C | [Support in-memory certificate stores](https://github.com/microsoft/msquic/issues/4951) | 2 | 2025-03-27 | 2026-05-26 |
 | microsoft/ebpf-for-windows | C | [ebpf-verifier is cloned twice](https://github.com/microsoft/ebpf-for-windows/issues/4174) | 2 | 2025-02-03 | 2026-08-26 |
 | microsoft/PowerToys | C | [.opus support for Peek](https://github.com/microsoft/PowerToys/issues/42576) | 4 | 2025-10-18 | 2026-06-28 |
@@ -131,6 +130,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-confluence | Go | [Add per user Authentication for Confluence](https://github.com/mattermost/mattermost-plugin-confluence/issues/49) | 0 | 2020-05-04 | 2025-03-26 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Allow "create event" command to accept spaces in values](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/97) | 0 | 2020-04-26 | 2021-10-02 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Add mapped Mattermost users as attendees in CreateEvent API method](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/28) | 0 | 2020-01-29 | 2021-10-02 |
+| hashicorp/terraform-provider-aws | Go | [aws_cloudwatch_event_target has incorrect examples.](https://github.com/hashicorp/terraform-provider-aws/issues/49798) | 1 | 2026-09-02 | 2026-09-02 |
 | hashicorp/terraform-provider-aws | Go | [[Docs]: Document necessary dependency between aws_eks_access_entry and aws_eks_access_policy_association](https://github.com/hashicorp/terraform-provider-aws/issues/40951) | 1 | 2025-01-15 | 2025-02-05 |
 | hashicorp/packer-plugin-googlecompute | Go | [Add disk_attachment labels](https://github.com/hashicorp/packer-plugin-googlecompute/issues/210) | 1 | 2024-02-28 | 2026-07-26 |
 | hashicorp/packer-plugin-azure | Go | [Improve error messaging for "Managed Images not supporting ARM64 images error"](https://github.com/hashicorp/packer-plugin-azure/issues/367) | 1 | 2024-01-25 | 2024-08-28 |
@@ -139,12 +139,10 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/waypoint | Go | [Makefile: Add a make target to generate changelog text files](https://github.com/hashicorp/waypoint/issues/3219) | 1 | 2022-04-13 | 2022-04-21 |
 | hashicorp/terraform-provider-azurerm | Go | [azurerm_firewall_policy Example Usage Improvement](https://github.com/hashicorp/terraform-provider-azurerm/issues/15585) | 1 | 2022-02-24 | 2026-04-15 |
 | hashicorp/packer-plugin-sdk | Go | [Implement DownloadDir for chroot](https://github.com/hashicorp/packer-plugin-sdk/issues/89) | 1 | 2021-11-12 | 2021-11-17 |
-| hashicorp/terraform-provider-azurerm | Go | [Product Description Mandatory Field in azurerm_api_management_product](https://github.com/hashicorp/terraform-provider-azurerm/issues/13856) | 1 | 2021-10-22 | 2023-07-19 |
 | mattermost/mattermost-plugin-google-calendar | Go | [`/gcal viewcal` and daily summary show up declined events](https://github.com/mattermost/mattermost-plugin-google-calendar/issues/53) | 1 | 2023-09-06 | 2023-10-13 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Add space between time and AM/PM for events](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/318) | 1 | 2023-08-31 | 2023-09-01 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Change Azure URL?](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/240) | 1 | 2022-09-20 | 2024-11-01 |
 | mattermost/mattermost-plugin-wrangler | Go | [Wrangling a post does not bring followers over to the new thread](https://github.com/mattermost/mattermost-plugin-wrangler/issues/135) | 1 | 2022-07-05 | 2024-11-22 |
-| mattermost/mattermost-plugin-github | Go | [Create Issue modal should disable labels etc instead of hiding the elements](https://github.com/mattermost/mattermost-plugin-github/issues/438) | 1 | 2021-04-17 | 2023-02-20 |
 | mattermost/mattermost-plugin-nps | Go | [Use SiteURL for all calls from the webapp](https://github.com/mattermost/mattermost-plugin-nps/issues/70) | 1 | 2020-07-21 | 2021-10-02 |
 | mattermost/mattermost-plugin-google-calendar | Go | [Improve error handling in `completeCalendar` to avoid panic](https://github.com/mattermost/mattermost-plugin-google-calendar/issues/8) | 1 | 2020-04-23 | 2021-10-02 |
 | mattermost/mattermost-plugin-github | Go | [Use custom post type to display TODO list](https://github.com/mattermost/mattermost-plugin-github/issues/86) | 1 | 2019-06-04 | 2021-10-02 |
@@ -174,6 +172,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-jira | Go | [Add `/jira setup` to slash command autocomplete](https://github.com/mattermost/mattermost-plugin-jira/issues/892) | 2 | 2022-11-21 | 2024-09-19 |
 | mattermost/mattermost-plugin-github | Go | [Able to Unsubscribe from Repositories without being Subscribed](https://github.com/mattermost/mattermost-plugin-github/issues/546) | 2 | 2022-02-27 | 2022-02-28 |
 | mattermost/mattermost-plugin-github | Go | [Show author of PR/issue in link tooltip](https://github.com/mattermost/mattermost-plugin-github/issues/439) | 2 | 2021-04-22 | 2024-11-26 |
+| mattermost/mattermost-plugin-github | Go | [Create Issue modal should disable labels etc instead of hiding the elements](https://github.com/mattermost/mattermost-plugin-github/issues/438) | 2 | 2021-04-17 | 2026-09-02 |
 | mattermost/mattermost-plugin-github | Go | [Support filtering of repositories in RHS](https://github.com/mattermost/mattermost-plugin-github/issues/265) | 2 | 2020-05-13 | 2026-02-17 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Improve Daily Summary weekday setup](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/56) | 2 | 2020-03-16 | 2021-10-02 |
 | microsoft/retina | Go | [Update documentation with Hubble CLI and Hubble UI deployment instructions on Retina.](https://github.com/microsoft/retina/issues/1387) | 3 | 2025-02-26 | 2025-05-13 |
@@ -211,7 +210,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-jira | Go | [Jira's autolink should support issue links that contain a comment link in the URL](https://github.com/mattermost/mattermost-plugin-jira/issues/773) | 4 | 2021-06-21 | 2024-09-18 |
 | mattermost/mattermost-plugin-github | Go | [Validate syntax when a subscription has an invalid label](https://github.com/mattermost/mattermost-plugin-github/issues/385) | 4 | 2020-10-07 | 2024-09-24 |
 | mattermost/mattermost-plugin-github | Go | [Select types of events to subscribe to in a dialog box](https://github.com/mattermost/mattermost-plugin-github/issues/381) | 4 | 2020-10-03 | 2026-02-17 |
-| mattermost/mattermost-plugin-demo | Go | [Perform config validation in its own function, rather than using `OnConfigurationChange` to check](https://github.com/mattermost/mattermost-plugin-demo/issues/110) | 4 | 2020-06-09 | 2023-03-09 |
 | mattermost/mattermost-plugin-github | Go | [Handle case where sidebar API endpoints return null](https://github.com/mattermost/mattermost-plugin-github/issues/235) | 4 | 2020-04-02 | 2026-03-02 |
 | kubernetes/autoscaler | Go | [Document VPA Helm chart on Kubernetes website](https://github.com/kubernetes/autoscaler/issues/9407) | 5 | 2026-03-23 | 2026-05-10 |
 | kubernetes/kube-openapi | Go | [Having the same type embedded more than once breaks generation](https://github.com/kubernetes/kube-openapi/issues/129) | 5 | 2019-01-04 | 2024-11-18 |
@@ -379,7 +377,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | layer5io/layer5 | JavaScript | [Pricing: subscription plans as a sticky row](https://github.com/layer5io/layer5/issues/7665) | 18 | 2026-04-25 | 2026-06-27 |
 | layer5io/layer5-academy | JavaScript | [[Docs] Convert meshery design image to embedded meshery design](https://github.com/layer5io/layer5-academy/issues/32) | 18 | 2025-07-25 | 2026-03-26 |
 | layer5io/layer5 | JavaScript | [[SEO] First Contentful Paint (FCP): gatsby-plugin-webpack-bundle-analyser-v2](https://github.com/layer5io/layer5/issues/6449) | 18 | 2025-05-15 | 2026-06-28 |
-| layer5io/layer5 | JavaScript | [add animated card](https://github.com/layer5io/layer5/issues/6521) | 20 | 2025-06-02 | 2026-04-28 |
+| layer5io/layer5 | JavaScript | [add animated card](https://github.com/layer5io/layer5/issues/6521) | 21 | 2025-06-02 | 2026-09-02 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Container Network Interface (CNI) under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4874) | 31 | 2023-09-07 | 2026-03-22 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Devstream under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4887) | 32 | 2023-09-07 | 2026-08-08 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Old Screenshots of Meshery Playground needs to be updated](https://github.com/layer5io/layer5/issues/5342) | 35 | 2024-01-24 | 2026-04-30 |
@@ -411,13 +409,13 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | godotengine/godot-asset-library | PHP | [A way to cancel edit requests](https://github.com/godotengine/godot-asset-library/issues/149) | 3 | 2018-06-27 | 2020-05-07 |
 | godotengine/godot-asset-library | PHP | [Sanitize inputs for Asset data/fields, like URLs](https://github.com/godotengine/godot-asset-library/issues/204) | 5 | 2020-03-08 | 2021-11-03 |
 | huggingface/optimum-executorch | Python | [Add benchmarking numbers for more models](https://github.com/huggingface/optimum-executorch/issues/131) | 0 | 2025-09-02 | 2025-09-02 |
-| huggingface/lighteval | Python | [[FT]  Add tests for `VLLMModel` base methods](https://github.com/huggingface/lighteval/issues/724) | 0 | 2025-05-15 | 2025-05-20 |
+| microsoft/PyRIT | Python | [FEAT: Add Garak latent injection scenario](https://github.com/microsoft/PyRIT/issues/2530) | 0 | 2026-09-01 | 2026-09-01 |
 | microsoft/teams-agent-accelerator-libs-py | Python | [Expose the ability to add memory explicitly](https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/57) | 0 | 2024-12-16 | 2025-01-06 |
 | microsoft/BitBLAS | Python | [[Feature Request] Enhance Database to support reload scheduled tilelang operator](https://github.com/microsoft/BitBLAS/issues/269) | 0 | 2024-12-16 | 2024-12-16 |
-| microsoft/BitBLAS | Python | [[Feature Request] Flash Attention Op should be enhanced with our Scheduler Abstraction](https://github.com/microsoft/BitBLAS/issues/264) | 0 | 2024-12-12 | 2024-12-12 |
 | hashicorp/nomad-openapi | Python | [chore: rename JobName parameter](https://github.com/hashicorp/nomad-openapi/issues/90) | 0 | 2022-01-31 | 2022-01-31 |
 | huggingface/lighteval | Python | [[EVAL] Add kyrgyzLLM benchmark](https://github.com/huggingface/lighteval/issues/1036) | 1 | 2025-11-04 | 2025-11-20 |
 | huggingface/lighteval | Python | [[BUG]  Optimize tokenization](https://github.com/huggingface/lighteval/issues/732) | 1 | 2025-05-15 | 2026-06-21 |
+| huggingface/lighteval | Python | [[FT]  Add tests for `VLLMModel` base methods](https://github.com/huggingface/lighteval/issues/724) | 1 | 2025-05-15 | 2026-09-02 |
 | huggingface/lighteval | Python | [[FT] LiteLLM concurrency parameters hard-coded](https://github.com/huggingface/lighteval/issues/567) | 1 | 2025-02-16 | 2025-09-10 |
 | huggingface/nanotron | Python | [Add Debug utility to be able to preview first samples used for training](https://github.com/huggingface/nanotron/issues/184) | 1 | 2024-05-27 | 2025-04-21 |
 | huggingface/nanotron | Python | [We don't save checkpoint after training ends](https://github.com/huggingface/nanotron/issues/163) | 1 | 2024-05-06 | 2025-02-18 |
@@ -426,6 +424,10 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/nanotron | Python | [[Feature] Use CUDA event for measuring elasped time](https://github.com/huggingface/nanotron/issues/88) | 1 | 2024-03-02 | 2026-08-25 |
 | huggingface/nanotron | Python | [[Feature] Refactor `ParallelContext.world_rank_matrix`](https://github.com/huggingface/nanotron/issues/77) | 1 | 2024-02-19 | 2026-08-25 |
 | huggingface/nanotron | Python | [[Feature Request] Add simple communications benchmarks to the repo](https://github.com/huggingface/nanotron/issues/43) | 1 | 2024-01-25 | 2024-01-25 |
+| microsoft/PyRIT | Python | [FEAT: Add Garak exploitation scenario](https://github.com/microsoft/PyRIT/issues/2534) | 1 | 2026-09-01 | 2026-09-02 |
+| microsoft/PyRIT | Python | [FEAT: Add Garak API key scenario](https://github.com/microsoft/PyRIT/issues/2535) | 1 | 2026-09-01 | 2026-09-02 |
+| microsoft/PyRIT | Python | [FEAT: Add Garak ProPILE privacy leakage scenario](https://github.com/microsoft/PyRIT/issues/2532) | 1 | 2026-09-01 | 2026-09-02 |
+| microsoft/PyRIT | Python | [FEAT: Add Garak divergence scenario](https://github.com/microsoft/PyRIT/issues/2533) | 1 | 2026-09-01 | 2026-09-02 |
 | microsoft/hve-core | Python | [docs: Documentation drift: code-review README doesn't reflect new change-risk evidence checklist](https://github.com/microsoft/hve-core/issues/2803) | 1 | 2026-08-30 | 2026-08-31 |
 | microsoft/hve-core | Python | [docs: scripts/README.md evals table is missing 13 scripts added in the vally migration](https://github.com/microsoft/hve-core/issues/2572) | 1 | 2026-07-31 | 2026-08-12 |
 | microsoft/apm | Python | [Extract shared retain/reindex predicate for git auth-config entries (follow-up to #2368)](https://github.com/microsoft/apm/issues/2398) | 1 | 2026-07-30 | 2026-07-31 |
@@ -458,7 +460,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/dataset-viewer | Python | [Use `CONSTANT_LIST.copy` in list config fieds](https://github.com/huggingface/dataset-viewer/issues/1522) | 3 | 2023-07-17 | 2025-07-10 |
 | huggingface/transfer-learning-conv-ai | Python | [RuntimeError: shape '[-1, 2, 34]' is invalid for input of size 61710](https://github.com/huggingface/transfer-learning-conv-ai/issues/12) | 3 | 2019-06-04 | 2022-09-02 |
 | microsoft/hve-core | Python | [docs: Update stale documentation - GOVERNANCE.md](https://github.com/microsoft/hve-core/issues/2729) | 3 | 2026-08-17 | 2026-08-31 |
-| microsoft/mssql-python | Python | [FEAT: Built-in configurable connection and transient-fault retry logic](https://github.com/microsoft/mssql-python/issues/682) | 3 | 2026-07-15 | 2026-08-23 |
 | microsoft/agent-governance-toolkit | Python | [credential_redactor: docs imply redact() scrubs PII, but it covers secrets only; SSN patterns diverge](https://github.com/microsoft/agent-governance-toolkit/issues/3239) | 3 | 2026-06-30 | 2026-07-13 |
 | microsoft/physical-ai-toolchain | Python | [build: refresh and consolidate repository uv pins](https://github.com/microsoft/physical-ai-toolchain/issues/1071) | 3 | 2026-06-30 | 2026-09-01 |
 | microsoft/data-formulator | Python | [Docker Support](https://github.com/microsoft/data-formulator/issues/85) | 3 | 2025-02-13 | 2026-03-14 |
@@ -469,6 +470,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/hve-core | Python | [docs: Update stale documentation - docs/agents/mural/credentials.md](https://github.com/microsoft/hve-core/issues/2655) | 4 | 2026-08-10 | 2026-08-31 |
 | microsoft/hve-core | Python | [docs: Update stale documentation - .github/skills/project-planning/adr-author/references/lineage-rules.md](https://github.com/microsoft/hve-core/issues/2584) | 4 | 2026-08-03 | 2026-08-31 |
 | microsoft/hve-core | Python | [docs: scripts/README.md is missing entries for 13 evals scripts added in feat(mcsb)](https://github.com/microsoft/hve-core/issues/2571) | 4 | 2026-07-31 | 2026-08-29 |
+| microsoft/mssql-python | Python | [FEAT: Built-in configurable connection and transient-fault retry logic](https://github.com/microsoft/mssql-python/issues/682) | 4 | 2026-07-15 | 2026-09-02 |
 | huggingface/lighteval | Python | [[FT] showing count in Markdown summary table](https://github.com/huggingface/lighteval/issues/804) | 5 | 2025-06-09 | 2026-08-11 |
 | huggingface/lighteval | Python | [[BUG] custom model docs don't run: missing imports](https://github.com/huggingface/lighteval/issues/760) | 5 | 2025-05-21 | 2025-05-21 |
 | huggingface/nanotron | Python | [Avoid nested `InheritFromOtherOptimizer`](https://github.com/huggingface/nanotron/issues/267) | 5 | 2025-01-15 | 2025-09-23 |
@@ -499,17 +501,14 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/diffusers | Python | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 15 | 2024-10-10 | 2026-09-01 |
 | microsoft/data-formulator | Python | [Create new data loaders to different resources](https://github.com/microsoft/data-formulator/issues/156) | 15 | 2025-05-13 | 2025-12-11 |
 | huggingface/diffusers | Python | [[Pipeline] AnimateDiff + SparseControl + ControlNet](https://github.com/huggingface/diffusers/issues/9329) | 16 | 2024-08-30 | 2026-09-01 |
-| microsoft/markitdown | Python | [LLM Integration](https://github.com/microsoft/markitdown/issues/12) | 17 | 2024-12-13 | 2026-06-08 |
 | huggingface/lerobot | Python | [Make policies compatible with torch.compile](https://github.com/huggingface/lerobot/issues/2061) | 18 | 2025-09-26 | 2026-03-23 |
-| huggingface/datasets | Python | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 19 | 2022-12-12 | 2026-07-11 |
+| huggingface/datasets | Python | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 19 | 2022-12-12 | 2026-09-02 |
 | huggingface/diffusers | Python | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 22 | 2024-02-13 | 2025-10-31 |
 | huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 23 | 2023-04-28 | 2026-08-12 |
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 26 | 2022-11-18 | 2025-05-20 |
 | huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 30 | 2023-09-29 | 2026-08-23 |
-| microsoft/TRELLIS | Python | [Can this be used commercially?](https://github.com/microsoft/TRELLIS/issues/41) | 30 | 2024-12-09 | 2025-10-18 |
 | microsoft/autogen | Python | [Get current message thread from a group chat team.](https://github.com/microsoft/autogen/issues/6085) | 32 | 2025-03-24 | 2026-09-01 |
 | microsoft/autogen | Python | [open needs encoding='utf-8' for non-english environment, error in playwright_controller.py](https://github.com/microsoft/autogen/issues/5566) | 33 | 2025-02-16 | 2026-08-30 |
-| microsoft/TRELLIS | Python | [How to generate 3D assets with more number of faces?](https://github.com/microsoft/TRELLIS/issues/58) | 34 | 2024-12-12 | 2025-01-25 |
 | huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 157 | 2025-01-07 | 2026-09-01 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 | 2024-04-17 | 2024-04-17 |
 | microsoft/openvmm | Rust | [remove usages of futures::select! in the repo with futures_concurrency](https://github.com/microsoft/openvmm/issues/1246) | 0 | 2025-04-25 | 2025-06-21 |
@@ -668,7 +667,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost | TypeScript | [Improve the grammar on Account Creation Screen if the email address you entered does not belong to the accepted domain](https://github.com/mattermost/mattermost/issues/15927) | 25 | 2020-10-12 | 2026-08-25 |
 | mattermost/mattermost | TypeScript | [`Unable to find manifest for extracted plugin` when using `make deploy`](https://github.com/mattermost/mattermost/issues/22614) | 27 | 2023-03-23 | 2023-08-11 |
 | mattermost/mattermost | TypeScript | [Fix all initialism errors in the codebase](https://github.com/mattermost/mattermost/issues/16623) | 27 | 2021-01-04 | 2025-11-24 |
-| microsoft/vscode | TypeScript | [Review AsyncIterableObject usage: potential memory leaks and migration to AsyncIterableProducer](https://github.com/microsoft/vscode/issues/256854) | 31 | 2025-07-19 | 2026-09-01 |
+| microsoft/vscode | TypeScript | [Review AsyncIterableObject usage: potential memory leaks and migration to AsyncIterableProducer](https://github.com/microsoft/vscode/issues/256854) | 32 | 2025-07-19 | 2026-09-02 |
 | mattermost/mattermost | TypeScript | [Mobile: Slight horizontal indent difference after first line](https://github.com/mattermost/mattermost/issues/27377) | 37 | 2024-06-17 | 2026-08-18 |
 | microsoft/vscode | TypeScript | [Disabled and enabled (workspace) extension Disable button dropdown contains both "Disable" and "Disable (Workspace)" items](https://github.com/microsoft/vscode/issues/244138) | 40 | 2025-03-20 | 2026-09-01 |
 | godotengine/godot-docs | reStructuredText | [make_canvas_position_local](https://github.com/godotengine/godot-docs/issues/8313) | 2 | 2023-10-23 | 2026-08-19 |
