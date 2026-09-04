@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-09-03</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-09-04</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -74,14 +74,14 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/msquic | C | [Support in-memory certificate stores](https://github.com/microsoft/msquic/issues/4951) | 2 | 2025-03-27 | 2026-05-26 |
 | microsoft/ebpf-for-windows | C | [ebpf-verifier is cloned twice](https://github.com/microsoft/ebpf-for-windows/issues/4174) | 2 | 2025-02-03 | 2026-08-26 |
 | microsoft/PowerToys | C | [.opus support for Peek](https://github.com/microsoft/PowerToys/issues/42576) | 4 | 2025-10-18 | 2026-06-28 |
-| microsoft/msquic | C | [2.6.0 : Visual Studio : some warnings as errors](https://github.com/microsoft/msquic/issues/6234) | 5 | 2026-08-14 | 2026-08-24 |
 | microsoft/msquic | C | [Failing to use close-on-exec](https://github.com/microsoft/msquic/issues/4980) | 6 | 2025-04-08 | 2026-08-28 |
+| microsoft/msquic | C | [2.6.0 : Visual Studio : some warnings as errors](https://github.com/microsoft/msquic/issues/6234) | 8 | 2026-08-14 | 2026-09-04 |
 | microsoft/profile-explorer | C# | [Mapping code gap?](https://github.com/microsoft/profile-explorer/issues/7) | 0 | 2025-02-10 | 2026-03-27 |
 | microsoft/WPF-Samples | C# | [Sample Applications Update to Fluent Theme](https://github.com/microsoft/WPF-Samples/issues/680) | 0 | 2025-02-03 | 2025-02-03 |
 | microsoft/aspire | C# | [[13.5] Capture Paused alignment](https://github.com/microsoft/aspire/issues/19018) | 1 | 2026-08-05 | 2026-08-06 |
-| microsoft/aspire | C# | [[13.5] Logs filter should hide `UTC timestamps` option when `Show timestamps` is disabled](https://github.com/microsoft/aspire/issues/19019) | 3 | 2026-08-05 | 2026-08-06 |
 | microsoft/aspire | C# | [Provide CSV export option in dashboard console logs](https://github.com/microsoft/aspire/issues/11121) | 3 | 2025-08-26 | 2026-07-04 |
 | microsoft/mcp | C# | [[COMMUNITY] Auto generate CHANGELOG, including adding contributors for each release](https://github.com/microsoft/mcp/issues/156) | 4 | 2025-09-03 | 2026-08-26 |
+| microsoft/aspire | C# | [[13.5] Logs filter should hide `UTC timestamps` option when `Show timestamps` is disabled](https://github.com/microsoft/aspire/issues/19019) | 5 | 2026-08-05 | 2026-09-04 |
 | microsoft/aspire | C# | [Improve Exception Message for Missing Project Metadata Annotation in ResourceContainerImageBuilder.cs](https://github.com/microsoft/aspire/issues/11299) | 13 | 2025-09-09 | 2026-08-26 |
 | microsoft/STL | C++ | [`<yvals_core.h>`: Update `_MSVC_STL_UPDATE` to September 2026](https://github.com/microsoft/STL/issues/6427) | 0 | 2026-09-01 | 2026-09-01 |
 | microsoft/snmalloc | C++ | [Implement accurate size storage for Windows `_msize` and `_recalloc`](https://github.com/microsoft/snmalloc/issues/786) | 0 | 2025-07-02 | 2025-07-02 |
@@ -211,7 +211,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-github | Go | [Validate syntax when a subscription has an invalid label](https://github.com/mattermost/mattermost-plugin-github/issues/385) | 4 | 2020-10-07 | 2024-09-24 |
 | mattermost/mattermost-plugin-github | Go | [Select types of events to subscribe to in a dialog box](https://github.com/mattermost/mattermost-plugin-github/issues/381) | 4 | 2020-10-03 | 2026-02-17 |
 | mattermost/mattermost-plugin-github | Go | [Handle case where sidebar API endpoints return null](https://github.com/mattermost/mattermost-plugin-github/issues/235) | 4 | 2020-04-02 | 2026-03-02 |
-| kubernetes/autoscaler | Go | [Document VPA Helm chart on Kubernetes website](https://github.com/kubernetes/autoscaler/issues/9407) | 5 | 2026-03-23 | 2026-05-10 |
 | kubernetes/kube-openapi | Go | [Having the same type embedded more than once breaks generation](https://github.com/kubernetes/kube-openapi/issues/129) | 5 | 2019-01-04 | 2024-11-18 |
 | hashicorp/terraform-provider-aws | Go | [[Bug]: Route 53 Resolver rule resource defines bad defaults for target configuration](https://github.com/hashicorp/terraform-provider-aws/issues/41523) | 5 | 2025-02-23 | 2026-03-24 |
 | hashicorp/terraform-provider-aws | Go | [[Documentation]: Add example for specifying p12 certificate with `aws_sns_platform_application`](https://github.com/hashicorp/terraform-provider-aws/issues/40803) | 5 | 2025-01-07 | 2026-06-06 |
@@ -226,6 +225,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-github | Go | ["Someone replied to your comment thread" feature](https://github.com/mattermost/mattermost-plugin-github/issues/328) | 5 | 2020-07-15 | 2026-02-17 |
 | mattermost/mattermost-plugin-confluence | Go | [Handle React warnings regarding non-DOM properties](https://github.com/mattermost/mattermost-plugin-confluence/issues/46) | 5 | 2020-04-28 | 2021-10-02 |
 | mattermost/mattermost-plugin-github | Go | [Add alternative sorting functionality for RHS view](https://github.com/mattermost/mattermost-plugin-github/issues/242) | 5 | 2020-04-15 | 2026-02-17 |
+| kubernetes/autoscaler | Go | [Modify `NewVPADeployment` function into a generic VPA component deployment factory](https://github.com/kubernetes/autoscaler/issues/10244) | 6 | 2026-09-04 | 2026-09-04 |
 | hashicorp/terraform-provider-aws | Go | [Route53 Resolver Endpoint Hash Function Prevents Multiple IPs per Subnet When IP Address is Auto-Assigned](https://github.com/hashicorp/terraform-provider-aws/issues/43724) | 6 | 2025-08-05 | 2025-08-20 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: `aws_cloudwatch_metric_alarm`: Add validation to prevent specifying both `metric` and `expression`](https://github.com/hashicorp/terraform-provider-aws/issues/41680) | 6 | 2025-03-05 | 2026-07-30 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_athena_prepared_statement: Allow multiline (EOT) query strings to preserve comments and line breaks without update-in-place](https://github.com/hashicorp/terraform-provider-aws/issues/41469) | 6 | 2025-02-19 | 2025-03-08 |
@@ -332,18 +332,18 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/copilot-for-eclipse | Java | [Unable to use the Java source file corresponding to the class file as context](https://github.com/microsoft/copilot-for-eclipse/issues/117) | 13 | 2026-04-15 | 2026-06-25 |
 | layer5io/docs | JavaScript | [[Bug] Image not rendering correctly](https://github.com/layer5io/docs/issues/1207) | 1 | 2026-08-15 | 2026-08-15 |
 | mattermost/mattermost-plugin-gitlab | JavaScript | [Convert link_tooltip component to typescript](https://github.com/mattermost/mattermost-plugin-gitlab/issues/424) | 1 | 2023-12-19 | 2025-11-01 |
-| layer5io/layer5 | JavaScript | [[Community] Member Profile: Hiya Chhawchharia](https://github.com/layer5io/layer5/issues/8009) | 2 | 2026-09-03 | 2026-09-03 |
 | huggingface/transformers.js | JavaScript | [Is 'aggregation_strategy' parameter available for token classification pipeline?](https://github.com/huggingface/transformers.js/issues/633) | 2 | 2024-03-07 | 2024-06-09 |
 | huggingface/transformers.js | JavaScript | [[Feature request] Return offset mapping using tokenizer](https://github.com/huggingface/transformers.js/issues/425) | 2 | 2023-11-30 | 2024-01-12 |
 | EddieHubCommunity/RepoRater | JavaScript | [[BUG] Update the preview in the readme](https://github.com/EddieHubCommunity/RepoRater/issues/152) | 2 | 2024-08-02 | 2024-09-03 |
 | freeCodeCamp/classroom | JavaScript | [Bug: Classrooms can be created with no certifications](https://github.com/freeCodeCamp/classroom/issues/551) | 2 | 2025-10-12 | 2026-08-08 |
 | freeCodeCamp/classroom | JavaScript | [Bug: /classes page crashes if the mock-fcc-data endpoint is not running](https://github.com/freeCodeCamp/classroom/issues/533) | 2 | 2024-12-31 | 2026-04-28 |
-| layer5io/layer5 | JavaScript | [[Community] Member Profile: Omolade Akinwumi](https://github.com/layer5io/layer5/issues/8010) | 3 | 2026-09-03 | 2026-09-03 |
+| layer5io/layer5 | JavaScript | [[Community] Member Profile: Hiya Chhawchharia](https://github.com/layer5io/layer5/issues/8009) | 3 | 2026-09-03 | 2026-09-04 |
 | layer5io/docs | JavaScript | [[Docs] Floating Card Overlapping Navbar](https://github.com/layer5io/docs/issues/1187) | 3 | 2026-08-06 | 2026-08-06 |
 | layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 4](https://github.com/layer5io/docs/issues/794) | 3 | 2025-08-21 | 2025-09-04 |
 | layer5io/docs | JavaScript | [Screen capture includes Grammarly](https://github.com/layer5io/docs/issues/543) | 3 | 2025-05-06 | 2026-08-11 |
 | layer5io/layer5 | JavaScript | [[UI]: Oversized GitHub octocat icon on "What is GitOps?" resource page](https://github.com/layer5io/layer5/issues/7963) | 4 | 2026-08-16 | 2026-08-22 |
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Contributing needs work](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/112) | 4 | 2017-12-02 | 2018-03-24 |
+| layer5io/layer5 | JavaScript | [[Community] Member Profile: Omolade Akinwumi](https://github.com/layer5io/layer5/issues/8010) | 5 | 2026-09-03 | 2026-09-04 |
 | layer5io/docs | JavaScript | [[Docs] Improve Related Docs Links in Pinning Models to Dock Page](https://github.com/layer5io/docs/issues/1028) | 5 | 2026-05-11 | 2026-06-11 |
 | layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 3](https://github.com/layer5io/docs/issues/793) | 5 | 2025-08-21 | 2025-09-04 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Citrix Service Mesh under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4880) | 5 | 2023-09-07 | 2026-03-22 |
@@ -426,11 +426,10 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/nanotron | Python | [[Feature] Use CUDA event for measuring elasped time](https://github.com/huggingface/nanotron/issues/88) | 1 | 2024-03-02 | 2026-08-25 |
 | huggingface/nanotron | Python | [[Feature] Refactor `ParallelContext.world_rank_matrix`](https://github.com/huggingface/nanotron/issues/77) | 1 | 2024-02-19 | 2026-08-25 |
 | huggingface/nanotron | Python | [[Feature Request] Add simple communications benchmarks to the repo](https://github.com/huggingface/nanotron/issues/43) | 1 | 2024-01-25 | 2024-01-25 |
-| microsoft/PyRIT | Python | [FEAT: Add Garak exploitation scenario](https://github.com/microsoft/PyRIT/issues/2534) | 1 | 2026-09-01 | 2026-09-02 |
 | microsoft/PyRIT | Python | [FEAT: Add Garak API key scenario](https://github.com/microsoft/PyRIT/issues/2535) | 1 | 2026-09-01 | 2026-09-02 |
-| microsoft/PyRIT | Python | [FEAT: Add Garak ProPILE privacy leakage scenario](https://github.com/microsoft/PyRIT/issues/2532) | 1 | 2026-09-01 | 2026-09-02 |
 | microsoft/PyRIT | Python | [FEAT: Add Garak divergence scenario](https://github.com/microsoft/PyRIT/issues/2533) | 1 | 2026-09-01 | 2026-09-02 |
-| microsoft/PyRIT | Python | [FEAT: Add Garak latent injection scenario](https://github.com/microsoft/PyRIT/issues/2530) | 1 | 2026-09-01 | 2026-09-03 |
+| microsoft/PyRIT | Python | [FEAT: Add Garak ProPILE privacy leakage scenario](https://github.com/microsoft/PyRIT/issues/2532) | 1 | 2026-09-01 | 2026-09-02 |
+| microsoft/PyRIT | Python | [FEAT: Add Garak exploitation scenario](https://github.com/microsoft/PyRIT/issues/2534) | 1 | 2026-09-01 | 2026-09-02 |
 | microsoft/hve-core | Python | [docs: Documentation drift: code-review README doesn't reflect new change-risk evidence checklist](https://github.com/microsoft/hve-core/issues/2803) | 1 | 2026-08-30 | 2026-08-31 |
 | microsoft/hve-core | Python | [docs: scripts/README.md evals table is missing 13 scripts added in the vally migration](https://github.com/microsoft/hve-core/issues/2572) | 1 | 2026-07-31 | 2026-08-12 |
 | microsoft/apm | Python | [Extract shared retain/reindex predicate for git auth-config entries (follow-up to #2368)](https://github.com/microsoft/apm/issues/2398) | 1 | 2026-07-30 | 2026-07-31 |
@@ -446,6 +445,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/nanotron | Python | [[Feature] Asyncronous Serialization](https://github.com/huggingface/nanotron/issues/87) | 2 | 2024-03-02 | 2025-02-20 |
 | huggingface/dataset-viewer | Python | [Use "Sign-In with HF" instead of token in admin-UI](https://github.com/huggingface/dataset-viewer/issues/2373) | 2 | 2024-02-01 | 2025-07-03 |
 | huggingface/nanotron | Python | [[Feature Request] Support Data Streaming for faster training of large models](https://github.com/huggingface/nanotron/issues/45) | 2 | 2024-01-26 | 2024-03-03 |
+| microsoft/PyRIT | Python | [FEAT: Add Garak latent injection scenario](https://github.com/microsoft/PyRIT/issues/2530) | 2 | 2026-09-01 | 2026-09-04 |
 | microsoft/hve-core | Python | [docs: reconcile marketplace docs with shared .github/plugin.json manifest model](https://github.com/microsoft/hve-core/issues/2690) | 2 | 2026-08-12 | 2026-08-24 |
 | microsoft/mssql-django | Python | [[Django 6.1] JSONField key iexact=None lookup returns wrong results on SQL Server](https://github.com/microsoft/mssql-django/issues/574) | 2 | 2026-08-07 | 2026-08-11 |
 | microsoft/onnxscript | Python | [[Optimizer] Fold Shape -> {Slice, Gather} -> Concat -> Reshape](https://github.com/microsoft/onnxscript/issues/2736) | 2 | 2025-12-17 | 2026-06-24 |
@@ -461,6 +461,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/optimum-habana | Python | [Add support for max_length in run_generation](https://github.com/huggingface/optimum-habana/issues/472) | 3 | 2023-10-18 | 2023-10-19 |
 | huggingface/dataset-viewer | Python | [Use `CONSTANT_LIST.copy` in list config fieds](https://github.com/huggingface/dataset-viewer/issues/1522) | 3 | 2023-07-17 | 2025-07-10 |
 | huggingface/transfer-learning-conv-ai | Python | [RuntimeError: shape '[-1, 2, 34]' is invalid for input of size 61710](https://github.com/huggingface/transfer-learning-conv-ai/issues/12) | 3 | 2019-06-04 | 2022-09-02 |
+| microsoft/markitdown | Python | [Autonomous Agents, Unite!](https://github.com/microsoft/markitdown/issues/2386) | 3 | 2026-09-04 | 2026-09-04 |
 | microsoft/agent-governance-toolkit | Python | [credential_redactor: docs imply redact() scrubs PII, but it covers secrets only; SSN patterns diverge](https://github.com/microsoft/agent-governance-toolkit/issues/3239) | 3 | 2026-06-30 | 2026-07-13 |
 | microsoft/physical-ai-toolchain | Python | [build: refresh and consolidate repository uv pins](https://github.com/microsoft/physical-ai-toolchain/issues/1071) | 3 | 2026-06-30 | 2026-09-01 |
 | microsoft/data-formulator | Python | [Docker Support](https://github.com/microsoft/data-formulator/issues/85) | 3 | 2025-02-13 | 2026-03-14 |
@@ -495,7 +496,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/lighteval | Python | [[EVAL] Add TUMLU benchmark](https://github.com/huggingface/lighteval/issues/577) | 10 | 2025-02-19 | 2025-05-15 |
 | huggingface/accelerate | Python | [[Community Contributions] examples on distributed inference using 🤗 Accelerate](https://github.com/huggingface/accelerate/issues/3078) | 10 | 2024-09-04 | 2026-09-01 |
 | huggingface/datasets | Python | [WMT21 & WMT22](https://github.com/huggingface/datasets/issues/4709) | 10 | 2022-07-18 | 2026-02-26 |
-| microsoft/onnxscript | Python | [[torchlib] Inefficient implementations](https://github.com/microsoft/onnxscript/issues/2489) | 10 | 2025-08-14 | 2026-07-01 |
 | huggingface/diffusers | Python | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 11 | 2024-06-07 | 2026-09-01 |
 | microsoft/markitdown | Python | [Support for .doc extensions](https://github.com/microsoft/markitdown/issues/23) | 14 | 2024-12-14 | 2026-06-02 |
 | huggingface/diffusers | Python | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 15 | 2024-10-10 | 2026-09-01 |
