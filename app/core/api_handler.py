@@ -82,8 +82,7 @@ class IssueManager:
         for a specific user/organization.
         """
         issues = []
-        search_url = f"https://api.github.com/search/issues?q=user:{user}+label:\"{labels}\"+state:open+is:issue&per_page=100"
-        
+        search_url = f"https://api.github.com/search/issues?q=user:{user}+label:\"{labels}\"+state:open+is:issue+no:assignee&per_page=100"
         resp_json = APIClient().make_request(search_url, session)
         try:
             # Search API returns total_count and items
