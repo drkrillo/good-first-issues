@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-09-13</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-09-14</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -86,7 +86,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/react-native-windows | C++ | [Scroll wheel behavior differs significantly in new architecture (Windows App SDK) vs WinUI 3 Gallery app](https://github.com/microsoft/react-native-windows/issues/14653) | 1 | 2025-05-08 | 2025-07-03 |
 | microsoft/react-native-windows | C++ | [Deprecate autolink functionality to copy flags from react-native.config.js into ExperimentalFeature.props.](https://github.com/microsoft/react-native-windows/issues/14601) | 1 | 2025-04-22 | 2025-06-11 |
 | microsoft/react-native-windows | C++ | [[Bug] init-windows adds incorrect name of Native Codegen File Include](https://github.com/microsoft/react-native-windows/issues/15094) | 4 | 2025-08-29 | 2026-08-04 |
-| godotengine/godot | C++ | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 35 | 2024-12-04 | 2026-09-03 |
+| godotengine/godot | C++ | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 37 | 2024-12-04 | 2026-09-14 |
 | godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 267 | 2020-11-10 | 2026-09-12 |
 | mattermost/mattermost-developer-documentation | CSS | [Help Wanted: Document how to do local development on a plugin that requires an E20/Enterprise license](https://github.com/mattermost/mattermost-developer-documentation/issues/815) | 2 | 2021-05-04 | 2024-11-01 |
 | mattermost/mattermost-developer-documentation | CSS | [Help Wanted: Gitpod docs have outdated screenshots for the mattermost GitHub repository](https://github.com/mattermost/mattermost-developer-documentation/issues/1244) | 4 | 2023-05-04 | 2026-08-09 |
@@ -286,7 +286,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/kube-state-metrics | Go | [Missing replacement config for VPA collector in CRM](https://github.com/kubernetes/kube-state-metrics/issues/2041) | 42 | 2023-04-05 | 2026-08-11 |
 | kubernetes/kubernetes | Go | [add and use alternative APIs which support contextual logging](https://github.com/kubernetes/kubernetes/issues/126379) | 43 | 2024-07-26 | 2026-08-29 |
 | kubernetes/kubernetes | Go | [Write the stress test for gRPC, http, and tcp probes](https://github.com/kubernetes/kubernetes/issues/115782) | 44 | 2023-02-15 | 2026-08-13 |
-| kubernetes/kubernetes | Go | [Migrate DRA components to support granular authorization on status updates](https://github.com/kubernetes/kubernetes/issues/138149) | 78 | 2026-04-01 | 2026-09-09 |
+| kubernetes/kubernetes | Go | [Migrate DRA components to support granular authorization on status updates](https://github.com/kubernetes/kubernetes/issues/138149) | 80 | 2026-04-01 | 2026-09-14 |
 | microsoft/edge-ai | HCL | [chore(python): add pip lock files for reproducible builds](https://github.com/microsoft/edge-ai/issues/167) | 0 | 2026-02-08 | 2026-04-19 |
 | microsoft/edge-ai | HCL | [docs(testing): add regression test tracking policy](https://github.com/microsoft/edge-ai/issues/176) | 1 | 2026-02-08 | 2026-06-19 |
 | microsoft/edge-ai | HCL | [chore(rust): standardize strip = true across all Rust crates](https://github.com/microsoft/edge-ai/issues/177) | 2 | 2026-02-08 | 2026-04-10 |
@@ -454,7 +454,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/optimum-habana | Python | [Add support for max_length in run_generation](https://github.com/huggingface/optimum-habana/issues/472) | 3 | 2023-10-18 | 2023-10-19 |
 | huggingface/dataset-viewer | Python | [Use `CONSTANT_LIST.copy` in list config fieds](https://github.com/huggingface/dataset-viewer/issues/1522) | 3 | 2023-07-17 | 2025-07-10 |
 | huggingface/transfer-learning-conv-ai | Python | [RuntimeError: shape '[-1, 2, 34]' is invalid for input of size 61710](https://github.com/huggingface/transfer-learning-conv-ai/issues/12) | 3 | 2019-06-04 | 2022-09-02 |
-| microsoft/PyRIT | Python | [FEAT: Add Garak latent injection scenario](https://github.com/microsoft/PyRIT/issues/2530) | 3 | 2026-09-01 | 2026-09-08 |
+| microsoft/PyRIT | Python | [FEAT: Add Garak latent injection scenario](https://github.com/microsoft/PyRIT/issues/2530) | 3 | 2026-09-01 | 2026-09-14 |
 | microsoft/agent-governance-toolkit | Python | [credential_redactor: docs imply redact() scrubs PII, but it covers secrets only; SSN patterns diverge](https://github.com/microsoft/agent-governance-toolkit/issues/3239) | 3 | 2026-06-30 | 2026-07-13 |
 | microsoft/physical-ai-toolchain | Python | [build: refresh and consolidate repository uv pins](https://github.com/microsoft/physical-ai-toolchain/issues/1071) | 3 | 2026-06-30 | 2026-09-01 |
 | microsoft/data-formulator | Python | [Docker Support](https://github.com/microsoft/data-formulator/issues/85) | 3 | 2025-02-13 | 2026-03-14 |
@@ -469,12 +469,12 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/nanotron | Python | [Avoid nested `InheritFromOtherOptimizer`](https://github.com/huggingface/nanotron/issues/267) | 5 | 2025-01-15 | 2025-09-23 |
 | huggingface/nanotron | Python | [[Unit Test] Add unit tests for DistributedTrainer](https://github.com/huggingface/nanotron/issues/90) | 5 | 2024-03-02 | 2024-03-03 |
 | huggingface/optimum-benchmark | Python | [Evaluators for specific tasks](https://github.com/huggingface/optimum-benchmark/issues/34) | 5 | 2023-08-21 | 2023-12-07 |
-| microsoft/hve-core | Python | [docs: Update stale documentation - .github/skills/project-planning/adr-author/references/lineage-rules.md](https://github.com/microsoft/hve-core/issues/2584) | 5 | 2026-08-03 | 2026-09-07 |
 | microsoft/mssql-python | Python | [FEAT: Built-in configurable connection and transient-fault retry logic](https://github.com/microsoft/mssql-python/issues/682) | 5 | 2026-07-15 | 2026-09-03 |
 | microsoft/onnxscript | Python | [Constant-Folding Registry](https://github.com/microsoft/onnxscript/issues/2507) | 5 | 2025-08-22 | 2026-08-31 |
 | huggingface/lighteval | Python | [[FT] Improve Documentation and Examples](https://github.com/huggingface/lighteval/issues/682) | 6 | 2025-04-21 | 2025-05-15 |
 | huggingface/diffusers | Python | [Do we have any script covert from hf format to orginal format?](https://github.com/huggingface/diffusers/issues/10076) | 6 | 2024-12-02 | 2026-09-01 |
 | huggingface/lighteval | Python | [Append revision to filepath in `--output_dir`?](https://github.com/huggingface/lighteval/issues/56) | 6 | 2024-02-26 | 2026-08-30 |
+| microsoft/hve-core | Python | [docs: Update stale documentation - .github/skills/project-planning/adr-author/references/lineage-rules.md](https://github.com/microsoft/hve-core/issues/2584) | 6 | 2026-08-03 | 2026-09-14 |
 | microsoft/agent-governance-toolkit | Python | [[Bug]: Quickstart imports fail on base install — README paths need [full], and agent_os is deprecated](https://github.com/microsoft/agent-governance-toolkit/issues/3253) | 6 | 2026-07-04 | 2026-09-12 |
 | microsoft/agent-governance-toolkit | Python | [bug(examples/flowise-governance): flowise-flow.json fails to import on Flowise 2.x and 3.x](https://github.com/microsoft/agent-governance-toolkit/issues/3194) | 6 | 2026-06-26 | 2026-08-23 |
 | microsoft/data-formulator | Python | [Expand chart type supports](https://github.com/microsoft/data-formulator/issues/193) | 6 | 2025-11-07 | 2025-12-05 |
@@ -533,7 +533,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/vscode-jupyter | TypeScript | [Add magic line comments regex pattern as configuration for uncommentMagicCommands](https://github.com/microsoft/vscode-jupyter/issues/16499) | 0 | 2025-03-24 | 2025-03-24 |
 | microsoft/vscode-azurestorage | TypeScript | [There is a redundant Azure activity log "upload 0 files to xxx" when uploading a folder by "Upload to Azure Storage..." command](https://github.com/microsoft/vscode-azurestorage/issues/1373) | 0 | 2025-01-22 | 2025-09-09 |
 | mattermost/mattermost-test-management | TypeScript | [feat: add validation to custom field's "Location"](https://github.com/mattermost/mattermost-test-management/issues/25) | 0 | 2022-11-25 | 2024-01-30 |
-| decentraland/creator-hub | TypeScript | [Name tooltip too high when searching](https://github.com/decentraland/creator-hub/issues/1010) | 0 | 2026-01-07 | 2026-09-11 |
 | decentraland/auth | TypeScript | [Migrate getAnalytics to useAnalytics Hook](https://github.com/decentraland/auth/issues/198) | 0 | 2025-10-02 | 2025-10-02 |
 | decentraland/ui2 | TypeScript | [Change JumpIn component behavior](https://github.com/decentraland/ui2/issues/284) | 0 | 2025-09-26 | 2025-09-26 |
 | decentraland/catalyst-client | TypeScript | [Add missing endpoints to Lambdas Client (review the other clients) to keep it up to date](https://github.com/decentraland/catalyst-client/issues/479) | 0 | 2025-09-24 | 2025-09-24 |
@@ -613,7 +612,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-test-management | TypeScript | [Display Errors and Files name in which they occurr](https://github.com/mattermost/mattermost-test-management/issues/20) | 1 | 2022-11-23 | 2022-11-24 |
 | freeCodeCamp/chapter | TypeScript | [Updating Different Users section in contribution guide](https://github.com/freeCodeCamp/chapter/issues/1914) | 1 | 2022-11-17 | 2022-11-20 |
 | decentraland/builder | TypeScript | [Add a search bar to NAMEs list](https://github.com/decentraland/builder/issues/3330) | 1 | 2025-12-26 | 2025-12-27 |
-| decentraland/creator-hub | TypeScript | [Need to click twice on "Create Scene" button to create the scene](https://github.com/decentraland/creator-hub/issues/832) | 1 | 2025-10-16 | 2026-09-11 |
 | decentraland/creator-hub | TypeScript | [Duplicated items appear at the bottom of the list](https://github.com/decentraland/creator-hub/issues/595) | 1 | 2025-05-08 | 2026-02-18 |
 | decentraland/marketplace | TypeScript | [Capitalize land filter words](https://github.com/decentraland/marketplace/issues/1395) | 1 | 2023-02-07 | 2023-05-23 |
 | decentraland/builder | TypeScript | [Create auto-assign button on mint items from collection modal](https://github.com/decentraland/builder/issues/2442) | 1 | 2022-11-22 | 2023-04-12 |
@@ -665,6 +663,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost | TypeScript | [`Unable to find manifest for extracted plugin` when using `make deploy`](https://github.com/mattermost/mattermost/issues/22614) | 27 | 2023-03-23 | 2023-08-11 |
 | mattermost/mattermost | TypeScript | [Fix all initialism errors in the codebase](https://github.com/mattermost/mattermost/issues/16623) | 27 | 2021-01-04 | 2025-11-24 |
 | microsoft/vscode | TypeScript | [Review AsyncIterableObject usage: potential memory leaks and migration to AsyncIterableProducer](https://github.com/microsoft/vscode/issues/256854) | 32 | 2025-07-19 | 2026-09-02 |
-| mattermost/mattermost | TypeScript | [Mobile: Slight horizontal indent difference after first line](https://github.com/mattermost/mattermost/issues/27377) | 37 | 2024-06-17 | 2026-08-18 |
+| mattermost/mattermost | TypeScript | [Mobile: Slight horizontal indent difference after first line](https://github.com/mattermost/mattermost/issues/27377) | 39 | 2024-06-17 | 2026-09-14 |
 | microsoft/vscode | TypeScript | [Disabled and enabled (workspace) extension Disable button dropdown contains both "Disable" and "Disable (Workspace)" items](https://github.com/microsoft/vscode/issues/244138) | 40 | 2025-03-20 | 2026-09-01 |
 | godotengine/godot-docs | reStructuredText | [Physics2DDirectSpaceState does not specify local or global coordinates](https://github.com/godotengine/godot-docs/issues/3299) | 2 | 2020-03-24 | 2026-02-05 |
