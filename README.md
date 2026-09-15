@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-09-14</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-09-15</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -325,6 +325,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/copilot-for-eclipse | Java | [Unable to use the Java source file corresponding to the class file as context](https://github.com/microsoft/copilot-for-eclipse/issues/117) | 13 | 2026-04-15 | 2026-06-25 |
 | layer5io/docs | JavaScript | [[Bug] Image not rendering correctly](https://github.com/layer5io/docs/issues/1207) | 1 | 2026-08-15 | 2026-08-15 |
 | mattermost/mattermost-plugin-gitlab | JavaScript | [Convert link_tooltip component to typescript](https://github.com/mattermost/mattermost-plugin-gitlab/issues/424) | 1 | 2023-12-19 | 2025-11-01 |
+| freeCodeCamp/back-end-development-and-apis | JavaScript | [Clarify the directory path in Build a Case Converter lesson 15](https://github.com/freeCodeCamp/back-end-development-and-apis/issues/51) | 1 | 2026-09-08 | 2026-09-15 |
 | huggingface/transformers.js | JavaScript | [Is 'aggregation_strategy' parameter available for token classification pipeline?](https://github.com/huggingface/transformers.js/issues/633) | 2 | 2024-03-07 | 2024-06-09 |
 | huggingface/transformers.js | JavaScript | [[Feature request] Return offset mapping using tokenizer](https://github.com/huggingface/transformers.js/issues/425) | 2 | 2023-11-30 | 2024-01-12 |
 | EddieHubCommunity/RepoRater | JavaScript | [[BUG] Update the preview in the readme](https://github.com/EddieHubCommunity/RepoRater/issues/152) | 2 | 2024-08-02 | 2024-09-03 |
@@ -475,7 +476,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/diffusers | Python | [Do we have any script covert from hf format to orginal format?](https://github.com/huggingface/diffusers/issues/10076) | 6 | 2024-12-02 | 2026-09-01 |
 | huggingface/lighteval | Python | [Append revision to filepath in `--output_dir`?](https://github.com/huggingface/lighteval/issues/56) | 6 | 2024-02-26 | 2026-08-30 |
 | microsoft/hve-core | Python | [docs: Update stale documentation - .github/skills/project-planning/adr-author/references/lineage-rules.md](https://github.com/microsoft/hve-core/issues/2584) | 6 | 2026-08-03 | 2026-09-14 |
-| microsoft/agent-governance-toolkit | Python | [[Bug]: Quickstart imports fail on base install — README paths need [full], and agent_os is deprecated](https://github.com/microsoft/agent-governance-toolkit/issues/3253) | 6 | 2026-07-04 | 2026-09-12 |
 | microsoft/agent-governance-toolkit | Python | [bug(examples/flowise-governance): flowise-flow.json fails to import on Flowise 2.x and 3.x](https://github.com/microsoft/agent-governance-toolkit/issues/3194) | 6 | 2026-06-26 | 2026-08-23 |
 | microsoft/data-formulator | Python | [Expand chart type supports](https://github.com/microsoft/data-formulator/issues/193) | 6 | 2025-11-07 | 2025-12-05 |
 | huggingface/lighteval | Python | [[EVAL] Long Horizon Execution](https://github.com/huggingface/lighteval/issues/1056) | 7 | 2025-11-13 | 2026-01-25 |
@@ -498,8 +498,9 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/lerobot | Python | [Make policies compatible with torch.compile](https://github.com/huggingface/lerobot/issues/2061) | 18 | 2025-09-26 | 2026-03-23 |
 | huggingface/datasets | Python | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 19 | 2022-12-12 | 2026-09-02 |
 | huggingface/diffusers | Python | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 22 | 2024-02-13 | 2025-10-31 |
-| huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 23 | 2023-04-28 | 2026-08-12 |
+| huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 24 | 2023-04-28 | 2026-09-15 |
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 27 | 2022-11-18 | 2026-09-09 |
+| microsoft/TRELLIS | Python | [Can this be used commercially?](https://github.com/microsoft/TRELLIS/issues/41) | 30 | 2024-12-09 | 2025-10-18 |
 | huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 31 | 2023-09-29 | 2026-09-10 |
 | microsoft/autogen | Python | [Get current message thread from a group chat team.](https://github.com/microsoft/autogen/issues/6085) | 32 | 2025-03-24 | 2026-09-01 |
 | microsoft/autogen | Python | [open needs encoding='utf-8' for non-english environment, error in playwright_controller.py](https://github.com/microsoft/autogen/issues/5566) | 34 | 2025-02-16 | 2026-09-12 |
