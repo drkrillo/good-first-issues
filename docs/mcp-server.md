@@ -47,14 +47,21 @@ hand. The command above is what you give the client as the launch command.
 
 ## Connecting a client
 
-Add the server to your client's MCP configuration. The exact file depends on
-the client, but the shape is the same everywhere:
+Add the server to your client's MCP configuration JSON file. For **Claude Desktop**, the configuration file is located at:
+
+- **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+- **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
+- **Linux**: `~/.config/Claude/claude_desktop_config.json`
+
+### Configuration JSON
+
+Add `good-first-issues` to the `mcpServers` object:
 
 ```json
 {
   "mcpServers": {
     "good-first-issues": {
-      "command": "python",
+      "command": "/path/to/good-first-issues/venv/bin/python",
       "args": ["-m", "app.mcp_server"],
       "cwd": "/path/to/good-first-issues",
       "env": {
@@ -65,8 +72,24 @@ the client, but the shape is the same everywhere:
 }
 ```
 
-Use the Python interpreter of the virtual environment you installed the
-dependencies into, otherwise the server starts without them.
+> **Important Notes**:
+> - **Virtual Environment Python**: You **must** specify the absolute path to the Python executable inside your virtual environment (e.g. `/path/to/good-first-issues/venv/bin/python` on macOS/Linux or `C:\path\to\good-first-issues\venv\Scripts\python.exe` on Windows). Relying on plain `"python"` will use your system Python, which does not have the `mcp` package installed.
+> - **Dataset Prerequisite**: Ensure a dataset exists before querying. If `good_first_issues.csv` was never generated locally (or set via `ISSUES_CSV`) and fetching the published dataset fails (e.g. while offline), the tools will return an error. Generate your dataset using:
+>   ```bash
+>   python -m app.update_issues --output good_first_issues.csv
+>   ```
+
+### Confirming Connection
+
+To verify that the MCP server connected successfully:
+
+1. Restart your client (e.g., Claude Desktop).
+2. Look for the MCP tools icon (hammer or plug icon in the chat interface).
+3. Confirm that all four tools are listed:
+   - `search_issues`
+   - `list_languages`
+   - `list_repositories`
+   - `dataset_info`
 
 ## Available tools
 
