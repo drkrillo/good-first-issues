@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-09-18</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-09-19</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -95,7 +95,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | godotengine/godot-benchmarks | GDScript | [[Call to Action] Benchmarks for the benchmark server](https://github.com/godotengine/godot-benchmarks/issues/36) | 5 | 2023-10-13 | 2024-06-24 |
 | godotengine/godot-benchmarks | GDScript | [[TRACKER] Benchmarks to create](https://github.com/godotengine/godot-benchmarks/issues/11) | 11 | 2022-08-09 | 2024-04-30 |
 | kubernetes/minikube | Go | [Document how to configure host for podman --rootless driver](https://github.com/kubernetes/minikube/issues/23724) | 0 | 2026-09-18 | 2026-09-18 |
-| kubernetes/minikube | Go | [functional test: Add more podman driver variants](https://github.com/kubernetes/minikube/issues/23723) | 0 | 2026-09-18 | 2026-09-18 |
 | hashicorp/packer-plugin-azure | Go | [Option to delete secret when build_key_vault_name is supplied](https://github.com/hashicorp/packer-plugin-azure/issues/506) | 0 | 2025-07-01 | 2025-07-04 |
 | hashicorp/vault-secrets-operator | Go | [Add allowedNamespaces spec to helm chart values.yaml](https://github.com/hashicorp/vault-secrets-operator/issues/426) | 0 | 2023-10-24 | 2023-10-25 |
 | hashicorp/pandora | Go | [tools/generator-terraform: validation function on lists/sets](https://github.com/hashicorp/pandora/issues/1514) | 0 | 2022-09-16 | 2022-09-16 |
@@ -142,6 +141,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-nps | Go | [Use SiteURL for all calls from the webapp](https://github.com/mattermost/mattermost-plugin-nps/issues/70) | 1 | 2020-07-21 | 2021-10-02 |
 | mattermost/mattermost-plugin-google-calendar | Go | [Improve error handling in `completeCalendar` to avoid panic](https://github.com/mattermost/mattermost-plugin-google-calendar/issues/8) | 1 | 2020-04-23 | 2021-10-02 |
 | mattermost/mattermost-plugin-github | Go | [Use custom post type to display TODO list](https://github.com/mattermost/mattermost-plugin-github/issues/86) | 1 | 2019-06-04 | 2021-10-02 |
+| kubernetes/minikube | Go | [Run `make lint` on all os/arch variants](https://github.com/kubernetes/minikube/issues/23746) | 2 | 2026-09-19 | 2026-09-19 |
 | kubernetes/minikube | Go | [cri-dockerd updated uses pre-release](https://github.com/kubernetes/minikube/issues/23581) | 2 | 2026-08-29 | 2026-09-05 |
 | hashicorp/terraform-provider-aws | Go | [`aws_backup_selection`: Clarify interaction between `resources` and `selection_tag` when `resources` includes a wildcard](https://github.com/hashicorp/terraform-provider-aws/issues/49829) | 2 | 2026-09-03 | 2026-09-03 |
 | hashicorp/terraform-provider-aws | Go | [aws_fms_policy resource_tag_logical_operator not correctly displaying diff during a plan](https://github.com/hashicorp/terraform-provider-aws/issues/47771) | 2 | 2026-05-05 | 2026-09-01 |
@@ -333,6 +333,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | EddieHubCommunity/RepoRater | JavaScript | [[BUG] Update the preview in the readme](https://github.com/EddieHubCommunity/RepoRater/issues/152) | 2 | 2024-08-02 | 2024-09-03 |
 | freeCodeCamp/classroom | JavaScript | [Bug: Classrooms can be created with no certifications](https://github.com/freeCodeCamp/classroom/issues/551) | 2 | 2025-10-12 | 2026-08-08 |
 | freeCodeCamp/classroom | JavaScript | [Bug: /classes page crashes if the mock-fcc-data endpoint is not running](https://github.com/freeCodeCamp/classroom/issues/533) | 2 | 2024-12-31 | 2026-04-28 |
+| layer5io/layer5 | JavaScript | [Fix inconsistent alignment of feature points in the For Learners section on mobile](https://github.com/layer5io/layer5/issues/8092) | 3 | 2026-09-19 | 2026-09-19 |
 | layer5io/layer5 | JavaScript | [Community Membership paragraph alignment issue](https://github.com/layer5io/layer5/issues/8085) | 3 | 2026-09-18 | 2026-09-18 |
 | layer5io/docs | JavaScript | [[Docs] Floating Card Overlapping Navbar](https://github.com/layer5io/docs/issues/1187) | 3 | 2026-08-06 | 2026-08-06 |
 | layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 4](https://github.com/layer5io/docs/issues/794) | 3 | 2025-08-21 | 2025-09-04 |
@@ -340,7 +341,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | layer5io/layer5 | JavaScript | [Layout shift when opening the “Meet Five” card](https://github.com/layer5io/layer5/issues/8084) | 4 | 2026-09-18 | 2026-09-18 |
 | layer5io/recognition | JavaScript | [[Feature] Add meta social preview image and Open Graph / Twitter tags for badges.layer5.io](https://github.com/layer5io/recognition/issues/111) | 4 | 2026-09-09 | 2026-09-10 |
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Contributing needs work](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/112) | 4 | 2017-12-02 | 2018-03-24 |
-| layer5io/layer5 | JavaScript | [Responsive UI issue with integration logos on mobile devices](https://github.com/layer5io/layer5/issues/8083) | 5 | 2026-09-18 | 2026-09-18 |
 | layer5io/layer5 | JavaScript | [[UI]: Oversized GitHub octocat icon on "What is GitOps?" resource page](https://github.com/layer5io/layer5/issues/7963) | 5 | 2026-08-16 | 2026-09-09 |
 | layer5io/docs | JavaScript | [[Docs] Improve Related Docs Links in Pinning Models to Dock Page](https://github.com/layer5io/docs/issues/1028) | 5 | 2026-05-11 | 2026-06-11 |
 | layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 3](https://github.com/layer5io/docs/issues/793) | 5 | 2025-08-21 | 2025-09-04 |
@@ -352,6 +352,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | layer5io/layer5 | JavaScript | [[Screenshots] Chaos Mesh under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4867) | 7 | 2023-09-07 | 2026-03-22 |
 | huggingface/transformers.js | JavaScript | [[Doc request] Add an example guide of how to use it in Svelte (and deploy to HF Spaces)](https://github.com/huggingface/transformers.js/issues/171) | 7 | 2023-06-29 | 2023-08-21 |
 | EddieHubCommunity/EddieHubCommunity.github.io | JavaScript | [Add Issue Templates](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/issues/211) | 7 | 2021-10-04 | 2024-04-23 |
+| layer5io/layer5 | JavaScript | [Responsive UI issue with integration logos on mobile devices](https://github.com/layer5io/layer5/issues/8083) | 8 | 2026-09-18 | 2026-09-19 |
 | layer5io/layer5 | JavaScript | [Mobile navigation menu contains invalid nesting](https://github.com/layer5io/layer5/issues/7484) | 8 | 2026-03-11 | 2026-03-21 |
 | layer5io/layer5 | JavaScript | [[CI] Create or add to existing workflow: a broken link checker](https://github.com/layer5io/layer5/issues/6407) | 8 | 2025-04-25 | 2026-09-09 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Fluentbit Operator under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/5333) | 8 | 2024-01-23 | 2025-07-29 |
@@ -409,7 +410,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | godotengine/godot-asset-library | PHP | [Sanitize inputs for Asset data/fields, like URLs](https://github.com/godotengine/godot-asset-library/issues/204) | 5 | 2020-03-08 | 2021-11-03 |
 | huggingface/optimum-executorch | Python | [Add benchmarking numbers for more models](https://github.com/huggingface/optimum-executorch/issues/131) | 0 | 2025-09-02 | 2025-09-02 |
 | microsoft/hve-core | Python | [docs: Update stale documentation - docs/planning/brds/sssc-planner-security-brd.md](https://github.com/microsoft/hve-core/issues/2912) | 0 | 2026-09-14 | 2026-09-16 |
-| microsoft/hve-core | Python | [docs: Update stale documentation - docs/templates/README.md](https://github.com/microsoft/hve-core/issues/2911) | 0 | 2026-09-14 | 2026-09-16 |
 | hashicorp/nomad-openapi | Python | [chore: rename JobName parameter](https://github.com/hashicorp/nomad-openapi/issues/90) | 0 | 2022-01-31 | 2022-01-31 |
 | huggingface/lighteval | Python | [[EVAL] Add kyrgyzLLM benchmark](https://github.com/huggingface/lighteval/issues/1036) | 1 | 2025-11-04 | 2025-11-20 |
 | huggingface/lighteval | Python | [[BUG]  Optimize tokenization](https://github.com/huggingface/lighteval/issues/732) | 1 | 2025-05-15 | 2026-06-21 |
@@ -419,9 +419,9 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/nanotron | Python | [We don't save checkpoint after training ends](https://github.com/huggingface/nanotron/issues/163) | 1 | 2024-05-06 | 2025-02-18 |
 | huggingface/nanotron | Python | [FEAT: Support 1.58-bit LLMs training](https://github.com/huggingface/nanotron/issues/114) | 1 | 2024-03-21 | 2024-04-03 |
 | huggingface/dataset-viewer | Python | [Use `revision_exists` (hfh)](https://github.com/huggingface/dataset-viewer/issues/2562) | 1 | 2024-03-08 | 2025-07-01 |
-| huggingface/nanotron | Python | [[Feature] Use CUDA event for measuring elasped time](https://github.com/huggingface/nanotron/issues/88) | 1 | 2024-03-02 | 2026-08-25 |
 | huggingface/nanotron | Python | [[Feature] Refactor `ParallelContext.world_rank_matrix`](https://github.com/huggingface/nanotron/issues/77) | 1 | 2024-02-19 | 2026-08-25 |
 | huggingface/nanotron | Python | [[Feature Request] Add simple communications benchmarks to the repo](https://github.com/huggingface/nanotron/issues/43) | 1 | 2024-01-25 | 2024-01-25 |
+| microsoft/nvx | Python | [setup: consume tool versions from a canonical manifest](https://github.com/microsoft/nvx/issues/129) | 1 | 2026-09-19 | 2026-09-19 |
 | microsoft/mssql-django | Python | [JSON-null key lookups use OPENJSON, which requires database compatibility level 130 (fails on down-leveled 2016-2019 databases)](https://github.com/microsoft/mssql-django/issues/592) | 1 | 2026-09-08 | 2026-09-10 |
 | microsoft/mssql-django | Python | [JSONField key isnull=True over-matches JSON null values on SQL Server (also causes wrong iexact=None on Django < 6.1)](https://github.com/microsoft/mssql-django/issues/591) | 1 | 2026-09-08 | 2026-09-08 |
 | microsoft/PyRIT | Python | [FEAT: Add Garak exploitation scenario](https://github.com/microsoft/PyRIT/issues/2534) | 1 | 2026-09-01 | 2026-09-02 |
@@ -438,6 +438,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/lighteval | Python | [[FT] Manage script and language in the Language enum](https://github.com/huggingface/lighteval/issues/745) | 2 | 2025-05-19 | 2026-05-26 |
 | huggingface/lighteval | Python | [Call for contributions: Translate lighteval's doc into Chinese](https://github.com/huggingface/lighteval/issues/716) | 2 | 2025-05-14 | 2025-05-19 |
 | huggingface/dataset-viewer | Python | [use the `ROW_IDX_COLUMN` constant name instead of copying the value everywhere](https://github.com/huggingface/dataset-viewer/issues/2798) | 2 | 2024-05-13 | 2024-05-13 |
+| huggingface/nanotron | Python | [[Feature] Use CUDA event for measuring elasped time](https://github.com/huggingface/nanotron/issues/88) | 2 | 2024-03-02 | 2026-09-19 |
 | huggingface/nanotron | Python | [[Feature] Asyncronous Serialization](https://github.com/huggingface/nanotron/issues/87) | 2 | 2024-03-02 | 2025-02-20 |
 | huggingface/dataset-viewer | Python | [Use "Sign-In with HF" instead of token in admin-UI](https://github.com/huggingface/dataset-viewer/issues/2373) | 2 | 2024-02-01 | 2025-07-03 |
 | huggingface/nanotron | Python | [[Feature Request] Support Data Streaming for faster training of large models](https://github.com/huggingface/nanotron/issues/45) | 2 | 2024-01-26 | 2024-03-03 |
@@ -475,20 +476,20 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/lighteval | Python | [Append revision to filepath in `--output_dir`?](https://github.com/huggingface/lighteval/issues/56) | 6 | 2024-02-26 | 2026-08-30 |
 | microsoft/hve-core | Python | [docs: Update stale documentation - .github/skills/project-planning/adr-author/references/lineage-rules.md](https://github.com/microsoft/hve-core/issues/2584) | 6 | 2026-08-03 | 2026-09-14 |
 | microsoft/physical-ai-toolchain | Python | [build: refresh and consolidate repository uv pins](https://github.com/microsoft/physical-ai-toolchain/issues/1071) | 6 | 2026-06-30 | 2026-09-18 |
-| microsoft/agent-governance-toolkit | Python | [bug(examples/flowise-governance): flowise-flow.json fails to import on Flowise 2.x and 3.x](https://github.com/microsoft/agent-governance-toolkit/issues/3194) | 6 | 2026-06-26 | 2026-08-23 |
 | microsoft/data-formulator | Python | [Expand chart type supports](https://github.com/microsoft/data-formulator/issues/193) | 6 | 2025-11-07 | 2025-12-05 |
 | huggingface/lighteval | Python | [[EVAL] Long Horizon Execution](https://github.com/huggingface/lighteval/issues/1056) | 7 | 2025-11-13 | 2026-01-25 |
 | huggingface/diffusers | Python | [Do we have any script covert from hf format to orginal format?](https://github.com/huggingface/diffusers/issues/10076) | 7 | 2024-12-02 | 2026-09-16 |
 | huggingface/nanotron | Python | [[Bug] Missing `_is_using_mup` when resume checkpoint](https://github.com/huggingface/nanotron/issues/198) | 7 | 2024-06-14 | 2026-07-29 |
 | microsoft/onnxscript | Python | [Attention fusion (SDPA/MHA) broken for BART decoder with/wo past🐛](https://github.com/microsoft/onnxscript/issues/2424) | 7 | 2025-06-29 | 2026-03-01 |
+| microsoft/agent-governance-toolkit | Python | [bug(examples/flowise-governance): flowise-flow.json fails to import on Flowise 2.x and 3.x](https://github.com/microsoft/agent-governance-toolkit/issues/3194) | 8 | 2026-06-26 | 2026-09-19 |
 | huggingface/lerobot | Python | [Select the VLM backbone for SmolVLA](https://github.com/huggingface/lerobot/issues/2104) | 9 | 2025-10-02 | 2026-08-17 |
 | huggingface/lighteval | Python | [[EVAL] Adding PHARE](https://github.com/huggingface/lighteval/issues/696) | 9 | 2025-04-30 | 2026-07-16 |
 | huggingface/lerobot | Python | [Distributed v2.1 -> v3.0 conversion](https://github.com/huggingface/lerobot/issues/1998) | 10 | 2025-09-22 | 2026-06-10 |
 | huggingface/lighteval | Python | [[EVAL] Add TUMLU benchmark](https://github.com/huggingface/lighteval/issues/577) | 10 | 2025-02-19 | 2025-05-15 |
-| huggingface/optimum | Python | [Add all available ONNX models to ORTConfigManager](https://github.com/huggingface/optimum/issues/351) | 10 | 2022-08-16 | 2026-09-10 |
 | huggingface/datasets | Python | [WMT21 & WMT22](https://github.com/huggingface/datasets/issues/4709) | 10 | 2022-07-18 | 2026-02-26 |
 | huggingface/accelerate | Python | [[Community Contributions] examples on distributed inference using 🤗 Accelerate](https://github.com/huggingface/accelerate/issues/3078) | 11 | 2024-09-04 | 2026-09-09 |
-| huggingface/diffusers | Python | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 12 | 2024-06-07 | 2026-09-11 |
+| huggingface/diffusers | Python | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 11 | 2024-06-07 | 2026-09-19 |
+| huggingface/optimum | Python | [Add all available ONNX models to ORTConfigManager](https://github.com/huggingface/optimum/issues/351) | 11 | 2022-08-16 | 2026-09-19 |
 | huggingface/diffusers | Python | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 15 | 2024-10-10 | 2026-09-01 |
 | microsoft/data-formulator | Python | [Create new data loaders to different resources](https://github.com/microsoft/data-formulator/issues/156) | 15 | 2025-05-13 | 2025-12-11 |
 | huggingface/diffusers | Python | [[Pipeline] AnimateDiff + SparseControl + ControlNet](https://github.com/huggingface/diffusers/issues/9329) | 17 | 2024-08-30 | 2026-09-09 |
@@ -500,7 +501,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 32 | 2023-09-29 | 2026-09-18 |
 | microsoft/autogen | Python | [Get current message thread from a group chat team.](https://github.com/microsoft/autogen/issues/6085) | 32 | 2025-03-24 | 2026-09-01 |
 | microsoft/autogen | Python | [open needs encoding='utf-8' for non-english environment, error in playwright_controller.py](https://github.com/microsoft/autogen/issues/5566) | 34 | 2025-02-16 | 2026-09-12 |
-| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 159 | 2025-01-07 | 2026-09-09 |
+| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 160 | 2025-01-07 | 2026-09-19 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 | 2024-04-17 | 2024-04-17 |
 | microsoft/openvmm | Rust | [remove usages of futures::select! in the repo with futures_concurrency](https://github.com/microsoft/openvmm/issues/1246) | 0 | 2025-04-25 | 2025-06-21 |
 | microsoft/windows-drivers-rs | Rust | [Migrate from fs4 to std::File flocks](https://github.com/microsoft/windows-drivers-rs/issues/300) | 0 | 2025-02-20 | 2025-08-15 |
@@ -516,7 +517,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | godotengine/discourse-theme | SCSS | [Categories are not rounded on mobile](https://github.com/godotengine/discourse-theme/issues/3) | 0 | 2023-11-23 | 2023-12-10 |
 | godotengine/discourse-theme | SCSS | [Search bar should not cover full width on mobile](https://github.com/godotengine/discourse-theme/issues/2) | 0 | 2023-11-23 | 2023-12-10 |
 | godotengine/discourse-theme | SCSS | [Remove the "Sign Up" button from navbar](https://github.com/godotengine/discourse-theme/issues/15) | 2 | 2024-04-10 | 2024-04-10 |
-| layer5io/discuss-theme | SCSS | [Responsive UI issue in Discuss footer on mobile](https://github.com/layer5io/discuss-theme/issues/14) | 5 | 2026-09-18 | 2026-09-18 |
+| layer5io/discuss-theme | SCSS | [Responsive UI issue in Discuss footer on mobile](https://github.com/layer5io/discuss-theme/issues/14) | 7 | 2026-09-18 | 2026-09-19 |
 | mattermost/mattermost-gitpod-config | Shell | [If a the workspace repo doesn't define `.gitpod/*.sh` files, we shouldn't try to run them](https://github.com/mattermost/mattermost-gitpod-config/issues/50) | 0 | 2023-11-28 | 2023-11-28 |
 | mattermost/mattermost-gitpod-config | Shell | [Improve development flow of opening the Mattermost webapp automatically](https://github.com/mattermost/mattermost-gitpod-config/issues/49) | 0 | 2023-11-28 | 2023-11-28 |
 | layer5io/trigger-remote-provider-action | Shell | [to fix error in "Slack Notify on Star" Job under GitHub Actions ](https://github.com/layer5io/trigger-remote-provider-action/issues/12) | 4 | 2023-09-27 | 2026-03-22 |
