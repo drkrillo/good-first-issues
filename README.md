@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-09-21</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-09-22</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -359,7 +359,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | layer5io/layer5 | JavaScript | [[Screenshots] Cert Manager Crds under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4865) | 10 | 2023-09-07 | 2026-03-22 |
 | layer5io/layer5 | JavaScript | [[Animation] Animate Meshery Architecture](https://github.com/layer5io/layer5/issues/7661) | 11 | 2026-04-25 | 2026-06-09 |
 | layer5io/layer5 | JavaScript | [[Screenshots] AWS Elastic Kubernetes Service under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/5322) | 11 | 2024-01-23 | 2025-11-09 |
-| layer5io/layer5 | JavaScript | [[UI]: Unwanted border and incorrect Layer5 logo color in “Join the Conversation” box](https://github.com/layer5io/layer5/issues/7958) | 12 | 2026-08-13 | 2026-08-25 |
+| layer5io/layer5 | JavaScript | [[UI]: Unwanted border and incorrect Layer5 logo color in “Join the Conversation” box](https://github.com/layer5io/layer5/issues/7958) | 12 | 2026-08-13 | 2026-09-22 |
 | layer5io/layer5 | JavaScript | [Update the structure of pages based on the latest sitemap revision available in Figma](https://github.com/layer5io/layer5/issues/5359) | 13 | 2024-02-01 | 2026-06-02 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Cloudevents under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4869) | 13 | 2023-09-07 | 2026-03-22 |
 | mattermost/mattermost-plugin-gitlab | JavaScript | [Support config variable to disable project access check for incoming webhook event](https://github.com/mattermost/mattermost-plugin-gitlab/issues/463) | 13 | 2024-02-17 | 2024-08-23 |
@@ -420,8 +420,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/hve-core | Python | [docs: Update stale documentation - docs/planning/brds/sssc-planner-security-brd.md](https://github.com/microsoft/hve-core/issues/2912) | 1 | 2026-09-14 | 2026-09-21 |
 | microsoft/mssql-django | Python | [JSON-null key lookups use OPENJSON, which requires database compatibility level 130 (fails on down-leveled 2016-2019 databases)](https://github.com/microsoft/mssql-django/issues/592) | 1 | 2026-09-08 | 2026-09-10 |
 | microsoft/mssql-django | Python | [JSONField key isnull=True over-matches JSON null values on SQL Server (also causes wrong iexact=None on Django < 6.1)](https://github.com/microsoft/mssql-django/issues/591) | 1 | 2026-09-08 | 2026-09-08 |
-| microsoft/PyRIT | Python | [FEAT: Add Garak exploitation scenario](https://github.com/microsoft/PyRIT/issues/2534) | 1 | 2026-09-01 | 2026-09-02 |
 | microsoft/PyRIT | Python | [FEAT: Add Garak ProPILE privacy leakage scenario](https://github.com/microsoft/PyRIT/issues/2532) | 1 | 2026-09-01 | 2026-09-08 |
+| microsoft/PyRIT | Python | [FEAT: Add Garak exploitation scenario](https://github.com/microsoft/PyRIT/issues/2534) | 1 | 2026-09-01 | 2026-09-02 |
 | microsoft/hve-core | Python | [docs: Documentation drift: code-review README doesn't reflect new change-risk evidence checklist](https://github.com/microsoft/hve-core/issues/2803) | 1 | 2026-08-30 | 2026-08-31 |
 | microsoft/hve-core | Python | [docs: scripts/README.md evals table is missing 13 scripts added in the vally migration](https://github.com/microsoft/hve-core/issues/2572) | 1 | 2026-07-31 | 2026-08-12 |
 | microsoft/winml-cli | Python | [Minor refactor: reuse _compute_case_signature to compute failed model file name](https://github.com/microsoft/winml-cli/issues/56) | 1 | 2026-03-31 | 2026-06-17 |
@@ -445,6 +445,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/msticpy | Python | [[Bug]: RiskIQ TI Provider does not seem functional anymore and docs for config and API access are out of date](https://github.com/microsoft/msticpy/issues/820) | 2 | 2025-01-30 | 2025-02-21 |
 | microsoft/onnxscript | Python | [[IR] Graph editor API](https://github.com/microsoft/onnxscript/issues/2005) | 2 | 2025-01-09 | 2025-05-09 |
 | microsoft/onnxscript | Python | [informing about bad positional argument in node constructor](https://github.com/microsoft/onnxscript/issues/1984) | 2 | 2024-12-26 | 2026-01-07 |
+| microsoft/TRELLIS | Python | [TRELLIS API](https://github.com/microsoft/TRELLIS/issues/65) | 2 | 2024-12-14 | 2025-07-21 |
 | huggingface/lighteval | Python | [[FT]  Add tests for nanotron](https://github.com/huggingface/lighteval/issues/765) | 3 | 2025-05-21 | 2025-12-04 |
 | huggingface/lighteval | Python | [[FT] Build in a way to specify specific IDs/Lines in Dataset to use as few-shot examples in the same split](https://github.com/huggingface/lighteval/issues/634) | 3 | 2025-03-21 | 2026-06-16 |
 | huggingface/lighteval | Python | [[EVAL] Big-Bench Extra Hard (BBEH)](https://github.com/huggingface/lighteval/issues/600) | 3 | 2025-03-03 | 2025-12-04 |
@@ -475,7 +476,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/nanotron | Python | [[Bug] Missing `_is_using_mup` when resume checkpoint](https://github.com/huggingface/nanotron/issues/198) | 7 | 2024-06-14 | 2026-07-29 |
 | microsoft/hve-core | Python | [docs: Update stale documentation - .github/skills/project-planning/adr-author/references/lineage-rules.md](https://github.com/microsoft/hve-core/issues/2584) | 7 | 2026-08-03 | 2026-09-21 |
 | microsoft/onnxscript | Python | [Attention fusion (SDPA/MHA) broken for BART decoder with/wo past🐛](https://github.com/microsoft/onnxscript/issues/2424) | 7 | 2025-06-29 | 2026-03-01 |
-| microsoft/agent-governance-toolkit | Python | [bug(examples/flowise-governance): flowise-flow.json fails to import on Flowise 2.x and 3.x](https://github.com/microsoft/agent-governance-toolkit/issues/3194) | 8 | 2026-06-26 | 2026-09-19 |
 | huggingface/lerobot | Python | [Select the VLM backbone for SmolVLA](https://github.com/huggingface/lerobot/issues/2104) | 9 | 2025-10-02 | 2026-08-17 |
 | huggingface/lighteval | Python | [[EVAL] Adding PHARE](https://github.com/huggingface/lighteval/issues/696) | 9 | 2025-04-30 | 2026-07-16 |
 | huggingface/lerobot | Python | [Distributed v2.1 -> v3.0 conversion](https://github.com/huggingface/lerobot/issues/1998) | 10 | 2025-09-22 | 2026-06-10 |
@@ -483,7 +483,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/datasets | Python | [WMT21 & WMT22](https://github.com/huggingface/datasets/issues/4709) | 10 | 2022-07-18 | 2026-02-26 |
 | huggingface/accelerate | Python | [[Community Contributions] examples on distributed inference using 🤗 Accelerate](https://github.com/huggingface/accelerate/issues/3078) | 11 | 2024-09-04 | 2026-09-09 |
 | huggingface/diffusers | Python | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 11 | 2024-06-07 | 2026-09-19 |
-| huggingface/optimum | Python | [Add all available ONNX models to ORTConfigManager](https://github.com/huggingface/optimum/issues/351) | 11 | 2022-08-16 | 2026-09-19 |
 | microsoft/markitdown | Python | [Support for .doc extensions](https://github.com/microsoft/markitdown/issues/23) | 14 | 2024-12-14 | 2026-06-02 |
 | huggingface/diffusers | Python | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 15 | 2024-10-10 | 2026-09-01 |
 | microsoft/data-formulator | Python | [Create new data loaders to different resources](https://github.com/microsoft/data-formulator/issues/156) | 15 | 2025-05-13 | 2025-12-11 |
@@ -491,6 +490,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/lerobot | Python | [Make policies compatible with torch.compile](https://github.com/huggingface/lerobot/issues/2061) | 18 | 2025-09-26 | 2026-03-23 |
 | huggingface/datasets | Python | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 19 | 2022-12-12 | 2026-09-02 |
 | huggingface/diffusers | Python | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 22 | 2024-02-13 | 2025-10-31 |
+| huggingface/optimum | Python | [Add all available ONNX models to ORTConfigManager](https://github.com/huggingface/optimum/issues/351) | 23 | 2022-08-16 | 2026-09-22 |
 | huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 24 | 2023-04-28 | 2026-09-15 |
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 27 | 2022-11-18 | 2026-09-09 |
 | huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 32 | 2023-09-29 | 2026-09-18 |
@@ -523,10 +523,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/chat-macOS | Swift | [Add custom LLM API ](https://github.com/huggingface/chat-macOS/issues/18) | 5 | 2024-09-27 | 2025-02-14 |
 | huggingface/sam2-studio | Swift | [Video support estimated release date?](https://github.com/huggingface/sam2-studio/issues/25) | 26 | 2024-09-28 | 2026-01-31 |
 | microsoft/scope | TypeScript | [Allow editing Azure AI Foundry model](https://github.com/microsoft/scope/issues/1386) | 0 | 2026-08-31 | 2026-08-31 |
-| microsoft/scope | TypeScript | [Clarify that prompt features only categorize prompts, don't impact runs](https://github.com/microsoft/scope/issues/1276) | 0 | 2026-07-29 | 2026-07-29 |
 | microsoft/scope | TypeScript | [Document model lifecycle and deprecation process](https://github.com/microsoft/scope/issues/1275) | 0 | 2026-07-29 | 2026-07-29 |
 | microsoft/scope | TypeScript | [Token Manager: introduce a structured 'endpoint' secret type returning {endpoint, apiKey, deployment}](https://github.com/microsoft/scope/issues/912) | 0 | 2026-07-29 | 2026-07-29 |
-| microsoft/scope | TypeScript | [Display the versions of skills in run details](https://github.com/microsoft/scope/issues/768) | 0 | 2026-07-29 | 2026-07-29 |
 | microsoft/scope | TypeScript | [consider a different UX for the Run details UI](https://github.com/microsoft/scope/issues/765) | 0 | 2026-07-29 | 2026-07-29 |
 | microsoft/scope | TypeScript | [chore: factorize shared integration test code across ACP workers](https://github.com/microsoft/scope/issues/650) | 0 | 2026-07-29 | 2026-07-29 |
 | microsoft/scope | TypeScript | [The workspace snapshot archive should include the dot files and dot folders](https://github.com/microsoft/scope/issues/606) | 0 | 2026-07-29 | 2026-07-29 |
@@ -601,6 +599,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | decentraland/atlas-server | TypeScript | [Add a redirect or message with a link to the documentation at /](https://github.com/decentraland/atlas-server/issues/3) | 0 | 2020-12-14 | 2020-12-14 |
 | decentraland/builder | TypeScript | [Add a way to de-assign a Name from a Land (Parcel/Estate) from the table](https://github.com/decentraland/builder/issues/1203) | 0 | 2020-12-10 | 2022-10-31 |
 | microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Import September 2026 release fails during ACP/DLP evaluation even though connectors are available.](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/858) | 1 | 2026-09-09 | 2026-09-10 |
+| microsoft/scope | TypeScript | [Clarify that prompt features only categorize prompts, don't impact runs](https://github.com/microsoft/scope/issues/1276) | 1 | 2026-07-29 | 2026-09-22 |
+| microsoft/scope | TypeScript | [Display the versions of skills in run details](https://github.com/microsoft/scope/issues/768) | 1 | 2026-07-29 | 2026-09-22 |
 | microsoft/scope | TypeScript | [Improve UX when listing all runs](https://github.com/microsoft/scope/issues/766) | 1 | 2026-07-29 | 2026-07-29 |
 | microsoft/scope | TypeScript | [In the HAR view, when inspecting a row down the list, the detail informations on the right should stay visible](https://github.com/microsoft/scope/issues/740) | 1 | 2026-07-29 | 2026-09-20 |
 | microsoft/genaiscript | TypeScript | [Open Telemetry](https://github.com/microsoft/genaiscript/issues/1323) | 1 | 2025-03-19 | 2025-03-19 |
