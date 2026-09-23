@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-09-22</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-09-23</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -80,6 +80,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/aspire | C# | [Provide CSV export option in dashboard console logs](https://github.com/microsoft/aspire/issues/11121) | 3 | 2025-08-26 | 2026-07-04 |
 | microsoft/mcp | C# | [[COMMUNITY] Auto generate CHANGELOG, including adding contributors for each release](https://github.com/microsoft/mcp/issues/156) | 4 | 2025-09-03 | 2026-08-26 |
 | microsoft/aspire | C# | [Improve Exception Message for Missing Project Metadata Annotation in ResourceContainerImageBuilder.cs](https://github.com/microsoft/aspire/issues/11299) | 13 | 2025-09-09 | 2026-08-26 |
+| microsoft/microsoft-ui-xaml | C++ | [Lifetime Stree Test Optimizaton](https://github.com/microsoft/microsoft-ui-xaml/issues/11976) | 0 | 2026-09-23 | 2026-09-23 |
 | microsoft/snmalloc | C++ | [Implement accurate size storage for Windows `_msize` and `_recalloc`](https://github.com/microsoft/snmalloc/issues/786) | 0 | 2025-07-02 | 2025-07-02 |
 | microsoft/react-native-windows | C++ | [Scroll wheel behavior differs significantly in new architecture (Windows App SDK) vs WinUI 3 Gallery app](https://github.com/microsoft/react-native-windows/issues/14653) | 1 | 2025-05-08 | 2025-07-03 |
 | microsoft/react-native-windows | C++ | [Deprecate autolink functionality to copy flags from react-native.config.js into ExperimentalFeature.props.](https://github.com/microsoft/react-native-windows/issues/14601) | 1 | 2025-04-22 | 2025-06-11 |
@@ -265,10 +266,10 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/minikube | Go | [Feature: enable the structured logging for kubernetes components by default](https://github.com/kubernetes/minikube/issues/9268) | 16 | 2020-09-17 | 2026-02-18 |
 | kubernetes/ingress-nginx | Go | [Feature Request: Allow disabling custom-http-errors per ingress](https://github.com/kubernetes/ingress-nginx/issues/8384) | 17 | 2022-03-23 | 2024-11-06 |
 | hashicorp/terraform-provider-aws | Go | [ Lifecycle configuration for S3 Bucket failing with time out issue for AWS Provider 4.21.0](https://github.com/hashicorp/terraform-provider-aws/issues/25939) | 17 | 2022-07-22 | 2026-09-09 |
-| kubernetes/minikube | Go | [improve UI advice when user needs to delete the cluster](https://github.com/kubernetes/minikube/issues/10460) | 18 | 2021-02-12 | 2023-06-07 |
 | kubernetes/perf-tests | Go | [ClusterLoader: HA cluster support](https://github.com/kubernetes/perf-tests/issues/246) | 18 | 2018-10-15 | 2020-11-14 |
 | kubernetes/kube-state-metrics | Go | [Address lint reports](https://github.com/kubernetes/kube-state-metrics/issues/1887) | 19 | 2022-11-08 | 2023-06-14 |
 | kubernetes/perf-tests | Go | [NodeKiller seems to be not working in 100 node 1.17 / master performance tests](https://github.com/kubernetes/perf-tests/issues/1005) | 19 | 2020-02-03 | 2020-09-28 |
+| kubernetes/minikube | Go | [improve UI advice when user needs to delete the cluster](https://github.com/kubernetes/minikube/issues/10460) | 20 | 2021-02-12 | 2026-09-23 |
 | kubernetes/perf-tests | Go | [Run more linters with golangci-lint](https://github.com/kubernetes/perf-tests/issues/1244) | 20 | 2020-05-08 | 2021-05-31 |
 | kubernetes/autoscaler | Go | [Autoscaler 1.25 or later: If a node fails to be deleted, the lastScaleDownFailTime is not refresh.](https://github.com/kubernetes/autoscaler/issues/6313) | 22 | 2023-11-23 | 2026-08-25 |
 | kubernetes/kubernetes | Go | [Give an indication in container events for probe failure as to whether the failure was ignored due to FailureThreshold](https://github.com/kubernetes/kubernetes/issues/115823) | 22 | 2023-02-16 | 2026-05-02 |
@@ -426,7 +427,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/hve-core | Python | [docs: scripts/README.md evals table is missing 13 scripts added in the vally migration](https://github.com/microsoft/hve-core/issues/2572) | 1 | 2026-07-31 | 2026-08-12 |
 | microsoft/winml-cli | Python | [Minor refactor: reuse _compute_case_signature to compute failed model file name](https://github.com/microsoft/winml-cli/issues/56) | 1 | 2026-03-31 | 2026-06-17 |
 | microsoft/onnxscript | Python | [[torchlib] Add op test to torch.unique_consecutive](https://github.com/microsoft/onnxscript/issues/2695) | 1 | 2025-11-10 | 2025-12-21 |
-| microsoft/AutoPodcaster | Python | [Add devcontainer](https://github.com/microsoft/AutoPodcaster/issues/9) | 1 | 2025-01-09 | 2026-08-08 |
 | microsoft/teams-agent-accelerator-libs-py | Python | [Provide cleaner api for building citations for memories](https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/72) | 1 | 2024-12-19 | 2025-11-17 |
 | huggingface/lerobot | Python | [Question regarding downsampling and resizing dataset](https://github.com/huggingface/lerobot/issues/2124) | 2 | 2025-10-06 | 2026-05-25 |
 | huggingface/lerobot | Python | [Ensure the teleoperators module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1726) | 2 | 2025-08-13 | 2026-08-30 |
@@ -444,6 +444,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/vscode-black-formatter | Python | [black is using cached pyproject.toml instead of the actual one](https://github.com/microsoft/vscode-black-formatter/issues/569) | 2 | 2025-04-18 | 2025-04-28 |
 | microsoft/msticpy | Python | [[Bug]: RiskIQ TI Provider does not seem functional anymore and docs for config and API access are out of date](https://github.com/microsoft/msticpy/issues/820) | 2 | 2025-01-30 | 2025-02-21 |
 | microsoft/onnxscript | Python | [[IR] Graph editor API](https://github.com/microsoft/onnxscript/issues/2005) | 2 | 2025-01-09 | 2025-05-09 |
+| microsoft/AutoPodcaster | Python | [Add devcontainer](https://github.com/microsoft/AutoPodcaster/issues/9) | 2 | 2025-01-09 | 2026-09-23 |
 | microsoft/onnxscript | Python | [informing about bad positional argument in node constructor](https://github.com/microsoft/onnxscript/issues/1984) | 2 | 2024-12-26 | 2026-01-07 |
 | microsoft/TRELLIS | Python | [TRELLIS API](https://github.com/microsoft/TRELLIS/issues/65) | 2 | 2024-12-14 | 2025-07-21 |
 | huggingface/lighteval | Python | [[FT]  Add tests for nanotron](https://github.com/huggingface/lighteval/issues/765) | 3 | 2025-05-21 | 2025-12-04 |
@@ -452,14 +453,12 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/optimum-habana | Python | [Add support for max_length in run_generation](https://github.com/huggingface/optimum-habana/issues/472) | 3 | 2023-10-18 | 2023-10-19 |
 | huggingface/dataset-viewer | Python | [Use `CONSTANT_LIST.copy` in list config fieds](https://github.com/huggingface/dataset-viewer/issues/1522) | 3 | 2023-07-17 | 2025-07-10 |
 | huggingface/transfer-learning-conv-ai | Python | [RuntimeError: shape '[-1, 2, 34]' is invalid for input of size 61710](https://github.com/huggingface/transfer-learning-conv-ai/issues/12) | 3 | 2019-06-04 | 2022-09-02 |
-| microsoft/PyRIT | Python | [FEAT: Add Garak latent injection scenario](https://github.com/microsoft/PyRIT/issues/2530) | 3 | 2026-09-01 | 2026-09-14 |
 | microsoft/data-formulator | Python | [Docker Support](https://github.com/microsoft/data-formulator/issues/85) | 3 | 2025-02-13 | 2026-03-14 |
 | godotengine/godot-blender-exporter | Python | [Blender object with negative scale](https://github.com/godotengine/godot-blender-exporter/issues/24) | 3 | 2018-05-11 | 2020-10-09 |
 | huggingface/lerobot | Python | [Ensure the utilities module passes MyPy type checks](https://github.com/huggingface/lerobot/issues/1727) | 4 | 2025-08-13 | 2026-04-08 |
 | huggingface/lighteval | Python | [[EVAL]: Add more African Benchmarks](https://github.com/huggingface/lighteval/issues/373) | 4 | 2024-10-24 | 2024-11-08 |
 | huggingface/dataset-viewer | Python | [Cache/Queue metrics should not be negative](https://github.com/huggingface/dataset-viewer/issues/2495) | 4 | 2024-02-23 | 2025-08-04 |
 | microsoft/markitdown | Python | [Autonomous Agents, Unite!](https://github.com/microsoft/markitdown/issues/2386) | 4 | 2026-09-04 | 2026-09-05 |
-| microsoft/hve-core | Python | [docs: scripts/README.md is missing entries for 13 evals scripts added in feat(mcsb)](https://github.com/microsoft/hve-core/issues/2571) | 4 | 2026-07-31 | 2026-08-29 |
 | huggingface/lighteval | Python | [[FT] showing count in Markdown summary table](https://github.com/huggingface/lighteval/issues/804) | 5 | 2025-06-09 | 2026-08-11 |
 | huggingface/lighteval | Python | [[BUG] custom model docs don't run: missing imports](https://github.com/huggingface/lighteval/issues/760) | 5 | 2025-05-21 | 2025-05-21 |
 | huggingface/nanotron | Python | [Avoid nested `InheritFromOtherOptimizer`](https://github.com/huggingface/nanotron/issues/267) | 5 | 2025-01-15 | 2025-09-23 |
@@ -476,6 +475,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/nanotron | Python | [[Bug] Missing `_is_using_mup` when resume checkpoint](https://github.com/huggingface/nanotron/issues/198) | 7 | 2024-06-14 | 2026-07-29 |
 | microsoft/hve-core | Python | [docs: Update stale documentation - .github/skills/project-planning/adr-author/references/lineage-rules.md](https://github.com/microsoft/hve-core/issues/2584) | 7 | 2026-08-03 | 2026-09-21 |
 | microsoft/onnxscript | Python | [Attention fusion (SDPA/MHA) broken for BART decoder with/wo past🐛](https://github.com/microsoft/onnxscript/issues/2424) | 7 | 2025-06-29 | 2026-03-01 |
+| microsoft/markitdown | Python | [File support: chm support](https://github.com/microsoft/markitdown/issues/14) | 7 | 2024-12-13 | 2026-06-10 |
 | huggingface/lerobot | Python | [Select the VLM backbone for SmolVLA](https://github.com/huggingface/lerobot/issues/2104) | 9 | 2025-10-02 | 2026-08-17 |
 | huggingface/lighteval | Python | [[EVAL] Adding PHARE](https://github.com/huggingface/lighteval/issues/696) | 9 | 2025-04-30 | 2026-07-16 |
 | huggingface/lerobot | Python | [Distributed v2.1 -> v3.0 conversion](https://github.com/huggingface/lerobot/issues/1998) | 10 | 2025-09-22 | 2026-06-10 |
