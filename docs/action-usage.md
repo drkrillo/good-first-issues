@@ -49,7 +49,7 @@ Each issue in the output contains the following fields:
 | `title` | Issue title |
 | `url` | Direct link to the issue on GitHub |
 | `comments` | Number of comments on the issue |
-| `labels` | Labels assigned to the issue |
+| `labels` | Labels assigned to the issue, semicolon-separated (`good first issue` is omitted since every row already qualifies) |
 | `created_at` | Issue creation timestamp |
 | `updated_at` | Issue last updated timestamp |
 
@@ -57,7 +57,7 @@ Each issue in the output contains the following fields:
 
 ```
 repo,language,title,url,comments,labels,created_at,updated_at
-pytorch/glow,C++,Add layout propagation to NodeGen,https://github.com/pytorch/glow/issues/3834,0,['good first issue'],2026-06-01,2026-08-12
+pytorch/glow,C++,Add layout propagation to NodeGen,https://github.com/pytorch/glow/issues/3834,0,help wanted; triaged,2026-06-01,2026-08-12
 ```
 
 ### JSON Example
@@ -70,7 +70,7 @@ pytorch/glow,C++,Add layout propagation to NodeGen,https://github.com/pytorch/gl
     "title": "Add layout propagation to NodeGen",
     "url": "https://github.com/pytorch/glow/issues/3834",
     "comments": 0,
-    "labels": ["good first issue"],
+    "labels": ["help wanted", "triaged"],
     "created_at": "2026-06-01",
    "updated_at": "2026-08-12"
   }
