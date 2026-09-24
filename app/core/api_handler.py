@@ -64,7 +64,10 @@ class IssueManager:
             issue['title'] = raw_issue[1]['title']
             issue['url'] = raw_issue[1]['html_url']
             issue['comments'] = raw_issue[1]['comments']
-            issue['labels'] = [l['name'] for l in raw_issue[1].get('labels', [])]
+            issue['labels'] = [
+                l['name'] for l in raw_issue[1].get('labels', [])
+                if l['name'] != 'good first issue'
+            ]
             # Keep only the date part (YYYY-MM-DD) of the ISO 8601 timestamps.
             issue['created_at'] = raw_issue[1].get('created_at', '')[:10]
             issue['updated_at'] = raw_issue[1].get('updated_at', '')[:10]
@@ -171,7 +174,11 @@ class TemplateManager:
                     ]
                 )
                 writer.writeheader()
-                writer.writerows(issues)
+                for issue in issues:
+                    row = dict(issue)
+                    if isinstance(row.get('labels'), list):
+                        row['labels'] = '; '.join(row['labels'])
+                    writer.writerow(row)
 
         elif ext == 'json':
             with open(output_file, 'w', encoding='utf-8') as f:

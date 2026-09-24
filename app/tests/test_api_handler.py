@@ -1,3 +1,4 @@
+import csv
 import requests
 import pytest
 from unittest.mock import patch, MagicMock
@@ -90,7 +91,11 @@ class TestIssueManager:
                 "title": "Test Issue",
                 "html_url": "https://github.com/owner/repo/issues/1",
                 "comments": 5,
-                "labels": [{"name": "good first issue"}],
+                "labels": [
+                    {"name": "good first issue"},
+                    {"name": "bug"},
+                    {"name": "help wanted"},
+                ],
                 "state": "open",
                 "created_at": "2026-05-20T12:34:56Z",
                 "updated_at": "2026-07-29T08:00:00Z",
@@ -105,7 +110,7 @@ class TestIssueManager:
             "title": "Test Issue",
             "url": "https://github.com/owner/repo/issues/1",
             "comments": 5,
-            "labels": ["good first issue"],
+            "labels": ["bug", "help wanted"],
             "created_at": "2026-05-20",
             "updated_at": "2026-07-29",
         }
@@ -305,7 +310,7 @@ class TestTemplateManager:
                 'title': 'Issue 1',
                 'url': 'https://example.com',
                 'comments': 5,
-                'labels': ['good first issue'],
+                'labels': ['bug'],
                 'created_at': '2024-01-01',
                 'updated_at': '2024-01-02',
             }
@@ -318,6 +323,51 @@ class TestTemplateManager:
             content = f.read()
         assert "owner/repo" in content
         assert "Python" in content
+
+    def test_write_output_csv_renders_labels_as_readable_text(self, tmp_path):
+        issues = [
+            {
+                'repo': 'owner/repo',
+                'language': 'Python',
+                'title': 'Issue 1',
+                'url': 'https://example.com',
+                'comments': 5,
+                'labels': ['bug', 'help wanted'],
+                'created_at': '2024-01-01',
+                'updated_at': '2024-01-02',
+            }
+        ]
+        output_file = str(tmp_path / "output.csv")
+
+        TemplateManager.write_output(issues, output_file)
+
+        with open(output_file, newline='', encoding='utf-8') as f:
+            rows = list(csv.DictReader(f))
+
+        assert rows[0]['labels'] == 'bug; help wanted'
+        assert '[' not in rows[0]['labels']
+
+    def test_write_output_csv_with_no_labels(self, tmp_path):
+        issues = [
+            {
+                'repo': 'owner/repo',
+                'language': 'Python',
+                'title': 'Issue 1',
+                'url': 'https://example.com',
+                'comments': 5,
+                'labels': [],
+                'created_at': '2024-01-01',
+                'updated_at': '2024-01-02',
+            }
+        ]
+        output_file = str(tmp_path / "output.csv")
+
+        TemplateManager.write_output(issues, output_file)
+
+        with open(output_file, newline='', encoding='utf-8') as f:
+            rows = list(csv.DictReader(f))
+
+        assert rows[0]['labels'] == ''
 
     def test_write_output_json(self, tmp_path):
         import json
