@@ -66,7 +66,7 @@ class IssueManager:
             issue['comments'] = raw_issue[1]['comments']
             issue['labels'] = [
                 l['name'] for l in raw_issue[1].get('labels', [])
-                if l['name'] != 'good first issue'
+                if l['name'].lower() != 'good first issue'
             ]
             # Keep only the date part (YYYY-MM-DD) of the ISO 8601 timestamps.
             issue['created_at'] = raw_issue[1].get('created_at', '')[:10]
