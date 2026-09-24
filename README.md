@@ -151,7 +151,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/terraform-provider-kubernetes | Go | [Add CSI Driver fsGroup Support](https://github.com/hashicorp/terraform-provider-kubernetes/issues/2702) | 2 | 2025-03-13 | 2026-07-02 |
 | hashicorp/terraform-provider-aws | Go | [[Docs]: A notation may cause confusion in import exmaple](https://github.com/hashicorp/terraform-provider-aws/issues/40935) | 2 | 2025-01-15 | 2025-03-25 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: Request warning for possible OpenSearch blue/green deployments](https://github.com/hashicorp/terraform-provider-aws/issues/40045) | 2 | 2024-11-07 | 2024-12-09 |
-| hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_redshiftserverless_namespace - manageAdminPassword/redshiftIdcApplicationArn](https://github.com/hashicorp/terraform-provider-aws/issues/35135) | 2 | 2024-01-04 | 2025-06-21 |
 | hashicorp/packer-plugin-openstack | Go | [Verify checksums of images imported via external_source_image_url](https://github.com/hashicorp/packer-plugin-openstack/issues/116) | 2 | 2023-11-23 | 2023-11-28 |
 | hashicorp/copywrite | Go | [Support overriding `ensureCorrectName` (e.g. support `LICENSE.md` instead of `LICENSE`)](https://github.com/hashicorp/copywrite/issues/101) | 2 | 2023-10-27 | 2023-10-31 |
 | hashicorp/packer-plugin-qemu | Go | [Support multiple accelerators](https://github.com/hashicorp/packer-plugin-qemu/issues/160) | 2 | 2023-10-05 | 2025-11-08 |
@@ -180,6 +179,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/terraform-provider-aws | Go | [aws_efs_replication_configuration is missing role-arn for cross-account-replication](https://github.com/hashicorp/terraform-provider-aws/issues/42814) | 3 | 2025-05-30 | 2025-12-09 |
 | hashicorp/terraform-provider-aws | Go | [[Bug]: SageMaker App Image Config: API rejects valid UID/GID pairs defined in provider schema](https://github.com/hashicorp/terraform-provider-aws/issues/40976) | 3 | 2025-01-17 | 2025-03-19 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_sagemaker_domain add Hidden Image Versions options to the studio_web_portal_settings](https://github.com/hashicorp/terraform-provider-aws/issues/39876) | 3 | 2024-10-24 | 2025-02-27 |
+| hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_redshiftserverless_namespace - manageAdminPassword/redshiftIdcApplicationArn](https://github.com/hashicorp/terraform-provider-aws/issues/35135) | 3 | 2024-01-04 | 2026-09-24 |
 | hashicorp/terraform-provider-vault | Go | [Update vault_kubernetes_auth_backend_role Resource to support allowed_kubernetes_namespace_selector Field](https://github.com/hashicorp/terraform-provider-vault/issues/1882) | 3 | 2023-06-02 | 2024-10-29 |
 | hashicorp/terraform-provider-azurerm | Go | [Private endpoint for databricks example has incorrect DNS resources](https://github.com/hashicorp/terraform-provider-azurerm/issues/14564) | 3 | 2021-12-09 | 2026-03-31 |
 | mattermost/mattermost-plugin-servicenow | Go | [Only allow user to select channels to add subscriptions to in which they are channel admins](https://github.com/mattermost/mattermost-plugin-servicenow/issues/188) | 3 | 2023-06-14 | 2026-04-08 |
@@ -475,7 +475,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/nanotron | Python | [[Bug] Missing `_is_using_mup` when resume checkpoint](https://github.com/huggingface/nanotron/issues/198) | 7 | 2024-06-14 | 2026-07-29 |
 | microsoft/hve-core | Python | [docs: Update stale documentation - .github/skills/project-planning/adr-author/references/lineage-rules.md](https://github.com/microsoft/hve-core/issues/2584) | 7 | 2026-08-03 | 2026-09-21 |
 | microsoft/onnxscript | Python | [Attention fusion (SDPA/MHA) broken for BART decoder with/wo past🐛](https://github.com/microsoft/onnxscript/issues/2424) | 7 | 2025-06-29 | 2026-03-01 |
-| microsoft/markitdown | Python | [File support: chm support](https://github.com/microsoft/markitdown/issues/14) | 7 | 2024-12-13 | 2026-06-10 |
 | huggingface/lerobot | Python | [Select the VLM backbone for SmolVLA](https://github.com/huggingface/lerobot/issues/2104) | 9 | 2025-10-02 | 2026-08-17 |
 | huggingface/lighteval | Python | [[EVAL] Adding PHARE](https://github.com/huggingface/lighteval/issues/696) | 9 | 2025-04-30 | 2026-07-16 |
 | huggingface/lerobot | Python | [Distributed v2.1 -> v3.0 conversion](https://github.com/huggingface/lerobot/issues/1998) | 10 | 2025-09-22 | 2026-06-10 |
@@ -523,6 +522,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/chat-macOS | Swift | [Add custom LLM API ](https://github.com/huggingface/chat-macOS/issues/18) | 5 | 2024-09-27 | 2025-02-14 |
 | huggingface/sam2-studio | Swift | [Video support estimated release date?](https://github.com/huggingface/sam2-studio/issues/25) | 26 | 2024-09-28 | 2026-01-31 |
 | microsoft/scope | TypeScript | [Allow editing Azure AI Foundry model](https://github.com/microsoft/scope/issues/1386) | 0 | 2026-08-31 | 2026-08-31 |
+| microsoft/scope | TypeScript | [Skill search box clears after each selection, forcing repeated typing for skills that share a keyword](https://github.com/microsoft/scope/issues/1284) | 0 | 2026-07-29 | 2026-09-24 |
 | microsoft/scope | TypeScript | [Document model lifecycle and deprecation process](https://github.com/microsoft/scope/issues/1275) | 0 | 2026-07-29 | 2026-07-29 |
 | microsoft/scope | TypeScript | [Token Manager: introduce a structured 'endpoint' secret type returning {endpoint, apiKey, deployment}](https://github.com/microsoft/scope/issues/912) | 0 | 2026-07-29 | 2026-07-29 |
 | microsoft/scope | TypeScript | [consider a different UX for the Run details UI](https://github.com/microsoft/scope/issues/765) | 0 | 2026-07-29 | 2026-07-29 |
