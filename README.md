@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-09-24</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-09-25</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -124,7 +124,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-confluence | Go | [Add per user Authentication for Confluence](https://github.com/mattermost/mattermost-plugin-confluence/issues/49) | 0 | 2020-05-04 | 2025-03-26 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Allow "create event" command to accept spaces in values](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/97) | 0 | 2020-04-26 | 2021-10-02 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Add mapped Mattermost users as attendees in CreateEvent API method](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/28) | 0 | 2020-01-29 | 2021-10-02 |
-| microsoft/TypeScript | Go | [Incorrect/unhelpful error message for non-module jsx file](https://github.com/microsoft/TypeScript/issues/64438) | 1 | 2026-09-24 | 2026-09-24 |
 | hashicorp/terraform-provider-aws | Go | [[Docs]: Document necessary dependency between aws_eks_access_entry and aws_eks_access_policy_association](https://github.com/hashicorp/terraform-provider-aws/issues/40951) | 1 | 2025-01-15 | 2025-02-05 |
 | hashicorp/packer-plugin-googlecompute | Go | [Add disk_attachment labels](https://github.com/hashicorp/packer-plugin-googlecompute/issues/210) | 1 | 2024-02-28 | 2026-07-26 |
 | hashicorp/packer-plugin-azure | Go | [Improve error messaging for "Managed Images not supporting ARM64 images error"](https://github.com/hashicorp/packer-plugin-azure/issues/367) | 1 | 2024-01-25 | 2024-08-28 |
@@ -140,6 +139,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-google-calendar | Go | [Improve error handling in `completeCalendar` to avoid panic](https://github.com/mattermost/mattermost-plugin-google-calendar/issues/8) | 1 | 2020-04-23 | 2021-10-02 |
 | mattermost/mattermost-plugin-github | Go | [Use custom post type to display TODO list](https://github.com/mattermost/mattermost-plugin-github/issues/86) | 1 | 2019-06-04 | 2021-10-02 |
 | kubernetes/minikube | Go | [cri-dockerd updated uses pre-release](https://github.com/kubernetes/minikube/issues/23581) | 2 | 2026-08-29 | 2026-09-05 |
+| microsoft/TypeScript | Go | [Incorrect/unhelpful error message for non-module jsx file](https://github.com/microsoft/TypeScript/issues/64438) | 2 | 2026-09-24 | 2026-09-25 |
 | hashicorp/terraform-provider-aws | Go | [`aws_backup_selection`: Clarify interaction between `resources` and `selection_tag` when `resources` includes a wildcard](https://github.com/hashicorp/terraform-provider-aws/issues/49829) | 2 | 2026-09-03 | 2026-09-03 |
 | hashicorp/terraform-provider-aws | Go | [aws_fms_policy resource_tag_logical_operator not correctly displaying diff during a plan](https://github.com/hashicorp/terraform-provider-aws/issues/47771) | 2 | 2026-05-05 | 2026-09-01 |
 | hashicorp/terraform-provider-aws | Go | [Add private DNS endpoint attribute to `aws_dsql_cluster` resource](https://github.com/hashicorp/terraform-provider-aws/issues/47596) | 2 | 2026-04-23 | 2026-04-28 |
@@ -168,7 +168,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-github | Go | [Create Issue modal should disable labels etc instead of hiding the elements](https://github.com/mattermost/mattermost-plugin-github/issues/438) | 2 | 2021-04-17 | 2026-09-02 |
 | mattermost/mattermost-plugin-github | Go | [Support filtering of repositories in RHS](https://github.com/mattermost/mattermost-plugin-github/issues/265) | 2 | 2020-05-13 | 2026-02-17 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Improve Daily Summary weekday setup](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/56) | 2 | 2020-03-16 | 2021-10-02 |
-| kubernetes/minikube | Go | [Run `make lint` on all os/arch variants](https://github.com/kubernetes/minikube/issues/23746) | 3 | 2026-09-19 | 2026-09-24 |
 | microsoft/retina | Go | [Update documentation with Hubble CLI and Hubble UI deployment instructions on Retina.](https://github.com/microsoft/retina/issues/1387) | 3 | 2025-02-26 | 2025-05-13 |
 | hashicorp/terraform-provider-aws | Go | [aws_cloudwatch_event_target has incorrect examples.](https://github.com/hashicorp/terraform-provider-aws/issues/49798) | 3 | 2026-09-02 | 2026-09-11 |
 | hashicorp/terraform-provider-aws | Go | [data/aws_bedrock_foundation_model: modelLifecycle attribute not exposed](https://github.com/hashicorp/terraform-provider-aws/issues/47779) | 3 | 2026-05-06 | 2026-05-31 |
@@ -337,7 +336,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | layer5io/layer5 | JavaScript | [Layout shift when opening the “Meet Five” card](https://github.com/layer5io/layer5/issues/8084) | 4 | 2026-09-18 | 2026-09-18 |
 | layer5io/recognition | JavaScript | [[Feature] Add meta social preview image and Open Graph / Twitter tags for badges.layer5.io](https://github.com/layer5io/recognition/issues/111) | 4 | 2026-09-09 | 2026-09-10 |
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Contributing needs work](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/112) | 4 | 2017-12-02 | 2018-03-24 |
-| layer5io/layer5 | JavaScript | [Fix card animation not triggering automatically on mobile](https://github.com/layer5io/layer5/issues/8093) | 5 | 2026-09-19 | 2026-09-20 |
 | layer5io/layer5 | JavaScript | [[UI]: Oversized GitHub octocat icon on "What is GitOps?" resource page](https://github.com/layer5io/layer5/issues/7963) | 5 | 2026-08-16 | 2026-09-09 |
 | layer5io/docs | JavaScript | [[Docs] Improve Related Docs Links in Pinning Models to Dock Page](https://github.com/layer5io/docs/issues/1028) | 5 | 2026-05-11 | 2026-06-11 |
 | layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 3](https://github.com/layer5io/docs/issues/793) | 5 | 2025-08-21 | 2025-09-04 |
@@ -349,6 +347,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | layer5io/layer5 | JavaScript | [[Screenshots] Chaos Mesh under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4867) | 7 | 2023-09-07 | 2026-03-22 |
 | huggingface/transformers.js | JavaScript | [[Doc request] Add an example guide of how to use it in Svelte (and deploy to HF Spaces)](https://github.com/huggingface/transformers.js/issues/171) | 7 | 2023-06-29 | 2023-08-21 |
 | EddieHubCommunity/EddieHubCommunity.github.io | JavaScript | [Add Issue Templates](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/issues/211) | 7 | 2021-10-04 | 2024-04-23 |
+| layer5io/layer5 | JavaScript | [Fix card animation not triggering automatically on mobile](https://github.com/layer5io/layer5/issues/8093) | 8 | 2026-09-19 | 2026-09-25 |
 | layer5io/layer5 | JavaScript | [Mobile navigation menu contains invalid nesting](https://github.com/layer5io/layer5/issues/7484) | 8 | 2026-03-11 | 2026-03-21 |
 | layer5io/layer5 | JavaScript | [[CI] Create or add to existing workflow: a broken link checker](https://github.com/layer5io/layer5/issues/6407) | 8 | 2025-04-25 | 2026-09-09 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Fluentbit Operator under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/5333) | 8 | 2024-01-23 | 2025-07-29 |
@@ -406,7 +405,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | godotengine/godot-asset-library | PHP | [Sanitize inputs for Asset data/fields, like URLs](https://github.com/godotengine/godot-asset-library/issues/204) | 5 | 2020-03-08 | 2021-11-03 |
 | huggingface/optimum-executorch | Python | [Add benchmarking numbers for more models](https://github.com/huggingface/optimum-executorch/issues/131) | 0 | 2025-09-02 | 2025-09-02 |
 | microsoft/hve-core | Python | [docs: update BRD/PRD Builder docs for RPI Research/Plan/Implement integration](https://github.com/microsoft/hve-core/issues/2999) | 0 | 2026-09-24 | 2026-09-24 |
-| microsoft/teams-agent-accelerator-libs-py | Python | [Expose the ability to add memory explicitly](https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/57) | 0 | 2024-12-16 | 2025-01-06 |
 | hashicorp/nomad-openapi | Python | [chore: rename JobName parameter](https://github.com/hashicorp/nomad-openapi/issues/90) | 0 | 2022-01-31 | 2022-01-31 |
 | huggingface/lighteval | Python | [[EVAL] Add kyrgyzLLM benchmark](https://github.com/huggingface/lighteval/issues/1036) | 1 | 2025-11-04 | 2025-11-20 |
 | huggingface/lighteval | Python | [[BUG]  Optimize tokenization](https://github.com/huggingface/lighteval/issues/732) | 1 | 2025-05-15 | 2026-06-21 |
@@ -482,7 +480,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/lerobot | Python | [Distributed v2.1 -> v3.0 conversion](https://github.com/huggingface/lerobot/issues/1998) | 10 | 2025-09-22 | 2026-06-10 |
 | huggingface/lighteval | Python | [[EVAL] Add TUMLU benchmark](https://github.com/huggingface/lighteval/issues/577) | 10 | 2025-02-19 | 2025-05-15 |
 | huggingface/datasets | Python | [WMT21 & WMT22](https://github.com/huggingface/datasets/issues/4709) | 10 | 2022-07-18 | 2026-02-26 |
-| huggingface/accelerate | Python | [[Community Contributions] examples on distributed inference using 🤗 Accelerate](https://github.com/huggingface/accelerate/issues/3078) | 11 | 2024-09-04 | 2026-09-09 |
 | huggingface/diffusers | Python | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 11 | 2024-06-07 | 2026-09-19 |
 | huggingface/diffusers | Python | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 15 | 2024-10-10 | 2026-09-01 |
 | microsoft/data-formulator | Python | [Create new data loaders to different resources](https://github.com/microsoft/data-formulator/issues/156) | 15 | 2025-05-13 | 2025-12-11 |
@@ -496,7 +493,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 32 | 2023-09-29 | 2026-09-18 |
 | microsoft/autogen | Python | [Get current message thread from a group chat team.](https://github.com/microsoft/autogen/issues/6085) | 32 | 2025-03-24 | 2026-09-01 |
 | microsoft/autogen | Python | [open needs encoding='utf-8' for non-english environment, error in playwright_controller.py](https://github.com/microsoft/autogen/issues/5566) | 34 | 2025-02-16 | 2026-09-12 |
-| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 161 | 2025-01-07 | 2026-09-21 |
+| huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 163 | 2025-01-07 | 2026-09-25 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 | 2024-04-17 | 2024-04-17 |
 | microsoft/openvmm | Rust | [remove usages of futures::select! in the repo with futures_concurrency](https://github.com/microsoft/openvmm/issues/1246) | 0 | 2025-04-25 | 2025-06-21 |
 | microsoft/windows-drivers-rs | Rust | [Migrate from fs4 to std::File flocks](https://github.com/microsoft/windows-drivers-rs/issues/300) | 0 | 2025-02-20 | 2025-08-15 |
@@ -522,13 +519,13 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/chat-macOS | Swift | [Asking "what time is it?" will always return the local time of Paris, regardless of your location (⌘R+)](https://github.com/huggingface/chat-macOS/issues/7) | 2 | 2024-09-24 | 2024-10-23 |
 | huggingface/chat-macOS | Swift | [Add custom LLM API ](https://github.com/huggingface/chat-macOS/issues/18) | 5 | 2024-09-27 | 2025-02-14 |
 | huggingface/sam2-studio | Swift | [Video support estimated release date?](https://github.com/huggingface/sam2-studio/issues/25) | 26 | 2024-09-28 | 2026-01-31 |
+| microsoft/vscode-python-environments | TypeScript | [CI: Update docs when API changes](https://github.com/microsoft/vscode-python-environments/issues/1818) | 0 | 2026-09-24 | 2026-09-24 |
 | microsoft/scope | TypeScript | [Allow editing Azure AI Foundry model](https://github.com/microsoft/scope/issues/1386) | 0 | 2026-08-31 | 2026-08-31 |
-| microsoft/scope | TypeScript | [Skill search box clears after each selection, forcing repeated typing for skills that share a keyword](https://github.com/microsoft/scope/issues/1284) | 0 | 2026-07-29 | 2026-09-24 |
-| microsoft/scope | TypeScript | [Document model lifecycle and deprecation process](https://github.com/microsoft/scope/issues/1275) | 0 | 2026-07-29 | 2026-07-29 |
-| microsoft/scope | TypeScript | [Token Manager: introduce a structured 'endpoint' secret type returning {endpoint, apiKey, deployment}](https://github.com/microsoft/scope/issues/912) | 0 | 2026-07-29 | 2026-07-29 |
-| microsoft/scope | TypeScript | [consider a different UX for the Run details UI](https://github.com/microsoft/scope/issues/765) | 0 | 2026-07-29 | 2026-07-29 |
-| microsoft/scope | TypeScript | [chore: factorize shared integration test code across ACP workers](https://github.com/microsoft/scope/issues/650) | 0 | 2026-07-29 | 2026-07-29 |
-| microsoft/scope | TypeScript | [The workspace snapshot archive should include the dot files and dot folders](https://github.com/microsoft/scope/issues/606) | 0 | 2026-07-29 | 2026-07-29 |
+| microsoft/scope | TypeScript | [Skill search box clears after each selection, forcing repeated typing for skills that share a keyword](https://github.com/microsoft/scope/issues/1284) | 0 | 2026-07-29 | 2026-09-25 |
+| microsoft/scope | TypeScript | [Document model lifecycle and deprecation process](https://github.com/microsoft/scope/issues/1275) | 0 | 2026-07-29 | 2026-09-25 |
+| microsoft/scope | TypeScript | [Token Manager: introduce a structured 'endpoint' secret type returning {endpoint, apiKey, deployment}](https://github.com/microsoft/scope/issues/912) | 0 | 2026-07-29 | 2026-09-25 |
+| microsoft/scope | TypeScript | [consider a different UX for the Run details UI](https://github.com/microsoft/scope/issues/765) | 0 | 2026-07-29 | 2026-09-25 |
+| microsoft/scope | TypeScript | [chore: factorize shared integration test code across ACP workers](https://github.com/microsoft/scope/issues/650) | 0 | 2026-07-29 | 2026-09-25 |
 | microsoft/Agent365-nodejs | TypeScript | [Convert "test-agents" into E2E tests](https://github.com/microsoft/Agent365-nodejs/issues/15) | 0 | 2025-10-29 | 2025-10-29 |
 | microsoft/vscode-jupyter | TypeScript | [Add magic line comments regex pattern as configuration for uncommentMagicCommands](https://github.com/microsoft/vscode-jupyter/issues/16499) | 0 | 2025-03-24 | 2025-03-24 |
 | microsoft/vscode-azurestorage | TypeScript | [There is a redundant Azure activity log "upload 0 files to xxx" when uploading a folder by "Upload to Azure Storage..." command](https://github.com/microsoft/vscode-azurestorage/issues/1373) | 0 | 2025-01-22 | 2025-09-09 |
@@ -600,9 +597,10 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | decentraland/atlas-server | TypeScript | [Add a redirect or message with a link to the documentation at /](https://github.com/decentraland/atlas-server/issues/3) | 0 | 2020-12-14 | 2020-12-14 |
 | decentraland/builder | TypeScript | [Add a way to de-assign a Name from a Land (Parcel/Estate) from the table](https://github.com/decentraland/builder/issues/1203) | 0 | 2020-12-10 | 2022-10-31 |
 | microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Import September 2026 release fails during ACP/DLP evaluation even though connectors are available.](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/858) | 1 | 2026-09-09 | 2026-09-10 |
-| microsoft/scope | TypeScript | [Clarify that prompt features only categorize prompts, don't impact runs](https://github.com/microsoft/scope/issues/1276) | 1 | 2026-07-29 | 2026-09-22 |
-| microsoft/scope | TypeScript | [Improve UX when listing all runs](https://github.com/microsoft/scope/issues/766) | 1 | 2026-07-29 | 2026-07-29 |
-| microsoft/scope | TypeScript | [In the HAR view, when inspecting a row down the list, the detail informations on the right should stay visible](https://github.com/microsoft/scope/issues/740) | 1 | 2026-07-29 | 2026-09-20 |
+| microsoft/scope | TypeScript | [Clarify that prompt features only categorize prompts, don't impact runs](https://github.com/microsoft/scope/issues/1276) | 1 | 2026-07-29 | 2026-09-25 |
+| microsoft/scope | TypeScript | [Improve UX when listing all runs](https://github.com/microsoft/scope/issues/766) | 1 | 2026-07-29 | 2026-09-25 |
+| microsoft/scope | TypeScript | [In the HAR view, when inspecting a row down the list, the detail informations on the right should stay visible](https://github.com/microsoft/scope/issues/740) | 1 | 2026-07-29 | 2026-09-25 |
+| microsoft/scope | TypeScript | [The workspace snapshot archive should include the dot files and dot folders](https://github.com/microsoft/scope/issues/606) | 1 | 2026-07-29 | 2026-09-25 |
 | microsoft/genaiscript | TypeScript | [Open Telemetry](https://github.com/microsoft/genaiscript/issues/1323) | 1 | 2025-03-19 | 2025-03-19 |
 | microsoft/vscode-python-debugger | TypeScript | [Add a `debugpy.sh` for the no-config debugging](https://github.com/microsoft/vscode-python-debugger/issues/651) | 1 | 2025-03-05 | 2026-01-10 |
 | microsoft/Game-Control-Puzzle-Event-Administration-Tools | TypeScript | [Per team and per puzzle activity feeds](https://github.com/microsoft/Game-Control-Puzzle-Event-Administration-Tools/issues/81) | 1 | 2025-03-02 | 2026-09-11 |
@@ -659,11 +657,11 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost | TypeScript | [Mobile \| Inconsistant channel updated info message on web and mobile](https://github.com/mattermost/mattermost/issues/26917) | 15 | 2024-04-29 | 2026-05-21 |
 | freeCodeCamp/chapter | TypeScript | [Good first issues](https://github.com/freeCodeCamp/chapter/issues/691) | 18 | 2021-08-18 | 2025-09-25 |
 | mattermost/mattermost | TypeScript | [Mobile Web View: Text is cut off in channel dropdown > channel actions](https://github.com/mattermost/mattermost/issues/25165) | 19 | 2023-10-26 | 2026-06-22 |
-| mattermost/mattermost | TypeScript | [Increase max height of the Find Channels modal](https://github.com/mattermost/mattermost/issues/21558) | 22 | 2022-10-31 | 2026-08-18 |
+| mattermost/mattermost | TypeScript | [Increase max height of the Find Channels modal](https://github.com/mattermost/mattermost/issues/21558) | 24 | 2022-10-31 | 2026-09-25 |
 | mattermost/mattermost | TypeScript | [Improve the grammar on Account Creation Screen if the email address you entered does not belong to the accepted domain](https://github.com/mattermost/mattermost/issues/15927) | 25 | 2020-10-12 | 2026-08-25 |
 | mattermost/mattermost | TypeScript | [`Unable to find manifest for extracted plugin` when using `make deploy`](https://github.com/mattermost/mattermost/issues/22614) | 27 | 2023-03-23 | 2023-08-11 |
 | mattermost/mattermost | TypeScript | [Fix all initialism errors in the codebase](https://github.com/mattermost/mattermost/issues/16623) | 27 | 2021-01-04 | 2025-11-24 |
 | microsoft/vscode | TypeScript | [Review AsyncIterableObject usage: potential memory leaks and migration to AsyncIterableProducer](https://github.com/microsoft/vscode/issues/256854) | 32 | 2025-07-19 | 2026-09-24 |
-| mattermost/mattermost | TypeScript | [Mobile: Slight horizontal indent difference after first line](https://github.com/mattermost/mattermost/issues/27377) | 39 | 2024-06-17 | 2026-09-14 |
 | microsoft/vscode | TypeScript | [Disabled and enabled (workspace) extension Disable button dropdown contains both "Disable" and "Disable (Workspace)" items](https://github.com/microsoft/vscode/issues/244138) | 40 | 2025-03-20 | 2026-09-01 |
+| mattermost/mattermost | TypeScript | [Mobile: Slight horizontal indent difference after first line](https://github.com/mattermost/mattermost/issues/27377) | 42 | 2024-06-17 | 2026-09-25 |
 | godotengine/godot-docs | reStructuredText | [Physics2DDirectSpaceState does not specify local or global coordinates](https://github.com/godotengine/godot-docs/issues/3299) | 2 | 2020-03-24 | 2026-02-05 |
