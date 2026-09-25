@@ -339,7 +339,7 @@ godotengine/godot-asset-library,PHP,"keep the content of the submition form when
 godotengine/godot-asset-library,PHP,A way to cancel edit requests,https://github.com/godotengine/godot-asset-library/issues/149,3,enhancement,2018-06-27,2020-05-07
 godotengine/godot-asset-library,PHP,"Sanitize inputs for Asset data/fields, like URLs",https://github.com/godotengine/godot-asset-library/issues/204,5,bug; topic:backend,2020-03-08,2021-11-03
 huggingface/optimum-executorch,Python,Add benchmarking numbers for more models,https://github.com/huggingface/optimum-executorch/issues/131,0,help wanted,2025-09-02,2025-09-02
-microsoft/hve-core,Python,docs: update BRD/PRD Builder docs for RPI Research/Plan/Implement integration,https://github.com/microsoft/hve-core/issues/2999,0,documentation; needs-triage; agent-ready,2026-09-24,2026-09-24
+microsoft/teams-agent-accelerator-libs-py,Python,Expose the ability to add memory explicitly,https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/57,0,,2024-12-16,2025-01-06
 hashicorp/nomad-openapi,Python,chore: rename JobName parameter,https://github.com/hashicorp/nomad-openapi/issues/90,0,enhancement,2022-01-31,2022-01-31
 huggingface/lighteval,Python,[EVAL] Add kyrgyzLLM benchmark,https://github.com/huggingface/lighteval/issues/1036,1,new-task,2025-11-04,2025-11-20
 huggingface/lighteval,Python,[BUG]  Optimize tokenization,https://github.com/huggingface/lighteval/issues/732,1,bug; help wanted; science-team,2025-05-15,2026-06-21
@@ -419,7 +419,7 @@ huggingface/diffusers,Python,Support multiple control nets in the `StableDiffusi
 huggingface/diffusers,Python,[Flux ControlNet] Add support for de-distilled models with CFG,https://github.com/huggingface/diffusers/issues/9635,15,contributions-welcome,2024-10-10,2026-09-01
 microsoft/data-formulator,Python,Create new data loaders to different resources,https://github.com/microsoft/data-formulator/issues/156,15,help wanted,2025-05-13,2025-12-11
 huggingface/diffusers,Python,[Pipeline] AnimateDiff + SparseControl + ControlNet,https://github.com/huggingface/diffusers/issues/9329,17,community-examples; contributions-welcome; consider-for-modular-diffusers,2024-08-30,2026-09-09
-huggingface/lerobot,Python,Make policies compatible with torch.compile,https://github.com/huggingface/lerobot/issues/2061,18,enhancement; performance,2025-09-26,2026-03-23
+huggingface/lerobot,Python,Make policies compatible with torch.compile,https://github.com/huggingface/lerobot/issues/2061,19,enhancement; performance,2025-09-26,2026-09-25
 huggingface/datasets,Python,"Consider using ""Sequence"" instead of ""List""",https://github.com/huggingface/datasets/issues/5354,19,enhancement,2022-12-12,2026-09-02
 huggingface/diffusers,Python,Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines,https://github.com/huggingface/diffusers/issues/6969,22,bug; help wanted; wip; contributions-welcome,2024-02-13,2025-10-31
 huggingface/optimum,Python,Add all available ONNX models to ORTConfigManager,https://github.com/huggingface/optimum/issues/351,23,,2022-08-16,2026-09-22
