@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-09-25</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-09-26</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -319,7 +319,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/copilot-for-eclipse | Java | [The Copilot Chat view retains file context even after the file is closed](https://github.com/microsoft/copilot-for-eclipse/issues/277) | 0 | 2026-06-05 | 2026-06-05 |
 | microsoft/typespec | Java | [testing: expectDiagnostics() should provide an option to ignore ordering](https://github.com/microsoft/typespec/issues/5818) | 3 | 2025-01-30 | 2025-05-23 |
 | microsoft/copilot-for-eclipse | Java | [Unable to use the Java source file corresponding to the class file as context](https://github.com/microsoft/copilot-for-eclipse/issues/117) | 13 | 2026-04-15 | 2026-06-25 |
-| layer5io/layer5 | JavaScript | [Layer5 Acadmey svg's pillar not visible in the light mode](https://github.com/layer5io/layer5/issues/8079) | 1 | 2026-09-17 | 2026-09-17 |
 | layer5io/docs | JavaScript | [[Bug] Image not rendering correctly](https://github.com/layer5io/docs/issues/1207) | 1 | 2026-08-15 | 2026-08-15 |
 | mattermost/mattermost-plugin-gitlab | JavaScript | [Convert link_tooltip component to typescript](https://github.com/mattermost/mattermost-plugin-gitlab/issues/424) | 1 | 2023-12-19 | 2025-11-01 |
 | layer5io/layer5 | JavaScript | [[Event] KubeCon NA 2026](https://github.com/layer5io/layer5/issues/8100) | 2 | 2026-09-20 | 2026-09-21 |
@@ -404,7 +403,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | godotengine/godot-asset-library | PHP | [A way to cancel edit requests](https://github.com/godotengine/godot-asset-library/issues/149) | 3 | 2018-06-27 | 2020-05-07 |
 | godotengine/godot-asset-library | PHP | [Sanitize inputs for Asset data/fields, like URLs](https://github.com/godotengine/godot-asset-library/issues/204) | 5 | 2020-03-08 | 2021-11-03 |
 | huggingface/optimum-executorch | Python | [Add benchmarking numbers for more models](https://github.com/huggingface/optimum-executorch/issues/131) | 0 | 2025-09-02 | 2025-09-02 |
-| microsoft/teams-agent-accelerator-libs-py | Python | [Expose the ability to add memory explicitly](https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/57) | 0 | 2024-12-16 | 2025-01-06 |
 | hashicorp/nomad-openapi | Python | [chore: rename JobName parameter](https://github.com/hashicorp/nomad-openapi/issues/90) | 0 | 2022-01-31 | 2022-01-31 |
 | huggingface/lighteval | Python | [[EVAL] Add kyrgyzLLM benchmark](https://github.com/huggingface/lighteval/issues/1036) | 1 | 2025-11-04 | 2025-11-20 |
 | huggingface/lighteval | Python | [[BUG]  Optimize tokenization](https://github.com/huggingface/lighteval/issues/732) | 1 | 2025-05-15 | 2026-06-21 |
@@ -416,6 +414,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/dataset-viewer | Python | [Use `revision_exists` (hfh)](https://github.com/huggingface/dataset-viewer/issues/2562) | 1 | 2024-03-08 | 2025-07-01 |
 | huggingface/nanotron | Python | [[Feature] Refactor `ParallelContext.world_rank_matrix`](https://github.com/huggingface/nanotron/issues/77) | 1 | 2024-02-19 | 2026-08-25 |
 | huggingface/nanotron | Python | [[Feature Request] Add simple communications benchmarks to the repo](https://github.com/huggingface/nanotron/issues/43) | 1 | 2024-01-25 | 2024-01-25 |
+| microsoft/hve-core | Python | [docs: update workflows.md for slide deck Node test discovery](https://github.com/microsoft/hve-core/issues/3012) | 1 | 2026-09-25 | 2026-09-26 |
 | microsoft/hve-core | Python | [docs: update system-architecture-reviewer.md for Architecture Review Record and Research activation](https://github.com/microsoft/hve-core/issues/2997) | 1 | 2026-09-24 | 2026-09-24 |
 | microsoft/nvx | Python | [setup: consume tool versions from a canonical manifest](https://github.com/microsoft/nvx/issues/129) | 1 | 2026-09-19 | 2026-09-19 |
 | microsoft/hve-core | Python | [docs: Update stale documentation - docs/planning/brds/sssc-planner-security-brd.md](https://github.com/microsoft/hve-core/issues/2912) | 1 | 2026-09-14 | 2026-09-21 |
@@ -509,7 +508,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | godotengine/discourse-theme | SCSS | [Categories are not rounded on mobile](https://github.com/godotengine/discourse-theme/issues/3) | 0 | 2023-11-23 | 2023-12-10 |
 | godotengine/discourse-theme | SCSS | [Search bar should not cover full width on mobile](https://github.com/godotengine/discourse-theme/issues/2) | 0 | 2023-11-23 | 2023-12-10 |
 | godotengine/discourse-theme | SCSS | [Remove the "Sign Up" button from navbar](https://github.com/godotengine/discourse-theme/issues/15) | 2 | 2024-04-10 | 2024-04-10 |
-| layer5io/discuss-theme | SCSS | [Responsive UI issue in Discuss footer on mobile](https://github.com/layer5io/discuss-theme/issues/14) | 7 | 2026-09-18 | 2026-09-19 |
 | mattermost/mattermost-gitpod-config | Shell | [If a the workspace repo doesn't define `.gitpod/*.sh` files, we shouldn't try to run them](https://github.com/mattermost/mattermost-gitpod-config/issues/50) | 0 | 2023-11-28 | 2023-11-28 |
 | mattermost/mattermost-gitpod-config | Shell | [Improve development flow of opening the Mattermost webapp automatically](https://github.com/mattermost/mattermost-gitpod-config/issues/49) | 0 | 2023-11-28 | 2023-11-28 |
 | layer5io/trigger-remote-provider-action | Shell | [to fix error in "Slack Notify on Star" Job under GitHub Actions ](https://github.com/layer5io/trigger-remote-provider-action/issues/12) | 4 | 2023-09-27 | 2026-03-22 |
@@ -525,7 +523,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/scope | TypeScript | [Document model lifecycle and deprecation process](https://github.com/microsoft/scope/issues/1275) | 0 | 2026-07-29 | 2026-09-25 |
 | microsoft/scope | TypeScript | [Token Manager: introduce a structured 'endpoint' secret type returning {endpoint, apiKey, deployment}](https://github.com/microsoft/scope/issues/912) | 0 | 2026-07-29 | 2026-09-25 |
 | microsoft/scope | TypeScript | [consider a different UX for the Run details UI](https://github.com/microsoft/scope/issues/765) | 0 | 2026-07-29 | 2026-09-25 |
-| microsoft/scope | TypeScript | [chore: factorize shared integration test code across ACP workers](https://github.com/microsoft/scope/issues/650) | 0 | 2026-07-29 | 2026-09-25 |
 | microsoft/Agent365-nodejs | TypeScript | [Convert "test-agents" into E2E tests](https://github.com/microsoft/Agent365-nodejs/issues/15) | 0 | 2025-10-29 | 2025-10-29 |
 | microsoft/vscode-jupyter | TypeScript | [Add magic line comments regex pattern as configuration for uncommentMagicCommands](https://github.com/microsoft/vscode-jupyter/issues/16499) | 0 | 2025-03-24 | 2025-03-24 |
 | microsoft/vscode-azurestorage | TypeScript | [There is a redundant Azure activity log "upload 0 files to xxx" when uploading a folder by "Upload to Azure Storage..." command](https://github.com/microsoft/vscode-azurestorage/issues/1373) | 0 | 2025-01-22 | 2025-09-09 |
@@ -600,6 +597,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/scope | TypeScript | [Clarify that prompt features only categorize prompts, don't impact runs](https://github.com/microsoft/scope/issues/1276) | 1 | 2026-07-29 | 2026-09-25 |
 | microsoft/scope | TypeScript | [Improve UX when listing all runs](https://github.com/microsoft/scope/issues/766) | 1 | 2026-07-29 | 2026-09-25 |
 | microsoft/scope | TypeScript | [In the HAR view, when inspecting a row down the list, the detail informations on the right should stay visible](https://github.com/microsoft/scope/issues/740) | 1 | 2026-07-29 | 2026-09-25 |
+| microsoft/scope | TypeScript | [chore: factorize shared integration test code across ACP workers](https://github.com/microsoft/scope/issues/650) | 1 | 2026-07-29 | 2026-09-26 |
 | microsoft/scope | TypeScript | [The workspace snapshot archive should include the dot files and dot folders](https://github.com/microsoft/scope/issues/606) | 1 | 2026-07-29 | 2026-09-25 |
 | microsoft/genaiscript | TypeScript | [Open Telemetry](https://github.com/microsoft/genaiscript/issues/1323) | 1 | 2025-03-19 | 2025-03-19 |
 | microsoft/vscode-python-debugger | TypeScript | [Add a `debugpy.sh` for the no-config debugging](https://github.com/microsoft/vscode-python-debugger/issues/651) | 1 | 2025-03-05 | 2026-01-10 |
