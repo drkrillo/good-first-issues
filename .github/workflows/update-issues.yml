@@ -35,7 +35,7 @@ jobs:
             --input good_first_issues.csv
 
       - name: Upload CSV artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: good-first-issues
           path: good_first_issues.csv
