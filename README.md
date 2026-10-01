@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-09-30</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-10-01</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -298,8 +298,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/kubernetes-api.md into Japanese](https://github.com/kubernetes/website/issues/56851) | 2 | 2026-08-08 | 2026-08-10 |
 | cncf/glossary | HTML | [[ru] Localize `Service` into Russian](https://github.com/cncf/glossary/issues/3334) | 2 | 2024-10-17 | 2025-03-03 |
 | cncf/tag-app-delivery | HTML | [Automation of tag-app-delivery repo](https://github.com/cncf/tag-app-delivery/issues/566) | 3 | 2024-02-27 | 2024-06-22 |
-| kubernetes/website | HTML | [[ko] Translate content/en/docs/concepts/storage/ephemeral-storage.md into Korean](https://github.com/kubernetes/website/issues/56982) | 4 | 2026-08-14 | 2026-09-29 |
 | cncf/tag-security | HTML | [[Suggestion] Working Group Landing Page](https://github.com/cncf/tag-security/issues/1354) | 4 | 2024-08-23 | 2025-07-19 |
+| kubernetes/website | HTML | [[ko] Translate content/en/docs/concepts/storage/ephemeral-storage.md into Korean](https://github.com/kubernetes/website/issues/56982) | 5 | 2026-08-14 | 2026-10-01 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/pod-disruption-budget.md into Japanese](https://github.com/kubernetes/website/issues/56853) | 7 | 2026-08-08 | 2026-09-20 |
 | cncf/tag-observability | HTML | [WG: Create GitHub Pages site for TAG Observability](https://github.com/cncf/tag-observability/issues/39) | 7 | 2021-05-12 | 2023-11-21 |
 | kubernetes/website | HTML | [[hi] Localize Network Policy Provider page](https://github.com/kubernetes/website/issues/47439) | 8 | 2024-08-11 | 2026-07-09 |
@@ -327,10 +327,10 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | EddieHubCommunity/RepoRater | JavaScript | [[BUG] Update the preview in the readme](https://github.com/EddieHubCommunity/RepoRater/issues/152) | 2 | 2024-08-02 | 2024-09-03 |
 | freeCodeCamp/classroom | JavaScript | [Bug: Classrooms can be created with no certifications](https://github.com/freeCodeCamp/classroom/issues/551) | 2 | 2025-10-12 | 2026-08-08 |
 | freeCodeCamp/classroom | JavaScript | [Bug: /classes page crashes if the mock-fcc-data endpoint is not running](https://github.com/freeCodeCamp/classroom/issues/533) | 2 | 2024-12-31 | 2026-04-28 |
-| layer5io/layer5 | JavaScript | [Community Membership paragraph alignment issue](https://github.com/layer5io/layer5/issues/8085) | 3 | 2026-09-18 | 2026-09-18 |
 | layer5io/docs | JavaScript | [[Docs] Floating Card Overlapping Navbar](https://github.com/layer5io/docs/issues/1187) | 3 | 2026-08-06 | 2026-08-06 |
 | layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 4](https://github.com/layer5io/docs/issues/794) | 3 | 2025-08-21 | 2025-09-04 |
 | layer5io/docs | JavaScript | [Screen capture includes Grammarly](https://github.com/layer5io/docs/issues/543) | 3 | 2025-05-06 | 2026-08-11 |
+| layer5io/layer5 | JavaScript | [Community Membership paragraph alignment issue](https://github.com/layer5io/layer5/issues/8085) | 4 | 2026-09-18 | 2026-10-01 |
 | layer5io/layer5 | JavaScript | [Layout shift when opening the “Meet Five” card](https://github.com/layer5io/layer5/issues/8084) | 4 | 2026-09-18 | 2026-09-18 |
 | layer5io/recognition | JavaScript | [[Feature] Add meta social preview image and Open Graph / Twitter tags for badges.layer5.io](https://github.com/layer5io/recognition/issues/111) | 4 | 2026-09-09 | 2026-09-10 |
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Contributing needs work](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/112) | 4 | 2017-12-02 | 2018-03-24 |
@@ -377,13 +377,13 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | layer5io/layer5 | JavaScript | [[UX] Visual Design needed for incorporation of Writing Program into Internship Programs page](https://github.com/layer5io/layer5/issues/4918) | 39 | 2023-09-15 | 2026-05-15 |
 | cncf/landscape-graph | Jupyter Notebook | [Create full-text indices (Lucene) for relationships' properties](https://github.com/cncf/landscape-graph/issues/20) | 0 | 2022-04-17 | 2022-04-21 |
 | cncf/landscape-graph | Jupyter Notebook | [Spike: Visualization Tools & Libraries](https://github.com/cncf/landscape-graph/issues/72) | 1 | 2022-04-30 | 2023-09-29 |
-| cncf/landscape-graph | Jupyter Notebook | [create apps/landscape-introspector (introspector docs, example)](https://github.com/cncf/landscape-graph/issues/51) | 1 | 2022-04-26 | 2022-08-21 |
 | cncf/landscape-graph | Jupyter Notebook | [Create gource visualizations for all cncf project related repos](https://github.com/cncf/landscape-graph/issues/21) | 1 | 2022-04-17 | 2023-01-28 |
 | huggingface/optimum-intel | Jupyter Notebook | [Fix conversion of ltx_video models in bf16 format](https://github.com/huggingface/optimum-intel/issues/1614) | 2 | 2026-02-13 | 2026-02-17 |
 | cncf/landscape-graph | Jupyter Notebook | [Automatically generate GH Issue Labels for all Sub-Graph Modules](https://github.com/cncf/landscape-graph/issues/84) | 2 | 2022-07-15 | 2026-01-14 |
 | cncf/landscape-graph | Jupyter Notebook | [Docs: list jetbrains graph db plugin in dev setup](https://github.com/cncf/landscape-graph/issues/82) | 2 | 2022-05-08 | 2026-08-22 |
+| cncf/landscape-graph | Jupyter Notebook | [create apps/landscape-introspector (introspector docs, example)](https://github.com/cncf/landscape-graph/issues/51) | 2 | 2022-04-26 | 2026-10-01 |
 | huggingface/optimum-intel | Jupyter Notebook | [Add tests which check, that required transformations are applied](https://github.com/huggingface/optimum-intel/issues/1645) | 4 | 2026-03-23 | 2026-03-24 |
-| cncf/landscape-graph | Jupyter Notebook | [Implement autogenerated mocks for GraphQL API from schema](https://github.com/cncf/landscape-graph/issues/103) | 4 | 2022-09-03 | 2024-11-13 |
+| cncf/landscape-graph | Jupyter Notebook | [Implement autogenerated mocks for GraphQL API from schema](https://github.com/cncf/landscape-graph/issues/103) | 5 | 2022-09-03 | 2026-10-01 |
 | cncf/landscape-graph | Jupyter Notebook | [Create documentation site (GitHub Pages or Netlify) using Docusaurus](https://github.com/cncf/landscape-graph/issues/97) | 7 | 2022-08-20 | 2025-01-23 |
 | huggingface/huggingface-gemma-recipes | Jupyter Notebook | [📣 Call for contributions!](https://github.com/huggingface/huggingface-gemma-recipes/issues/4) | 11 | 2025-06-30 | 2025-10-20 |
 | huggingface/huggingface-llama-recipes | Jupyter Notebook | [Call for contributions](https://github.com/huggingface/huggingface-llama-recipes/issues/43) | 20 | 2024-09-30 | 2025-01-30 |
@@ -408,7 +408,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/lighteval | Python | [[EVAL] Add kyrgyzLLM benchmark](https://github.com/huggingface/lighteval/issues/1036) | 1 | 2025-11-04 | 2025-11-20 |
 | huggingface/lighteval | Python | [[BUG]  Optimize tokenization](https://github.com/huggingface/lighteval/issues/732) | 1 | 2025-05-15 | 2026-06-21 |
 | huggingface/lighteval | Python | [[FT]  Add tests for `VLLMModel` base methods](https://github.com/huggingface/lighteval/issues/724) | 1 | 2025-05-15 | 2026-09-02 |
-| huggingface/lighteval | Python | [[FT] LiteLLM concurrency parameters hard-coded](https://github.com/huggingface/lighteval/issues/567) | 1 | 2025-02-16 | 2025-09-10 |
 | huggingface/nanotron | Python | [Add Debug utility to be able to preview first samples used for training](https://github.com/huggingface/nanotron/issues/184) | 1 | 2024-05-27 | 2025-04-21 |
 | huggingface/nanotron | Python | [We don't save checkpoint after training ends](https://github.com/huggingface/nanotron/issues/163) | 1 | 2024-05-06 | 2025-02-18 |
 | huggingface/nanotron | Python | [FEAT: Support 1.58-bit LLMs training](https://github.com/huggingface/nanotron/issues/114) | 1 | 2024-03-21 | 2024-04-03 |
@@ -427,6 +426,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/lerobot | Python | [Question regarding downsampling and resizing dataset](https://github.com/huggingface/lerobot/issues/2124) | 2 | 2025-10-06 | 2026-05-25 |
 | huggingface/lighteval | Python | [[FT] Manage script and language in the Language enum](https://github.com/huggingface/lighteval/issues/745) | 2 | 2025-05-19 | 2026-05-26 |
 | huggingface/lighteval | Python | [Call for contributions: Translate lighteval's doc into Chinese](https://github.com/huggingface/lighteval/issues/716) | 2 | 2025-05-14 | 2025-05-19 |
+| huggingface/lighteval | Python | [[FT] LiteLLM concurrency parameters hard-coded](https://github.com/huggingface/lighteval/issues/567) | 2 | 2025-02-16 | 2026-10-01 |
 | huggingface/dataset-viewer | Python | [use the `ROW_IDX_COLUMN` constant name instead of copying the value everywhere](https://github.com/huggingface/dataset-viewer/issues/2798) | 2 | 2024-05-13 | 2024-05-13 |
 | huggingface/nanotron | Python | [[Feature] Use CUDA event for measuring elasped time](https://github.com/huggingface/nanotron/issues/88) | 2 | 2024-03-02 | 2026-09-19 |
 | huggingface/nanotron | Python | [[Feature] Asyncronous Serialization](https://github.com/huggingface/nanotron/issues/87) | 2 | 2024-03-02 | 2025-02-20 |
@@ -445,6 +445,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/onnxscript | Python | [[IR] Graph editor API](https://github.com/microsoft/onnxscript/issues/2005) | 2 | 2025-01-09 | 2025-05-09 |
 | microsoft/AutoPodcaster | Python | [Add devcontainer](https://github.com/microsoft/AutoPodcaster/issues/9) | 2 | 2025-01-09 | 2026-09-23 |
 | microsoft/onnxscript | Python | [informing about bad positional argument in node constructor](https://github.com/microsoft/onnxscript/issues/1984) | 2 | 2024-12-26 | 2026-01-07 |
+| microsoft/TRELLIS | Python | [TRELLIS API](https://github.com/microsoft/TRELLIS/issues/65) | 2 | 2024-12-14 | 2025-07-21 |
 | huggingface/lighteval | Python | [[FT]  Add tests for nanotron](https://github.com/huggingface/lighteval/issues/765) | 3 | 2025-05-21 | 2025-12-04 |
 | huggingface/lighteval | Python | [[FT] Build in a way to specify specific IDs/Lines in Dataset to use as few-shot examples in the same split](https://github.com/huggingface/lighteval/issues/634) | 3 | 2025-03-21 | 2026-06-16 |
 | huggingface/lighteval | Python | [[EVAL] Big-Bench Extra Hard (BBEH)](https://github.com/huggingface/lighteval/issues/600) | 3 | 2025-03-03 | 2025-12-04 |
@@ -478,6 +479,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/lighteval | Python | [[EVAL] Add TUMLU benchmark](https://github.com/huggingface/lighteval/issues/577) | 10 | 2025-02-19 | 2025-05-15 |
 | huggingface/datasets | Python | [WMT21 & WMT22](https://github.com/huggingface/datasets/issues/4709) | 10 | 2022-07-18 | 2026-02-26 |
 | huggingface/diffusers | Python | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 11 | 2024-06-07 | 2026-09-19 |
+| microsoft/markitdown | Python | [Support for .doc extensions](https://github.com/microsoft/markitdown/issues/23) | 14 | 2024-12-14 | 2026-06-02 |
 | huggingface/diffusers | Python | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 15 | 2024-10-10 | 2026-09-01 |
 | microsoft/data-formulator | Python | [Create new data loaders to different resources](https://github.com/microsoft/data-formulator/issues/156) | 15 | 2025-05-13 | 2025-12-11 |
 | huggingface/diffusers | Python | [[Pipeline] AnimateDiff + SparseControl + ControlNet](https://github.com/huggingface/diffusers/issues/9329) | 17 | 2024-08-30 | 2026-09-09 |
@@ -515,9 +517,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/chat-macOS | Swift | [Asking "what time is it?" will always return the local time of Paris, regardless of your location (⌘R+)](https://github.com/huggingface/chat-macOS/issues/7) | 2 | 2024-09-24 | 2024-10-23 |
 | huggingface/chat-macOS | Swift | [Add custom LLM API ](https://github.com/huggingface/chat-macOS/issues/18) | 5 | 2024-09-27 | 2025-02-14 |
 | huggingface/sam2-studio | Swift | [Video support estimated release date?](https://github.com/huggingface/sam2-studio/issues/25) | 26 | 2024-09-28 | 2026-01-31 |
-| microsoft/vscode-python-environments | TypeScript | [CI: Update docs when API changes](https://github.com/microsoft/vscode-python-environments/issues/1818) | 0 | 2026-09-24 | 2026-09-30 |
 | microsoft/scope | TypeScript | [Allow editing Azure AI Foundry model](https://github.com/microsoft/scope/issues/1386) | 0 | 2026-08-31 | 2026-08-31 |
-| microsoft/scope | TypeScript | [Skill search box clears after each selection, forcing repeated typing for skills that share a keyword](https://github.com/microsoft/scope/issues/1284) | 0 | 2026-07-29 | 2026-09-25 |
 | microsoft/scope | TypeScript | [Token Manager: introduce a structured 'endpoint' secret type returning {endpoint, apiKey, deployment}](https://github.com/microsoft/scope/issues/912) | 0 | 2026-07-29 | 2026-09-25 |
 | microsoft/scope | TypeScript | [consider a different UX for the Run details UI](https://github.com/microsoft/scope/issues/765) | 0 | 2026-07-29 | 2026-09-25 |
 | microsoft/Agent365-nodejs | TypeScript | [Convert "test-agents" into E2E tests](https://github.com/microsoft/Agent365-nodejs/issues/15) | 0 | 2025-10-29 | 2025-10-29 |
