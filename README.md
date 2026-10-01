@@ -445,7 +445,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/onnxscript | Python | [[IR] Graph editor API](https://github.com/microsoft/onnxscript/issues/2005) | 2 | 2025-01-09 | 2025-05-09 |
 | microsoft/AutoPodcaster | Python | [Add devcontainer](https://github.com/microsoft/AutoPodcaster/issues/9) | 2 | 2025-01-09 | 2026-09-23 |
 | microsoft/onnxscript | Python | [informing about bad positional argument in node constructor](https://github.com/microsoft/onnxscript/issues/1984) | 2 | 2024-12-26 | 2026-01-07 |
-| microsoft/TRELLIS | Python | [TRELLIS API](https://github.com/microsoft/TRELLIS/issues/65) | 2 | 2024-12-14 | 2025-07-21 |
 | huggingface/lighteval | Python | [[FT]  Add tests for nanotron](https://github.com/huggingface/lighteval/issues/765) | 3 | 2025-05-21 | 2025-12-04 |
 | huggingface/lighteval | Python | [[FT] Build in a way to specify specific IDs/Lines in Dataset to use as few-shot examples in the same split](https://github.com/huggingface/lighteval/issues/634) | 3 | 2025-03-21 | 2026-06-16 |
 | huggingface/lighteval | Python | [[EVAL] Big-Bench Extra Hard (BBEH)](https://github.com/huggingface/lighteval/issues/600) | 3 | 2025-03-03 | 2025-12-04 |
@@ -517,6 +516,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/chat-macOS | Swift | [Asking "what time is it?" will always return the local time of Paris, regardless of your location (⌘R+)](https://github.com/huggingface/chat-macOS/issues/7) | 2 | 2024-09-24 | 2024-10-23 |
 | huggingface/chat-macOS | Swift | [Add custom LLM API ](https://github.com/huggingface/chat-macOS/issues/18) | 5 | 2024-09-27 | 2025-02-14 |
 | huggingface/sam2-studio | Swift | [Video support estimated release date?](https://github.com/huggingface/sam2-studio/issues/25) | 26 | 2024-09-28 | 2026-01-31 |
+| microsoft/scope | TypeScript | [Portal: Keys page layout shifts and list column gets squeezed when a key is selected](https://github.com/microsoft/scope/issues/1455) | 0 | 2026-10-01 | 2026-10-01 |
 | microsoft/scope | TypeScript | [Allow editing Azure AI Foundry model](https://github.com/microsoft/scope/issues/1386) | 0 | 2026-08-31 | 2026-08-31 |
 | microsoft/scope | TypeScript | [Token Manager: introduce a structured 'endpoint' secret type returning {endpoint, apiKey, deployment}](https://github.com/microsoft/scope/issues/912) | 0 | 2026-07-29 | 2026-09-25 |
 | microsoft/scope | TypeScript | [consider a different UX for the Run details UI](https://github.com/microsoft/scope/issues/765) | 0 | 2026-07-29 | 2026-09-25 |
