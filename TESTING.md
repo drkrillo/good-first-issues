@@ -5,7 +5,7 @@ This project uses `pytest` and enforces **100% coverage** on every pull request.
 ## Running the tests
 
 ```bash
-pip install -r requirements.txt -r requirements-mcp.txt
+pip install -r requirements-dev.txt -r requirements-mcp.txt
 pytest --cov=app --cov-report=term-missing
 ```
 
