@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-10-03</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-10-04</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -229,7 +229,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-github | Go | [Make new events for assigning](https://github.com/mattermost/mattermost-plugin-github/issues/340) | 6 | 2020-07-31 | 2025-05-06 |
 | mattermost/mattermost-plugin-starter-template | Go | [Include stubs for all hooks to get going quickly](https://github.com/mattermost/mattermost-plugin-starter-template/issues/110) | 6 | 2020-07-29 | 2021-10-02 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Make the OAuth2 landing page](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/94) | 6 | 2020-04-26 | 2024-08-09 |
-| kubernetes/kube-state-metrics | Go | [Parse Nested Arrays does not work](https://github.com/kubernetes/kube-state-metrics/issues/2368) | 7 | 2024-04-10 | 2026-08-27 |
 | kubernetes/perf-tests | Go | [Check watch terminations from clusters loader tests](https://github.com/kubernetes/perf-tests/issues/2054) | 7 | 2022-04-28 | 2022-11-16 |
 | kubernetes/minikube | Go | [Wrong error message on minikube tunnel without Administrator privilege on Windows](https://github.com/kubernetes/minikube/issues/9589) | 7 | 2020-10-30 | 2021-09-22 |
 | hashicorp/terraform-provider-aws | Go | [Error: Unsupported argument: blue_green_update](https://github.com/hashicorp/terraform-provider-aws/issues/44488) | 7 | 2025-09-29 | 2026-01-29 |
@@ -241,6 +240,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-github | Go | [Notification numbers are not properly aligned](https://github.com/mattermost/mattermost-plugin-github/issues/398) | 7 | 2020-10-21 | 2024-02-16 |
 | mattermost/mattermost-plugin-github | Go | [In RHS, display whether there are linked pull requests to issues, and if there are linked issues for pull requests](https://github.com/mattermost/mattermost-plugin-github/issues/271) | 7 | 2020-05-14 | 2023-02-21 |
 | layer5io/getnighthawk | Go | [[SITE] Nav Bar is missing on the mobile view of the page](https://github.com/layer5io/getnighthawk/issues/258) | 8 | 2022-03-14 | 2023-11-09 |
+| kubernetes/kube-state-metrics | Go | [Parse Nested Arrays does not work](https://github.com/kubernetes/kube-state-metrics/issues/2368) | 8 | 2024-04-10 | 2026-10-04 |
 | hashicorp/terraform-provider-aws | Go | [`aws_elasticache_serverless_cache` Security Group Ids are incorrectly optional.](https://github.com/hashicorp/terraform-provider-aws/issues/43027) | 8 | 2025-06-16 | 2026-07-16 |
 | hashicorp/vault-k8s | Go | [Configurable default log_level and log_format for injected Vault Agent containers](https://github.com/hashicorp/vault-k8s/issues/417) | 8 | 2023-01-28 | 2025-08-28 |
 | hashicorp/terraform-provider-aws | Go | [Add CodeArtifact Package Origin Controls](https://github.com/hashicorp/terraform-provider-aws/issues/26623) | 8 | 2022-09-02 | 2026-09-01 |
