@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- Python 3.11+
+- Python 3.12+
 - A GitHub account with a personal access token
 
 ## 1. Clone the repository
