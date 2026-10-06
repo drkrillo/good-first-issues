@@ -64,6 +64,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
+| microsoft/msquic | C | [Unnecessary stream scanning when logging is disabled increases latency](https://github.com/microsoft/msquic/issues/6362) | 0 | 2026-10-05 | 2026-10-06 |
 | microsoft/msquic | C | [Miss check for the return value of CXPLAT_ALLOC_NONPAGED and CxPlatPoolAlloc](https://github.com/microsoft/msquic/issues/5233) | 0 | 2025-07-10 | 2026-03-03 |
 | microsoft/jbpf | C | [jbpf_io_ipc_test passes with error messages](https://github.com/microsoft/jbpf/issues/54) | 0 | 2025-03-17 | 2025-03-27 |
 | microsoft/ebpf-for-windows | C | [OpenCppCoverage install step fails silently](https://github.com/microsoft/ebpf-for-windows/issues/5330) | 1 | 2026-06-01 | 2026-08-12 |
@@ -170,7 +171,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-mscalendar | Go | [Improve Daily Summary weekday setup](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/56) | 2 | 2020-03-16 | 2021-10-02 |
 | microsoft/TypeScript | Go | [Incorrect/unhelpful error message for non-module jsx file](https://github.com/microsoft/TypeScript/issues/64438) | 3 | 2026-09-24 | 2026-09-30 |
 | microsoft/retina | Go | [Update documentation with Hubble CLI and Hubble UI deployment instructions on Retina.](https://github.com/microsoft/retina/issues/1387) | 3 | 2025-02-26 | 2025-05-13 |
-| hashicorp/terraform-provider-aws | Go | [aws_cloudwatch_event_target has incorrect examples.](https://github.com/hashicorp/terraform-provider-aws/issues/49798) | 3 | 2026-09-02 | 2026-09-11 |
 | hashicorp/terraform-provider-aws | Go | [data/aws_bedrock_foundation_model: modelLifecycle attribute not exposed](https://github.com/hashicorp/terraform-provider-aws/issues/47779) | 3 | 2026-05-06 | 2026-05-31 |
 | hashicorp/terraform-provider-aws | Go | [aws_s3tables_table_replication: Create fails with "A version token is not specified"](https://github.com/hashicorp/terraform-provider-aws/issues/46675) | 3 | 2026-02-26 | 2026-03-02 |
 | hashicorp/terraform-provider-aws | Go | [[EMR on EKS] aws_emrcontainers_job_template: add support for job_template_data.parameter_configuration](https://github.com/hashicorp/terraform-provider-aws/issues/46502) | 3 | 2026-02-16 | 2026-04-28 |
@@ -183,6 +183,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_redshiftserverless_namespace - manageAdminPassword/redshiftIdcApplicationArn](https://github.com/hashicorp/terraform-provider-aws/issues/35135) | 3 | 2024-01-04 | 2026-09-24 |
 | hashicorp/terraform-provider-vault | Go | [Update vault_kubernetes_auth_backend_role Resource to support allowed_kubernetes_namespace_selector Field](https://github.com/hashicorp/terraform-provider-vault/issues/1882) | 3 | 2023-06-02 | 2024-10-29 |
 | hashicorp/terraform-provider-azurerm | Go | [Private endpoint for databricks example has incorrect DNS resources](https://github.com/hashicorp/terraform-provider-azurerm/issues/14564) | 3 | 2021-12-09 | 2026-03-31 |
+| hashicorp/consul | Go | [Add UI dashboard template URL placeholder field: Service.Namespace](https://github.com/hashicorp/consul/issues/11324) | 3 | 2021-10-14 | 2026-07-10 |
 | mattermost/mattermost-plugin-servicenow | Go | [Only allow user to select channels to add subscriptions to in which they are channel admins](https://github.com/mattermost/mattermost-plugin-servicenow/issues/188) | 3 | 2023-06-14 | 2026-04-08 |
 | mattermost/mattermost-plugin-github | Go | [Support dismissing notifications from the RHS view](https://github.com/mattermost/mattermost-plugin-github/issues/620) | 3 | 2022-12-01 | 2026-02-17 |
 | mattermost/mattermost-plugin-github | Go | [Support tooltip preview on hovering over RHS notifications](https://github.com/mattermost/mattermost-plugin-github/issues/619) | 3 | 2022-12-01 | 2026-02-17 |
@@ -199,6 +200,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/terraform-provider-aws | Go | [Improve error message when AMI id was recently deregistered](https://github.com/hashicorp/terraform-provider-aws/issues/26046) | 4 | 2022-07-29 | 2024-12-08 |
 | hashicorp/terraform-provider-aws | Go | [AWS network firewall: Ability to attach a firewall policy to a firewall within the same resource](https://github.com/hashicorp/terraform-provider-aws/issues/25352) | 4 | 2022-06-15 | 2026-01-02 |
 | hashicorp/consul | Go | [[DevOps] `metrics-checker` GitHub Action Update](https://github.com/hashicorp/consul/issues/12515) | 4 | 2022-03-03 | 2022-06-09 |
+| hashicorp/consul | Go | [Allow ${ } style interpolation for UI dashboard template URLs](https://github.com/hashicorp/consul/issues/11321) | 4 | 2021-10-14 | 2022-02-22 |
 | mattermost/mattermost-plugin-jira | Go | [Make epic link selector pull from epics search API](https://github.com/mattermost/mattermost-plugin-jira/issues/978) | 4 | 2023-10-03 | 2024-11-07 |
 | mattermost/mattermost-plugin-nps | Go | [Fix for: EnablePermalinkPreviews kills nps plugin](https://github.com/mattermost/mattermost-plugin-nps/issues/85) | 4 | 2021-10-08 | 2021-11-08 |
 | mattermost/mattermost-plugin-github | Go | [Only channel admins should be able to create subscription](https://github.com/mattermost/mattermost-plugin-github/issues/488) | 4 | 2021-10-04 | 2026-02-17 |
@@ -221,7 +223,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/terraform-provider-azuredevops | Go | [Full unit test suite isn't running on CI](https://github.com/microsoft/terraform-provider-azuredevops/issues/1439) | 6 | 2025-09-29 | 2026-09-20 |
 | hashicorp/terraform-provider-aws | Go | [Route53 Resolver Endpoint Hash Function Prevents Multiple IPs per Subnet When IP Address is Auto-Assigned](https://github.com/hashicorp/terraform-provider-aws/issues/43724) | 6 | 2025-08-05 | 2025-08-20 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: `aws_cloudwatch_metric_alarm`: Add validation to prevent specifying both `metric` and `expression`](https://github.com/hashicorp/terraform-provider-aws/issues/41680) | 6 | 2025-03-05 | 2026-07-30 |
-| hashicorp/terraform-provider-aws | Go | [[Documentation]: Add example for specifying p12 certificate with `aws_sns_platform_application`](https://github.com/hashicorp/terraform-provider-aws/issues/40803) | 6 | 2025-01-07 | 2026-09-05 |
 | hashicorp/terraform-provider-aws | Go | [aws_iam_openid_connect_provider rejects valid "url"s](https://github.com/hashicorp/terraform-provider-aws/issues/26483) | 6 | 2022-08-25 | 2025-02-27 |
 | hashicorp/waypoint | Go | [Registry insecure flag](https://github.com/hashicorp/waypoint/issues/3333) | 6 | 2022-05-13 | 2022-11-02 |
 | hashicorp/consul | Go | [Allow more parameters in topology view `dashboard_url_templates.service`](https://github.com/hashicorp/consul/issues/12401) | 6 | 2022-02-20 | 2026-07-11 |
@@ -276,26 +277,26 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/kubernetes | Go | [Give an indication in container events for probe failure as to whether the failure was ignored due to FailureThreshold](https://github.com/kubernetes/kubernetes/issues/115823) | 24 | 2023-02-16 | 2026-09-28 |
 | kubernetes/minikube | Go | [Document how to run minikube in China](https://github.com/kubernetes/minikube/issues/5020) | 25 | 2019-08-08 | 2025-09-20 |
 | kubernetes/ingress-nginx | Go | [Distinguish wait-shutdown command from standard k8s SIGTERM](https://github.com/kubernetes/ingress-nginx/issues/6287) | 32 | 2020-10-06 | 2024-07-17 |
-| kubernetes/kubernetes | Go | [Node lifecycle controller does not `markPodsNotReady` when the node `Ready` state changes from `false` to `unknown`](https://github.com/kubernetes/kubernetes/issues/112733) | 35 | 2022-09-26 | 2026-08-25 |
+| kubernetes/kubernetes | Go | [Node lifecycle controller does not `markPodsNotReady` when the node `Ready` state changes from `false` to `unknown`](https://github.com/kubernetes/kubernetes/issues/112733) | 36 | 2022-09-26 | 2026-10-06 |
 | kubernetes/kubernetes | Go | [NetworkPolicy tests for blocking north/south traffic](https://github.com/kubernetes/kubernetes/issues/114369) | 38 | 2022-12-08 | 2026-07-15 |
 | kubernetes/perf-tests | Go | [Create api-availability measurement](https://github.com/kubernetes/perf-tests/issues/1096) | 38 | 2020-03-03 | 2023-06-02 |
-| kubernetes/kubernetes | Go | [kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment.](https://github.com/kubernetes/kubernetes/issues/118172) | 42 | 2023-05-22 | 2026-09-29 |
 | kubernetes/kube-state-metrics | Go | [Missing replacement config for VPA collector in CRM](https://github.com/kubernetes/kube-state-metrics/issues/2041) | 42 | 2023-04-05 | 2026-08-11 |
 | kubernetes/kubernetes | Go | [add and use alternative APIs which support contextual logging](https://github.com/kubernetes/kubernetes/issues/126379) | 43 | 2024-07-26 | 2026-08-29 |
+| kubernetes/kubernetes | Go | [kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment.](https://github.com/kubernetes/kubernetes/issues/118172) | 45 | 2023-05-22 | 2026-10-06 |
 | kubernetes/kubernetes | Go | [Write the stress test for gRPC, http, and tcp probes](https://github.com/kubernetes/kubernetes/issues/115782) | 47 | 2023-02-15 | 2026-09-28 |
-| kubernetes/kubernetes | Go | [Migrate DRA components to support granular authorization on status updates](https://github.com/kubernetes/kubernetes/issues/138149) | 83 | 2026-04-01 | 2026-09-30 |
+| kubernetes/kubernetes | Go | [Migrate DRA components to support granular authorization on status updates](https://github.com/kubernetes/kubernetes/issues/138149) | 85 | 2026-04-01 | 2026-10-06 |
+| cncf/glossary | Go Template | [[es] A report to track and reflect updates of English content](https://github.com/cncf/glossary/issues/3222) | 0 | 2024-07-15 | 2025-04-07 |
+| cncf/glossary | Go Template | [[ru] Localize `Portability`](https://github.com/cncf/glossary/issues/3265) | 1 | 2024-08-04 | 2024-11-19 |
+| cncf/glossary | Go Template | [[ru] Localize `Service` into Russian](https://github.com/cncf/glossary/issues/3334) | 2 | 2024-10-17 | 2025-03-03 |
 | microsoft/edge-ai | HCL | [chore(python): add pip lock files for reproducible builds](https://github.com/microsoft/edge-ai/issues/167) | 0 | 2026-02-08 | 2026-04-19 |
 | microsoft/edge-ai | HCL | [docs(testing): add regression test tracking policy](https://github.com/microsoft/edge-ai/issues/176) | 1 | 2026-02-08 | 2026-06-19 |
 | microsoft/edge-ai | HCL | [chore(rust): standardize strip = true across all Rust crates](https://github.com/microsoft/edge-ai/issues/177) | 2 | 2026-02-08 | 2026-04-10 |
 | microsoft/edge-ai | HCL | [docs(testing): update testing-validation.md to reflect actual test frameworks](https://github.com/microsoft/edge-ai/issues/144) | 3 | 2026-02-07 | 2026-09-01 |
 | microsoft/edge-ai | HCL | [docs(changelog): add CHANGELOG.md generation](https://github.com/microsoft/edge-ai/issues/143) | 3 | 2026-02-07 | 2026-07-30 |
 | kubernetes/k8s.io | HCL | [[Umbrella Issue] Migrate CNCF Ecosystem projects from k8s.gcr.io to registry.k8s.io](https://github.com/kubernetes/k8s.io/issues/4780) | 37 | 2023-02-16 | 2025-12-26 |
-| cncf/glossary | HTML | [[es] A report to track and reflect updates of English content](https://github.com/cncf/glossary/issues/3222) | 0 | 2024-07-15 | 2025-04-07 |
 | cncf/tag-app-delivery | HTML | [Document how we use GitHub labels](https://github.com/cncf/tag-app-delivery/issues/405) | 0 | 2023-05-03 | 2024-06-22 |
 | cncf/tag-contributor-strategy | HTML | [Charter link is 404](https://github.com/cncf/tag-contributor-strategy/issues/762) | 1 | 2025-02-03 | 2025-09-25 |
-| cncf/glossary | HTML | [[ru] Localize `Portability`](https://github.com/cncf/glossary/issues/3265) | 1 | 2024-08-04 | 2024-11-19 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/kubernetes-api.md into Japanese](https://github.com/kubernetes/website/issues/56851) | 2 | 2026-08-08 | 2026-08-10 |
-| cncf/glossary | HTML | [[ru] Localize `Service` into Russian](https://github.com/cncf/glossary/issues/3334) | 2 | 2024-10-17 | 2025-03-03 |
 | cncf/tag-app-delivery | HTML | [Automation of tag-app-delivery repo](https://github.com/cncf/tag-app-delivery/issues/566) | 3 | 2024-02-27 | 2024-06-22 |
 | cncf/tag-security | HTML | [[Suggestion] Working Group Landing Page](https://github.com/cncf/tag-security/issues/1354) | 4 | 2024-08-23 | 2025-07-19 |
 | kubernetes/website | HTML | [[ko] Translate content/en/docs/concepts/storage/ephemeral-storage.md into Korean](https://github.com/kubernetes/website/issues/56982) | 5 | 2026-08-14 | 2026-10-01 |
@@ -469,7 +470,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/diffusers | Python | [Do we have any script covert from hf format to orginal format?](https://github.com/huggingface/diffusers/issues/10076) | 7 | 2024-12-02 | 2026-09-16 |
 | huggingface/nanotron | Python | [[Bug] Missing `_is_using_mup` when resume checkpoint](https://github.com/huggingface/nanotron/issues/198) | 7 | 2024-06-14 | 2026-07-29 |
 | microsoft/onnxscript | Python | [Attention fusion (SDPA/MHA) broken for BART decoder with/wo past🐛](https://github.com/microsoft/onnxscript/issues/2424) | 7 | 2025-06-29 | 2026-03-01 |
-| microsoft/markitdown | Python | [File support: chm support](https://github.com/microsoft/markitdown/issues/14) | 7 | 2024-12-13 | 2026-06-10 |
 | huggingface/lerobot | Python | [Select the VLM backbone for SmolVLA](https://github.com/huggingface/lerobot/issues/2104) | 9 | 2025-10-02 | 2026-08-17 |
 | huggingface/lighteval | Python | [[EVAL] Adding PHARE](https://github.com/huggingface/lighteval/issues/696) | 9 | 2025-04-30 | 2026-07-16 |
 | microsoft/hve-core | Python | [docs: Update stale documentation - .github/skills/project-planning/adr-author/references/lineage-rules.md](https://github.com/microsoft/hve-core/issues/2584) | 9 | 2026-08-03 | 2026-10-05 |
@@ -485,7 +485,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/datasets | Python | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 19 | 2022-12-12 | 2026-09-02 |
 | huggingface/diffusers | Python | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 22 | 2024-02-13 | 2025-10-31 |
 | huggingface/optimum | Python | [Add all available ONNX models to ORTConfigManager](https://github.com/huggingface/optimum/issues/351) | 23 | 2022-08-16 | 2026-09-22 |
-| huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 24 | 2023-04-28 | 2026-09-15 |
+| huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 25 | 2023-04-28 | 2026-10-06 |
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 27 | 2022-11-18 | 2026-09-09 |
 | huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 32 | 2023-09-29 | 2026-09-18 |
 | microsoft/autogen | Python | [Get current message thread from a group chat team.](https://github.com/microsoft/autogen/issues/6085) | 32 | 2025-03-24 | 2026-09-01 |
