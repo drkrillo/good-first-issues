@@ -1,5 +1,4 @@
 repo,language,title,url,comments,labels,created_at,updated_at
-microsoft/msquic,C,Unnecessary stream scanning when logging is disabled increases latency,https://github.com/microsoft/msquic/issues/6362,0,,2026-10-05,2026-10-06
 microsoft/msquic,C,Miss check for the return value of CXPLAT_ALLOC_NONPAGED and CxPlatPoolAlloc,https://github.com/microsoft/msquic/issues/5233,0,help wanted; Area: Testing; Triaged; HowFound: MSR,2025-07-10,2026-03-03
 microsoft/jbpf,C,jbpf_io_ipc_test passes with error messages,https://github.com/microsoft/jbpf/issues/54,0,bug,2025-03-17,2025-03-27
 microsoft/ebpf-for-windows,C,OpenCppCoverage install step fails silently,https://github.com/microsoft/ebpf-for-windows/issues/5330,1,ebpfjitter; triaged; P3,2026-06-01,2026-08-12
@@ -80,7 +79,6 @@ hashicorp/terraform-provider-aws,Go,`aws_backup_selection`: Clarify interaction 
 hashicorp/terraform-provider-aws,Go,aws_fms_policy resource_tag_logical_operator not correctly displaying diff during a plan,https://github.com/hashicorp/terraform-provider-aws/issues/47771,2,bug; service/fms,2026-05-05,2026-09-01
 hashicorp/terraform-provider-aws,Go,Add private DNS endpoint attribute to `aws_dsql_cluster` resource,https://github.com/hashicorp/terraform-provider-aws/issues/47596,2,enhancement; service/dsql,2026-04-23,2026-04-28
 hashicorp/terraform-provider-aws,Go,aws_quicksight_dashboard / aws_quicksight_analysis: scatter_plot_categorically_aggregated_field_wells missing label block,https://github.com/hashicorp/terraform-provider-aws/issues/46529,2,enhancement; service/quicksight,2026-02-17,2026-03-12
-hashicorp/terraform-provider-aws,Go,Can't update aws_controltower_baseline resource version,https://github.com/hashicorp/terraform-provider-aws/issues/45871,2,bug; service/controltower,2026-01-08,2026-03-08
 hashicorp/terraform-provider-aws,Go,iot_topic_rule CloudWatch metric timestamp Wrong validator,https://github.com/hashicorp/terraform-provider-aws/issues/45375,2,bug; service/iot,2025-12-03,2026-03-11
 hashicorp/packer-plugin-azure,Go,Create a technical document giving detailed steps on how to configure Packer to use private Azure vNet with public IP,https://github.com/hashicorp/packer-plugin-azure/issues/503,2,enhancement,2025-06-24,2025-06-27
 hashicorp/terraform-provider-aws,Go,aws_pipes_pipe resource does not support target Timestream for Live Analytics,https://github.com/hashicorp/terraform-provider-aws/issues/42400,2,enhancement; service/pipes,2025-04-28,2026-03-12
@@ -111,6 +109,7 @@ hashicorp/terraform-provider-aws,Go,"aws_s3tables_table_replication: Create fail
 hashicorp/terraform-provider-aws,Go,[EMR on EKS] aws_emrcontainers_job_template: add support for job_template_data.parameter_configuration,https://github.com/hashicorp/terraform-provider-aws/issues/46502,3,enhancement; service/emrcontainers,2026-02-16,2026-04-28
 hashicorp/terraform-provider-aws,Go,aws_transfer_server::identity_provider_type causes replacement,https://github.com/hashicorp/terraform-provider-aws/issues/46229,3,enhancement; service/transfer,2026-01-30,2026-02-27
 hashicorp/terraform-provider-aws,Go,Unable to update a RAM share to use the latest version of a custom permission,https://github.com/hashicorp/terraform-provider-aws/issues/46219,3,new-resource; service/ram,2026-01-29,2026-03-23
+hashicorp/terraform-provider-aws,Go,Can't update aws_controltower_baseline resource version,https://github.com/hashicorp/terraform-provider-aws/issues/45871,3,bug; service/controltower,2026-01-08,2026-10-08
 hashicorp/terraform-provider-kubernetes,Go,Helper function for creating `env` name/value pair list from a map.,https://github.com/hashicorp/terraform-provider-kubernetes/issues/2767,3,enhancement,2025-08-15,2026-06-11
 hashicorp/terraform-provider-aws,Go,aws_efs_replication_configuration is missing role-arn for cross-account-replication,https://github.com/hashicorp/terraform-provider-aws/issues/42814,3,enhancement; service/efs,2025-05-30,2025-12-09
 hashicorp/terraform-provider-aws,Go,[Bug]: SageMaker App Image Config: API rejects valid UID/GID pairs defined in provider schema,https://github.com/hashicorp/terraform-provider-aws/issues/40976,3,bug; service/sagemaker,2025-01-17,2025-03-19
@@ -359,7 +358,6 @@ microsoft/teams-agent-accelerator-libs-py,Python,Provide cleaner api for buildin
 huggingface/lerobot,Python,Question regarding downsampling and resizing dataset,https://github.com/huggingface/lerobot/issues/2124,2,question; dataset,2025-10-06,2026-05-25
 huggingface/lighteval,Python,[FT] Manage script and language in the Language enum,https://github.com/huggingface/lighteval/issues/745,2,feature,2025-05-19,2026-05-26
 huggingface/lighteval,Python,Call for contributions: Translate lighteval's doc into Chinese,https://github.com/huggingface/lighteval/issues/716,2,help wanted; new-task,2025-05-14,2025-05-19
-huggingface/lighteval,Python,[FT] LiteLLM concurrency parameters hard-coded,https://github.com/huggingface/lighteval/issues/567,2,help wanted; feature,2025-02-16,2026-10-01
 huggingface/dataset-viewer,Python,use the `ROW_IDX_COLUMN` constant name instead of copying the value everywhere,https://github.com/huggingface/dataset-viewer/issues/2798,2,refactoring / architecture; P2,2024-05-13,2024-05-13
 huggingface/nanotron,Python,[Feature] Asyncronous Serialization,https://github.com/huggingface/nanotron/issues/87,2,enhancement; help wanted,2024-03-02,2025-02-20
 huggingface/dataset-viewer,Python,"Use ""Sign-In with HF"" instead of token in admin-UI",https://github.com/huggingface/dataset-viewer/issues/2373,2,admin tools; P2,2024-02-01,2025-07-03
@@ -379,6 +377,7 @@ microsoft/TRELLIS,Python,TRELLIS API,https://github.com/microsoft/TRELLIS/issues
 huggingface/lighteval,Python,[FT]  Add tests for nanotron,https://github.com/huggingface/lighteval/issues/765,3,help wanted; feature; ignore-for-release,2025-05-21,2025-12-04
 huggingface/lighteval,Python,[FT] Build in a way to specify specific IDs/Lines in Dataset to use as few-shot examples in the same split,https://github.com/huggingface/lighteval/issues/634,3,help wanted; feature,2025-03-21,2026-06-16
 huggingface/lighteval,Python,[EVAL] Big-Bench Extra Hard (BBEH),https://github.com/huggingface/lighteval/issues/600,3,help wanted; new-task; science-team,2025-03-03,2025-12-04
+huggingface/lighteval,Python,[FT] LiteLLM concurrency parameters hard-coded,https://github.com/huggingface/lighteval/issues/567,3,help wanted; feature,2025-02-16,2026-10-08
 huggingface/nanotron,Python,[Feature] Use CUDA event for measuring elasped time,https://github.com/huggingface/nanotron/issues/88,3,enhancement; help wanted,2024-03-02,2026-10-04
 huggingface/optimum-habana,Python,Add support for max_length in run_generation,https://github.com/huggingface/optimum-habana/issues/472,3,bug,2023-10-18,2023-10-19
 huggingface/dataset-viewer,Python,Use `CONSTANT_LIST.copy` in list config fieds,https://github.com/huggingface/dataset-viewer/issues/1522,3,refactoring / architecture; P2,2023-07-17,2025-07-10
@@ -402,7 +401,6 @@ microsoft/physical-ai-toolchain,Python,build: refresh and consolidate repository
 microsoft/data-formulator,Python,Expand chart type supports,https://github.com/microsoft/data-formulator/issues/193,6,help wanted,2025-11-07,2025-12-05
 huggingface/lighteval,Python,[EVAL] Long Horizon Execution,https://github.com/huggingface/lighteval/issues/1056,7,help wanted; new-task,2025-11-13,2026-01-25
 huggingface/diffusers,Python,Do we have any script covert from hf format to orginal format?,https://github.com/huggingface/diffusers/issues/10076,7,contributions-welcome; conversion script,2024-12-02,2026-09-16
-huggingface/nanotron,Python,[Bug] Missing `_is_using_mup` when resume checkpoint,https://github.com/huggingface/nanotron/issues/198,7,bug; help wanted,2024-06-14,2026-07-29
 microsoft/onnxscript,Python,Attention fusion (SDPA/MHA) broken for BART decoder with/wo past🐛,https://github.com/microsoft/onnxscript/issues/2424,7,contribution welcome; module: rewriter,2025-06-29,2026-03-01
 microsoft/markitdown,Python,File support: chm support,https://github.com/microsoft/markitdown/issues/14,7,enhancement,2024-12-13,2026-06-10
 huggingface/lerobot,Python,Select the VLM backbone for SmolVLA,https://github.com/huggingface/lerobot/issues/2104,9,question; policies,2025-10-02,2026-08-17
@@ -451,6 +449,7 @@ huggingface/chat-macOS,Swift,[Feature Request] System Prompt Support,https://git
 huggingface/chat-macOS,Swift,"Asking ""what time is it?"" will always return the local time of Paris, regardless of your location (⌘R+)",https://github.com/huggingface/chat-macOS/issues/7,2,,2024-09-24,2024-10-23
 huggingface/chat-macOS,Swift,Add custom LLM API ,https://github.com/huggingface/chat-macOS/issues/18,5,,2024-09-27,2025-02-14
 huggingface/sam2-studio,Swift,Video support estimated release date?,https://github.com/huggingface/sam2-studio/issues/25,26,enhancement; help wanted,2024-09-28,2026-01-31
+microsoft/Power-CAT-Copilot-Studio-Kit,TypeScript,Bug: Agent value summary doesn't load the info,https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/901,0,,2026-10-07,2026-10-08
 microsoft/scope,TypeScript,Allow editing Azure AI Foundry model,https://github.com/microsoft/scope/issues/1386,0,language: javascript; area: portal,2026-08-31,2026-08-31
 microsoft/Agent365-nodejs,TypeScript,"Convert ""test-agents"" into E2E tests",https://github.com/microsoft/Agent365-nodejs/issues/15,0,,2025-10-29,2025-10-29
 microsoft/vscode-jupyter,TypeScript,Add magic line comments regex pattern as configuration for uncommentMagicCommands,https://github.com/microsoft/vscode-jupyter/issues/16499,0,feature-request,2025-03-24,2025-03-24
@@ -524,8 +523,7 @@ decentraland/builder,TypeScript,Add a way to de-assign a Name from a Land (Parce
 microsoft/Power-CAT-Copilot-Studio-Kit,TypeScript,Import September 2026 release fails during ACP/DLP evaluation even though connectors are available.,https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/858,1,,2026-09-09,2026-09-10
 microsoft/scope,TypeScript,"Clarify that prompt features only categorize prompts, don't impact runs",https://github.com/microsoft/scope/issues/1276,1,type: documentation; topic: ui,2026-07-29,2026-09-25
 microsoft/scope,TypeScript,Document model lifecycle and deprecation process,https://github.com/microsoft/scope/issues/1275,1,type: documentation,2026-07-29,2026-09-28
-microsoft/scope,TypeScript,"Token Manager: introduce a structured 'endpoint' secret type returning {endpoint, apiKey, deployment}",https://github.com/microsoft/scope/issues/912,1,type: enhancement; difficulty: moderate; topic: ux,2026-07-29,2026-10-05
-microsoft/scope,TypeScript,Improve UX when listing all runs,https://github.com/microsoft/scope/issues/766,1,area: portal; topic: ux,2026-07-29,2026-09-25
+microsoft/scope,TypeScript,"Token Manager: introduce a structured 'endpoint' secret type returning {endpoint, apiKey, deployment}",https://github.com/microsoft/scope/issues/912,1,type: enhancement; difficulty: moderate; topic: ux,2026-07-29,2026-10-08
 microsoft/scope,TypeScript,consider a different UX for the Run details UI,https://github.com/microsoft/scope/issues/765,1,difficulty: easy; area: portal; topic: ux,2026-07-29,2026-10-07
 microsoft/scope,TypeScript,The workspace snapshot archive should include the dot files and dot folders,https://github.com/microsoft/scope/issues/606,1,,2026-07-29,2026-09-25
 microsoft/genaiscript,TypeScript,Open Telemetry,https://github.com/microsoft/genaiscript/issues/1323,1,enhancement,2025-03-19,2025-03-19
@@ -552,6 +550,7 @@ decentraland/explorer,TypeScript,Switch to `?x=1&y=2` instead of `?position=1%C0
 decentraland/explorer,TypeScript,"Blocking error on console: ""Warning: Unsupported graphics API WebGL 2.0""",https://github.com/decentraland/explorer/issues/1333,1,bug; kernel,2020-09-21,2020-10-21
 layer5io/sistent,TypeScript,[ svg ]: Create `createIcon` as the base icon for `svg`,https://github.com/layer5io/sistent/issues/245,2,kind/enhancement; packages/svg; component/icons; follow-up; v0.13.0-planning,2023-11-07,2026-08-26
 huggingface/huggingface.js,TypeScript,Maximize button not working properly on Hosted inference API block,https://github.com/huggingface/huggingface.js/issues/335,2,widgets,2023-01-30,2023-11-24
+microsoft/scope,TypeScript,Improve UX when listing all runs,https://github.com/microsoft/scope/issues/766,2,area: portal; topic: ux,2026-07-29,2026-10-08
 microsoft/vscode-containers,TypeScript,Add “Compose Pull / Update All Images” command for Docker Compose projects,https://github.com/microsoft/vscode-containers/issues/414,2,,2026-03-11,2026-08-24
 hashicorp/terraform-cdk,TypeScript,Typo in Tokenizer code?,https://github.com/hashicorp/terraform-cdk/issues/2709,2,bug; help wanted; cdktf; priority/backlog; size/small; feature/tokens,2023-03-09,2023-06-02
 decentraland/marketplace,TypeScript,It's hard to detect when the kebab menu of the ListCard is clickable,https://github.com/decentraland/marketplace/issues/1866,2,enhancement; ui,2023-06-22,2023-07-31
