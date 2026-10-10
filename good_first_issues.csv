@@ -1,6 +1,7 @@
 repo,language,title,url,comments,labels,created_at,updated_at
 microsoft/msquic,C,Miss check for the return value of CXPLAT_ALLOC_NONPAGED and CxPlatPoolAlloc,https://github.com/microsoft/msquic/issues/5233,0,help wanted; Area: Testing; Triaged; HowFound: MSR,2025-07-10,2026-03-03
 microsoft/jbpf,C,jbpf_io_ipc_test passes with error messages,https://github.com/microsoft/jbpf/issues/54,0,bug,2025-03-17,2025-03-27
+microsoft/jbpf,C,Remove JBPF_EXPERIMENTAL_FEATURES from  header files,https://github.com/microsoft/jbpf/issues/26,0,,2024-12-13,2025-03-03
 microsoft/ebpf-for-windows,C,OpenCppCoverage install step fails silently,https://github.com/microsoft/ebpf-for-windows/issues/5330,1,ebpfjitter; triaged; P3,2026-06-01,2026-08-12
 microsoft/ebpf-for-windows,C,Cleanup: catch2 now allows multiple threads,https://github.com/microsoft/ebpf-for-windows/issues/4553,1,cleanup; triaged; P3,2025-07-31,2026-10-02
 microsoft/ntttcp,C,per-thread throughput is always 0.00 with ntttcp version 5.40.,https://github.com/microsoft/ntttcp/issues/24,1,help wanted,2025-03-14,2026-02-17
@@ -218,7 +219,7 @@ kubernetes/kube-state-metrics,Go,Missing replacement config for VPA collector in
 kubernetes/kubernetes,Go,add and use alternative APIs which support contextual logging,https://github.com/kubernetes/kubernetes/issues/126379,43,area/logging; kind/feature; help wanted; sig/instrumentation; triage/accepted; wg/structured-logging,2024-07-26,2026-08-29
 kubernetes/kubernetes,Go,"kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment.",https://github.com/kubernetes/kubernetes/issues/118172,45,kind/bug; priority/backlog; kind/documentation; sig/node; help wanted; priority/important-longterm; triage/accepted,2023-05-22,2026-10-06
 kubernetes/kubernetes,Go,"Write the stress test for gRPC, http, and tcp probes",https://github.com/kubernetes/kubernetes/issues/115782,47,priority/backlog; kind/cleanup; sig/node; help wanted; needs-triage,2023-02-15,2026-09-28
-kubernetes/kubernetes,Go,Migrate DRA components to support granular authorization on status updates,https://github.com/kubernetes/kubernetes/issues/138149,86,sig/network; sig/node; sig/auth; help wanted; triage/accepted; wg/device-management,2026-04-01,2026-10-07
+kubernetes/kubernetes,Go,Migrate DRA components to support granular authorization on status updates,https://github.com/kubernetes/kubernetes/issues/138149,88,sig/network; sig/node; sig/auth; help wanted; triage/accepted; wg/device-management,2026-04-01,2026-10-10
 cncf/glossary,Go Template,[es] A report to track and reflect updates of English content,https://github.com/cncf/glossary/issues/3222,0,lang/es; outdated,2024-07-15,2025-04-07
 cncf/glossary,Go Template,[ru] Localize `Portability`,https://github.com/cncf/glossary/issues/3265,1,lang/ru,2024-08-04,2024-11-19
 cncf/glossary,Go Template,[ru] Localize `Service` into Russian,https://github.com/cncf/glossary/issues/3334,2,lang/ru,2024-10-17,2025-03-03
@@ -338,6 +339,7 @@ godotengine/godot-asset-library,PHP,"Sanitize inputs for Asset data/fields, like
 huggingface/optimum-executorch,Python,Add benchmarking numbers for more models,https://github.com/huggingface/optimum-executorch/issues/131,0,help wanted,2025-09-02,2025-09-02
 microsoft/teams-agent-accelerator-libs-py,Python,Expose the ability to add memory explicitly,https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/57,0,,2024-12-16,2025-01-06
 microsoft/BitBLAS,Python,[Feature Request] Enhance Database to support reload scheduled tilelang operator,https://github.com/microsoft/BitBLAS/issues/269,0,enhancement,2024-12-16,2024-12-16
+microsoft/BitBLAS,Python,[Feature Request] Flash Attention Op should be enhanced with our Scheduler Abstraction,https://github.com/microsoft/BitBLAS/issues/264,0,,2024-12-12,2024-12-12
 hashicorp/nomad-openapi,Python,chore: rename JobName parameter,https://github.com/hashicorp/nomad-openapi/issues/90,0,enhancement,2022-01-31,2022-01-31
 huggingface/lighteval,Python,[EVAL] Add kyrgyzLLM benchmark,https://github.com/huggingface/lighteval/issues/1036,1,new-task,2025-11-04,2025-11-20
 huggingface/lighteval,Python,[BUG]  Optimize tokenization,https://github.com/huggingface/lighteval/issues/732,1,bug; help wanted; science-team,2025-05-15,2026-06-21
@@ -351,7 +353,6 @@ huggingface/nanotron,Python,[Feature Request] Add simple communications benchmar
 microsoft/hve-core,Python,docs: Update stale documentation - docs/planning/brds/sssc-planner-security-brd.md,https://github.com/microsoft/hve-core/issues/2912,1,documentation; needs-triage; stale-docs; automated,2026-09-14,2026-09-21
 microsoft/mssql-django,Python,"JSON-null key lookups use OPENJSON, which requires database compatibility level 130 (fails on down-leveled 2016-2019 databases)",https://github.com/microsoft/mssql-django/issues/592,1,bug,2026-09-08,2026-09-10
 microsoft/mssql-django,Python,JSONField key isnull=True over-matches JSON null values on SQL Server (also causes wrong iexact=None on Django < 6.1),https://github.com/microsoft/mssql-django/issues/591,1,bug,2026-09-08,2026-09-08
-microsoft/PyRIT,Python,FEAT: Add Garak ProPILE privacy leakage scenario,https://github.com/microsoft/PyRIT/issues/2532,1,enhancement,2026-09-01,2026-09-08
 microsoft/hve-core,Python,docs: Documentation drift: code-review README doesn't reflect new change-risk evidence checklist,https://github.com/microsoft/hve-core/issues/2803,1,documentation; needs-triage; agent-ready,2026-08-30,2026-08-31
 microsoft/winml-cli,Python,Minor refactor: reuse _compute_case_signature to compute failed model file name,https://github.com/microsoft/winml-cli/issues/56,1,refactor; NPU; P1; triaged,2026-03-31,2026-06-17
 microsoft/onnxscript,Python,[torchlib] Add op test to torch.unique_consecutive,https://github.com/microsoft/onnxscript/issues/2695,1,module: torchlib; contribution welcome,2025-11-10,2025-12-21
@@ -364,9 +365,7 @@ huggingface/nanotron,Python,[Feature] Asyncronous Serialization,https://github.c
 huggingface/dataset-viewer,Python,"Use ""Sign-In with HF"" instead of token in admin-UI",https://github.com/huggingface/dataset-viewer/issues/2373,2,admin tools; P2,2024-02-01,2025-07-03
 huggingface/nanotron,Python,[Feature Request] Support Data Streaming for faster training of large models,https://github.com/huggingface/nanotron/issues/45,2,enhancement; help wanted,2024-01-26,2024-03-03
 microsoft/hve-core,Python,docs: update dependency-review.yml trigger tables for new push trigger,https://github.com/microsoft/hve-core/issues/2996,2,documentation; needs-triage; agent-ready,2026-09-24,2026-09-24
-microsoft/hve-core,Python,docs: reconcile marketplace docs with shared .github/plugin.json manifest model,https://github.com/microsoft/hve-core/issues/2690,2,documentation; needs-triage; agent-ready,2026-08-12,2026-08-24
 microsoft/mssql-django,Python,[Django 6.1] JSONField key iexact=None lookup returns wrong results on SQL Server,https://github.com/microsoft/mssql-django/issues/574,2,bug; area: orm-query; area: django-compat,2026-08-07,2026-08-11
-microsoft/hve-core,Python,docs: scripts/README.md evals table is missing 13 scripts added in the vally migration,https://github.com/microsoft/hve-core/issues/2572,2,documentation; needs-triage; [documentation; agent-ready],2026-07-31,2026-09-30
 microsoft/onnxscript,Python,"[Optimizer] Fold Shape -> {Slice, Gather} -> Concat -> Reshape",https://github.com/microsoft/onnxscript/issues/2736,2,contribution welcome; module: rewriter,2025-12-17,2026-06-24
 microsoft/OpenAIWorkshop,Python,Fix eslint warnings,https://github.com/microsoft/OpenAIWorkshop/issues/292,2,enhancement,2025-10-03,2025-12-18
 microsoft/vscode-black-formatter,Python,black is using cached pyproject.toml instead of the actual one,https://github.com/microsoft/vscode-black-formatter/issues/569,2,bug; help wanted; needs PR,2025-04-18,2025-04-28
@@ -383,7 +382,7 @@ huggingface/nanotron,Python,[Feature] Use CUDA event for measuring elasped time,
 huggingface/optimum-habana,Python,Add support for max_length in run_generation,https://github.com/huggingface/optimum-habana/issues/472,3,bug,2023-10-18,2023-10-19
 huggingface/dataset-viewer,Python,Use `CONSTANT_LIST.copy` in list config fieds,https://github.com/huggingface/dataset-viewer/issues/1522,3,refactoring / architecture; P2,2023-07-17,2025-07-10
 huggingface/transfer-learning-conv-ai,Python,"RuntimeError: shape '[-1, 2, 34]' is invalid for input of size 61710",https://github.com/huggingface/transfer-learning-conv-ai/issues/12,3,,2019-06-04,2022-09-02
-microsoft/nvx,Python,setup: consume tool versions from a canonical manifest,https://github.com/microsoft/nvx/issues/129,3,,2026-09-19,2026-10-07
+microsoft/PyRIT,Python,FEAT: Add Garak ProPILE privacy leakage scenario,https://github.com/microsoft/PyRIT/issues/2532,3,enhancement,2026-09-01,2026-10-10
 microsoft/data-formulator,Python,Docker Support,https://github.com/microsoft/data-formulator/issues/85,3,,2025-02-13,2026-03-14
 godotengine/godot-blender-exporter,Python,Blender object with negative scale,https://github.com/godotengine/godot-blender-exporter/issues/24,3,,2018-05-11,2020-10-09
 huggingface/lighteval,Python,[EVAL]: Add more African Benchmarks,https://github.com/huggingface/lighteval/issues/373,4,help wanted; new-task,2024-10-24,2024-11-08
@@ -425,6 +424,7 @@ huggingface/optimum,Python,Community contribution - `BetterTransformer` integrat
 huggingface/huggingface_hub,Python,[Community event] Translate documentation to your own langage,https://github.com/huggingface/huggingface_hub/issues/1700,32,documentation,2023-09-29,2026-09-18
 microsoft/autogen,Python,Get current message thread from a group chat team.,https://github.com/microsoft/autogen/issues/6085,32,help wanted; proj-agentchat,2025-03-24,2026-09-01
 microsoft/autogen,Python,"open needs encoding='utf-8' for non-english environment, error in playwright_controller.py",https://github.com/microsoft/autogen/issues/5566,34,help wanted,2025-02-16,2026-09-12
+microsoft/TRELLIS,Python,How to generate 3D assets with more number of faces?,https://github.com/microsoft/TRELLIS/issues/58,34,,2024-12-12,2025-01-25
 huggingface/peft,Python,Comparison of Different Fine-Tuning Techniques for Conversational AI,https://github.com/huggingface/peft/issues/2310,166,help wanted; contributions-welcome,2025-01-07,2026-10-07
 huggingface/ratchet,Rust,Reduce dependencies! 🗡️,https://github.com/huggingface/ratchet/issues/170,0,help wanted,2024-04-17,2024-04-17
 microsoft/openvmm,Rust,remove usages of futures::select! in the repo with futures_concurrency,https://github.com/microsoft/openvmm/issues/1246,0,linting,2025-04-25,2025-06-21
@@ -588,7 +588,7 @@ mattermost/mattermost,TypeScript,Increase max height of the Find Channels modal,
 mattermost/mattermost,TypeScript,Improve the grammar on Account Creation Screen if the email address you entered does not belong to the accepted domain,https://github.com/mattermost/mattermost/issues/15927,25,Difficulty/1:Easy; Hacktoberfest; Area/End User Feature; Help Wanted,2020-10-12,2026-08-25
 mattermost/mattermost,TypeScript,`Unable to find manifest for extracted plugin` when using `make deploy`,https://github.com/mattermost/mattermost/issues/22614,27,Difficulty/1:Easy; Tech/Go; Help Wanted,2023-03-23,2023-08-11
 mattermost/mattermost,TypeScript,Fix all initialism errors in the codebase,https://github.com/mattermost/mattermost/issues/16623,27,Difficulty/1:Easy; Tech/Go; Hacktoberfest; Help Wanted,2021-01-04,2025-11-24
-microsoft/vscode,TypeScript,Review AsyncIterableObject usage: potential memory leaks and migration to AsyncIterableProducer,https://github.com/microsoft/vscode/issues/256854,34,help wanted; freeze-slow-crash-leak; debt; perf,2025-07-19,2026-09-28
+microsoft/vscode,TypeScript,Review AsyncIterableObject usage: potential memory leaks and migration to AsyncIterableProducer,https://github.com/microsoft/vscode/issues/256854,35,help wanted; freeze-slow-crash-leak; debt; perf,2025-07-19,2026-10-10
 microsoft/vscode,TypeScript,"Disabled and enabled (workspace) extension Disable button dropdown contains both ""Disable"" and ""Disable (Workspace)"" items",https://github.com/microsoft/vscode/issues/244138,40,bug; help wanted; extensions,2025-03-20,2026-09-01
 mattermost/mattermost,TypeScript,Mobile: Slight horizontal indent difference after first line,https://github.com/mattermost/mattermost/issues/27377,42,Difficulty/1:Easy; Tech/React Native; Help Wanted,2024-06-17,2026-09-25
 godotengine/godot-docs,reStructuredText,Physics2DDirectSpaceState does not specify local or global coordinates,https://github.com/godotengine/godot-docs/issues/3299,2,enhancement; area:class reference; topic:physics,2020-03-24,2026-02-05
