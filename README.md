@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-10-09</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-10-10</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -298,6 +298,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/kubernetes-api.md into Japanese](https://github.com/kubernetes/website/issues/56851) | 2 | 2026-08-08 | 2026-08-10 |
 | cncf/tag-app-delivery | HTML | [Automation of tag-app-delivery repo](https://github.com/cncf/tag-app-delivery/issues/566) | 3 | 2024-02-27 | 2024-06-22 |
 | cncf/tag-security | HTML | [[Suggestion] Working Group Landing Page](https://github.com/cncf/tag-security/issues/1354) | 4 | 2024-08-23 | 2025-07-19 |
+| kubernetes/website | HTML | [Broken in-page links in the Dynamic Resource Allocation concept pages](https://github.com/kubernetes/website/issues/57969) | 5 | 2026-10-09 | 2026-10-09 |
 | kubernetes/website | HTML | [[ko] Translate content/en/docs/concepts/storage/ephemeral-storage.md into Korean](https://github.com/kubernetes/website/issues/56982) | 5 | 2026-08-14 | 2026-10-01 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/pod-disruption-budget.md into Japanese](https://github.com/kubernetes/website/issues/56853) | 7 | 2026-08-08 | 2026-09-20 |
 | cncf/tag-observability | HTML | [WG: Create GitHub Pages site for TAG Observability](https://github.com/cncf/tag-observability/issues/39) | 7 | 2021-05-12 | 2023-11-21 |
@@ -320,11 +321,11 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/copilot-for-eclipse | Java | [Unable to use the Java source file corresponding to the class file as context](https://github.com/microsoft/copilot-for-eclipse/issues/117) | 13 | 2026-04-15 | 2026-06-25 |
 | layer5io/docs | JavaScript | [[Bug] Image not rendering correctly](https://github.com/layer5io/docs/issues/1207) | 1 | 2026-08-15 | 2026-08-15 |
 | mattermost/mattermost-plugin-gitlab | JavaScript | [Convert link_tooltip component to typescript](https://github.com/mattermost/mattermost-plugin-gitlab/issues/424) | 1 | 2023-12-19 | 2025-11-01 |
-| layer5io/layer5 | JavaScript | [Increase spacing between video and text on GCP architecture diagram page](https://github.com/layer5io/layer5/issues/8192) | 2 | 2026-10-07 | 2026-10-07 |
 | huggingface/transformers.js | JavaScript | [Is 'aggregation_strategy' parameter available for token classification pipeline?](https://github.com/huggingface/transformers.js/issues/633) | 2 | 2024-03-07 | 2024-06-09 |
 | huggingface/transformers.js | JavaScript | [[Feature request] Return offset mapping using tokenizer](https://github.com/huggingface/transformers.js/issues/425) | 2 | 2023-11-30 | 2024-01-12 |
 | EddieHubCommunity/RepoRater | JavaScript | [[BUG] Update the preview in the readme](https://github.com/EddieHubCommunity/RepoRater/issues/152) | 2 | 2024-08-02 | 2024-09-03 |
 | freeCodeCamp/classroom | JavaScript | [Bug: /classes page crashes if the mock-fcc-data endpoint is not running](https://github.com/freeCodeCamp/classroom/issues/533) | 2 | 2024-12-31 | 2026-04-28 |
+| layer5io/layer5 | JavaScript | [Increase spacing between video and text on GCP architecture diagram page](https://github.com/layer5io/layer5/issues/8192) | 3 | 2026-10-07 | 2026-10-09 |
 | layer5io/docs | JavaScript | [[Docs] Floating Card Overlapping Navbar](https://github.com/layer5io/docs/issues/1187) | 3 | 2026-08-06 | 2026-08-06 |
 | layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 4](https://github.com/layer5io/docs/issues/794) | 3 | 2025-08-21 | 2025-09-04 |
 | layer5io/docs | JavaScript | [Screen capture includes Grammarly](https://github.com/layer5io/docs/issues/543) | 3 | 2025-05-06 | 2026-08-11 |
@@ -342,12 +343,12 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | layer5io/layer5 | JavaScript | [[Screenshots] Chaos Mesh under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4867) | 7 | 2023-09-07 | 2026-03-22 |
 | huggingface/transformers.js | JavaScript | [[Doc request] Add an example guide of how to use it in Svelte (and deploy to HF Spaces)](https://github.com/huggingface/transformers.js/issues/171) | 7 | 2023-06-29 | 2023-08-21 |
 | EddieHubCommunity/EddieHubCommunity.github.io | JavaScript | [Add Issue Templates](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/issues/211) | 7 | 2021-10-04 | 2024-04-23 |
-| layer5io/layer5 | JavaScript | [Fix card animation not triggering automatically on mobile](https://github.com/layer5io/layer5/issues/8093) | 8 | 2026-09-19 | 2026-09-25 |
 | layer5io/layer5 | JavaScript | [Mobile navigation menu contains invalid nesting](https://github.com/layer5io/layer5/issues/7484) | 8 | 2026-03-11 | 2026-03-21 |
 | layer5io/layer5 | JavaScript | [[CI] Create or add to existing workflow: a broken link checker](https://github.com/layer5io/layer5/issues/6407) | 8 | 2025-04-25 | 2026-09-09 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Fluentbit Operator under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/5333) | 8 | 2024-01-23 | 2025-07-29 |
 | EddieHubCommunity/HealthCheck | JavaScript | [Update the preview image in the site](https://github.com/EddieHubCommunity/HealthCheck/issues/151) | 8 | 2024-08-12 | 2024-10-14 |
 | decentraland/land | JavaScript | [docs needed](https://github.com/decentraland/land/issues/154) | 8 | 2021-04-29 | 2021-04-30 |
+| layer5io/layer5 | JavaScript | [Fix card animation not triggering automatically on mobile](https://github.com/layer5io/layer5/issues/8093) | 9 | 2026-09-19 | 2026-10-09 |
 | layer5io/layer5 | JavaScript | [Community Membership paragraph alignment issue](https://github.com/layer5io/layer5/issues/8085) | 9 | 2026-09-18 | 2026-10-01 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Flagger under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/5331) | 9 | 2024-01-23 | 2026-07-21 |
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Update docs to the KCD README pattern](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/131) | 9 | 2018-03-25 | 2022-08-18 |
