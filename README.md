@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-10-10</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-10-11</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -124,6 +124,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-confluence | Go | [Add per user Authentication for Confluence](https://github.com/mattermost/mattermost-plugin-confluence/issues/49) | 0 | 2020-05-04 | 2025-03-26 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Allow "create event" command to accept spaces in values](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/97) | 0 | 2020-04-26 | 2021-10-02 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Add mapped Mattermost users as attendees in CreateEvent API method](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/28) | 0 | 2020-01-29 | 2021-10-02 |
+| kubernetes/minikube | Go | [Skip integration tests for hugo configuration changes](https://github.com/kubernetes/minikube/issues/23848) | 1 | 2026-10-11 | 2026-10-11 |
 | kubernetes/minikube | Go | [Document how to configure host for podman --rootless driver](https://github.com/kubernetes/minikube/issues/23724) | 1 | 2026-09-18 | 2026-09-30 |
 | hashicorp/terraform-provider-aws | Go | [[Docs]: Document necessary dependency between aws_eks_access_entry and aws_eks_access_policy_association](https://github.com/hashicorp/terraform-provider-aws/issues/40951) | 1 | 2025-01-15 | 2025-02-05 |
 | hashicorp/packer-plugin-googlecompute | Go | [Add disk_attachment labels](https://github.com/hashicorp/packer-plugin-googlecompute/issues/210) | 1 | 2024-02-28 | 2026-07-26 |
@@ -140,6 +141,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-nps | Go | [Use SiteURL for all calls from the webapp](https://github.com/mattermost/mattermost-plugin-nps/issues/70) | 1 | 2020-07-21 | 2021-10-02 |
 | mattermost/mattermost-plugin-google-calendar | Go | [Improve error handling in `completeCalendar` to avoid panic](https://github.com/mattermost/mattermost-plugin-google-calendar/issues/8) | 1 | 2020-04-23 | 2021-10-02 |
 | mattermost/mattermost-plugin-github | Go | [Use custom post type to display TODO list](https://github.com/mattermost/mattermost-plugin-github/issues/86) | 1 | 2019-06-04 | 2021-10-02 |
+| kubernetes/minikube | Go | [CI: Lint on linux-arm64](https://github.com/kubernetes/minikube/issues/23851) | 2 | 2026-10-11 | 2026-10-11 |
+| kubernetes/minikube | Go | [CI: Lint on windows-amd64](https://github.com/kubernetes/minikube/issues/23850) | 2 | 2026-10-11 | 2026-10-11 |
 | kubernetes/minikube | Go | [cri-dockerd updated uses pre-release](https://github.com/kubernetes/minikube/issues/23581) | 2 | 2026-08-29 | 2026-09-05 |
 | hashicorp/terraform-provider-aws | Go | [`aws_backup_selection`: Clarify interaction between `resources` and `selection_tag` when `resources` includes a wildcard](https://github.com/hashicorp/terraform-provider-aws/issues/49829) | 2 | 2026-09-03 | 2026-09-03 |
 | hashicorp/terraform-provider-aws | Go | [aws_fms_policy resource_tag_logical_operator not correctly displaying diff during a plan](https://github.com/hashicorp/terraform-provider-aws/issues/47771) | 2 | 2026-05-05 | 2026-09-01 |
@@ -299,7 +302,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/kubernetes-api.md into Japanese](https://github.com/kubernetes/website/issues/56851) | 2 | 2026-08-08 | 2026-08-10 |
 | cncf/tag-app-delivery | HTML | [Automation of tag-app-delivery repo](https://github.com/cncf/tag-app-delivery/issues/566) | 3 | 2024-02-27 | 2024-06-22 |
 | cncf/tag-security | HTML | [[Suggestion] Working Group Landing Page](https://github.com/cncf/tag-security/issues/1354) | 4 | 2024-08-23 | 2025-07-19 |
-| kubernetes/website | HTML | [Broken in-page links in the Dynamic Resource Allocation concept pages](https://github.com/kubernetes/website/issues/57969) | 5 | 2026-10-09 | 2026-10-09 |
 | kubernetes/website | HTML | [[ko] Translate content/en/docs/concepts/storage/ephemeral-storage.md into Korean](https://github.com/kubernetes/website/issues/56982) | 5 | 2026-08-14 | 2026-10-01 |
 | kubernetes/website | HTML | [[ja] Translate content/en/docs/reference/glossary/pod-disruption-budget.md into Japanese](https://github.com/kubernetes/website/issues/56853) | 7 | 2026-08-08 | 2026-09-20 |
 | cncf/tag-observability | HTML | [WG: Create GitHub Pages site for TAG Observability](https://github.com/cncf/tag-observability/issues/39) | 7 | 2021-05-12 | 2023-11-21 |
@@ -447,7 +449,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/optimum-habana | Python | [Add support for max_length in run_generation](https://github.com/huggingface/optimum-habana/issues/472) | 3 | 2023-10-18 | 2023-10-19 |
 | huggingface/dataset-viewer | Python | [Use `CONSTANT_LIST.copy` in list config fieds](https://github.com/huggingface/dataset-viewer/issues/1522) | 3 | 2023-07-17 | 2025-07-10 |
 | huggingface/transfer-learning-conv-ai | Python | [RuntimeError: shape '[-1, 2, 34]' is invalid for input of size 61710](https://github.com/huggingface/transfer-learning-conv-ai/issues/12) | 3 | 2019-06-04 | 2022-09-02 |
-| microsoft/PyRIT | Python | [FEAT: Add Garak ProPILE privacy leakage scenario](https://github.com/microsoft/PyRIT/issues/2532) | 3 | 2026-09-01 | 2026-10-10 |
 | microsoft/data-formulator | Python | [Docker Support](https://github.com/microsoft/data-formulator/issues/85) | 3 | 2025-02-13 | 2026-03-14 |
 | godotengine/godot-blender-exporter | Python | [Blender object with negative scale](https://github.com/godotengine/godot-blender-exporter/issues/24) | 3 | 2018-05-11 | 2020-10-09 |
 | huggingface/lighteval | Python | [[EVAL]: Add more African Benchmarks](https://github.com/huggingface/lighteval/issues/373) | 4 | 2024-10-24 | 2024-11-08 |
@@ -486,6 +487,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/optimum | Python | [Add all available ONNX models to ORTConfigManager](https://github.com/huggingface/optimum/issues/351) | 23 | 2022-08-16 | 2026-09-22 |
 | huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 25 | 2023-04-28 | 2026-10-06 |
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 27 | 2022-11-18 | 2026-09-09 |
+| microsoft/TRELLIS | Python | [Can this be used commercially?](https://github.com/microsoft/TRELLIS/issues/41) | 30 | 2024-12-09 | 2025-10-18 |
 | huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 32 | 2023-09-29 | 2026-09-18 |
 | microsoft/autogen | Python | [Get current message thread from a group chat team.](https://github.com/microsoft/autogen/issues/6085) | 32 | 2025-03-24 | 2026-09-01 |
 | microsoft/autogen | Python | [open needs encoding='utf-8' for non-english environment, error in playwright_controller.py](https://github.com/microsoft/autogen/issues/5566) | 34 | 2025-02-16 | 2026-09-12 |
@@ -653,7 +655,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost | TypeScript | [Improve the grammar on Account Creation Screen if the email address you entered does not belong to the accepted domain](https://github.com/mattermost/mattermost/issues/15927) | 25 | 2020-10-12 | 2026-08-25 |
 | mattermost/mattermost | TypeScript | [`Unable to find manifest for extracted plugin` when using `make deploy`](https://github.com/mattermost/mattermost/issues/22614) | 27 | 2023-03-23 | 2023-08-11 |
 | mattermost/mattermost | TypeScript | [Fix all initialism errors in the codebase](https://github.com/mattermost/mattermost/issues/16623) | 27 | 2021-01-04 | 2025-11-24 |
-| microsoft/vscode | TypeScript | [Review AsyncIterableObject usage: potential memory leaks and migration to AsyncIterableProducer](https://github.com/microsoft/vscode/issues/256854) | 35 | 2025-07-19 | 2026-10-10 |
+| microsoft/vscode | TypeScript | [Review AsyncIterableObject usage: potential memory leaks and migration to AsyncIterableProducer](https://github.com/microsoft/vscode/issues/256854) | 36 | 2025-07-19 | 2026-10-11 |
 | microsoft/vscode | TypeScript | [Disabled and enabled (workspace) extension Disable button dropdown contains both "Disable" and "Disable (Workspace)" items](https://github.com/microsoft/vscode/issues/244138) | 40 | 2025-03-20 | 2026-09-01 |
 | mattermost/mattermost | TypeScript | [Mobile: Slight horizontal indent difference after first line](https://github.com/mattermost/mattermost/issues/27377) | 42 | 2024-06-17 | 2026-09-25 |
 | godotengine/godot-docs | reStructuredText | [Physics2DDirectSpaceState does not specify local or global coordinates](https://github.com/godotengine/godot-docs/issues/3299) | 2 | 2020-03-24 | 2026-02-05 |
