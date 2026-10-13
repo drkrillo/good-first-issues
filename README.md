@@ -74,7 +74,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/msquic | C | [Support in-memory certificate stores](https://github.com/microsoft/msquic/issues/4951) | 2 | 2025-03-27 | 2026-05-26 |
 | microsoft/ebpf-for-windows | C | [ebpf-verifier is cloned twice](https://github.com/microsoft/ebpf-for-windows/issues/4174) | 2 | 2025-02-03 | 2026-10-12 |
 | microsoft/PowerToys | C | [.opus support for Peek](https://github.com/microsoft/PowerToys/issues/42576) | 4 | 2025-10-18 | 2026-06-28 |
-| microsoft/msquic | C | [Failing to use close-on-exec](https://github.com/microsoft/msquic/issues/4980) | 6 | 2025-04-08 | 2026-08-28 |
+| microsoft/msquic | C | [Failing to use close-on-exec](https://github.com/microsoft/msquic/issues/4980) | 7 | 2025-04-08 | 2026-10-13 |
 | microsoft/msquic | C | [2.6.0 : Visual Studio : some warnings as errors](https://github.com/microsoft/msquic/issues/6234) | 8 | 2026-08-14 | 2026-09-04 |
 | microsoft/profile-explorer | C# | [Mapping code gap?](https://github.com/microsoft/profile-explorer/issues/7) | 0 | 2025-02-10 | 2026-03-27 |
 | microsoft/WPF-Samples | C# | [Sample Applications Update to Fluent Theme](https://github.com/microsoft/WPF-Samples/issues/680) | 1 | 2025-02-03 | 2026-09-18 |
@@ -133,7 +133,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/waypoint | Go | [Makefile: Add a make target to generate changelog text files](https://github.com/hashicorp/waypoint/issues/3219) | 1 | 2022-04-13 | 2022-04-21 |
 | hashicorp/packer-plugin-sdk | Go | [Implement DownloadDir for chroot](https://github.com/hashicorp/packer-plugin-sdk/issues/89) | 1 | 2021-11-12 | 2021-11-17 |
 | hashicorp/terraform-provider-azurerm | Go | [Product Description Mandatory Field in azurerm_api_management_product](https://github.com/hashicorp/terraform-provider-azurerm/issues/13856) | 1 | 2021-10-22 | 2023-07-19 |
-| mattermost/mattermost-plugin-mscalendar | Go | [Add space between time and AM/PM for events](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/318) | 1 | 2023-08-31 | 2023-09-01 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Change Azure URL?](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/240) | 1 | 2022-09-20 | 2024-11-01 |
 | mattermost/mattermost-plugin-wrangler | Go | [Wrangling a post does not bring followers over to the new thread](https://github.com/mattermost/mattermost-plugin-wrangler/issues/135) | 1 | 2022-07-05 | 2024-11-22 |
 | mattermost/mattermost-plugin-nps | Go | [Use SiteURL for all calls from the webapp](https://github.com/mattermost/mattermost-plugin-nps/issues/70) | 1 | 2020-07-21 | 2021-10-02 |
@@ -189,7 +188,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-nps | Go | [JS error when telling Surveybot to disable the survey on old post](https://github.com/mattermost/mattermost-plugin-nps/issues/81) | 3 | 2020-11-29 | 2021-10-02 |
 | mattermost/mattermost-plugin-zoom | Go | [Synch Status: When on a Zoom call, show as “Busy”](https://github.com/mattermost/mattermost-plugin-zoom/issues/170) | 3 | 2020-10-02 | 2022-06-13 |
 | mattermost/mattermost-plugin-github | Go | [Register autolinks for GitHub URLs](https://github.com/mattermost/mattermost-plugin-github/issues/269) | 3 | 2020-05-13 | 2021-10-02 |
-| kubernetes/minikube | Go | [CI: Lint on linux-arm64](https://github.com/kubernetes/minikube/issues/23851) | 4 | 2026-10-11 | 2026-10-12 |
 | kubernetes/minikube | Go | [ci: Use go-version-file: 'go.mod' instead of hardcoded GO_VERSION in update workflows](https://github.com/kubernetes/minikube/issues/23526) | 4 | 2026-08-21 | 2026-09-05 |
 | hashicorp/terraform-provider-aws | Go | [aws_storagegateway_smb_file_share: cache_stale_timeout_in_seconds validation rejects 0, but the AWS API accepts it (blocks disabling cache refresh)](https://github.com/hashicorp/terraform-provider-aws/issues/48876) | 4 | 2026-07-09 | 2026-07-09 |
 | hashicorp/terraform-provider-aws | Go | [aws_ec2_transit_gateway_route_table_association support for timeouts block](https://github.com/hashicorp/terraform-provider-aws/issues/42705) | 4 | 2025-05-21 | 2025-05-23 |
@@ -282,9 +280,9 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/perf-tests | Go | [Create api-availability measurement](https://github.com/kubernetes/perf-tests/issues/1096) | 38 | 2020-03-03 | 2023-06-02 |
 | kubernetes/kube-state-metrics | Go | [Missing replacement config for VPA collector in CRM](https://github.com/kubernetes/kube-state-metrics/issues/2041) | 42 | 2023-04-05 | 2026-08-11 |
 | kubernetes/kubernetes | Go | [add and use alternative APIs which support contextual logging](https://github.com/kubernetes/kubernetes/issues/126379) | 43 | 2024-07-26 | 2026-08-29 |
-| kubernetes/kubernetes | Go | [kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment.](https://github.com/kubernetes/kubernetes/issues/118172) | 45 | 2023-05-22 | 2026-10-06 |
+| kubernetes/kubernetes | Go | [kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment.](https://github.com/kubernetes/kubernetes/issues/118172) | 46 | 2023-05-22 | 2026-10-13 |
 | kubernetes/kubernetes | Go | [Write the stress test for gRPC, http, and tcp probes](https://github.com/kubernetes/kubernetes/issues/115782) | 47 | 2023-02-15 | 2026-09-28 |
-| kubernetes/kubernetes | Go | [Migrate DRA components to support granular authorization on status updates](https://github.com/kubernetes/kubernetes/issues/138149) | 88 | 2026-04-01 | 2026-10-10 |
+| kubernetes/kubernetes | Go | [Migrate DRA components to support granular authorization on status updates](https://github.com/kubernetes/kubernetes/issues/138149) | 89 | 2026-04-01 | 2026-10-13 |
 | cncf/glossary | Go Template | [[es] A report to track and reflect updates of English content](https://github.com/cncf/glossary/issues/3222) | 0 | 2024-07-15 | 2025-04-07 |
 | cncf/glossary | Go Template | [[ru] Localize `Portability`](https://github.com/cncf/glossary/issues/3265) | 1 | 2024-08-04 | 2024-11-19 |
 | cncf/glossary | Go Template | [[ru] Localize `Service` into Russian](https://github.com/cncf/glossary/issues/3334) | 2 | 2024-10-17 | 2025-03-03 |
@@ -415,7 +413,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/hve-core | Python | [docs: Update stale documentation - docs/planning/brds/sssc-planner-security-brd.md](https://github.com/microsoft/hve-core/issues/2912) | 1 | 2026-09-14 | 2026-09-21 |
 | microsoft/mssql-django | Python | [JSON-null key lookups use OPENJSON, which requires database compatibility level 130 (fails on down-leveled 2016-2019 databases)](https://github.com/microsoft/mssql-django/issues/592) | 1 | 2026-09-08 | 2026-09-10 |
 | microsoft/mssql-django | Python | [JSONField key isnull=True over-matches JSON null values on SQL Server (also causes wrong iexact=None on Django < 6.1)](https://github.com/microsoft/mssql-django/issues/591) | 1 | 2026-09-08 | 2026-09-08 |
-| microsoft/hve-core | Python | [docs: Documentation drift: code-review README doesn't reflect new change-risk evidence checklist](https://github.com/microsoft/hve-core/issues/2803) | 1 | 2026-08-30 | 2026-08-31 |
 | microsoft/winml-cli | Python | [Minor refactor: reuse _compute_case_signature to compute failed model file name](https://github.com/microsoft/winml-cli/issues/56) | 1 | 2026-03-31 | 2026-06-17 |
 | microsoft/onnxscript | Python | [[torchlib] Add op test to torch.unique_consecutive](https://github.com/microsoft/onnxscript/issues/2695) | 1 | 2025-11-10 | 2025-12-21 |
 | microsoft/teams-agent-accelerator-libs-py | Python | [Provide cleaner api for building citations for memories](https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/72) | 1 | 2024-12-19 | 2025-11-17 |
@@ -487,6 +484,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/autogen | Python | [Get current message thread from a group chat team.](https://github.com/microsoft/autogen/issues/6085) | 32 | 2025-03-24 | 2026-09-01 |
 | microsoft/autogen | Python | [open needs encoding='utf-8' for non-english environment, error in playwright_controller.py](https://github.com/microsoft/autogen/issues/5566) | 34 | 2025-02-16 | 2026-09-12 |
 | microsoft/TRELLIS | Python | [How to generate 3D assets with more number of faces?](https://github.com/microsoft/TRELLIS/issues/58) | 34 | 2024-12-12 | 2025-01-25 |
+| microsoft/TRELLIS | Python | [Setting Up Trellis on Windows](https://github.com/microsoft/TRELLIS/issues/3) | 53 | 2024-12-06 | 2025-11-02 |
 | huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 166 | 2025-01-07 | 2026-10-07 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 | 2024-04-17 | 2024-04-17 |
 | microsoft/openvmm | Rust | [remove usages of futures::select! in the repo with futures_concurrency](https://github.com/microsoft/openvmm/issues/1246) | 0 | 2025-04-25 | 2025-06-21 |
