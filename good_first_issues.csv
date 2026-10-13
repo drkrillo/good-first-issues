@@ -2,12 +2,12 @@ repo,language,title,url,comments,labels,created_at,updated_at
 microsoft/msquic,C,Miss check for the return value of CXPLAT_ALLOC_NONPAGED and CxPlatPoolAlloc,https://github.com/microsoft/msquic/issues/5233,0,help wanted; Area: Testing; Triaged; HowFound: MSR,2025-07-10,2026-03-03
 microsoft/jbpf,C,jbpf_io_ipc_test passes with error messages,https://github.com/microsoft/jbpf/issues/54,0,bug,2025-03-17,2025-03-27
 microsoft/jbpf,C,Remove JBPF_EXPERIMENTAL_FEATURES from  header files,https://github.com/microsoft/jbpf/issues/26,0,,2024-12-13,2025-03-03
-microsoft/ebpf-for-windows,C,OpenCppCoverage install step fails silently,https://github.com/microsoft/ebpf-for-windows/issues/5330,1,ebpfjitter; triaged; P3,2026-06-01,2026-08-12
+microsoft/ebpf-for-windows,C,OpenCppCoverage install step fails silently,https://github.com/microsoft/ebpf-for-windows/issues/5330,1,ebpfjitter; triaged; P3,2026-06-01,2026-10-12
 microsoft/ebpf-for-windows,C,Cleanup: catch2 now allows multiple threads,https://github.com/microsoft/ebpf-for-windows/issues/4553,1,cleanup; triaged; P3,2025-07-31,2026-10-02
 microsoft/ntttcp,C,per-thread throughput is always 0.00 with ntttcp version 5.40.,https://github.com/microsoft/ntttcp/issues/24,1,help wanted,2025-03-14,2026-02-17
 microsoft/ebpf-for-windows,C,Update tests/sample/undocked/map.c,https://github.com/microsoft/ebpf-for-windows/issues/4547,2,cleanup; triaged; P3,2025-07-30,2026-10-02
 microsoft/msquic,C,Support in-memory certificate stores,https://github.com/microsoft/msquic/issues/4951,2,feature request; external; Area: API; Area: Core,2025-03-27,2026-05-26
-microsoft/ebpf-for-windows,C,ebpf-verifier is cloned twice,https://github.com/microsoft/ebpf-for-windows/issues/4174,2,blocked; cleanup; triaged; P3,2025-02-03,2026-10-02
+microsoft/ebpf-for-windows,C,ebpf-verifier is cloned twice,https://github.com/microsoft/ebpf-for-windows/issues/4174,2,blocked; cleanup; triaged; P3,2025-02-03,2026-10-12
 microsoft/PowerToys,C,.opus support for Peek,https://github.com/microsoft/PowerToys/issues/42576,4,Idea-Enhancement; Help Wanted; Status-In progress; Product-Peek,2025-10-18,2026-06-28
 microsoft/msquic,C,Failing to use close-on-exec,https://github.com/microsoft/msquic/issues/4980,6,OS: Windows (User); OS: Linux; external; Bug: Platform; Triaged,2025-04-08,2026-08-28
 microsoft/msquic,C,2.6.0 : Visual Studio : some warnings as errors,https://github.com/microsoft/msquic/issues/6234,8,Area: Build,2026-08-14,2026-09-04
@@ -59,7 +59,6 @@ mattermost/mattermost-plugin-confluence,Go,"Support notifications to users ""wat
 mattermost/mattermost-plugin-confluence,Go,Add per user Authentication for Confluence,https://github.com/mattermost/mattermost-plugin-confluence/issues/49,0,Type/Enhancement; Help Wanted; Difficulty/1:Easy; Hacktoberfest; Tech/Go; Up For Grabs,2020-05-04,2025-03-26
 mattermost/mattermost-plugin-mscalendar,Go,"Allow ""create event"" command to accept spaces in values",https://github.com/mattermost/mattermost-plugin-mscalendar/issues/97,0,Difficulty/1:Easy; Hacktoberfest; Help Wanted; Tech/Go; Up For Grabs; Type/Enhancement,2020-04-26,2021-10-02
 mattermost/mattermost-plugin-mscalendar,Go,Add mapped Mattermost users as attendees in CreateEvent API method,https://github.com/mattermost/mattermost-plugin-mscalendar/issues/28,0,Difficulty/1:Easy; Hacktoberfest; Help Wanted; Tech/Go; Up For Grabs; Type/Enhancement,2020-01-29,2021-10-02
-kubernetes/minikube,Go,Skip integration tests for hugo configuration changes,https://github.com/kubernetes/minikube/issues/23848,1,help wanted; area/testing,2026-10-11,2026-10-11
 kubernetes/minikube,Go,Document how to configure host for podman --rootless driver,https://github.com/kubernetes/minikube/issues/23724,1,kind/documentation,2026-09-18,2026-09-30
 hashicorp/terraform-provider-aws,Go,[Docs]: Document necessary dependency between aws_eks_access_entry and aws_eks_access_policy_association,https://github.com/hashicorp/terraform-provider-aws/issues/40951,1,documentation; service/eks,2025-01-15,2025-02-05
 hashicorp/packer-plugin-googlecompute,Go,Add disk_attachment labels,https://github.com/hashicorp/packer-plugin-googlecompute/issues/210,1,enhancement,2024-02-28,2026-07-26
@@ -69,14 +68,11 @@ hashicorp/terraform-provider-azurerm,Go,r/data_factory_linked_service_postgresql
 hashicorp/waypoint,Go,Makefile: Add a make target to generate changelog text files,https://github.com/hashicorp/waypoint/issues/3219,1,enhancement,2022-04-13,2022-04-21
 hashicorp/packer-plugin-sdk,Go,Implement DownloadDir for chroot,https://github.com/hashicorp/packer-plugin-sdk/issues/89,1,enhancement; help wanted,2021-11-12,2021-11-17
 hashicorp/terraform-provider-azurerm,Go,Product Description Mandatory Field in azurerm_api_management_product,https://github.com/hashicorp/terraform-provider-azurerm/issues/13856,1,bug; service/api-management; v/2.x (legacy),2021-10-22,2023-07-19
-mattermost/mattermost-plugin-google-calendar,Go,`/gcal viewcal` and daily summary show up declined events,https://github.com/mattermost/mattermost-plugin-google-calendar/issues/53,1,Hacktoberfest,2023-09-06,2023-10-13
 mattermost/mattermost-plugin-mscalendar,Go,Add space between time and AM/PM for events,https://github.com/mattermost/mattermost-plugin-mscalendar/issues/318,1,Hacktoberfest,2023-08-31,2023-09-01
 mattermost/mattermost-plugin-mscalendar,Go,Change Azure URL?,https://github.com/mattermost/mattermost-plugin-mscalendar/issues/240,1,Difficulty/1:Easy; Hacktoberfest; Help Wanted; Tech/Go; Up For Grabs; Type/Enhancement,2022-09-20,2024-11-01
 mattermost/mattermost-plugin-wrangler,Go,Wrangling a post does not bring followers over to the new thread,https://github.com/mattermost/mattermost-plugin-wrangler/issues/135,1,,2022-07-05,2024-11-22
 mattermost/mattermost-plugin-nps,Go,Use SiteURL for all calls from the webapp,https://github.com/mattermost/mattermost-plugin-nps/issues/70,1,Type/Enhancement; Difficulty/1:Easy; Hacktoberfest; Help Wanted; Tech/ReactJS; Up For Grabs,2020-07-21,2021-10-02
-mattermost/mattermost-plugin-google-calendar,Go,Improve error handling in `completeCalendar` to avoid panic,https://github.com/mattermost/mattermost-plugin-google-calendar/issues/8,1,Help Wanted; Type/Bug; Difficulty/1:Easy; Hacktoberfest; Tech/Go; Up For Grabs,2020-04-23,2021-10-02
 mattermost/mattermost-plugin-github,Go,Use custom post type to display TODO list,https://github.com/mattermost/mattermost-plugin-github/issues/86,1,Help Wanted; Up For Grabs; Hacktoberfest; Tech/Go; Tech/ReactJS; Difficulty/1:Easy; Type/Enhancement,2019-06-04,2021-10-02
-kubernetes/minikube,Go,CI: Lint on linux-arm64,https://github.com/kubernetes/minikube/issues/23851,2,help wanted; area/testing,2026-10-11,2026-10-11
 kubernetes/minikube,Go,CI: Lint on windows-amd64,https://github.com/kubernetes/minikube/issues/23850,2,help wanted; area/testing,2026-10-11,2026-10-11
 kubernetes/minikube,Go,cri-dockerd updated uses pre-release,https://github.com/kubernetes/minikube/issues/23581,2,help wanted,2026-08-29,2026-09-05
 hashicorp/terraform-provider-aws,Go,`aws_backup_selection`: Clarify interaction between `resources` and `selection_tag` when `resources` includes a wildcard,https://github.com/hashicorp/terraform-provider-aws/issues/49829,2,documentation; service/backup,2026-09-03,2026-09-03
@@ -128,6 +124,7 @@ mattermost/mattermost-plugin-github,Go,Support tooltip preview on hovering over 
 mattermost/mattermost-plugin-nps,Go,JS error when telling Surveybot to disable the survey on old post,https://github.com/mattermost/mattermost-plugin-nps/issues/81,3,Type/Bug; Difficulty/1:Easy; Hacktoberfest; Help Wanted; Tech/ReactJS; Up For Grabs,2020-11-29,2021-10-02
 mattermost/mattermost-plugin-zoom,Go,"Synch Status: When on a Zoom call, show as “Busy”",https://github.com/mattermost/mattermost-plugin-zoom/issues/170,3,Help Wanted; Up For Grabs; Tech/Go; Hacktoberfest; Difficulty/3:Hard; Type/Enhancement,2020-10-02,2022-06-13
 mattermost/mattermost-plugin-github,Go,Register autolinks for GitHub URLs,https://github.com/mattermost/mattermost-plugin-github/issues/269,3,Help Wanted; Up For Grabs; Hacktoberfest; Tech/Go; Difficulty/2:Medium,2020-05-13,2021-10-02
+kubernetes/minikube,Go,CI: Lint on linux-arm64,https://github.com/kubernetes/minikube/issues/23851,4,help wanted; area/testing,2026-10-11,2026-10-12
 kubernetes/minikube,Go,ci: Use go-version-file: 'go.mod' instead of hardcoded GO_VERSION in update workflows,https://github.com/kubernetes/minikube/issues/23526,4,area/testing,2026-08-21,2026-09-05
 hashicorp/terraform-provider-aws,Go,"aws_storagegateway_smb_file_share: cache_stale_timeout_in_seconds validation rejects 0, but the AWS API accepts it (blocks disabling cache refresh)",https://github.com/hashicorp/terraform-provider-aws/issues/48876,4,bug; service/storagegateway,2026-07-09,2026-07-09
 hashicorp/terraform-provider-aws,Go,aws_ec2_transit_gateway_route_table_association support for timeouts block,https://github.com/hashicorp/terraform-provider-aws/issues/42705,4,enhancement; timeouts; service/transitgateway,2025-05-21,2025-05-23
@@ -199,10 +196,10 @@ kubernetes/minikube,Go,registry-creds addon: secrets stored with different name 
 hashicorp/terraform-provider-helm,Go,the provider continues to reveal sensitive variables during destroy or update in-place,https://github.com/hashicorp/terraform-provider-helm/issues/1287,14,bug; help wanted; upstream-terraform,2023-11-09,2025-12-02
 kubernetes/autoscaler,Go,"Cluster autoscaler should remove unused ""node-autoprovisioning-enabled"" flag and the related metrics",https://github.com/kubernetes/autoscaler/issues/6228,15,help wanted; area/cluster-autoscaler; kind/bug; area/core-autoscaler; triage/accepted,2023-10-26,2026-04-08
 kubernetes/ingress-nginx,Go,Support standard Forwarded header,https://github.com/kubernetes/ingress-nginx/issues/10263,15,help wanted; kind/feature; priority/backlog; triage/accepted,2023-08-01,2026-02-25
-kubernetes/minikube,Go,Minikube tunnel is not working on Windows (endessly trying to add a route),https://github.com/kubernetes/minikube/issues/11645,15,kind/bug; help wanted; priority/important-longterm; lifecycle/frozen; area/tunnel,2021-06-13,2026-08-05
 hashicorp/terraform-provider-aws,Go,[Enhancement]: Support updateToLatestImageVersion in aws_batch_compute_environment.compute_resources,https://github.com/hashicorp/terraform-provider-aws/issues/39978,15,enhancement; service/batch,2024-10-31,2025-01-09
 kubernetes/minikube,Go,Feature: enable the structured logging for kubernetes components by default,https://github.com/kubernetes/minikube/issues/9268,16,help wanted; kind/feature; priority/backlog; lifecycle/frozen,2020-09-17,2026-02-18
 kubernetes/ingress-nginx,Go,Feature Request: Allow disabling custom-http-errors per ingress,https://github.com/kubernetes/ingress-nginx/issues/8384,17,help wanted; kind/feature; priority/backlog; needs-triage,2022-03-23,2024-11-06
+kubernetes/minikube,Go,Minikube tunnel is not working on Windows (endessly trying to add a route),https://github.com/kubernetes/minikube/issues/11645,17,kind/bug; help wanted; priority/important-longterm; lifecycle/frozen; area/tunnel,2021-06-13,2026-10-12
 hashicorp/terraform-provider-aws,Go, Lifecycle configuration for S3 Bucket failing with time out issue for AWS Provider 4.21.0,https://github.com/hashicorp/terraform-provider-aws/issues/25939,17,service/s3; timeouts,2022-07-22,2026-09-09
 kubernetes/perf-tests,Go,ClusterLoader: HA cluster support,https://github.com/kubernetes/perf-tests/issues/246,18,help wanted; lifecycle/frozen; area/clusterloader,2018-10-15,2020-11-14
 kubernetes/kube-state-metrics,Go,Address lint reports,https://github.com/kubernetes/kube-state-metrics/issues/1887,19,,2022-11-08,2023-06-14
@@ -237,7 +234,6 @@ cncf/tag-contributor-strategy,HTML,Charter link is 404,https://github.com/cncf/t
 kubernetes/website,HTML,[ja] Translate content/en/docs/reference/glossary/kubernetes-api.md into Japanese,https://github.com/kubernetes/website/issues/56851,2,help wanted; kind/feature; language/ja; triage/accepted; area/localization,2026-08-08,2026-08-10
 cncf/tag-app-delivery,HTML,Automation of tag-app-delivery repo,https://github.com/cncf/tag-app-delivery/issues/566,3,tag-discuss,2024-02-27,2024-06-22
 cncf/tag-security,HTML,[Suggestion] Working Group Landing Page,https://github.com/cncf/tag-security/issues/1354,4,suggestion; inactive; website,2024-08-23,2025-07-19
-kubernetes/website,HTML,[ko] Translate content/en/docs/concepts/storage/ephemeral-storage.md into Korean,https://github.com/kubernetes/website/issues/56982,5,help wanted; kind/feature; language/ko; needs-triage; area/localization,2026-08-14,2026-10-01
 kubernetes/website,HTML,[ja] Translate content/en/docs/reference/glossary/pod-disruption-budget.md into Japanese,https://github.com/kubernetes/website/issues/56853,7,help wanted; kind/feature; language/ja; triage/accepted; area/localization,2026-08-08,2026-09-20
 cncf/tag-observability,HTML,WG: Create GitHub Pages site for TAG Observability,https://github.com/cncf/tag-observability/issues/39,7,documentation; help wanted; working group,2021-05-12,2023-11-21
 kubernetes/website,HTML,[hi] Localize Network Policy Provider page,https://github.com/kubernetes/website/issues/47439,8,help wanted; kind/feature; language/hi; triage/accepted; area/localization,2024-08-11,2026-07-09
@@ -268,7 +264,6 @@ layer5io/docs,JavaScript,[Docs] Floating Card Overlapping Navbar,https://github.
 layer5io/docs,JavaScript,[Docs] Convert Static Image to Meshery Design - 4,https://github.com/layer5io/docs/issues/794,3,area/docs; help wanted; language/markdown; framework/hugo,2025-08-21,2025-09-04
 layer5io/docs,JavaScript,Screen capture includes Grammarly,https://github.com/layer5io/docs/issues/543,3,help wanted; kind/bug; language/javascript; language/css; framework/hugo,2025-05-06,2026-08-11
 freeCodeCamp/classroom,JavaScript,Bug: Classrooms can be created with no certifications,https://github.com/freeCodeCamp/classroom/issues/551,3,bug,2025-10-12,2026-10-04
-layer5io/layer5,JavaScript,Layout shift when opening the “Meet Five” card,https://github.com/layer5io/layer5/issues/8084,4,kind/bug; help wanted; framework/gatsby,2026-09-18,2026-09-18
 freeCodeCamp/100DaysOfCode-twitter-bot,JavaScript,Contributing needs work,https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/112,4,help wanted; documentation,2017-12-02,2018-03-24
 layer5io/layer5,JavaScript,"[UI]: Oversized GitHub octocat icon on ""What is GitOps?"" resource page",https://github.com/layer5io/layer5/issues/7963,5,kind/bug; help wanted; framework/gatsby,2026-08-16,2026-09-09
 layer5io/docs,JavaScript,[Docs] Improve Related Docs Links in Pinning Models to Dock Page,https://github.com/layer5io/docs/issues/1028,5,area/docs; help wanted; language/markdown; framework/hugo,2026-05-11,2026-06-11
@@ -406,10 +401,10 @@ microsoft/onnxscript,Python,Attention fusion (SDPA/MHA) broken for BART decoder 
 microsoft/markitdown,Python,File support: chm support,https://github.com/microsoft/markitdown/issues/14,7,enhancement,2024-12-13,2026-06-10
 huggingface/lerobot,Python,Select the VLM backbone for SmolVLA,https://github.com/huggingface/lerobot/issues/2104,9,question; policies,2025-10-02,2026-08-17
 huggingface/lighteval,Python,[EVAL] Adding PHARE,https://github.com/huggingface/lighteval/issues/696,9,help wanted; new-task,2025-04-30,2026-07-16
-microsoft/hve-core,Python,docs: Update stale documentation - .github/skills/project-planning/adr-author/references/lineage-rules.md,https://github.com/microsoft/hve-core/issues/2584,9,documentation; needs-triage; stale-docs; automated,2026-08-03,2026-10-05
 huggingface/lerobot,Python,Distributed v2.1 -> v3.0 conversion,https://github.com/huggingface/lerobot/issues/1998,10,dataset; performance,2025-09-22,2026-06-10
 huggingface/lighteval,Python,[EVAL] Add TUMLU benchmark,https://github.com/huggingface/lighteval/issues/577,10,help wanted; new-task,2025-02-19,2025-05-15
 huggingface/datasets,Python,WMT21 & WMT22,https://github.com/huggingface/datasets/issues/4709,10,dataset request,2022-07-18,2026-02-26
+microsoft/hve-core,Python,docs: Update stale documentation - .github/skills/project-planning/adr-author/references/lineage-rules.md,https://github.com/microsoft/hve-core/issues/2584,10,documentation; needs-triage; stale-docs; automated,2026-08-03,2026-10-12
 huggingface/diffusers,Python,Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`,https://github.com/huggingface/diffusers/issues/8434,11,community-examples; contributions-welcome,2024-06-07,2026-09-19
 microsoft/markitdown,Python,Support for .doc extensions,https://github.com/microsoft/markitdown/issues/23,14,enhancement; open for contribution,2024-12-14,2026-06-02
 huggingface/diffusers,Python,[Flux ControlNet] Add support for de-distilled models with CFG,https://github.com/huggingface/diffusers/issues/9635,15,contributions-welcome,2024-10-10,2026-09-01
@@ -535,7 +530,9 @@ microsoft/Game-Control-Puzzle-Event-Administration-Tools,TypeScript,Per team and
 hashicorp/terraform-cdk,TypeScript,CLI UX: Nicer output for `cdktf synth` if there are no stacks in an app,https://github.com/hashicorp/terraform-cdk/issues/2793,1,enhancement; cdktf-cli; priority/backlog; ux/cli,2023-04-12,2023-05-28
 hashicorp/terraform-cdk,TypeScript,Support `local-exec` `quiet` attribute,https://github.com/hashicorp/terraform-cdk/issues/2702,1,enhancement; help wanted; cdktf; priority/backlog; core-parity,2023-03-09,2023-06-01
 hashicorp/terraform-cdk,TypeScript,Additional-python-google-resources-examples,https://github.com/hashicorp/terraform-cdk/issues/1211,1,enhancement; help wanted; examples; priority/backlog; size/small,2021-10-25,2023-06-02
+mattermost/mattermost-plugin-google-calendar,TypeScript,`/gcal viewcal` and daily summary show up declined events,https://github.com/mattermost/mattermost-plugin-google-calendar/issues/53,1,Hacktoberfest,2023-09-06,2023-10-13
 mattermost/mattermost-test-management,TypeScript,Display Errors and Files name in which they occurr,https://github.com/mattermost/mattermost-test-management/issues/20,1,enhancement; help wanted,2022-11-23,2022-11-24
+mattermost/mattermost-plugin-google-calendar,TypeScript,Improve error handling in `completeCalendar` to avoid panic,https://github.com/mattermost/mattermost-plugin-google-calendar/issues/8,1,Help Wanted; Type/Bug; Difficulty/1:Easy; Hacktoberfest; Tech/Go; Up For Grabs,2020-04-23,2021-10-02
 freeCodeCamp/chapter,TypeScript,Updating Different Users section in contribution guide,https://github.com/freeCodeCamp/chapter/issues/1914,1,Documentation,2022-11-17,2022-11-20
 decentraland/builder,TypeScript,Add a search bar to NAMEs list,https://github.com/decentraland/builder/issues/3330,1,enhancement; dapps,2025-12-26,2025-12-27
 decentraland/auth,TypeScript,Migrate getAnalytics to useAnalytics Hook,https://github.com/decentraland/auth/issues/198,1,enhancement,2025-10-02,2026-09-16
@@ -591,6 +588,6 @@ mattermost/mattermost,TypeScript,Improve the grammar on Account Creation Screen 
 mattermost/mattermost,TypeScript,`Unable to find manifest for extracted plugin` when using `make deploy`,https://github.com/mattermost/mattermost/issues/22614,27,Difficulty/1:Easy; Tech/Go; Help Wanted,2023-03-23,2023-08-11
 mattermost/mattermost,TypeScript,Fix all initialism errors in the codebase,https://github.com/mattermost/mattermost/issues/16623,27,Difficulty/1:Easy; Tech/Go; Hacktoberfest; Help Wanted,2021-01-04,2025-11-24
 microsoft/vscode,TypeScript,Review AsyncIterableObject usage: potential memory leaks and migration to AsyncIterableProducer,https://github.com/microsoft/vscode/issues/256854,36,help wanted; freeze-slow-crash-leak; debt; perf,2025-07-19,2026-10-11
-microsoft/vscode,TypeScript,"Disabled and enabled (workspace) extension Disable button dropdown contains both ""Disable"" and ""Disable (Workspace)"" items",https://github.com/microsoft/vscode/issues/244138,40,bug; help wanted; extensions,2025-03-20,2026-09-01
+microsoft/vscode,TypeScript,"Disabled and enabled (workspace) extension Disable button dropdown contains both ""Disable"" and ""Disable (Workspace)"" items",https://github.com/microsoft/vscode/issues/244138,41,bug; help wanted; extensions,2025-03-20,2026-10-12
 mattermost/mattermost,TypeScript,Mobile: Slight horizontal indent difference after first line,https://github.com/mattermost/mattermost/issues/27377,42,Difficulty/1:Easy; Tech/React Native; Help Wanted,2024-06-17,2026-09-25
 godotengine/godot-docs,reStructuredText,Physics2DDirectSpaceState does not specify local or global coordinates,https://github.com/godotengine/godot-docs/issues/3299,2,enhancement; area:class reference; topic:physics,2020-03-24,2026-02-05
