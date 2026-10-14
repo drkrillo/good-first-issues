@@ -382,12 +382,12 @@ huggingface/lighteval,Python,[EVAL]: Add more African Benchmarks,https://github.
 huggingface/dataset-viewer,Python,Cache/Queue metrics should not be negative,https://github.com/huggingface/dataset-viewer/issues/2495,4,bug; P2; metrics,2024-02-23,2025-08-04
 microsoft/markitdown,Python,"Autonomous Agents, Unite!",https://github.com/microsoft/markitdown/issues/2386,4,,2026-09-04,2026-09-05
 huggingface/lighteval,Python,[FT] showing count in Markdown summary table,https://github.com/huggingface/lighteval/issues/804,5,feature,2025-06-09,2026-08-11
-huggingface/lighteval,Python,[BUG] custom model docs don't run: missing imports,https://github.com/huggingface/lighteval/issues/760,5,bug; documentation,2025-05-21,2025-05-21
 huggingface/nanotron,Python,Avoid nested `InheritFromOtherOptimizer`,https://github.com/huggingface/nanotron/issues/267,5,help wanted; Low Priority,2025-01-15,2025-09-23
 huggingface/nanotron,Python,[Unit Test] Add unit tests for DistributedTrainer,https://github.com/huggingface/nanotron/issues/90,5,help wanted; High Priority,2024-03-02,2024-03-03
 huggingface/optimum-benchmark,Python,Evaluators for specific tasks,https://github.com/huggingface/optimum-benchmark/issues/34,5,enhancement,2023-08-21,2023-12-07
 microsoft/mssql-python,Python,FEAT: Built-in configurable connection and transient-fault retry logic,https://github.com/microsoft/mssql-python/issues/682,5,enhancement; triage done; up for grabs 🙌; inADO; discussion,2026-07-15,2026-09-03
 microsoft/onnxscript,Python,Constant-Folding Registry,https://github.com/microsoft/onnxscript/issues/2507,5,category: question; contribution welcome; module: optimizer,2025-08-22,2026-08-31
+huggingface/lighteval,Python,[BUG] custom model docs don't run: missing imports,https://github.com/huggingface/lighteval/issues/760,6,bug; documentation,2025-05-21,2026-10-14
 huggingface/lighteval,Python,[FT] Improve Documentation and Examples,https://github.com/huggingface/lighteval/issues/682,6,documentation; help wanted; feature,2025-04-21,2025-05-15
 huggingface/lighteval,Python,Append revision to filepath in `--output_dir`?,https://github.com/huggingface/lighteval/issues/56,6,feature; science-team,2024-02-26,2026-08-30
 microsoft/physical-ai-toolchain,Python,build: refresh and consolidate repository uv pins,https://github.com/microsoft/physical-ai-toolchain/issues/1071,6,build; security,2026-06-30,2026-09-18
@@ -424,9 +424,9 @@ huggingface/peft,Python,Comparison of Different Fine-Tuning Techniques for Conve
 huggingface/ratchet,Rust,Reduce dependencies! 🗡️,https://github.com/huggingface/ratchet/issues/170,0,help wanted,2024-04-17,2024-04-17
 microsoft/openvmm,Rust,remove usages of futures::select! in the repo with futures_concurrency,https://github.com/microsoft/openvmm/issues/1246,0,linting,2025-04-25,2025-06-21
 microsoft/windows-drivers-rs,Rust,Migrate from fs4 to std::File flocks,https://github.com/microsoft/windows-drivers-rs/issues/300,0,,2025-02-20,2025-08-15
-microsoft/openvmm,Rust,fdt/builder: enforce BE datatypes on add_prop_array,https://github.com/microsoft/openvmm/issues/777,0,enhancement,2025-02-04,2025-06-21
 microsoft/openvmm,Rust,repo: move no_std custom error types over to thiserror,https://github.com/microsoft/openvmm/issues/1811,1,,2025-08-05,2025-08-08
 microsoft/openvmm,Rust,Clean up our windows API dependencies,https://github.com/microsoft/openvmm/issues/1061,1,dependencies,2025-03-18,2026-03-09
+microsoft/openvmm,Rust,fdt/builder: enforce BE datatypes on add_prop_array,https://github.com/microsoft/openvmm/issues/777,1,enhancement,2025-02-04,2026-10-14
 microsoft/openvmm,Rust,zerocopy: clean up TODOs,https://github.com/microsoft/openvmm/issues/759,1,dependencies,2025-01-31,2025-07-07
 huggingface/xet-core,Rust,XetFileDownloadGroup.abort() returns immediately but the aborted transfer keeps downloading to completion,https://github.com/huggingface/xet-core/issues/942,2,bug; rust; xet-core; client; hf-xet,2026-08-16,2026-08-19
 microsoft/openvmm,Rust,openvmm: emulated nvme configuration,https://github.com/microsoft/openvmm/issues/1534,2,enhancement,2025-06-18,2025-08-08
