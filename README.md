@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-10-14</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-10-15</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -87,7 +87,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/react-native-windows | C++ | [Deprecate autolink functionality to copy flags from react-native.config.js into ExperimentalFeature.props.](https://github.com/microsoft/react-native-windows/issues/14601) | 1 | 2025-04-22 | 2025-06-11 |
 | microsoft/react-native-windows | C++ | [[Bug] init-windows adds incorrect name of Native Codegen File Include](https://github.com/microsoft/react-native-windows/issues/15094) | 4 | 2025-08-29 | 2026-08-04 |
 | godotengine/godot | C++ | [You're breathtaking!](https://github.com/godotengine/godot/issues/100000) | 38 | 2024-12-04 | 2026-09-18 |
-| godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 267 | 2020-11-10 | 2026-09-16 |
+| godotengine/godot | C++ | [[TRACKER] Unit tests to add or improve](https://github.com/godotengine/godot/issues/43440) | 268 | 2020-11-10 | 2026-10-15 |
 | godotengine/emacs-gdscript-mode | Emacs Lisp | [Rewrite gdscript-imenu to provide GDScript-specific tables](https://github.com/godotengine/emacs-gdscript-mode/issues/89) | 0 | 2020-09-08 | 2020-09-08 |
 | godotengine/emacs-gdscript-mode | Emacs Lisp | [Buffer does not revert or update instantly after formatting buffer](https://github.com/godotengine/emacs-gdscript-mode/issues/88) | 3 | 2020-09-03 | 2020-09-10 |
 | godotengine/godot-benchmarks | GDScript | [[Call to Action] Benchmarks for the benchmark server](https://github.com/godotengine/godot-benchmarks/issues/36) | 5 | 2023-10-13 | 2024-06-24 |
@@ -125,7 +125,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-mscalendar | Go | [Allow "create event" command to accept spaces in values](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/97) | 0 | 2020-04-26 | 2021-10-02 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Add mapped Mattermost users as attendees in CreateEvent API method](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/28) | 0 | 2020-01-29 | 2021-10-02 |
 | kubernetes/minikube | Go | [Document how to configure host for podman --rootless driver](https://github.com/kubernetes/minikube/issues/23724) | 1 | 2026-09-18 | 2026-09-30 |
-| hashicorp/terraform-provider-aws | Go | [[Docs]: Document necessary dependency between aws_eks_access_entry and aws_eks_access_policy_association](https://github.com/hashicorp/terraform-provider-aws/issues/40951) | 1 | 2025-01-15 | 2025-02-05 |
 | hashicorp/packer-plugin-googlecompute | Go | [Add disk_attachment labels](https://github.com/hashicorp/packer-plugin-googlecompute/issues/210) | 1 | 2024-02-28 | 2026-07-26 |
 | hashicorp/packer-plugin-azure | Go | [Improve error messaging for "Managed Images not supporting ARM64 images error"](https://github.com/hashicorp/packer-plugin-azure/issues/367) | 1 | 2024-01-25 | 2024-08-28 |
 | hashicorp/waypoint | Go | [Show job created time in CLI output](https://github.com/hashicorp/waypoint/issues/4293) | 1 | 2022-12-08 | 2023-05-24 |
@@ -137,17 +136,14 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-wrangler | Go | [Wrangling a post does not bring followers over to the new thread](https://github.com/mattermost/mattermost-plugin-wrangler/issues/135) | 1 | 2022-07-05 | 2024-11-22 |
 | mattermost/mattermost-plugin-nps | Go | [Use SiteURL for all calls from the webapp](https://github.com/mattermost/mattermost-plugin-nps/issues/70) | 1 | 2020-07-21 | 2021-10-02 |
 | mattermost/mattermost-plugin-github | Go | [Use custom post type to display TODO list](https://github.com/mattermost/mattermost-plugin-github/issues/86) | 1 | 2019-06-04 | 2021-10-02 |
-| kubernetes/minikube | Go | [CI: Lint on windows-amd64](https://github.com/kubernetes/minikube/issues/23850) | 2 | 2026-10-11 | 2026-10-11 |
 | kubernetes/minikube | Go | [cri-dockerd updated uses pre-release](https://github.com/kubernetes/minikube/issues/23581) | 2 | 2026-08-29 | 2026-09-05 |
-| hashicorp/terraform-provider-aws | Go | [`aws_backup_selection`: Clarify interaction between `resources` and `selection_tag` when `resources` includes a wildcard](https://github.com/hashicorp/terraform-provider-aws/issues/49829) | 2 | 2026-09-03 | 2026-09-03 |
-| hashicorp/terraform-provider-aws | Go | [aws_fms_policy resource_tag_logical_operator not correctly displaying diff during a plan](https://github.com/hashicorp/terraform-provider-aws/issues/47771) | 2 | 2026-05-05 | 2026-09-01 |
 | hashicorp/terraform-provider-aws | Go | [Add private DNS endpoint attribute to `aws_dsql_cluster` resource](https://github.com/hashicorp/terraform-provider-aws/issues/47596) | 2 | 2026-04-23 | 2026-04-28 |
 | hashicorp/terraform-provider-aws | Go | [aws_quicksight_dashboard / aws_quicksight_analysis: scatter_plot_categorically_aggregated_field_wells missing label block](https://github.com/hashicorp/terraform-provider-aws/issues/46529) | 2 | 2026-02-17 | 2026-03-12 |
 | hashicorp/terraform-provider-aws | Go | [iot_topic_rule CloudWatch metric timestamp Wrong validator](https://github.com/hashicorp/terraform-provider-aws/issues/45375) | 2 | 2025-12-03 | 2026-03-11 |
 | hashicorp/packer-plugin-azure | Go | [Create a technical document giving detailed steps on how to configure Packer to use private Azure vNet with public IP](https://github.com/hashicorp/packer-plugin-azure/issues/503) | 2 | 2025-06-24 | 2025-06-27 |
 | hashicorp/terraform-provider-aws | Go | [aws_pipes_pipe resource does not support target Timestream for Live Analytics](https://github.com/hashicorp/terraform-provider-aws/issues/42400) | 2 | 2025-04-28 | 2026-03-12 |
 | hashicorp/terraform-provider-kubernetes | Go | [Add CSI Driver fsGroup Support](https://github.com/hashicorp/terraform-provider-kubernetes/issues/2702) | 2 | 2025-03-13 | 2026-07-02 |
-| hashicorp/terraform-provider-aws | Go | [[Docs]: A notation may cause confusion in import exmaple](https://github.com/hashicorp/terraform-provider-aws/issues/40935) | 2 | 2025-01-15 | 2025-03-25 |
+| hashicorp/terraform-provider-aws | Go | [[Docs]: Document necessary dependency between aws_eks_access_entry and aws_eks_access_policy_association](https://github.com/hashicorp/terraform-provider-aws/issues/40951) | 2 | 2025-01-15 | 2026-10-15 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: Request warning for possible OpenSearch blue/green deployments](https://github.com/hashicorp/terraform-provider-aws/issues/40045) | 2 | 2024-11-07 | 2024-12-09 |
 | hashicorp/packer-plugin-openstack | Go | [Verify checksums of images imported via external_source_image_url](https://github.com/hashicorp/packer-plugin-openstack/issues/116) | 2 | 2023-11-23 | 2023-11-28 |
 | hashicorp/copywrite | Go | [Support overriding `ensureCorrectName` (e.g. support `LICENSE.md` instead of `LICENSE`)](https://github.com/hashicorp/copywrite/issues/101) | 2 | 2023-10-27 | 2023-10-31 |
@@ -168,8 +164,9 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-mscalendar | Go | [Improve Daily Summary weekday setup](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/56) | 2 | 2020-03-16 | 2021-10-02 |
 | microsoft/TypeScript | Go | [Incorrect/unhelpful error message for non-module jsx file](https://github.com/microsoft/TypeScript/issues/64438) | 3 | 2026-09-24 | 2026-09-30 |
 | microsoft/retina | Go | [Update documentation with Hubble CLI and Hubble UI deployment instructions on Retina.](https://github.com/microsoft/retina/issues/1387) | 3 | 2025-02-26 | 2025-05-13 |
+| hashicorp/terraform-provider-aws | Go | [`aws_backup_selection`: Clarify interaction between `resources` and `selection_tag` when `resources` includes a wildcard](https://github.com/hashicorp/terraform-provider-aws/issues/49829) | 3 | 2026-09-03 | 2026-10-15 |
 | hashicorp/terraform-provider-aws | Go | [data/aws_bedrock_foundation_model: modelLifecycle attribute not exposed](https://github.com/hashicorp/terraform-provider-aws/issues/47779) | 3 | 2026-05-06 | 2026-05-31 |
-| hashicorp/terraform-provider-aws | Go | [aws_s3tables_table_replication: Create fails with "A version token is not specified"](https://github.com/hashicorp/terraform-provider-aws/issues/46675) | 3 | 2026-02-26 | 2026-03-02 |
+| hashicorp/terraform-provider-aws | Go | [aws_fms_policy resource_tag_logical_operator not correctly displaying diff during a plan](https://github.com/hashicorp/terraform-provider-aws/issues/47771) | 3 | 2026-05-05 | 2026-10-15 |
 | hashicorp/terraform-provider-aws | Go | [[EMR on EKS] aws_emrcontainers_job_template: add support for job_template_data.parameter_configuration](https://github.com/hashicorp/terraform-provider-aws/issues/46502) | 3 | 2026-02-16 | 2026-04-28 |
 | hashicorp/terraform-provider-aws | Go | [aws_transfer_server::identity_provider_type causes replacement](https://github.com/hashicorp/terraform-provider-aws/issues/46229) | 3 | 2026-01-30 | 2026-02-27 |
 | hashicorp/terraform-provider-aws | Go | [Unable to update a RAM share to use the latest version of a custom permission](https://github.com/hashicorp/terraform-provider-aws/issues/46219) | 3 | 2026-01-29 | 2026-03-23 |
@@ -177,6 +174,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/terraform-provider-kubernetes | Go | [Helper function for creating `env` name/value pair list from a map.](https://github.com/hashicorp/terraform-provider-kubernetes/issues/2767) | 3 | 2025-08-15 | 2026-06-11 |
 | hashicorp/terraform-provider-aws | Go | [aws_efs_replication_configuration is missing role-arn for cross-account-replication](https://github.com/hashicorp/terraform-provider-aws/issues/42814) | 3 | 2025-05-30 | 2025-12-09 |
 | hashicorp/terraform-provider-aws | Go | [[Bug]: SageMaker App Image Config: API rejects valid UID/GID pairs defined in provider schema](https://github.com/hashicorp/terraform-provider-aws/issues/40976) | 3 | 2025-01-17 | 2025-03-19 |
+| hashicorp/terraform-provider-aws | Go | [[Docs]: A notation may cause confusion in import exmaple](https://github.com/hashicorp/terraform-provider-aws/issues/40935) | 3 | 2025-01-15 | 2026-10-15 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_sagemaker_domain add Hidden Image Versions options to the studio_web_portal_settings](https://github.com/hashicorp/terraform-provider-aws/issues/39876) | 3 | 2024-10-24 | 2025-02-27 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_redshiftserverless_namespace - manageAdminPassword/redshiftIdcApplicationArn](https://github.com/hashicorp/terraform-provider-aws/issues/35135) | 3 | 2024-01-04 | 2026-09-24 |
 | hashicorp/terraform-provider-vault | Go | [Update vault_kubernetes_auth_backend_role Resource to support allowed_kubernetes_namespace_selector Field](https://github.com/hashicorp/terraform-provider-vault/issues/1882) | 3 | 2023-06-02 | 2024-10-29 |
@@ -189,7 +187,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-zoom | Go | [Synch Status: When on a Zoom call, show as “Busy”](https://github.com/mattermost/mattermost-plugin-zoom/issues/170) | 3 | 2020-10-02 | 2022-06-13 |
 | mattermost/mattermost-plugin-github | Go | [Register autolinks for GitHub URLs](https://github.com/mattermost/mattermost-plugin-github/issues/269) | 3 | 2020-05-13 | 2021-10-02 |
 | kubernetes/minikube | Go | [ci: Use go-version-file: 'go.mod' instead of hardcoded GO_VERSION in update workflows](https://github.com/kubernetes/minikube/issues/23526) | 4 | 2026-08-21 | 2026-09-05 |
-| hashicorp/terraform-provider-aws | Go | [aws_storagegateway_smb_file_share: cache_stale_timeout_in_seconds validation rejects 0, but the AWS API accepts it (blocks disabling cache refresh)](https://github.com/hashicorp/terraform-provider-aws/issues/48876) | 4 | 2026-07-09 | 2026-07-09 |
+| hashicorp/terraform-provider-aws | Go | [aws_s3tables_table_replication: Create fails with "A version token is not specified"](https://github.com/hashicorp/terraform-provider-aws/issues/46675) | 4 | 2026-02-26 | 2026-10-15 |
 | hashicorp/terraform-provider-aws | Go | [aws_ec2_transit_gateway_route_table_association support for timeouts block](https://github.com/hashicorp/terraform-provider-aws/issues/42705) | 4 | 2025-05-21 | 2025-05-23 |
 | hashicorp/terraform-provider-aws | Go | [AWS IVS Real Time Stage Terraform Module](https://github.com/hashicorp/terraform-provider-aws/issues/42644) | 4 | 2025-05-16 | 2026-06-28 |
 | hashicorp/terraform-provider-aws | Go | [[Docs]: quicksight_data_source](https://github.com/hashicorp/terraform-provider-aws/issues/41672) | 4 | 2025-03-05 | 2025-04-08 |
@@ -207,7 +205,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-github | Go | [Select types of events to subscribe to in a dialog box](https://github.com/mattermost/mattermost-plugin-github/issues/381) | 4 | 2020-10-03 | 2026-02-17 |
 | mattermost/mattermost-plugin-github | Go | [Handle case where sidebar API endpoints return null](https://github.com/mattermost/mattermost-plugin-github/issues/235) | 4 | 2020-04-02 | 2026-03-02 |
 | kubernetes/kube-openapi | Go | [Having the same type embedded more than once breaks generation](https://github.com/kubernetes/kube-openapi/issues/129) | 5 | 2019-01-04 | 2024-11-18 |
-| hashicorp/terraform-provider-aws | Go | [[Bug]: Route 53 Resolver rule resource defines bad defaults for target configuration](https://github.com/hashicorp/terraform-provider-aws/issues/41523) | 5 | 2025-02-23 | 2026-03-24 |
+| hashicorp/terraform-provider-aws | Go | [aws_storagegateway_smb_file_share: cache_stale_timeout_in_seconds validation rejects 0, but the AWS API accepts it (blocks disabling cache refresh)](https://github.com/hashicorp/terraform-provider-aws/issues/48876) | 5 | 2026-07-09 | 2026-10-15 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_dms_endpoint add additional redshift_settings parameters](https://github.com/hashicorp/terraform-provider-aws/issues/38814) | 5 | 2024-08-10 | 2026-06-11 |
 | hashicorp/terraform-provider-aws | Go | [[Docs]: Import existing trail using ARN doesn't work, but it does if the trail name is used](https://github.com/hashicorp/terraform-provider-aws/issues/37179) | 5 | 2024-04-30 | 2025-04-02 |
 | hashicorp/terraform-provider-aws | Go | [aws_redshiftserverless_namespace restore from snapshot](https://github.com/hashicorp/terraform-provider-aws/issues/35138) | 5 | 2024-01-04 | 2025-01-22 |
@@ -220,7 +218,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-github | Go | [Add alternative sorting functionality for RHS view](https://github.com/mattermost/mattermost-plugin-github/issues/242) | 5 | 2020-04-15 | 2026-02-17 |
 | microsoft/terraform-provider-azuredevops | Go | [Full unit test suite isn't running on CI](https://github.com/microsoft/terraform-provider-azuredevops/issues/1439) | 6 | 2025-09-29 | 2026-09-20 |
 | hashicorp/terraform-provider-aws | Go | [Route53 Resolver Endpoint Hash Function Prevents Multiple IPs per Subnet When IP Address is Auto-Assigned](https://github.com/hashicorp/terraform-provider-aws/issues/43724) | 6 | 2025-08-05 | 2025-08-20 |
-| hashicorp/terraform-provider-aws | Go | [[Enhancement]: `aws_cloudwatch_metric_alarm`: Add validation to prevent specifying both `metric` and `expression`](https://github.com/hashicorp/terraform-provider-aws/issues/41680) | 6 | 2025-03-05 | 2026-07-30 |
+| hashicorp/terraform-provider-aws | Go | [[Bug]: Route 53 Resolver rule resource defines bad defaults for target configuration](https://github.com/hashicorp/terraform-provider-aws/issues/41523) | 6 | 2025-02-23 | 2026-10-15 |
 | hashicorp/terraform-provider-aws | Go | [aws_iam_openid_connect_provider rejects valid "url"s](https://github.com/hashicorp/terraform-provider-aws/issues/26483) | 6 | 2022-08-25 | 2025-02-27 |
 | hashicorp/waypoint | Go | [Registry insecure flag](https://github.com/hashicorp/waypoint/issues/3333) | 6 | 2022-05-13 | 2022-11-02 |
 | hashicorp/consul | Go | [Allow more parameters in topology view `dashboard_url_templates.service`](https://github.com/hashicorp/consul/issues/12401) | 6 | 2022-02-20 | 2026-07-11 |
@@ -230,7 +228,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-mscalendar | Go | [Make the OAuth2 landing page](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/94) | 6 | 2020-04-26 | 2024-08-09 |
 | kubernetes/perf-tests | Go | [Check watch terminations from clusters loader tests](https://github.com/kubernetes/perf-tests/issues/2054) | 7 | 2022-04-28 | 2022-11-16 |
 | kubernetes/minikube | Go | [Wrong error message on minikube tunnel without Administrator privilege on Windows](https://github.com/kubernetes/minikube/issues/9589) | 7 | 2020-10-30 | 2021-09-22 |
-| hashicorp/terraform-provider-aws | Go | [Error: Unsupported argument: blue_green_update](https://github.com/hashicorp/terraform-provider-aws/issues/44488) | 7 | 2025-09-29 | 2026-01-29 |
+| hashicorp/terraform-provider-aws | Go | [[Enhancement]: `aws_cloudwatch_metric_alarm`: Add validation to prevent specifying both `metric` and `expression`](https://github.com/hashicorp/terraform-provider-aws/issues/41680) | 7 | 2025-03-05 | 2026-10-15 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_athena_prepared_statement: Allow multiline (EOT) query strings to preserve comments and line breaks without update-in-place](https://github.com/hashicorp/terraform-provider-aws/issues/41469) | 7 | 2025-02-19 | 2026-09-30 |
 | hashicorp/terraform-provider-aws | Go | [[Bug]: aws_kinesis_firehose_delivery_stream continually applies cloudwatch_logging_options](https://github.com/hashicorp/terraform-provider-aws/issues/40446) | 7 | 2024-12-04 | 2026-04-03 |
 | hashicorp/vault-csi-provider | Go | [feat: Enable json logging format](https://github.com/hashicorp/vault-csi-provider/issues/177) | 7 | 2022-09-01 | 2026-09-18 |
@@ -240,6 +238,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-github | Go | [In RHS, display whether there are linked pull requests to issues, and if there are linked issues for pull requests](https://github.com/mattermost/mattermost-plugin-github/issues/271) | 7 | 2020-05-14 | 2023-02-21 |
 | layer5io/getnighthawk | Go | [[SITE] Nav Bar is missing on the mobile view of the page](https://github.com/layer5io/getnighthawk/issues/258) | 8 | 2022-03-14 | 2023-11-09 |
 | kubernetes/kube-state-metrics | Go | [Parse Nested Arrays does not work](https://github.com/kubernetes/kube-state-metrics/issues/2368) | 8 | 2024-04-10 | 2026-10-04 |
+| hashicorp/terraform-provider-aws | Go | [Error: Unsupported argument: blue_green_update](https://github.com/hashicorp/terraform-provider-aws/issues/44488) | 8 | 2025-09-29 | 2026-10-15 |
 | hashicorp/terraform-provider-aws | Go | [`aws_elasticache_serverless_cache` Security Group Ids are incorrectly optional.](https://github.com/hashicorp/terraform-provider-aws/issues/43027) | 8 | 2025-06-16 | 2026-07-16 |
 | hashicorp/vault-k8s | Go | [Configurable default log_level and log_format for injected Vault Agent containers](https://github.com/hashicorp/vault-k8s/issues/417) | 8 | 2023-01-28 | 2025-08-28 |
 | hashicorp/terraform-provider-aws | Go | [Add CodeArtifact Package Origin Controls](https://github.com/hashicorp/terraform-provider-aws/issues/26623) | 8 | 2022-09-02 | 2026-09-01 |
@@ -252,7 +251,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/perf-tests | Go | [Make PV tests work on kubemark clusters](https://github.com/kubernetes/perf-tests/issues/803) | 11 | 2019-09-18 | 2020-08-06 |
 | kubernetes/sig-security | Go | [tooling: run tests and linters with prow for srctl](https://github.com/kubernetes/sig-security/issues/175) | 12 | 2026-02-06 | 2026-08-07 |
 | kubernetes/minikube | Go | [mikube start fail when --memory is lower than 2500M - missing input validation](https://github.com/kubernetes/minikube/issues/23317) | 13 | 2026-07-07 | 2026-08-16 |
-| kubernetes/perf-tests | Go | [clusterloader2 should be covered with unit tests](https://github.com/kubernetes/perf-tests/issues/572) | 13 | 2019-06-18 | 2026-10-02 |
 | hashicorp/terraform-provider-aws | Go | [Timeout for every account destroy with `close_on_deletion`](https://github.com/hashicorp/terraform-provider-aws/issues/46284) | 13 | 2026-02-03 | 2026-08-04 |
 | hashicorp/terraform-provider-azurerm | Go | [azurerm_kusto_script failing to create, then saying it already exists on rerun](https://github.com/hashicorp/terraform-provider-azurerm/issues/15649) | 13 | 2022-03-01 | 2025-07-17 |
 | kubernetes/minikube | Go | [registry-creds addon: secrets stored with different name to defaults](https://github.com/kubernetes/minikube/issues/2805) | 14 | 2018-05-11 | 2026-08-13 |
@@ -428,7 +426,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/onnxscript | Python | [[Optimizer] Fold Shape -> {Slice, Gather} -> Concat -> Reshape](https://github.com/microsoft/onnxscript/issues/2736) | 2 | 2025-12-17 | 2026-06-24 |
 | microsoft/OpenAIWorkshop | Python | [Fix eslint warnings](https://github.com/microsoft/OpenAIWorkshop/issues/292) | 2 | 2025-10-03 | 2025-12-18 |
 | microsoft/vscode-black-formatter | Python | [black is using cached pyproject.toml instead of the actual one](https://github.com/microsoft/vscode-black-formatter/issues/569) | 2 | 2025-04-18 | 2025-04-28 |
-| microsoft/msticpy | Python | [[Bug]: RiskIQ TI Provider does not seem functional anymore and docs for config and API access are out of date](https://github.com/microsoft/msticpy/issues/820) | 2 | 2025-01-30 | 2025-02-21 |
 | microsoft/onnxscript | Python | [[IR] Graph editor API](https://github.com/microsoft/onnxscript/issues/2005) | 2 | 2025-01-09 | 2025-05-09 |
 | microsoft/AutoPodcaster | Python | [Add devcontainer](https://github.com/microsoft/AutoPodcaster/issues/9) | 2 | 2025-01-09 | 2026-09-23 |
 | microsoft/onnxscript | Python | [informing about bad positional argument in node constructor](https://github.com/microsoft/onnxscript/issues/1984) | 2 | 2024-12-26 | 2026-01-07 |
@@ -510,7 +507,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/chat-macOS | Swift | [Asking "what time is it?" will always return the local time of Paris, regardless of your location (⌘R+)](https://github.com/huggingface/chat-macOS/issues/7) | 2 | 2024-09-24 | 2024-10-23 |
 | huggingface/chat-macOS | Swift | [Add custom LLM API ](https://github.com/huggingface/chat-macOS/issues/18) | 5 | 2024-09-27 | 2025-02-14 |
 | huggingface/sam2-studio | Swift | [Video support estimated release date?](https://github.com/huggingface/sam2-studio/issues/25) | 26 | 2024-09-28 | 2026-01-31 |
-| microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Bug: Agent value summary doesn't load the info](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/901) | 0 | 2026-10-07 | 2026-10-08 |
 | microsoft/scope | TypeScript | [Allow editing Azure AI Foundry model](https://github.com/microsoft/scope/issues/1386) | 0 | 2026-08-31 | 2026-08-31 |
 | microsoft/Agent365-nodejs | TypeScript | [Convert "test-agents" into E2E tests](https://github.com/microsoft/Agent365-nodejs/issues/15) | 0 | 2025-10-29 | 2025-10-29 |
 | microsoft/vscode-jupyter | TypeScript | [Add magic line comments regex pattern as configuration for uncommentMagicCommands](https://github.com/microsoft/vscode-jupyter/issues/16499) | 0 | 2025-03-24 | 2025-03-24 |
@@ -581,6 +577,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | decentraland/explorer | TypeScript | [Add new AvatarModifier: Force camera mode](https://github.com/decentraland/explorer/issues/1948) | 0 | 2021-01-19 | 2021-08-04 |
 | decentraland/atlas-server | TypeScript | [Add a redirect or message with a link to the documentation at /](https://github.com/decentraland/atlas-server/issues/3) | 0 | 2020-12-14 | 2020-12-14 |
 | decentraland/builder | TypeScript | [Add a way to de-assign a Name from a Land (Parcel/Estate) from the table](https://github.com/decentraland/builder/issues/1203) | 0 | 2020-12-10 | 2022-10-31 |
+| microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Installation help](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/907) | 1 | 2026-10-14 | 2026-10-15 |
+| microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Bug: Agent value summary doesn't load the info](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/901) | 1 | 2026-10-07 | 2026-10-15 |
 | microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Import September 2026 release fails during ACP/DLP evaluation even though connectors are available.](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/858) | 1 | 2026-09-09 | 2026-09-10 |
 | microsoft/scope | TypeScript | [Clarify that prompt features only categorize prompts, don't impact runs](https://github.com/microsoft/scope/issues/1276) | 1 | 2026-07-29 | 2026-09-25 |
 | microsoft/scope | TypeScript | [Document model lifecycle and deprecation process](https://github.com/microsoft/scope/issues/1275) | 1 | 2026-07-29 | 2026-09-28 |
