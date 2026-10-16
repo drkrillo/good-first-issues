@@ -308,7 +308,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/website | HTML | [[hi] Localize en/docs/contribute/style/page-content-types.md](https://github.com/kubernetes/website/issues/36594) | 18 | 2022-09-04 | 2026-01-10 |
 | kubernetes/website | HTML | [[hi] Localize en/docs/contribute/participate/_index.md](https://github.com/kubernetes/website/issues/36471) | 19 | 2022-08-31 | 2026-01-16 |
 | kubernetes/website | HTML | [[de] Localize content/de/setup/production-environment/_index.md](https://github.com/kubernetes/website/issues/50286) | 23 | 2025-03-27 | 2025-07-17 |
-| kubernetes/website | HTML | [Umbrella: Improve and update the generate-ref-docs contributor guide](https://github.com/kubernetes/website/issues/56385) | 26 | 2026-07-04 | 2026-08-26 |
+| kubernetes/website | HTML | [Umbrella: Improve and update the generate-ref-docs contributor guide](https://github.com/kubernetes/website/issues/56385) | 27 | 2026-07-04 | 2026-10-16 |
 | kubernetes/website | HTML | [[hi] Localize en/docs/contribute/review/for-approvers.md](https://github.com/kubernetes/website/issues/36474) | 28 | 2022-08-31 | 2026-08-06 |
 | kubernetes/website | HTML | [[hi] Enhance README file to improve readability and user-friendliness](https://github.com/kubernetes/website/issues/41989) | 30 | 2023-07-12 | 2026-03-22 |
 | microsoft/copilot-for-eclipse | Java | [The Copilot Chat view retains file context even after the file is closed](https://github.com/microsoft/copilot-for-eclipse/issues/277) | 0 | 2026-06-05 | 2026-06-05 |
@@ -319,12 +319,10 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/transformers.js | JavaScript | [Is 'aggregation_strategy' parameter available for token classification pipeline?](https://github.com/huggingface/transformers.js/issues/633) | 2 | 2024-03-07 | 2024-06-09 |
 | huggingface/transformers.js | JavaScript | [[Feature request] Return offset mapping using tokenizer](https://github.com/huggingface/transformers.js/issues/425) | 2 | 2023-11-30 | 2024-01-12 |
 | EddieHubCommunity/RepoRater | JavaScript | [[BUG] Update the preview in the readme](https://github.com/EddieHubCommunity/RepoRater/issues/152) | 2 | 2024-08-02 | 2024-09-03 |
-| freeCodeCamp/classroom | JavaScript | [Bug: /classes page crashes if the mock-fcc-data endpoint is not running](https://github.com/freeCodeCamp/classroom/issues/533) | 2 | 2024-12-31 | 2026-04-28 |
-| layer5io/layer5 | JavaScript | [Increase spacing between video and text on GCP architecture diagram page](https://github.com/layer5io/layer5/issues/8192) | 3 | 2026-10-07 | 2026-10-09 |
 | layer5io/docs | JavaScript | [[Docs] Floating Card Overlapping Navbar](https://github.com/layer5io/docs/issues/1187) | 3 | 2026-08-06 | 2026-08-06 |
 | layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 4](https://github.com/layer5io/docs/issues/794) | 3 | 2025-08-21 | 2025-09-04 |
 | layer5io/docs | JavaScript | [Screen capture includes Grammarly](https://github.com/layer5io/docs/issues/543) | 3 | 2025-05-06 | 2026-08-11 |
-| freeCodeCamp/classroom | JavaScript | [Bug: Classrooms can be created with no certifications](https://github.com/freeCodeCamp/classroom/issues/551) | 3 | 2025-10-12 | 2026-10-04 |
+| layer5io/layer5 | JavaScript | [Increase spacing between video and text on GCP architecture diagram page](https://github.com/layer5io/layer5/issues/8192) | 4 | 2026-10-07 | 2026-10-16 |
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Contributing needs work](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/112) | 4 | 2017-12-02 | 2018-03-24 |
 | layer5io/layer5 | JavaScript | [[UI]: Oversized GitHub octocat icon on "What is GitOps?" resource page](https://github.com/layer5io/layer5/issues/7963) | 5 | 2026-08-16 | 2026-09-09 |
 | layer5io/docs | JavaScript | [[Docs] Improve Related Docs Links in Pinning Models to Dock Page](https://github.com/layer5io/docs/issues/1028) | 5 | 2026-05-11 | 2026-06-11 |
@@ -344,9 +342,9 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | decentraland/land | JavaScript | [docs needed](https://github.com/decentraland/land/issues/154) | 8 | 2021-04-29 | 2021-04-30 |
 | layer5io/layer5 | JavaScript | [Fix card animation not triggering automatically on mobile](https://github.com/layer5io/layer5/issues/8093) | 9 | 2026-09-19 | 2026-10-09 |
 | layer5io/layer5 | JavaScript | [Community Membership paragraph alignment issue](https://github.com/layer5io/layer5/issues/8085) | 9 | 2026-09-18 | 2026-10-01 |
-| layer5io/layer5 | JavaScript | [[Screenshots] Flagger under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/5331) | 9 | 2024-01-23 | 2026-07-21 |
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Update docs to the KCD README pattern](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/131) | 9 | 2018-03-25 | 2022-08-18 |
 | layer5io/layer5 | JavaScript | [Improve styling of categories of models](https://github.com/layer5io/layer5/issues/7593) | 10 | 2026-04-06 | 2026-05-09 |
+| layer5io/layer5 | JavaScript | [[Screenshots] Flagger under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/5331) | 10 | 2024-01-23 | 2026-10-16 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Containerssh under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4876) | 10 | 2023-09-07 | 2026-03-22 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Cert Manager Crds under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4865) | 10 | 2023-09-07 | 2026-03-22 |
 | layer5io/layer5 | JavaScript | [[Animation] Animate Meshery Architecture](https://github.com/layer5io/layer5/issues/7661) | 11 | 2026-04-25 | 2026-06-09 |
@@ -465,8 +463,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/datasets | Python | [WMT21 & WMT22](https://github.com/huggingface/datasets/issues/4709) | 10 | 2022-07-18 | 2026-02-26 |
 | microsoft/hve-core | Python | [docs: Update stale documentation - .github/skills/project-planning/adr-author/references/lineage-rules.md](https://github.com/microsoft/hve-core/issues/2584) | 10 | 2026-08-03 | 2026-10-12 |
 | huggingface/diffusers | Python | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 11 | 2024-06-07 | 2026-09-19 |
-| microsoft/markitdown | Python | [Support for .doc extensions](https://github.com/microsoft/markitdown/issues/23) | 14 | 2024-12-14 | 2026-06-02 |
 | huggingface/diffusers | Python | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 15 | 2024-10-10 | 2026-09-01 |
+| microsoft/markitdown | Python | [Support for .doc extensions](https://github.com/microsoft/markitdown/issues/23) | 15 | 2024-12-14 | 2026-10-16 |
 | microsoft/data-formulator | Python | [Create new data loaders to different resources](https://github.com/microsoft/data-formulator/issues/156) | 16 | 2025-05-13 | 2026-10-03 |
 | huggingface/diffusers | Python | [[Pipeline] AnimateDiff + SparseControl + ControlNet](https://github.com/huggingface/diffusers/issues/9329) | 17 | 2024-08-30 | 2026-09-09 |
 | microsoft/markitdown | Python | [LLM Integration](https://github.com/microsoft/markitdown/issues/12) | 17 | 2024-12-13 | 2026-06-08 |
@@ -481,7 +479,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/autogen | Python | [Get current message thread from a group chat team.](https://github.com/microsoft/autogen/issues/6085) | 32 | 2025-03-24 | 2026-09-01 |
 | microsoft/autogen | Python | [open needs encoding='utf-8' for non-english environment, error in playwright_controller.py](https://github.com/microsoft/autogen/issues/5566) | 34 | 2025-02-16 | 2026-09-12 |
 | microsoft/TRELLIS | Python | [How to generate 3D assets with more number of faces?](https://github.com/microsoft/TRELLIS/issues/58) | 34 | 2024-12-12 | 2025-01-25 |
-| microsoft/TRELLIS | Python | [Setting Up Trellis on Windows](https://github.com/microsoft/TRELLIS/issues/3) | 53 | 2024-12-06 | 2025-11-02 |
 | huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 166 | 2025-01-07 | 2026-10-07 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 | 2024-04-17 | 2024-04-17 |
 | microsoft/openvmm | Rust | [remove usages of futures::select! in the repo with futures_concurrency](https://github.com/microsoft/openvmm/issues/1246) | 0 | 2025-04-25 | 2025-06-21 |
@@ -507,6 +504,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/chat-macOS | Swift | [Asking "what time is it?" will always return the local time of Paris, regardless of your location (⌘R+)](https://github.com/huggingface/chat-macOS/issues/7) | 2 | 2024-09-24 | 2024-10-23 |
 | huggingface/chat-macOS | Swift | [Add custom LLM API ](https://github.com/huggingface/chat-macOS/issues/18) | 5 | 2024-09-27 | 2025-02-14 |
 | huggingface/sam2-studio | Swift | [Video support estimated release date?](https://github.com/huggingface/sam2-studio/issues/25) | 26 | 2024-09-28 | 2026-01-31 |
+| microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Bug: Webchat Playground is under constuction](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/909) | 0 | 2026-10-15 | 2026-10-16 |
 | microsoft/scope | TypeScript | [Allow editing Azure AI Foundry model](https://github.com/microsoft/scope/issues/1386) | 0 | 2026-08-31 | 2026-08-31 |
 | microsoft/Agent365-nodejs | TypeScript | [Convert "test-agents" into E2E tests](https://github.com/microsoft/Agent365-nodejs/issues/15) | 0 | 2025-10-29 | 2025-10-29 |
 | microsoft/vscode-jupyter | TypeScript | [Add magic line comments regex pattern as configuration for uncommentMagicCommands](https://github.com/microsoft/vscode-jupyter/issues/16499) | 0 | 2025-03-24 | 2025-03-24 |
@@ -621,6 +619,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/teams.ts | TypeScript | [[cards] support lowercase and Capitalized JSON values](https://github.com/microsoft/teams.ts/issues/132) | 3 | 2025-04-09 | 2025-10-11 |
 | hashicorp/terraform-cdk | TypeScript | [Support kubernetes backend](https://github.com/hashicorp/terraform-cdk/issues/1628) | 3 | 2022-03-19 | 2023-06-01 |
 | hashicorp/terraform-cdk | TypeScript | [API docs: Add docs to Terraform backends](https://github.com/hashicorp/terraform-cdk/issues/1268) | 3 | 2021-11-08 | 2023-06-28 |
+| freeCodeCamp/classroom | TypeScript | [Bug: Classrooms can be created with no certifications](https://github.com/freeCodeCamp/classroom/issues/551) | 3 | 2025-10-12 | 2026-10-04 |
 | huggingface/chat-ui | TypeScript | [Add option for users to customize search engines in settings page](https://github.com/huggingface/chat-ui/issues/1756) | 4 | 2025-03-15 | 2026-05-09 |
 | huggingface/chat-ui | TypeScript | [Chrome app icon on macOS](https://github.com/huggingface/chat-ui/issues/1439) | 4 | 2024-08-27 | 2026-05-07 |
 | huggingface/chat-ui | TypeScript | [System prompt not taken into account when web browsing.](https://github.com/huggingface/chat-ui/issues/1159) | 4 | 2024-05-22 | 2026-06-26 |
