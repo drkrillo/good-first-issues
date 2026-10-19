@@ -241,8 +241,7 @@
     const COLUMNS = [
         { key: "repo",       label: "Repo" },
         { key: "language",   label: "Language" },
-        { key: "title",      label: "Title", truncate: 90 },
-        { key: "url",        label: "URL",      render: "link", linkText: "Open Issue" },
+        { key: "title", label: "Title", render: "link", href: "url", truncate: 90 },
         { key: "comments",   label: "Comments", sortable: true, numeric: true, align: "center" },
         { key: "labels",     label: "Labels" },
         { key: "created_at", label: "Created",  sortable: true },
@@ -321,13 +320,25 @@
                 if (col.render === "link") {
                     const a = document.createElement("a");
                     a.href = col.href ? row[idx[col.href]] : value;
-                    a.innerText = col.linkText || value;
+
+                    const displayValue = col.truncate && value.length > col.truncate
+                    ? value.slice(0, col.truncate).trimEnd() + "…"
+                    : value;
+
+                    a.innerText = col.linkText || displayValue;
+
+                    if (col.truncate && value.length > col.truncate) {
+                        a.title = value;
+                       }
+
                     a.target = "_blank";
                     td.appendChild(a);
-                } else if (col.truncate && value.length > col.truncate) {
+                    }
+                else if (col.truncate && value.length > col.truncate) {
                     td.innerText = value.slice(0, col.truncate).trimEnd() + "…";
                     td.title = value;
-                } else {
+                }
+                else {
                     td.innerText = value;
                 }
                 tr.appendChild(td);
