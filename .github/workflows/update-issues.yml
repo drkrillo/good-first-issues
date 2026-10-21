@@ -9,12 +9,15 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   update-issues:
     if: "!contains(github.event.head_commit.message, 'chore: update good first issues')"
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
