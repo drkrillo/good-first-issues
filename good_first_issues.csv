@@ -17,7 +17,6 @@ microsoft/mcp,C#,"[COMMUNITY] Auto generate CHANGELOG, including adding contribu
 microsoft/aspire,C#,Improve Exception Message for Missing Project Metadata Annotation in ResourceContainerImageBuilder.cs,https://github.com/microsoft/aspire/issues/11299,13,area-app-model,2025-09-09,2026-08-26
 microsoft/microsoft-ui-xaml,C++,Lifetime Stree Test Optimizaton,https://github.com/microsoft/microsoft-ui-xaml/issues/11976,0,,2026-09-23,2026-09-23
 microsoft/snmalloc,C++,Implement accurate size storage for Windows `_msize` and `_recalloc`,https://github.com/microsoft/snmalloc/issues/786,0,enhancement,2025-07-02,2025-07-02
-godotengine/godot,C++,Trail3D (and mesh_surface_update_index_region) produce no geometry on Web: index buffer is bound to GL_ARRAY_BUFFER,https://github.com/godotengine/godot/issues/124726,0,bug; topic:rendering,2026-10-21,2026-10-21
 microsoft/react-native-windows,C++,Scroll wheel behavior differs significantly in new architecture (Windows App SDK) vs WinUI 3 Gallery app,https://github.com/microsoft/react-native-windows/issues/14653,1,bug; Area: ScrollView; New Architecture; Parity: Windows; Workstream: Component Parity,2025-05-08,2025-07-03
 microsoft/react-native-windows,C++,Deprecate autolink functionality to copy flags from react-native.config.js into ExperimentalFeature.props.,https://github.com/microsoft/react-native-windows/issues/14601,1,enhancement; Code Cleanup; Area: Autolinking,2025-04-22,2025-06-11
 microsoft/react-native-windows,C++,[Bug] init-windows adds incorrect name of Native Codegen File Include,https://github.com/microsoft/react-native-windows/issues/15094,4,bug; Area: CLI,2025-08-29,2026-08-04
@@ -229,8 +228,8 @@ cncf/tag-contributor-strategy,HTML,Charter link is 404,https://github.com/cncf/t
 kubernetes/website,HTML,[ja] Translate content/en/docs/reference/glossary/kubernetes-api.md into Japanese,https://github.com/kubernetes/website/issues/56851,2,help wanted; kind/feature; language/ja; triage/accepted; area/localization,2026-08-08,2026-08-10
 cncf/tag-app-delivery,HTML,Automation of tag-app-delivery repo,https://github.com/cncf/tag-app-delivery/issues/566,3,tag-discuss,2024-02-27,2024-06-22
 cncf/tag-security,HTML,[Suggestion] Working Group Landing Page,https://github.com/cncf/tag-security/issues/1354,4,suggestion; inactive; website,2024-08-23,2025-07-19
-kubernetes/website,HTML,[ja] Translate content/en/docs/reference/glossary/pod-disruption-budget.md into Japanese,https://github.com/kubernetes/website/issues/56853,7,help wanted; kind/feature; language/ja; triage/accepted; area/localization,2026-08-08,2026-09-20
 cncf/tag-observability,HTML,WG: Create GitHub Pages site for TAG Observability,https://github.com/cncf/tag-observability/issues/39,7,documentation; help wanted; working group,2021-05-12,2023-11-21
+kubernetes/website,HTML,[ja] Translate content/en/docs/reference/glossary/pod-disruption-budget.md into Japanese,https://github.com/kubernetes/website/issues/56853,8,help wanted; kind/feature; language/ja; triage/accepted; area/localization,2026-08-08,2026-10-21
 kubernetes/website,HTML,[hi] Localize Network Policy Provider page,https://github.com/kubernetes/website/issues/47439,8,help wanted; kind/feature; language/hi; triage/accepted; area/localization,2024-08-11,2026-07-09
 kubernetes/website,HTML,[hi] Localize concepts/Storage page,https://github.com/kubernetes/website/issues/47462,11,help wanted; kind/feature; language/hi; triage/accepted; area/localization,2024-08-12,2026-06-26
 kubernetes/website,HTML,[hi] Localize concepts/extend-kubernetes page,https://github.com/kubernetes/website/issues/48991,12,help wanted; kind/feature; language/hi; triage/accepted; area/localization,2024-12-09,2026-08-10
@@ -252,9 +251,11 @@ layer5io/docs,JavaScript,[Bug] Image not rendering correctly,https://github.com/
 huggingface/transformers.js,JavaScript,Is 'aggregation_strategy' parameter available for token classification pipeline?,https://github.com/huggingface/transformers.js/issues/633,2,help wanted; question,2024-03-07,2024-06-09
 huggingface/transformers.js,JavaScript,[Feature request] Return offset mapping using tokenizer,https://github.com/huggingface/transformers.js/issues/425,2,enhancement,2023-11-30,2024-01-12
 EddieHubCommunity/RepoRater,JavaScript,[BUG] Update the preview in the readme,https://github.com/EddieHubCommunity/RepoRater/issues/152,2,🏁 status: ready for dev; 🛠 goal: fix,2024-08-02,2024-09-03
+layer5io/recognition,JavaScript,[Badges] Move first-application (Application Pioneer) to Archived Badges,https://github.com/layer5io/recognition/issues/138,3,kind/enhancement,2026-10-21,2026-10-21
 layer5io/docs,JavaScript,[Docs] Floating Card Overlapping Navbar,https://github.com/layer5io/docs/issues/1187,3,area/docs; help wanted; language/markdown; framework/hugo,2026-08-06,2026-08-06
 layer5io/docs,JavaScript,[Docs] Convert Static Image to Meshery Design - 4,https://github.com/layer5io/docs/issues/794,3,area/docs; help wanted; language/markdown; framework/hugo,2025-08-21,2025-09-04
 layer5io/docs,JavaScript,Screen capture includes Grammarly,https://github.com/layer5io/docs/issues/543,3,help wanted; kind/bug; language/javascript; language/css; framework/hugo,2025-05-06,2026-08-11
+layer5io/recognition,JavaScript,[Badges] Add catalog-designer badge artwork and gallery entry,https://github.com/layer5io/recognition/issues/137,4,kind/enhancement,2026-10-21,2026-10-21
 layer5io/layer5,JavaScript,Increase spacing between video and text on GCP architecture diagram page,https://github.com/layer5io/layer5/issues/8192,4,kind/bug; help wanted; framework/gatsby,2026-10-07,2026-10-16
 freeCodeCamp/100DaysOfCode-twitter-bot,JavaScript,Contributing needs work,https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/112,4,help wanted; documentation,2017-12-02,2018-03-24
 layer5io/layer5,JavaScript,"[UI]: Oversized GitHub octocat icon on ""What is GitOps?"" resource page",https://github.com/layer5io/layer5/issues/7963,5,kind/bug; help wanted; framework/gatsby,2026-08-16,2026-09-09
@@ -331,7 +332,6 @@ microsoft/hve-core,PowerShell,docs: Update stale documentation - .github/skills/
 huggingface/optimum-executorch,Python,Add benchmarking numbers for more models,https://github.com/huggingface/optimum-executorch/issues/131,0,help wanted,2025-09-02,2025-09-02
 microsoft/teams-agent-accelerator-libs-py,Python,Expose the ability to add memory explicitly,https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/57,0,,2024-12-16,2025-01-06
 microsoft/BitBLAS,Python,[Feature Request] Enhance Database to support reload scheduled tilelang operator,https://github.com/microsoft/BitBLAS/issues/269,0,enhancement,2024-12-16,2024-12-16
-microsoft/BitBLAS,Python,[Feature Request] Flash Attention Op should be enhanced with our Scheduler Abstraction,https://github.com/microsoft/BitBLAS/issues/264,0,,2024-12-12,2024-12-12
 hashicorp/nomad-openapi,Python,chore: rename JobName parameter,https://github.com/hashicorp/nomad-openapi/issues/90,0,enhancement,2022-01-31,2022-01-31
 huggingface/lighteval,Python,[EVAL] Add kyrgyzLLM benchmark,https://github.com/huggingface/lighteval/issues/1036,1,new-task,2025-11-04,2025-11-20
 huggingface/lighteval,Python,[BUG]  Optimize tokenization,https://github.com/huggingface/lighteval/issues/732,1,bug; help wanted; science-team,2025-05-15,2026-06-21
@@ -410,6 +410,7 @@ microsoft/autogen,Python,Get current message thread from a group chat team.,http
 microsoft/autogen,Python,"open needs encoding='utf-8' for non-english environment, error in playwright_controller.py",https://github.com/microsoft/autogen/issues/5566,34,help wanted,2025-02-16,2026-09-12
 huggingface/peft,Python,Comparison of Different Fine-Tuning Techniques for Conversational AI,https://github.com/huggingface/peft/issues/2310,172,help wanted; contributions-welcome,2025-01-07,2026-10-21
 huggingface/ratchet,Rust,Reduce dependencies! 🗡️,https://github.com/huggingface/ratchet/issues/170,0,help wanted,2024-04-17,2024-04-17
+microsoft/nvx,Rust,Track guest managed agent bugs: output limit forwards later output after a dropped chunk,https://github.com/microsoft/nvx/issues/737,0,confirmed; bug-hunt,2026-10-21,2026-10-21
 microsoft/nvx,Rust,"release: add regression tests for ""release not found"" development release upload failures",https://github.com/microsoft/nvx/issues/687,0,,2026-10-21,2026-10-21
 microsoft/openvmm,Rust,remove usages of futures::select! in the repo with futures_concurrency,https://github.com/microsoft/openvmm/issues/1246,0,linting,2025-04-25,2025-06-21
 microsoft/windows-drivers-rs,Rust,Migrate from fs4 to std::File flocks,https://github.com/microsoft/windows-drivers-rs/issues/300,0,,2025-02-20,2025-08-15
