@@ -328,7 +328,6 @@ godotengine/godot-asset-library,PHP,"Sanitize inputs for Asset data/fields, like
 huggingface/optimum-executorch,Python,Add benchmarking numbers for more models,https://github.com/huggingface/optimum-executorch/issues/131,0,help wanted,2025-09-02,2025-09-02
 microsoft/teams-agent-accelerator-libs-py,Python,Expose the ability to add memory explicitly,https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/57,0,,2024-12-16,2025-01-06
 microsoft/BitBLAS,Python,[Feature Request] Enhance Database to support reload scheduled tilelang operator,https://github.com/microsoft/BitBLAS/issues/269,0,enhancement,2024-12-16,2024-12-16
-microsoft/BitBLAS,Python,[Feature Request] Flash Attention Op should be enhanced with our Scheduler Abstraction,https://github.com/microsoft/BitBLAS/issues/264,0,,2024-12-12,2024-12-12
 hashicorp/nomad-openapi,Python,chore: rename JobName parameter,https://github.com/hashicorp/nomad-openapi/issues/90,0,enhancement,2022-01-31,2022-01-31
 huggingface/lighteval,Python,[EVAL] Add kyrgyzLLM benchmark,https://github.com/huggingface/lighteval/issues/1036,1,new-task,2025-11-04,2025-11-20
 huggingface/lighteval,Python,[BUG]  Optimize tokenization,https://github.com/huggingface/lighteval/issues/732,1,bug; help wanted; science-team,2025-05-15,2026-06-21
@@ -410,9 +409,10 @@ huggingface/optimum,Python,Community contribution - `BetterTransformer` integrat
 huggingface/huggingface_hub,Python,[Community event] Translate documentation to your own langage,https://github.com/huggingface/huggingface_hub/issues/1700,32,documentation,2023-09-29,2026-09-18
 microsoft/autogen,Python,Get current message thread from a group chat team.,https://github.com/microsoft/autogen/issues/6085,32,help wanted; proj-agentchat,2025-03-24,2026-09-01
 microsoft/autogen,Python,"open needs encoding='utf-8' for non-english environment, error in playwright_controller.py",https://github.com/microsoft/autogen/issues/5566,34,help wanted,2025-02-16,2026-09-12
-microsoft/TRELLIS,Python,How to generate 3D assets with more number of faces?,https://github.com/microsoft/TRELLIS/issues/58,34,,2024-12-12,2025-01-25
-huggingface/peft,Python,Comparison of Different Fine-Tuning Techniques for Conversational AI,https://github.com/huggingface/peft/issues/2310,171,help wanted; contributions-welcome,2025-01-07,2026-10-20
+huggingface/peft,Python,Comparison of Different Fine-Tuning Techniques for Conversational AI,https://github.com/huggingface/peft/issues/2310,172,help wanted; contributions-welcome,2025-01-07,2026-10-21
 huggingface/ratchet,Rust,Reduce dependencies! 🗡️,https://github.com/huggingface/ratchet/issues/170,0,help wanted,2024-04-17,2024-04-17
+microsoft/nvx,Rust,runtime adapter: define the guest binary's command names once,https://github.com/microsoft/nvx/issues/666,0,,2026-10-21,2026-10-21
+microsoft/nvx,Rust,runtime adapter: define each message kind's code once,https://github.com/microsoft/nvx/issues/665,0,,2026-10-21,2026-10-21
 microsoft/openvmm,Rust,remove usages of futures::select! in the repo with futures_concurrency,https://github.com/microsoft/openvmm/issues/1246,0,linting,2025-04-25,2025-06-21
 microsoft/windows-drivers-rs,Rust,Migrate from fs4 to std::File flocks,https://github.com/microsoft/windows-drivers-rs/issues/300,0,,2025-02-20,2025-08-15
 microsoft/nvx,Rust,nvx-rs: name the file modes of the Linux platform primitives,https://github.com/microsoft/nvx/issues/642,1,,2026-10-20,2026-10-20
@@ -516,7 +516,6 @@ microsoft/scope,TypeScript,"Clarify that prompt features only categorize prompts
 microsoft/scope,TypeScript,Document model lifecycle and deprecation process,https://github.com/microsoft/scope/issues/1275,1,type: documentation,2026-07-29,2026-09-28
 microsoft/scope,TypeScript,"Token Manager: introduce a structured 'endpoint' secret type returning {endpoint, apiKey, deployment}",https://github.com/microsoft/scope/issues/912,1,type: enhancement; difficulty: moderate; topic: ux,2026-07-29,2026-10-08
 microsoft/scope,TypeScript,consider a different UX for the Run details UI,https://github.com/microsoft/scope/issues/765,1,difficulty: easy; area: portal; topic: ux,2026-07-29,2026-10-07
-microsoft/scope,TypeScript,The workspace snapshot archive should include the dot files and dot folders,https://github.com/microsoft/scope/issues/606,1,,2026-07-29,2026-09-25
 microsoft/genaiscript,TypeScript,Open Telemetry,https://github.com/microsoft/genaiscript/issues/1323,1,enhancement,2025-03-19,2025-03-19
 microsoft/vscode-python-debugger,TypeScript,Add a `debugpy.sh` for the no-config debugging,https://github.com/microsoft/vscode-python-debugger/issues/651,1,bug,2025-03-05,2026-01-10
 microsoft/Game-Control-Puzzle-Event-Administration-Tools,TypeScript,Per team and per puzzle activity feeds,https://github.com/microsoft/Game-Control-Puzzle-Event-Administration-Tools/issues/81,1,,2025-03-02,2026-09-11
@@ -544,6 +543,7 @@ decentraland/explorer,TypeScript,"Blocking error on console: ""Warning: Unsuppor
 layer5io/sistent,TypeScript,[ svg ]: Create `createIcon` as the base icon for `svg`,https://github.com/layer5io/sistent/issues/245,2,kind/enhancement; packages/svg; component/icons; follow-up; v0.13.0-planning,2023-11-07,2026-08-26
 huggingface/huggingface.js,TypeScript,Maximize button not working properly on Hosted inference API block,https://github.com/huggingface/huggingface.js/issues/335,2,widgets,2023-01-30,2023-11-24
 microsoft/scope,TypeScript,Improve UX when listing all runs,https://github.com/microsoft/scope/issues/766,2,area: portal; topic: ux,2026-07-29,2026-10-08
+microsoft/scope,TypeScript,The workspace snapshot archive should include the dot files and dot folders,https://github.com/microsoft/scope/issues/606,2,,2026-07-29,2026-10-20
 microsoft/vscode-containers,TypeScript,Add “Compose Pull / Update All Images” command for Docker Compose projects,https://github.com/microsoft/vscode-containers/issues/414,2,,2026-03-11,2026-08-24
 hashicorp/terraform-cdk,TypeScript,Typo in Tokenizer code?,https://github.com/hashicorp/terraform-cdk/issues/2709,2,bug; help wanted; cdktf; priority/backlog; size/small; feature/tokens,2023-03-09,2023-06-02
 decentraland/marketplace,TypeScript,It's hard to detect when the kebab menu of the ListCard is clickable,https://github.com/decentraland/marketplace/issues/1866,2,enhancement; ui,2023-06-22,2023-07-31
