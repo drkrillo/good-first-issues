@@ -317,29 +317,23 @@
                 }
                 const value = row[idx[col.key]];
 
+                const isTruncated = col.truncate && value.length > col.truncate;
+                const displayValue = isTruncated ? value.slice(0, col.truncate).trimEnd() + "…" : value;
+
                 if (col.render === "link") {
-                    const a = document.createElement("a");
-                    a.href = col.href ? row[idx[col.href]] : value;
-
-                    const displayValue = col.truncate && value.length > col.truncate
-                    ? value.slice(0, col.truncate).trimEnd() + "…"
-                    : value;
-
-                    a.innerText = col.linkText || displayValue;
-
-                    if (col.truncate && value.length > col.truncate) {
-                        a.title = value;
-                       }
-
-                    a.target = "_blank";
-                    td.appendChild(a);
+                    const content = document.createElement("a");
+                    content.innerText = col.linkText || displayValue;
+                    content.href = col.href ? row[idx[col.href]] : value;
+                    content.target = "_blank";
+                    if (isTruncated) {
+                        content.title = value;
                     }
-                else if (col.truncate && value.length > col.truncate) {
-                    td.innerText = value.slice(0, col.truncate).trimEnd() + "…";
-                    td.title = value;
-                }
-                else {
-                    td.innerText = value;
+                    td.appendChild(content);
+                } else {
+                    td.innerText = displayValue;
+                    if (isTruncated) {
+                        td.title = value;
+                    }
                 }
                 tr.appendChild(td);
             });
