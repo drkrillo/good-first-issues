@@ -241,8 +241,7 @@
     const COLUMNS = [
         { key: "repo",       label: "Repo" },
         { key: "language",   label: "Language" },
-        { key: "title",      label: "Title", truncate: 90 },
-        { key: "url",        label: "URL",      render: "link", linkText: "Open Issue" },
+        { key: "title", label: "Title", render: "link", href: "url", truncate: 90 },
         { key: "comments",   label: "Comments", sortable: true, numeric: true, align: "center" },
         { key: "labels",     label: "Labels" },
         { key: "created_at", label: "Created",  sortable: true },
@@ -318,17 +317,23 @@
                 }
                 const value = row[idx[col.key]];
 
+                const isTruncated = col.truncate && value.length > col.truncate;
+                const displayValue = isTruncated ? value.slice(0, col.truncate).trimEnd() + "…" : value;
+
                 if (col.render === "link") {
-                    const a = document.createElement("a");
-                    a.href = col.href ? row[idx[col.href]] : value;
-                    a.innerText = col.linkText || value;
-                    a.target = "_blank";
-                    td.appendChild(a);
-                } else if (col.truncate && value.length > col.truncate) {
-                    td.innerText = value.slice(0, col.truncate).trimEnd() + "…";
-                    td.title = value;
+                    const content = document.createElement("a");
+                    content.innerText = col.linkText || displayValue;
+                    content.href = col.href ? row[idx[col.href]] : value;
+                    content.target = "_blank";
+                    if (isTruncated) {
+                        content.title = value;
+                    }
+                    td.appendChild(content);
                 } else {
-                    td.innerText = value;
+                    td.innerText = displayValue;
+                    if (isTruncated) {
+                        td.title = value;
+                    }
                 }
                 tr.appendChild(td);
             });
