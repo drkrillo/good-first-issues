@@ -21,11 +21,13 @@ jobs:
   fetch-issues:
     runs-on: ubuntu-latest
     steps:
-      - uses: drkrillo/good-first-issues@main
+      - uses: drkrillo/good-first-issues@v2
         with:
           usernames: "pytorch,fastapi" # user/org to gather issues from
           github-token: ${{ secrets.GITHUB_TOKEN }}
 ```
+
+`@v2` follows the latest 2.x release. For maximum safety, pin to the full commit SHA of a release instead.
 
 This creates a `good_first_issues.csv` file as a workflow artifact with all discovered issues.
 
@@ -96,7 +98,7 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
-      - uses: drkrillo/good-first-issues@main
+      - uses: drkrillo/good-first-issues@v2
         with:
           usernames: "pytorch,canonical"
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -110,7 +112,7 @@ jobs:
 ### JSON output
 
 ```yaml
-      - uses: drkrillo/good-first-issues@main
+      - uses: drkrillo/good-first-issues@v2
         with:
           usernames: "fastapi,django"
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -142,7 +144,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: drkrillo/good-first-issues@main
+      - uses: drkrillo/good-first-issues@v2
         with:
           usernames: ${{ secrets.USERNAMES }}
           github-token: ${{ secrets.ACCESS_TOKEN }}
