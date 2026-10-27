@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-10-26</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-10-27</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -275,7 +275,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/kube-state-metrics | Go | [Missing replacement config for VPA collector in CRM](https://github.com/kubernetes/kube-state-metrics/issues/2041) | 42 | 2023-04-05 | 2026-08-11 |
 | kubernetes/kubernetes | Go | [kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment.](https://github.com/kubernetes/kubernetes/issues/118172) | 46 | 2023-05-22 | 2026-10-13 |
 | kubernetes/kubernetes | Go | [Write the stress test for gRPC, http, and tcp probes](https://github.com/kubernetes/kubernetes/issues/115782) | 50 | 2023-02-15 | 2026-10-23 |
-| kubernetes/kubernetes | Go | [Migrate DRA components to support granular authorization on status updates](https://github.com/kubernetes/kubernetes/issues/138149) | 92 | 2026-04-01 | 2026-10-25 |
+| kubernetes/kubernetes | Go | [Migrate DRA components to support granular authorization on status updates](https://github.com/kubernetes/kubernetes/issues/138149) | 93 | 2026-04-01 | 2026-10-27 |
 | cncf/glossary | Go Template | [[es] A report to track and reflect updates of English content](https://github.com/cncf/glossary/issues/3222) | 0 | 2024-07-15 | 2025-04-07 |
 | cncf/glossary | Go Template | [[ru] Localize `Portability`](https://github.com/cncf/glossary/issues/3265) | 1 | 2024-08-04 | 2024-11-19 |
 | cncf/glossary | Go Template | [[ru] Localize `Service` into Russian](https://github.com/cncf/glossary/issues/3334) | 2 | 2024-10-17 | 2025-03-03 |
@@ -388,11 +388,10 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | godotengine/godot-asset-library | PHP | [A way to cancel edit requests](https://github.com/godotengine/godot-asset-library/issues/149) | 3 | 2018-06-27 | 2020-05-07 |
 | godotengine/godot-asset-library | PHP | [Sanitize inputs for Asset data/fields, like URLs](https://github.com/godotengine/godot-asset-library/issues/204) | 5 | 2020-03-08 | 2021-11-03 |
 | microsoft/hve-core | PowerShell | [docs: Update stale documentation - docs/planning/brds/sssc-planner-security-brd.md](https://github.com/microsoft/hve-core/issues/2912) | 1 | 2026-09-14 | 2026-09-21 |
-| microsoft/hve-core | PowerShell | [docs: update dependency-review.yml trigger tables for new push trigger](https://github.com/microsoft/hve-core/issues/2996) | 2 | 2026-09-24 | 2026-09-24 |
-| microsoft/hve-core | PowerShell | [docs: Update stale documentation - .github/skills/project-planning/adr-author/references/lineage-rules.md](https://github.com/microsoft/hve-core/issues/2584) | 12 | 2026-08-03 | 2026-10-26 |
 | huggingface/optimum-executorch | Python | [Add benchmarking numbers for more models](https://github.com/huggingface/optimum-executorch/issues/131) | 0 | 2025-09-02 | 2025-09-02 |
 | microsoft/teams-agent-accelerator-libs-py | Python | [Expose the ability to add memory explicitly](https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/57) | 0 | 2024-12-16 | 2025-01-06 |
 | microsoft/BitBLAS | Python | [[Feature Request] Enhance Database to support reload scheduled tilelang operator](https://github.com/microsoft/BitBLAS/issues/269) | 0 | 2024-12-16 | 2024-12-16 |
+| microsoft/BitBLAS | Python | [[Feature Request] Flash Attention Op should be enhanced with our Scheduler Abstraction](https://github.com/microsoft/BitBLAS/issues/264) | 0 | 2024-12-12 | 2024-12-12 |
 | hashicorp/nomad-openapi | Python | [chore: rename JobName parameter](https://github.com/hashicorp/nomad-openapi/issues/90) | 0 | 2022-01-31 | 2022-01-31 |
 | huggingface/lighteval | Python | [[EVAL] Add kyrgyzLLM benchmark](https://github.com/huggingface/lighteval/issues/1036) | 1 | 2025-11-04 | 2025-11-20 |
 | huggingface/lighteval | Python | [[BUG]  Optimize tokenization](https://github.com/huggingface/lighteval/issues/732) | 1 | 2025-05-15 | 2026-06-21 |
@@ -466,23 +465,26 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/optimum | Python | [Add all available ONNX models to ORTConfigManager](https://github.com/huggingface/optimum/issues/351) | 23 | 2022-08-16 | 2026-09-22 |
 | huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 25 | 2023-04-28 | 2026-10-06 |
 | huggingface/optimum | Python | [Community contribution - `BetterTransformer` integration for more models!](https://github.com/huggingface/optimum/issues/488) | 27 | 2022-11-18 | 2026-09-09 |
+| microsoft/TRELLIS | Python | [Can this be used commercially?](https://github.com/microsoft/TRELLIS/issues/41) | 30 | 2024-12-09 | 2025-10-18 |
 | huggingface/huggingface_hub | Python | [[Community event] Translate documentation to your own langage](https://github.com/huggingface/huggingface_hub/issues/1700) | 32 | 2023-09-29 | 2026-09-18 |
 | microsoft/autogen | Python | [Get current message thread from a group chat team.](https://github.com/microsoft/autogen/issues/6085) | 32 | 2025-03-24 | 2026-09-01 |
 | microsoft/autogen | Python | [open needs encoding='utf-8' for non-english environment, error in playwright_controller.py](https://github.com/microsoft/autogen/issues/5566) | 34 | 2025-02-16 | 2026-09-12 |
+| microsoft/TRELLIS | Python | [How to generate 3D assets with more number of faces?](https://github.com/microsoft/TRELLIS/issues/58) | 34 | 2024-12-12 | 2025-01-25 |
+| microsoft/TRELLIS | Python | [Setting Up Trellis on Windows](https://github.com/microsoft/TRELLIS/issues/3) | 53 | 2024-12-06 | 2025-11-02 |
 | huggingface/peft | Python | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | 172 | 2025-01-07 | 2026-10-21 |
-| huggingface/xet-core | Rust | [`SafeFileCreator` can publish incomplete files when dropped after a write failure](https://github.com/huggingface/xet-core/issues/1058) | 0 | 2026-10-26 | 2026-10-26 |
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 | 2024-04-17 | 2024-04-17 |
 | microsoft/openvmm | Rust | [remove usages of futures::select! in the repo with futures_concurrency](https://github.com/microsoft/openvmm/issues/1246) | 0 | 2025-04-25 | 2025-06-21 |
 | microsoft/windows-drivers-rs | Rust | [Migrate from fs4 to std::File flocks](https://github.com/microsoft/windows-drivers-rs/issues/300) | 0 | 2025-02-20 | 2025-08-15 |
 | microsoft/nvx | Rust | [Track nvx-rs run bugs: a double quote in an aggregate --mount target hides the guest's virtio devices from its kernel](https://github.com/microsoft/nvx/issues/798) | 1 | 2026-10-23 | 2026-10-23 |
 | microsoft/nvx | Rust | [Track guest layered root bugs: from a thread with its own descriptor table, the root's mount-point checks read another descriptor's mount](https://github.com/microsoft/nvx/issues/795) | 1 | 2026-10-23 | 2026-10-23 |
 | microsoft/nvx | Rust | [Track sandbox block device path bugs: an image path with an unbalanced bracket passes validation, but OpenVMM refuses it on Windows](https://github.com/microsoft/nvx/issues/787) | 1 | 2026-10-23 | 2026-10-23 |
-| microsoft/nvx | Rust | [Track sandbox resource limit bugs: provision records a --memory-mib that OpenVMM refuses, so the sandbox never starts](https://github.com/microsoft/nvx/issues/733) | 1 | 2026-10-21 | 2026-10-23 |
 | microsoft/openvmm | Rust | [repo: move no_std custom error types over to thiserror](https://github.com/microsoft/openvmm/issues/1811) | 1 | 2025-08-05 | 2025-08-08 |
 | microsoft/openvmm | Rust | [Clean up our windows API dependencies](https://github.com/microsoft/openvmm/issues/1061) | 1 | 2025-03-18 | 2026-03-09 |
 | microsoft/openvmm | Rust | [fdt/builder: enforce BE datatypes on add_prop_array](https://github.com/microsoft/openvmm/issues/777) | 1 | 2025-02-04 | 2026-10-14 |
 | microsoft/openvmm | Rust | [zerocopy: clean up TODOs](https://github.com/microsoft/openvmm/issues/759) | 1 | 2025-01-31 | 2025-07-07 |
+| huggingface/xet-core | Rust | [`SafeFileCreator` can publish incomplete files when dropped after a write failure](https://github.com/huggingface/xet-core/issues/1058) | 2 | 2026-10-26 | 2026-10-27 |
 | huggingface/xet-core | Rust | [XetFileDownloadGroup.abort() returns immediately but the aborted transfer keeps downloading to completion](https://github.com/huggingface/xet-core/issues/942) | 2 | 2026-08-16 | 2026-08-19 |
+| microsoft/qdk-ec | Rust | [OutcomeSpecificSimulation::reserve_outcomes panics when branch-bit capacity exceeds outcome capacity](https://github.com/microsoft/qdk-ec/issues/235) | 2 | 2026-10-27 | 2026-10-27 |
 | microsoft/openvmm | Rust | [openvmm: emulated nvme configuration](https://github.com/microsoft/openvmm/issues/1534) | 2 | 2025-06-18 | 2025-08-08 |
 | microsoft/windows-drivers-rs | Rust | [HID hidport.h headers missing for UMDF build](https://github.com/microsoft/windows-drivers-rs/issues/355) | 3 | 2025-05-14 | 2025-05-14 |
 | godotengine/discourse-theme | SCSS | [Change default `green` to our own green for the Solved questions](https://github.com/godotengine/discourse-theme/issues/14) | 0 | 2024-03-25 | 2024-04-10 |
@@ -569,9 +571,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | decentraland/explorer | TypeScript | [Add new AvatarModifier: Force camera mode](https://github.com/decentraland/explorer/issues/1948) | 0 | 2021-01-19 | 2021-08-04 |
 | decentraland/atlas-server | TypeScript | [Add a redirect or message with a link to the documentation at /](https://github.com/decentraland/atlas-server/issues/3) | 0 | 2020-12-14 | 2020-12-14 |
 | decentraland/builder | TypeScript | [Add a way to de-assign a Name from a Land (Parcel/Estate) from the table](https://github.com/decentraland/builder/issues/1203) | 0 | 2020-12-10 | 2022-10-31 |
-| microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Bug: Webchat Playground is under constuction](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/909) | 1 | 2026-10-15 | 2026-10-21 |
 | microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Installation help](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/907) | 1 | 2026-10-14 | 2026-10-15 |
-| microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Bug: Agent value summary doesn't load the info](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/901) | 1 | 2026-10-07 | 2026-10-15 |
 | microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Import September 2026 release fails during ACP/DLP evaluation even though connectors are available.](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/858) | 1 | 2026-09-09 | 2026-09-10 |
 | microsoft/scope | TypeScript | [Clarify that prompt features only categorize prompts, don't impact runs](https://github.com/microsoft/scope/issues/1276) | 1 | 2026-07-29 | 2026-09-25 |
 | microsoft/scope | TypeScript | [Document model lifecycle and deprecation process](https://github.com/microsoft/scope/issues/1275) | 1 | 2026-07-29 | 2026-09-28 |
