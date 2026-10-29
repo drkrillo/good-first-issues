@@ -502,7 +502,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/scope | TypeScript | [Allow editing Azure AI Foundry model](https://github.com/microsoft/scope/issues/1386) | 0 | 2026-08-31 | 2026-08-31 |
 | microsoft/Agent365-nodejs | TypeScript | [Convert "test-agents" into E2E tests](https://github.com/microsoft/Agent365-nodejs/issues/15) | 0 | 2025-10-29 | 2025-10-29 |
 | microsoft/vscode-jupyter | TypeScript | [Add magic line comments regex pattern as configuration for uncommentMagicCommands](https://github.com/microsoft/vscode-jupyter/issues/16499) | 0 | 2025-03-24 | 2025-03-24 |
-| microsoft/vscode-azurestorage | TypeScript | [There is a redundant Azure activity log "upload 0 files to xxx" when uploading a folder by "Upload to Azure Storage..." command](https://github.com/microsoft/vscode-azurestorage/issues/1373) | 0 | 2025-01-22 | 2025-09-09 |
 | mattermost/mattermost-test-management | TypeScript | [feat: add validation to custom field's "Location"](https://github.com/mattermost/mattermost-test-management/issues/25) | 0 | 2022-11-25 | 2024-01-30 |
 | decentraland/ui2 | TypeScript | [Change JumpIn component behavior](https://github.com/decentraland/ui2/issues/284) | 0 | 2025-09-26 | 2025-09-26 |
 | decentraland/catalyst-client | TypeScript | [Add missing endpoints to Lambdas Client (review the other clients) to keep it up to date](https://github.com/decentraland/catalyst-client/issues/479) | 0 | 2025-09-24 | 2025-09-24 |
@@ -578,6 +577,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/genaiscript | TypeScript | [Open Telemetry](https://github.com/microsoft/genaiscript/issues/1323) | 1 | 2025-03-19 | 2025-03-19 |
 | microsoft/vscode-python-debugger | TypeScript | [Add a `debugpy.sh` for the no-config debugging](https://github.com/microsoft/vscode-python-debugger/issues/651) | 1 | 2025-03-05 | 2026-01-10 |
 | microsoft/Game-Control-Puzzle-Event-Administration-Tools | TypeScript | [Per team and per puzzle activity feeds](https://github.com/microsoft/Game-Control-Puzzle-Event-Administration-Tools/issues/81) | 1 | 2025-03-02 | 2026-09-11 |
+| microsoft/vscode-azurestorage | TypeScript | [There is a redundant Azure activity log "upload 0 files to xxx" when uploading a folder by "Upload to Azure Storage..." command](https://github.com/microsoft/vscode-azurestorage/issues/1373) | 1 | 2025-01-22 | 2026-10-29 |
 | microsoft/vscode-azurestorage | TypeScript | [Using vs-code to edit files in blob storage changes the files content-type.](https://github.com/microsoft/vscode-azurestorage/issues/1352) | 1 | 2024-11-13 | 2026-04-29 |
 | hashicorp/terraform-cdk | TypeScript | [CLI UX: Nicer output for `cdktf synth` if there are no stacks in an app](https://github.com/hashicorp/terraform-cdk/issues/2793) | 1 | 2023-04-12 | 2023-05-28 |
 | hashicorp/terraform-cdk | TypeScript | [Support `local-exec` `quiet` attribute](https://github.com/hashicorp/terraform-cdk/issues/2702) | 1 | 2023-03-09 | 2023-06-01 |
