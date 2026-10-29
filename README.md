@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-10-27</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-10-29</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -69,6 +69,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/jbpf | C | [Remove JBPF_EXPERIMENTAL_FEATURES from  header files](https://github.com/microsoft/jbpf/issues/26) | 0 | 2024-12-13 | 2025-03-03 |
 | microsoft/ebpf-for-windows | C | [Cleanup: catch2 now allows multiple threads](https://github.com/microsoft/ebpf-for-windows/issues/4553) | 1 | 2025-07-31 | 2026-10-02 |
 | microsoft/ntttcp | C | [per-thread throughput is always 0.00 with ntttcp version 5.40.](https://github.com/microsoft/ntttcp/issues/24) | 1 | 2025-03-14 | 2026-02-17 |
+| microsoft/ntttcp | C | [Incorrect processing of the test pattern](https://github.com/microsoft/ntttcp/issues/23) | 1 | 2024-11-14 | 2026-02-17 |
 | microsoft/ebpf-for-windows | C | [Update tests/sample/undocked/map.c](https://github.com/microsoft/ebpf-for-windows/issues/4547) | 2 | 2025-07-30 | 2026-10-02 |
 | microsoft/msquic | C | [Support in-memory certificate stores](https://github.com/microsoft/msquic/issues/4951) | 2 | 2025-03-27 | 2026-05-26 |
 | microsoft/ebpf-for-windows | C | [ebpf-verifier is cloned twice](https://github.com/microsoft/ebpf-for-windows/issues/4174) | 2 | 2025-02-03 | 2026-10-12 |
@@ -182,7 +183,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-zoom | Go | [Synch Status: When on a Zoom call, show as “Busy”](https://github.com/mattermost/mattermost-plugin-zoom/issues/170) | 3 | 2020-10-02 | 2022-06-13 |
 | mattermost/mattermost-plugin-github | Go | [Register autolinks for GitHub URLs](https://github.com/mattermost/mattermost-plugin-github/issues/269) | 3 | 2020-05-13 | 2021-10-02 |
 | kubernetes/minikube | Go | [ci: Use go-version-file: 'go.mod' instead of hardcoded GO_VERSION in update workflows](https://github.com/kubernetes/minikube/issues/23526) | 4 | 2026-08-21 | 2026-09-05 |
-| microsoft/TypeScript | Go | [Incorrect/unhelpful error message for non-module jsx file](https://github.com/microsoft/TypeScript/issues/64438) | 4 | 2026-09-24 | 2026-10-19 |
 | hashicorp/terraform-provider-aws | Go | [aws_s3tables_table_replication: Create fails with "A version token is not specified"](https://github.com/hashicorp/terraform-provider-aws/issues/46675) | 4 | 2026-02-26 | 2026-10-15 |
 | hashicorp/terraform-provider-aws | Go | [aws_ec2_transit_gateway_route_table_association support for timeouts block](https://github.com/hashicorp/terraform-provider-aws/issues/42705) | 4 | 2025-05-21 | 2025-05-23 |
 | hashicorp/terraform-provider-aws | Go | [AWS IVS Real Time Stage Terraform Module](https://github.com/hashicorp/terraform-provider-aws/issues/42644) | 4 | 2025-05-16 | 2026-06-28 |
@@ -201,6 +201,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-github | Go | [Select types of events to subscribe to in a dialog box](https://github.com/mattermost/mattermost-plugin-github/issues/381) | 4 | 2020-10-03 | 2026-02-17 |
 | mattermost/mattermost-plugin-github | Go | [Handle case where sidebar API endpoints return null](https://github.com/mattermost/mattermost-plugin-github/issues/235) | 4 | 2020-04-02 | 2026-03-02 |
 | kubernetes/kube-openapi | Go | [Having the same type embedded more than once breaks generation](https://github.com/kubernetes/kube-openapi/issues/129) | 5 | 2019-01-04 | 2024-11-18 |
+| microsoft/TypeScript | Go | [Incorrect/unhelpful error message for non-module jsx file](https://github.com/microsoft/TypeScript/issues/64438) | 5 | 2026-09-24 | 2026-10-28 |
 | hashicorp/terraform-provider-aws | Go | [aws_storagegateway_smb_file_share: cache_stale_timeout_in_seconds validation rejects 0, but the AWS API accepts it (blocks disabling cache refresh)](https://github.com/hashicorp/terraform-provider-aws/issues/48876) | 5 | 2026-07-09 | 2026-10-15 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: aws_dms_endpoint add additional redshift_settings parameters](https://github.com/hashicorp/terraform-provider-aws/issues/38814) | 5 | 2024-08-10 | 2026-06-11 |
 | hashicorp/terraform-provider-aws | Go | [[Docs]: Import existing trail using ARN doesn't work, but it does if the trail name is used](https://github.com/hashicorp/terraform-provider-aws/issues/37179) | 5 | 2024-04-30 | 2025-04-02 |
@@ -275,7 +276,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/kube-state-metrics | Go | [Missing replacement config for VPA collector in CRM](https://github.com/kubernetes/kube-state-metrics/issues/2041) | 42 | 2023-04-05 | 2026-08-11 |
 | kubernetes/kubernetes | Go | [kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment.](https://github.com/kubernetes/kubernetes/issues/118172) | 46 | 2023-05-22 | 2026-10-13 |
 | kubernetes/kubernetes | Go | [Write the stress test for gRPC, http, and tcp probes](https://github.com/kubernetes/kubernetes/issues/115782) | 50 | 2023-02-15 | 2026-10-23 |
-| kubernetes/kubernetes | Go | [Migrate DRA components to support granular authorization on status updates](https://github.com/kubernetes/kubernetes/issues/138149) | 93 | 2026-04-01 | 2026-10-27 |
+| kubernetes/kubernetes | Go | [Migrate DRA components to support granular authorization on status updates](https://github.com/kubernetes/kubernetes/issues/138149) | 97 | 2026-04-01 | 2026-10-28 |
 | cncf/glossary | Go Template | [[es] A report to track and reflect updates of English content](https://github.com/cncf/glossary/issues/3222) | 0 | 2024-07-15 | 2025-04-07 |
 | cncf/glossary | Go Template | [[ru] Localize `Portability`](https://github.com/cncf/glossary/issues/3265) | 1 | 2024-08-04 | 2024-11-19 |
 | cncf/glossary | Go Template | [[ru] Localize `Service` into Russian](https://github.com/cncf/glossary/issues/3334) | 2 | 2024-10-17 | 2025-03-03 |
@@ -318,7 +319,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | layer5io/recognition | JavaScript | [[Badges] Move first-application (Application Pioneer) to Archived Badges](https://github.com/layer5io/recognition/issues/138) | 4 | 2026-10-21 | 2026-10-26 |
 | layer5io/layer5 | JavaScript | [Increase spacing between video and text on GCP architecture diagram page](https://github.com/layer5io/layer5/issues/8192) | 4 | 2026-10-07 | 2026-10-16 |
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Contributing needs work](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/112) | 4 | 2017-12-02 | 2018-03-24 |
-| layer5io/recognition | JavaScript | [[Badges] Add catalog-designer badge artwork and gallery entry](https://github.com/layer5io/recognition/issues/137) | 5 | 2026-10-21 | 2026-10-23 |
 | layer5io/layer5 | JavaScript | [[UI]: Oversized GitHub octocat icon on "What is GitOps?" resource page](https://github.com/layer5io/layer5/issues/7963) | 5 | 2026-08-16 | 2026-09-09 |
 | layer5io/docs | JavaScript | [[Docs] Improve Related Docs Links in Pinning Models to Dock Page](https://github.com/layer5io/docs/issues/1028) | 5 | 2026-05-11 | 2026-06-11 |
 | layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 3](https://github.com/layer5io/docs/issues/793) | 5 | 2025-08-21 | 2025-09-04 |
@@ -461,6 +461,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/markitdown | Python | [LLM Integration](https://github.com/microsoft/markitdown/issues/12) | 17 | 2024-12-13 | 2026-06-08 |
 | huggingface/lerobot | Python | [Make policies compatible with torch.compile](https://github.com/huggingface/lerobot/issues/2061) | 19 | 2025-09-26 | 2026-09-25 |
 | huggingface/datasets | Python | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 19 | 2022-12-12 | 2026-09-02 |
+| microsoft/autogen | Python | [need docs/bicep/etc for how to setup with full TLS between all nodes](https://github.com/microsoft/autogen/issues/4373) | 21 | 2024-11-26 | 2026-07-01 |
 | huggingface/diffusers | Python | [Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines](https://github.com/huggingface/diffusers/issues/6969) | 22 | 2024-02-13 | 2025-10-31 |
 | huggingface/optimum | Python | [Add all available ONNX models to ORTConfigManager](https://github.com/huggingface/optimum/issues/351) | 23 | 2022-08-16 | 2026-09-22 |
 | huggingface/datasets | Python | [Return the name of the currently loaded file in the load_dataset function.](https://github.com/huggingface/datasets/issues/5806) | 25 | 2023-04-28 | 2026-10-06 |
@@ -475,17 +476,14 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/ratchet | Rust | [Reduce dependencies! 🗡️](https://github.com/huggingface/ratchet/issues/170) | 0 | 2024-04-17 | 2024-04-17 |
 | microsoft/openvmm | Rust | [remove usages of futures::select! in the repo with futures_concurrency](https://github.com/microsoft/openvmm/issues/1246) | 0 | 2025-04-25 | 2025-06-21 |
 | microsoft/windows-drivers-rs | Rust | [Migrate from fs4 to std::File flocks](https://github.com/microsoft/windows-drivers-rs/issues/300) | 0 | 2025-02-20 | 2025-08-15 |
-| microsoft/nvx | Rust | [Track nvx-rs run bugs: a double quote in an aggregate --mount target hides the guest's virtio devices from its kernel](https://github.com/microsoft/nvx/issues/798) | 1 | 2026-10-23 | 2026-10-23 |
-| microsoft/nvx | Rust | [Track guest layered root bugs: from a thread with its own descriptor table, the root's mount-point checks read another descriptor's mount](https://github.com/microsoft/nvx/issues/795) | 1 | 2026-10-23 | 2026-10-23 |
-| microsoft/nvx | Rust | [Track sandbox block device path bugs: an image path with an unbalanced bracket passes validation, but OpenVMM refuses it on Windows](https://github.com/microsoft/nvx/issues/787) | 1 | 2026-10-23 | 2026-10-23 |
 | microsoft/openvmm | Rust | [repo: move no_std custom error types over to thiserror](https://github.com/microsoft/openvmm/issues/1811) | 1 | 2025-08-05 | 2025-08-08 |
 | microsoft/openvmm | Rust | [Clean up our windows API dependencies](https://github.com/microsoft/openvmm/issues/1061) | 1 | 2025-03-18 | 2026-03-09 |
 | microsoft/openvmm | Rust | [fdt/builder: enforce BE datatypes on add_prop_array](https://github.com/microsoft/openvmm/issues/777) | 1 | 2025-02-04 | 2026-10-14 |
 | microsoft/openvmm | Rust | [zerocopy: clean up TODOs](https://github.com/microsoft/openvmm/issues/759) | 1 | 2025-01-31 | 2025-07-07 |
 | huggingface/xet-core | Rust | [`SafeFileCreator` can publish incomplete files when dropped after a write failure](https://github.com/huggingface/xet-core/issues/1058) | 2 | 2026-10-26 | 2026-10-27 |
 | huggingface/xet-core | Rust | [XetFileDownloadGroup.abort() returns immediately but the aborted transfer keeps downloading to completion](https://github.com/huggingface/xet-core/issues/942) | 2 | 2026-08-16 | 2026-08-19 |
-| microsoft/qdk-ec | Rust | [OutcomeSpecificSimulation::reserve_outcomes panics when branch-bit capacity exceeds outcome capacity](https://github.com/microsoft/qdk-ec/issues/235) | 2 | 2026-10-27 | 2026-10-27 |
 | microsoft/openvmm | Rust | [openvmm: emulated nvme configuration](https://github.com/microsoft/openvmm/issues/1534) | 2 | 2025-06-18 | 2025-08-08 |
+| microsoft/qdk-ec | Rust | [OutcomeSpecificSimulation::reserve_outcomes panics when branch-bit capacity exceeds outcome capacity](https://github.com/microsoft/qdk-ec/issues/235) | 3 | 2026-10-27 | 2026-10-28 |
 | microsoft/windows-drivers-rs | Rust | [HID hidport.h headers missing for UMDF build](https://github.com/microsoft/windows-drivers-rs/issues/355) | 3 | 2025-05-14 | 2025-05-14 |
 | godotengine/discourse-theme | SCSS | [Change default `green` to our own green for the Solved questions](https://github.com/godotengine/discourse-theme/issues/14) | 0 | 2024-03-25 | 2024-04-10 |
 | godotengine/discourse-theme | SCSS | [Make tag and tag count more distinct](https://github.com/godotengine/discourse-theme/issues/11) | 0 | 2023-12-10 | 2023-12-10 |
@@ -580,6 +578,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/genaiscript | TypeScript | [Open Telemetry](https://github.com/microsoft/genaiscript/issues/1323) | 1 | 2025-03-19 | 2025-03-19 |
 | microsoft/vscode-python-debugger | TypeScript | [Add a `debugpy.sh` for the no-config debugging](https://github.com/microsoft/vscode-python-debugger/issues/651) | 1 | 2025-03-05 | 2026-01-10 |
 | microsoft/Game-Control-Puzzle-Event-Administration-Tools | TypeScript | [Per team and per puzzle activity feeds](https://github.com/microsoft/Game-Control-Puzzle-Event-Administration-Tools/issues/81) | 1 | 2025-03-02 | 2026-09-11 |
+| microsoft/vscode-azurestorage | TypeScript | [Using vs-code to edit files in blob storage changes the files content-type.](https://github.com/microsoft/vscode-azurestorage/issues/1352) | 1 | 2024-11-13 | 2026-04-29 |
 | hashicorp/terraform-cdk | TypeScript | [CLI UX: Nicer output for `cdktf synth` if there are no stacks in an app](https://github.com/hashicorp/terraform-cdk/issues/2793) | 1 | 2023-04-12 | 2023-05-28 |
 | hashicorp/terraform-cdk | TypeScript | [Support `local-exec` `quiet` attribute](https://github.com/hashicorp/terraform-cdk/issues/2702) | 1 | 2023-03-09 | 2023-06-01 |
 | hashicorp/terraform-cdk | TypeScript | [Additional-python-google-resources-examples](https://github.com/hashicorp/terraform-cdk/issues/1211) | 1 | 2021-10-25 | 2023-06-02 |
