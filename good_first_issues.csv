@@ -136,6 +136,7 @@ mattermost/mattermost-plugin-github,Go,Validate syntax when a subscription has a
 mattermost/mattermost-plugin-github,Go,Select types of events to subscribe to in a dialog box,https://github.com/mattermost/mattermost-plugin-github/issues/381,4,Help Wanted; Up For Grabs; Hacktoberfest; Tech/Go; Difficulty/1:Easy; Type/Enhancement,2020-10-03,2026-02-17
 mattermost/mattermost-plugin-github,Go,Handle case where sidebar API endpoints return null,https://github.com/mattermost/mattermost-plugin-github/issues/235,4,Help Wanted; Hacktoberfest; Tech/Go; Tech/ReactJS; Difficulty/1:Easy; Type/Bug,2020-04-02,2026-03-02
 kubernetes/kube-openapi,Go,Having the same type embedded more than once breaks generation,https://github.com/kubernetes/kube-openapi/issues/129,5,lifecycle/frozen,2019-01-04,2024-11-18
+microsoft/TypeScript,Go,Incorrect/unhelpful error message for non-module jsx file,https://github.com/microsoft/TypeScript/issues/64438,5,Bug; Help Wanted,2026-09-24,2026-11-02
 hashicorp/terraform-provider-aws,Go,"aws_storagegateway_smb_file_share: cache_stale_timeout_in_seconds validation rejects 0, but the AWS API accepts it (blocks disabling cache refresh)",https://github.com/hashicorp/terraform-provider-aws/issues/48876,5,bug; service/storagegateway,2026-07-09,2026-10-15
 hashicorp/terraform-provider-aws,Go,[Enhancement]: aws_dms_endpoint add additional redshift_settings parameters,https://github.com/hashicorp/terraform-provider-aws/issues/38814,5,enhancement; service/dms,2024-08-10,2026-06-11
 hashicorp/terraform-provider-aws,Go,"[Docs]: Import existing trail using ARN doesn't work, but it does if the trail name is used",https://github.com/hashicorp/terraform-provider-aws/issues/37179,5,documentation; service/cloudtrail,2024-04-30,2025-04-02
@@ -147,7 +148,6 @@ mattermost/mattermost-plugin-mscalendar,Go,Re-implement autorespond feature,http
 mattermost/mattermost-plugin-github,Go,"""Someone replied to your comment thread"" feature",https://github.com/mattermost/mattermost-plugin-github/issues/328,5,Help Wanted; Hacktoberfest; Tech/Go; Difficulty/1:Easy; Type/Enhancement,2020-07-15,2026-02-17
 mattermost/mattermost-plugin-confluence,Go,Handle React warnings regarding non-DOM properties,https://github.com/mattermost/mattermost-plugin-confluence/issues/46,5,Help Wanted; Type/Task; Hacktoberfest; Tech/ReactJS; Up For Grabs,2020-04-28,2021-10-02
 mattermost/mattermost-plugin-github,Go,Add alternative sorting functionality for RHS view,https://github.com/mattermost/mattermost-plugin-github/issues/242,5,Help Wanted; Up For Grabs; Hacktoberfest; Tech/ReactJS; Difficulty/2:Medium; Type/Enhancement,2020-04-15,2026-02-17
-microsoft/TypeScript,Go,Incorrect/unhelpful error message for non-module jsx file,https://github.com/microsoft/TypeScript/issues/64438,6,Bug; Help Wanted,2026-09-24,2026-11-01
 microsoft/terraform-provider-azuredevops,Go,Full unit test suite isn't running on CI,https://github.com/microsoft/terraform-provider-azuredevops/issues/1439,6,,2025-09-29,2026-09-20
 hashicorp/terraform-provider-aws,Go,Route53 Resolver Endpoint Hash Function Prevents Multiple IPs per Subnet When IP Address is Auto-Assigned,https://github.com/hashicorp/terraform-provider-aws/issues/43724,6,bug; service/route53resolver,2025-08-05,2025-08-20
 hashicorp/terraform-provider-aws,Go,[Bug]: Route 53 Resolver rule resource defines bad defaults for target configuration,https://github.com/hashicorp/terraform-provider-aws/issues/41523,6,bug; service/route53resolver,2025-02-23,2026-10-15
@@ -262,7 +262,6 @@ layer5io/layer5,JavaScript,[Screenshots] Citrix Service Mesh under 'How it Works
 freeCodeCamp/100DaysOfCode-twitter-bot,JavaScript,Welcome bot! Respond to the user when committing to 100DaysOfCode,https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/96,5,enhancement; help wanted,2017-10-03,2026-04-28
 layer5io/docs,JavaScript,Convert Images into Meshery Design.,https://github.com/layer5io/docs/issues/646,6,help wanted; kind/enhancement; language/javascript; language/css; language/html; framework/hugo; issue/remind,2025-07-10,2025-12-25
 layer5io/layer5,JavaScript,"Enhance or replace the ""Star the Repo"" button",https://github.com/layer5io/layer5/issues/7859,7,kind/enhancement; help wanted; language/javascript; framework/react; language/css,2026-07-10,2026-09-24
-layer5io/layer5,JavaScript,Relocate partner logos to appropriate directory in static folder.,https://github.com/layer5io/layer5/issues/7256,7,help wanted; language/html; framework/gatsby,2025-12-08,2026-02-23
 layer5io/layer5,JavaScript,[Screenshots] Chaos Mesh under 'How it Works See It in Action' section,https://github.com/layer5io/layer5/issues/4867,7,kind/enhancement; help wanted; issue/remind; component/ui,2023-09-07,2026-03-22
 huggingface/transformers.js,JavaScript,[Doc request] Add an example guide of how to use it in Svelte (and deploy to HF Spaces),https://github.com/huggingface/transformers.js/issues/171,7,enhancement; help wanted,2023-06-29,2023-08-21
 EddieHubCommunity/EddieHubCommunity.github.io,JavaScript,Add Issue Templates,https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/issues/211,7,,2021-10-04,2024-04-23
@@ -272,6 +271,7 @@ layer5io/layer5,JavaScript,[Screenshots] Fluentbit Operator under 'How it Works 
 EddieHubCommunity/HealthCheck,JavaScript,Update the preview image in the site,https://github.com/EddieHubCommunity/HealthCheck/issues/151,8,bug; status: ready for dev,2024-08-12,2024-10-14
 decentraland/land,JavaScript,docs needed,https://github.com/decentraland/land/issues/154,8,enhancement; help wanted,2021-04-29,2021-04-30
 layer5io/layer5,JavaScript,Fix card animation not triggering automatically on mobile,https://github.com/layer5io/layer5/issues/8093,9,kind/bug; help wanted; framework/gatsby,2026-09-19,2026-10-09
+layer5io/layer5,JavaScript,Relocate partner logos to appropriate directory in static folder.,https://github.com/layer5io/layer5/issues/7256,9,help wanted; language/html; framework/gatsby,2025-12-08,2026-11-02
 freeCodeCamp/100DaysOfCode-twitter-bot,JavaScript,Update docs to the KCD README pattern,https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/131,9,enhancement; help wanted; documentation,2018-03-25,2022-08-18
 layer5io/layer5,JavaScript,Improve styling of categories of models,https://github.com/layer5io/layer5/issues/7593,10,kind/bug; help wanted; framework/gatsby; component/ui,2026-04-06,2026-05-09
 layer5io/layer5,JavaScript,[Screenshots] Flagger under 'How it Works See It in Action' section,https://github.com/layer5io/layer5/issues/5331,10,kind/enhancement; help wanted,2024-01-23,2026-10-16
@@ -284,9 +284,9 @@ layer5io/layer5,JavaScript,Update the structure of pages based on the latest sit
 mattermost/mattermost-plugin-gitlab,JavaScript,Support config variable to disable project access check for incoming webhook event,https://github.com/mattermost/mattermost-plugin-gitlab/issues/463,13,Help Wanted; Up For Grabs; Type/Enhancement,2024-02-17,2024-08-23
 layer5io/layer5,JavaScript,Community Membership paragraph alignment issue,https://github.com/layer5io/layer5/issues/8085,14,kind/bug; help wanted; framework/gatsby,2026-09-18,2026-10-29
 layer5io/layer5,JavaScript,Update resources and hands-on labs with latest content,https://github.com/layer5io/layer5/issues/6387,14,help wanted; kind/chore; issue/willfix,2025-04-14,2026-04-29
-layer5io/layer5,JavaScript,[Screenshots] Fabedge under 'How it Works See It in Action' section,https://github.com/layer5io/layer5/issues/5330,14,kind/enhancement; help wanted,2024-01-23,2025-11-09
 layer5io/layer5,JavaScript,[Screenshots] Cloudevents under 'How it Works See It in Action' section,https://github.com/layer5io/layer5/issues/4869,14,help wanted; issue/remind,2023-09-07,2026-10-22
 EddieHubCommunity/BioDrop,JavaScript,[BUG] Duplicate sortable package present,https://github.com/EddieHubCommunity/BioDrop/issues/10139,14,🏁 status: ready for dev; 🛠 goal: fix; 🔢 points: 2,2024-01-13,2024-05-03
+layer5io/layer5,JavaScript,[Screenshots] Fabedge under 'How it Works See It in Action' section,https://github.com/layer5io/layer5/issues/5330,16,kind/enhancement; help wanted,2024-01-23,2026-11-02
 layer5io/layer5,JavaScript,[Visual Design] New Recognition Badge: Event Evangelist Badge,https://github.com/layer5io/layer5/issues/4809,17,kind/enhancement; help wanted; hacktoberfest; area/community; type/ux; issue/remind; figma; type/visual design,2023-08-31,2026-04-25
 layer5io/layer5,JavaScript,Pricing: subscription plans as a sticky row,https://github.com/layer5io/layer5/issues/7665,18,kind/enhancement; help wanted; language/javascript; framework/react; language/css,2026-04-25,2026-06-27
 layer5io/layer5-academy,JavaScript,[Docs] Convert meshery design image to embedded meshery design,https://github.com/layer5io/layer5-academy/issues/32,18,help wanted,2025-07-25,2026-03-26
@@ -399,7 +399,6 @@ huggingface/lerobot,Python,Make policies compatible with torch.compile,https://g
 huggingface/datasets,Python,"Consider using ""Sequence"" instead of ""List""",https://github.com/huggingface/datasets/issues/5354,19,enhancement,2022-12-12,2026-09-02
 microsoft/autogen,Python,need docs/bicep/etc for how to setup with full TLS between all nodes,https://github.com/microsoft/autogen/issues/4373,21,documentation,2024-11-26,2026-07-01
 huggingface/diffusers,Python,Expanded init fields in StableDiffusionPipeline cause incompatibilities with many/most inherited pipelines,https://github.com/huggingface/diffusers/issues/6969,22,bug; help wanted; wip; contributions-welcome,2024-02-13,2025-10-31
-huggingface/optimum,Python,Add all available ONNX models to ORTConfigManager,https://github.com/huggingface/optimum/issues/351,23,,2022-08-16,2026-09-22
 huggingface/datasets,Python,Return the name of the currently loaded file in the load_dataset function.,https://github.com/huggingface/datasets/issues/5806,25,enhancement,2023-04-28,2026-10-06
 huggingface/optimum,Python,Community contribution - `BetterTransformer` integration for more models!,https://github.com/huggingface/optimum/issues/488,27,,2022-11-18,2026-09-09
 microsoft/TRELLIS,Python,Can this be used commercially?,https://github.com/microsoft/TRELLIS/issues/41,30,,2024-12-09,2025-10-18
@@ -408,7 +407,7 @@ microsoft/autogen,Python,Get current message thread from a group chat team.,http
 microsoft/autogen,Python,"open needs encoding='utf-8' for non-english environment, error in playwright_controller.py",https://github.com/microsoft/autogen/issues/5566,34,help wanted,2025-02-16,2026-09-12
 microsoft/TRELLIS,Python,How to generate 3D assets with more number of faces?,https://github.com/microsoft/TRELLIS/issues/58,34,,2024-12-12,2025-01-25
 microsoft/TRELLIS,Python,Setting Up Trellis on Windows,https://github.com/microsoft/TRELLIS/issues/3,53,,2024-12-06,2025-11-02
-huggingface/peft,Python,Comparison of Different Fine-Tuning Techniques for Conversational AI,https://github.com/huggingface/peft/issues/2310,173,help wanted; contributions-welcome,2025-01-07,2026-10-31
+huggingface/peft,Python,Comparison of Different Fine-Tuning Techniques for Conversational AI,https://github.com/huggingface/peft/issues/2310,176,help wanted; contributions-welcome,2025-01-07,2026-11-03
 huggingface/ratchet,Rust,Reduce dependencies! 🗡️,https://github.com/huggingface/ratchet/issues/170,0,help wanted,2024-04-17,2024-04-17
 microsoft/openvmm,Rust,remove usages of futures::select! in the repo with futures_concurrency,https://github.com/microsoft/openvmm/issues/1246,0,linting,2025-04-25,2025-06-21
 microsoft/windows-drivers-rs,Rust,Migrate from fs4 to std::File flocks,https://github.com/microsoft/windows-drivers-rs/issues/300,0,,2025-02-20,2025-08-15
