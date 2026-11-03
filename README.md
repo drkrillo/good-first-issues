@@ -233,13 +233,13 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/consul | Go | [Supporting syntax highlighting for TOML-formatted values when viewing KV in the Consul GUI](https://github.com/hashicorp/consul/issues/12668) | 7 | 2022-03-31 | 2025-12-19 |
 | mattermost/mattermost-plugin-github | Go | [Notification numbers are not properly aligned](https://github.com/mattermost/mattermost-plugin-github/issues/398) | 7 | 2020-10-21 | 2024-02-16 |
 | mattermost/mattermost-plugin-github | Go | [In RHS, display whether there are linked pull requests to issues, and if there are linked issues for pull requests](https://github.com/mattermost/mattermost-plugin-github/issues/271) | 7 | 2020-05-14 | 2023-02-21 |
-| layer5io/getnighthawk | Go | [[SITE] Nav Bar is missing on the mobile view of the page](https://github.com/layer5io/getnighthawk/issues/258) | 8 | 2022-03-14 | 2023-11-09 |
 | kubernetes/kube-state-metrics | Go | [Parse Nested Arrays does not work](https://github.com/kubernetes/kube-state-metrics/issues/2368) | 8 | 2024-04-10 | 2026-10-04 |
 | hashicorp/terraform-provider-aws | Go | [Error: Unsupported argument: blue_green_update](https://github.com/hashicorp/terraform-provider-aws/issues/44488) | 8 | 2025-09-29 | 2026-10-15 |
 | hashicorp/terraform-provider-aws | Go | [`aws_elasticache_serverless_cache` Security Group Ids are incorrectly optional.](https://github.com/hashicorp/terraform-provider-aws/issues/43027) | 8 | 2025-06-16 | 2026-07-16 |
 | hashicorp/vault-k8s | Go | [Configurable default log_level and log_format for injected Vault Agent containers](https://github.com/hashicorp/vault-k8s/issues/417) | 8 | 2023-01-28 | 2025-08-28 |
 | hashicorp/terraform-provider-aws | Go | [Add CodeArtifact Package Origin Controls](https://github.com/hashicorp/terraform-provider-aws/issues/26623) | 8 | 2022-09-02 | 2026-09-01 |
 | hashicorp/terraform-provider-azurerm | Go | [Support azurerm_eventhub_authorization_rule from a single eventhub on azurerm_monitor_diagnostic_setting](https://github.com/hashicorp/terraform-provider-azurerm/issues/14394) | 8 | 2021-11-30 | 2026-08-31 |
+| layer5io/getnighthawk | Go | [[SITE] Nav Bar is missing on the mobile view of the page](https://github.com/layer5io/getnighthawk/issues/258) | 9 | 2022-03-14 | 2026-11-03 |
 | kubernetes/kube-state-metrics | Go | [Promote experimental metrics](https://github.com/kubernetes/kube-state-metrics/issues/1792) | 9 | 2022-07-19 | 2025-07-27 |
 | kubernetes/perf-tests | Go | [Pod startup time phases are inaccurate in longer tests.](https://github.com/kubernetes/perf-tests/issues/2006) | 9 | 2022-03-07 | 2023-02-08 |
 | hashicorp/terraform-provider-kubernetes | Go | [Init container doesn't support restart_policy option (to transform it in a sidecar container)](https://github.com/hashicorp/terraform-provider-kubernetes/issues/2446) | 9 | 2024-03-18 | 2025-11-26 |
@@ -309,6 +309,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/typespec | Java | [testing: expectDiagnostics() should provide an option to ignore ordering](https://github.com/microsoft/typespec/issues/5818) | 3 | 2025-01-30 | 2025-05-23 |
 | microsoft/copilot-for-eclipse | Java | [Unable to use the Java source file corresponding to the class file as context](https://github.com/microsoft/copilot-for-eclipse/issues/117) | 13 | 2026-04-15 | 2026-06-25 |
 | layer5io/docs | JavaScript | [[Bug] Image not rendering correctly](https://github.com/layer5io/docs/issues/1207) | 1 | 2026-08-15 | 2026-08-15 |
+| layer5io/layer5 | JavaScript | [[Bug] Company address on the About page differs from the legal pages](https://github.com/layer5io/layer5/issues/8295) | 2 | 2026-11-03 | 2026-11-03 |
 | huggingface/transformers.js | JavaScript | [Is 'aggregation_strategy' parameter available for token classification pipeline?](https://github.com/huggingface/transformers.js/issues/633) | 2 | 2024-03-07 | 2024-06-09 |
 | huggingface/transformers.js | JavaScript | [[Feature request] Return offset mapping using tokenizer](https://github.com/huggingface/transformers.js/issues/425) | 2 | 2023-11-30 | 2024-01-12 |
 | EddieHubCommunity/RepoRater | JavaScript | [[BUG] Update the preview in the readme](https://github.com/EddieHubCommunity/RepoRater/issues/152) | 2 | 2024-08-02 | 2024-09-03 |
@@ -351,7 +352,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | layer5io/layer5 | JavaScript | [Update resources and hands-on labs with latest content](https://github.com/layer5io/layer5/issues/6387) | 14 | 2025-04-14 | 2026-04-29 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Cloudevents under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4869) | 14 | 2023-09-07 | 2026-10-22 |
 | EddieHubCommunity/BioDrop | JavaScript | [[BUG] Duplicate sortable package present](https://github.com/EddieHubCommunity/BioDrop/issues/10139) | 14 | 2024-01-13 | 2024-05-03 |
-| layer5io/layer5 | JavaScript | [[Screenshots] Fabedge under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/5330) | 16 | 2024-01-23 | 2026-11-02 |
+| layer5io/layer5 | JavaScript | [[Screenshots] Fabedge under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/5330) | 17 | 2024-01-23 | 2026-11-03 |
 | layer5io/layer5 | JavaScript | [[Visual Design] New Recognition Badge: Event Evangelist Badge](https://github.com/layer5io/layer5/issues/4809) | 17 | 2023-08-31 | 2026-04-25 |
 | layer5io/layer5 | JavaScript | [Pricing: subscription plans as a sticky row](https://github.com/layer5io/layer5/issues/7665) | 18 | 2026-04-25 | 2026-06-27 |
 | layer5io/layer5-academy | JavaScript | [[Docs] Convert meshery design image to embedded meshery design](https://github.com/layer5io/layer5-academy/issues/32) | 18 | 2025-07-25 | 2026-03-26 |
@@ -498,6 +499,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/chat-macOS | Swift | [Asking "what time is it?" will always return the local time of Paris, regardless of your location (⌘R+)](https://github.com/huggingface/chat-macOS/issues/7) | 2 | 2024-09-24 | 2024-10-23 |
 | huggingface/chat-macOS | Swift | [Add custom LLM API ](https://github.com/huggingface/chat-macOS/issues/18) | 5 | 2024-09-27 | 2025-02-14 |
 | huggingface/sam2-studio | Swift | [Video support estimated release date?](https://github.com/huggingface/sam2-studio/issues/25) | 26 | 2024-09-28 | 2026-01-31 |
+| microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Agent Review Tool: "Review result exceeds the Dataverse persistence limit" for agents with many skills](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/927) | 0 | 2026-11-02 | 2026-11-03 |
 | microsoft/scope | TypeScript | [Allow editing Azure AI Foundry model](https://github.com/microsoft/scope/issues/1386) | 0 | 2026-08-31 | 2026-08-31 |
 | microsoft/Agent365-nodejs | TypeScript | [Convert "test-agents" into E2E tests](https://github.com/microsoft/Agent365-nodejs/issues/15) | 0 | 2025-10-29 | 2025-10-29 |
 | microsoft/vscode-jupyter | TypeScript | [Add magic line comments regex pattern as configuration for uncommentMagicCommands](https://github.com/microsoft/vscode-jupyter/issues/16499) | 0 | 2025-03-24 | 2025-03-24 |
@@ -577,7 +579,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/vscode-python-debugger | TypeScript | [Add a `debugpy.sh` for the no-config debugging](https://github.com/microsoft/vscode-python-debugger/issues/651) | 1 | 2025-03-05 | 2026-01-10 |
 | microsoft/Game-Control-Puzzle-Event-Administration-Tools | TypeScript | [Per team and per puzzle activity feeds](https://github.com/microsoft/Game-Control-Puzzle-Event-Administration-Tools/issues/81) | 1 | 2025-03-02 | 2026-09-11 |
 | microsoft/vscode-azurestorage | TypeScript | [There is a redundant Azure activity log "upload 0 files to xxx" when uploading a folder by "Upload to Azure Storage..." command](https://github.com/microsoft/vscode-azurestorage/issues/1373) | 1 | 2025-01-22 | 2026-10-29 |
-| microsoft/vscode-azurestorage | TypeScript | [Using vs-code to edit files in blob storage changes the files content-type.](https://github.com/microsoft/vscode-azurestorage/issues/1352) | 1 | 2024-11-13 | 2026-04-29 |
 | hashicorp/terraform-cdk | TypeScript | [CLI UX: Nicer output for `cdktf synth` if there are no stacks in an app](https://github.com/hashicorp/terraform-cdk/issues/2793) | 1 | 2023-04-12 | 2023-05-28 |
 | hashicorp/terraform-cdk | TypeScript | [Support `local-exec` `quiet` attribute](https://github.com/hashicorp/terraform-cdk/issues/2702) | 1 | 2023-03-09 | 2023-06-01 |
 | hashicorp/terraform-cdk | TypeScript | [Additional-python-google-resources-examples](https://github.com/hashicorp/terraform-cdk/issues/1211) | 1 | 2021-10-25 | 2023-06-02 |
