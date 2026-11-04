@@ -3,6 +3,6 @@
 
 #testing dependencies
 coverage>=7.17.0,<7.18
-pytest>=9.1.1,<9.2
+pytest>=9.2.0,<9.3
 pytest-mock>=3.17.0,<3.18
 pytest-cov>=7.1.0,<7.2
