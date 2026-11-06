@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-11-05</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-11-06</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -308,6 +308,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/copilot-for-eclipse | Java | [The Copilot Chat view retains file context even after the file is closed](https://github.com/microsoft/copilot-for-eclipse/issues/277) | 0 | 2026-06-05 | 2026-06-05 |
 | microsoft/typespec | Java | [testing: expectDiagnostics() should provide an option to ignore ordering](https://github.com/microsoft/typespec/issues/5818) | 3 | 2025-01-30 | 2025-05-23 |
 | microsoft/copilot-for-eclipse | Java | [Unable to use the Java source file corresponding to the class file as context](https://github.com/microsoft/copilot-for-eclipse/issues/117) | 13 | 2026-04-15 | 2026-06-25 |
+| layer5io/layer5 | JavaScript | [[Community] Member Profile: Parth Gartan](https://github.com/layer5io/layer5/issues/8321) | 1 | 2026-11-05 | 2026-11-05 |
 | layer5io/docs | JavaScript | [[Bug] Image not rendering correctly](https://github.com/layer5io/docs/issues/1207) | 1 | 2026-08-15 | 2026-08-15 |
 | huggingface/transformers.js | JavaScript | [Is 'aggregation_strategy' parameter available for token classification pipeline?](https://github.com/huggingface/transformers.js/issues/633) | 2 | 2024-03-07 | 2024-06-09 |
 | huggingface/transformers.js | JavaScript | [[Feature request] Return offset mapping using tokenizer](https://github.com/huggingface/transformers.js/issues/425) | 2 | 2023-11-30 | 2024-01-12 |
@@ -315,7 +316,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | layer5io/layer5 | JavaScript | [[Community] Member Profile: Ankit Kumar Patel](https://github.com/layer5io/layer5/issues/8274) | 3 | 2026-10-31 | 2026-11-01 |
 | layer5io/docs | JavaScript | [[Docs] Floating Card Overlapping Navbar](https://github.com/layer5io/docs/issues/1187) | 3 | 2026-08-06 | 2026-08-06 |
 | layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 4](https://github.com/layer5io/docs/issues/794) | 3 | 2025-08-21 | 2025-09-04 |
-| layer5io/layer5 | JavaScript | [[Bug] Company address on the About page differs from the legal pages](https://github.com/layer5io/layer5/issues/8295) | 4 | 2026-11-03 | 2026-11-04 |
+| layer5io/layer5 | JavaScript | [[Community] Member Profile: Ankit Rewar](https://github.com/layer5io/layer5/issues/8323) | 4 | 2026-11-05 | 2026-11-05 |
 | layer5io/layer5 | JavaScript | [Fix logo/graphic fitting within its container on mobile viewports](https://github.com/layer5io/layer5/issues/8272) | 4 | 2026-10-31 | 2026-10-31 |
 | layer5io/layer5 | JavaScript | [Increase spacing between video and text on GCP architecture diagram page](https://github.com/layer5io/layer5/issues/8192) | 4 | 2026-10-07 | 2026-10-16 |
 | layer5io/docs | JavaScript | [Screen capture includes Grammarly](https://github.com/layer5io/docs/issues/543) | 4 | 2025-05-06 | 2026-11-04 |
@@ -435,12 +436,12 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/lighteval | Python | [[EVAL]: Add more African Benchmarks](https://github.com/huggingface/lighteval/issues/373) | 4 | 2024-10-24 | 2024-11-08 |
 | huggingface/dataset-viewer | Python | [Cache/Queue metrics should not be negative](https://github.com/huggingface/dataset-viewer/issues/2495) | 4 | 2024-02-23 | 2025-08-04 |
 | microsoft/markitdown | Python | [Autonomous Agents, Unite!](https://github.com/microsoft/markitdown/issues/2386) | 4 | 2026-09-04 | 2026-09-05 |
-| huggingface/lighteval | Python | [[FT] showing count in Markdown summary table](https://github.com/huggingface/lighteval/issues/804) | 5 | 2025-06-09 | 2026-08-11 |
 | huggingface/nanotron | Python | [Avoid nested `InheritFromOtherOptimizer`](https://github.com/huggingface/nanotron/issues/267) | 5 | 2025-01-15 | 2025-09-23 |
 | huggingface/nanotron | Python | [[Unit Test] Add unit tests for DistributedTrainer](https://github.com/huggingface/nanotron/issues/90) | 5 | 2024-03-02 | 2024-03-03 |
 | huggingface/optimum-benchmark | Python | [Evaluators for specific tasks](https://github.com/huggingface/optimum-benchmark/issues/34) | 5 | 2023-08-21 | 2023-12-07 |
 | microsoft/mssql-python | Python | [FEAT: Built-in configurable connection and transient-fault retry logic](https://github.com/microsoft/mssql-python/issues/682) | 5 | 2026-07-15 | 2026-09-03 |
 | microsoft/onnxscript | Python | [Constant-Folding Registry](https://github.com/microsoft/onnxscript/issues/2507) | 5 | 2025-08-22 | 2026-08-31 |
+| huggingface/lighteval | Python | [[FT] showing count in Markdown summary table](https://github.com/huggingface/lighteval/issues/804) | 6 | 2025-06-09 | 2026-11-05 |
 | huggingface/lighteval | Python | [[BUG] custom model docs don't run: missing imports](https://github.com/huggingface/lighteval/issues/760) | 6 | 2025-05-21 | 2026-10-14 |
 | huggingface/lighteval | Python | [[FT] Improve Documentation and Examples](https://github.com/huggingface/lighteval/issues/682) | 6 | 2025-04-21 | 2025-05-15 |
 | huggingface/lighteval | Python | [Append revision to filepath in `--output_dir`?](https://github.com/huggingface/lighteval/issues/56) | 6 | 2024-02-26 | 2026-08-30 |
