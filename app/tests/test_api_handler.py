@@ -233,6 +233,136 @@ class TestAPIClient:
             
         assert str(excinfo.value) == "General error"
 
+    def test_apiclient_make_request_waits_retry_after(self, mock_session, mocker):
+        sleep = mocker.patch('app.core.api_handler.time.sleep')
+        rate_limited = MagicMock()
+        rate_limited.status_code = 403
+        rate_limited.headers = {'retry-after': '5'}
+        rate_limited.text = 'rate limit'
+        rate_limited.raise_for_status.side_effect = requests.exceptions.HTTPError
+        ok = MagicMock()
+        ok.raise_for_status.return_value = None
+        ok.json.return_value = {'message': 'success'}
+        mock_session.get.side_effect = [rate_limited, ok]
+
+        result = APIClient.make_request("http://testurl.com", mock_session)
+
+        assert result == {'message': 'success'}
+        sleep.assert_called_once_with(5.0)
+
+    def test_apiclient_make_request_waits_until_reset(self, mock_session, mocker):
+        sleep = mocker.patch('app.core.api_handler.time.sleep')
+        mocker.patch('app.core.api_handler.time.time', return_value=1000.0)
+        rate_limited = MagicMock()
+        rate_limited.status_code = 403
+        rate_limited.headers = {'x-ratelimit-remaining': '0', 'x-ratelimit-reset': '1100'}
+        rate_limited.text = ''
+        rate_limited.raise_for_status.side_effect = requests.exceptions.HTTPError
+        ok = MagicMock()
+        ok.raise_for_status.return_value = None
+        ok.json.return_value = {'message': 'success'}
+        mock_session.get.side_effect = [rate_limited, ok]
+
+        APIClient.make_request("http://testurl.com", mock_session)
+
+        sleep.assert_called_once_with(100.0)
+
+    def test_apiclient_make_request_clamps_wait_at_zero(self, mock_session, mocker):
+        sleep = mocker.patch('app.core.api_handler.time.sleep')
+        mocker.patch('app.core.api_handler.time.time', return_value=1000.0)
+        rate_limited = MagicMock()
+        rate_limited.status_code = 403
+        rate_limited.headers = {'x-ratelimit-remaining': '0', 'x-ratelimit-reset': '900'}
+        rate_limited.text = ''
+        rate_limited.raise_for_status.side_effect = requests.exceptions.HTTPError
+        ok = MagicMock()
+        ok.raise_for_status.return_value = None
+        ok.json.return_value = {'message': 'success'}
+        mock_session.get.side_effect = [rate_limited, ok]
+
+        APIClient.make_request("http://testurl.com", mock_session)
+
+        sleep.assert_called_once_with(0)
+
+    def test_apiclient_make_request_falls_back_on_invalid_retry_after(self, mock_session, mocker):
+        sleep = mocker.patch('app.core.api_handler.time.sleep')
+        rate_limited = MagicMock()
+        rate_limited.status_code = 403
+        rate_limited.headers = {'retry-after': 'soon'}
+        rate_limited.text = 'rate limit'
+        rate_limited.raise_for_status.side_effect = requests.exceptions.HTTPError
+        ok = MagicMock()
+        ok.raise_for_status.return_value = None
+        ok.json.return_value = {'message': 'success'}
+        mock_session.get.side_effect = [rate_limited, ok]
+
+        APIClient.make_request("http://testurl.com", mock_session)
+
+        sleep.assert_called_once_with(60)
+
+    def test_apiclient_make_request_falls_back_on_invalid_reset(self, mock_session, mocker):
+        sleep = mocker.patch('app.core.api_handler.time.sleep')
+        rate_limited = MagicMock()
+        rate_limited.status_code = 403
+        rate_limited.headers = {'x-ratelimit-remaining': '0', 'x-ratelimit-reset': 'later'}
+        rate_limited.text = 'rate limit'
+        rate_limited.raise_for_status.side_effect = requests.exceptions.HTTPError
+        ok = MagicMock()
+        ok.raise_for_status.return_value = None
+        ok.json.return_value = {'message': 'success'}
+        mock_session.get.side_effect = [rate_limited, ok]
+
+        APIClient.make_request("http://testurl.com", mock_session)
+
+        sleep.assert_called_once_with(60)
+
+    def test_apiclient_make_request_waits_default_on_rate_limit_message(self, mock_session, mocker):
+        sleep = mocker.patch('app.core.api_handler.time.sleep')
+        rate_limited = MagicMock()
+        rate_limited.status_code = 403
+        rate_limited.headers = {}
+        rate_limited.text = 'You have exceeded a secondary rate limit.'
+        rate_limited.raise_for_status.side_effect = requests.exceptions.HTTPError
+        ok = MagicMock()
+        ok.raise_for_status.return_value = None
+        ok.json.return_value = {'message': 'success'}
+        mock_session.get.side_effect = [rate_limited, ok]
+
+        APIClient.make_request("http://testurl.com", mock_session)
+
+        sleep.assert_called_once_with(60)
+
+    def test_apiclient_make_request_403_without_rate_limit_raises(self, mock_session, mocker):
+        sleep = mocker.patch('app.core.api_handler.time.sleep')
+        forbidden = MagicMock()
+        forbidden.status_code = 403
+        forbidden.headers = {}
+        forbidden.text = 'Forbidden'
+        forbidden.raise_for_status.side_effect = requests.exceptions.HTTPError
+        mock_session.get.return_value = forbidden
+
+        with pytest.raises(APIError) as excinfo:
+            APIClient.make_request("http://testurl.com", mock_session)
+
+        assert excinfo.value.status_code == 403
+        sleep.assert_not_called()
+
+    def test_apiclient_make_request_gives_up_after_max_retries(self, mock_session, mocker):
+        sleep = mocker.patch('app.core.api_handler.time.sleep')
+        rate_limited = MagicMock()
+        rate_limited.status_code = 429
+        rate_limited.headers = {}
+        rate_limited.text = ''
+        rate_limited.raise_for_status.side_effect = requests.exceptions.HTTPError
+        mock_session.get.return_value = rate_limited
+
+        with pytest.raises(APIError) as excinfo:
+            APIClient.make_request("http://testurl.com", mock_session)
+
+        assert excinfo.value.status_code == 429
+        assert sleep.call_count == APIClient.MAX_RETRIES
+        assert mock_session.get.call_count == APIClient.MAX_RETRIES + 1
+
 class TestAPIError:
     def test_api_error_str(self):
         error = APIError(404, "Not Found")
