@@ -1,5 +1,6 @@
 import csv
 import math 
+import time
 import requests
 from jinja2 import Environment, FileSystemLoader
 
@@ -214,15 +215,50 @@ class Utils:
         return list_of_lists
     
 class APIClient:
+    MAX_RETRIES = 3
+
+    @staticmethod
+    def is_rate_limited(response):
+        if response.status_code == 429:
+            return True
+        if response.status_code != 403:
+            return False
+        if response.headers.get('retry-after'):
+            return True
+        if response.headers.get('x-ratelimit-remaining') == '0':
+            return True
+        return 'rate limit' in response.text.lower()
+
+    @staticmethod
+    def get_wait_time(response, attempt):
+        retry_after = response.headers.get('retry-after')
+        if retry_after:
+            try:
+                return float(retry_after)
+            except (ValueError, TypeError):
+                pass
+        if response.headers.get('x-ratelimit-remaining') == '0':
+            reset_time = response.headers.get('x-ratelimit-reset', 0)
+            try:
+                return max(float(reset_time) - time.time(), 0)
+            except (ValueError, TypeError):
+                pass
+        return 60 * (2 ** attempt)
+
     @staticmethod
     def make_request(url, session):
-        try:
-            resp = session.get(url)
-            resp.raise_for_status()
-            return resp.json()
-        except requests.exceptions.HTTPError as error:
-            raise APIError(resp.status_code, resp.text) from error
-        except Exception as error:
-            logging.error(f'Another error occurred: {error}')
-            raise
+        for attempt in range(APIClient.MAX_RETRIES + 1):
+            try:
+                resp = session.get(url)
+                resp.raise_for_status()
+                return resp.json()
+            except requests.exceptions.HTTPError as error:
+                if attempt == APIClient.MAX_RETRIES or not APIClient.is_rate_limited(resp):
+                    raise APIError(resp.status_code, resp.text) from error
+                wait_time = APIClient.get_wait_time(resp, attempt)
+                logging.warning(f'Rate limited, retrying in {wait_time} seconds')
+                time.sleep(wait_time)
+            except Exception as error:
+                logging.error(f'Another error occurred: {error}')
+                raise
         
