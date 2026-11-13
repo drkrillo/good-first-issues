@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-11-12</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-11-13</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -313,12 +313,12 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/transformers.js | JavaScript | [Is 'aggregation_strategy' parameter available for token classification pipeline?](https://github.com/huggingface/transformers.js/issues/633) | 2 | 2024-03-07 | 2024-06-09 |
 | huggingface/transformers.js | JavaScript | [[Feature request] Return offset mapping using tokenizer](https://github.com/huggingface/transformers.js/issues/425) | 2 | 2023-11-30 | 2024-01-12 |
 | EddieHubCommunity/RepoRater | JavaScript | [[BUG] Update the preview in the readme](https://github.com/EddieHubCommunity/RepoRater/issues/152) | 2 | 2024-08-02 | 2024-09-03 |
+| layer5io/layer5 | JavaScript | [[UI][Blog] Blockquote speech-bubble arrow overlaps following paragraph on DockerCon 2022 blog post](https://github.com/layer5io/layer5/issues/8388) | 3 | 2026-11-12 | 2026-11-12 |
 | layer5io/docs | JavaScript | [[Docs] Floating Card Overlapping Navbar](https://github.com/layer5io/docs/issues/1187) | 3 | 2026-08-06 | 2026-08-06 |
 | layer5io/layer5 | JavaScript | [Fix logo/graphic fitting within its container on mobile viewports](https://github.com/layer5io/layer5/issues/8272) | 4 | 2026-10-31 | 2026-10-31 |
 | layer5io/layer5 | JavaScript | [Increase spacing between video and text on GCP architecture diagram page](https://github.com/layer5io/layer5/issues/8192) | 4 | 2026-10-07 | 2026-10-16 |
 | layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 4](https://github.com/layer5io/docs/issues/794) | 4 | 2025-08-21 | 2026-11-07 |
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Contributing needs work](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/112) | 4 | 2017-12-02 | 2018-03-24 |
-| layer5io/layer5 | JavaScript | [[Community] Member Profile: Ankit Kumar Patel](https://github.com/layer5io/layer5/issues/8274) | 5 | 2026-10-31 | 2026-11-10 |
 | layer5io/layer5 | JavaScript | [[UI]: Oversized GitHub octocat icon on "What is GitOps?" resource page](https://github.com/layer5io/layer5/issues/7963) | 5 | 2026-08-16 | 2026-09-09 |
 | layer5io/docs | JavaScript | [[Docs] Improve Related Docs Links in Pinning Models to Dock Page](https://github.com/layer5io/docs/issues/1028) | 5 | 2026-05-11 | 2026-06-11 |
 | layer5io/docs | JavaScript | [Screen capture includes Grammarly](https://github.com/layer5io/docs/issues/543) | 5 | 2025-05-06 | 2026-11-11 |
@@ -353,9 +353,9 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | EddieHubCommunity/BioDrop | JavaScript | [[BUG] Duplicate sortable package present](https://github.com/EddieHubCommunity/BioDrop/issues/10139) | 14 | 2024-01-13 | 2024-05-03 |
 | layer5io/layer5 | JavaScript | [[Visual Design] New Recognition Badge: Event Evangelist Badge](https://github.com/layer5io/layer5/issues/4809) | 17 | 2023-08-31 | 2026-04-25 |
 | layer5io/layer5 | JavaScript | [Pricing: subscription plans as a sticky row](https://github.com/layer5io/layer5/issues/7665) | 18 | 2026-04-25 | 2026-06-27 |
-| layer5io/layer5 | JavaScript | [[SEO] First Contentful Paint (FCP): gatsby-plugin-webpack-bundle-analyser-v2](https://github.com/layer5io/layer5/issues/6449) | 18 | 2025-05-15 | 2026-06-28 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Cilium under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4868) | 18 | 2023-09-07 | 2026-09-11 |
 | layer5io/layer5-academy | JavaScript | [[Docs] Convert meshery design image to embedded meshery design](https://github.com/layer5io/layer5-academy/issues/32) | 19 | 2025-07-25 | 2026-11-06 |
+| layer5io/layer5 | JavaScript | [[SEO] First Contentful Paint (FCP): gatsby-plugin-webpack-bundle-analyser-v2](https://github.com/layer5io/layer5/issues/6449) | 19 | 2025-05-15 | 2026-11-12 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Fabedge under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/5330) | 19 | 2024-01-23 | 2026-11-10 |
 | layer5io/layer5 | JavaScript | [add animated card](https://github.com/layer5io/layer5/issues/6521) | 21 | 2025-06-02 | 2026-09-02 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Container Network Interface (CNI) under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4874) | 31 | 2023-09-07 | 2026-03-22 |
@@ -458,8 +458,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/markitdown | Python | [Support for .doc extensions](https://github.com/microsoft/markitdown/issues/23) | 15 | 2024-12-14 | 2026-10-16 |
 | huggingface/diffusers | Python | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 16 | 2024-10-10 | 2026-10-23 |
 | huggingface/diffusers | Python | [[Pipeline] AnimateDiff + SparseControl + ControlNet](https://github.com/huggingface/diffusers/issues/9329) | 17 | 2024-08-30 | 2026-09-09 |
-| microsoft/data-formulator | Python | [Create new data loaders to different resources](https://github.com/microsoft/data-formulator/issues/156) | 17 | 2025-05-13 | 2026-10-26 |
 | microsoft/markitdown | Python | [LLM Integration](https://github.com/microsoft/markitdown/issues/12) | 17 | 2024-12-13 | 2026-06-08 |
+| microsoft/data-formulator | Python | [Create new data loaders to different resources](https://github.com/microsoft/data-formulator/issues/156) | 18 | 2025-05-13 | 2026-11-12 |
 | huggingface/lerobot | Python | [Make policies compatible with torch.compile](https://github.com/huggingface/lerobot/issues/2061) | 19 | 2025-09-26 | 2026-09-25 |
 | huggingface/datasets | Python | [Consider using "Sequence" instead of "List"](https://github.com/huggingface/datasets/issues/5354) | 19 | 2022-12-12 | 2026-09-02 |
 | microsoft/autogen | Python | [need docs/bicep/etc for how to setup with full TLS between all nodes](https://github.com/microsoft/autogen/issues/4373) | 21 | 2024-11-26 | 2026-07-01 |
@@ -572,6 +572,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/vscode-python-debugger | TypeScript | [Add a `debugpy.sh` for the no-config debugging](https://github.com/microsoft/vscode-python-debugger/issues/651) | 1 | 2025-03-05 | 2026-11-10 |
 | microsoft/Game-Control-Puzzle-Event-Administration-Tools | TypeScript | [Per team and per puzzle activity feeds](https://github.com/microsoft/Game-Control-Puzzle-Event-Administration-Tools/issues/81) | 1 | 2025-03-02 | 2026-09-11 |
 | microsoft/vscode-azurestorage | TypeScript | [There is a redundant Azure activity log "upload 0 files to xxx" when uploading a folder by "Upload to Azure Storage..." command](https://github.com/microsoft/vscode-azurestorage/issues/1373) | 1 | 2025-01-22 | 2026-10-29 |
+| microsoft/vscode-azurestorage | TypeScript | [Using vs-code to edit files in blob storage changes the files content-type.](https://github.com/microsoft/vscode-azurestorage/issues/1352) | 1 | 2024-11-13 | 2026-04-29 |
 | hashicorp/terraform-cdk | TypeScript | [CLI UX: Nicer output for `cdktf synth` if there are no stacks in an app](https://github.com/hashicorp/terraform-cdk/issues/2793) | 1 | 2023-04-12 | 2023-05-28 |
 | hashicorp/terraform-cdk | TypeScript | [Support `local-exec` `quiet` attribute](https://github.com/hashicorp/terraform-cdk/issues/2702) | 1 | 2023-03-09 | 2023-06-01 |
 | hashicorp/terraform-cdk | TypeScript | [Additional-python-google-resources-examples](https://github.com/hashicorp/terraform-cdk/issues/1211) | 1 | 2021-10-25 | 2023-06-02 |
@@ -579,7 +580,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-test-management | TypeScript | [Display Errors and Files name in which they occurr](https://github.com/mattermost/mattermost-test-management/issues/20) | 1 | 2022-11-23 | 2022-11-24 |
 | mattermost/mattermost-plugin-google-calendar | TypeScript | [Improve error handling in `completeCalendar` to avoid panic](https://github.com/mattermost/mattermost-plugin-google-calendar/issues/8) | 1 | 2020-04-23 | 2021-10-02 |
 | freeCodeCamp/chapter | TypeScript | [Updating Different Users section in contribution guide](https://github.com/freeCodeCamp/chapter/issues/1914) | 1 | 2022-11-17 | 2022-11-20 |
-| cncf/techdocs | TypeScript | [[Analytics] Document alternative analytics platforms available to projects, and offer guidelines](https://github.com/cncf/techdocs/issues/283) | 1 | 2024-12-16 | 2026-11-11 |
+| cncf/techdocs | TypeScript | [[Analytics] Document alternative analytics platforms available to projects, and offer guidelines](https://github.com/cncf/techdocs/issues/283) | 1 | 2024-12-16 | 2026-11-12 |
 | decentraland/builder | TypeScript | [Add a search bar to NAMEs list](https://github.com/decentraland/builder/issues/3330) | 1 | 2025-12-26 | 2025-12-27 |
 | decentraland/auth | TypeScript | [Migrate getAnalytics to useAnalytics Hook](https://github.com/decentraland/auth/issues/198) | 1 | 2025-10-02 | 2026-09-16 |
 | decentraland/creator-hub | TypeScript | [Duplicated items appear at the bottom of the list](https://github.com/decentraland/creator-hub/issues/595) | 1 | 2025-05-08 | 2026-02-18 |
@@ -596,14 +597,13 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | decentraland/explorer | TypeScript | [Blocking error on console: "Warning: Unsupported graphics API WebGL 2.0"](https://github.com/decentraland/explorer/issues/1333) | 1 | 2020-09-21 | 2020-10-21 |
 | layer5io/sistent | TypeScript | [[ svg ]: Create `createIcon` as the base icon for `svg`](https://github.com/layer5io/sistent/issues/245) | 2 | 2023-11-07 | 2026-08-26 |
 | huggingface/huggingface.js | TypeScript | [Maximize button not working properly on Hosted inference API block](https://github.com/huggingface/huggingface.js/issues/335) | 2 | 2023-01-30 | 2023-11-24 |
-| microsoft/Power-CAT-Copilot-Studio-Kit | TypeScript | [Bug: Copilot Studio Kit: Soporte para configuración y error en Conversation KPIs](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/issues/923) | 2 | 2026-10-29 | 2026-11-09 |
 | microsoft/scope | TypeScript | [Improve UX when listing all runs](https://github.com/microsoft/scope/issues/766) | 2 | 2026-07-29 | 2026-10-08 |
 | microsoft/scope | TypeScript | [consider a different UX for the Run details UI](https://github.com/microsoft/scope/issues/765) | 2 | 2026-07-29 | 2026-11-04 |
 | microsoft/scope | TypeScript | [The workspace snapshot archive should include the dot files and dot folders](https://github.com/microsoft/scope/issues/606) | 2 | 2026-07-29 | 2026-10-20 |
 | microsoft/vscode-containers | TypeScript | [Add “Compose Pull / Update All Images” command for Docker Compose projects](https://github.com/microsoft/vscode-containers/issues/414) | 2 | 2026-03-11 | 2026-08-24 |
 | microsoft/Agent365-nodejs | TypeScript | [Convert "test-agents" into E2E tests](https://github.com/microsoft/Agent365-nodejs/issues/15) | 2 | 2025-10-29 | 2026-11-10 |
 | hashicorp/terraform-cdk | TypeScript | [Typo in Tokenizer code?](https://github.com/hashicorp/terraform-cdk/issues/2709) | 2 | 2023-03-09 | 2023-06-02 |
-| cncf/techdocs | TypeScript | [GDPR](https://github.com/cncf/techdocs/issues/134) | 2 | 2022-08-19 | 2026-11-11 |
+| cncf/techdocs | TypeScript | [GDPR](https://github.com/cncf/techdocs/issues/134) | 2 | 2022-08-19 | 2026-11-12 |
 | decentraland/marketplace | TypeScript | [It's hard to detect when the kebab menu of the ListCard is clickable](https://github.com/decentraland/marketplace/issues/1866) | 2 | 2023-06-22 | 2023-07-31 |
 | decentraland/marketplace | TypeScript | [Show full name when hovering over Lands and Wearables](https://github.com/decentraland/marketplace/issues/590) | 2 | 2022-02-07 | 2024-08-23 |
 | huggingface/chat-ui | TypeScript | [Load past conversations using the most recent leaf to determine the visible conversation tree.](https://github.com/huggingface/chat-ui/issues/1208) | 3 | 2024-05-28 | 2024-07-06 |
@@ -612,13 +612,14 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/teams.ts | TypeScript | [[cards] support lowercase and Capitalized JSON values](https://github.com/microsoft/teams.ts/issues/132) | 3 | 2025-04-09 | 2025-10-11 |
 | hashicorp/terraform-cdk | TypeScript | [Support kubernetes backend](https://github.com/hashicorp/terraform-cdk/issues/1628) | 3 | 2022-03-19 | 2023-06-01 |
 | hashicorp/terraform-cdk | TypeScript | [API docs: Add docs to Terraform backends](https://github.com/hashicorp/terraform-cdk/issues/1268) | 3 | 2021-11-08 | 2023-06-28 |
+| cncf/techdocs | TypeScript | [Create docs localization guide](https://github.com/cncf/techdocs/issues/153) | 3 | 2022-11-03 | 2026-11-12 |
 | huggingface/chat-ui | TypeScript | [Add option for users to customize search engines in settings page](https://github.com/huggingface/chat-ui/issues/1756) | 4 | 2025-03-15 | 2026-05-09 |
 | huggingface/chat-ui | TypeScript | [Chrome app icon on macOS](https://github.com/huggingface/chat-ui/issues/1439) | 4 | 2024-08-27 | 2026-05-07 |
 | microsoft/genaiscript | TypeScript | [Repository map example](https://github.com/microsoft/genaiscript/issues/982) | 4 | 2025-01-07 | 2025-03-19 |
 | hashicorp/terraform-cdk | TypeScript | [Rename the help file when running `cdk init` to markdown and/or have a .txt extension to the help file](https://github.com/hashicorp/terraform-cdk/issues/1315) | 4 | 2021-11-17 | 2023-06-02 |
 | freeCodeCamp/chapter | TypeScript | [Consolidate email templates](https://github.com/freeCodeCamp/chapter/issues/2071) | 4 | 2022-12-08 | 2023-04-30 |
-| cncf/techdocs | TypeScript | [Complete gRPC.io domain ownership transfer to LF](https://github.com/cncf/techdocs/issues/151) | 4 | 2022-11-01 | 2026-11-11 |
-| cncf/techdocs | TypeScript | [Record account owners for websites: Google analytics & CSE, Netlify, DNS](https://github.com/cncf/techdocs/issues/110) | 4 | 2022-05-23 | 2026-11-11 |
+| cncf/techdocs | TypeScript | [Complete gRPC.io domain ownership transfer to LF](https://github.com/cncf/techdocs/issues/151) | 4 | 2022-11-01 | 2026-11-12 |
+| cncf/techdocs | TypeScript | [Record account owners for websites: Google analytics & CSE, Netlify, DNS](https://github.com/cncf/techdocs/issues/110) | 4 | 2022-05-23 | 2026-11-12 |
 | decentraland/marketplace | TypeScript | [Create a high order component that redirects to the Sign In Page if the user is not connected](https://github.com/decentraland/marketplace/issues/1522) | 4 | 2023-04-05 | 2023-04-10 |
 | huggingface/chat-ui | TypeScript | [Disabling Reasoning Summary as an Env Option](https://github.com/huggingface/chat-ui/issues/1720) | 5 | 2025-02-17 | 2025-03-31 |
 | huggingface/chat-ui | TypeScript | [System prompt not taken into account when web browsing.](https://github.com/huggingface/chat-ui/issues/1159) | 5 | 2024-05-22 | 2026-10-22 |
@@ -626,7 +627,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost | TypeScript | [Help Wanted: BitBucket README > Split out admin content to child pages](https://github.com/mattermost/mattermost/issues/25176) | 5 | 2023-10-26 | 2026-09-21 |
 | mattermost/mattermost | TypeScript | [Help Wanted: Channel Export README > Split out admin content to child pages](https://github.com/mattermost/mattermost/issues/25173) | 5 | 2023-10-26 | 2025-10-28 |
 | layer5io/sistent | TypeScript | [[Docs] update readme to include instructions to use npm link](https://github.com/layer5io/sistent/issues/999) | 6 | 2025-04-15 | 2026-11-10 |
-| cncf/techdocs | TypeScript | [Suggested doc: add recommendation for analytics page](https://github.com/cncf/techdocs/issues/105) | 6 | 2022-03-31 | 2026-11-11 |
+| cncf/techdocs | TypeScript | [Suggested doc: add recommendation for analytics page](https://github.com/cncf/techdocs/issues/105) | 6 | 2022-03-31 | 2026-11-12 |
 | microsoft/teams.ts | TypeScript | [Automatically parse feedback value](https://github.com/microsoft/teams.ts/issues/184) | 7 | 2025-04-26 | 2026-05-15 |
 | mattermost/mattermost | TypeScript | [[RN] Change "Join" button on sign in page keyboard to "Go"](https://github.com/mattermost/mattermost/issues/26590) | 7 | 2024-03-26 | 2026-06-24 |
 | huggingface/huggingface.js | TypeScript | [Tracking integration for Video Classification](https://github.com/huggingface/huggingface.js/issues/332) | 8 | 2022-08-04 | 2023-11-24 |
