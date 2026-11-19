@@ -210,7 +210,7 @@ kubernetes/perf-tests,Go,Create api-availability measurement,https://github.com/
 kubernetes/kube-state-metrics,Go,Missing replacement config for VPA collector in CRM,https://github.com/kubernetes/kube-state-metrics/issues/2041,42,kind/documentation; needs-triage,2023-04-05,2026-08-11
 kubernetes/kubernetes,Go,"kubelet parameter(eviction-max-pod-grace-period ), not work as expected like officical comment.",https://github.com/kubernetes/kubernetes/issues/118172,48,kind/bug; priority/backlog; kind/documentation; sig/node; help wanted; priority/important-longterm; triage/accepted,2023-05-22,2026-11-10
 kubernetes/kubernetes,Go,"Write the stress test for gRPC, http, and tcp probes",https://github.com/kubernetes/kubernetes/issues/115782,50,priority/backlog; kind/cleanup; sig/node; help wanted; needs-triage,2023-02-15,2026-10-23
-kubernetes/kubernetes,Go,Migrate DRA components to support granular authorization on status updates,https://github.com/kubernetes/kubernetes/issues/138149,98,sig/network; sig/node; sig/auth; help wanted; triage/accepted; wg/device-management,2026-04-01,2026-11-16
+kubernetes/kubernetes,Go,Migrate DRA components to support granular authorization on status updates,https://github.com/kubernetes/kubernetes/issues/138149,99,sig/network; sig/node; sig/auth; help wanted; triage/accepted; wg/device-management,2026-04-01,2026-11-18
 cncf/glossary,Go Template,[es] A report to track and reflect updates of English content,https://github.com/cncf/glossary/issues/3222,0,lang/es; outdated,2024-07-15,2025-04-07
 cncf/glossary,Go Template,[ru] Localize `Portability`,https://github.com/cncf/glossary/issues/3265,1,lang/ru,2024-08-04,2024-11-19
 cncf/glossary,Go Template,[ru] Localize `Service` into Russian,https://github.com/cncf/glossary/issues/3334,2,lang/ru,2024-10-17,2025-03-03
@@ -244,7 +244,6 @@ microsoft/copilot-for-eclipse,Java,The Copilot Chat view retains file context ev
 microsoft/typespec,Java,testing: expectDiagnostics() should provide an option to ignore ordering,https://github.com/microsoft/typespec/issues/5818,3,feature; triaged:core; compiler:core,2025-01-30,2025-05-23
 microsoft/copilot-for-eclipse,Java,Unable to use the Java source file corresponding to the class file as context,https://github.com/microsoft/copilot-for-eclipse/issues/117,13,help wanted,2026-04-15,2026-06-25
 layer5io/layer5,JavaScript,Fix Duplicate IDs and Improve Slider Accessibility in DeployServiceMesh,https://github.com/layer5io/layer5/issues/8417,2,,2026-11-14,2026-11-14
-layer5io/layer5,JavaScript,[UI][Handbook] Mentorship Programs partner cards and logos overflow on tablets,https://github.com/layer5io/layer5/issues/8397,2,kind/bug; help wanted; framework/gatsby,2026-11-13,2026-11-13
 layer5io/docs,JavaScript,[Bug] Image not rendering correctly,https://github.com/layer5io/docs/issues/1207,2,help wanted; kind/bug; language/javascript; language/css; framework/hugo,2026-08-15,2026-11-17
 huggingface/transformers.js,JavaScript,Is 'aggregation_strategy' parameter available for token classification pipeline?,https://github.com/huggingface/transformers.js/issues/633,2,help wanted; question,2024-03-07,2024-06-09
 huggingface/transformers.js,JavaScript,[Feature request] Return offset mapping using tokenizer,https://github.com/huggingface/transformers.js/issues/425,2,enhancement,2023-11-30,2024-01-12
@@ -254,13 +253,13 @@ layer5io/docs,JavaScript,[Docs] Floating Card Overlapping Navbar,https://github.
 layer5io/layer5,JavaScript,Fix logo/graphic fitting within its container on mobile viewports,https://github.com/layer5io/layer5/issues/8272,4,kind/bug; help wanted; framework/gatsby,2026-10-31,2026-10-31
 freeCodeCamp/100DaysOfCode-twitter-bot,JavaScript,Contributing needs work,https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/112,4,help wanted; documentation,2017-12-02,2018-03-24
 layer5io/layer5,JavaScript,"[UI]: Oversized GitHub octocat icon on ""What is GitOps?"" resource page",https://github.com/layer5io/layer5/issues/7963,5,kind/bug; help wanted; framework/gatsby,2026-08-16,2026-09-09
-layer5io/docs,JavaScript,Screen capture includes Grammarly,https://github.com/layer5io/docs/issues/543,5,help wanted; kind/bug; language/javascript; language/css; framework/hugo,2025-05-06,2026-11-11
 layer5io/layer5,JavaScript,[Screenshots] Citrix Service Mesh under 'How it Works See It in Action' section,https://github.com/layer5io/layer5/issues/4880,5,help wanted,2023-09-07,2026-03-22
 freeCodeCamp/100DaysOfCode-twitter-bot,JavaScript,Welcome bot! Respond to the user when committing to 100DaysOfCode,https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/96,5,enhancement; help wanted,2017-10-03,2026-04-28
 layer5io/layer5,JavaScript,[UI] Handbook Table of Contents links are clipped on mobile viewports,https://github.com/layer5io/layer5/issues/8420,6,kind/bug; help wanted; framework/gatsby,2026-11-14,2026-11-15
 layer5io/docs,JavaScript,[Docs] Improve Related Docs Links in Pinning Models to Dock Page,https://github.com/layer5io/docs/issues/1028,6,area/docs; help wanted; language/markdown; framework/hugo,2026-05-11,2026-11-13
 layer5io/docs,JavaScript,[Docs] Convert Static Image to Meshery Design - 4,https://github.com/layer5io/docs/issues/794,6,area/docs; help wanted; language/markdown; framework/hugo,2025-08-21,2026-11-14
 layer5io/docs,JavaScript,Convert Images into Meshery Design.,https://github.com/layer5io/docs/issues/646,6,help wanted; kind/enhancement; language/javascript; language/css; language/html; framework/hugo; issue/remind,2025-07-10,2025-12-25
+layer5io/docs,JavaScript,Screen capture includes Grammarly,https://github.com/layer5io/docs/issues/543,7,help wanted; kind/bug; language/javascript; language/css; framework/hugo,2025-05-06,2026-11-18
 layer5io/layer5,JavaScript,[Screenshots] Chaos Mesh under 'How it Works See It in Action' section,https://github.com/layer5io/layer5/issues/4867,7,kind/enhancement; help wanted; issue/remind; component/ui,2023-09-07,2026-03-22
 EddieHubCommunity/EddieHubCommunity.github.io,JavaScript,Add Issue Templates,https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/issues/211,7,,2021-10-04,2024-04-23
 layer5io/layer5,JavaScript,Fix Repeated State Updates in DeployServiceMesh Progress Component,https://github.com/layer5io/layer5/issues/8416,8,,2026-11-14,2026-11-15
@@ -399,7 +398,6 @@ huggingface/datasets,Python,Return the name of the currently loaded file in the 
 huggingface/optimum,Python,Community contribution - `BetterTransformer` integration for more models!,https://github.com/huggingface/optimum/issues/488,27,,2022-11-18,2026-09-09
 microsoft/TRELLIS,Python,Can this be used commercially?,https://github.com/microsoft/TRELLIS/issues/41,30,,2024-12-09,2025-10-18
 microsoft/autogen,Python,Get current message thread from a group chat team.,https://github.com/microsoft/autogen/issues/6085,32,help wanted; proj-agentchat,2025-03-24,2026-09-01
-huggingface/huggingface_hub,Python,[Community event] Translate documentation to your own langage,https://github.com/huggingface/huggingface_hub/issues/1700,33,documentation,2023-09-29,2026-11-10
 microsoft/autogen,Python,"open needs encoding='utf-8' for non-english environment, error in playwright_controller.py",https://github.com/microsoft/autogen/issues/5566,34,help wanted,2025-02-16,2026-09-12
 microsoft/TRELLIS,Python,How to generate 3D assets with more number of faces?,https://github.com/microsoft/TRELLIS/issues/58,34,,2024-12-12,2025-01-25
 microsoft/TRELLIS,Python,Setting Up Trellis on Windows,https://github.com/microsoft/TRELLIS/issues/3,53,,2024-12-06,2025-11-02
@@ -421,8 +419,8 @@ godotengine/discourse-theme,SCSS,Make tag and tag count more distinct,https://gi
 godotengine/discourse-theme,SCSS,Categories are not rounded on mobile,https://github.com/godotengine/discourse-theme/issues/3,0,enhancement,2023-11-23,2023-12-10
 godotengine/discourse-theme,SCSS,Search bar should not cover full width on mobile,https://github.com/godotengine/discourse-theme/issues/2,0,enhancement,2023-11-23,2023-12-10
 godotengine/discourse-theme,SCSS,"Remove the ""Sign Up"" button from navbar",https://github.com/godotengine/discourse-theme/issues/15,2,bug,2024-04-10,2024-04-10
-mattermost/mattermost-gitpod-config,Shell,"If a the workspace repo doesn't define `.gitpod/*.sh` files, we shouldn't try to run them",https://github.com/mattermost/mattermost-gitpod-config/issues/50,0,help wanted,2023-11-28,2023-11-28
 mattermost/mattermost-gitpod-config,Shell,Improve development flow of opening the Mattermost webapp automatically,https://github.com/mattermost/mattermost-gitpod-config/issues/49,0,help wanted,2023-11-28,2023-11-28
+mattermost/mattermost-gitpod-config,Shell,"If a the workspace repo doesn't define `.gitpod/*.sh` files, we shouldn't try to run them",https://github.com/mattermost/mattermost-gitpod-config/issues/50,1,help wanted,2023-11-28,2026-11-18
 layer5io/trigger-remote-provider-action,Shell,"to fix error in ""Slack Notify on Star"" Job under GitHub Actions ",https://github.com/layer5io/trigger-remote-provider-action/issues/12,4,help wanted; kind/bug; kind/enhancement,2023-09-27,2026-03-22
 hashicorp/waypoint-helm,Smarty,An ability to define Tolerations for Server and Runner StatefulSets,https://github.com/hashicorp/waypoint-helm/issues/42,1,enhancement,2022-07-08,2022-07-13
 huggingface/sam2-studio,Swift,Model download selector,https://github.com/huggingface/sam2-studio/issues/28,1,help wanted,2024-10-01,2024-10-01
@@ -511,7 +509,7 @@ mattermost/mattermost-plugin-google-calendar,TypeScript,`/gcal viewcal` and dail
 mattermost/mattermost-test-management,TypeScript,Display Errors and Files name in which they occurr,https://github.com/mattermost/mattermost-test-management/issues/20,1,enhancement; help wanted,2022-11-23,2022-11-24
 mattermost/mattermost-plugin-google-calendar,TypeScript,Improve error handling in `completeCalendar` to avoid panic,https://github.com/mattermost/mattermost-plugin-google-calendar/issues/8,1,Help Wanted; Type/Bug; Difficulty/1:Easy; Hacktoberfest; Tech/Go; Up For Grabs,2020-04-23,2021-10-02
 freeCodeCamp/chapter,TypeScript,Updating Different Users section in contribution guide,https://github.com/freeCodeCamp/chapter/issues/1914,1,Documentation,2022-11-17,2022-11-20
-cncf/prow-github-actions,TypeScript,[quality] Dependabot PRs #712–#716 fail build-test only because they predate #711; need a push-access rebase,https://github.com/cncf/prow-github-actions/issues/735,1,help wanted; kind/cleanup; testing; agent/quality; stage/010-actionable,2026-11-17,2026-11-17
+cncf/prow-github-actions,TypeScript,[quality] Dependabot PRs #712–#716 fail build-test only because they predate #711; need a push-access rebase,https://github.com/cncf/prow-github-actions/issues/735,1,help wanted; kind/cleanup; testing; agent/quality; stage/010-actionable; stage/stalled,2026-11-17,2026-11-18
 decentraland/builder,TypeScript,Add a search bar to NAMEs list,https://github.com/decentraland/builder/issues/3330,1,enhancement; dapps,2025-12-26,2025-12-27
 decentraland/auth,TypeScript,Migrate getAnalytics to useAnalytics Hook,https://github.com/decentraland/auth/issues/198,1,enhancement,2025-10-02,2026-09-16
 decentraland/marketplace,TypeScript,Capitalize land filter words,https://github.com/decentraland/marketplace/issues/1395,1,enhancement,2023-02-07,2023-05-23
@@ -554,6 +552,7 @@ huggingface/chat-ui,TypeScript,System prompt not taken into account when web bro
 microsoft/vscode-python-debugger,TypeScript,Add support for no-config debugging using nushell,https://github.com/microsoft/vscode-python-debugger/issues/647,5,feature-request; needs community feedback,2025-03-04,2026-11-10
 mattermost/mattermost,TypeScript,Help Wanted: BitBucket README > Split out admin content to child pages,https://github.com/mattermost/mattermost/issues/25176,5,Difficulty/1:Easy; Hacktoberfest; Help Wanted; Tech/Markdown,2023-10-26,2026-09-21
 mattermost/mattermost,TypeScript,Help Wanted: Channel Export README > Split out admin content to child pages,https://github.com/mattermost/mattermost/issues/25173,5,Difficulty/1:Easy; Hacktoberfest; Help Wanted; Tech/Markdown,2023-10-26,2025-10-28
+cncf/techdocs,TypeScript,Complete gRPC.io domain ownership transfer to LF,https://github.com/cncf/techdocs/issues/151,5,help wanted; p1-high; stage/010-actionable; stage/stalled,2022-11-01,2026-11-18
 layer5io/sistent,TypeScript,[Docs] update readme to include instructions to use npm link,https://github.com/layer5io/sistent/issues/999,7,area/docs; help wanted; language/markdown,2025-04-15,2026-11-17
 microsoft/teams.ts,TypeScript,Automatically parse feedback value,https://github.com/microsoft/teams.ts/issues/184,7,enhancement,2025-04-26,2026-05-15
 mattermost/mattermost,TypeScript,"[RN] Change ""Join"" button on sign in page keyboard to ""Go""",https://github.com/mattermost/mattermost/issues/26590,7,Difficulty/1:Easy; Tech/React Native; Help Wanted,2024-03-26,2026-06-24
