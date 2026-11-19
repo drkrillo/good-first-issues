@@ -114,7 +114,34 @@ class TestIssueManager:
             "created_at": "2026-05-20",
             "updated_at": "2026-07-29",
         }
+    @patch('app.core.api_handler.APIClient')
+    def test_extract_issues_by_user_filters_unassigned(
+        self,mock_api_client
+    ):
+        mock_api_instance = MagicMock()
+        mock_api_client.return_value = mock_api_instance
 
+        mock_api_instance.make_request.return_value = {
+            "items": [
+                {
+                    "title": "Available issue",
+                    "html_url": "https://github.com/owner/repo/issues/1",
+                    "repository_url": "https://api.github.com/repos/owner/repo",
+                    "comments": 0,
+                }
+            ]
+        }
+
+        result = IssueManager().extract_issues_by_user(
+            "test_user",
+            mock_api_instance
+        )
+
+        assert len(result) == 1
+
+        request_url = mock_api_instance.make_request.call_args[0][0]
+
+        assert "is:unassigned" in request_url
     @patch('app.core.api_handler.APIClient')
     def test_extract_issue_data_drops_label_case_insensitively(self, mock_api_client):
         raw_issue = (
