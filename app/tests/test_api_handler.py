@@ -141,7 +141,8 @@ class TestIssueManager:
 
         request_url = mock_api_instance.make_request.call_args[0][0]
 
-        assert "is:unassigned" in request_url
+        assert "no:assignee" in request_url
+        
     @patch('app.core.api_handler.APIClient')
     def test_extract_issue_data_drops_label_case_insensitively(self, mock_api_client):
         raw_issue = (
