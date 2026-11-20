@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-11-19</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-11-20</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -74,7 +74,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/msquic | C | [Support in-memory certificate stores](https://github.com/microsoft/msquic/issues/4951) | 2 | 2025-03-27 | 2026-05-26 |
 | microsoft/ebpf-for-windows | C | [ebpf-verifier is cloned twice](https://github.com/microsoft/ebpf-for-windows/issues/4174) | 2 | 2025-02-03 | 2026-11-07 |
 | microsoft/PowerToys | C | [.opus support for Peek](https://github.com/microsoft/PowerToys/issues/42576) | 4 | 2025-10-18 | 2026-06-28 |
-| microsoft/ebpf-for-windows | C | [Remove redundant use of catch2](https://github.com/microsoft/ebpf-for-windows/issues/3954) | 5 | 2024-10-27 | 2026-11-07 |
 | microsoft/msquic | C | [Failing to use close-on-exec](https://github.com/microsoft/msquic/issues/4980) | 7 | 2025-04-08 | 2026-10-13 |
 | microsoft/msquic | C | [2.6.0 : Visual Studio : some warnings as errors](https://github.com/microsoft/msquic/issues/6234) | 8 | 2026-08-14 | 2026-09-04 |
 | microsoft/profile-explorer | C# | [Mapping code gap?](https://github.com/microsoft/profile-explorer/issues/7) | 0 | 2025-02-10 | 2026-03-27 |
@@ -82,6 +81,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/aspire | C# | [Provide CSV export option in dashboard console logs](https://github.com/microsoft/aspire/issues/11121) | 3 | 2025-08-26 | 2026-07-04 |
 | microsoft/mcp | C# | [[COMMUNITY] Auto generate CHANGELOG, including adding contributors for each release](https://github.com/microsoft/mcp/issues/156) | 4 | 2025-09-03 | 2026-08-26 |
 | microsoft/aspire | C# | [Improve Exception Message for Missing Project Metadata Annotation in ResourceContainerImageBuilder.cs](https://github.com/microsoft/aspire/issues/11299) | 15 | 2025-09-09 | 2026-11-04 |
+| microsoft/qdk-chemistry | C++ | [Validate RDM and orbital entropy sizes in wavefunction containers](https://github.com/microsoft/qdk-chemistry/issues/816) | 0 | 2026-11-19 | 2026-11-19 |
 | microsoft/microsoft-ui-xaml | C++ | [Lifetime Stree Test Optimizaton](https://github.com/microsoft/microsoft-ui-xaml/issues/11976) | 0 | 2026-09-23 | 2026-09-23 |
 | microsoft/snmalloc | C++ | [Implement accurate size storage for Windows `_msize` and `_recalloc`](https://github.com/microsoft/snmalloc/issues/786) | 0 | 2025-07-02 | 2025-07-02 |
 | microsoft/react-native-windows | C++ | [Scroll wheel behavior differs significantly in new architecture (Windows App SDK) vs WinUI 3 Gallery app](https://github.com/microsoft/react-native-windows/issues/14653) | 1 | 2025-05-08 | 2025-07-03 |
@@ -91,6 +91,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | godotengine/emacs-gdscript-mode | Emacs Lisp | [Buffer does not revert or update instantly after formatting buffer](https://github.com/godotengine/emacs-gdscript-mode/issues/88) | 3 | 2020-09-03 | 2020-09-10 |
 | godotengine/godot-benchmarks | GDScript | [[Call to Action] Benchmarks for the benchmark server](https://github.com/godotengine/godot-benchmarks/issues/36) | 5 | 2023-10-13 | 2024-06-24 |
 | godotengine/godot-benchmarks | GDScript | [[TRACKER] Benchmarks to create](https://github.com/godotengine/godot-benchmarks/issues/11) | 11 | 2022-08-09 | 2024-04-30 |
+| microsoft/sbi | Go | [Add Azure Linux 4 GA images to nightly scan](https://github.com/microsoft/sbi/issues/124) | 0 | 2026-11-19 | 2026-11-19 |
 | hashicorp/packer-plugin-azure | Go | [Option to delete secret when build_key_vault_name is supplied](https://github.com/hashicorp/packer-plugin-azure/issues/506) | 0 | 2025-07-01 | 2025-07-04 |
 | hashicorp/vault-secrets-operator | Go | [Add allowedNamespaces spec to helm chart values.yaml](https://github.com/hashicorp/vault-secrets-operator/issues/426) | 0 | 2023-10-24 | 2023-10-25 |
 | hashicorp/pandora | Go | [tools/generator-terraform: validation function on lists/sets](https://github.com/hashicorp/pandora/issues/1514) | 0 | 2022-09-16 | 2022-09-16 |
@@ -183,6 +184,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-nps | Go | [JS error when telling Surveybot to disable the survey on old post](https://github.com/mattermost/mattermost-plugin-nps/issues/81) | 3 | 2020-11-29 | 2021-10-02 |
 | mattermost/mattermost-plugin-zoom | Go | [Synch Status: When on a Zoom call, show as “Busy”](https://github.com/mattermost/mattermost-plugin-zoom/issues/170) | 3 | 2020-10-02 | 2022-06-13 |
 | mattermost/mattermost-plugin-github | Go | [Register autolinks for GitHub URLs](https://github.com/mattermost/mattermost-plugin-github/issues/269) | 3 | 2020-05-13 | 2021-10-02 |
+| kubernetes/kubernetes | Go | [retry.OnErrorWithContext / retry.RetryOnConflictWithContext](https://github.com/kubernetes/kubernetes/issues/144333) | 4 | 2026-11-19 | 2026-11-19 |
 | kubernetes/minikube | Go | [ci: Use go-version-file: 'go.mod' instead of hardcoded GO_VERSION in update workflows](https://github.com/kubernetes/minikube/issues/23526) | 4 | 2026-08-21 | 2026-09-05 |
 | hashicorp/terraform-provider-aws | Go | [aws_s3tables_table_replication: Create fails with "A version token is not specified"](https://github.com/hashicorp/terraform-provider-aws/issues/46675) | 4 | 2026-02-26 | 2026-10-15 |
 | hashicorp/terraform-provider-aws | Go | [aws_efs_replication_configuration is missing role-arn for cross-account-replication](https://github.com/hashicorp/terraform-provider-aws/issues/42814) | 4 | 2025-05-30 | 2026-11-16 |
@@ -355,9 +357,9 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | layer5io/layer5 | JavaScript | [[Visual Design] New Recognition Badge: Event Evangelist Badge](https://github.com/layer5io/layer5/issues/4809) | 17 | 2023-08-31 | 2026-04-25 |
 | layer5io/layer5 | JavaScript | [Pricing: subscription plans as a sticky row](https://github.com/layer5io/layer5/issues/7665) | 18 | 2026-04-25 | 2026-06-27 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Cilium under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4868) | 18 | 2023-09-07 | 2026-09-11 |
-| layer5io/layer5 | JavaScript | [[SEO] First Contentful Paint (FCP): gatsby-plugin-webpack-bundle-analyser-v2](https://github.com/layer5io/layer5/issues/6449) | 19 | 2025-05-15 | 2026-11-12 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Fabedge under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/5330) | 19 | 2024-01-23 | 2026-11-10 |
 | layer5io/layer5-academy | JavaScript | [[Docs] Convert meshery design image to embedded meshery design](https://github.com/layer5io/layer5-academy/issues/32) | 20 | 2025-07-25 | 2026-11-13 |
+| layer5io/layer5 | JavaScript | [[SEO] First Contentful Paint (FCP): gatsby-plugin-webpack-bundle-analyser-v2](https://github.com/layer5io/layer5/issues/6449) | 20 | 2025-05-15 | 2026-11-19 |
 | layer5io/layer5 | JavaScript | [add animated card](https://github.com/layer5io/layer5/issues/6521) | 21 | 2025-06-02 | 2026-09-02 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Container Network Interface (CNI) under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4874) | 31 | 2023-09-07 | 2026-03-22 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Devstream under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4887) | 32 | 2023-09-07 | 2026-08-08 |
@@ -435,11 +437,11 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/nanotron | Python | [[Unit Test] Add unit tests for DistributedTrainer](https://github.com/huggingface/nanotron/issues/90) | 5 | 2024-03-02 | 2024-03-03 |
 | huggingface/nanotron | Python | [[Feature] Use CUDA event for measuring elasped time](https://github.com/huggingface/nanotron/issues/88) | 5 | 2024-03-02 | 2026-11-17 |
 | huggingface/optimum-benchmark | Python | [Evaluators for specific tasks](https://github.com/huggingface/optimum-benchmark/issues/34) | 5 | 2023-08-21 | 2023-12-07 |
-| microsoft/mssql-python | Python | [FEAT: Built-in configurable connection and transient-fault retry logic](https://github.com/microsoft/mssql-python/issues/682) | 5 | 2026-07-15 | 2026-09-03 |
 | huggingface/lighteval | Python | [[FT] showing count in Markdown summary table](https://github.com/huggingface/lighteval/issues/804) | 6 | 2025-06-09 | 2026-11-05 |
 | huggingface/lighteval | Python | [[BUG] custom model docs don't run: missing imports](https://github.com/huggingface/lighteval/issues/760) | 6 | 2025-05-21 | 2026-10-14 |
 | huggingface/lighteval | Python | [[FT] Improve Documentation and Examples](https://github.com/huggingface/lighteval/issues/682) | 6 | 2025-04-21 | 2025-05-15 |
 | huggingface/lighteval | Python | [Append revision to filepath in `--output_dir`?](https://github.com/huggingface/lighteval/issues/56) | 6 | 2024-02-26 | 2026-08-30 |
+| microsoft/mssql-python | Python | [FEAT: Built-in configurable connection and transient-fault retry logic](https://github.com/microsoft/mssql-python/issues/682) | 6 | 2026-07-15 | 2026-11-19 |
 | microsoft/physical-ai-toolchain | Python | [build: refresh and consolidate repository uv pins](https://github.com/microsoft/physical-ai-toolchain/issues/1071) | 6 | 2026-06-30 | 2026-09-18 |
 | microsoft/data-formulator | Python | [Expand chart type supports](https://github.com/microsoft/data-formulator/issues/193) | 6 | 2025-11-07 | 2025-12-05 |
 | huggingface/lighteval | Python | [[EVAL] Long Horizon Execution](https://github.com/huggingface/lighteval/issues/1056) | 7 | 2025-11-13 | 2026-01-25 |
@@ -536,7 +538,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | decentraland/builder | TypeScript | [Closing the Metamask window when signing the TP approval doesn't show an error](https://github.com/decentraland/builder/issues/1923) | 0 | 2022-04-01 | 2022-06-20 |
 | decentraland/builder | TypeScript | [Render the Merkle Tree root in the approval flow modal](https://github.com/decentraland/builder/issues/1865) | 0 | 2022-03-18 | 2022-10-27 |
 | decentraland/builder | TypeScript | [Use the builder client to fetch the approval data](https://github.com/decentraland/builder/issues/1855) | 0 | 2022-03-15 | 2022-06-20 |
-| decentraland/builder-server | TypeScript | [Replace isomorphic-fetch with node-fetch](https://github.com/decentraland/builder-server/issues/434) | 0 | 2022-03-11 | 2022-03-11 |
 | decentraland/marketplace | TypeScript | [Check why 2 requests to fetch the store are sent at the same time](https://github.com/decentraland/marketplace/issues/575) | 0 | 2022-03-11 | 2022-12-29 |
 | decentraland/decentraland-dapps | TypeScript | [Support Trezor for meta txs](https://github.com/decentraland/decentraland-dapps/issues/220) | 0 | 2022-03-08 | 2022-07-04 |
 | decentraland/builder | TypeScript | [Fix disabled Dropdown Items not showing Popup component](https://github.com/decentraland/builder/issues/1810) | 0 | 2022-02-28 | 2022-02-28 |
@@ -574,7 +575,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-test-management | TypeScript | [Display Errors and Files name in which they occurr](https://github.com/mattermost/mattermost-test-management/issues/20) | 1 | 2022-11-23 | 2022-11-24 |
 | mattermost/mattermost-plugin-google-calendar | TypeScript | [Improve error handling in `completeCalendar` to avoid panic](https://github.com/mattermost/mattermost-plugin-google-calendar/issues/8) | 1 | 2020-04-23 | 2021-10-02 |
 | freeCodeCamp/chapter | TypeScript | [Updating Different Users section in contribution guide](https://github.com/freeCodeCamp/chapter/issues/1914) | 1 | 2022-11-17 | 2022-11-20 |
-| cncf/prow-github-actions | TypeScript | [[quality] Dependabot PRs #712–#716 fail build-test only because they predate #711; need a push-access rebase](https://github.com/cncf/prow-github-actions/issues/735) | 1 | 2026-11-17 | 2026-11-18 |
 | decentraland/builder | TypeScript | [Add a search bar to NAMEs list](https://github.com/decentraland/builder/issues/3330) | 1 | 2025-12-26 | 2025-12-27 |
 | decentraland/auth | TypeScript | [Migrate getAnalytics to useAnalytics Hook](https://github.com/decentraland/auth/issues/198) | 1 | 2025-10-02 | 2026-09-16 |
 | decentraland/marketplace | TypeScript | [Capitalize land filter words](https://github.com/decentraland/marketplace/issues/1395) | 1 | 2023-02-07 | 2023-05-23 |
@@ -597,6 +597,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/Agent365-nodejs | TypeScript | [Convert "test-agents" into E2E tests](https://github.com/microsoft/Agent365-nodejs/issues/15) | 2 | 2025-10-29 | 2026-11-10 |
 | microsoft/vscode-python-debugger | TypeScript | [Add a `debugpy.sh` for the no-config debugging](https://github.com/microsoft/vscode-python-debugger/issues/651) | 2 | 2025-03-05 | 2026-11-17 |
 | hashicorp/terraform-cdk | TypeScript | [Typo in Tokenizer code?](https://github.com/hashicorp/terraform-cdk/issues/2709) | 2 | 2023-03-09 | 2023-06-02 |
+| cncf/prow-github-actions | TypeScript | [[quality] Dependabot PRs #712–#716 fail build-test only because they predate #711; need a push-access rebase](https://github.com/cncf/prow-github-actions/issues/735) | 2 | 2026-11-17 | 2026-11-19 |
 | cncf/techdocs | TypeScript | [Create docs localization guide](https://github.com/cncf/techdocs/issues/153) | 2 | 2022-11-03 | 2026-11-13 |
 | decentraland/marketplace | TypeScript | [It's hard to detect when the kebab menu of the ListCard is clickable](https://github.com/decentraland/marketplace/issues/1866) | 2 | 2023-06-22 | 2023-07-31 |
 | decentraland/marketplace | TypeScript | [Show full name when hovering over Lands and Wearables](https://github.com/decentraland/marketplace/issues/590) | 2 | 2022-02-07 | 2024-08-23 |
@@ -630,7 +631,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost | TypeScript | [Mobile \| Inconsistant channel updated info message on web and mobile](https://github.com/mattermost/mattermost/issues/26917) | 15 | 2024-04-29 | 2026-05-21 |
 | freeCodeCamp/chapter | TypeScript | [Good first issues](https://github.com/freeCodeCamp/chapter/issues/691) | 18 | 2021-08-18 | 2025-09-25 |
 | mattermost/mattermost | TypeScript | [Mobile Web View: Text is cut off in channel dropdown > channel actions](https://github.com/mattermost/mattermost/issues/25165) | 19 | 2023-10-26 | 2026-06-22 |
-| microsoft/vscode | TypeScript | [Devcontainer setup ad-hoc parsing fails on Rocky 8.5](https://github.com/microsoft/vscode/issues/232159) | 23 | 2024-10-24 | 2026-10-15 |
 | mattermost/mattermost | TypeScript | [Increase max height of the Find Channels modal](https://github.com/mattermost/mattermost/issues/21558) | 24 | 2022-10-31 | 2026-09-25 |
 | mattermost/mattermost | TypeScript | [Improve the grammar on Account Creation Screen if the email address you entered does not belong to the accepted domain](https://github.com/mattermost/mattermost/issues/15927) | 25 | 2020-10-12 | 2026-08-25 |
 | mattermost/mattermost | TypeScript | [`Unable to find manifest for extracted plugin` when using `make deploy`](https://github.com/mattermost/mattermost/issues/22614) | 27 | 2023-03-23 | 2023-08-11 |
