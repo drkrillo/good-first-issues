@@ -84,8 +84,7 @@ class IssueManager:
         Uses GitHub Search API to find open issues with a specified label
         for a user or organization.
         """
-        issues = []
-
+ 
         search_url = f"https://api.github.com/search/issues?q=user:{user}+label:\"{labels}\"+state:open+is:issue+no:assignee&per_page=100"
 
         logging.info(f"Searching issues with URL: {search_url}")
@@ -104,6 +103,8 @@ class IssueManager:
         )
 
         return items
+
+        
 class TemplateManager:
     @staticmethod
     def format_response(issues: list) -> list:
