@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-11-20</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-11-21</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -81,9 +81,9 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/aspire | C# | [Provide CSV export option in dashboard console logs](https://github.com/microsoft/aspire/issues/11121) | 3 | 2025-08-26 | 2026-07-04 |
 | microsoft/mcp | C# | [[COMMUNITY] Auto generate CHANGELOG, including adding contributors for each release](https://github.com/microsoft/mcp/issues/156) | 4 | 2025-09-03 | 2026-08-26 |
 | microsoft/aspire | C# | [Improve Exception Message for Missing Project Metadata Annotation in ResourceContainerImageBuilder.cs](https://github.com/microsoft/aspire/issues/11299) | 15 | 2025-09-09 | 2026-11-04 |
-| microsoft/qdk-chemistry | C++ | [Validate RDM and orbital entropy sizes in wavefunction containers](https://github.com/microsoft/qdk-chemistry/issues/816) | 0 | 2026-11-19 | 2026-11-19 |
 | microsoft/microsoft-ui-xaml | C++ | [Lifetime Stree Test Optimizaton](https://github.com/microsoft/microsoft-ui-xaml/issues/11976) | 0 | 2026-09-23 | 2026-09-23 |
 | microsoft/snmalloc | C++ | [Implement accurate size storage for Windows `_msize` and `_recalloc`](https://github.com/microsoft/snmalloc/issues/786) | 0 | 2025-07-02 | 2025-07-02 |
+| microsoft/qdk-chemistry | C++ | [Validate RDM and orbital entropy sizes in wavefunction containers](https://github.com/microsoft/qdk-chemistry/issues/816) | 1 | 2026-11-19 | 2026-11-20 |
 | microsoft/react-native-windows | C++ | [Scroll wheel behavior differs significantly in new architecture (Windows App SDK) vs WinUI 3 Gallery app](https://github.com/microsoft/react-native-windows/issues/14653) | 1 | 2025-05-08 | 2025-07-03 |
 | microsoft/react-native-windows | C++ | [Deprecate autolink functionality to copy flags from react-native.config.js into ExperimentalFeature.props.](https://github.com/microsoft/react-native-windows/issues/14601) | 1 | 2025-04-22 | 2025-06-11 |
 | microsoft/react-native-windows | C++ | [[Bug] init-windows adds incorrect name of Native Codegen File Include](https://github.com/microsoft/react-native-windows/issues/15094) | 4 | 2025-08-29 | 2026-08-04 |
@@ -308,7 +308,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | kubernetes/website | HTML | [[hi] Localize en/docs/contribute/review/for-approvers.md](https://github.com/kubernetes/website/issues/36474) | 28 | 2022-08-31 | 2026-08-06 |
 | kubernetes/website | HTML | [[hi] Enhance README file to improve readability and user-friendliness](https://github.com/kubernetes/website/issues/41989) | 30 | 2023-07-12 | 2026-03-22 |
 | microsoft/copilot-for-eclipse | Java | [The Copilot Chat view retains file context even after the file is closed](https://github.com/microsoft/copilot-for-eclipse/issues/277) | 0 | 2026-06-05 | 2026-06-05 |
-| microsoft/typespec | Java | [testing: expectDiagnostics() should provide an option to ignore ordering](https://github.com/microsoft/typespec/issues/5818) | 3 | 2025-01-30 | 2025-05-23 |
+| microsoft/typespec | Java | [testing: expectDiagnostics() should provide an option to ignore ordering](https://github.com/microsoft/typespec/issues/5818) | 4 | 2025-01-30 | 2026-11-20 |
 | microsoft/copilot-for-eclipse | Java | [Unable to use the Java source file corresponding to the class file as context](https://github.com/microsoft/copilot-for-eclipse/issues/117) | 13 | 2026-04-15 | 2026-06-25 |
 | layer5io/layer5 | JavaScript | [Fix Duplicate IDs and Improve Slider Accessibility in DeployServiceMesh](https://github.com/layer5io/layer5/issues/8417) | 2 | 2026-11-14 | 2026-11-14 |
 | layer5io/docs | JavaScript | [[Bug] Image not rendering correctly](https://github.com/layer5io/docs/issues/1207) | 2 | 2026-08-15 | 2026-11-17 |
@@ -323,21 +323,20 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | layer5io/layer5 | JavaScript | [[Screenshots] Citrix Service Mesh under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4880) | 5 | 2023-09-07 | 2026-03-22 |
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Welcome bot! Respond to the user when committing to 100DaysOfCode](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/96) | 5 | 2017-10-03 | 2026-04-28 |
 | layer5io/layer5 | JavaScript | [[UI] Handbook Table of Contents links are clipped on mobile viewports](https://github.com/layer5io/layer5/issues/8420) | 6 | 2026-11-14 | 2026-11-15 |
-| layer5io/docs | JavaScript | [[Docs] Improve Related Docs Links in Pinning Models to Dock Page](https://github.com/layer5io/docs/issues/1028) | 6 | 2026-05-11 | 2026-11-13 |
-| layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 4](https://github.com/layer5io/docs/issues/794) | 6 | 2025-08-21 | 2026-11-14 |
 | layer5io/docs | JavaScript | [Convert Images into Meshery Design.](https://github.com/layer5io/docs/issues/646) | 6 | 2025-07-10 | 2025-12-25 |
+| layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 4](https://github.com/layer5io/docs/issues/794) | 7 | 2025-08-21 | 2026-11-20 |
 | layer5io/docs | JavaScript | [Screen capture includes Grammarly](https://github.com/layer5io/docs/issues/543) | 7 | 2025-05-06 | 2026-11-18 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Chaos Mesh under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4867) | 7 | 2023-09-07 | 2026-03-22 |
 | EddieHubCommunity/EddieHubCommunity.github.io | JavaScript | [Add Issue Templates](https://github.com/EddieHubCommunity/EddieHubCommunity.github.io/issues/211) | 7 | 2021-10-04 | 2024-04-23 |
 | layer5io/layer5 | JavaScript | [Fix Repeated State Updates in DeployServiceMesh Progress Component](https://github.com/layer5io/layer5/issues/8416) | 8 | 2026-11-14 | 2026-11-15 |
-| layer5io/layer5 | JavaScript | [Enhance or replace the "Star the Repo" button](https://github.com/layer5io/layer5/issues/7859) | 8 | 2026-07-10 | 2026-11-16 |
 | layer5io/layer5 | JavaScript | [Mobile navigation menu contains invalid nesting](https://github.com/layer5io/layer5/issues/7484) | 8 | 2026-03-11 | 2026-03-21 |
-| layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 3](https://github.com/layer5io/docs/issues/793) | 8 | 2025-08-21 | 2026-11-14 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Fluentbit Operator under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/5333) | 8 | 2024-01-23 | 2025-07-29 |
 | EddieHubCommunity/HealthCheck | JavaScript | [Update the preview image in the site](https://github.com/EddieHubCommunity/HealthCheck/issues/151) | 8 | 2024-08-12 | 2024-10-14 |
 | decentraland/land | JavaScript | [docs needed](https://github.com/decentraland/land/issues/154) | 8 | 2021-04-29 | 2021-04-30 |
 | layer5io/layer5 | JavaScript | [Fix card animation not triggering automatically on mobile](https://github.com/layer5io/layer5/issues/8093) | 9 | 2026-09-19 | 2026-10-09 |
+| layer5io/layer5 | JavaScript | [Enhance or replace the "Star the Repo" button](https://github.com/layer5io/layer5/issues/7859) | 9 | 2026-07-10 | 2026-11-20 |
 | layer5io/layer5 | JavaScript | [Relocate partner logos to appropriate directory in static folder.](https://github.com/layer5io/layer5/issues/7256) | 9 | 2025-12-08 | 2026-11-02 |
+| layer5io/docs | JavaScript | [[Docs] Convert Static Image to Meshery Design - 3](https://github.com/layer5io/docs/issues/793) | 9 | 2025-08-21 | 2026-11-20 |
 | huggingface/transformers.js | JavaScript | [[Doc request] Add an example guide of how to use it in Svelte (and deploy to HF Spaces)](https://github.com/huggingface/transformers.js/issues/171) | 9 | 2023-06-29 | 2026-11-09 |
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Update docs to the KCD README pattern](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/131) | 9 | 2018-03-25 | 2022-08-18 |
 | layer5io/layer5 | JavaScript | [Improve styling of categories of models](https://github.com/layer5io/layer5/issues/7593) | 10 | 2026-04-06 | 2026-05-09 |
@@ -358,8 +357,8 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | layer5io/layer5 | JavaScript | [Pricing: subscription plans as a sticky row](https://github.com/layer5io/layer5/issues/7665) | 18 | 2026-04-25 | 2026-06-27 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Cilium under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4868) | 18 | 2023-09-07 | 2026-09-11 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Fabedge under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/5330) | 19 | 2024-01-23 | 2026-11-10 |
-| layer5io/layer5-academy | JavaScript | [[Docs] Convert meshery design image to embedded meshery design](https://github.com/layer5io/layer5-academy/issues/32) | 20 | 2025-07-25 | 2026-11-13 |
 | layer5io/layer5 | JavaScript | [[SEO] First Contentful Paint (FCP): gatsby-plugin-webpack-bundle-analyser-v2](https://github.com/layer5io/layer5/issues/6449) | 20 | 2025-05-15 | 2026-11-19 |
+| layer5io/layer5-academy | JavaScript | [[Docs] Convert meshery design image to embedded meshery design](https://github.com/layer5io/layer5-academy/issues/32) | 21 | 2025-07-25 | 2026-11-20 |
 | layer5io/layer5 | JavaScript | [add animated card](https://github.com/layer5io/layer5/issues/6521) | 21 | 2025-06-02 | 2026-09-02 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Container Network Interface (CNI) under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4874) | 31 | 2023-09-07 | 2026-03-22 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Devstream under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4887) | 32 | 2023-09-07 | 2026-08-08 |
@@ -598,7 +597,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/vscode-python-debugger | TypeScript | [Add a `debugpy.sh` for the no-config debugging](https://github.com/microsoft/vscode-python-debugger/issues/651) | 2 | 2025-03-05 | 2026-11-17 |
 | hashicorp/terraform-cdk | TypeScript | [Typo in Tokenizer code?](https://github.com/hashicorp/terraform-cdk/issues/2709) | 2 | 2023-03-09 | 2023-06-02 |
 | cncf/prow-github-actions | TypeScript | [[quality] Dependabot PRs #712–#716 fail build-test only because they predate #711; need a push-access rebase](https://github.com/cncf/prow-github-actions/issues/735) | 2 | 2026-11-17 | 2026-11-19 |
-| cncf/techdocs | TypeScript | [Create docs localization guide](https://github.com/cncf/techdocs/issues/153) | 2 | 2022-11-03 | 2026-11-13 |
 | decentraland/marketplace | TypeScript | [It's hard to detect when the kebab menu of the ListCard is clickable](https://github.com/decentraland/marketplace/issues/1866) | 2 | 2023-06-22 | 2023-07-31 |
 | decentraland/marketplace | TypeScript | [Show full name when hovering over Lands and Wearables](https://github.com/decentraland/marketplace/issues/590) | 2 | 2022-02-07 | 2024-08-23 |
 | huggingface/chat-ui | TypeScript | [Load past conversations using the most recent leaf to determine the visible conversation tree.](https://github.com/huggingface/chat-ui/issues/1208) | 3 | 2024-05-28 | 2024-07-06 |
@@ -607,6 +605,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/teams.ts | TypeScript | [[cards] support lowercase and Capitalized JSON values](https://github.com/microsoft/teams.ts/issues/132) | 3 | 2025-04-09 | 2025-10-11 |
 | hashicorp/terraform-cdk | TypeScript | [Support kubernetes backend](https://github.com/hashicorp/terraform-cdk/issues/1628) | 3 | 2022-03-19 | 2023-06-01 |
 | hashicorp/terraform-cdk | TypeScript | [API docs: Add docs to Terraform backends](https://github.com/hashicorp/terraform-cdk/issues/1268) | 3 | 2021-11-08 | 2023-06-28 |
+| cncf/techdocs | TypeScript | [Create docs localization guide](https://github.com/cncf/techdocs/issues/153) | 3 | 2022-11-03 | 2026-11-20 |
 | huggingface/chat-ui | TypeScript | [Add option for users to customize search engines in settings page](https://github.com/huggingface/chat-ui/issues/1756) | 4 | 2025-03-15 | 2026-05-09 |
 | huggingface/chat-ui | TypeScript | [Chrome app icon on macOS](https://github.com/huggingface/chat-ui/issues/1439) | 4 | 2024-08-27 | 2026-05-07 |
 | microsoft/genaiscript | TypeScript | [Repository map example](https://github.com/microsoft/genaiscript/issues/982) | 4 | 2025-01-07 | 2025-03-19 |
