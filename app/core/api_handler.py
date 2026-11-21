@@ -81,25 +81,30 @@ class IssueManager:
     @staticmethod
     def extract_issues_by_user(user, session, labels="good first issue"):
         """
-        Uses GitHub Search API to find all issues with defined labels
-        for a specific user/organization.
+        Uses GitHub Search API to find open issues with a specified label
+        for a user or organization.
         """
-        issues = []
-        search_url = f"https://api.github.com/search/issues?q=user:{user}+label:\"{labels}\"+state:open+is:issue&per_page=100"
-        
+ 
+        search_url = f"https://api.github.com/search/issues?q=user:{user}+label:\"{labels}\"+state:open+is:issue+no:assignee&per_page=100"
+
+        logging.info(f"Searching issues with URL: {search_url}")
+
         resp_json = APIClient().make_request(search_url, session)
-        try:
-            # Search API returns total_count and items
-            items = resp_json.get('items', [])
-            # We don't have the language here, so we return raw issues
-            # We will map the language in update_issues.py
-            issues = items
-        except Exception as error:
-            logging.info(f"Error fetching issues for {user}: {error}")
-            
-        return issues
 
+        if not isinstance(resp_json, dict):
+            logging.error("Invalid response received from GitHub API")
+            return []
 
+        items = resp_json.get('items', [])
+        total_count = resp_json.get('total_count', 0)
+
+        logging.info(
+            f"{user}: Found {len(items)} issues out of {total_count} total"
+        )
+
+        return items
+
+        
 class TemplateManager:
     @staticmethod
     def format_response(issues: list) -> list:
