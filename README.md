@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-11-21</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-11-22</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -304,6 +304,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/dataset-viewer | Python | [Use `revision_exists` (hfh)](https://github.com/huggingface/dataset-viewer/issues/2562) | 1 | 2024-03-08 | 2025-07-01 |
 | huggingface/nanotron | Python | [[Feature] Refactor `ParallelContext.world_rank_matrix`](https://github.com/huggingface/nanotron/issues/77) | 1 | 2024-02-19 | 2026-08-25 |
 | huggingface/nanotron | Python | [[Feature Request] Add simple communications benchmarks to the repo](https://github.com/huggingface/nanotron/issues/43) | 1 | 2024-01-25 | 2024-01-25 |
+| microsoft/PyRIT | Python | [BUG: remove_seeds_from_memory / remove_seed_groups_from_memory delete the whole dataset when given an empty id or hash list](https://github.com/microsoft/PyRIT/issues/4473) | 1 | 2026-11-20 | 2026-11-21 |
 | microsoft/mssql-django | Python | [JSON-null key lookups use OPENJSON, which requires database compatibility level 130 (fails on down-leveled 2016-2019 databases)](https://github.com/microsoft/mssql-django/issues/592) | 1 | 2026-09-08 | 2026-09-10 |
 | microsoft/mssql-django | Python | [JSONField key isnull=True over-matches JSON null values on SQL Server (also causes wrong iexact=None on Django < 6.1)](https://github.com/microsoft/mssql-django/issues/591) | 1 | 2026-09-08 | 2026-09-08 |
 | microsoft/teams-agent-accelerator-libs-py | Python | [Provide cleaner api for building citations for memories](https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/72) | 1 | 2024-12-19 | 2025-11-17 |
@@ -312,6 +313,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/nanotron | Python | [[Feature] Asyncronous Serialization](https://github.com/huggingface/nanotron/issues/87) | 2 | 2024-03-02 | 2025-02-20 |
 | huggingface/dataset-viewer | Python | [Use "Sign-In with HF" instead of token in admin-UI](https://github.com/huggingface/dataset-viewer/issues/2373) | 2 | 2024-02-01 | 2025-07-03 |
 | huggingface/nanotron | Python | [[Feature Request] Support Data Streaming for faster training of large models](https://github.com/huggingface/nanotron/issues/45) | 2 | 2024-01-26 | 2024-03-03 |
+| microsoft/PyRIT | Python | [FEAT: Add AttaQ dataset loader (1,402 adversarial questions in 7 harm categories)](https://github.com/microsoft/PyRIT/issues/4495) | 2 | 2026-11-21 | 2026-11-21 |
 | microsoft/mssql-django | Python | [[Django 6.1] JSONField key iexact=None lookup returns wrong results on SQL Server](https://github.com/microsoft/mssql-django/issues/574) | 2 | 2026-08-07 | 2026-08-11 |
 | microsoft/vscode-black-formatter | Python | [black is using cached pyproject.toml instead of the actual one](https://github.com/microsoft/vscode-black-formatter/issues/569) | 2 | 2025-04-18 | 2025-04-28 |
 | microsoft/AutoPodcaster | Python | [Add devcontainer](https://github.com/microsoft/AutoPodcaster/issues/9) | 2 | 2025-01-09 | 2026-09-23 |
@@ -342,8 +344,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/data-formulator | Python | [Expand chart type supports](https://github.com/microsoft/data-formulator/issues/193) | 6 | 2025-11-07 | 2025-12-05 |
 | microsoft/markitdown | Python | [File support: chm support](https://github.com/microsoft/markitdown/issues/14) | 7 | 2024-12-13 | 2026-06-10 |
 | microsoft/mssql-django | Python | [Datetime conversion issue with USE_TZ and settings.TIME_ZONE != 'UTC'?](https://github.com/microsoft/mssql-django/issues/371) | 7 | 2024-03-28 | 2026-08-05 |
-| huggingface/diffusers | Python | [Do we have any script covert from hf format to orginal format?](https://github.com/huggingface/diffusers/issues/10076) | 8 | 2024-12-02 | 2026-10-29 |
-| microsoft/TransformerCompression | Python | [How to export entire model?](https://github.com/microsoft/TransformerCompression/issues/114) | 8 | 2024-03-06 | 2026-10-20 |
+| huggingface/diffusers | Python | [Do we have any script covert from hf format to orginal format?](https://github.com/huggingface/diffusers/issues/10076) | 9 | 2024-12-02 | 2026-11-21 |
 | huggingface/lighteval | Python | [[EVAL] Add TUMLU benchmark](https://github.com/huggingface/lighteval/issues/577) | 10 | 2025-02-19 | 2025-05-15 |
 | huggingface/diffusers | Python | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 11 | 2024-06-07 | 2026-09-19 |
 | microsoft/markitdown | Python | [Support for .doc extensions](https://github.com/microsoft/markitdown/issues/23) | 15 | 2024-12-14 | 2026-10-16 |
@@ -445,7 +446,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/compose-language-service | TypeScript | [Incomplete compose autocomplete](https://github.com/microsoft/compose-language-service/issues/148) | 1 | 2024-08-23 | 2025-03-21 |
 | microsoft/azure-pipelines-terraform | TypeScript | [Implement signature verification of Terraform binaries instead of blindly trusting CDN](https://github.com/microsoft/azure-pipelines-terraform/issues/233) | 1 | 2024-08-13 | 2024-08-21 |
 | microsoft/Game-Control-Puzzle-Event-Administration-Tools | TypeScript | [Setting an HTML content item with no text in it crashes the page](https://github.com/microsoft/Game-Control-Puzzle-Event-Administration-Tools/issues/36) | 1 | 2024-05-16 | 2025-03-01 |
-| microsoft/SandDance | TypeScript | [Restore sand dance session from exported html](https://github.com/microsoft/SandDance/issues/694) | 1 | 2024-02-21 | 2025-12-13 |
 | hashicorp/terraform-cdk | TypeScript | [CLI UX: Nicer output for `cdktf synth` if there are no stacks in an app](https://github.com/hashicorp/terraform-cdk/issues/2793) | 1 | 2023-04-12 | 2023-05-28 |
 | hashicorp/terraform-cdk | TypeScript | [Support `local-exec` `quiet` attribute](https://github.com/hashicorp/terraform-cdk/issues/2702) | 1 | 2023-03-09 | 2023-06-01 |
 | hashicorp/terraform-cdk | TypeScript | [Additional-python-google-resources-examples](https://github.com/hashicorp/terraform-cdk/issues/1211) | 1 | 2021-10-25 | 2023-06-02 |
@@ -473,7 +473,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/Agent365-nodejs | TypeScript | [Convert "test-agents" into E2E tests](https://github.com/microsoft/Agent365-nodejs/issues/15) | 2 | 2025-10-29 | 2026-11-10 |
 | microsoft/vscode-python-debugger | TypeScript | [Add a `debugpy.sh` for the no-config debugging](https://github.com/microsoft/vscode-python-debugger/issues/651) | 2 | 2025-03-05 | 2026-11-17 |
 | hashicorp/terraform-cdk | TypeScript | [Typo in Tokenizer code?](https://github.com/hashicorp/terraform-cdk/issues/2709) | 2 | 2023-03-09 | 2023-06-02 |
-| cncf/prow-github-actions | TypeScript | [[quality] Dependabot PRs #712–#716 fail build-test only because they predate #711; need a push-access rebase](https://github.com/cncf/prow-github-actions/issues/735) | 2 | 2026-11-17 | 2026-11-19 |
 | decentraland/marketplace | TypeScript | [It's hard to detect when the kebab menu of the ListCard is clickable](https://github.com/decentraland/marketplace/issues/1866) | 2 | 2023-06-22 | 2023-07-31 |
 | decentraland/marketplace | TypeScript | [Show full name when hovering over Lands and Wearables](https://github.com/decentraland/marketplace/issues/590) | 2 | 2022-02-07 | 2024-08-23 |
 | huggingface/chat-ui | TypeScript | [Load past conversations using the most recent leaf to determine the visible conversation tree.](https://github.com/huggingface/chat-ui/issues/1208) | 3 | 2024-05-28 | 2024-07-06 |
