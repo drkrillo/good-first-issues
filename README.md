@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-11-22</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-11-23</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -182,7 +182,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-plugin-nps | Go | [JS error when telling Surveybot to disable the survey on old post](https://github.com/mattermost/mattermost-plugin-nps/issues/81) | 3 | 2020-11-29 | 2021-10-02 |
 | mattermost/mattermost-plugin-zoom | Go | [Synch Status: When on a Zoom call, show as “Busy”](https://github.com/mattermost/mattermost-plugin-zoom/issues/170) | 3 | 2020-10-02 | 2022-06-13 |
 | mattermost/mattermost-plugin-github | Go | [Register autolinks for GitHub URLs](https://github.com/mattermost/mattermost-plugin-github/issues/269) | 3 | 2020-05-13 | 2021-10-02 |
-| kubernetes/kubernetes | Go | [retry.OnErrorWithContext / retry.RetryOnConflictWithContext](https://github.com/kubernetes/kubernetes/issues/144333) | 4 | 2026-11-19 | 2026-11-19 |
 | hashicorp/terraform-provider-aws | Go | [aws_s3tables_table_replication: Create fails with "A version token is not specified"](https://github.com/hashicorp/terraform-provider-aws/issues/46675) | 4 | 2026-02-26 | 2026-10-15 |
 | hashicorp/terraform-provider-aws | Go | [aws_efs_replication_configuration is missing role-arn for cross-account-replication](https://github.com/hashicorp/terraform-provider-aws/issues/42814) | 4 | 2025-05-30 | 2026-11-16 |
 | hashicorp/terraform-provider-aws | Go | [aws_ec2_transit_gateway_route_table_association support for timeouts block](https://github.com/hashicorp/terraform-provider-aws/issues/42705) | 4 | 2025-05-21 | 2025-05-23 |
@@ -207,6 +206,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/terraform-provider-azurerm | Go | [azurerm_role_assignment - role_definition_id read wrong format for custom role definition defined at tenant level](https://github.com/hashicorp/terraform-provider-azurerm/issues/13993) | 5 | 2021-11-02 | 2024-02-22 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Re-implement autorespond feature](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/227) | 5 | 2021-09-13 | 2023-02-21 |
 | mattermost/mattermost-plugin-confluence | Go | [Handle React warnings regarding non-DOM properties](https://github.com/mattermost/mattermost-plugin-confluence/issues/46) | 5 | 2020-04-28 | 2021-10-02 |
+| kubernetes/kubernetes | Go | [retry.OnErrorWithContext / retry.RetryOnConflictWithContext](https://github.com/kubernetes/kubernetes/issues/144333) | 6 | 2026-11-19 | 2026-11-22 |
 | microsoft/terraform-provider-azuredevops | Go | [Full unit test suite isn't running on CI](https://github.com/microsoft/terraform-provider-azuredevops/issues/1439) | 6 | 2025-09-29 | 2026-09-20 |
 | hashicorp/terraform-provider-aws | Go | [Route53 Resolver Endpoint Hash Function Prevents Multiple IPs per Subnet When IP Address is Auto-Assigned](https://github.com/hashicorp/terraform-provider-aws/issues/43724) | 6 | 2025-08-05 | 2025-08-20 |
 | hashicorp/terraform-provider-aws | Go | [[Bug]: Route 53 Resolver rule resource defines bad defaults for target configuration](https://github.com/hashicorp/terraform-provider-aws/issues/41523) | 6 | 2025-02-23 | 2026-10-15 |
@@ -251,9 +251,9 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/transformers.js | JavaScript | [[Feature request] Return offset mapping using tokenizer](https://github.com/huggingface/transformers.js/issues/425) | 2 | 2023-11-30 | 2024-01-12 |
 | microsoft/react-native-windows-samples | JavaScript | [Codegen Does Not Generate Files for .tsx File Type](https://github.com/microsoft/react-native-windows-samples/issues/976) | 2 | 2024-09-23 | 2025-03-28 |
 | EddieHubCommunity/RepoRater | JavaScript | [[BUG] Update the preview in the readme](https://github.com/EddieHubCommunity/RepoRater/issues/152) | 2 | 2024-08-02 | 2024-09-03 |
-| layer5io/layer5 | JavaScript | [Fix logo/graphic fitting within its container on mobile viewports](https://github.com/layer5io/layer5/issues/8272) | 4 | 2026-10-31 | 2026-10-31 |
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Contributing needs work](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/112) | 4 | 2017-12-02 | 2018-03-24 |
 | freeCodeCamp/100DaysOfCode-twitter-bot | JavaScript | [Welcome bot! Respond to the user when committing to 100DaysOfCode](https://github.com/freeCodeCamp/100DaysOfCode-twitter-bot/issues/96) | 5 | 2017-10-03 | 2026-04-28 |
+| layer5io/layer5 | JavaScript | [Fix logo/graphic fitting within its container on mobile viewports](https://github.com/layer5io/layer5/issues/8272) | 6 | 2026-10-31 | 2026-11-22 |
 | layer5io/docs | JavaScript | [Convert Images into Meshery Design.](https://github.com/layer5io/docs/issues/646) | 6 | 2025-07-10 | 2025-12-25 |
 | layer5io/docs | JavaScript | [Screen capture includes Grammarly](https://github.com/layer5io/docs/issues/543) | 7 | 2025-05-06 | 2026-11-18 |
 | layer5io/layer5 | JavaScript | [[Screenshots] Chaos Mesh under 'How it Works See It in Action' section](https://github.com/layer5io/layer5/issues/4867) | 7 | 2023-09-07 | 2026-03-22 |
@@ -304,7 +304,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/dataset-viewer | Python | [Use `revision_exists` (hfh)](https://github.com/huggingface/dataset-viewer/issues/2562) | 1 | 2024-03-08 | 2025-07-01 |
 | huggingface/nanotron | Python | [[Feature] Refactor `ParallelContext.world_rank_matrix`](https://github.com/huggingface/nanotron/issues/77) | 1 | 2024-02-19 | 2026-08-25 |
 | huggingface/nanotron | Python | [[Feature Request] Add simple communications benchmarks to the repo](https://github.com/huggingface/nanotron/issues/43) | 1 | 2024-01-25 | 2024-01-25 |
-| microsoft/PyRIT | Python | [BUG: remove_seeds_from_memory / remove_seed_groups_from_memory delete the whole dataset when given an empty id or hash list](https://github.com/microsoft/PyRIT/issues/4473) | 1 | 2026-11-20 | 2026-11-21 |
 | microsoft/mssql-django | Python | [JSON-null key lookups use OPENJSON, which requires database compatibility level 130 (fails on down-leveled 2016-2019 databases)](https://github.com/microsoft/mssql-django/issues/592) | 1 | 2026-09-08 | 2026-09-10 |
 | microsoft/mssql-django | Python | [JSONField key isnull=True over-matches JSON null values on SQL Server (also causes wrong iexact=None on Django < 6.1)](https://github.com/microsoft/mssql-django/issues/591) | 1 | 2026-09-08 | 2026-09-08 |
 | microsoft/teams-agent-accelerator-libs-py | Python | [Provide cleaner api for building citations for memories](https://github.com/microsoft/teams-agent-accelerator-libs-py/issues/72) | 1 | 2024-12-19 | 2025-11-17 |
@@ -313,7 +312,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/nanotron | Python | [[Feature] Asyncronous Serialization](https://github.com/huggingface/nanotron/issues/87) | 2 | 2024-03-02 | 2025-02-20 |
 | huggingface/dataset-viewer | Python | [Use "Sign-In with HF" instead of token in admin-UI](https://github.com/huggingface/dataset-viewer/issues/2373) | 2 | 2024-02-01 | 2025-07-03 |
 | huggingface/nanotron | Python | [[Feature Request] Support Data Streaming for faster training of large models](https://github.com/huggingface/nanotron/issues/45) | 2 | 2024-01-26 | 2024-03-03 |
-| microsoft/PyRIT | Python | [FEAT: Add AttaQ dataset loader (1,402 adversarial questions in 7 harm categories)](https://github.com/microsoft/PyRIT/issues/4495) | 2 | 2026-11-21 | 2026-11-21 |
 | microsoft/mssql-django | Python | [[Django 6.1] JSONField key iexact=None lookup returns wrong results on SQL Server](https://github.com/microsoft/mssql-django/issues/574) | 2 | 2026-08-07 | 2026-08-11 |
 | microsoft/vscode-black-formatter | Python | [black is using cached pyproject.toml instead of the actual one](https://github.com/microsoft/vscode-black-formatter/issues/569) | 2 | 2025-04-18 | 2025-04-28 |
 | microsoft/AutoPodcaster | Python | [Add devcontainer](https://github.com/microsoft/AutoPodcaster/issues/9) | 2 | 2025-01-09 | 2026-09-23 |
@@ -344,6 +342,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/data-formulator | Python | [Expand chart type supports](https://github.com/microsoft/data-formulator/issues/193) | 6 | 2025-11-07 | 2025-12-05 |
 | microsoft/markitdown | Python | [File support: chm support](https://github.com/microsoft/markitdown/issues/14) | 7 | 2024-12-13 | 2026-06-10 |
 | microsoft/mssql-django | Python | [Datetime conversion issue with USE_TZ and settings.TIME_ZONE != 'UTC'?](https://github.com/microsoft/mssql-django/issues/371) | 7 | 2024-03-28 | 2026-08-05 |
+| microsoft/TransformerCompression | Python | [How to export entire model?](https://github.com/microsoft/TransformerCompression/issues/114) | 8 | 2024-03-06 | 2026-10-20 |
 | huggingface/diffusers | Python | [Do we have any script covert from hf format to orginal format?](https://github.com/huggingface/diffusers/issues/10076) | 9 | 2024-12-02 | 2026-11-21 |
 | huggingface/lighteval | Python | [[EVAL] Add TUMLU benchmark](https://github.com/huggingface/lighteval/issues/577) | 10 | 2025-02-19 | 2025-05-15 |
 | huggingface/diffusers | Python | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 11 | 2024-06-07 | 2026-09-19 |
@@ -446,6 +445,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/compose-language-service | TypeScript | [Incomplete compose autocomplete](https://github.com/microsoft/compose-language-service/issues/148) | 1 | 2024-08-23 | 2025-03-21 |
 | microsoft/azure-pipelines-terraform | TypeScript | [Implement signature verification of Terraform binaries instead of blindly trusting CDN](https://github.com/microsoft/azure-pipelines-terraform/issues/233) | 1 | 2024-08-13 | 2024-08-21 |
 | microsoft/Game-Control-Puzzle-Event-Administration-Tools | TypeScript | [Setting an HTML content item with no text in it crashes the page](https://github.com/microsoft/Game-Control-Puzzle-Event-Administration-Tools/issues/36) | 1 | 2024-05-16 | 2025-03-01 |
+| microsoft/SandDance | TypeScript | [Restore sand dance session from exported html](https://github.com/microsoft/SandDance/issues/694) | 1 | 2024-02-21 | 2025-12-13 |
 | hashicorp/terraform-cdk | TypeScript | [CLI UX: Nicer output for `cdktf synth` if there are no stacks in an app](https://github.com/hashicorp/terraform-cdk/issues/2793) | 1 | 2023-04-12 | 2023-05-28 |
 | hashicorp/terraform-cdk | TypeScript | [Support `local-exec` `quiet` attribute](https://github.com/hashicorp/terraform-cdk/issues/2702) | 1 | 2023-03-09 | 2023-06-01 |
 | hashicorp/terraform-cdk | TypeScript | [Additional-python-google-resources-examples](https://github.com/hashicorp/terraform-cdk/issues/1211) | 1 | 2021-10-25 | 2023-06-02 |
