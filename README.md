@@ -337,9 +337,9 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/nanotron | Python | [[Feature] Use CUDA event for measuring elasped time](https://github.com/huggingface/nanotron/issues/88) | 5 | 2024-03-02 | 2026-11-17 |
 | huggingface/lighteval | Python | [[FT] showing count in Markdown summary table](https://github.com/huggingface/lighteval/issues/804) | 6 | 2025-06-09 | 2026-11-05 |
 | huggingface/lighteval | Python | [[BUG] custom model docs don't run: missing imports](https://github.com/huggingface/lighteval/issues/760) | 6 | 2025-05-21 | 2026-10-14 |
-| huggingface/lighteval | Python | [[FT] Improve Documentation and Examples](https://github.com/huggingface/lighteval/issues/682) | 6 | 2025-04-21 | 2025-05-15 |
 | huggingface/lighteval | Python | [Append revision to filepath in `--output_dir`?](https://github.com/huggingface/lighteval/issues/56) | 6 | 2024-02-26 | 2026-08-30 |
 | microsoft/data-formulator | Python | [Expand chart type supports](https://github.com/microsoft/data-formulator/issues/193) | 6 | 2025-11-07 | 2025-12-05 |
+| huggingface/lighteval | Python | [[FT] Improve Documentation and Examples](https://github.com/huggingface/lighteval/issues/682) | 7 | 2025-04-21 | 2026-11-23 |
 | microsoft/markitdown | Python | [File support: chm support](https://github.com/microsoft/markitdown/issues/14) | 7 | 2024-12-13 | 2026-06-10 |
 | microsoft/mssql-django | Python | [Datetime conversion issue with USE_TZ and settings.TIME_ZONE != 'UTC'?](https://github.com/microsoft/mssql-django/issues/371) | 7 | 2024-03-28 | 2026-08-05 |
 | microsoft/TransformerCompression | Python | [How to export entire model?](https://github.com/microsoft/TransformerCompression/issues/114) | 8 | 2024-03-06 | 2026-10-20 |
