@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-11-23</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-11-24</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -103,6 +103,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/consul-terraform-sync | Go | [Remove deprecated workspace_prefix in v0.8.0](https://github.com/hashicorp/consul-terraform-sync/issues/648) | 0 | 2022-01-31 | 2022-05-09 |
 | hashicorp/pandora | Go | [go-sdk: generate tests for the Validate ID functions](https://github.com/hashicorp/pandora/issues/462) | 0 | 2021-11-11 | 2021-11-11 |
 | hashicorp/terraform-provider-azurerm | Go | [Support for allow_blob_public_access and min_tls_version on azurerm_storage_account in additional Cloud Environments](https://github.com/hashicorp/terraform-provider-azurerm/issues/14090) | 0 | 2021-11-08 | 2022-03-30 |
+| hashicorp/packer-plugin-docker | Go | [Docker builder documentation is incorrect (fix_upload_owner)](https://github.com/hashicorp/packer-plugin-docker/issues/64) | 0 | 2021-08-04 | 2021-08-18 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Improve layout of `viewcal` command](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/325) | 0 | 2023-08-31 | 2023-08-31 |
 | mattermost/mattermost-plugin-mscalendar | Go | [Review `viewcal` command dates or help text](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/315) | 0 | 2023-08-31 | 2023-08-31 |
 | mattermost/release-bot | Go | [Improve Bot Metrics](https://github.com/mattermost/release-bot/issues/4) | 0 | 2022-09-06 | 2022-09-06 |
@@ -231,7 +232,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/terraform-provider-helm | Go | [the provider continues to reveal sensitive variables during destroy or update in-place](https://github.com/hashicorp/terraform-provider-helm/issues/1287) | 14 | 2023-11-09 | 2025-12-02 |
 | hashicorp/terraform-provider-aws | Go | [[Enhancement]: Support updateToLatestImageVersion in aws_batch_compute_environment.compute_resources](https://github.com/hashicorp/terraform-provider-aws/issues/39978) | 15 | 2024-10-31 | 2025-01-09 |
 | kubernetes/minikube | Go | [Minikube tunnel is not working on Windows (endessly trying to add a route)](https://github.com/kubernetes/minikube/issues/11645) | 17 | 2021-06-13 | 2026-10-12 |
-| hashicorp/terraform-provider-aws | Go | [ Lifecycle configuration for S3 Bucket failing with time out issue for AWS Provider 4.21.0](https://github.com/hashicorp/terraform-provider-aws/issues/25939) | 17 | 2022-07-22 | 2026-09-09 |
 | microsoft/edge-ai | HCL | [docs(testing): add regression test tracking policy](https://github.com/microsoft/edge-ai/issues/176) | 1 | 2026-02-08 | 2026-06-19 |
 | microsoft/edge-ai | HCL | [chore(rust): standardize strip = true across all Rust crates](https://github.com/microsoft/edge-ai/issues/177) | 2 | 2026-02-08 | 2026-04-10 |
 | microsoft/edge-ai | HCL | [docs(testing): update testing-validation.md to reflect actual test frameworks](https://github.com/microsoft/edge-ai/issues/144) | 3 | 2026-02-07 | 2026-09-01 |
