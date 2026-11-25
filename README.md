@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-11-24</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-11-25</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -83,9 +83,9 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/aspire | C# | [AzureProvisioner output saves connection strings to user secrets even if it did nothing](https://github.com/microsoft/aspire/issues/3298) | 9 | 2024-03-30 | 2026-10-07 |
 | microsoft/aspire | C# | [Improve Exception Message for Missing Project Metadata Annotation in ResourceContainerImageBuilder.cs](https://github.com/microsoft/aspire/issues/11299) | 15 | 2025-09-09 | 2026-11-04 |
 | microsoft/snmalloc | C++ | [Implement accurate size storage for Windows `_msize` and `_recalloc`](https://github.com/microsoft/snmalloc/issues/786) | 0 | 2025-07-02 | 2025-07-02 |
-| microsoft/cppgraphqlgen | C++ | [Suggestion:  Clearer schemagen error messages](https://github.com/microsoft/cppgraphqlgen/issues/300) | 0 | 2024-05-28 | 2024-07-18 |
 | microsoft/WindowsAppSDK | C++ | [Provide a machine readable releases.json with EOL dates ](https://github.com/microsoft/WindowsAppSDK/issues/4314) | 0 | 2024-04-08 | 2025-06-17 |
 | microsoft/qdk-chemistry | C++ | [Validate RDM and orbital entropy sizes in wavefunction containers](https://github.com/microsoft/qdk-chemistry/issues/816) | 1 | 2026-11-19 | 2026-11-20 |
+| microsoft/cppgraphqlgen | C++ | [Suggestion:  Clearer schemagen error messages](https://github.com/microsoft/cppgraphqlgen/issues/300) | 1 | 2024-05-28 | 2026-11-24 |
 | microsoft/T-MAC | C++ | [8gen3 T-MAC cpu performance issue](https://github.com/microsoft/T-MAC/issues/32) | 9 | 2024-08-29 | 2024-09-03 |
 | microsoft/terminal | C++ | [Mica Alt](https://github.com/microsoft/terminal/issues/17650) | 31 | 2024-08-02 | 2026-11-02 |
 | godotengine/emacs-gdscript-mode | Emacs Lisp | [Rewrite gdscript-imenu to provide GDScript-specific tables](https://github.com/godotengine/emacs-gdscript-mode/issues/89) | 0 | 2020-09-08 | 2020-09-08 |
@@ -134,7 +134,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/packer-plugin-sdk | Go | [Implement DownloadDir for chroot](https://github.com/hashicorp/packer-plugin-sdk/issues/89) | 1 | 2021-11-12 | 2021-11-17 |
 | hashicorp/terraform-provider-azurerm | Go | [Product Description Mandatory Field in azurerm_api_management_product](https://github.com/hashicorp/terraform-provider-azurerm/issues/13856) | 1 | 2021-10-22 | 2023-07-19 |
 | hashicorp/waypoint | Go | [deploy with docker from private registry does not honor docker config](https://github.com/hashicorp/waypoint/issues/2243) | 1 | 2021-09-07 | 2021-09-08 |
-| mattermost/mattermost-plugin-mscalendar | Go | [Change Azure URL?](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/240) | 1 | 2022-09-20 | 2024-11-01 |
+| mattermost/mattermost-plugin-mscalendar | Go | [Change Azure URL?](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/240) | 1 | 2022-09-20 | 2026-11-24 |
 | mattermost/mattermost-plugin-wrangler | Go | [Wrangling a post does not bring followers over to the new thread](https://github.com/mattermost/mattermost-plugin-wrangler/issues/135) | 1 | 2022-07-05 | 2024-11-22 |
 | mattermost/mattermost-plugin-nps | Go | [Use SiteURL for all calls from the webapp](https://github.com/mattermost/mattermost-plugin-nps/issues/70) | 1 | 2020-07-21 | 2021-10-02 |
 | mattermost/mattermost-plugin-github | Go | [Use custom post type to display TODO list](https://github.com/mattermost/mattermost-plugin-github/issues/86) | 1 | 2019-06-04 | 2021-10-02 |
@@ -454,6 +454,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | mattermost/mattermost-test-management | TypeScript | [Display Errors and Files name in which they occurr](https://github.com/mattermost/mattermost-test-management/issues/20) | 1 | 2022-11-23 | 2022-11-24 |
 | mattermost/mattermost-plugin-google-calendar | TypeScript | [Improve error handling in `completeCalendar` to avoid panic](https://github.com/mattermost/mattermost-plugin-google-calendar/issues/8) | 1 | 2020-04-23 | 2021-10-02 |
 | freeCodeCamp/chapter | TypeScript | [Updating Different Users section in contribution guide](https://github.com/freeCodeCamp/chapter/issues/1914) | 1 | 2022-11-17 | 2022-11-20 |
+| cncf/techdocs | TypeScript | [[Analytics] Document alternative analytics platforms available to projects, and offer guidelines](https://github.com/cncf/techdocs/issues/283) | 1 | 2024-12-16 | 2026-11-24 |
 | decentraland/builder | TypeScript | [Add a search bar to NAMEs list](https://github.com/decentraland/builder/issues/3330) | 1 | 2025-12-26 | 2025-12-27 |
 | decentraland/auth | TypeScript | [Migrate getAnalytics to useAnalytics Hook](https://github.com/decentraland/auth/issues/198) | 1 | 2025-10-02 | 2026-09-16 |
 | decentraland/marketplace | TypeScript | [Capitalize land filter words](https://github.com/decentraland/marketplace/issues/1395) | 1 | 2023-02-07 | 2023-05-23 |
@@ -473,6 +474,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/Agent365-nodejs | TypeScript | [Convert "test-agents" into E2E tests](https://github.com/microsoft/Agent365-nodejs/issues/15) | 2 | 2025-10-29 | 2026-11-10 |
 | microsoft/vscode-python-debugger | TypeScript | [Add a `debugpy.sh` for the no-config debugging](https://github.com/microsoft/vscode-python-debugger/issues/651) | 2 | 2025-03-05 | 2026-11-17 |
 | hashicorp/terraform-cdk | TypeScript | [Typo in Tokenizer code?](https://github.com/hashicorp/terraform-cdk/issues/2709) | 2 | 2023-03-09 | 2023-06-02 |
+| cncf/techdocs | TypeScript | [GDPR](https://github.com/cncf/techdocs/issues/134) | 2 | 2022-08-19 | 2026-11-24 |
 | decentraland/marketplace | TypeScript | [It's hard to detect when the kebab menu of the ListCard is clickable](https://github.com/decentraland/marketplace/issues/1866) | 2 | 2023-06-22 | 2023-07-31 |
 | decentraland/marketplace | TypeScript | [Show full name when hovering over Lands and Wearables](https://github.com/decentraland/marketplace/issues/590) | 2 | 2022-02-07 | 2024-08-23 |
 | huggingface/chat-ui | TypeScript | [Load past conversations using the most recent leaf to determine the visible conversation tree.](https://github.com/huggingface/chat-ui/issues/1208) | 3 | 2024-05-28 | 2024-07-06 |
@@ -485,9 +487,12 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | huggingface/chat-ui | TypeScript | [Chrome app icon on macOS](https://github.com/huggingface/chat-ui/issues/1439) | 4 | 2024-08-27 | 2026-05-07 |
 | hashicorp/terraform-cdk | TypeScript | [Rename the help file when running `cdk init` to markdown and/or have a .txt extension to the help file](https://github.com/hashicorp/terraform-cdk/issues/1315) | 4 | 2021-11-17 | 2023-06-02 |
 | freeCodeCamp/chapter | TypeScript | [Consolidate email templates](https://github.com/freeCodeCamp/chapter/issues/2071) | 4 | 2022-12-08 | 2023-04-30 |
+| cncf/techdocs | TypeScript | [Record account owners for websites: Google analytics & CSE, Netlify, DNS](https://github.com/cncf/techdocs/issues/110) | 4 | 2022-05-23 | 2026-11-24 |
 | huggingface/chat-ui | TypeScript | [System prompt not taken into account when web browsing.](https://github.com/huggingface/chat-ui/issues/1159) | 5 | 2024-05-22 | 2026-10-22 |
 | cncf/techdocs | TypeScript | [Complete gRPC.io domain ownership transfer to LF](https://github.com/cncf/techdocs/issues/151) | 5 | 2022-11-01 | 2026-11-18 |
 | microsoft/teams.ts | TypeScript | [Automatically parse feedback value](https://github.com/microsoft/teams.ts/issues/184) | 7 | 2025-04-26 | 2026-05-15 |
+| layer5io/sistent | TypeScript | [[Docs] update readme to include instructions to use npm link](https://github.com/layer5io/sistent/issues/999) | 9 | 2025-04-15 | 2026-11-24 |
+| layer5io/sistent | TypeScript | [[Feature] Add Support for Table Variants](https://github.com/layer5io/sistent/issues/992) | 14 | 2025-04-06 | 2026-11-24 |
 | microsoft/vscode-python-debugger | TypeScript | [Unable to debug tests: Invalid message: Found duplicate in "env": PATH](https://github.com/microsoft/vscode-python-debugger/issues/261) | 16 | 2024-03-12 | 2026-11-10 |
 | freeCodeCamp/chapter | TypeScript | [Good first issues](https://github.com/freeCodeCamp/chapter/issues/691) | 18 | 2021-08-18 | 2025-09-25 |
-| mattermost/mattermost | TypeScript | [Increase max height of the Find Channels modal](https://github.com/mattermost/mattermost/issues/21558) | 24 | 2022-10-31 | 2026-09-25 |
+| mattermost/mattermost | TypeScript | [Increase max height of the Find Channels modal](https://github.com/mattermost/mattermost/issues/21558) | 25 | 2022-10-31 | 2026-11-25 |
