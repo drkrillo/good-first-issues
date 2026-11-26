@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-11-25</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-11-26</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -384,7 +384,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | decentraland/catalyst-client | TypeScript | [Add missing endpoints to Lambdas Client (review the other clients) to keep it up to date](https://github.com/decentraland/catalyst-client/issues/479) | 0 | 2025-09-24 | 2025-09-24 |
 | decentraland/ui2 | TypeScript | [UI issues in notifications](https://github.com/decentraland/ui2/issues/281) | 0 | 2025-09-19 | 2025-09-19 |
 | decentraland/jump-site | TypeScript | [[Jump Site] - Fix the thumbnails for the scenes and events are not correctly scaled.](https://github.com/decentraland/jump-site/issues/53) | 0 | 2025-07-03 | 2026-03-13 |
-| decentraland/creator-hub | TypeScript | [Separate search results by category](https://github.com/decentraland/creator-hub/issues/430) | 0 | 2025-02-06 | 2025-09-03 |
 | decentraland/creator-hub | TypeScript | [Publish status/history improvements](https://github.com/decentraland/creator-hub/issues/338) | 0 | 2024-12-13 | 2024-12-13 |
 | decentraland/creator-hub | TypeScript | [Field width wide as longest option, not current value](https://github.com/decentraland/creator-hub/issues/200) | 0 | 2024-04-29 | 2026-03-16 |
 | decentraland/builder | TypeScript | [Item badges have broken styles in the Third Party Collections detail page](https://github.com/decentraland/builder/issues/2733) | 0 | 2023-07-10 | 2023-07-10 |
