@@ -60,7 +60,7 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 
 ---
 
-## Good First Issues <sub><sub>Last run: 2026-11-27</sub></sub>
+## Good First Issues <sub><sub>Last run: 2026-11-28</sub></sub>
 
 | Repo | Language | Title | Comments | Created | Updated |
 |---|---|---|---|---|---|
@@ -133,7 +133,6 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | hashicorp/packer-plugin-sdk | Go | [Implement DownloadDir for chroot](https://github.com/hashicorp/packer-plugin-sdk/issues/89) | 1 | 2021-11-12 | 2021-11-17 |
 | hashicorp/terraform-provider-azurerm | Go | [Product Description Mandatory Field in azurerm_api_management_product](https://github.com/hashicorp/terraform-provider-azurerm/issues/13856) | 1 | 2021-10-22 | 2023-07-19 |
 | hashicorp/waypoint | Go | [deploy with docker from private registry does not honor docker config](https://github.com/hashicorp/waypoint/issues/2243) | 1 | 2021-09-07 | 2021-09-08 |
-| mattermost/mattermost-plugin-mscalendar | Go | [Change Azure URL?](https://github.com/mattermost/mattermost-plugin-mscalendar/issues/240) | 1 | 2022-09-20 | 2026-11-24 |
 | mattermost/mattermost-plugin-wrangler | Go | [Wrangling a post does not bring followers over to the new thread](https://github.com/mattermost/mattermost-plugin-wrangler/issues/135) | 1 | 2022-07-05 | 2024-11-22 |
 | mattermost/mattermost-plugin-nps | Go | [Use SiteURL for all calls from the webapp](https://github.com/mattermost/mattermost-plugin-nps/issues/70) | 1 | 2020-07-21 | 2021-10-02 |
 | mattermost/mattermost-plugin-github | Go | [Use custom post type to display TODO list](https://github.com/mattermost/mattermost-plugin-github/issues/86) | 1 | 2019-06-04 | 2021-10-02 |
