@@ -342,11 +342,9 @@ Did the repo helped you finding an issue? learning something? Consider giving it
 | microsoft/markitdown | Python | [File support: chm support](https://github.com/microsoft/markitdown/issues/14) | 7 | 2024-12-13 | 2026-06-10 |
 | microsoft/mssql-django | Python | [Datetime conversion issue with USE_TZ and settings.TIME_ZONE != 'UTC'?](https://github.com/microsoft/mssql-django/issues/371) | 7 | 2024-03-28 | 2026-08-05 |
 | microsoft/TransformerCompression | Python | [How to export entire model?](https://github.com/microsoft/TransformerCompression/issues/114) | 8 | 2024-03-06 | 2026-10-20 |
-| huggingface/diffusers | Python | [Do we have any script covert from hf format to orginal format?](https://github.com/huggingface/diffusers/issues/10076) | 9 | 2024-12-02 | 2026-11-21 |
 | huggingface/lighteval | Python | [[EVAL] Add TUMLU benchmark](https://github.com/huggingface/lighteval/issues/577) | 10 | 2025-02-19 | 2025-05-15 |
 | huggingface/diffusers | Python | [Support multiple control nets in the `StableDiffusionControlNetXSPipeline`/`StableDiffusionXLControlNetXSPipeline`](https://github.com/huggingface/diffusers/issues/8434) | 11 | 2024-06-07 | 2026-09-19 |
 | microsoft/markitdown | Python | [Support for .doc extensions](https://github.com/microsoft/markitdown/issues/23) | 15 | 2024-12-14 | 2026-10-16 |
-| huggingface/diffusers | Python | [[Flux ControlNet] Add support for de-distilled models with CFG](https://github.com/huggingface/diffusers/issues/9635) | 16 | 2024-10-10 | 2026-10-23 |
 | huggingface/diffusers | Python | [[Pipeline] AnimateDiff + SparseControl + ControlNet](https://github.com/huggingface/diffusers/issues/9329) | 17 | 2024-08-30 | 2026-09-09 |
 | microsoft/markitdown | Python | [LLM Integration](https://github.com/microsoft/markitdown/issues/12) | 17 | 2024-12-13 | 2026-06-08 |
 | microsoft/data-formulator | Python | [Create new data loaders to different resources](https://github.com/microsoft/data-formulator/issues/156) | 18 | 2025-05-13 | 2026-11-12 |
